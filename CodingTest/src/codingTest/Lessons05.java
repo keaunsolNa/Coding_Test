@@ -1,12 +1,12 @@
 package codingTest;
 
 
-public class Lessons5 {
+public class Lessons05 {
 
 	public static void main(String[] args) {
 		
-		Lessons5 lessons5 = new Lessons5();
-		boolean answer = lessons5.solution("1234");
+		Lessons05 lessons05 = new Lessons05();
+		boolean answer = lessons05.solution("1234");
 		
 		System.out.println(answer);
 	}

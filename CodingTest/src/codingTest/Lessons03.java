@@ -4,16 +4,16 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-class Lessons3 {
+class Lessons03 {
 	
 	public static void main(String[] args) {
 		
-		Lessons3 lessons3 = new Lessons3();
+		Lessons03 lessons03 = new Lessons03();
 		
 		String[] id_list = {"muzi", "frodo", "apeach", "neo"};
 		String[] report = {"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"};
 		int k = 2;
-		lessons3.solution(id_list, report, k);
+		lessons03.solution(id_list, report, k);
 		
 	}
 	

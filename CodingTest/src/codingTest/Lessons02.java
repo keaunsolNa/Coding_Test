@@ -1,6 +1,6 @@
 package codingTest;
 
-public class Lessons2 {
+public class Lessons02 {
 
 	class Solution {
 	    public int[] solution(int[] lottos, int[] win_nums) {

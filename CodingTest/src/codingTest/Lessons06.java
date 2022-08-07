@@ -2,13 +2,13 @@ package codingTest;
 
 import java.util.Arrays;
 
-public class Lessons6 {
+public class Lessons06 {
 
 	public static void main(String[] args) {
 		
-		Lessons6 lessons5 = new Lessons6();
+		Lessons06 lessons06 = new Lessons06();
 		String s = "Zbzcdefg";
-		String answer = lessons5.solution(s);
+		String answer = lessons06.solution(s);
 		System.out.println(answer);
 	}
 	

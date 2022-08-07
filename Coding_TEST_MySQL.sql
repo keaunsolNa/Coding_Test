@@ -1,3 +1,61 @@
+-- 모든 레코드 조회하기
+SELECT
+       ANIMAL_ID
+     , ANIMAL_TYPE
+     , DATETIME
+     , INTAKE_CONDITION
+     , NAME
+     , SEX_UPON_INTAKE
+  FROM ANIMAL_INS 
+ ORDER BY ANIMAL_ID;
+ 
+-- 역순 정렬하기
+SELECT
+       NAME
+     , DATETIME
+  FROM ANIMAL_INS
+ ORDER BY ANIMAL_ID DESC;
+ 
+-- 아픈 동물 찾기
+SELECT
+       ANIMAL_ID
+     , NAME  
+  FROM ANIMAL_INS     
+ WHERE INTAKE_CONDITION = 'SICK';
+ 
+-- 어린 동물 찾기
+SELECT
+       ANIMAL_ID
+     , NAME  
+  FROM ANIMAL_INS
+ WHERE INTAKE_CONDITION != 'Aged'
+ ORDER BY ANIMAL_ID;
+ 
+-- 동물의 아이디와 이름
+SELECT
+       ANIMAL_ID
+     , NAME  
+  FROM ANIMAL_INS
+ ORDER BY ANIMAL_ID;
+
+-- 여러 기준으로 정렬하기
+SELECT
+       ANIMAL_ID
+     , NAME
+     , DATETIME
+  FROM ANIMAL_INS
+ ORDER BY NAME ASC, DATETIME DESC;
+ 
+-- 상위 n개 레코드
+SELECT
+       NAME
+  FROM ANIMAL_INS
+ WHERE DATETIME <= ALL (
+                        SELECT
+                               DATETIME
+                          FROM ANIMAL_INS
+                         ORDER BY DATETIME);
+
 -- 최대값 구하기
 SELECT MAX(DATETIME) FROM ANIMAL_INS;
 
@@ -53,3 +111,26 @@ WITH RECURSIVE TIME AS (
      GROUP BY DATE_FORMAT(DATETIME, '%H') ) B
     ON A.HOUR = B.HOUR
  ORDER BY A.HOUR ;
+ 
+-- 이름이 없는 동물의 아이디
+SELECT 
+       ANIMAL_ID
+  FROM ANIMAL_INS     
+ WHERE NAME IS NULL 
+ ORDER BY 1; 
+  
+-- 이름이 있는 동물의 아이디
+SELECT 
+       ANIMAL_ID
+  FROM ANIMAL_INS     
+ WHERE NAME IS NOT NULL 
+ ORDER BY 1; 
+ 
+-- NULL 처리하기
+SELECT
+      ANIMAL_TYPE
+    , IFNULL(NAME, 'No name')
+    , SEX_UPON_INTAKE  
+ FROM ANIMAL_INS
+ORDER BY ANIMAL_ID;
+

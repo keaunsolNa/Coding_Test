@@ -5,16 +5,16 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-class Lessons4 {
+class Lessons04 {
 	
 	public static void main(String[] args) {
 	
-		Lessons4 lessons4 = new Lessons4();
+		Lessons04 lessons04 = new Lessons04();
 		
 		String[] participant = {"mislav", "stanko", "mislav", "ana", "asdasd", "qweqwe", "cvxckvmkasd"};
 		String[] completion = {"stanko", "ana", "mislav", "asdasd", "qweqwe", "cvxckvmkasd"};
 		
-		String answer = lessons4.solution(participant, completion);
+		String answer = lessons04.solution(participant, completion);
 		
 		System.out.println(answer);
 		
