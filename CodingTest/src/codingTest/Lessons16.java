@@ -1,9 +1,8 @@
 package codingTest;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.Collection;
 import java.util.List;
-import java.util.TreeSet;
 
 public class Lessons16 {
 
@@ -14,46 +13,38 @@ public class Lessons16 {
 		int[] answer = lessons16.solution(arr);
 		
 		for (int i : answer) {
-			System.out.println(i);
+			System.out.println("ANSWER : " + i);
 		}
 	}
 
     public int[] solution(int []arr) {
        
-//    	¹è¿­ arr°¡ ÁÖ¾îÁı´Ï´Ù. ¹è¿­ arrÀÇ °¢ ¿ø¼Ò´Â ¼ıÀÚ 0ºÎÅÍ 9±îÁö·Î ÀÌ·ç¾îÁ® ÀÖ½À´Ï´Ù. 
-//    	ÀÌ¶§, ¹è¿­ arr¿¡¼­ ¿¬¼ÓÀûÀ¸·Î ³ªÅ¸³ª´Â ¼ıÀÚ´Â ÇÏ³ª¸¸ ³²±â°í ÀüºÎ Á¦°ÅÇÏ·Á°í ÇÕ´Ï´Ù. 
-//    	´Ü, Á¦°ÅµÈ ÈÄ ³²Àº ¼öµéÀ» ¹İÈ¯ÇÒ ¶§´Â ¹è¿­ arrÀÇ ¿ø¼ÒµéÀÇ ¼ø¼­¸¦ À¯ÁöÇØ¾ß ÇÕ´Ï´Ù. ¿¹¸¦ µé¸é,
+//    	ë°°ì—´ arrê°€ ì£¼ì–´ì§‘ë‹ˆë‹¤. ë°°ì—´ arrì˜ ê° ì›ì†ŒëŠ” ìˆ«ì 0ë¶€í„° 9ê¹Œì§€ë¡œ ì´ë£¨ì–´ì ¸ ìˆìŠµë‹ˆë‹¤. ì´ë•Œ, ë°°ì—´ arrì—ì„œ ì—°ì†ì ìœ¼ë¡œ ë‚˜íƒ€ë‚˜ëŠ” ìˆ«ìëŠ” í•˜ë‚˜ë§Œ ë‚¨ê¸°ê³  ì „ë¶€ ì œê±°í•˜ë ¤ê³  í•©ë‹ˆë‹¤. ë‹¨, ì œê±°ëœ í›„ ë‚¨ì€ ìˆ˜ë“¤ì„ ë°˜í™˜í•  ë•ŒëŠ” ë°°ì—´ arrì˜ ì›ì†Œë“¤ì˜ ìˆœì„œë¥¼ ìœ ì§€í•´ì•¼ í•©ë‹ˆë‹¤. ì˜ˆë¥¼ ë“¤ë©´,
 //
-//    	arr = [1, 1, 3, 3, 0, 1, 1] ÀÌ¸é [1, 3, 0, 1] À» return ÇÕ´Ï´Ù.
-//    	arr = [4, 4, 4, 3, 3] ÀÌ¸é [4, 3] À» return ÇÕ´Ï´Ù.
-//    	¹è¿­ arr¿¡¼­ ¿¬¼ÓÀûÀ¸·Î ³ªÅ¸³ª´Â ¼ıÀÚ´Â Á¦°ÅÇÏ°í ³²Àº ¼öµéÀ» return ÇÏ´Â solution ÇÔ¼ö¸¦ ¿Ï¼ºÇØ ÁÖ¼¼¿ä.
-  	
-    	
-        List<Integer> arrayOfNumbers = new ArrayList<>();
-        
-        for (Integer integer : arr) {
-			arrayOfNumbers.add(integer);
-		}
-        System.out.println("BEFORE : " + arrayOfNumbers);
-        
-        Iterator<Integer> iter=arrayOfNumbers.iterator();
+//    	arr = [1, 1, 3, 3, 0, 1, 1] ì´ë©´ [1, 3, 0, 1] ì„ return í•©ë‹ˆë‹¤.
+//    	arr = [4, 4, 4, 3, 3] ì´ë©´ [4, 3] ì„ return í•©ë‹ˆë‹¤.
+//    	ë°°ì—´ arrì—ì„œ ì—°ì†ì ìœ¼ë¡œ ë‚˜íƒ€ë‚˜ëŠ” ìˆ«ìëŠ” ì œê±°í•˜ê³  ë‚¨ì€ ìˆ˜ë“¤ì„ return í•˜ëŠ” solution í•¨ìˆ˜ë¥¼ ì™„ì„±í•´ ì£¼ì„¸ìš”.
 
-        
-        
-        for(int i = 1; i < arrayOfNumbers.size(); i++) {
-        	if(arrayOfNumbers.get(i) == arrayOfNumbers.get(i -1)) {
-        		System.out.println("Á¦°Å ¹®ÀÚ¿­ : " + arrayOfNumbers.get(i) + " ÀÎµ¦½º : " + i);
-        		arrayOfNumbers.remove(i);
-        	}
-        }
-        
-        System.out.println("RESULT : " + arrayOfNumbers);
-        
-        int[] answer = arrayOfNumbers.stream()
-                .filter(i -> i != null)
-                .mapToInt(i -> i)
-                .toArray();
-        		
+    	int[] answer = {};	
+    	List<Integer> arrayList = new ArrayList<>();
+
+    	int i = -1;
+    	
+    	for(int j = 0; j < arr.length; j++) {
+    		if(arr[j] != i) {
+    			arrayList.add(arr[j]);
+    			i = arr[j];
+    		}
+    	}
+    	
+    	System.out.println(arrayList);
+    	
+    	answer = new int[arrayList.size()];
+    	
+    	for(int j = 0; j < arrayList.size(); j++) {
+    		answer[j] = arrayList.get(j);
+    	}
+    	
         return answer;
     }
 }

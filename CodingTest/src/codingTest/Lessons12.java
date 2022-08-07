@@ -22,9 +22,9 @@ public class Lessons12 {
 	
     public int[] solution(int[] numbers) {
     	
-//    	Á¤¼ö ¹è¿­ numbers°¡ ÁÖ¾îÁı´Ï´Ù. 
-//    	numbers¿¡¼­ ¼­·Î ´Ù¸¥ ÀÎµ¦½º¿¡ ÀÖ´Â µÎ °³ÀÇ ¼ö¸¦ »Ì¾Æ ´õÇØ¼­ ¸¸µé ¼ö ÀÖ´Â ¸ğµç ¼ö¸¦ 
-//    	¹è¿­¿¡ ¿À¸§Â÷¼øÀ¸·Î ´ã¾Æ return ÇÏµµ·Ï solution ÇÔ¼ö¸¦ ¿Ï¼ºÇØÁÖ¼¼¿ä.
+//    	ì •ìˆ˜ ë°°ì—´ numbersê°€ ì£¼ì–´ì§‘ë‹ˆë‹¤. 
+//    	numbersì—ì„œ ì„œë¡œ ë‹¤ë¥¸ ì¸ë±ìŠ¤ì— ìˆëŠ” ë‘ ê°œì˜ ìˆ˜ë¥¼ ë½‘ì•„ ë”í•´ì„œ ë§Œë“¤ ìˆ˜ ìˆëŠ” ëª¨ë“  ìˆ˜ë¥¼ 
+//    	ë°°ì—´ì— ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ë‹´ì•„ return í•˜ë„ë¡ solution í•¨ìˆ˜ë¥¼ ì™„ì„±í•´ì£¼ì„¸ìš”.
     	
     	List<Integer> arrayOfNumbers = new ArrayList<>();
     	HashSet<Integer> totalArray = new HashSet<>();
