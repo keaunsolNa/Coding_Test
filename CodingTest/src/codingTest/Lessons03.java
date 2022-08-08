@@ -2,7 +2,6 @@ package codingTest;
 
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 
 class Lessons03 {
 	
@@ -22,8 +21,8 @@ class Lessons03 {
 		    int[] answer = {};
 		    answer = new int[id_list.length];
 		        
-			Map<String, HashSet<String>> reportedMap = new HashMap<>(); 
-			Map<String, Integer> answerMap = new HashMap<>(); 
+		    HashMap<String, HashSet<String>> reportedMap = new HashMap<>();
+			HashMap<String, Integer> answerMap = new HashMap<>(); 
 
 			for (int i = 0; i < id_list.length; i++) {
 	            
