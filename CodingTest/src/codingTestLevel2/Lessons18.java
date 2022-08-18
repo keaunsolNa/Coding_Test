@@ -12,12 +12,12 @@ public class Lessons18 {
 	
 	public static void main(String[] args) {
 
-		Lessons18 lessons17 = new Lessons18();
+		Lessons18 lessons18 = new Lessons18();
 		
 		String[] info = {"java backend junior pizza 150","python frontend senior chicken 210","python frontend senior chicken 150","cpp backend senior pizza 260","java backend junior chicken 80","python backend senior chicken 50"};
 		String[] query = {"java and backend and junior and pizza 100","python and frontend and senior and chicken 200","cpp and - and senior and pizza 250","- and backend and senior and - 150","- and - and - and chicken 100","- and - and - and - 150"};
 
-		int[] answer = lessons17.solution(info, query);
+		int[] answer = lessons18.solution(info, query);
 
 		for (int i : answer) {
 			System.out.println("answer : " + i);
