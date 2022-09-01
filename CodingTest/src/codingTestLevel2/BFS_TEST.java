@@ -46,13 +46,13 @@ public class BFS_TEST {
     while (queue.size() != 0) {
       // 방문한 노드를 큐에서 추출(dequeue)하고 값을 출력
       s = queue.poll();
-      System.out.print(s + " ");
-      System.out.println("??");
+      System.out.println(s + "추출");
       // 방문한 노드와 인접한 모든 노드를 가져온다.
       Iterator<Integer> i = adj[s].listIterator();
       while (i.hasNext()) {
         int n = i.next();
         // 방문하지 않은 노드면 방문한 것으로 표시하고 큐에 삽입(enqueue)
+        System.out.println(n + "방문 노드");
         if (!visited[n]) {
           visited[n] = true;
           queue.add(n);

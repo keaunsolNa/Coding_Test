@@ -161,6 +161,6 @@ public class BFS_TEST2 {
 		g.addEdge(5, 6);
 		g.addEdge(5, 7);
 		g.addEdge(6, 8);
-		g.dfs();
+		g.bfs(0);
 	}
 }
