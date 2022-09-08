@@ -20,6 +20,7 @@ public class Lessons45 {
 	
 	List<String> citiesList = new LinkedList<>();
 	public int solution(int cacheSize, String[] cities) {
+
 		
 //		지도개발팀에서 근무하는 제이지는 지도에서 도시 이름을 검색하면 해당 도시와 관련된 맛집 게시물들을 데이터베이스에서 읽어 보여주는 서비스를 개발하고 있다.
 //		이 프로그램의 테스팅 업무를 담당하고 있는 어피치는 서비스를 오픈하기 전 각 로직에 대한 성능 측정을 수행하였는데, 
