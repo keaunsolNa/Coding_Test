@@ -4,12 +4,12 @@ public class Lessons49 {
 	
 	public static void main(String[] args) {
 
-		Lessons49 lessons48 = new Lessons49();
+		Lessons49 lessons49 = new Lessons49();
 
 		int k = 40;
 		int[][] dungeons = {{20,20},{10,10},{10,10},{10,10}};
 		
-		int answer = lessons48.solution(k, dungeons);
+		int answer = lessons49.solution(k, dungeons);
 
 		System.out.println(answer);
 		
