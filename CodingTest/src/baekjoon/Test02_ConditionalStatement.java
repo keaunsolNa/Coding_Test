@@ -4,16 +4,7 @@ import java.util.Scanner;
 
 public class Test02_ConditionalStatement {
 
-	public static void main(String[] args) {
-		
-		test01();
-		test02();
-		test03();
-		test04();
-		test05();
-		test06();
-		test07();
-	}
+	// 두 수 비교하기
 	public static void test01(){
 		Scanner sc = new Scanner(System.in);
 		int a, b;
@@ -28,6 +19,7 @@ public class Test02_ConditionalStatement {
         }
 	}
 	
+	// 시험 성적
 	public static void test02(){
 		Scanner sc = new Scanner(System.in);
 		int a;
@@ -45,6 +37,7 @@ public class Test02_ConditionalStatement {
         }
 	}
 	
+	// 윤년
 	public static void test03(){
 		Scanner sc = new Scanner(System.in);
 		int a;
@@ -57,8 +50,8 @@ public class Test02_ConditionalStatement {
         	System.out.println(0);
         }
 	}
-	
-	
+
+	// 사분면 고리기
 	public static void test04(){
 		Scanner sc = new Scanner(System.in);
 		int a, b;
@@ -76,6 +69,7 @@ public class Test02_ConditionalStatement {
         } 
 	}
 	
+	// 알람 시계
 	public static void test05(){
 		Scanner sc = new Scanner(System.in);
 		int a, b;
@@ -93,6 +87,7 @@ public class Test02_ConditionalStatement {
 		}
 	}
 	
+	// 오븐 시계
 	public static void test06(){
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
@@ -111,6 +106,7 @@ public class Test02_ConditionalStatement {
 		
 	}
 	
+	// 주사위 세개
 	public static void test07(){
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();

@@ -8,24 +8,7 @@ import java.util.StringTokenizer;
 
 public class Test03_Iteration {
 
-	public static void main(String[] args) throws IOException {
-		
-//		test01();
-//		test02();
-//		test03();
-//		test04();
-//		test05();
-//		test06();
-//		test07();
-//		test08();
-//		test09();
-//		test10();
-//		test11();
-//		test12();
-		test13();
-		
-	}
-	
+	// 구구단
 	public static void test01(){
 		Scanner sc = new Scanner(System.in);
 		int a;
@@ -36,6 +19,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// A + B -3
 	public static void test02(){
 		Scanner sc = new Scanner(System.in);
 		int a;
@@ -46,6 +30,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// 합
 	public static void test03(){
 		Scanner sc = new Scanner(System.in);
 		int a;
@@ -59,6 +44,7 @@ public class Test03_Iteration {
 		System.out.println(result);
 	}
 	
+	// 영수증
 	public static void test04(){
 		Scanner sc = new Scanner(System.in);
 		int totalCount, amount;
@@ -76,6 +62,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// 빠른 A + B
 	public static void test05() throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -95,6 +82,7 @@ public class Test03_Iteration {
 		System.out.println(sb.toString());
 	}
 	
+	// A+B - 7
 	public static void test06(){
 		Scanner sc = new Scanner(System.in);
 		int a;
@@ -105,6 +93,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// A+B - 8
 	public static void test07(){
 		Scanner sc = new Scanner(System.in);
 		int a;
@@ -117,6 +106,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// 별 찍기 - 1
 	public static void test08(){
 		Scanner sc = new Scanner(System.in);
 		int a;
@@ -130,6 +120,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// 별 찍기 - 2
 	public static void test09(){
 		Scanner sc = new Scanner(System.in);
 		int a;
@@ -147,6 +138,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// X보다 작은 수
 	public static void test10(){
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
@@ -160,6 +152,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// A+B - 5
 	public static void test11(){
 		Scanner sc = new Scanner(System.in);
 		int a = 1;
@@ -175,6 +168,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// A+B - 4
 	public static void test12() {
 		
 		Scanner sc = new Scanner(System.in);
@@ -186,6 +180,7 @@ public class Test03_Iteration {
 		}
 	}
 	
+	// 더하기 사이클
 	public static void test13() {
 		
 		Scanner sc = new Scanner(System.in);
@@ -225,11 +220,3 @@ public class Test03_Iteration {
 	}
 }
 
-
-//import java.util.Scanner;
-//
-//public class Main{
-//    public static void main(String args[]){
-//        Scanner sc = new Scanner(System.in);
-//    }
-//}

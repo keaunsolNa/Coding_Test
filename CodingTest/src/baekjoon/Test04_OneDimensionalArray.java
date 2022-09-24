@@ -10,17 +10,8 @@ import java.util.Set;
 import java.util.StringTokenizer;
 
 public class Test04_OneDimensionalArray {
-	public static void main(String[] args) throws NumberFormatException, IOException {
-		
-		test01();
-		test02();
-		test03();
-		test04();
-		test05();
-		test06();
-		
-	}
 	
+	// 최소, 최대
 	public static void test01(){
 		Scanner sc = new Scanner(System.in);
 		int arrLength = sc.nextInt();
@@ -36,6 +27,7 @@ public class Test04_OneDimensionalArray {
 		
 	}
 	
+	// 최댓값
 	public static void test02() throws NumberFormatException, IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
@@ -60,6 +52,7 @@ public class Test04_OneDimensionalArray {
 		System.out.println(index + 1);
 	}
 	
+	// 나머지
 	public static void test03() throws NumberFormatException, IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
@@ -75,6 +68,7 @@ public class Test04_OneDimensionalArray {
 		System.out.println(arrSet.size());
 	}
 	
+	// 평균
 	public static void test04()  {
 		Scanner sc = new Scanner(System.in);
 		int length = sc.nextInt();
@@ -98,6 +92,7 @@ public class Test04_OneDimensionalArray {
 		
 	}
 	
+	// OX 퀴즈
 	public static void test05()  {
 		Scanner sc = new Scanner(System.in);
 		int length = sc.nextInt();
@@ -127,6 +122,7 @@ public class Test04_OneDimensionalArray {
 		}
 	}
 	
+	// 평균은 넘겠지
 	public static void test06()  {
 		Scanner sc = new Scanner(System.in);
 		int testCase = sc.nextInt();
@@ -163,10 +159,3 @@ public class Test04_OneDimensionalArray {
 	
 }
 
-//import java.util.Scanner;
-//
-//public class Main{
-//  public static void main(String args[]){
-//      Scanner sc = new Scanner(System.in);
-//  }
-//}
