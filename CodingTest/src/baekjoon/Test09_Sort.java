@@ -17,10 +17,6 @@ import java.util.StringTokenizer;
 
 public class Test09_Sort {
 
-	public static void main(String[] args) throws IOException {
-		test11();
-	}
-	
 	// 수 정렬하기
 	public static void test01() {
 		Scanner sc = new Scanner(System.in);
