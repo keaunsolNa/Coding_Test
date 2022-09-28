@@ -11,7 +11,7 @@ public class Test11_BruteForce {
 	private static int sumNumber = 0;
 	private static int[] result = new int[3];
 	public static void main(String[] args) throws IOException {
-		test05();
+		test01();
 	}
 	
 	// 블랙잭
