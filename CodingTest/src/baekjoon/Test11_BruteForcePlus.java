@@ -3,6 +3,7 @@ package baekjoon;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Test11_BruteForcePlus {
@@ -14,9 +15,6 @@ public class Test11_BruteForcePlus {
 	private static int operator[];
 	private static int MAX = -1000000000;
 	private static int MIN = 1000000000;
-	public static void main(String[] args) throws IOException {
-		test09();
-	}
 	
 	// 완전제곱수
 	public static void test01() throws IOException {
@@ -305,6 +303,24 @@ public class Test11_BruteForcePlus {
 				}
 			}
 		}
+	}
+	
+	// 369
+	public static void test10() {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int answer = 0;
+		for(int i = 1; i <= N; i++) {
+			for(int j = 0; j < (i+"").length(); j++) {
+				switch((i+"").charAt(j)) {
+					case '3' : answer++; break;
+					case '6' : answer++; break;
+					case '9' : answer++; break;
+				}
+			}
+		}
+		
+		System.out.println(answer);
 	}
 
 }
