@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Test13_Geometry {
 
 	public static void main(String[] args) throws IOException {
-		test04();
+		test06();
 	}
 	
 	// 직사각형에서 탈출
@@ -122,4 +122,60 @@ public class Test13_Geometry {
 		System.out.println(2*R*R);
 		
 	}
+	
+	// 터렛
+	public static void test06() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int testCase = Integer.parseInt(br.readLine());
+
+		for(int i = 0; i < testCase; i++) {
+			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+			int x1 = Integer.parseInt(st.nextToken());
+			int y1 = Integer.parseInt(st.nextToken());
+			int r1 = Integer.parseInt(st.nextToken());
+			
+			int x2 = Integer.parseInt(st.nextToken());
+			int y2 = Integer.parseInt(st.nextToken());
+			int r2 = Integer.parseInt(st.nextToken());
+			
+			System.out.println(targetPoint(x1, y1, r1, x2, y2, r2));
+		}
+	}
+	
+	// 터렛 접점 찾기 메서드
+	public static int targetPoint(int x1, int y1, int r1, int x2, int y2, int r2) {
+		
+		int distance = (int)(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+		
+		if(x1 == x2 && y1 == y2 && r1 == r2) {
+			return -1;
+		}
+		
+		else if(distance > Math.pow(r1 + r2, 2)) {
+			return 0;
+		}
+		
+		else if(distance < Math.pow(r2 - r1, 2)) {
+			return 0;
+		}
+		
+		else if(distance == Math.pow(r2 - r1, 2)) {
+			return 1;
+		}
+		
+		else if(distance == Math.pow(r1 + r2, 2)) {
+			return 1;
+		}
+		
+		else {
+			return 2;
+		}
+	}
+
+	//
+	public static void test07() {
+		
+	}
+	
+
 }
