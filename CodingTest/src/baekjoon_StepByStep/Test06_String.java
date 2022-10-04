@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon_StepByStep;
 
 import java.util.ArrayList;
 import java.util.HashMap;
