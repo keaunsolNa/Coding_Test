@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Test11_BruteForcePlus {
+public class BruteForcePlus {
 	private static int N;
 	private static int day[];
 	private static int money[];

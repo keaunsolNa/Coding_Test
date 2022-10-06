@@ -3,13 +3,16 @@ package baekjoon_StepByStep;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class Test14_NumberTheoryAndCombinatorics {
 
+	static int[][] dp;
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test05();
+		test08();
 	}
 	
 	// 배수와 약수
@@ -144,6 +147,100 @@ public class Test14_NumberTheoryAndCombinatorics {
 	
 	// 링
 	public static void test06() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
+		List<Integer> arr = new ArrayList<>();
+		for(int i = 0; i < N; i++){
+			arr.add(Integer.parseInt(st.nextToken()));
+		}
+
+		int firstRing = arr.get(0);
+	
+		
+		for(int i = 1; i < N; i++) {
+			int gcd = GCD(arr.get(i), firstRing);
+			int LCD = firstRing*arr.get(i)/gcd;
+			System.out.println(LCD/arr.get(i)+"/"+LCD/firstRing);
+		}
 	}
+	
+	// 링 GCD 계산기
+    static int GCD(int a, int b){ 
+    	if (a%b == 0) {
+    		return b;
+    	}
+    	return GCD(b, a % b);
+    }
+    
+    // 이항 계수 1
+    public static void test07() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		
+		System.out.println(binomial(N, K));
+    }
+    
+    // 이항 계수 계산기
+    public static int binomial(int n, int r) {
+		if(r == 0 || n == r) 
+			return 1;
+		return binomial(n - 1, r - 1) + binomial(n - 1, r);
+	}
+    
+    // 이항 계수 2
+    public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		
+		dp = new int[N+1][K+1];
+		System.out.println(dp(N, K));
+    }
+    
+    // 이항 계수 동적 계획법 모듈러 연산
+    public static int dp(int n, int k) {
+    	
+    	if (dp[n][k] > 0) return dp[n][k];
+		
+ 
+		if (k == 0 || n == k) {
+			return dp[n][k] = 1;
+		}
+ 
+		return dp[n][k] = (dp(n - 1, k - 1) + dp(n - 1, k)) % 10007;
+    }
+    
+    // 다리 놓기
+    public static void test09() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int testCase = Integer.parseInt(br.readLine());
+		
+		for(int i = 0; i < testCase; i++) {
+			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+			int N = Integer.parseInt(st.nextToken());
+			int M = Integer.parseInt(st.nextToken());
+			dp = new int[30][30];
+			System.out.println(dp2(M, N));;
+		}
+    }
+    
+    // 다리 놓기 동적 계획법
+    public static int dp2(int n, int r) {
+		
+		if(dp[n][r] > 0) {
+			return dp[n][r]; 
+		}
+		
+		if(n == r || r == 0) {
+			return dp[n][r] = 1;
+		}
+		
+		return dp[n][r] = dp(n - 1, r - 1) + dp(n - 1, r);
+	}
+    
 }

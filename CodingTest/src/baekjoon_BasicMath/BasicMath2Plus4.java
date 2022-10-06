@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.util.StringTokenizer;
 
-public class Test08_BasicMath2Plus4 {
+public class BasicMath2Plus4 {
 
 	// 제리와 톰
 	public static void test01() throws IOException {

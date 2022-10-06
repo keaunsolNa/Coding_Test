@@ -7,7 +7,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Test08_BasicMath2Plus3 {
+public class BasicMath2Plus3 {
 
 	// 저작권
 	public static void test01() throws IOException {

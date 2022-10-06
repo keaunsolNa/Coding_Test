@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Test11_BruteForcePlus2 {
+public class BruteForcePlus2 {
 	
 	public static void main(String[] args) throws IOException {
 		test02();
