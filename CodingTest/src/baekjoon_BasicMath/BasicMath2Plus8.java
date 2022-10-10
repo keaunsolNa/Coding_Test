@@ -4,12 +4,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class BasicMath2Plus8 {
 
 	public static void main(String[] args) throws IOException {
-		test01();
+		test10();
 	}
 	
 	// Julka
@@ -26,163 +27,165 @@ public class BasicMath2Plus8 {
 		
 	}
 	
-	//
-	// Football Scoring
+	// 헛간 청약
 	public static void test02() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		int N = Integer.parseInt(st.nextToken());
+		int W = Integer.parseInt(st.nextToken());
+		int H = Integer.parseInt(st.nextToken());
+		int L = Integer.parseInt(st.nextToken());
 		
-		int aSum = 0;
-		aSum += Integer.parseInt(st.nextToken())*6;
-		aSum += Integer.parseInt(st.nextToken())*3;
-		aSum += Integer.parseInt(st.nextToken())*2;
-		aSum += Integer.parseInt(st.nextToken())*1;
-		aSum += Integer.parseInt(st.nextToken())*2;
-		
-		st = new StringTokenizer(br.readLine(), " ");
-		
-		int bSum = 0;
-		bSum += Integer.parseInt(st.nextToken())*6;
-		bSum += Integer.parseInt(st.nextToken())*3;
-		bSum += Integer.parseInt(st.nextToken())*2;
-		bSum += Integer.parseInt(st.nextToken())*1;
-		bSum += Integer.parseInt(st.nextToken())*2;
-		
-		System.out.println(aSum + " " + bSum);
+		int max = (W/L)*(H/L);
+		System.out.println(Math.min(N, max));
 	}
 	
-	// 폰 노이만과 파리
+	// 2 番目に大きい整数 (The Second Largest Integer) 
 	public static void test03() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int S = Integer.parseInt(st.nextToken());
-		int T = Integer.parseInt(st.nextToken());
-		int D = Integer.parseInt(st.nextToken());
+		int[] arr = new int[3];
+		for(int i = 0; i < 3; i++) {
+			arr[i] = Integer.parseInt(st.nextToken());
+		}
 		
-		System.out.println((D/(S*2))*T);
+		Arrays.sort(arr);
+		
+		System.out.println(arr[1]);
 	}
 	
-	// 전자레인지
+	// 試験 (Exam)
 	public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int A = Integer.parseInt(br.readLine());
-		int B = Integer.parseInt(br.readLine());
-		int C = Integer.parseInt(br.readLine());
-		int D = Integer.parseInt(br.readLine());
-		int E = Integer.parseInt(br.readLine());
-		
-		if(A < 0) {
-			System.out.println((C*Math.abs(A)) + D + E*B);
-		} else {
-			System.out.println((B-A)*E);
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		int[] arr = new int[3];
+		for(int i = 0; i < 3; i++) {
+			arr[i] = Integer.parseInt(st.nextToken());
 		}
+		
+		Arrays.sort(arr);
+		
+		System.out.println(arr[1]+arr[2]);
 	}
 	
-	// 이칙연산
+	// Every Second Counts
 	public static void test05() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		double A = Double.parseDouble(st.nextToken());
-		double B = Double.parseDouble(st.nextToken());
-		double C = Double.parseDouble(st.nextToken());
+		String[] start = br.readLine().split(" : ");
+		String[] end = br.readLine().split(" : ");
 		
-		if(((A * B) / C) > ((A / B) * C)) {
-			System.out.println((int) ((A * B) / C));
+		int startSecond = Integer.parseInt(start[2]) + (Integer.parseInt(start[1])*60) + (Integer.parseInt(start[0])*3600);
+		int endSecond = Integer.parseInt(end[2]) + (Integer.parseInt(end[1])*60) + (Integer.parseInt(end[0])*3600);
+		
+		if(endSecond - startSecond >= 0) {
+			System.out.println(endSecond - startSecond);
 		} else {
-			System.out.println((int) ((A / B) * C));
+			System.out.println(86400 - startSecond + endSecond);
 		}
 	}
 
-	// 타일 채우기 4
+	// Zero or One
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		long N = Long.parseLong(st.nextToken());
-		long M = Long.parseLong(st.nextToken());
+
+		int A = Integer.parseInt(st.nextToken());
+		int B = Integer.parseInt(st.nextToken());
+		int C = Integer.parseInt(st.nextToken());
 		
-		System.out.println(N*M/2);
+		if(A == B && A == C && B == C) {
+			System.out.println("*");
+		} else if(A == B && A != C) {
+			System.out.println("C");
+		} else if(A == C && B != C) {
+			System.out.println("B");
+		} else if(B == C && A != B) {
+			System.out.println("A");
+		}
 	}
 	
-//	나이 계산하기
+	//	金平糖 (Konpeito)
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
-		String[] Birth = br.readLine().split(" ");
-		String[] Date = br.readLine().split(" ");
-
-		int BirthYear = Integer.parseInt(Birth[0]);
-		int BirthMonth = Integer.parseInt(Birth[1]);
-		int BirthDay = Integer.parseInt(Birth[2]);
-
-		int DateYear = Integer.parseInt(Date[0]);
-		int DateMonth = Integer.parseInt(Date[1]);
-		int DateDay = Integer.parseInt(Date[2]);
-
-		int age = DateYear - BirthYear;
+		int A = Integer.parseInt(st.nextToken());
+		int B = Integer.parseInt(st.nextToken());
+		int C = Integer.parseInt(st.nextToken());
 		
-		if(BirthYear == DateYear) {
-			System.out.println(age);
-		}else{
-			if(BirthMonth > DateMonth) {
-				System.out.println(age - 1);
-			}else if(BirthMonth == DateMonth){
-				if(BirthDay <= DateDay) {
-					System.out.println(age);
-				}else {
-					System.out.println(age - 1);
-				}
-			}else{
-				System.out.println(age);
-			}
-		}
-		System.out.println(age + 1);
-		System.out.println(age);
+		int max = Math.max(Math.max(A, B), C);
 		
+		System.out.println(max-A + max-B + max-C);
 	}
 	
-//	감정이입
+//	Pizza Deal
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String A = br.readLine();
-		String B = br.readLine();
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
-		Long a = Long.parseLong(A, 2);
-		Long b = Long.parseLong(B, 2);
+		double A1 = Double.parseDouble(st.nextToken());
+		double P1 = Double.parseDouble(st.nextToken());
 		
-		String sum = Long.toBinaryString(a*b);
+		st = new StringTokenizer(br.readLine(), " ");
 		
-		System.out.println(sum);
+		double R1 = Double.parseDouble(st.nextToken());
+		double P2 = Double.parseDouble(st.nextToken());
+		
+		double AP = A1/P1;
+		double RP = (Math.PI*R1*R1)/P2;
+		
+		if(AP < RP) {
+			System.out.println("Whole pizza");
+		} else {
+			System.out.println("Slice of pizza");
+		}
 	}
 
-//	FA
+//	Tri-du
 	public static void test09() throws IOException {
-		System.out.println("FA");
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		
+		int A = Integer.parseInt(st.nextToken());
+		int B = Integer.parseInt(st.nextToken());
+		
+		if(A == B) {
+			System.out.println(A);
+		} else {
+			System.out.println(Math.max(A, B));
+		}
 	}
 
-//	Do Not Touch Anything
+//	ICPC 
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
-		int R = Integer.parseInt(st.nextToken());
-		int C = Integer.parseInt(st.nextToken());
-		int N = Integer.parseInt(st.nextToken());
+		int P1 = Integer.parseInt(st.nextToken());
+		int S1 = Integer.parseInt(st.nextToken());
+		
+		st = new StringTokenizer(br.readLine(), " ");
+		int S2 = Integer.parseInt(st.nextToken());
+		int P2 = Integer.parseInt(st.nextToken());
 
-		int RN = 0;
-		if(R%N == 0) {
-			RN = R/N;
+		int P = P1+P2;
+		int S = S1+S2;
+		if(P == S) {
+			if(P1 == S2) {
+				System.out.println("Penalty");
+			} else if(P1 > S2){
+				System.out.println("Esteghlal");
+			} else {
+				System.out.println("Persepolis");
+			}
 		} else {
-			RN = R/N + 1;
+			if(P > S) {
+				System.out.println("Persepolis");
+			} else {
+				System.out.println("Esteghlal");
+			}
 		}
 		
-		int CN = 0;
-		if(C%N == 0) {
-			CN = C/N;
-		} else {
-			CN = C/N + 1;
-		}
-		
-		System.out.println((long)RN * CN);
 	}
 }
 

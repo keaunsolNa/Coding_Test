@@ -1,5 +1,7 @@
 package codingTestLevel0;
 
+import java.util.Arrays;
+
 public class Lessons97 {
 
 	public static void main(String[] args) {
@@ -14,22 +16,35 @@ public class Lessons97 {
     public static int[] solution(int num, int total) {
 
     	long sum = 0;
+        int[] answer = new int[num];
     	for(int i = 0; i < num; i++) {
     		sum += i;
     	}
     	
     	int keyNumber = 0;
     	while(sum != total) {
-    		if(sum*10 < total) {
-    			sum += num*10;
-    			keyNumber += 10;
-    		} else {
-    			sum += num;
-    			keyNumber++;
-    		}
+            sum += num;
+            keyNumber++;
+            if(sum > total){
+            	
+            	for(int i = 0; i < total; i++) {
+            		keyNumber = i;
+            		sum = i;
+            		for(int j = i+1; j < total; j++) {
+            			sum += j;
+            			if(sum == total) {
+            				break;
+            			}
+            		}
+            		if(sum == total) {
+            			break;
+            		}
+            	}
+            	
+            }
     	}
     	
-        int[] answer = new int[num];
+
         
         int cnt = 0;
         for(int i = keyNumber; i < keyNumber+num; i++) {
@@ -37,6 +52,7 @@ public class Lessons97 {
         	cnt++;
         }
         
+        Arrays.sort(answer);
         return answer;
     }
     
