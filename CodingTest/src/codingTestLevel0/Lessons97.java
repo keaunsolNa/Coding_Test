@@ -15,44 +15,36 @@ public class Lessons97 {
 	// 연속된 수의 합
     public static int[] solution(int num, int total) {
 
-    	long sum = 0;
         int[] answer = new int[num];
-    	for(int i = 0; i < num; i++) {
-    		sum += i;
-    	}
-    	
-    	int keyNumber = 0;
-    	while(sum != total) {
-            sum += num;
-            keyNumber++;
-            if(sum > total){
-            	
-            	for(int i = 0; i < total; i++) {
-            		keyNumber = i;
-            		sum = i;
-            		for(int j = i+1; j < total; j++) {
-            			sum += j;
-            			if(sum == total) {
-            				break;
-            			}
-            		}
-            		if(sum == total) {
-            			break;
-            		}
-            	}
-            	
-            }
-    	}
-    	
 
-        
+        int key = total/num;
+        int sum = 0;
         int cnt = 0;
-        for(int i = keyNumber; i < keyNumber+num; i++) {
-        	answer[cnt] = i;
-        	cnt++;
+        int keyNumber = 0;
+        while(true) {
+        	for(int i = key-num; i < key+num; i++) {
+        		sum += i;
+        		cnt++;
+        		if(cnt == num) {
+        			keyNumber = i;
+        			break;
+        		}
+        	}
+        	
+        	if(sum == total) {
+        		break;
+        	} else {
+        		key++;
+        		cnt = 0;
+        		sum = 0;
+        	}
         }
         
-        Arrays.sort(answer);
+        int answerCnt = 0;
+        for(int i = keyNumber - (num-1); i <= keyNumber; i++) {
+        	answer[answerCnt] = i;
+        	answerCnt++;
+        }
         return answer;
     }
     
