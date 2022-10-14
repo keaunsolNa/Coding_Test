@@ -7,7 +7,7 @@ import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class BasicMath2Plus {
+public class BasicMath2Plus01 {
 	
 	// 숫자의 개수
 	public static void test01() throws NumberFormatException, IOException {

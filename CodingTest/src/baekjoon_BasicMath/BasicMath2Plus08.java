@@ -7,7 +7,7 @@ import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class BasicMath2Plus8 {
+public class BasicMath2Plus08 {
 
 	public static void main(String[] args) throws IOException {
 		test10();

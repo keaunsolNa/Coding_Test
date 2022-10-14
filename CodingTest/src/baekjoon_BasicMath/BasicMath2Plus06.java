@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.util.StringTokenizer;
 
-public class BasicMath2Plus6 {
+public class BasicMath2Plus06 {
 
 	public static void main(String[] args) throws IOException {
 		test05();

@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 
-public class BasicMath2Plus9 {
+public class BasicMath2Plus09 {
 
    public static void main(String[] args) throws IOException {
       test10();
