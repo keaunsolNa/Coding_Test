@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class StringPlus5 {
+public class StringPlus05 {
 	
 	public static void main(String[] args) throws IOException {
 		test09();

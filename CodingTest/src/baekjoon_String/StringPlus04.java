@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.util.StringTokenizer;
 
-public class StringPlus4 {
+public class StringPlus04 {
 	
 	public static void main(String[] args) throws IOException {
 		test09();

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-public class StringPlus2 {
+public class StringPlus02 {
 
 	// 명령 프롬프트
 	public static void test01() throws NumberFormatException, IOException {

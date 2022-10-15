@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-public class StringPlus3 {
+public class StringPlus03 {
 	
 	// 학점 계산
 	public static void test01() throws IOException {
