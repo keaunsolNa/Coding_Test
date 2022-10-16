@@ -8,7 +8,7 @@ public class Lessons19 {
 	public static void main(String[] args) {
 
 		Lessons19 lessons19 = new Lessons19();
-		String s = "";
+		String s = "(())())";
 		
 		boolean answer = lessons19.solution(s);
 
