@@ -5,13 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.StringTokenizer;
 
 public class StringPlus10 {
 	
 	public static void main(String[] args) throws IOException {
-		test03();
+		test10();
 	}
 	
 	// 부분 문자열
@@ -135,49 +137,215 @@ public class StringPlus10 {
 		
 	}
 	
-	// 지영 공주님의 마법 거울
+	// Divisionals Spelling
 	public static void test04() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine()); 
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		int answer = 0;
+
+		for(int i = 0; i < N; i++) {
+			
+			String quizStr = br.readLine();
+			Set<Character> charHash = new HashSet<>();
+			
+			for(int j = 0; j < quizStr.length(); j++) {
+				if(((int)quizStr.charAt(j))-64 > M) {
+					break;
+				} else
+				charHash.add(quizStr.charAt(j));
+			}
+			
+			if(quizStr.length() == charHash.size()) {
+				answer++;
+			}
+		}
+		
+		System.out.println(answer);
 	}
 	
-	// 농구 경기
+	// Jazz Enthusiast
 	public static void test05() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int C = Integer.parseInt(st.nextToken());
+		
+		int totalPlayTime = 0;
+		for(int i = 0; i < N; i++) {
+			String[] time = br.readLine().split(":");
+			totalPlayTime += Integer.parseInt(time[0])*60 + Integer.parseInt(time[1]); 
+		}
+		int playTime = totalPlayTime - ((N-1)*C);
+		String pH = playTime/3600 + "";
+		String pM = playTime%3600/60 + "";
+		String pS = playTime%60 + "";
+		
+		if(pH.length() == 1) {
+			pH = "0" + pH;
+		}
+		if(pM.length() == 1) {
+			pM = "0" + pM;
+		}
+		if(pS.length() == 1) {
+			pS = "0" + pS;
+		}
+		
+		System.out.println(pH + ":" + pM + ":" + pS);
 	}
 	
-	// 알파벳 거리
+	// 소수 단어
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
-
+		String word = br.readLine();
+		int number = 0;
+		
+		for(int i = 0; i < word.length(); i++) {
+			char tempChar = word.charAt(i);
+			
+			if((int)tempChar <= 90) {
+				number += ((int)tempChar) - 38;
+				System.out.println(((int)tempChar) - 38);
+			} else {
+				number += ((int)tempChar) - 96;
+				System.out.println(((int)tempChar) - 96);
+			}
+		}
+		
+		if(number == 1) {
+			System.out.println("It is a prime word.");
+		} 
+		else
+		if(isPrime(number)) {
+			System.out.println("It is a prime word.");
+		} else {
+			System.out.println("It is not a prime word.");
+		}
 		
 	}
+	
+    public static boolean isPrime(long n) {
+		
+        if(n == 1 || n == 0) return false;
 
-	// 가장 많은 글자
+        for(long i = 2; i <= Math.sqrt(n); i++) {
+            if(n%i == 0) return false;
+        }
+
+        return true;
+        
+    }
+
+	// 닉네임에 갓 붙이기
 	public static void test07() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		
+		for(int i = 0; i < N; i++) {
+			StringBuilder sb = new StringBuilder();
+			String[] nickName = br.readLine().split(" ");
+			sb.append("god");
+			
+			for(int j = 1; j < nickName.length; j++) {
+				sb.append(nickName[j]);
+			}
+			
+			sb.append("\n");
+			System.out.print(sb);
+			
+		}
 	}
 	
-	// 첼시를 도와줘! 
+	// NN
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
 		
+		StringBuilder sb = new StringBuilder();
+		
+		for(int i = 0; i < N; i++) {
+			sb.append(N);
+		}
+		
+		if(sb.length() > M) {
+			System.out.print(sb.toString().substring(0, M));
+		} else {
+			System.out.println(sb);
+		}
 	}
 	
-	// 연속구간
+	// 한다 안한다
 	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int T = Integer.parseInt(br.readLine());
 		
+		for(int i = 0; i < T; i++) {
+			String str = br.readLine();
+			if(str.charAt(str.length()/2 - 1) == str.charAt(str.length()/2)){
+				System.out.println("Do-it");
+			} else {
+				System.out.println("Do-it-Not");
+			}
+			
+		}
 		
 	}
 	
-	// 카이사르 암호
+	// 사칙연산
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int T = Integer.parseInt(br.readLine());
+		
+		for(int i = 0; i < T; i++) {
+			String[] str = br.readLine().split(" ");
+			String answer = "";
+			long a = Long.parseLong(str[0]);
+			long b = Long.parseLong(str[2]);
+			long ans = Long.parseLong(str[4]);
+			
+			switch(str[1]) {
+				case "+" : 
+					if(a + b == ans) { 
+						answer = "correct";
+					} else {
+						answer ="wrong answer";
+					}
+					break;
+					
+				case "-" : 
+					if(a - b == ans) {
+						answer = "correct";
+					} else {
+						answer ="wrong answer";
+					}
+					break;
+					
+				case "*" : 
+					if(a * b == ans) {
+						answer = "correct";
+					} else {
+						answer ="wrong answer";
+					}
+					break;
+					
+				case "/" : 
+					if(a / b == ans) {
+						answer = "correct";
+					} else {
+						answer ="wrong answer";
+					}
+					break;
+			}
+			
+			System.out.println(answer);
+			
+		}
+	
 	}
 	
 }
