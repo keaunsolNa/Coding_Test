@@ -8,20 +8,23 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Deque;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Queue;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.Stack;
 import java.util.StringTokenizer;
+import java.util.stream.Stream;
 
 public class Class02 {
 
 	public static void main(String[] args) throws IOException {
-		test24();
+		test38();
 	}
 	
 	// 체스판 다시 칠하기
@@ -388,8 +391,6 @@ public class Class02 {
 		System.out.println(sb);
 	}
 
-    
-    
     // 소수 찾기
     public static void test11() {
 		Scanner sc = new Scanner(System.in);
@@ -759,8 +760,109 @@ public class Class02 {
 		}
 	}
 	
+	// 균형잡힌 세상
+	public static void test24() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+ 
+		String s;
+		while(true) {
+			
+			s = br.readLine();
+			
+			if(s.equals(".")) {	
+				break;
+			}
+			
+			sb.append(solve(s)).append('\n');
+		}
+		System.out.println(sb);
+		
+	}
+		
+	public static String solve(String s) {
+		
+		Stack<Character> stack = new Stack<>();
+		for(int i = 0; i < s.length(); i++) {
+			
+			char c = s.charAt(i);	
+			
+			if(c == '(' || c == '[') {
+				stack.push(c);
+			}
+			
+			else if(c == ')') {
+				
+				if(stack.empty() || stack.peek() != '(') {
+					return "no";
+				}
+				
+				else {
+					stack.pop();
+				}
+				
+			}
+			
+			else if(c == ']') {
+				
+				if(stack.empty() || stack.peek() != '[') {
+					return "no";
+				}
+				
+				else {
+					stack.pop();
+				}
+				
+			}
+			
+		}
+		
+		if(stack.empty()) {
+			return "yes";
+		}
+		
+		else {
+			return "no";
+		}
+		
+	}
+	
+	// 덩치
+	public static void test25() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		int N = Integer.parseInt(br.readLine());
+		
+		int[][] people = new int[N][2];
+		for(int i = 0; i < N; i++) {
+			st = new StringTokenizer(br.readLine()," ");
+			people[i][0] = Integer.parseInt(st.nextToken());
+			people[i][1] = Integer.parseInt(st.nextToken());
+		}
+		int[] ranking = new int[N];
+		int rank = 1;
+		for(int i = 0; i < people.length; i++) {
+			int tempWeight = people[i][0];
+			int tempHeight = people[i][1];
+			for(int j = 0; j < people.length; j++) {
+				if(tempWeight < people[j][0] && tempHeight < people[j][1]) {
+					rank++;
+				} 
+			}
+			ranking[i] = rank;
+			rank = 1;
+		}
+	
+		StringBuilder sb = new StringBuilder();
+		for (int i : ranking) {
+			sb.append(i).append(" ");
+		}
+		
+		System.out.println(sb);
+	}
+	
 	// 괄호
-	public static void test24() throws NumberFormatException, IOException {
+	public static void test26() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(br.readLine());
 		
@@ -790,11 +892,10 @@ public class Class02 {
 	        
 	        System.out.println(answer);
 		}
-        
 	}
 	
 	// ACM 호텔
-	public static void test25() {
+	public static void test27() throws NumberFormatException, IOException {
 		Scanner sc = new Scanner(System.in);
 		int testCase = sc.nextInt();
 		
@@ -815,9 +916,37 @@ public class Class02 {
 			}
 		}
 	}
-	
+
+	// 제로 
+	public static void test28() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int K = Integer.parseInt(br.readLine());
+		Stack<Integer> stack = new Stack<>();
+		
+		for(int i = 0; i < K; i++) {
+			int temp = Integer.parseInt(br.readLine());
+			
+			if(temp != 0) {
+				stack.add(temp);
+			} else {
+				stack.pop();
+			}
+		}
+
+		if(stack.isEmpty()) {
+			System.out.println(0);
+		} else {
+			long sum = 0;
+			while(!stack.isEmpty()) {
+				sum += stack.pop();
+			}
+			
+			System.out.println(sum);
+		}
+	}
+
 	// 나이순 정렬
-	public static void test26() throws NumberFormatException, IOException {
+	public static void test29() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testCase = Integer.parseInt(br.readLine());
 		
@@ -844,9 +973,370 @@ public class Class02 {
 		}
 	}
 	
+	// 수자 카드 2
+	public static void test30() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		Map<Integer, Integer> hashMap = new HashMap<>();	
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		for(int i = 0; i < N; i++) {
+			int temp = Integer.parseInt(st.nextToken());
+			hashMap.put(temp, hashMap.getOrDefault(temp, 0) + 1);	
+		}
+		
+		int M = Integer.parseInt(br.readLine());
+		st = new StringTokenizer(br.readLine());
+		StringBuilder sb = new StringBuilder();
+		for(int i = 0; i < M; i++) {
+			int temp = Integer.parseInt(st.nextToken());
+			int answer = 0;
+			
+			try {
+				answer = hashMap.get(temp);
+			} catch(java.lang.NullPointerException e) {
+				answer = 0;
+			}
+			sb.append(answer + " ");
+		}
+		
+		System.out.println(sb);
+	}
 	
+	// 스택
+	public static void test31() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int order = Integer.parseInt(br.readLine());
+		Stack<Integer> stack = new Stack<>();
+		for(int i = 0; i < order; i++) {
+			
+			String orderStr = br.readLine();
+			
+			if(orderStr.contains("push")) {
+				
+				int pushValue = Integer.parseInt(orderStr.split(" ")[1]);
+				stack.push(pushValue);
+				
+			} else if(orderStr.contains("pop")) {
+				
+				try {
+					System.out.println(stack.pop());
+				} catch(java.util.EmptyStackException e) {
+					System.out.println(-1);
+				}
+			
+			} else if(orderStr.contains("size")) {
+				
+				System.out.println(stack.size());
+				
+			} else if(orderStr.contains("empty")) {
+				
+				if(stack.size() == 0) {
+					System.out.println(1);
+				} else {
+					System.out.println(0);
+				}
+				
+			} else if(orderStr.contains("top")) {
+				
+				try {
+					System.out.println(stack.peek());
+				} catch(java.util.EmptyStackException e) {
+					System.out.println(-1);
+				}
+			
+			}
+		}
+	}
+
+	// 큐
+	public static void test32() throws NumberFormatException, IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int order = Integer.parseInt(br.readLine());
+		Deque<Integer> deque = new LinkedList<>();
+		
+		for(int i = 0; i < order; i++) {
+			String orderStr = br.readLine();
+			
+			if(orderStr.contains("push")) {
+				
+				int orderValue = Integer.parseInt(orderStr.split(" ")[1]);
+				deque.add(orderValue);
+				
+			} else if(orderStr.contains("pop")) {
+				
+				if(deque.size() == 0) {
+					System.out.println(-1);
+				} else {
+					System.out.println(deque.poll());
+				}
+				
+			} else if(orderStr.contains("size")) {
+
+				System.out.println(deque.size());
+				
+			} else if(orderStr.contains("empty")) {
+				
+				if(deque.size() == 0) {
+					System.out.println(1);
+				} else {
+					System.out.println(0);
+				}
+				
+			} else if(orderStr.contains("front")) {
+				
+				if(deque.size() == 0) {
+					System.out.println(-1);
+				} else {
+					System.out.println(deque.peek());
+				}
+				
+			} else {
+				
+				if(deque.size() == 0) {
+					System.out.println(-1);
+				} else {
+					System.out.println(deque.peekLast());
+				}
+				
+			}
+			
+		}
+	}
 	
+	// 덱
+	public static void test33() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int order = Integer.parseInt(br.readLine());
+		Deque<Integer> deque = new LinkedList<>();
+		
+		for(int i = 0; i < order; i++) {
+			String orderStr = br.readLine();
+			
+			if(orderStr.contains("push_front")) {
+				
+				int orderValue = Integer.parseInt(orderStr.split(" ")[1]);
+				deque.addFirst(orderValue);
+				
+			} else if(orderStr.contains("push_back")) {
+				
+				int orderValue = Integer.parseInt(orderStr.split(" ")[1]);
+				deque.addLast(orderValue);
+				
+			} else if(orderStr.contains("pop_front")) {
+				
+				if(deque.size() == 0) {
+					System.out.println(-1);
+				} else {
+					System.out.println(deque.pollFirst());
+				}
+				
+			} else if(orderStr.contains("pop_back")) {
+				
+				if(deque.size() == 0) {
+					System.out.println(-1);
+				} else {
+					System.out.println(deque.pollLast());
+				}
+				
+			} else if(orderStr.contains("size")) {
+				
+				System.out.println(deque.size());
+				
+			} else if(orderStr.contains("empty")) {
+				
+				if(deque.size() == 0) {
+					System.out.println(1);
+				} else {
+					System.out.println(0);
+				}
+				
+			} else if(orderStr.contains("front")) {
+				
+				if(deque.size() == 0) {
+					System.out.println(-1);
+				} else {
+					System.out.println(deque.peekFirst());
+				}
+				
+			} else if(orderStr.contains("back")) {
+				
+				if(deque.size() == 0) {
+					System.out.println(-1);
+				} else {
+					System.out.println(deque.peekLast());
+				}
+				
+			}
+		}
+	}
+
+	// 수 정렬하기 3
+	public static void test34() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int testCase = Integer.parseInt(br.readLine());
+		
+		int[] arr = new int[testCase];
+		for(int i = 0; i < testCase; i++) {
+			arr[i] = Integer.parseInt(br.readLine());
+		}
+		Arrays.sort(arr);
+		 
+		for (int i : arr) {
+			System.out.println(i);
+		}
+	}
 	
+	// 이항 계수 1
+	public static void test35() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		
+		System.out.println(binomial(N, K));
+	}
+   
+	public static int binomial(int n, int r) {
+		if(r == 0 || n == r) 
+			return 1;
+		return binomial(n - 1, r - 1) + binomial(n - 1, r);
+	}
 	
+	// 좌표 정렬하기
+	public static void test36() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int testCase = Integer.parseInt(br.readLine());
+		
+		String[] stringArr = new String[testCase];
+		
+		for(int i = 0; i < testCase; i++) {
+			stringArr[i] = br.readLine();
+		}
+
+		Arrays.sort(stringArr, new Comparator<String>() {
+
+			@Override
+			public int compare(String o1, String o2) {
+				String[] one = o1.split(" ");
+				String[] two = o2.split(" ");
+				
+				if(Integer.parseInt(one[0]) == Integer.parseInt(two[0])) {
+					return Integer.parseInt(one[1]) - Integer.parseInt(two[1]);
+				} else {
+					return Integer.parseInt(one[0]) - Integer.parseInt(two[0]);
+				}
+			}
+		});
+		
+		for (String string : stringArr) {
+			System.out.println(string);
+		}
+	}
 	
+	// 요세푸스 문제 0
+	public static void test37() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		int N = Integer.parseInt(st.nextToken());
+		
+		Queue<Integer> queue = new LinkedList<>();
+		for(int i = 1; i <= N; i++) {
+			queue.add(i);
+		}
+		
+		int K = Integer.parseInt(st.nextToken());
+		StringBuilder sb = new StringBuilder();
+		sb.append("<");
+		List<Integer> answerList = new ArrayList<>();
+		while(!queue.isEmpty()) {
+			for(int i = 0; i < K-1; i++) {
+				int temp = queue.poll();
+				queue.add(temp);
+			}
+			
+			int answer = queue.poll();
+			if(queue.isEmpty()) {
+				sb.append(answer).append(">");
+			} else {
+				sb.append(answer).append(", ");
+			}
+		}
+		
+		System.out.println(sb);
+		
+	}
+	
+	// Hashing 
+	public static void test38() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int M = 1234567891;
+		int strLength = Integer.parseInt(br.readLine());
+		String str = br.readLine();
+		long sum = 0;
+		long pow = 1;
+		char[] arr = str.toCharArray();
+		
+		for(int i = 0; i < arr.length; i++) {
+			
+			sum += (arr[i] - 'a' + 1) * pow % M;
+			pow = pow * 31 % M; 
+		}
+		
+		long answer = sum % M;
+		
+		System.out.println(answer);
+		
+	}
+	
+	// 마인크래프트
+	public static void test39() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		int B = Integer.parseInt(st.nextToken());
+		int[][] arr = new int[N][M];
+		int min = 256;
+		int max = 0;
+		
+		for(int i = 0; i < N; i++) {
+			st = new StringTokenizer(br.readLine());
+			for(int j = 0; j < M; j++) {
+				arr[i][j] = Integer.parseInt(st.nextToken());
+				if(min > arr[i][j]) min = arr[i][j];
+				if(max < arr[i][j]) max = arr[i][j];
+			}
+		}
+		
+		int time = 99999999;
+		int high = 0;
+		
+		for(int i = min; i <= max; i++) {
+			int count = 0;
+			int block = B;
+
+			for(int j = 0; j < N; j++) {
+				for(int k = 0; k < M; k++) {
+
+					if(i < arr[j][k]) {
+						count += ((arr[j][k] - i) * 2);
+						block += (arr[j][k] - i);
+
+					} else {
+						count += (i - arr[j][k]);
+						block -= (i - arr[j][k]);
+					}
+				}
+			}
+
+			if(block < 0) break;
+			
+			if(time >= count) {
+				time = count;
+				high = i;
+			}
+		}
+		System.out.println(time + " " + high);
+	}
 }

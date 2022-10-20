@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
 public class StringPlus10 {
 	
 	public static void main(String[] args) throws IOException {
-		test10();
+		test01();
 	}
 	
 	// 부분 문자열
