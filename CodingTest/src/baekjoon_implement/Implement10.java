@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class Implement10 {
 
 	public static void main(String[] args) throws IOException {
-		test10();
+		test01();
 	}
 	
 	// 별 찍기 - 9
