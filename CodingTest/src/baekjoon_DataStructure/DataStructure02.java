@@ -4,15 +4,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
-import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -22,7 +18,7 @@ import java.util.StringTokenizer;
 
 public class DataStructure02 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test05();
+		test10();
 	}
 	
 	// 카드 1
@@ -166,7 +162,7 @@ public class DataStructure02 {
 		}
 	}
 
-	// 단어순서 뒤집기
+	// 단어순서 뒤집기1
 	public static void test05() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String[] temp = br.readLine().split(" ");
@@ -189,37 +185,139 @@ public class DataStructure02 {
 
 	}
 
-	// 국회의원 선거
+	// Kinder Surprise
 	public static void test06() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		Set<String> set = new HashSet<>();
+		
+		for(int i = 0; i < N; i++) {
+			set.add(br.readLine());
+		}
+
+		System.out.println(N - set.size());
 	}
 
-	// 회사에 있는 사람
+	// Vote
 	public static void test07() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
+		int P = Integer.parseInt(br.readLine());
+		for(int i = 0; i < P; i++) {
+			String[] temp = br.readLine().split(" ");
+			int N = Integer.parseInt(temp[0]);
+			int M = Integer.parseInt(temp[1]);
+			Map<String, Integer> map = new HashMap<>();
+			for(int j = 0; j < N; j++) {
+				String name = br.readLine();
+				map.put(name, 0);
+			}
+			
+			for(int j = 0; j < M; j++) {
+				String[] strArr = br.readLine().split(" ");
+				String name = strArr[0];
+				Integer vote = Integer.parseInt(strArr[1]);
+				map.put(name, map.getOrDefault(name, 0) + vote);
+			}
+
+			int max = 0;
+			
+			List<Map.Entry<String, Integer>> entryList = new LinkedList<>(map.entrySet());
+			entryList.sort(new Comparator<Map.Entry<String, Integer>>() {
+			    @Override
+			    public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+				return o2.getValue() - o1.getValue();
+			    }
+			});
+			
+			String answer = "";
+			if(entryList.get(0).getValue().equals(entryList.get(1).getValue())) {
+				answer = "VOTE " + (i+1) + ": THERE IS A DILEMMA";
+			} else {
+				answer = "VOTE " + (i+1) + ": THE WINNER IS " + entryList.get(0).getKey() + " " + entryList.get(0).getValue();
+			}
+			
+			System.out.println(answer);
+		}
+		
+		
 	}
 
-	// 학생 인기도 측정
+	// 阿吽の呼吸
 	public static void test08() throws NumberFormatException, IOException  {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		
+		Deque<String> deque = new LinkedList<>();
+		for(int i = 0; i < N; i++) {
+			deque.add(br.readLine());
+			if(deque.peekLast().equals("Un")) {
+				if(deque.peekFirst().equals("A")) {
+					deque.pollFirst();
+					deque.pollLast();
+				}
+			}
+		}
+
+		if(deque.isEmpty()) {
+			System.out.println("YES");
+		} else {
+			System.out.println("NO");
+		}
 		
 	}
 
-	// CD
+	// 기술 연계마스터 임스
 	public static void test09() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        br.readLine();
+        String s = br.readLine();
+        int cnt = 0;
+        int cntL = 0;
+        int cntS = 0;
+        boolean chk = true;
+        for (int i = 0; chk && i < s.length(); i++) {
+            chk = true;
+            switch (s.charAt(i)) {
+                case 'L': cntL++; break;
+                case 'S': cntS++; break;
+                case 'R': if(cntL == 0) chk = false; else {cnt++; cntL--;} break;
+                case 'K': if(cntS == 0) chk = false; else {cnt++; cntS--;} break;
+                default: cnt++;
+            }
+        }
+        System.out.println(cnt);
 	}
 
-	// 큐 2
+	// 암기왕
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int T = Integer.parseInt(br.readLine());
 		StringBuilder sb = new StringBuilder();
 		
-		
+		for(int i = 0; i < T; i++) {
+			int N = Integer.parseInt(br.readLine());
+			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+			
+			Set<Integer> set = new HashSet<>();
+			for(int j = 0; j < N; j++) {
+				set.add(Integer.parseInt(st.nextToken()));
+			}
+			
+			int M = Integer.parseInt(br.readLine());
+			st = new StringTokenizer(br.readLine());
+			
+			for(int j = 0; j < M; j++) {
+				int num = Integer.parseInt(st.nextToken());
+				
+				if(set.contains(num)) {
+					sb.append(1).append("\n");
+				} else {
+					sb.append(0).append("\n");
+				}
+			}
+			
+		}
+		System.out.println(sb);
 	}
 
 
