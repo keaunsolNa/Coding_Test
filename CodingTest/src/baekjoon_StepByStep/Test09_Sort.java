@@ -335,5 +335,19 @@ public class Test09_Sort {
 		System.out.println(sb);
 	}
 	
-	
+	// 대푯값 2
+	public static void test12() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int[] arr = new int[5];
+		int sum = 0;
+		for(int i = 0; i < 5; i++) {
+			int x = Integer.parseInt(br.readLine());
+			arr[i] = x;
+			sum += x;
+		}
+		Arrays.sort(arr);
+		System.out.println(sum/5);
+		System.out.println(arr[2]);
+	}
 }
