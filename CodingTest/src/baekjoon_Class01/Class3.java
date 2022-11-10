@@ -17,10 +17,10 @@ public class Class3 {
 	public static void test01() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		dp[0][0] = 1;	// N=0 일 때의 0 호출 횟수
-		dp[0][1] = 0;	// N=0 일 때의 1 호출 횟수
-		dp[1][0] = 0;	// N=1 일 때의 0 호출 횟수
-		dp[1][1] = 1;	// N=1 일 때의 1 호출 횟수
+		dp[0][0] = 1;	
+		dp[0][1] = 0;	
+		dp[1][0] = 0;	
+		dp[1][1] = 1;	
 		
 		int T = Integer.parseInt(br.readLine());
 		
