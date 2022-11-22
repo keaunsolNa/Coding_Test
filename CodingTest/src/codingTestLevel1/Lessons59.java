@@ -1,9 +1,5 @@
 package codingTestLevel1;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class Lessons59 {
 
 	public static void main(String[] args) {
@@ -29,36 +25,38 @@ public class Lessons59 {
 //    	(X에는 5가 3개, Y에는 5가 2개 나타나므로 남는 5 한 개는 짝 지을 수 없습니다.)
 //    	두 정수 X, Y가 주어졌을 때, X, Y의 짝꿍을 return하는 solution 함수를 완성해주세요.
 
-        String answer = "";
+        int[] cntX = new int[10];
+        int[] cntY = new int[10];
+        
+        for (String tmpX : X.split("")) {
+        	cntX[Integer.parseInt(tmpX)]++;
+        }
+        
+        for (String tmpY : Y.split("")) {
+        	cntY[Integer.parseInt(tmpY)]++;
+        }
+        
         StringBuilder sb = new StringBuilder();
-
-        boolean[] checkY = new boolean[Y.length()];
-
-        List<Integer> list = new ArrayList<>();
-
-        for(int i = 0; i < X.length(); i++) {
-            if(X.charAt(i) == Y.charAt(i) && checkY[i] == false) {
-                checkY[i] = true;
-                list.add(Y.charAt(i) - '0');
-                break;
+        
+        for (int i = 9; i >= 0; i--){
+            while(cntX[i] > 0 && cntY[i] > 0){
+                sb.append(i);
+                cntX[i]--;
+                cntY[i]--;
             }
         }
-
-        if(list.size() == 0) {
-            return "-1";
+        
+        String answer = "";
+        
+        if ("".equals(sb.toString())) {
+            answer = "-1";
+        } else if ("0".equals(sb.toString().substring(0,1))) {
+            answer = "0";
+        } else {
+            answer = sb.toString();
         }
 
-        if(list.get(0) == 0) {
-            return "0";
-        }
-
-        Collections.sort(list, Collections.reverseOrder());
-
-        for(int i=0; i<list.size(); i++) {
-            sb.append(list.get(i));
-        }
-
-        return sb.toString();
+        return answer;
     	
     }
 	 
