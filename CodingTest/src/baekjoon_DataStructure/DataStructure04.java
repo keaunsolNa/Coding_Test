@@ -13,11 +13,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class DataStructure04 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test07();
+		test10();
 	}
 	
 	// 차집합
@@ -267,24 +268,81 @@ public class DataStructure04 {
 		System.out.println(sb.deleteCharAt(sb.length()-1));
 	}
 
-	// 비밀번호 찾기
+	// Recount 
 	public static void test08() throws NumberFormatException, IOException  {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		
+		Map<String, Integer> map = new HashMap<>();
+		String input = "";
+		int max = 0;
+		String answer = "";
+		boolean flag = false;
+		while(!(input = br.readLine()).equals("***")) {
+			
+			map.put(input, map.getOrDefault(input, 0) + 1);
+			
+			if(map.get(input) > max) {
+				answer = input;
+				max = map.get(input);
+				flag = false;
+			} else if(map.get(input) == max) {
+				flag = true;
+			}
+		}
+			
+		if(flag) {
+			System.out.println("Runoff!");
+		} else {
+			System.out.println(answer);
+		}
 	}
 
-	// 인사성 밝은 곰곰이
+	// 병약한 영정
 	public static void test09() throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
+        Map<Integer, Integer> mediMap = new HashMap<>();
+        for(int i = 0; i < N; i++) {
+        	StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        	int efficacy = Integer.parseInt(st.nextToken());
+        	int name = Integer.parseInt(st.nextToken());
+        	mediMap.put(efficacy, name);
+        }
+        
+        int symptom = Integer.parseInt(br.readLine());
+        
+        for(int i = 0; i < symptom; i++) {
+        	StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        	StringBuilder sb = new StringBuilder();
+        	int max = Integer.parseInt(st.nextToken());
+        	for(int j = 0; j < max; j++) {
+        		int symptoms = Integer.parseInt(st.nextToken());
+        		if(mediMap.containsKey(symptoms)) {
+        			sb.append(mediMap.get(symptoms)).append(" ");
+        		} else {
+        			sb = new StringBuilder("YOU DIED").append(" ");
+        			break;
+        		}
+        	}
+        	
+        	sb.deleteCharAt(sb.length()-1);
+        	sb.append("\n");
+        	System.out.print(sb);
+        }
 	}
 
-	// 배부른 마라토너
+	// 図書館 2 (Library 2) 
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		
+		int Q = Integer.parseInt(br.readLine());
+		Stack<String> stack = new Stack<>();
+		for(int i = 0; i < Q; i++) {
+			String input = br.readLine();
+			if(!input.equals("READ")) {
+				stack.push(input);
+			} else {
+				System.out.println(stack.pop());
+			}
+		}
 	}
 
 
