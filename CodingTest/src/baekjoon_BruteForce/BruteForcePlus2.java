@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class BruteForcePlus2 {
 	
 	public static void main(String[] args) throws IOException {
-		test02();
+		test03();
 	}
 	
 	// 단순한 문제 (Small)
@@ -34,15 +34,42 @@ public class BruteForcePlus2 {
 		}
 	}
 
-	// 암호 제작
+	// 지각
 	public static void test02() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		int T = Integer.parseInt(br.readLine());
+		
+		for(int i = 0; i < T; i++) {
+			int time = Integer.parseInt(br.readLine());
+			int max = 1;
+			
+			while(max + (max * max) <= time) max++;
+			
+			System.out.println((max - 1));
+		}
 		
 	}
 	
+	// 수학적 호기심
 	public static void test03() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int T = Integer.parseInt(br.readLine());
+		StringTokenizer st;
+		
+		for(int i = 0; i < T; i++) {
+			st = new StringTokenizer(br.readLine());
+			int n = Integer.parseInt(st.nextToken());
+			int m = Integer.parseInt(st.nextToken());
+			int answer = 0;
+			for(int b = 1; b < n; b++) {
+				
+				for(int a = 1; a < b; a++) {
+					double target = (double)((a*a) + (b*b) + m)/(a*b);
+					if(target == (int)target) answer++;
+				}
+			}
+			System.out.println(answer);
+		}
 	}
 	
 	public static void test04() throws IOException {
