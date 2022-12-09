@@ -299,7 +299,7 @@ public class StringPlus15 {
 				if(idx == n2 - 1) {
 					idx = table[idx];
 					return true;
-				}else {
+				} else {
 					idx++;
 				}
 			}
