@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Class03 {
 
 	public static void main(String[] args) throws IOException {
-		test01();
+		test03();
 	}
 	
 	// 피보나치 함수
@@ -45,16 +45,107 @@ public class Class03 {
 	}
     
 
-    // 직사각형에서 탈출
+    // 유기농 배추
+	static int dirX[] = {0, 0, -1, 1};
+	static int dirY[] = {-1, 1, 0, 0};
+	static int map[][];
+	static boolean visit[][];
+
+	static int now_x, now_y;
+	static int M, N, K;
+	static int count;
     public static void test02() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-    }
+		StringTokenizer st;
+		StringBuilder sb = new StringBuilder();
 
-    // 단어 정렬
+		int T = Integer.parseInt(br.readLine());
+		for(int i=0; i<T; i++) {
+			st = new StringTokenizer(br.readLine());
+
+			M = Integer.parseInt(st.nextToken());
+			N = Integer.parseInt(st.nextToken());
+			K = Integer.parseInt(st.nextToken());
+
+			map = new int[N][M];
+			visit = new boolean[N][M];
+
+			for(int j=0; j<K; j++) {
+				st = new StringTokenizer(br.readLine());
+				int x = Integer.parseInt(st.nextToken());
+				int y = Integer.parseInt(st.nextToken());
+				map[y][x] = 1;
+			}
+
+			count = 0;
+			for(int j=0; j<N; j++) {
+				for(int k=0; k<M; k++) {
+
+					if(map[j][k] == 1 && visit[j][k] == false) {
+						count++;
+						DFS(k, j);
+					}
+				}
+			}
+			sb.append(count).append('\n');
+		}
+
+		System.out.println(sb);
+    }
+    
+	public static void DFS(int x, int y) {
+		visit[y][x] = true;
+
+		for(int i=0; i<4; i++) {
+			now_x = x + dirX[i];
+			now_y = y + dirY[i];
+
+			if(Range_check() && visit[now_y][now_x] == false && map[now_y][now_x] == 1) {
+				DFS(now_x, now_y);
+			}
+
+		}
+	}
+
+	static boolean Range_check() {
+		return (now_y < N && now_y >= 0 && now_x < M && now_x >= 0);
+	}
+
+    // Z
+	static int cnt = 0;
     public static void test03() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		
+		int N = Integer.parseInt(st.nextToken());
+		int r = Integer.parseInt(st.nextToken());
+		int c = Integer.parseInt(st.nextToken());
+		int size = (int)Math.pow(2, N);
+				
+		find(size, r, c);
+		
+		System.out.println(cnt);
+    }
+    
+    public static void find(int size, int r, int c) {
+		if(size == 1)
+			return;
+		
+		if(r < size/2 && c < size/2) {
+			find(size/2, r, c);
+		}
+		else if(r < size/2 && c >= size/2) {
+			cnt += size * size / 4;
+			find(size/2, r, c - size/2);
+		}
+		else if(r >= size/2 && c < size/2) {
+			cnt += (size * size / 4) * 2;
+			find(size/2, r - size/2, c);
+		}
+		else {
+			cnt += (size * size / 4) * 3;
+			find(size/2, r - size/2, c - size/2);
+		}
     }
 
     // 팰린드롬 수
