@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -17,7 +18,7 @@ import java.util.TreeMap;
 public class Sort04 {
 	
 	public static void main(String[] args) throws IOException {
-		test03();
+		test05();
 	}
 	
 	// 수 정렬하기 4
@@ -74,18 +75,110 @@ public class Sort04 {
 			
 		}
 
+		Iterator<Integer> iter = map.keySet().iterator();
+		
+		while(true) {
+			int key1 = iter.next();
+			int firstNation = map.get(key1)[0];
+			int firstStudㄷnt = map.get(key1)[1];
+			
+			int key2 = iter.next();
+			int secondNation = map.get(key2)[0];
+			int secondStudent = map.get(key2)[1];
+			
+			int threeNation = 0;
+			int threeStudent = 0;
+			if(firstNation == secondNation) {
+				int key3 = iter.next();
+				
+				while(map.get(key3)[0] == firstNation) {
+					key3 = iter.next();
+				}
+				
+				threeNation = map.get(key3)[0];
+				threeStudent = map.get(key3)[1];
+			} else {
+				int key3 = iter.next();
+				threeNation = map.get(key3)[0];
+				threeStudent = map.get(key3)[1];
+			}
+			
+			System.out.println(firstNation + " " + firstStudㄷnt);
+			System.out.println(secondNation + " " + secondStudent);
+			System.out.println(threeNation + " " + threeStudent);
+			break;
+		}
 		
 	}
     
-	// 
+	// 칠무해
 	public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		Double[] arr = new Double[7];
+		for(int i = 0; i < 7; i++) {
+			arr[i] = Double.parseDouble(br.readLine());
+		}
+		
+		Arrays.sort(arr);
+		
+		for(int i = 7; i < N; i++) {
+			
+			double temp = Double.parseDouble(br.readLine());
+			
+			if(temp < arr[6]) {
+				arr[6] = temp;
+				Arrays.sort(arr);
+			}
+		}
+		
+		for (Double double1 : arr) {
+			System.out.printf("%.3f", double1);
+			System.out.println();
+		}
 	}
 	
-	// 
+	// 최후의 승자는 누구?
 	public static void test05() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		int N;
+		int M;
+		int i;
+		int j;
+		int mxcnt;
 		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		N = Integer.parseInt(st.nextToken());
+		M = Integer.parseInt(st.nextToken());
+		int[][] arr = new int[N][M];
+		int[] mx = new int[M];
+		int[] cnt = new int[N];
+		
+		for(i = 0; i < N; i++) {
+			st = new StringTokenizer(br.readLine());
+			for(j = 0; j < M; j++) arr[i][j] = Integer.parseInt(st.nextToken());
+		}
+		
+		for(i = 0; i < N; i++) Arrays.sort(arr[i]);
+		
+		for(i = 0; i < N; i++) {
+			for(j = 0; j < M; j++) mx[j] = Math.max(mx[j], arr[i][j]);
+		}
+		
+		for(i = 0; i < N;i++) {
+			for(j = 0; j < M; j++) {
+				if(mx[j]==arr[i][j]) cnt[i]++;
+			}
+		}
+		
+		mxcnt = 0;
+		for(i = 0; i < N; i++) mxcnt = Math.max(mxcnt, cnt[i]); 
+
+		for(i = 0; i < N; i++) {
+			if(mxcnt==cnt[i]) sb.append((i+1)+" ");
+		}
+		System.out.println(sb);
 	}
 	
 	//

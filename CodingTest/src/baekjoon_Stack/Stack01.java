@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class Stack01 {
 
 	public static void main(String[] args) throws IOException {
-		test02();
+		test03();
 	}
 	
 	// 좋은 단어
@@ -93,8 +93,10 @@ public class Stack01 {
 		System.out.println(total);
 	}
 
+	//
 	public static void test03() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String input = br.readLine();
 		
 	}
 	
