@@ -14,7 +14,7 @@ import java.util.TreeMap;
 public class StringPlus16 {
 	
 	public static void main(String[] args) throws IOException {
-		test05();
+		test08();
 	}
 
 	// 복호화
@@ -157,25 +157,109 @@ public class StringPlus16 {
 		}
 	}
 	
-    // 
+    // 핸드폰 번호 궁합
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
+		String one = br.readLine();
+		String two = br.readLine();
+		String result = "";
 		
+		for(int i = 0; i < one.length(); i++) {
+			result += one.charAt(i);
+			result += two.charAt(i);
+		}
+		
+		while(result.length() != 2) {
+			String temp = "";
+			for(int i = 0; i < result.length() - 1; i++) {
+				String str = (Integer.parseInt(result.charAt(i)+"") + Integer.parseInt(result.charAt(i+1)+"") +"");
+				temp += str.charAt(str.length()-1);
+			}
+			result = temp;
+		}
+		
+		System.out.println(result);
     }
 
-	// 
+	// 누울 자리를 찾아라
 	public static void test07() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine()," ");
-		
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int n = Integer.parseInt(br.readLine());
+
+        char[][] arr = new char[n][n];
+
+        for(int i = 0; i < n; i++) {
+            String[] val = br.readLine().split("");
+            for(int j = 0; j < n; j++) {
+                arr[i][j] = val[j].charAt(0);
+            }
+        }
+        
+        int x = 0, y = 0;
+        for(int i = 0; i < n; i++) {
+        	
+            for (int j = 0 ; j < n; j++) {
+            	
+                if(i + 1 < n) {
+                	
+                    if (arr[i][j] == '.' && arr[i+1][j] == '.' && (i + 2 >= n || arr[i+2][j] == 'X')) {
+                        y += 1;
+                    }
+                    
+                }
+                
+                if(j + 1 < n) {
+                	
+                    if (arr[i][j] == '.' && arr[i][j + 1] == '.' && (j + 2 >= n || arr[i][j + 2] == 'X')) {
+                        x += 1;
+                    }
+                    
+                }
+            }
+        }
+        System.out.println(x + " " + y);
 	}
 	
-	//
+	// 스캐너
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String input = "";
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int R = Integer.parseInt(st.nextToken());
+		int C = Integer.parseInt(st.nextToken());
+		int ZR = Integer.parseInt(st.nextToken());
+		int ZC = Integer.parseInt(st.nextToken());
 		
+		char[][] charArr = new char[R][C];
+		
+		for(int i = 0; i < R; i++) {
+			String temp = br.readLine();
+			
+			for(int j = 0; j < temp.length(); j++) {
+				charArr[i][j] = temp.charAt(j);
+			}
+		}
+		StringBuilder sb = new StringBuilder();
+		for (char[] ds : charArr) {
+			String temp2 = "";
+			for (char ds2 : ds) {
+				String temp = "";
+				for(int i = 0; i < ZC; i++) {
+					temp += ds2;
+				}
+				sb.append(temp);
+				temp2 += temp;
+			}
+			sb.append("\n");
+			for(int i = 1; i < ZR; i++) {
+				sb.append(temp2);
+			}
+			if(ZR > 1) {
+				sb.append("\n");
+			}
+		}
+		
+		System.out.print(sb.deleteCharAt(sb.length()-1));
 	}
 	
 	// 
