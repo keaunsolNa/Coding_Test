@@ -14,7 +14,7 @@ import java.util.TreeMap;
 public class StringPlus16 {
 	
 	public static void main(String[] args) throws IOException {
-		test08();
+		test10();
 	}
 
 	// 복호화
@@ -224,55 +224,71 @@ public class StringPlus16 {
 	// 스캐너
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		int R = Integer.parseInt(st.nextToken());
-		int C = Integer.parseInt(st.nextToken());
-		int ZR = Integer.parseInt(st.nextToken());
-		int ZC = Integer.parseInt(st.nextToken());
+
+		List<String> list = new ArrayList<>();
+		String[] strArr = br.readLine().split(" ");
+		int[] arr = new int[strArr.length];
+
+		for (int i = 0; i < arr.length; i++) arr[i] = Integer.parseInt(strArr[i]);
+
+		String input = "";
+
+		while ((input = br.readLine()) != null) {
+			String book = input;
+			if (book == "") break;
+			list.add(book);
+		}
 		
-		char[][] charArr = new char[R][C];
-		
-		for(int i = 0; i < R; i++) {
-			String temp = br.readLine();
+		int x = arr[1] * arr[3] / list.get(0).length();
+		int y = arr[0] * arr[2] / list.size();
+
+		for (int i = 0; i < list.size(); i++) { 
+			String str = "";
 			
-			for(int j = 0; j < temp.length(); j++) {
-				charArr[i][j] = temp.charAt(j);
+			for (int j = 0; j < list.get(0).length(); j++) {
+				
+				for (int k = 0; k < x; k++)
+					str += list.get(i).charAt(j);
+			}
+			
+			for (int k = 0; k < y; k++) {
+				System.out.print(str);
+				if (k != y || k != 0) 
+					System.out.println();
 			}
 		}
-		StringBuilder sb = new StringBuilder();
-		for (char[] ds : charArr) {
-			String temp2 = "";
-			for (char ds2 : ds) {
-				String temp = "";
-				for(int i = 0; i < ZC; i++) {
-					temp += ds2;
-				}
-				sb.append(temp);
-				temp2 += temp;
-			}
-			sb.append("\n");
-			for(int i = 1; i < ZR; i++) {
-				sb.append(temp2);
-			}
-			if(ZR > 1) {
-				sb.append("\n");
-			}
-		}
-		
-		System.out.print(sb.deleteCharAt(sb.length()-1));
 	}
 	
-	// 
+	// 나는 친구가 적다 (Small)
 	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
+		String input = br.readLine().replaceAll("[0-9]", "");
+		String K = br.readLine();
 		
+		if(input.contains(K)) {
+			System.out.println(1);
+		} else {
+			System.out.println(0);
+		}
 	}
 	
 
-    // 
+    // 행복한지 슬픈지
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String input = br.readLine();
+		String[] happy = input.split(":-\\)");
+		String[] unHappy = input.split(":-\\(");
+		
+		if(happy.length == 1 && unHappy.length == 1) {
+			System.out.println("none");
+		} else if(happy.length > unHappy.length) {
+			System.out.println("happy");
+		} else if(happy.length < unHappy.length) {
+			System.out.println("sad");
+		} else if(happy.length == unHappy.length) {
+			System.out.println("unsure");
+		}
 		
 	}
 	
