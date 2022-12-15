@@ -18,7 +18,7 @@ import java.util.TreeMap;
 public class Sort04 {
 	
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 	
 	// 수 정렬하기 4
@@ -229,31 +229,133 @@ public class Sort04 {
         
 	}
 	
-	// 
+	// 스텔라(STELLA)가 치킨을 선물했어요
 	public static void test07() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
+		StringTokenizer st;
+		int N = Integer.parseInt(br.readLine());
+		ArrayList<STELLA> list = new ArrayList<>();
+		
+		for(int i = 0; i < N; i++) {
+			st = new StringTokenizer(br.readLine(), " ");
+			int clear = Integer.parseInt(st.nextToken());
+			int penalty = Integer.parseInt(st.nextToken());
+			list.add(new STELLA(clear, penalty));
+		}
 
+		Collections.sort(list);
+		STELLA fifth = list.get(4);
+        int answer = 0;
+        
+		for(int i = 5; i < list.size(); i++	) {
+			
+			STELLA now = list.get(i);
+            
+            if (fifth.clear == now.clear)
+                answer++;
+            else break;
+		}
+		
+		System.out.println(answer);
 	}
 	
-	// 
+	static class STELLA implements Comparable<STELLA>{
+		int clear, penalty;
+		
+		public STELLA(int clear, int penalty) {
+			this.clear = clear;
+			this.penalty = penalty;
+		}
+		
+        @Override
+        public int compareTo(STELLA p) {
+            return this.clear == p.clear ? this.penalty - p.penalty : p.clear - this.clear;
+        }
+		
+	}
+	
+	// Complexity
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		String input = br.readLine();
+		Set<Character> set = new HashSet<>();
+		for(int i = 0; i < input.length(); i++) {
+			set.add(input.charAt(i));
+		}
+		
+		if(set.size() > 3) {
+			System.out.println(set.size() - 2);
+		} else if(set.size() > 2) {
+			System.out.println(1);
+		} else {
+			System.out.println(0);
+		}
+		
 	}
 	
-	//
+	// 서든어택 3
 	public static void test09() throws NumberFormatException, IOException {
 		
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
+        int T = Integer.parseInt(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        
+        int target = Integer.parseInt(st.nextToken());
+        int[] arr = new int[T-1];
+        for(int i = 0; i < T-1; i++) {
+        	arr[i] = Integer.parseInt(st.nextToken());
+        }
+        
+        Arrays.sort(arr);
+        boolean win = true;
+        
+        for (int i : arr) {
+        	if(target > i) {
+        		target += i;
+        	} else {
+        		win = false;
+        		break;
+        	}
+		}
+        
+        if(win) {	
+        	System.out.print("Yes");
+        } else {
+        	System.out.print("No");
+        }
+        		
 	}
 	
-	// 
+	// 제 2회 IUPC는 잘 개최될 수 있을까?
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
+		int N = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
+		int M = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
 		
+		st = new StringTokenizer(br.readLine(), " ");
+		Integer[] pen = new Integer[N];
+		for(int i = 0; i < N; i++) {
+			pen[i] = Integer.parseInt(st.nextToken());
+		}
+		
+		Arrays.sort(pen, Comparator.reverseOrder());
+		
+		int needPen = M * K;
+		int idx = 0;
+		while(needPen > 0) {
+			
+			if(idx >= pen.length) break;
+			needPen -= pen[idx];
+			idx++;
+		}
+		
+		if(needPen > 0) 
+			System.out.println("STRESS");
+		else 
+			System.out.println(idx);
 	}
 	
 	
