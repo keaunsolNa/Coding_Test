@@ -3,14 +3,16 @@ package baekjoon_String;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.StringTokenizer;
 
 public class StringPlus17 {
 	
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 
 	// 문서 검색
@@ -209,6 +211,18 @@ public class StringPlus17 {
         			sb.append("Error!");
         			break;
         		} else if((int)input.charAt(i) == '_') {
+        			if(i == input.length()-1) {
+        				sb.setLength(0);
+        				sb.append("Error!");
+        				break;
+        			}
+        			
+        			if((int)input.charAt(i+1) == '_') {
+        				sb.setLength(0);
+        				sb.append("Error!");
+        				break;
+        			}
+        			
         			i++;
         			flag = true;
         		} else {
@@ -235,7 +249,7 @@ public class StringPlus17 {
         	}
         }
         
-        System.out.println(sb);
+        System.out.print(sb);
 	}
 	
     public static long countArrChar(String str, String[] ch) {
@@ -251,23 +265,94 @@ public class StringPlus17 {
     	return temp;
     }
 	
-	// 
+	// I Speak TXTMSG
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
+		
+		Map<String, String> textMap = new HashMap<>();
+		textMap.put("CU", "see you");
+		textMap.put(":-)", "I'm happy");
+		textMap.put(":-(", "I'm unhappy");
+		textMap.put(";-)", "wink");
+		textMap.put(":-P", "stick out my tongue");
+		textMap.put("(~.~)", "sleepy");
+		textMap.put("TA", "totally awesome");
+		textMap.put("CCC", "Canadian Computing Competition");
+		textMap.put("CUZ", "because");
+		textMap.put("TY", "thank-you");
+		textMap.put("YW", "you're welcome");
+		textMap.put("TTYL", "talk to you later");
+		
+		String input = "";
+		while(true) {
+			input = br.readLine();
+			if(input.equals("TTYL")) {
+				System.out.println(textMap.get(input));
+				break;
+			} else {
+				
+				if(textMap.containsKey(input)) {
+					System.out.println(textMap.get(input));
+				} else {
+					System.out.println(input);
+				}
+			}
+		}
+		
 	}
 	
-	// 
+	// 자석 체인
 	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	}
-	
-
-    // 
-	public static void test10() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		
 		String input = br.readLine();
 		
+		boolean flag = true;
+		
+		for(int i = 1; i < input.length() - 1; i += 2) {
+			if(input.charAt(i) == input.charAt(i+1)) {
+				flag = false;
+				break;
+			}
+		}
+
+
+		if(flag) {
+			System.out.println("Yes");
+		} else {
+			System.out.println("No");
+		}
+	}
+	
+    // 야바위 대장
+	public static void test10() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		String input = br.readLine();
+		List<Character> list = new ArrayList<>();
+		
+		for(int i = 0; i < input.length(); i++) {
+			list.add(input.charAt(i));
+		}
+		
+		int T = Integer.parseInt(br.readLine());
+
+		for(int i = 0; i < T; i++) {
+			st = new StringTokenizer(br.readLine(), " ");
+			
+			int A = Integer.parseInt(st.nextToken());
+			int B = Integer.parseInt(st.nextToken());
+			char AC = list.get(A);
+			char BC = list.get(B);
+			list.set(A, BC);
+			list.set(B, AC);
+			
+		}
+		
+		for (Character character : list) {
+			System.out.print(character);
+		}
 	}
 	
 	
