@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-public class Test12_SetAndMap {
+public class Test13_SetAndMap {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		test07();

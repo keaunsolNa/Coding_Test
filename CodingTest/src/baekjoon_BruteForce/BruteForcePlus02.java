@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-public class BruteForcePlus2 {
+public class BruteForcePlus02 {
 	
 	public static void main(String[] args) throws IOException {
 		test10();

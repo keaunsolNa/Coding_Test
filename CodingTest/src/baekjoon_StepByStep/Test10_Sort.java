@@ -15,7 +15,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-public class Test09_Sort {
+public class Test10_Sort {
 
 	// 수 정렬하기
 	public static void test01() {

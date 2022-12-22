@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-public class Test14_NumberTheoryAndCombinatorics {
+public class Test15_NumberTheoryAndCombinatorics {
 
 	static int[][] dp;
 	public static void main(String[] args) throws NumberFormatException, IOException {

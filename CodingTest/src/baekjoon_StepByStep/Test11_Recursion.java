@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Test10_Recursion {
+public class Test11_Recursion {
 	private static int round = 0;
 	private static int K;
 	private static int answer = -1;

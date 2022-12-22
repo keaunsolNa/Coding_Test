@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Test11_BruteForce {
+public class Test12_BruteForce {
 	private static boolean[] visit;
 	private static int sumNumber = 0;
 	private static int[] result = new int[3];
