@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class Implement19 {
 
 	public static void main(String[] args) throws IOException {
-		test10();
+		test03();
 	}
 	
 	// 아이 러브 크로아티아 
