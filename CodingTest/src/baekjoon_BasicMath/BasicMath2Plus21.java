@@ -174,7 +174,7 @@ public class BasicMath2Plus21 {
 	   System.out.println(sb);
    }
    
-   // 
+   // Hurra!
    public static void test10() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringBuilder sb = new StringBuilder();
@@ -182,7 +182,7 @@ public class BasicMath2Plus21 {
 	   
 	   for(int i = 1; i <= T; i++) {
 		   
-		   if(i % 7 == 0 && i % 11 == 0) sb.append("Cheers!").append("\n");
+		   if(i % 7 == 0 && i % 11 == 0) sb.append("Wiwat!").append("\n");
 		   else if(i % 7 == 0) sb.append("Hurra!").append("\n");
 		   else if(i % 11 == 0)  sb.append("Super!").append("\n");
 		   else sb.append(i).append("\n");
