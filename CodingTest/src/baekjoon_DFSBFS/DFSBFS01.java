@@ -17,7 +17,7 @@ public class DFSBFS01 {
     private static int[] visted;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test07();
+		test09();
 	}
 	
 	// 바이러스
@@ -314,7 +314,6 @@ public class DFSBFS01 {
 		System.out.println(sum);
 	}
 
-	
 	// 알고리즘 수업 - 깊이 우선 탐색 DFS Method
     public static void dfs4(int x, boolean []visited, int dep) {
 		if(graph3[x].size() == 0) return;
@@ -369,17 +368,95 @@ public class DFSBFS01 {
 		
 	}
 
-	// 
+	// 연결 요소의 개수
+	private static int N9;
+	private static int M9;
+	private static boolean[][] graph9 = new boolean[1001][1001];
+	private static boolean[] visited9 = new boolean[1001];
 	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        
-	}
-
-	//
-	public static void test10() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
 		
+		st = new StringTokenizer(br.readLine(), " ");
+		N9 = Integer.parseInt(st.nextToken());
+		M9 = Integer.parseInt(st.nextToken());
+		
+		int a;
+		int b;
+		
+		for(int i = 0; i < M9; i++) {
+			st = new StringTokenizer(br.readLine(), " ");
+			a = Integer.parseInt(st.nextToken());
+			b = Integer.parseInt(st.nextToken());
+			
+			graph9[a][b] = graph9[b][a] = true;
+		}
+        
+		int result = 0 ;
+		
+		for(int i = 1; i <= N9; i++) {
+			if(visited9[i] == false) { 
+				dfs9(i);
+				result++;
+			}
+		}
+		
+		System.out.println(result);
+	}
+	
+	private static void dfs9(int index) {
+		if(visited9[index]) return;
+		else {
+			visited9[index] = true;
+			for(int i = 1; i <= N9; i++) if(graph9[index][i]) dfs9(i);
+		}
+	}
+	
+	
+    
+	// 숨바꼭질
+	public static void test10() throws NumberFormatException, IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int k = Integer.parseInt(st.nextToken());
+        
+        if (n == k) {
+            System.out.println(0);
+            return;
+        }
+        
+        boolean[] visited = new boolean[100001];
+        visited[n] = true;
+        Queue<Integer> q = new LinkedList<>();
+        q.add(n);
+        int size = q.size();
+        int count = 0;
+        
+        while (true) {
+            count++;
+            size = q.size();
+            for (int i = 0; i < size; i++) {
+                int x = q.remove();
+                visited[x] = true;
+                if (x-1 == k || x+1 == k || x*2 == k) {
+                    System.out.println(count);
+                    return;
+                }
+                if (x-1 >= 0 && !visited[x-1]) {
+                    visited[x-1] = true;
+                    q.add(x-1);
+                }
+                if (x+1 <= 100000 && !visited[x+1]) {
+                    visited[x+1] = true;
+                    q.add(x+1);
+                }
+                if (x*2 <= 100000 && !visited[x*2]) {
+                    visited[x*2] = true;
+                    q.add(x*2);
+                }
+            }
+        }
 	}
 
 
