@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class Implement20 {
 
 	public static void main(String[] args) throws IOException {
-		test05();
+		test10();
 	}
 	
 	// Quadrilateral 
@@ -89,47 +89,103 @@ public class Implement20 {
 		System.out.print(sb);
 	}
 	
-	// 
+	// H4x0r 
 	public static void test05() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());	
-				
+		StringBuilder sb = new StringBuilder();
+		String input = br.readLine();
 		
+		for(int i = 0; i < input.length(); i++) {
+			
+			switch(input.charAt(i)) {
+				case 'a' : sb.append(4); break;
+				case 'e' : sb.append(3); break;
+				case 'i' : sb.append(1); break;
+				case 'o' : sb.append(0); break;
+				case 's' : sb.append(5); break;
+				default : sb.append(input.charAt(i));
+			}
+		}
+		
+		System.out.print(sb);
 	}
 	
-	// 
+	
+	// 쌍의 합
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
 		int T = Integer.parseInt(br.readLine());
 		
+		while(T --> 0) {
+			int input = Integer.parseInt(br.readLine());
+			
+			sb.append("Pairs for ").append(input).append(": ");
+			boolean flag = false;
+			for(int i = 1; i <= input; i++) {
+				
+				for(int j = i + 1; j <=input; j++) {
+					
+					if(i + j == input) {
+						
+						if(flag) sb.append(", ");
+						sb.append(i + " " + j);
+						if(!flag) flag = true;
+					}
+				}
+			}
+			
+			sb.append("\n");
+		}
 		
+		System.out.println(sb);
 	}
 	
-	// 
+	// 골뱅이 찍기 - ㄴ
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
+		StringBuilder sb = new StringBuilder();
+		int N = Integer.parseInt(br.readLine());
 		
+		for(int j = 0; j < N*5; j++) {
+			
+			for(int i = 0; i < N; i++) sb.append("@");
+			
+			if(j >= N*4) for(int i  = 0; i < N*4; i++) sb.append("@");
+			
+			sb.append("\n");
+			
+		}
+		
+		
+		System.out.println(sb);
 	}
 	
-	// 
+	// 알고리즘 수업 - 알고리즘의 수행 시간 3 
 	public static void test08() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        Long N = Long.parseLong(br.readLine());
+        
+        System.out.println(N*N);
+        System.out.println(2);
 	}
 	
-	//
+	// 알고리즘 수업 - 알고리즘의 수행 시간 5
 	public static void test09() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        Long N = Long.parseLong(br.readLine());
+        
+        System.out.println(N*N*N);
+        System.out.println(3);
 	}
 	
-	// 
+	// 알고리즘 수업 - 알고리즘의 수행 시간 6
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		Long N = Long.parseLong(br.readLine());
+		
+		System.out.println(((N - 2) * (N - 1) * (2 * N - 3) + 3 * (N - 1) * (N - 2)) / 12);
+		System.out.println(3);
 	}
 	
 	
