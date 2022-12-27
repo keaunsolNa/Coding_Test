@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class DynamicProgramming03 {
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 	
 	// 연속부분최대곱
@@ -186,25 +186,76 @@ public class DynamicProgramming03 {
         		
 	}
 
-	// 
+	// 2×n 타일링 2
 	public static void test08() throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		String input = "";
+		int N = Integer.parseInt(br.readLine());
+		int[] dp = new int[1001];
+		dp[1] = 1;
+		dp[2] = 3;
+		for(int i = 3; i <= N; i++) dp[i] = (dp[i - 1] + 2 * dp[i - 2]) % 10007;
+		
+		System.out.println(dp[N]);
 			
 	}
 
-	// 
+	// 알고리즘 수업 - 행렬 경로 문제 1
 	public static void test09() throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
 		int n = Integer.parseInt(br.readLine());
+		int[][] map = new int[n+1][n+1];
+		int[][] dp = new int[31][31];
 		
+		for(int i = 1; i <= n; i++) {
+		
+			st = new StringTokenizer(br.readLine(), " ");
+			for(int j = 1; j <= n; j++) map[i][j] = Integer.parseInt(st.nextToken());
+			
+		}
+		
+		for(int i = 0; i < 31; i++) {
+			dp[i][0] = 1;
+			dp[i][i] = 1;
+		}
+		
+		for(int i = 2; i < 31; i++) {
+			for(int j = 1; j < i; j++) dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j];
+		}
+		
+		System.out.println(2 * dp[2 * n - 1][n] + " " + n * n);
 		
 	}
+	
 
-	// 
+	// 연속합
+	private static Integer[] dp;
+	private static int max;
+	private static int[] arr;
 	public static void test10() throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int K = Integer.parseInt(br.readLine());
+		int n = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		arr = new int[n];
+		dp = new Integer[n];
+		
+		for(int i = 0; i < n; i++) arr[i] = Integer.parseInt(st.nextToken());
+		dp[0] = arr[0];
+		max = arr[0];
+		
+		recursion(n - 1);
+		
+		System.out.println(max);
+	}
+	
+	private static int recursion(int n) {
+		
+		if(dp[n] == null) {
+			dp[n] = Math.max(recursion(n - 1) + arr[n], arr[n]);
+ 
+			max = Math.max(dp[n], max);
+		}
+		
+		return dp[n];
 	}
 }
