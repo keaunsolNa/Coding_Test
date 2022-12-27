@@ -110,7 +110,6 @@ public class Implement20 {
 		System.out.print(sb);
 	}
 	
-	
 	// 쌍의 합
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -187,6 +186,5 @@ public class Implement20 {
 		System.out.println(((N - 2) * (N - 1) * (2 * N - 3) + 3 * (N - 1) * (N - 2)) / 12);
 		System.out.println(3);
 	}
-	
 	
 }
