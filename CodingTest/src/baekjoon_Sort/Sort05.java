@@ -3,14 +3,16 @@ package baekjoon_Sort;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class Sort05 {
 	
 	public static void main(String[] args) throws IOException {
-		test06();
+		test10();
 	}
 	
 	// 점수 계산
@@ -250,25 +252,98 @@ public class Sort05 {
 		System.out.println(sb);
 	}
 	
-	// 
+	// 중간고사 채점
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String input = br.readLine();
+		StringTokenizer st;
 		
+		st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		int[] arr = new int[N];
+		
+		st = new StringTokenizer(br.readLine());
+		for(int i = 0; i < N; i++) arr[i] = Integer.parseInt(st.nextToken());
+		
+		int winner = 0;
+		int maxPoint = Integer.MIN_VALUE;
+		for(int i = 1; i <= M ; i ++) {
+			st = new StringTokenizer(br.readLine());
+			int stuNumber = Integer.parseInt(st.nextToken());
+			int sumPoint = 0;
+			
+			for(int j = 0; j < N; j++) {
+				String answer = st.nextToken();
+				if(answer.equals("O")) sumPoint += arr[j];
+			}
+
+			
+			if(sumPoint > maxPoint) {
+				maxPoint = sumPoint;
+				winner = stuNumber;
+			}
+			
+			if(sumPoint == maxPoint) {
+				if(winner > stuNumber) winner = stuNumber;
+			}
+		}
+		
+		System.out.println(winner + " " + maxPoint);
 	}
 	
-	// 
+	// This Problem’s a Slam Dunk 
 	public static void test09() throws NumberFormatException, IOException {
-		
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine());
-        		
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        
+        int[] A = new int[5];
+        for(int i = 0; i < 5; i++) A[i] = Integer.parseInt(st.nextToken());
+        
+        st = new StringTokenizer(br.readLine());
+        int[] B = new int[5];
+        for(int i = 0; i < 5; i++) B[i] = Integer.parseInt(st.nextToken());
+        
+        Arrays.sort(A);
+        Arrays.sort(B);
+        
+        int cnt = 0;
+        for(int i = 0; i < 5; i++) if(A[i] > B[i]) cnt++;
+        System.out.println(cnt);
 	}
 	
-	//
+	// 단어 나누기
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
+
+		String input = br.readLine();
+		String[] strArr = new String[3];
+		List<String> list = new ArrayList<>();
+		for(int i = 1; i < input.length(); i++) {
+			
+			for(int j = i + 1; j < input.length(); j++) {
+				
+				strArr[0] = input.substring(0, i);
+				strArr[1] = input.substring(i, j);
+				strArr[2] = input.substring(j, input.length());
+				
+				StringBuilder sb = new StringBuilder();
+				
+				for(int k = 0; k < 3; k++) {
+					for(int q = strArr[k].length() - 1; q >= 0; q--) {
+						sb.append(Character.toString(strArr[k].charAt(q)));
+					}
+				}
+				
+				list.add(sb.toString());
+				
+				sb.setLength(0);
+			}
+		}
+		
+		Collections.sort(list);
+		
+		System.out.println(list.get(0));
 	}
 	
 	
