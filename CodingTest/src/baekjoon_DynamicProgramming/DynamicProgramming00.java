@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class DynamicProgramming00 {
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 	
 	// 알고리즘 수업 - 피보나치 수 1 
@@ -277,10 +277,33 @@ public class DynamicProgramming00 {
 	// 쉬운 계단 수
 	public static void test10() throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		int[] nums = new int[11];
+		int N = Integer.parseInt(br.readLine());
+		final long mod = 1000000000;
 		
+		long[][] dp = new long[N + 1][10];
+		for(int i = 1; i < 10; i++) dp[1][i] = 1; 
+		
+		for(int i = 2; i <= N; i++) {
+			
+			for(int j = 0; j < 10; j++) {
+				
+				if(j == 0) dp[i][0] = dp[i - 1][1] % mod;
+				
+				else if (j == 9) dp[i][9] = dp[i - 1][8] % mod;
+				
+				else dp[i][j] = (dp[i - 1][j - 1] + dp[i - 1][j + 1]) % mod;
+				
+			}
+		}
+		
+		long result = 0;
+		
+		for(int i = 0; i < 10; i++) result += dp[N][i];
+		
+		System.out.println(result % mod);
 	}
+	
+	
 	
 	// 
 	public static void test11() throws IOException{
