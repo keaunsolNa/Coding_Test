@@ -3,7 +3,6 @@ package baekjoon_BasicMath;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
