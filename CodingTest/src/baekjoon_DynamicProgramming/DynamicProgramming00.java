@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class DynamicProgramming00 {
 	public static void main(String[] args) throws IOException {
-		test10();
+		test11();
 	}
 	
 	// 알고리즘 수업 - 피보나치 수 1 
@@ -267,9 +267,9 @@ public class DynamicProgramming00 {
 	// 1로 만들기 재귀 Method
     private static int recursion(int N, int count) {
 		 
-		if (N < 2) {
+		if (N < 2) 
 			return count;
-		}
+		
 		return Math.min(recursion(N / 2, count + 1 + (N % 2)), 
 						recursion(N / 3, count + 1 + (N % 3)));
 	}
@@ -303,18 +303,41 @@ public class DynamicProgramming00 {
 		System.out.println(result % mod);
 	}
 	
-	
-	
-	// 
+	// 포도주 시식
+	private static Integer[] wine;
+	private static Integer[] point2;
 	public static void test11() throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		int[] nums = new int[11];
+		int n = Integer.parseInt(br.readLine());
+		wine = new Integer[n + 1];
+		point2 = new Integer[n + 1];
+		for(int i = 1; i < n + 1; i++) wine[i] = Integer.parseInt(br.readLine());
 		
+		point2[0] = 0;
+		point2[1] = wine[1];
+		
+		if(n >= 2) point2[2] = wine[1] + wine[2];
+		
+		System.out.println(getPointer(n));
+	}
+	
+	private static int getPointer(int n) {
+		
+		if(point2[n] == null) point2[n] = Math.max(Math.max(getPointer(n - 2), 
+														  getPointer(n - 3) + wine[n - 1]) + wine[n], 
+														  getPointer(n - 1));
+		return point2[n];
 	}
 
-	// 
-	public static void test12() throws IOException{
+	// 가장 긴 증가하는 부분 수열
+	public static void test12() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
+
+	}
+	
+	public static void test13() throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(br.readLine());
 		int[] nums = new int[11];
