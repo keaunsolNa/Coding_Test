@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class StringPlus25 {
 	
 	public static void main(String[] args) throws IOException {
-		test05();
+		test10();
 	}
 
 	// Numbersrebmun 
@@ -178,35 +178,143 @@ public class StringPlus25 {
         
 	}
 	
-    // 
+    // Reverse Words (Large) 
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
 		StringBuilder sb = new StringBuilder();
-    }
+		int T = Integer.parseInt(br.readLine());
+		
+		for(int i = 0; i < T; i++) {
+			sb.append("Case #").append(i+1).append(": ");
+			
+			String[] text = br.readLine().split(" ");
+			
+			for(int j = text.length - 1; j >= 0; j--) sb.append(text[j] + " ");
+			
+			sb.deleteCharAt(sb.length() - 1);
+			sb.append("\n");
+		}
+		
+		sb.deleteCharAt(sb.length() - 1);
+		System.out.print(sb);
+		
+	}
 
-	//
+	// Centauri Prime (Small2)
 	public static void test07() throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input = "";
+        StringBuilder sb = new StringBuilder();
+        int T = Integer.parseInt(br.readLine());
+        
+        for(int i = 0; i < T; i++) {
+        	
+        	String input = br.readLine();
+        	sb.append("Case #").append(i + 1).append(": ").append(input).append(" is ruled by ");
+        	char last = input.toLowerCase().charAt(input.length() - 1);
+        	switch(input.toLowerCase().charAt(input.length() - 1)) {
+
+        		case 'y' : sb.append("nobody."); break;
+        		case 'a' : sb.append("a queen."); break;
+        		case 'e' : sb.append("a queen."); break;
+        		case 'i' : sb.append("a queen."); break;
+        		case 'o' : sb.append("a queen."); break;
+        		case 'u' : sb.append("a queen."); break;
+        		default : sb.append("a king."); break;
+        	}
+        	
+        	sb.append("\n");
+        }
+        
+        sb.deleteCharAt(sb.length() - 1);
+        
+        System.out.print(sb);
 	}
 	
-	// 
+	// Coin tossing
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
+		String input = "";
+		
+		while(!(input = br.readLine()).equals("# #")) {
+			String one = input.split(" ")[0];
+			String two = input.split(" ")[1];
+			
+			int T = Integer.parseInt(br.readLine());
+			
+			int win = 0;
+			for(int i = 0; i < T; i++) {
+				st = new StringTokenizer(br.readLine());
+				String guess = st.nextToken();
+				String answer = st.nextToken();
+				
+				if(guess.equals(answer)) win++;
+			}
+			
+			sb.append(one + " " + win + " " + two + " " + (T - win) + "\n");
+		}
+		
+		sb.deleteCharAt(sb.length() - 1);
+		System.out.print(sb);
 	}
 	
-	// 
+	// Counting Sheep
 	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
+		
+		int T = Integer.parseInt(br.readLine());
+		
+		for(int i = 0; i < T; i++) {
+			int N = Integer.parseInt(br.readLine());
+			
+			
+			st = new StringTokenizer(br.readLine());
+			int sheep = 0;
+			for(int j = 0; j < N; j++) {
+				String target = st.nextToken();
+				if(target.equals("sheep")) sheep++;
+			}
+			
+			sb.append("Case " + (i + 1) + ": This list contains " + sheep + " sheep." + "\n" + "\n");
+		}
+		
+		sb.deleteCharAt(sb.length() - 1);
+		sb.deleteCharAt(sb.length() - 1);
+		System.out.print(sb);
 	}
 	
-    //
+    // Palindromes 
 	public static void test10() throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input01 = br.readLine();
+        StringBuilder sb = new StringBuilder();
+        String input = "";
+        
+        while(!(input = br.readLine()).equals("#")) {
+        	
+        	boolean chk = true;
+        	for(int i = 0; i < input.length(); i++) {
+        		
+        		String text = new StringBuilder(input).deleteCharAt(i).toString();
+        		String reverse = new StringBuilder(text).reverse().toString();
+
+        		if(text.equals(reverse)) {
+        			sb.append(reverse);
+        			chk = false;
+        			break;
+        		}
+        		
+        	}
+        	
+        	if(chk)sb.append("not possible");
+        	sb.append("\n");
+        	
+        }
+        
+        sb.deleteCharAt(sb.length() - 1);
+        System.out.print(sb);
 	}
 	
 }
