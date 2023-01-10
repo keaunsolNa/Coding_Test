@@ -1,15 +1,15 @@
 package baekjoon_DynamicProgramming;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class DynamicProgramming00 {
 	public static void main(String[] args) throws IOException {
-		test13();
+		test15();
 	}
 	
 	// 알고리즘 수업 - 피보나치 수 1 
@@ -401,6 +401,82 @@ public class DynamicProgramming00 {
 		return dp5[n];
 	}
 	
+	//전깃줄
+	private static Integer[] dp6;
+	private static int[][] wire;
+	public static void test14() throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		int N = Integer.parseInt(br.readLine());
+		
+		wire = new int[N][2];
+		dp6 = new Integer[N];
+		
+		for(int i = 0; i < N; i++) {
+			st = new StringTokenizer(br.readLine());
+			wire[i][0] = Integer.parseInt(st.nextToken());
+			wire[i][1] = Integer.parseInt(st.nextToken());
+		}
+		
+		Arrays.sort(wire, new Comparator<int[]>() {
+			
+			@Override
+			public int compare(int[] o1, int[] o2) {
+				return o1[0] - o2[0];
+			}
+ 
+		});
+		
+		int max = 0;
+		for(int i = 0; i < N; i++) max = Math.max(max, lts2(i));
+		
+		
+		System.out.println(N - max);
+		
+		
+	}
+	
+	private static int lts2 (int n) {
+		
+		if(dp6[n] == null) {
+			dp6[n] = 1;
+			
+			for(int i = n + 1; i < dp6.length; i++) {
+				if(wire[n][1] < wire[i][1]) dp6[n] = Math.max(dp6[n], lts2(i) + 1);
+			}
+		}
+		
+		return dp6[n];
+	}
+	
+	// LCS
+	private static Integer[][] dp7;
+	private static char[] word;
+	private static char[] word2;
+	public static void test15() throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		word = br.readLine().toCharArray();
+		word2 = br.readLine().toCharArray();
+		
+		dp7 = new Integer[word.length][word2.length];
+
+		System.out.println(lcs(word.length - 1, word2.length - 1));
+		
+	}
+	
+	private static int lcs(int x, int y) {
+		if(x == -1 || y == -1) return 0;
+ 
+		if(dp7[x][y] == null) {
+			dp7[x][y] = 0;
+ 
+			if(word[x] == word2[y]) dp7[x][y] = lcs(x - 1, y - 1) + 1;
+ 
+			else dp7[x][y] = Math.max(lcs(x - 1, y), lcs(x, y - 1));
+		}
+		
+		return dp7[x][y];
+	}
 	
 	
 }
