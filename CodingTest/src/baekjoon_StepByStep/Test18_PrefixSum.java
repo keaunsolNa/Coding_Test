@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class Test18_PrefixSum {
 
 	public static void main(String[] args) throws IOException {
-		test03();
+		test04();
 	}
 	
 	// 구간 합 구하기 4
@@ -123,6 +123,22 @@ public class Test18_PrefixSum {
 	// 나머지 합
 	public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		int[] arr = new int[M];
+		
+		int sum = 0;
+		st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < N; i++) {
+            sum = (sum + Integer.parseInt(st.nextToken())) % M;
+            arr[sum]++;
+        }		
+        
+        long ans = arr[0];
+        for (int i = 0; i < M; i++) ans += (long) arr[i] * (arr[i] - 1) / 2;
+        System.out.println(ans);
 	}
 	
 	public static void test05() throws IOException {
