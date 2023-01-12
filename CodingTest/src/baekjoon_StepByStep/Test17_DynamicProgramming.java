@@ -1,4 +1,4 @@
-package baekjoon_DynamicProgramming;
+package baekjoon_StepByStep;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-public class DynamicProgramming00 {
+public class Test17_DynamicProgramming {
 	public static void main(String[] args) throws IOException {
 		test16();
 	}

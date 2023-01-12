@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class BasicMath2Plus28 {
 
    public static void main(String[] args) throws IOException {
-      test05();
+      test10();
    }
    
    // Ahmed Aly 
@@ -143,38 +143,110 @@ public class BasicMath2Plus28 {
 	   
    }
    
-   // 
+   // Viva la Diferencia
    public static void test06() throws IOException {
        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
        StringTokenizer st;
        String input = "";
        
-
+       while(!(input = br.readLine()).equals("0 0 0 0")) {
+    	   st = new StringTokenizer(input);
+    	   int A = Integer.parseInt(st.nextToken());
+    	   int B = Integer.parseInt(st.nextToken());
+    	   int C = Integer.parseInt(st.nextToken());
+    	   int D = Integer.parseInt(st.nextToken());
+    	   
+    	   int cnt = 0;
+    	   
+    	   while(!(A == B && B == C && C == D)) {
+    		   int temp = A;
+    		   A = Math.abs(A - B);
+    		   B = Math.abs(B - C);
+    		   C = Math.abs(C - D);
+    		   D = Math.abs(D - temp);
+    		   cnt++;
+    	   }
+    	   
+    	   System.out.println(cnt);
+       }
    }
    
-   // 
+   // 루트
    public static void test07() throws IOException {
        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-       StringTokenizer st = new StringTokenizer(br.readLine());
+       StringTokenizer st;
+       
+       int B;
+       int N;
+       while (true) {
+    	   
+    	   st = new StringTokenizer(br.readLine());
+           B = Integer.parseInt(st.nextToken());
+           N = Integer.parseInt(st.nextToken());
+           if (B == 0 && N == 0) break;
+
+           int i = 0;
+           
+           while (Math.pow(i, N) < B) i++;
+           
+           int i_N = (int) Math.pow(i, N);
+           int i_1_N = (int) Math.pow(i - 1, N);
+           System.out.println((i_N - B < B - i_1_N) ? i : i - 1);
+
+       }
        
    }
    
-   // 
+   // Bedtime Reading, I
    public static void test08() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringTokenizer st = new StringTokenizer(br.readLine());
+	   int I = Integer.parseInt(br.readLine());
+	   
+	   long sum = 0;
+	   for(int i = 1; i <= I; i++) 
+		   if(I % i == 0) sum += i;
+	   
+	   System.out.println(sum);
    }
    
-   // 
+   // What is n, Daddy?
    public static void test09() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringTokenizer st = new StringTokenizer(br.readLine());
+	   int N = Integer.parseInt(br.readLine());
+	   
+	   int cnt = 0;
+	   for(int i = 0; i <= 5; i++) {
+		   
+		   for(int j = i; j <= 5; j++) {
+			   
+			   if(i + j == N) {
+				   cnt++;
+			   }
+		   }
+	   }
+	   
+	   System.out.println(cnt);
    }
    
-   // 
+   // Tax 
    public static void test10() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   int T = Integer.parseInt(br.readLine());
+	   StringBuilder sb = new StringBuilder();
+	   double input = -1;
+	   
+	   while((input = Integer.parseInt(br.readLine())) != 0) {
+		   if(input <= 1000000) {
+			   sb.append((int)input + "\n");
+		   } else if(input <= 5000000) {
+			   sb.append((int)(input - (input * 10.0 / 100.0))).append("\n");
+		   } else {
+			   sb.append((int)(input - (input * 20.0 / 100.0))).append("\n");
+		   }
+	   }
+
+	   sb.deleteCharAt(sb.length() - 1);
+	   System.out.print(sb);
+	   
 	   
    }
 }
