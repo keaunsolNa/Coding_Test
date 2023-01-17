@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class Implement32 {
 
 	public static void main(String[] args) throws IOException {
-		test05();
+		test10();
 	}
 	
 	// Handebol
@@ -39,7 +39,6 @@ public class Implement32 {
 		System.out.println(ans);
 	}
 
-	
 	// Гостиница 
 	public static void test02() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -135,7 +134,7 @@ public class Implement32 {
 		
 	}
 	
-	// 
+	// Practice: Roll Call
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
@@ -143,21 +142,41 @@ public class Implement32 {
 		
 		int T = Integer.parseInt(br.readLine());
 		
+		for(int i = 0; i < T; i++) {
+			
+			String A = br.readLine();
+			String B = br.readLine();
+			
+			sb.append("Case " + (i + 1)+": " + B + ", " + A + "\n");
+		}
+		
+		sb.deleteCharAt(sb.length() - 1);
+		System.out.print(sb);
 	}
 	
-	
-	// 
+	// License to Launch
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
 		
 		int T = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
+		int min = Integer.MAX_VALUE;
+		int idx = 0;
+		for(int i = 0; i < T; i++) {
+			int temp = Integer.parseInt(st.nextToken());
+
+			if(temp < min) {
+				min = temp;
+				idx = i;
+			}
+		}
+		
+		System.out.println(idx);
 	}
 	
-	
-	// 
+	// Dalia 
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
@@ -165,27 +184,62 @@ public class Implement32 {
 		
 		int T = Integer.parseInt(br.readLine());
 		
+		for(int i = 0; i < T; i++) {
+			st = new StringTokenizer(br.readLine());
+			int n = Integer.parseInt(st.nextToken());
+			int r1 = Integer.parseInt(st.nextToken());
+			int c1 = Integer.parseInt(st.nextToken());
+			int r2 = Integer.parseInt(st.nextToken());
+			int c2 = Integer.parseInt(st.nextToken());
+			
+			String ans = Math.abs((r1 - r2) * (c1 - c2)) == 2 ? "YES" : "NO";
+			
+			sb.append("Case " + (i + 1) + ": " + ans + "\n");
+		}
+		
+		sb.deleteCharAt(sb.length() - 1);
+		System.out.print(sb);
 	}
 	
 	
-	// 
+	// Sir Bedavere’s Bogus Division Solutions 
 	public static void test09() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
 		
-		int T = Integer.parseInt(br.readLine());
-		
+		for(int top = 100; top <= 999; top++){
+		  
+			for(int bottom = 100; bottom <= 999; bottom++){
+	    	
+				if(top % 111 == 0 && bottom % 111 == 0) continue;
+				if(bottom*(top / 10) == top*(bottom % 100) && (top % 10) == (bottom /100))
+	       
+					System.out.printf("%d / %d = %d / %d\n", top, bottom, top/10, bottom%100);
+			}
+	  
+		}
+
 	}
 	
-	// 
+	// Szachy
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
 		
-		int T = Integer.parseInt(br.readLine());
+		int N = Integer.parseInt(br.readLine());
+		int ans = 0;
 		
+		for(int i = 0; i < N; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			int max = Integer.MIN_VALUE;
+			
+			for(int j = 0; j < N; j++) 
+				max = Math.max(max, Integer.parseInt(st.nextToken()));
+			
+			ans += Math.max(0, max);
+		}
+		
+		System.out.println(ans);
 	}
 	
 	
