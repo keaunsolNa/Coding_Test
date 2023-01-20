@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class BasicMath2Plus33 {
 
    public static void main(String[] args) throws IOException {
-      test05();
+      test10();
    }
    
    // Basalt Breakdown 
@@ -103,45 +103,166 @@ public class BasicMath2Plus33 {
 	   
    }
    
-   // 
+   // Sums 
    public static void test06() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringBuilder sb = new StringBuilder();
-	   StringTokenizer st; 
+	   int T = Integer.parseInt(br.readLine());
+	   
+	   while(T --> 0) {
+		   int number = Integer.parseInt(br.readLine());
+		   
+		   long sum1 = 0;
+		   long sum2 = 0;
+		   long sum3 = 0;
+		   
+		   for(int i = 1; i <= number; i++) sum1 += i;
+		   for(int i = 1; i <= number * 2; i += 2) sum2 += i;
+		   for(int i = 2; i <= number * 2; i += 2) sum3 += i;
+		   
+		   sb.append(sum1 + " " + sum2 + " " + sum3 + "\n");
+		   
+	   }
+	   
+	   System.out.println(sb);
    }
    
-   
-   // 
+   // Unit Conversion 
    public static void test07() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringBuilder sb = new StringBuilder();
 	   StringTokenizer st; 
+	   
+	   st = new StringTokenizer(br.readLine());
+	   
+	   double x = Double.parseDouble(st.nextToken());
+	   double y = Double.parseDouble(st.nextToken());
+	   
+	   int T = Integer.parseInt(br.readLine());
+	   
+	   while(T --> 0) {
+		   
+		   st = new StringTokenizer(br.readLine());
+		   double A = Double.parseDouble(st.nextToken());
+		   char key = st.nextToken().charAt(0);
+		   
+		   if(key == 'A') sb.append(A / x * y);
+		   else sb.append(A / y * x);
+			   
+		   sb.append("\n");
+	   }
+	   
+	   System.out.println(sb);
    }
    
-   
-   // 
+   // Number Fun
    public static void test08() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringBuilder sb = new StringBuilder();
 	   StringTokenizer st; 
+	   
+	   int N = Integer.parseInt(br.readLine());
+	   
+	   while(N --> 0) {
+		   st = new StringTokenizer(br.readLine());
+		   double A = Integer.parseInt(st.nextToken());
+		   double B = Integer.parseInt(st.nextToken());
+		   double C = Integer.parseInt(st.nextToken());
+		   
+		   boolean can = false;
+		   
+		   if(A + B == C) can = true;
+		   if(A - B == C) can = true;
+		   if(A * B == C) can = true;
+		   if(A / B == C) can = true;
+		   if(B + A == C) can = true;
+		   if(B - A == C) can = true;
+		   if(B * A == C) can = true;
+		   if(B / A == C) can = true;
+		   
+		   if(can) sb.append("Possible");
+		   else sb.append("Impossible");
+		   
+		   sb.append("\n");
+		   
+	   }
+	   
+	   System.out.println(sb);
+	   
    }
    
-   
-   // 
+   // Life Savings 
    public static void test09() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringBuilder sb = new StringBuilder();
 	   StringTokenizer st; 
+	   
+	   st = new StringTokenizer(br.readLine());
+	   
+	   double[] p = new double[3];
+	   
+	   p[0] = Double.parseDouble(st.nextToken());
+	   p[1] = Double.parseDouble(st.nextToken());
+	   p[2] = Double.parseDouble(st.nextToken());
+	   
+	   st = new StringTokenizer(br.readLine());
+	   
+	   double c1 = Double.parseDouble(st.nextToken());
+	   double c2 = Double.parseDouble(st.nextToken());
+	   double c3 = Double.parseDouble(st.nextToken());
+	   
+	   Arrays.sort(p);
+	   
+	   double one = (p[0] + p[1] + p[2]) * (c1 / 100);
+	   double two = ((p[2] * (Math.max(c2, c3) / 100)) + (p[1] * (Math.min(c2, c3) / 100)));
+	   
+	   if(one > two) System.out.printf("one " + "%.2f",one);
+	   else System.out.printf("two " + "%.2f", two);
    }
    
-   
-   // 
+   // ПЪТУВАНЕ 
    public static void test10() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringBuilder sb = new StringBuilder();
 	   StringTokenizer st; 
+	   st = new StringTokenizer(br.readLine());
+	   int t1 = Integer.parseInt(st.nextToken());
+	   int t2 = Integer.parseInt(st.nextToken());
+	   
+	   int startTime = t1 * 60 + t2;
+	   
+	   int t3 = Integer.parseInt(br.readLine());
+	   st = new StringTokenizer(br.readLine());
+	   int t4 = Integer.parseInt(st.nextToken());
+	   int t5 = Integer.parseInt(st.nextToken());
+	   
+	   int goingTime = t4 * 60 + t5;
+	   
+	   int stu = Integer.parseInt(br.readLine());
+	   
+	   int t6 = Integer.parseInt(br.readLine());
+	   int totalT3 = t6 * (stu + 1);
+	   
+	   
+	   int ansM = startTime -  goingTime - totalT3 - t3 - 10;
+	   
+	   int H = ansM / 60;
+	   int M = ansM % 60;
+	   
+	   if(H < 10) {
+		   
+		   if(M < 10) System.out.println("0" + H + " " + "0" + M);
+		   else System.out.println("0" + H + " " + M);
+		   
+	   } else if(M < 10) {
+		   
+		   System.out.println(H + " 0" + M);
+	   } else {
+		   
+		   System.out.println(H + " " + M);
+		   
+	   }
+	   
    }
-   
-   
    
 }
