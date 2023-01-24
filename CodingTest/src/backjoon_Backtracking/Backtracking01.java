@@ -10,10 +10,10 @@ import java.util.StringTokenizer;
 public class Backtracking01 {
 	
 	public static void main(String[] args) throws IOException {
-		test08();
+		test10();
 	}
 	
-	// N과 M (5) (15654)
+	// 15654번 - N과 M (5) (15654)
 	private static int N;
 	private static int M;
 	private static Integer arr[];
@@ -63,7 +63,7 @@ public class Backtracking01 {
         }
     }
 	
-	// N과 M (6)  (15655)
+	// 15655번 - N과 M (6)  (15655)
 	public static void test02() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -110,7 +110,7 @@ public class Backtracking01 {
         
     }
     
-	// N과 M (7) (15656)
+	// 15656번 - N과 M (7) (15656)
 	public static void test03() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -147,7 +147,7 @@ public class Backtracking01 {
         }
     }
     
-	// N과 M (8) (15657)
+	// 15657번 - N과 M (8) (15657)
 	public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -185,7 +185,7 @@ public class Backtracking01 {
     	}
     }
 	
-	// N과 M (9) (15663)
+	// 15663번 - N과 M (9) (15663)
 	public static void test05() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -230,7 +230,7 @@ public class Backtracking01 {
         }
     }
     
-	// N과 M (10) (15664)
+	// 15664번 - N과 M (10) (15664)
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -281,7 +281,7 @@ public class Backtracking01 {
         }
     }
     
-	// N과 M (11) (15665) 
+	// 15665번 - N과 M (11) (15665) 
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -321,7 +321,7 @@ public class Backtracking01 {
         }
     }
     
-	//  N과 M (12) (15666)
+	// 15666번 - N과 M (12) (15666)
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -369,20 +369,78 @@ public class Backtracking01 {
             
 	}
 	
-	//  
+	// 10974 - 모든 순열  
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
+		N = Integer.parseInt(br.readLine());
+        arr = new Integer[N];
+        visited = new boolean[N];
+        
+        dfs9(0);
+        
+        System.out.println(sb);
 	}
 	
-	//  
+	private static void dfs9(int depth) {
+		
+		if(depth == N) {
+			for(int i = 0; i < N; i++)
+				sb.append(arr[i] + " ");
+			
+			sb.append("\n");
+		}
+		
+		for(int i = 0; i < N; i++) {
+			if(visited[i]) continue;
+			
+			arr[depth] = i + 1;
+			visited[i] = true;
+			dfs9(depth + 1);
+			visited[i] = false;
+		}
+	}
+	
+	
+	// 14534번 - String Permutation  
+	private static Character[] str;
+	private static String input;
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
+		
+		int T = Integer.parseInt(br.readLine());
+		
+		for(int i = 1; i < T + 1; i++) {
+			input = br.readLine();
+			
+			N = input.length();
+			str = new Character[input.length()];
+			visited = new boolean[input.length()];
+			sb = new StringBuilder();
+			
+			sb.append("Case # " + i + ":" +"\n");
+			dfs10(0);
+			System.out.print(sb);
+		}
 	}
 	
-	
+	private static void dfs10(int depth) {
+		
+		if(depth == N) {
+			for(int i = 0; i < N; i++)
+				sb.append(str[i]);
+			
+			sb.append("\n");
+		}
+		
+		for(int i = 0; i < N; i++) {
+			if(visited[i]) continue;
+			
+			str[depth] = input.charAt(i);
+			visited[i] = true;
+			dfs10(depth + 1);
+			visited[i] = false;
+		}
+	}
 	
 }
