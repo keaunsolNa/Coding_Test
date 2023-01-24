@@ -252,7 +252,8 @@ public class Implement31 {
 			int direction = (Character.getNumericValue(input.charAt(0)) + Character.getNumericValue(input.charAt(1)));
 			int length = Integer.parseInt(input.substring(2));
 			
-			if(direction % 2 == 0) dir = "right ";
+			if(direction == 0) dir = dir;
+			else if(direction % 2 == 0) dir = "right ";
 			else if(direction % 2 != 0) dir = "left ";
 			
 			sb.append(dir + length + "\n");
