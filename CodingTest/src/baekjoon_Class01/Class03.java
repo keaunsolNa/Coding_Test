@@ -3,17 +3,18 @@ package baekjoon_Class01;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class Class03 {
 
 	public static void main(String[] args) throws IOException {
-		test03();
+		test04();
 	}
 	
-	// 피보나치 함수
-	static Integer[][] dp = new Integer[41][2];
+	// 1003번 - 피보나치 함수
+	private static Integer[][] dp = new Integer[41][2];
 	public static void test01() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
@@ -34,7 +35,7 @@ public class Class03 {
 		System.out.println(sb);
 	}
 	
-	static Integer[] fibonacci(int N) {
+	private static Integer[] fibonacci(int N) {
 		if(dp[N][0] == null || dp[N][1] == null) {
 			
 			dp[N][0] = fibonacci(N - 1)[0] + fibonacci(N - 2)[0];
@@ -44,16 +45,14 @@ public class Class03 {
 		return dp[N];
 	}
     
-
-    // 유기농 배추
-	static int dirX[] = {0, 0, -1, 1};
-	static int dirY[] = {-1, 1, 0, 0};
-	static int map[][];
-	static boolean visit[][];
-
-	static int now_x, now_y;
-	static int M, N, K;
-	static int count;
+    // 1012번 - 유기농 배추
+	private static int dirX[] = {0, 0, -1, 1};
+	private static int dirY[] = {-1, 1, 0, 0};
+	private static int map[][];
+	private static boolean visit[][];
+	private static int now_x, now_y;
+	private static int M, N, K;
+	private static int count;
     public static void test02() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
@@ -93,7 +92,7 @@ public class Class03 {
 		System.out.println(sb);
     }
     
-	public static void DFS(int x, int y) {
+	private static void DFS(int x, int y) {
 		visit[y][x] = true;
 
 		for(int i=0; i<4; i++) {
@@ -107,12 +106,12 @@ public class Class03 {
 		}
 	}
 
-	static boolean Range_check() {
+	private static boolean Range_check() {
 		return (now_y < N && now_y >= 0 && now_x < M && now_x >= 0);
 	}
 
-    // Z
-	static int cnt = 0;
+    // 1074번 -  Z
+	private static int cnt = 0;
     public static void test03() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
@@ -127,7 +126,7 @@ public class Class03 {
 		System.out.println(cnt);
     }
     
-    public static void find(int size, int r, int c) {
+    private static void find(int size, int r, int c) {
 		if(size == 1)
 			return;
 		
@@ -148,9 +147,45 @@ public class Class03 {
 		}
     }
 
-    // 팰린드롬 수
+    // 1107번 리모콘
     public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		int M = Integer.parseInt(br.readLine());
+
+		boolean[] broken = new boolean[10];
+		StringTokenizer st;
+		
+		if(M != 0) {
+			st = new StringTokenizer(br.readLine());
+			for(int i = 0; i < M; i++) broken[Integer.parseInt(st.nextToken())] = true;
+		} 
+		
+		int result = Math.abs(N - 100);
+		
+		for(int i = 0; i <= 999999; i++) {
+            String str = String.valueOf(i);
+            int len = str.length();
+            
+            boolean chk = false;
+            for(int j = 0; j < len; j++) {
+            	
+                if(broken[str.charAt(j) - '0']) { 
+                	chk = true; 
+                    break; 
+                }
+                
+            }
+            
+            if(!chk) {
+            	int min = Math.abs(N - i) + len; 
+            	result = Math.min(min, result);
+            }
+            
+		}
+		
+		System.out.println(result);
+		 
     }
     
     // 영화감독 숌
@@ -177,194 +212,6 @@ public class Class03 {
     }
 
 
-    // 소수 구하기
-    public static void test09() {
-        Scanner sc = new Scanner(System.in);
-		
-    }
     
-    // 프린터 큐
-    public static void test10() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		
-		int T = Integer.parseInt(br.readLine());	
 
-	}
-    // 통계학
-    public static void test12() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
-    }
-    
-    // 카드2
-    public static void test13() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-    }
-
-    // 분해합
-    public static void test14() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-    }
-
-    // 벌집
-    public static void test15() {
-		Scanner sc = new Scanner(System.in);
-    }
-    
-    // 최대공약수와 최소공배수
-    public static void test16() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-    }
-
-    // 수 정렬하기 2
-    public static void test17() {
-		Scanner sc = new Scanner(System.in);
-		StringBuilder sb = new StringBuilder();
-		int testCase = sc.nextInt();
-		
-    }
-
-    // 부녀회장이 될테야
-    public static void test18() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));		
-		StringBuilder sb = new StringBuilder();		
-    }
-
-    // 블랙잭
-    public static void test19() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-    }
-    
-	// 나무 자르기
-	public static void test20() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));		
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-	}
-
-	// 설탕 배달
-	public static void test21() {
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		
-	}
-
-	// 달팽이는 올라가고 싶다.
-	public static void test22() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-	}
-	
-	// 직각 삼각형
-	public static void test23() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-	}
-	
-	// 균형잡힌 세상
-	public static void test24() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-	}
-		
-	// 덩치
-	public static void test25() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		int N = Integer.parseInt(br.readLine());
-	}
-	
-	// 괄호
-	public static void test26() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		
-	}
-	
-	// ACM 호텔
-	public static void test27() throws NumberFormatException, IOException {
-		Scanner sc = new Scanner(System.in);
-		int testCase = sc.nextInt();
-		
-	}
-
-	// 제로 
-	public static void test28() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int K = Integer.parseInt(br.readLine());
-	}
-
-	// 나이순 정렬
-	public static void test29() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
-		
-	}
-	
-	// 수자 카드 2
-	public static void test30() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-	}
-	
-	// 스택
-	public static void test31() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int order = Integer.parseInt(br.readLine());
-	}
-
-	// 큐
-	public static void test32() throws NumberFormatException, IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int order = Integer.parseInt(br.readLine());
-	}
-	
-	// 덱
-	public static void test33() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int order = Integer.parseInt(br.readLine());
-	}
-
-	// 수 정렬하기 3
-	public static void test34() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
-		
-	}
-	
-	// 이항 계수 1
-	public static void test35() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-	}
-   
-	
-	// 좌표 정렬하기
-	public static void test36() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-	}
-	
-	// 요세푸스 문제 0
-	public static void test37() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		
-	}
-	
-	// Hashing 
-	public static void test38() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-	}
-	
-	// 마인크래프트
-	public static void test39() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-	}
 }
