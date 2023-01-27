@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Implement39 {
 
 	public static void main(String[] args) throws IOException {
-		test05();
+		test10();
 	}
 	
 	// 9723번 - Right Triangle 
@@ -149,44 +149,161 @@ public class Implement39 {
 	    }
 	}
 	
-	// 
+	// 24302번 - КУРИЕРИ 
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
+		StringTokenizer st = new StringTokenizer(br.readLine());
+	
+		int A = Integer.parseInt(st.nextToken());
+		int B = Integer.parseInt(st.nextToken());
+		
+		A /= 1000;
+		B /= 1000;
+		
+		int ans = Math.min(cal1(A), cal2(A)) + Math.min(cal1(B), cal2(B));
+		
+		if (ans % 100 > 9) 
+			System.out.println((ans / 100) + "." + (ans % 100));
+		else
+			System.out.println((ans / 100) + ".0" + (ans % 100));
+		
 	}
 	
-	// 
+	private static int cal1(int x) {
+		
+		if (x <= 5) return 400;
+		if (x <= 10) return 700;
+		if (x <= 20) return 1200;
+		if (x <= 30) return 1700;
+		return x * 57;
+		
+	}
+	
+	private static int cal2(int x) {
+		
+		if (x <= 2) return 90 + x * 90;
+		if (x <= 5) return 100 + x * 85;
+		if (x <= 20) return 125 + x * 80;
+		if (x <= 40) return 325 + x * 70;
+		return 925 + 55 * x;
+		
+	}
+	
+	// 9907번 - ID 
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
+		String number = br.readLine();
+		
+		int total = 0;
+		
+		total += (number.charAt(0) -'0') * 2;
+		total += (number.charAt(1) -'0') * 7;
+		total += (number.charAt(2) -'0') * 6;
+		total += (number.charAt(3) -'0') * 5;
+		total += (number.charAt(4) -'0') * 4;
+		total += (number.charAt(5) -'0') * 3;
+		total += (number.charAt(6) -'0') * 2;
+		
+		total %= 11;
+
+		if(total == 0) System.out.println("J");
+		else if(total == 10) System.out.println("Z");
+		else System.out.println((char)(total + 64));
+		
 	}
 	
-	// 
+	// 22150번 - Шоколадка
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
+		
+		int T = Integer.parseInt(br.readLine());
+		
+		while(T --> 0) {
+			st = new StringTokenizer(br.readLine());
+			
+			int N = Integer.parseInt(st.nextToken());
+			int[] arr = new int[2 * N];
+			boolean flag = false;
+			
+			for(int i = 0; i < 2 * N; i++) arr[i] = Integer.parseInt(st.nextToken());
+			
+			for(int i = 0; i < 2 * N; i += 2) {
+				if(arr[i] + arr[i + 1] != N) flag = true;
+			}
+			
+			if(flag) System.out.println("yes");
+			else System.out.println("no");
+		}
 	}
 	
-	// 
+	// 21280번 - Förvirrad föreläsare 
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
+		int T = Integer.parseInt(br.readLine());
+		
+		st = new StringTokenizer(br.readLine());
+		int prev = Integer.parseInt(st.nextToken());
+		
+		int plus = 0;
+		int minus = 0;
+		for(int i = 1; i < T; i++) {
+			
+			int now = Integer.parseInt(st.nextToken());
+			if(prev > now)  minus += (prev - now);
+			else if(now > prev) plus += (now - prev);
+			
+			prev = now;
+		}
+		
+		System.out.println(minus + " " + plus);
 	}
 	
-	// 
+	// 25849번 - Briefcases Full of Money
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		long one = Integer.parseInt(st.nextToken());
+		long five = Integer.parseInt(st.nextToken()) * 5;
+		long ten = Integer.parseInt(st.nextToken()) * 10;
+		long twenty = Integer.parseInt(st.nextToken()) * 20;
+		long fifty = Integer.parseInt(st.nextToken()) * 50;
+		long hundred = Integer.parseInt(st.nextToken()) * 100;
+
+		long max = Math.max(one, Math.max(five, Math.max(ten, Math.max(twenty, Math.max(fifty, hundred)))));
+		
+		if(hundred == max) {
+			System.out.println(100);
+			return;
+		}
+		
+		if(fifty == max) {
+			System.out.println(50);
+			return;
+		}
+		
+		if(twenty == max) {
+			System.out.println(20);
+			return;
+		}
+		
+		if(ten == max) {
+			System.out.println(10);
+			return;
+		}
+		
+		if(five == max) {
+			System.out.println(5);
+			return;
+		}
+		
+		if(one == max) {
+			System.out.println(1); 
+			return;
+		}
+		
 	}
-	
-	
-	
-	
-	
 	
 }
