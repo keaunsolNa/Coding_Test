@@ -3,8 +3,11 @@ package baekjoon_Class01;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Class03 {
@@ -188,24 +191,99 @@ public class Class03 {
 		 
     }
     
-    // 영화감독 숌
-    public static void test05() {
+    // 1260번 - DFS와 BFS
+    private static int[][] graph;
+    private static boolean visited[];
+    private static int V;
+    public static void test05() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		st = new StringTokenizer(br.readLine(), " ");
+		N = Integer.parseInt(st.nextToken());
+		M = Integer.parseInt(st.nextToken());
+		V = Integer.parseInt(st.nextToken());
+		graph = new int[1001][1001];
+		visited = new boolean[10001];
+		 
+		
+		for(int i = 0; i < M; i++) {
+			st = new StringTokenizer(br.readLine(), " ");
+			
+			int x = Integer.parseInt(st.nextToken());
+			int y = Integer.parseInt(st.nextToken());
+			graph[x][y] = graph[y][x] = 1;
+		}
+		
+		dfs(V);
+		
+        for(int j = 1; j <= N; j++) visited[j] = false;
+        
+        System.out.println();
+          
+        bfs(V);
     }
 
-    // 랜선 자르기
+    private static void dfs(int i) {
+    	
+        visited[i] = true;
+        System.out.print(i+" ");
+          
+        for(int j = 1; j <= N; j++) if(graph[i][j] == 1 && visited[j] == false) dfs(j);
+        
+    }
+    
+    private static void bfs(int i){
+    	  
+        Queue<Integer> q = new LinkedList<Integer>();
+        q.offer(i);
+        visited[i] = true;
+        System.out.print(i + " ");
+          
+        int temp;
+        while(!q.isEmpty()) {
+        	
+            temp = q.poll();
+            
+            for(int j=0; j<N+1; j++) {
+            	
+                if(graph[temp][j] == 1 && visited[j] == false) {
+                	
+                    q.offer(j);
+                    visited[j] = true;
+                    System.out.print(j+" ");
+                    
+                }
+            }                       
+        }
+    }
+    
+    // 1389번 - 케빈 베이컨의 6단계 법칙
     public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		StringTokenizer st;
+		st = new StringTokenizer(br.readLine());
+		
+		N = Integer.parseInt(st.nextToken());
+		M = Integer.parseInt(st.nextToken());
+		
+		for(int i = 0; i < M; i++) {
+			st = new StringTokenizer(br.readLine());
+			
+			int A = Integer.parseInt(st.nextToken());
+			int B = Integer.parseInt(st.nextToken());
+			
+		}
     }
     
 
-    // 스택 수열
+    // 
     public static void test07() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testCase = Integer.parseInt(br.readLine());
     }
 
-    // 수 찾기
+    // 
     public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testCase = Integer.parseInt(br.readLine());
