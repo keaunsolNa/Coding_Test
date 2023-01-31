@@ -3,15 +3,17 @@ package baekjoon_String;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class StringPlus29 {
 	
 	public static void main(String[] args) throws IOException {
-		test03();
+		test07();
 	}
 
-	// 회문
+	// 17609번 - 회문
 	private static String input;
 	public static void test01() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -67,8 +69,7 @@ public class StringPlus29 {
 		return cnt;
 	}
 	
-	
-	// Decimal XOR 
+	// 25786번 - Decimal XOR 
 	public static void test02() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
@@ -94,62 +95,213 @@ public class StringPlus29 {
 		
 	}
 	
-	// IOIOI 
+	// 5525번 - IOIOI 
 	public static void test03() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		int N = Integer.parseInt(br.readLine());
 		int M = Integer.parseInt(br.readLine());
 		
-		String str = "";
-		for(int i = 0; i < N + 1; i++) str += "IO";
-		str = str.substring(0, str.length() - 1);
+		for(int i = 0; i < N + 1; i++) sb.append("IO");
+		sb.deleteCharAt(sb.length() - 1);
 		
-		String S = br.readLine();
+		String S = sb.toString();
+		String base = br.readLine();
 		
-		int cnt = 0;
-		for(int i = 0; i <= M - str.length(); i++) {
+		int answer = 0;
+		int len = 0;
+		
+		for (int i = 0; i < base.length(); i++) {
+			
+			if(base.charAt(i) == S.charAt(len)) len++;
+			
+			else {
+				
+				if(base.charAt(i)=='I') len = 1;
+				else len = 0;
+				
+			}
+			
+			if(len == 2 * N + 1) {
+				answer++;
+				len -= 2;
+			}
+		}
+		
+		System.out.println(answer);
+		
+	}
+	
+	// 26392번 - Desni klik
+	public static void test04() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		st = new StringTokenizer(br.readLine());
+	    int n = Integer.parseInt(st.nextToken());
+	    int r = Integer.parseInt(st.nextToken());
+	    int s = Integer.parseInt(st.nextToken());
+	    
+	    for (int i = 0; i < n; i++) {
+	      
+	    	char[][] matrix = new char[r][s];
 
-			if(S.substring(i, i + str.length()).equals(str)) cnt++;
+	    	for (int j = 0; j < r; j++) matrix[j] = br.readLine().toCharArray();
+
+	    	int min = Integer.MAX_VALUE;
+	    	int max = Integer.MIN_VALUE;
+	   
+	    	for (int j = 0; j < s; j++) {
+	        
+	    		for (int k = 0; k < r; k++) {
+	          
+	    			if (matrix[k][j] == '#') {
+
+	    				min = Math.min(min, k);
+	    				max = Math.max(max, k);
+	    				break;
+
+	    			}
+
+	    		}
+
+	    	}
+	      
+	    	System.out.println(max - min);
+
+	    }
+
+	}
+	
+	// 6581번 - HTML 
+	private static StringBuilder sb = new StringBuilder();
+	private static int idx = 0;
+	public static void test05() throws IOException {
+		
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String input = "";
+        ArrayList<String> arr = new ArrayList<>();
+        
+        while ((input = br.readLine()) != null) {
+        	
+            StringTokenizer st = new StringTokenizer(input, " \t\n");
+            
+            while (st.hasMoreTokens()) arr.add(st.nextToken());
+
+        }
+        
+        for (String str : arr) {
+        	
+            if (str.equals("<br>")) {
+                br();
+                continue;
+            }
+
+            if (str.equals("<hr>")) {
+                hr();
+                continue;
+            }
+            
+            if (idx + str.length() + (idx == 0 ? 0 : 1) > 80) {
+                idx = 0; 
+                br();
+            }
+            
+            if (idx != 0) sb.append(' ');
+            sb.append(str);
+            idx += str.length() + (idx == 0 ? 0 : 1);
+
+        }
+        
+        br();
+        System.out.print(sb);
+	}
+	
+    private static void br() {
+        sb.append('\n');
+        idx = 0;
+    }
+    
+    private static void hr() {
+        if (idx != 0) br();
+        for (int i = 0; i < 80; i++) sb.append('-');
+        sb.append('\n');
+        idx = 0;
+    }
+    
+	// 20002번 - 추월 
+	public static void test06() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		
+		String[] in = new String[N];
+		for(int i = 0; i < N; i++) in[i] = br.readLine();
+		
+		String[] out = new String[N];
+		for(int i = 0; i < N; i++) out[i] = br.readLine();
+
+		boolean[] chk = new boolean[N];
+		int cnt = 0;
+		
+		for(int i = 0; i < N; i++) {
+			
+			for(int j = 0; j < N; j++) {
+				
+				if(!in[i].equals(out[j])) {
+					if(!chk[j]) {
+						chk[j] = true;
+						cnt++;
+					}
+				}
+				
+				else {
+					
+					chk[j] = true;
+					break;
+				}
+			}
 		}
 		
 		System.out.println(cnt);
-		
-		
 	}
 	
-	// 
-	public static void test04() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		
-	}
-	
-	// 
-	public static void test05() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		
-	}
-	
-	// 
-	public static void test06() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		
-	}
-	
-	// 
+	// 25326번 - 다중 항목 선호도 조사 (Small)
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int n = Integer.parseInt(st.nextToken());
+		int m = Integer.parseInt(st.nextToken());
+		
+		List<String[]> list = new ArrayList<>();
+		for(int i = 0; i < n; i++) {
+			st = new StringTokenizer(br.readLine());
+			String[] str = new String[] {st.nextToken(), st.nextToken(), st.nextToken()};
+			list.add(str);
+		}
+
+		for(int i = 0; i < list.size(); i++) {
+			for (String strings : list.get(i)) {
+				System.out.print(strings + " ");
+			}
+			System.out.println();
+		}
+		
+		for(int i = 0; i < m; i++) {
+			st = new StringTokenizer(br.readLine());
+			String[] str = new String[] {st.nextToken(), st.nextToken(), st.nextToken()};
+			
+			for (String string : str) {
+				
+				for(int j = 0; j < n; j++) {
+					
+					if(!string.equals("-")) {
+						
+					}
+				}
+			}
+		}
 		
 		
 	}
