@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class StringPlus29 {
 	
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 
 	// 17609번 - 회문
@@ -268,7 +268,6 @@ public class StringPlus29 {
 	// 25326번 - 다중 항목 선호도 조사 (Small)
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		int n = Integer.parseInt(st.nextToken());
@@ -280,56 +279,102 @@ public class StringPlus29 {
 			String[] str = new String[] {st.nextToken(), st.nextToken(), st.nextToken()};
 			list.add(str);
 		}
-
-		for(int i = 0; i < list.size(); i++) {
-			for (String strings : list.get(i)) {
-				System.out.print(strings + " ");
-			}
-			System.out.println();
-		}
 		
 		for(int i = 0; i < m; i++) {
 			st = new StringTokenizer(br.readLine());
 			String[] str = new String[] {st.nextToken(), st.nextToken(), st.nextToken()};
+			int ans = 0;
 			
-			for (String string : str) {
+			for(int j = 0; j < n; j++) {
 				
-				for(int j = 0; j < n; j++) {
+				if(str[0].equals("-") || str[0].equals(list.get(j)[0])) {
 					
-					if(!string.equals("-")) {
+					if(str[1].equals("-") || str[1].equals(list.get(j)[1])) {
 						
+						if(str[2].equals("-") || str[2].equals(list.get(j)[2])) {
+							ans++;
+						}
 					}
 				}
+
+			}
+			
+			System.out.println(ans);
+		}
+	}
+	
+	// 12904번 - A와 B
+	public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder S = new StringBuilder(br.readLine());
+		StringBuilder T = new StringBuilder(br.readLine());
+		
+		while(S.length() != T.length()) {
+			
+			if(T.charAt(T.length() - 1) == 'A') {
+				T.deleteCharAt(T.length() - 1);
+			} else {
+				T.deleteCharAt(T.length() - 1);
+				T.reverse();
 			}
 		}
 		
+		int ans = (S.toString().equals(T.toString())) ? 1 : 0;
 		
+		System.out.println(ans);
 	}
 	
-	// 
-	public static void test08() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		
-	}
-	
-	// 
+	// 16719번 - ZOAC
+	private static boolean[] visited;
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
+		input = br.readLine();
+		visited = new boolean[input.length()];
+		solove(0, input.length() - 1);
 		
+		System.out.println(sb.toString());
 		
 	}
 	
-	// 
+	private static void solove(int left, int right) throws IOException {
+       
+		if (left > right) return;
+
+        int idx = left;
+
+        for (int i = left; i <= right; i++) {
+            if (input.charAt(idx) > input.charAt(i)) idx = i;
+        }
+        
+        visited[idx] = true;
+
+        for (int i = 0; i < input.length(); i++) {
+            if (visited[i])  sb.append(input.charAt(i));
+        }
+        
+        sb.append("\n");
+        solove(idx + 1, right);
+        solove(left, idx  - 1);
+    }
+    
+	// 23813번 - 회전
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
+		StringBuilder sb = new StringBuilder(br.readLine());
+		String origin = sb.toString();
 		
+		long ans = 0;
+		sb = sb.insert(0, sb.charAt(sb.length() - 1));
+		sb.deleteCharAt(sb.length() - 1);
+		ans += Long.parseLong(sb.toString());
+				
+		while(!origin.equals(sb.toString())) {
+			sb = sb.insert(0, sb.charAt(sb.length() - 1));
+			sb.deleteCharAt(sb.length() - 1);
+			ans += Long.parseLong(sb.toString());
+		}
+		
+		System.out.println(ans);
 		
 	}
 	
