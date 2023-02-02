@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 
 public class Greedy05 {
 	public static void main(String[] args) throws IOException {
-		test08();
+		test10();
 	}
 	
 	// 16953번 - A → B
@@ -258,16 +258,82 @@ public class Greedy05 {
 		System.out.println(price + " " + max);
 	}
 	
-	// 
+	// 1213번 - 팰린드롬 만들기
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
+		StringBuilder sb = new StringBuilder();
+		String input = br.readLine();
+		
+		int[] alpha = new int[26];
+		
+		for(char ch : input.toCharArray()) alpha[ch - 'A']++;
+		
+		int n = 0;
+		int mid = 0;
+		
+		for(int i = 0; i < 26; i++) {
+			
+			if(alpha[i] % 2 == 1) {
+				
+				mid = i;
+				n++;
+			}
+			
+		}
+		
+		if((input.length() % 2 == 1 && n > 1) || (input.length() % 2 == 0 && n > 0)) {
+			System.out.println("I'm Sorry Hansoo");
+			return;
+		}
+		
+			
+		String answer = "";
+		
+		for(int i = 0; i < 26; i++) 
+			for(int j = 0; j < alpha[i] / 2; j++) answer += (char)(i + 'A');
+		
+		
+		String reverse = new StringBuilder(answer).reverse().toString();
+		if(n == 1) answer += (char)(mid + 'A');
+		
+		
+		sb.append(answer + reverse);
+		System.out.print(sb);
+		
+		
+		
+	
 	}
 	
-	// 
+	// 1448번 - 삼각형 만들기
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
 		int N = Integer.parseInt(br.readLine());
+		Integer[] arr = new Integer[N];
+		
+		for(int i = 0; i < N; i++) arr[i] = Integer.parseInt(br.readLine());
+		
+		Arrays.sort(arr, Collections.reverseOrder());
+		
+		for(int i = 0; i < N; i++) {
+			
+			int c = arr[i];
+			for(int j = i + 1; j < N; j++) {
+				
+				if(arr[j] * 2 <= c) continue;
+				for(int q = j + 1; q < N; q++) {
+					
+					if(arr[j] + arr[q] > c) {
+						
+						System.out.println(arr[j] + arr[q] + c);
+						return;
+					}
+				}
+			}
+		}
+		
+		System.out.println(-1);
 	}
 	
 	
