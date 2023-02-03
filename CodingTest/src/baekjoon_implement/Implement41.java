@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Implement41 {
 
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 	
 	// 10864번 - 친구
@@ -219,27 +219,91 @@ public class Implement41 {
 		System.out.print(sb);
 	}
 	
-	//
+	// 23663번 - Deja vu of Go Players
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
 		StringBuilder sb = new StringBuilder();
-		StringTokenizer st = new StringTokenizer(br.readLine());
+		int T = Integer.parseInt(br.readLine());
 		
+		while(T --> 0) {
+			
+			st = new StringTokenizer(br.readLine());
+			int R = Integer.parseInt(st.nextToken());
+			int W = Integer.parseInt(st.nextToken());
+			
+			br.readLine();
+			br.readLine();
+			
+			if(R <= W) sb.append("Yes");
+			else sb.append("No");
+			
+			sb.append("\n");
+		}
+		
+		System.out.println(sb);
 	}
 	
-	//
+	// 9838번 - XMAS
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
-		StringTokenizer st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(br.readLine());
 		
+		int[] arr = new int[N];
+		for(int i = 0; i < N; i++) arr[i] = i + 1;
+		
+		int gift = 1;
+		while(N --> 0) {
+			int k =Integer.parseInt(br.readLine());
+			
+			arr[k - 1] = gift;
+			gift++;
+		}
+		
+		for (int i : arr) System.out.println(i);
+	
 	}
 	
-	//
+	// 2511번 - 카드놀이
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st = new StringTokenizer(br.readLine());
+		StringTokenizer st;
+
+		st = new StringTokenizer(br.readLine());
+		int[] A = new int[10];
+		for(int i = 0; i < 10; i++) A[i] = Integer.parseInt(st.nextToken());
+
+		st = new StringTokenizer(br.readLine());
+		int[] B = new int[10];
+		for(int i = 0; i < 10; i++) B[i] = Integer.parseInt(st.nextToken());
+		
+		int AW = 0;
+		int BW = 0;
+		String lastW = "D";
+		for(int i = 0; i < 10; i++) {
+			
+			if(A[i] > B[i]) {
+				lastW = "A";
+				AW += 3;
+			}
+			else if(B[i] > A[i]) {
+				lastW = "B";
+				BW += 3;
+			} else {
+				AW += 1;
+				BW += 1;
+			}
+		}
+		
+		System.out.println(AW + " " + BW);
+
+		if(AW > BW) System.out.print("A");
+		else if(AW < BW) System.out.print("B");
+		else {
+			if(lastW.equals("D")) System.out.println("D");
+			else System.out.println(lastW);
+		}
 		
 	}
 	
