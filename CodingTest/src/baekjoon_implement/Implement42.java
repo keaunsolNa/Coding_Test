@@ -4,12 +4,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.StringTokenizer;
+import java.util.TreeMap;
 
 public class Implement42 {
 
 	public static void main(String[] args) throws IOException {
-		test06();
+		test10();
 	}
 	
 	// 1940번 - 주몽
@@ -185,36 +188,150 @@ public class Implement42 {
         return arr[R] - arr[L-1];
     }
 	
-	// 
+	// 5087번 - Card Cutting
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
-		st = new StringTokenizer(br.readLine());
+		String input = "";
 		
+		while(!(input = br.readLine()).equals("#")) {
+			st = new StringTokenizer(input);
+			
+			int Cheryl = 0;
+			int Tania = 0;
+			
+			String temp = "";
+			
+			while(!(temp = st.nextToken()).equals("*")) {
+				
+				if(temp.equals("A")) {
+					Cheryl++;
+				} else {
+					int plus = Integer.parseInt(temp);
+					if(plus % 2 == 0) Tania++;
+					else Cheryl++;
+				}
+			}
+			
+			if(Cheryl > Tania) System.out.println("Cheryl");
+			else if(Cheryl < Tania) System.out.println("Tania");
+			else System.out.println("Draw");
+		}
 	}
 	
-	// 
+	// 13667번 - Leitura Ótica
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		st = new StringTokenizer(br.readLine());
+		int T = -1;
+		
+		while((T = Integer.parseInt(br.readLine())) != 0) {
+			
+			for(int j = 0; j < T; j++) {
+				
+				int[] arr = Arrays.stream(br.readLine().split(" ")).map(String::trim).mapToInt(Integer::parseInt).toArray();
+				
+				int chk = 0;
+				char ans = ' ';
+				for(int i = 0; i < 5; i++) {
+					
+					if(arr[i] <= 127) {
+						ans = (char)(i + 65);
+						chk++;
+					}
+				}
+				
+				if(chk == 0 || chk > 1) System.out.println("*");
+				else System.out.println(ans);
+			}
+		}
 		
 	}
 	
-	// 
+	// 2167번 - 2차원 배열의 합
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		st = new StringTokenizer(br.readLine());
 		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		
+		int[][] arr = new int[N][M];
+		
+		for(int i = 0; i < N; i++) {
+			st = new StringTokenizer(br.readLine());
+			for(int j = 0; j < M; j++) arr[i][j] = Integer.parseInt(st.nextToken());
+		}
+		
+		int K = Integer.parseInt(br.readLine());
+		
+		for(int I = 0; I < K; I++) {
+			st = new StringTokenizer(br.readLine());
+			
+			int i = Integer.parseInt(st.nextToken()) - 1;
+			int j = Integer.parseInt(st.nextToken()) - 1;
+			int x = Integer.parseInt(st.nextToken()) - 1;
+			int y = Integer.parseInt(st.nextToken()) - 1;
+			
+			int sum = 0;
+			for(int inner = i; inner <= x; inner++) {
+				
+				for(int out = j; out <= y; out++) {
+					sum += arr[inner][out];
+				}
+			}
+			System.out.println(sum);
+		}
 	}
 	
-	// 
+	// 8879번 - 올림픽 
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		st = new StringTokenizer(br.readLine());
 		
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		
+		TreeMap<Integer, List<Integer>> map = new TreeMap<>();
+		
+		for(int i = 0; i < N; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			int index = Integer.parseInt(st.nextToken());
+			int gold = Integer.parseInt(st.nextToken());
+			int silver = Integer.parseInt(st.nextToken());
+			int bronze = Integer.parseInt(st.nextToken());
+			
+			List<Integer> list = new LinkedList<>();
+			list.add(gold);
+			list.add(silver);
+			list.add(bronze);
+			
+			map.put(index, list);
+			
+		}
+
+		int grade = 1;
+		for(Integer key : map.keySet()) {
+			
+			if(key != K) {
+				
+				if(map.get(key).get(0) > map.get(K).get(0)) {
+					grade++;
+				} else if(map.get(key).get(0) == map.get(K).get(0)) {
+					
+					if(map.get(key).get(1) > map.get(K).get(1)) {
+						grade++;
+					} else if(map.get(key).get(1) == map.get(K).get(1)) {
+						
+						if(map.get(key).get(2) > map.get(K).get(2)) grade++;
+					}
+				}
+			}
+		}
+		
+		System.out.println(grade);
 	}
 	
 	
