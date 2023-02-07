@@ -3,17 +3,22 @@ package baekjoon_DataStructure;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Deque;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
+import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class DataStructure08 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test07();
+		test10();
 	}
 	
 	// 20001번 - 고무오리 디버깅
@@ -201,34 +206,99 @@ public class DataStructure08 {
 
 	}
 	
-	// 
+	// 10799번 - 쇠막대기
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
 		
-		int T = Integer.parseInt(br.readLine());
+		char[] input = br.readLine().toCharArray();
+		Stack<Character> stack = new Stack<>();
+		
+		int result = 0;
+		for(int i = 0; i < input.length; i++) {
+			
+			
+			if(input[i] == '(') stack.add(input[i]);
+			else {
+				
+				if(input[i - 1] == '(') {
+					stack.pop();
+					result += stack.size();
+				} else {
+					stack.pop();
+					result++;
+				}
+			}
+				
+		}
+		
+		System.out.println(result);
 		
 	}
 	
-	// 
+	// 18115번 - 카드 놓기
 	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
 		
-		int T = Integer.parseInt(br.readLine());
+		int N = Integer.parseInt(br.readLine());
+		List<Integer> skill = new ArrayList<>();
 		
+		st = new StringTokenizer(br.readLine());
+		for(int i = 0; i < N; i++) skill.add(Integer.parseInt(st.nextToken()));
+		
+		Collections.reverse(skill);
+		
+		Deque<Integer> dq = new LinkedList<>();
+		int num = 1;
+		
+		for(int i = 0; i < N; i++) {
+			
+			switch(skill.get(i)){
+				case 1 : dq.addFirst(num); break;
+				case 2 : {
+					int temp = dq.remove();
+					dq.addFirst(num);
+					dq.addFirst(temp);
+					break;
+				}
+				case 3 : dq.addLast(num);
+					
+			}
+			num++;
+		}
+		
+		while(!dq.isEmpty()) sb.append(dq.poll() + " ");
+		
+		System.out.println(sb);
 	}
 	
-	// 
+	// 26042번 - 식당 입구 대기 줄
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
 		
-		int T = Integer.parseInt(br.readLine());
+		int n = Integer.parseInt(br.readLine());
+		Deque<Integer> que = new LinkedList<>();
+		int maxLine = 0;
+		int target = Integer.MAX_VALUE;
+		while(n --> 0) {
+			
+			st = new StringTokenizer(br.readLine());
+			
+			int order = Integer.parseInt(st.nextToken());
+			
+			if(order == 1) que.add(Integer.parseInt(st.nextToken()));
+			else que.poll();
+
+			if(que.size() > maxLine) maxLine = que.size();
+			if(que.size() == maxLine) {
+				if(target > que.peekLast()) target = que.peekLast();
+			}
+			
+		}
 		
+		System.out.println(maxLine + " " + target);
 	}
 	
 
