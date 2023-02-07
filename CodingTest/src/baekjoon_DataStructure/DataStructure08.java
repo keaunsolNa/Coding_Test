@@ -291,7 +291,10 @@ public class DataStructure08 {
 			if(order == 1) que.add(Integer.parseInt(st.nextToken()));
 			else que.poll();
 
-			if(que.size() > maxLine) maxLine = que.size();
+			if(que.size() > maxLine) {
+				maxLine = que.size();
+				target = que.peekLast();
+			}
 			if(que.size() == maxLine) {
 				if(target > que.peekLast()) target = que.peekLast();
 			}
