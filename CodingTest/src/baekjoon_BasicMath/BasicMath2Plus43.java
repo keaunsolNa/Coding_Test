@@ -3,14 +3,13 @@ package baekjoon_BasicMath;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class BasicMath2Plus43 {
 
    public static void main(String[] args) throws IOException {
-      test09();
+      test10();
    }
    
    // 14914번 - 사과와 바나나 나눠주기
@@ -180,18 +179,96 @@ public class BasicMath2Plus43 {
 	   
    }
    
-   //
+   // 10448번 - 유레카 이론
    public static void test09() throws IOException {
+	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	   
+	   int N = Integer.parseInt(br.readLine());
+       int[] triNum = new int[45];
+       
+       for(int i = 1; i < 45; i++) triNum[i] = i * (i + 1) / 2;
+       
+       for(int i = 0; i < N; i++) {
+    	   
+           int n = Integer.parseInt(br.readLine());
+           
+           System.out.println(solove(n, triNum));
+       }
+   }
+   
+   public static int solove(int n, int[] triNum) {
+	   
+       for(int i = 1; i < 45; i++) {
+    	   
+           for (int j = 1; j < 45; j++) {
+        	   
+               for (int k = 1; k < 45; k++) {
+            	   
+                   int sum = triNum[i] + triNum[j] + triNum[k];
+                   
+                   if (sum == n) return 1;
+               }
+           }
+       }
+       
+       return 0;
    }
    
    // 
    public static void test10() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringTokenizer st;
-	   long N = Integer.parseInt(br.readLine());
-	   
+	   int i, t = Integer.parseInt(br.readLine());
+		
+	   while(t -- > 0 ){
+
+		   st = new StringTokenizer(br.readLine());
+		   int n = Integer.parseInt(st.nextToken());
+		   int m = Integer.parseInt(st.nextToken());
+
+		   long team[] = new long[n + 1];
+		   long win[] = new long[n + 1];
+		   long lose[] = new long[n + 1];
+
+		   long max = 0;
+		   long min = 0;
+
+		   for(i = 1; i <= m; i++) {
+			   st = new StringTokenizer(br.readLine());
+			   int a = Integer.parseInt(st.nextToken());
+			   int b = Integer.parseInt(st.nextToken());
+			   int p = Integer.parseInt(st.nextToken());
+			   int q = Integer.parseInt(st.nextToken());
+
+			   win[a] += p; 
+			   win[b] += q;
+			   lose[a] += q; 
+			   lose[b] += p;
+				
+		   }
+		   
+		   for(i = 1; i <= n; i++) {
+			   
+			   if(win[i] == 0 && lose[i] == 0) team[i] = 0;
+				
+			   else team[i] = (win[i] * win[i]) * 1000 / (win[i] * win[i] + lose[i] * lose[i]);
+				
+			   if(i == 1){
+				   min = max = team[i];
+				   continue;
+			   }
+				
+			   if (max < team[i]) max = team[i];
+			   if (team[i] < min) min = team[i];
+
+		   }
+			
+			
+		   System.out.println(max+"\n"+min);
+		
+	
+	   }
+
    }
-   
-   
    
 }
