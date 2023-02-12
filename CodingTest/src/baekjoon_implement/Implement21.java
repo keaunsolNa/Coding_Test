@@ -14,7 +14,7 @@ import java.util.TreeMap;
 public class Implement21 {
 
 	public static void main(String[] args) throws IOException {
-		test10();
+		test03();
 	}
 	
 	// 대회 자리
