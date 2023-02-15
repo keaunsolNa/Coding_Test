@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 public class Parsing01 {
 
 	public static void main(String[] args) throws IOException {
-		test08();
+		test09();
 	}
 	
 	// 1942번 - 디지털시계
@@ -270,26 +270,99 @@ public class Parsing01 {
 		
 	}
 	
-	// 
+	// 26562번 - Presidents
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int T = Integer.parseInt(br.readLine());
 		
-		
+		while(T --> 0) {
+			String[] input = br.readLine().split(" ");
+			
+			long money = 0;
+			for(int i = 0; i < input.length; i++) {
+				money += (input[i].equals("Franklin") ? 100 : input[i].equals("Grant") ? 50 : input[i].equals("Jackson") ? 20 : input[i].equals("Hamilton") ? 10 : input[i].equals("Lincoln") ? 5 : 1);
+			}
+			
+			System.out.println("$" + money);
+		}
 	}
 	
-	// 
+	// 26584번 - Playtime
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int T = Integer.parseInt(br.readLine());
 		
+		while(T --> 0) {
+			
+			String[] input = br.readLine().split(",");
+			String name = input[0];
+			long min = Long.parseLong(input[1]);
+			
+			int year = (int)min / 525600;
+			min = min - (525600 * year);
+			int day = (int)min / 1440;
+			min = min - (1440 * day);
+			int hour = (int)min / 60;
+			min = min % 60;
+			
+			String ans = "";
+			if(year > 0) ans += year + " year(s) ";
+			if(day > 0) ans += day + " day(s) ";
+			if(hour > 0) ans += hour + " hour(s) ";
+			if(ans.length() > 0 && ans.charAt(ans.length() - 1) == ' ') ans += (min + " minute(s)");
+			else ans += (min + " minute(s)");
+			
+			System.out.println(name + " - " + ans);
+			
+		}
 		
 	}
 	
-	// 
+	// 1340번 - 연도 진행바
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
+		String[] tmp = br.readLine().split(" ");
 		
+		int[] monthArr= leapYear(tmp[2]);
+		String[] month_name = {"0","January","February","March","April","May","June",
+				"July","August","September","October","November","December"};
+		int month = 0;
+
+		for(int i = 1; i < month_name.length; i++) 
+			if(tmp[0].equals(month_name[i])) month = i;
+		
+
+		int date = Integer.parseInt(tmp[1].substring(0,2));
+		
+		String[] split = tmp[3].split(":");
+		int hour = Integer.parseInt(split[0]);
+		int minute = Integer.parseInt(split[1]);
+		
+		int sum_date = 0;
+		for(int i = 1; i < month; i++) sum_date += monthArr[i];
+		
+		sum_date += date - 1;
+		sum_date = sum_date * 1440;		
+		
+		int sum_hour = hour * 60;
+		
+		int sum = sum_date + sum_hour + minute;
+		
+		
+		if(monthArr[2] == 28) System.out.println((double) sum / (double) 525600 * 100);
+		else System.out.println((double) sum / (double) 527040 * 100);
 	}
 	
+
+	public static int[] leapYear(String string_year) {
+	
+		int year = Integer.parseInt(string_year);
+		int[] month = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+		
+		if(year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) month[2] = 29;
+		return month;
+		
+	}
 	
 }
