@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class Implement46 {
 
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 	
 	// 9782번 - Median 
@@ -241,27 +241,85 @@ public class Implement46 {
 		
 	}
 	
-	// 
+	// 10708번 - 크리스마스 파티
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
+		int N = Integer.parseInt(br.readLine());
+		int M = Integer.parseInt(br.readLine());
+		int[] target = new int[M];
+		int[] point = new int[N];
+		
+		st = new StringTokenizer(br.readLine());
+		for(int i = 0; i < M; i++) target[i] = Integer.parseInt(st.nextToken());
+		
+		for(int i = 0; i < M; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			
+			for(int j = 0; j < N; j++) {
+				int temp = Integer.parseInt(st.nextToken());
+				
+				if(target[i] == temp) point[j]++;
+				else point[target[i] - 1]++;
+			}
+		}
+		
+		for(int i = 0; i < N; i++) System.out.println(point[i]);
 		
 	}
 	
-	// 
+	// 14724번 - 관리자는 누구?
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
+		int N = Integer.parseInt(br.readLine());
+		
+		int totalMax = 0;
+		String[] winner = new String[] {"PROBRAIN", "GROW", "ARGOS", "ADMIN", "ANT", "MOTION", "SPG", "COMON", "ALMIGHTY"}; 
+		String ans = "";
+		
+		for(int i = 0; i < 9; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			int max = 0;
+			for(int j = 0; j < N; j++) {
+				max = Math.max(Integer.parseInt(st.nextToken()), max);
+			}
+			
+			if(totalMax < max) {
+				totalMax = max;
+				ans = winner[i];
+			}
+		}
+		
+		System.out.print(ans);
 		
 	}
 	
-	// 
+	// 23055번 - 공사장 표지판
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
+		StringBuilder sb = new StringBuilder();
+		int N = Integer.parseInt(br.readLine());
 		
+		for(int i = 0; i < N; i++) {
+			
+			for(int j = 0; j < N; j++) {
+				
+				if((i == 0) || (i == N - 1)) sb.append("*");
+				else if((j == 0) || (j == N - 1)) sb.append("*");
+				else if((i == j) || (i == N - 1 - j)) sb.append("*");
+				else sb.append(" ");
+				
+			}
+			
+			sb.append("\n");
+		}
+		
+		System.out.println(sb);
 		
 	}
 	
