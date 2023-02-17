@@ -3,12 +3,15 @@ package baekjoon_implement;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
 public class Implement47 {
 
 	public static void main(String[] args) throws IOException {
-		test06();
+		test10();
 	}
 	
 	// 2139번 - 나는 너가 살아온 날을 알고 있다
@@ -189,43 +192,43 @@ public class Implement47 {
 		System.out.println(idx - 1);
 	}
 	
-	// 25558번 - 내비게이션 F
+	// 25558번 - 내비게이션 
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 	
-		int N = Integer.parseInt(br.readLine());
+		long N = Long.parseLong(br.readLine());
 		st = new StringTokenizer(br.readLine());
 		
-		long x1 = Long.parseLong(st.nextToken());
-		long y1 = Long.parseLong(st.nextToken());
-		long x2 = Long.parseLong(st.nextToken());
-		long y2 = Long.parseLong(st.nextToken());
+		long startX = Long.parseLong(st.nextToken());
+		long startY = Long.parseLong(st.nextToken());
+		long endX = Long.parseLong(st.nextToken());
+		long endY = Long.parseLong(st.nextToken());
 		
 		long min = Integer.MAX_VALUE;
 		long ans = 0;
 		
 		for(int i = 1; i <= N; i++) {
 			
-			int mid = Integer.parseInt(br.readLine());
+			long M = Long.parseLong(br.readLine());
 			long dis = 0;
 			
-			long firstX = x1;
-			long firstY = y1;
+			long firstX = startX;
+			long firstY = startY;
 			
-			for(int j = 0; j < mid; j++) {
+			for(int j = 0; j < M; j++) {
 				st = new StringTokenizer(br.readLine());
 				
 				long x = Long.parseLong(st.nextToken());
 				long y = Long.parseLong(st.nextToken());
 				
-				dis += (Math.abs(x - firstX) + Math.abs(y - firstY)) % 1000;
+				dis += Math.abs(x - firstX) + Math.abs(y - firstY);
 				firstX = x;
 				firstY = y;
 				
 			}
 			
-			dis += (Math.abs(x2 - firstX) + Math.abs(y2 - firstY)) % 1000;
+			dis += Math.abs(endX - firstX) + Math.abs(endY - firstY);
 			
 			if(min > dis) {
 				min = dis;
@@ -237,36 +240,109 @@ public class Implement47 {
 		
 	}
 	
-	// 
+	// 10551번 - STROJOPIS
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
+		String input = br.readLine();
 		
+		Character[] one = new Character[] {'1', 'Q', 'A', 'Z'};
+		Character[] two = new Character[] {'2', 'W', 'S', 'X'};
+		Character[] three = new Character[] {'3', 'E', 'D', 'C'};
+		Character[] four = new Character[] {'4', '5', 'R', 'T', 'F', 'G', 'V', 'B'};
+		Character[] five = new Character[] {'6', '7', 'Y', 'U', 'H' , 'J', 'N', 'M'};
+		Character[] six = new Character[] {'8', 'I', 'K', ','};
+		Character[] eight = new Character[] {'9', 'O', 'L', '.'};
+		
+		int[] arr = new int[8];
+		for(int i = 0; i < input.length(); i++) {
+			
+			if(Arrays.asList(one).contains(input.charAt(i))) arr[0]++;
+			else if(Arrays.asList(two).contains(input.charAt(i))) arr[1]++;
+			else if(Arrays.asList(three).contains(input.charAt(i))) arr[2]++;
+			else if(Arrays.asList(four).contains(input.charAt(i))) arr[3]++;
+			else if(Arrays.asList(five).contains(input.charAt(i))) arr[4]++;
+			else if(Arrays.asList(six).contains(input.charAt(i))) arr[5]++;
+			else if(Arrays.asList(eight).contains(input.charAt(i))) arr[6]++;
+			else arr[7]++;
+		}
+		
+		for (int i : arr) System.out.println(i);
 	}
 	
-	// 
+	// 9296번 - Grading Exams
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
 		
+		int T = Integer.parseInt(br.readLine());
+		
+		for(int i = 1; i <= T; i++	) {
+			
+			int pro = Integer.parseInt(br.readLine());
+			
+			String input = br.readLine();
+			String answer = br.readLine();
+			
+			int miss = 0;
+			for(int j = 0; j < pro; j++) if(input.charAt(j) != answer.charAt(j)) miss++;
+			
+			
+			sb.append("Case " + i + ": " + miss + "\n");
+		}
+		
+		System.out.print(sb);
 	}
 	
-	// 
+	// 11531번 - ACM 대회 채점
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
 		
+		Map<String, Integer> wrongAnswer = new HashMap<>();
+		long total = 0;
+		int cnt = 0;
+		while(true) {
+			
+			String input = br.readLine();
+			if(input.equals("-1")) break;
+			
+			int t = Integer.parseInt(input.split(" ")[0]);
+			String q = input.split(" ")[1];
+			boolean answer = (input.split(" ")[2].equals("right")) ? true : false;
+			
+			if(!answer) wrongAnswer.put(q, wrongAnswer.getOrDefault(q, 0) + 1);
+			else {
+				if(wrongAnswer.containsKey(q)) total += (t + wrongAnswer.get(q) * 20);
+				else total += t;
+				
+				cnt++;
+			}
+		}
+		
+		System.out.print(cnt + " " + total);
 	}
 	
-	// 
+	// 4539번 - 반올림 
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
 		
+		int N = Integer.parseInt(br.readLine());
+		while(N --> 0) {
+			
+			String number = br.readLine();
+			long num = Long.parseLong(number);
+			
+			int digit = 1;
+			double rnd = 1.0;
+			while(number.length() >= digit) {
+				
+				num = (long) (Math.round(num / rnd) * rnd);
+				rnd *= 10;
+				digit++;
+			}
+			
+		
+			System.out.println(num);
+		}
 	}
 	
 }
