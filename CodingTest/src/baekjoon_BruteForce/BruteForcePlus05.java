@@ -222,7 +222,7 @@ public class BruteForcePlus05 {
 		
 	}
 	
-	// 
+	// 2635번 - 수 이어가기
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
