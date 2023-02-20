@@ -3,8 +3,10 @@ package baekjoon_Geometry;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class Geometry02 {
@@ -25,8 +27,12 @@ public class Geometry02 {
 		private int getNum(){ return num; }
 	}
 	
+	private static class Point {
+        int x, y;
+    }
+	
 	public static void main(String[] args) throws IOException {
-		test05();
+		test10();
 	}
 	
 	// 13411번 - 하늘에서 정의가 빗발친다!
@@ -207,44 +213,184 @@ public class Geometry02 {
 		System.out.println(sb);
 	}
 	
-	
-	// 
+	// 11596번 - Triangle 
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
+		st = new StringTokenizer(br.readLine());
+		int[] arr = new int[3];
+		for(int i = 0; i < 3; i++) arr[i] = Integer.parseInt(st.nextToken());
+		Arrays.sort(arr);
 		
+		st = new StringTokenizer(br.readLine());
+		int[] arr2 = new int[3];
+		for(int i = 0; i < 3; i++) arr2[i] = Integer.parseInt(st.nextToken());
+		Arrays.sort(arr2);
+		
+		boolean chk = true;
+		for(int i = 0; i < 3; i++) if(arr[i] != arr2[i]) chk = false;
+		
+		if(arr[0] * arr[0] + arr[1] * arr[1] != arr[2] * arr[2]) chk = false;
+		if(arr2[0] * arr2[0] + arr2[1] * arr2[1] != arr2[2] * arr2[2]) chk = false;
+		
+		if(chk) System.out.println("YES");
+		else System.out.println("NO");
 	}
 	
-	// 
+	// 11665번 - 직육면체 교집합
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
+		int N = Integer.parseInt(br.readLine());
+		int x1 = 0;
+		int x2 = 1000;
+		int y1 = 0;
+		int y2 = 1000;
+		int z1 = 0;
+		int z2 = 1000;
 		
+		for (int i = 0; i < N; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			x1 = Math.max(x1, Integer.parseInt(st.nextToken()));
+			y1 = Math.max(y1, Integer.parseInt(st.nextToken()));
+			z1 = Math.max(z1, Integer.parseInt(st.nextToken()));
+			x2 = Math.min(x2, Integer.parseInt(st.nextToken()));
+			y2 = Math.min(y2, Integer.parseInt(st.nextToken()));
+			z2 = Math.min(z2, Integer.parseInt(st.nextToken()));
+			
+		}
+		
+		int x = x2 - x1;
+		int y = y2 - y1;
+		int z = z2 - z1;
+		
+		if (x < 0) x = 0;
+		
+		if (y < 0) y = 0;
+		
+		if (z < 0) z = 0;
+		
+		System.out.println(x * y * z);
 	}
 	
-	// 
+	// 18221번 - 교수님 저는 취업할래요
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
+		int N = Integer.parseInt(br.readLine());
 		
+		int[][] map = new int[N][N];
+		int pX = 0;
+		int pY = 0;
+		int tX = 0;
+		int tY = 0;
 		
+		for(int i = 0; i < N; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			for(int j = 0; j < N; j++) {
+				int x = Integer.parseInt(st.nextToken());
+				map[i][j] = x;
+				
+				if(x == 2) {
+					tX = i;
+					tY = j;
+				}
+				
+				if(x == 5) {
+					pX = i;
+					pY = j;
+				}
+				
+			}
+			
+		}
+		
+		boolean chk = true;
+		if(Math.pow(Math.abs(pX - tX), 2) + Math.pow(Math.abs(pY - tY), 2) < 25) chk = false;
+		
+		int stu = 0;
+		if(chk) {
+			
+			for(int i = Math.min(tX, pX); i <= Math.max(tX, pX); i++) {
+				
+				for(int j = Math.min(tY, pY); j <= Math.max(tY, pY); j++) {
+					if(map[i][j] == 1) stu++;
+				}
+			}
+				
+		}
+		
+		if(stu < 3) chk = false;
+		
+		if(chk) System.out.println(1);
+		else System.out.println(0);
 	}
 	
-	// 
+	// 17286번- 유미
+	private static Point[] p = new Point[4];
+	private static double[][] dist = new double[4][4];
+	private static boolean[] visit = new boolean[4];
+	private static int ans = (int)1e5;
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
-		
+        for (int i = 0; i < 4; i++) {
+        	st = new StringTokenizer(br.readLine());
+            int x = Integer.parseInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
+            Point point = new Point();
+            point.x = x;
+            point.y = y;
+            p[i] = point;
+        }
+
+        for (int i = 0; i < 4; i++) {
+            int x = p[i].x;
+            int y = p[i].y;
+            for (int j = i + 1; j < 4; j++) {
+                int tx = p[j].x;
+                int ty = p[j].y;
+                double d = Math.sqrt((x - tx) * (x - tx) + (y - ty) * (y - ty));
+                dist[i][j] = dist[j][i] = d;
+            }
+        }
+        
+        dfs(0, 0.0, 0);
+
+        System.out.println(ans);
 	}
 	
-	// 
+	private static void dfs(int idx, double sum, int cnt) {
+    	
+        if (cnt == 4) {
+            ans = Math.min(ans, (int)sum);
+            return;
+        }
+        
+        if (visit[idx]) return;
+        
+        visit[idx] = true;
+        
+        for (int i = 0; i < 4; i++) dfs(i, sum + dist[idx][i], cnt + 1);
+        
+        visit[idx] = false;
+    }
+
+    
+	// 16484번 - 작도하자! - ①
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
+		double n = Double.parseDouble(st.nextToken());
+		double d = Double.parseDouble(st.nextToken());
+		
+		System.out.printf("%.1f", (n/2) - d);
 		
 	}
 	
