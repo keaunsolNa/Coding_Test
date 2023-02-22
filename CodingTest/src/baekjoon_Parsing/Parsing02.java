@@ -14,54 +14,107 @@ import java.util.regex.Pattern;
 public class Parsing02 {
 
 	public static void main(String[] args) throws IOException {
-		test01();
+		test02();
 	}
 	
 	// 5177번 - 출력 형식이 잘못되었습니다 
 	public static void test01() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+		StringBuilder answer = new StringBuilder();
 		int T = Integer.parseInt(br.readLine());
 		
 		for(int i = 0; i < T; i++) {
 			
 			String A = br.readLine().toLowerCase();
-			
-			StringBuilder sb = new StringBuilder();
-			for(int a = 0; a < A.length(); a++) {
-				
-				if(A.charAt(a) == ' ') {
-					sb.append(A.charAt(a));
-					while(a == A.length() -1 ||  A.charAt(a) != ' ') a++;
-				}
-				
-				sb.append(A.charAt(a));
-				
-			}
-			
-			System.out.println(sb);
 			A = A.replaceAll("\\(|\\{", "[");
 			A = A.replaceAll("\\)|\\}" , "]");
 			A = A.replaceAll(",", ";");
-			if(A.charAt(0) == ' ') A.replaceFirst(" ", "");
-			
+			A = trim(A);
+			A = trim2(A);
 			
 			String B = br.readLine().toLowerCase();
+
 			B = B.replaceAll("\\(|\\{", "[");
 			B = B.replaceAll("\\)|\\}" , "]");
 			B = B.replaceAll(",", ";");
-			if(B.charAt(0) == ' ') B.replaceFirst(" ", "");
+			B = trim(B);
+			B = trim2(B);
 			
+			answer.append("Data Set " + (i + 1) + ": ");
+			if(A.equals(B)) answer.append("equal");
+			else answer.append("not equal");
+			
+			answer.append("\n");
+			answer.append("\n");
+			
+		}
+	
+		answer.deleteCharAt(answer.length() - 1);
+		answer.deleteCharAt(answer.length() - 1);
+		System.out.print(answer);
+	}
+	
+	private static String trim(String str){
+	
+		StringBuilder sb = new StringBuilder();
+		int i;
+		int n = str.length();
+		char ch;
+		
+		for(i = 0; i < n;) {
+			
+			sb.append(ch = str.charAt(i++));
+			if(ch==' ') while(i < n && str.charAt(i)==' ') i++; 
 			
 		}
 		
+		return sb.toString();
 	}
 	
-	// 
+	private static String trim2(String str){
+		
+		StringBuilder sb = new StringBuilder(str);
+		int i;
+		int idx;
+		int n = sb.length();
+		char ch;
+		
+		for(i = 0; i < n; i++) {
+			
+			ch = sb.charAt(i);
+			if(ch == '[' || ch == ']' || ch == ';' || ch == '.' || ch == ':') {
+
+				idx = i - 1;
+				
+				if((0 <= idx && idx < n) && str.charAt(idx) == ' ') sb.replace(idx, idx + 1, "*");
+				
+				idx = i + 1;
+				
+				if((0 <= idx && idx < n) && str.charAt(idx) == ' ') sb.replace(idx, idx + 1, "*");
+				
+			}
+		}
+		
+		return sb.toString().replaceAll("\\*", ""); 
+	}
+	
+	// 7656번 - 만능 오라클
 	public static void test02() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		String[] input = br.readLine().split("\\.|\\?");
 		
+		for(int i = 0; i < input.length; i++) {
+			if(input[i].charAt(0) == ' ') input[i] = input[i].replaceFirst(" ", "");
+			if(input[i].contains("What is")) {
+				input[i] = input[i].replace("What", "Forty-two");
+				sb.append(input[i] + ".\n");
+			}
+			
+		}
 		
+		sb.deleteCharAt(sb.length() - 1);
+		System.out.print(sb);
 	}
 	
 	// 
