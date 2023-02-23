@@ -6,15 +6,16 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.LinkedList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.regex.Pattern;
 
 public class Parsing02 {
 
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 	
 	// 5177번 - 출력 형식이 잘못되었습니다 
@@ -279,112 +280,124 @@ public class Parsing02 {
 		System.out.print(sb);
 	}
 	
-	// 4836번 - 춤
+	// 6565번 - Hard to Believe, but True! 
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
-		String input = "";
 		
-		while((input = br.readLine()) != null) {
+		while(true) {
 			
-			String[] dance = input.split(" ");
-			boolean[] fault = new boolean[5];
-			List<String> danceList = new LinkedList<>();
-			
-			if(dance[0].equals("jiggle")) fault[3] = true;
-			danceList.add(dance[0]);
-			
-			for(int i = 1; i < dance.length; i++) {
-				
-				
-				if(dance[i].equals("dip")) {
-					
-					if(i > 0 && !danceList.get(i - 1).equals("jiggle")) {
-						dance[i] = "DIP";
-						fault[0] = true;
-					}
-					
-					if(i > 1 && !danceList.get(i - 2).equals("jiggle")) {
-						dance[i] = "DIP";
-						fault[0] = true;
-					}
-					
-				}
-				
-				if(dance[i].equals("twirl")) 
-					if(!danceList.contains("hop")) 
-						fault[2] = true;
-					else fault[2] = false;
-				
-				if(dance[i].equals("hop")) 
-					if(!danceList.contains("twirl")) 
-						fault[2] = true;
-					else fault[2] = false;
-				
-				danceList.add(dance[i]);
+			String input = br.readLine();
+			if(input.equals("0+0=0")) {
+				sb.append("True");
+				break;
 			}
 			
-			if(fault[0]) 
-				if(danceList.contains("twirl")) 
-					fault[0] = false;
+			String[] temp = input.split("\\+|=");
 			
-				else 
-					for(int i = 0; i < dance.length; i++) if(dance[i].equals("dip")) dance[i] = "DIP";
+			String leftStr = new StringBuilder(temp[0]+"").reverse().toString();
+			String rightStr = new StringBuilder(temp[1]+"").reverse().toString();
+			String answerStr = new StringBuilder(temp[2]+"").reverse().toString();
 			
-			if(!danceList.contains("dip")) fault[4] = true;
+			int left = Integer.parseInt(leftStr);
+			int right = Integer.parseInt(rightStr);
+			int answer = Integer.parseInt(answerStr);
 			
-			if(dance.length < 3 || !(danceList.get(dance.length - 1).equals("clap") 
-								&& danceList.get(dance.length - 2).equals("stomp") 
-								&& danceList.get(dance.length - 3).equals("clap")))
-				fault[1] = true;
-
+			if(left + right == answer) sb.append("True");
+			else sb.append("False");
+			sb.append("\n");
 			
-			List<Integer> faultList = new ArrayList<>();
-			for(int i = 0 ; i < 5; i ++) if(fault[i]) faultList.add(i + 1);
-			
-			if(faultList.size() == 0) sb.append("form ok: " + input + "\n");
-
-			else if(faultList.size() == 1) {
-				
-				sb.append("form error 1: ");
-				for(int i = 0; i < dance.length; i++) sb.append(dance[i] + " ");
-				sb.append("\n");
-			}
-			else {
-				
-				sb.append("form errors ");
-				
-				for(int i = 0; i < faultList.size() - 1; i++)  sb.append(faultList.get(i) + " and ");
-				sb.append(faultList.get(faultList.size() - 1) + ": ");
-				
-				for(int i = 0; i < dance.length; i++) sb.append(dance[i] + " ");
-				sb.append("\n");
-				
-			}
-		} 
+		}
 		
 		System.out.println(sb);
 	}
 	
-	// 
+	// 18403번 - KABISA
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
 		
+		int T = Integer.parseInt(br.readLine());
+		
+		while(T --> 0) {
+			
+			String[] input = br.readLine().replaceAll(" ", "").split("\\,");
+			
+			for(int i = 0; i < input.length; i++) 
+				if(isLeapYear(Integer.parseInt(input[i]))) sb.append(input[i] + " ");
+			
+			sb.append("\n");
+		}
+		
+		System.out.println(sb);
 		
 	}
 	
-	// 
+	private static boolean isLeapYear(int year) {
+		
+		if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) return true;
+		
+		return false;
+	}
+	
+	// 4821번 - 페이지 세기
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
+		while(true) {
+			
+			int page = Integer.parseInt(br.readLine());
+			if(page == 0) break;
+			boolean[] book = new boolean[page + 1];
+			
+			String[] input = br.readLine().split("\\,");
+			for(int i = 0; i < input.length; i++) {
+
+				if(!input[i].contains("-")) {
+					if(Integer.parseInt(input[i]) < book.length)
+						book[Integer.parseInt(input[i])] = true;
+
+					continue;
+				}
+				
+				int start = Integer.parseInt(input[i].split("-")[0]);
+				int end = Integer.parseInt(input[i].split("-")[1]);
+				
+				if(start > end) continue;
+				
+				for(int j = start; j <= end; j++) 
+					if(j < book.length) book[j] = true;
+				
+			}
+			
+			int cnt = 0;
+			for (boolean chk : book) if(chk) cnt++;
+			System.out.println(cnt);
+		}
 		
 	}
 	
-	// 
+	// 20959번 - Šifra
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String input = br.readLine();
 		
+		input = input.replaceAll("[a-z]", "-");
+		input += "-";
+		Set<Integer> set = new HashSet<>();
+		for(int i = 0; i < input.length(); i++) {
+			
+			String temp = "";
+			while(input.charAt(i) != '-' && i < input.length() - 1) {
+				temp += input.charAt(i);
+				i++;
+			}
+			
+			if(!temp.equals(""))
+				set.add(Integer.parseInt(temp));
+		}
 		
+		System.out.println(set.size());
 	}
 
 	
