@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 public class BasicMath2Plus45 {
 
    public static void main(String[] args) throws IOException {
-      test04();
+      test07();
    }
    
    // 14710번 - 고장난 시계
@@ -83,34 +83,101 @@ public class BasicMath2Plus45 {
        System.out.println(sb);	   
    }
    
-   //
+   // 7789번 - 텔레프라임
    public static void test05() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringTokenizer st;
+	   StringTokenizer st = new StringTokenizer(br.readLine());
 	   
-	   st = new StringTokenizer(br.readLine());
+	   int origin = Integer.parseInt(st.nextToken());
+	   int plus = Integer.parseInt(st.nextToken());
 	   
+	   if(isPrime(origin)) {
+		   
+		   int newPhone = Integer.parseInt((plus + "" +origin));
+		   
+		   if(isPrime(newPhone)){
+			   System.out.println("Yes");
+			   return;
+		   }
+	   }
 	   
+	   System.out.println("No");
    }
    
-   //
+   private static boolean isPrime(long n) {
+		
+       if(n == 1 || n == 0) return false;
+
+       for(long i = 2; i <= Math.sqrt(n); i++) if(n % i == 0) return false;
+
+       return true;
+       
+   }
+   
+   // 5533번 - 유니크 
    public static void test06() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringTokenizer st;
 	   
-	   st = new StringTokenizer(br.readLine());
+	   int N = Integer.parseInt(br.readLine());
 	   
+	   int[][] point = new int[N][3];
+	   for(int i = 0; i < N; i++) {
+		   
+		   st = new StringTokenizer(br.readLine());
+		   point[i][0] = Integer.parseInt(st.nextToken());
+		   point[i][1] = Integer.parseInt(st.nextToken());
+		   point[i][2] = Integer.parseInt(st.nextToken());
+		   
+	   }
+
+	   for(int idx = 0; idx < 3; idx++) {
+		   
+		   for(int i = 0; i < N; i++) {
+			   
+			   int target = point[i][idx];
+			   boolean chk = false;
+			   for(int j = i + 1; j < N; j++) {
+				   
+				   if(point[j][idx] == target) {
+					   point[j][idx] = 0;
+					   chk = true;
+				   }
+			   }
+			   
+			   if(chk) point[i][idx] = 0;
+		   }
+	   }
+	   
+	   
+	   for(int i = 0; i < N; i++) {
+
+		   long sum = 0;
+		   for(int j = 0; j < 3; j++) sum += point[i][j];
+		   System.out.println(sum);
+		   
+	   }
 	   
    }
    
-   //
+   // 19945번 - 새로운 언어 CC
    public static void test07() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringTokenizer st;
 	   
-	   st = new StringTokenizer(br.readLine());
+	   int N = Integer.parseInt(br.readLine());
 	   
-	   
+	   if(N == 0) System.out.println(1);
+	   else if(N < 0) System.out.println(32);
+	   else {
+		   
+		   int ans = 0;
+		   while(N > 0){
+			   ans++;
+			   N /= 2;
+		   }
+		   
+		   System.out.println(ans);
+	   }
    }
    
    //
