@@ -5,13 +5,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
 public class BasicMath2Plus45 {
 
    public static void main(String[] args) throws IOException {
-      test07();
+      test10();
    }
    
    // 14710번 - 고장난 시계
@@ -180,36 +181,84 @@ public class BasicMath2Plus45 {
 	   }
    }
    
-   //
+   // 14686번 - Sum Game
    public static void test08() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringTokenizer st;
 	   
+	   int N = Integer.parseInt(br.readLine());
+
+	   long[] swifts = new long[N];
+	   long[] semaphores = new long[N];
+	   
 	   st = new StringTokenizer(br.readLine());
+	   for(int i = 0; i < N; i++) swifts[i] = Integer.parseInt(st.nextToken());
+	   for(int i = 1; i < N; i++) swifts[i] += swifts[i - 1];
 	   
+	   st = new StringTokenizer(br.readLine());
+	   for(int i = 0; i < N; i++) semaphores[i] = Integer.parseInt(st.nextToken());
+	   for(int i = 1; i < N; i++) semaphores[i] += semaphores[i - 1];
 	   
+	   int max = 0;
+	   for(int i = 0; i < N; i++) if(swifts[i] == semaphores[i]) max = (i + 1);
+	   
+	   System.out.println(max);
    }
    
-   //
+   // 16625번 - Das Blinkenlights
    public static void test09() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringTokenizer st;
+	   int[] inputs = Arrays.stream(br.readLine().split(" ")).map(String::trim).mapToInt(Integer::parseInt).toArray();
 	   
-	   st = new StringTokenizer(br.readLine());
-	   
+       int p = inputs[0];
+       int q = inputs[1];
+       int s = inputs[2];
+
+       System.out.println(s >= p * q / gcd(p, q) ? "yes" : "no");
 	   
    }
    
-   //
+   private static int gcd(int first, int second) {
+	   int max = Math.max(first, second);
+       int min = Math.min(first, second);
+
+       while (min != 0) {
+           int res = max % min;
+           max = min;
+           min = res;
+       }
+
+       return max;
+   }
+   
+   // 9070번 - 장보기
    public static void test10() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringTokenizer st;
 	   
-	   st = new StringTokenizer(br.readLine());
+	   int T = Integer.parseInt(br.readLine());
 	   
+	   while(T --> 0) {
+		   
+		   int N = Integer.parseInt(br.readLine());
+		   double max = 0;
+		   int ans = 0;
+		   for(int i = 0; i < N; i++) {
+			   st = new StringTokenizer(br.readLine());
+			   
+			   double W = Integer.parseInt(st.nextToken());
+			   double C = Integer.parseInt(st.nextToken());
+			   double WC = W / C;
+			   
+			   if(max < WC) {
+				   max = WC;
+				   ans = (int)C;
+			   } else if (max == WC) ans = Math.min((int)C, ans);
+			   
+		   }
+		   
+		   System.out.println(ans);
+	   }
 	   
    }
-   
-   
-   
 }
