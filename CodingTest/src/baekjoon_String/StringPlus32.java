@@ -3,6 +3,7 @@ package baekjoon_String;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Map;
@@ -12,7 +13,7 @@ import java.util.TreeMap;
 public class StringPlus32 {
 	
 	public static void main(String[] args) throws IOException {
-		test03();
+		test08();
 	}
 
 	// 27522번 - 카트라이더: 드리프트
@@ -108,44 +109,154 @@ public class StringPlus32 {
         return false;
     }
 
-	// 
+	// 2607번 - 비슷한 단어
 	public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		int T = Integer.parseInt(br.readLine());
 		
+		String base = br.readLine();
+		int[] baseArr = new int[26];
 		
+		for(int i = 0; i < base.length(); i++) baseArr[base.charAt(i) - 'A']++;
+		
+		int ans = 0;
+		for(int i = 0; i < T - 1; i++) {
+			
+			String temp = br.readLine();
+			if(Math.abs(temp.length() - base.length()) > 1) continue;
+
+			int dif = 0;
+			int[] tempArr = baseArr.clone();
+			
+			for(int j = 0; j < temp.length(); j++) {
+				int idx = temp.charAt(j) - 'A';
+				
+				if(tempArr[idx] > 0) {
+					dif++;
+					tempArr[idx]--;
+				}
+			}
+			
+            if(base.length() - 1 == temp.length()) {
+            	
+                if(dif == temp.length()) ans++;
+                
+            }
+
+            else if(base.length() + 1 == temp.length()) {
+            	
+                if(dif == base.length()) ans++;
+                
+            }
+
+            else if(base.length() == temp.length()) {
+            	
+                if(dif == base.length()) ans++;
+                else if(dif == base.length() - 1) ans++;
+                
+            }
+            
+		}
+		
+		System.out.println(ans);
 	}
 	
-	// 
+	// 15353번 - 큰 수 A+B (2) 
 	public static void test05() throws IOException {
+
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		BigInteger A = new BigInteger(st.nextToken());
+		BigInteger B = new BigInteger(st.nextToken());
 		
-		
+		System.out.println(A.add(B));
 	}
 	
-	// 
+	// 2852번 - NBA 농구
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
+		int t;
+		int ntime;
+		int time = 0;
+		int t_a = 0;
+		int t_b = 0;
+		int s = 0;
+		boolean chk;
+		t = Integer.parseInt(br.readLine());
 		
+		while(t --> 0) {
+			
+			st = new StringTokenizer(br.readLine());
+			chk = st.nextToken().equals("1") ? true : false;
+			String str = st.nextToken();
+			
+			ntime = (str.charAt(0) - '0') * 600;
+			ntime += (str.charAt(1) - '0') * 60;
+			ntime += (str.charAt(3) - '0') * 10;
+			ntime += str.charAt(4) - '0';
+			
+			if(s > 0) t_a += ntime - time;
+			if(s < 0) t_b += ntime - time;
+			s += chk ? 1 : -1;
+			time = ntime;
+			
+		}
+		
+		if(s > 0) t_a += 2880 - time;
+		if(s < 0) t_b += 2880 - time;
+		System.out.printf("%02d:%02d\n%02d:%02d\n", t_a / 60, t_a % 60, t_b / 60, t_b % 60);
 		
 	}
 	
-	// 
+	// 27627번 - Splitology
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		String input = br.readLine();
 		
+		for(int i = 1; i < input.length(); i++) {
+			
+			if(isPalindrome(input.substring(0, i)) && isPalindrome(input.substring(i, input.length()))) {
+				System.out.println(input.substring(0, i) + " " + input.substring(i, input.length()));
+				return;
+			}
+		}
 		
+		System.out.println("NO");
 	}
 	
-	// 
+    private static boolean isPalindrome(String word) {
+        for (int i = 0; i < (word.length() / 2); i++) {
+            if (word.charAt(i) != word.charAt(word.length() - i - 1)) {
+                return false;
+            }
+        }
+        return true;
+    }
+    
+	// 1718번 - 암호
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		
+		char[] plainText = br.readLine().toCharArray();
+		char[] key = br.readLine().toCharArray();
+
+		for(int i = 0; i < plainText.length; i++) {
+			
+			if(plainText[i] == ' ') {
+				sb.append(" ");
+				continue;
+			}
+			int move = key[i % key.length] - 'a' + 1;
+			int plain = plainText[i];
+
+			if(plain - move < 97) {
+				sb.append((char)(plain - move + 26));
+			} else sb.append((char)(plain - move));
+		}
 		
+		System.out.println(sb);
 	}
 	
 	// 
