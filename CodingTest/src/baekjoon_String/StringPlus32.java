@@ -13,7 +13,7 @@ import java.util.TreeMap;
 public class StringPlus32 {
 	
 	public static void main(String[] args) throws IOException {
-		test08();
+		test10();
 	}
 
 	// 27522번 - 카트라이더: 드리프트
@@ -259,21 +259,67 @@ public class StringPlus32 {
 		System.out.println(sb);
 	}
 	
-	// 
+	// 9228번 - Check Digits
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		
+		while(true) {
+			
+			String input = br.readLine();
+			if(input.equals("#")) break;
+			
+			int digit = 2;
+			long total = 0;
+
+			for(int i = 0; i < input.length(); i++) {
+				total += Character.getNumericValue(input.charAt(input.length() - (i + 1))) * digit;
+				digit++;
+			}
+			
+			total %= 11;
+			total = 11 - total;
+			
+			if(total >= 1 && total <=9) 
+				System.out.println(input + " -> " + total);
+			else if ( total == 10)
+				System.out.println(input + " -> Rejected");
+			else if ( total == 11)
+				System.out.println(input + " -> " + 0);
+			
+		}
 		
 	}
 	
-	// 
+	// 9494번 - Text Roll
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
+		while (true) {
+			
+			int index = 1;
+			int N = Integer.parseInt(br.readLine());
+			if (N == 0) break;
+			
+			for (int i = 0; i < N; i++) {
+			
+				boolean check = false;
+				String line = br.readLine();
+				
+				for (int j = 0; j < line.length(); j++) {
+				
+					if (line.charAt(j) == ' ' && j + 1 >= index) {
+						index = j + 1;
+						check = true;
+						break;
+					}
+				}
+				
+				if (!check && index < line.length() + 1) index = line.length() + 1;
+			}
 		
+			sb.append(index +"\n");
+		}
 		
+		System.out.print(sb);
 	}
-	
 	
 }
