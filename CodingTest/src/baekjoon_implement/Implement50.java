@@ -17,7 +17,6 @@ public class Implement50 {
 	public static void test01() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
-		
 		st = new StringTokenizer(br.readLine());
 		int H = Integer.parseInt(st.nextToken());
 		int W = Integer.parseInt(st.nextToken());
@@ -64,12 +63,57 @@ public class Implement50 {
 		}
 	}
 	
-	// 14709번 - 여우 사인
+	// 5638번 - Escape Route
 	public static void test02() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
+		StringBuilder sb = new StringBuilder();
 		
-		int N = Integer.parseInt(br.readLine());
+		int T = Integer.parseInt(br.readLine());
+		while(T --> 0) {
+			
+			int N = Integer.parseInt(br.readLine());
+			
+			char[][] map = new char[N][N];
+			int[] s = new int[2];
+			for(int i = 0; i < N; i++) {
+				
+				String str = br.readLine();
+				for(int j = 0; j < N; j++) {
+					char temp = str.charAt(j);
+					map[i][j] = temp;
+					
+					if(temp == 's') {
+						s[0] = i;
+						s[1] = j;
+					}
+					
+				}
+			}
+			double minDis = Double.MAX_VALUE;
+			int[] p = new int[2];
+			for(int i = 0; i < N; i++) {
+				
+				for(int j = 0; j < N; j++) {
+					
+					if(map[i][j] == 'p') {
+						double dis = Math.pow((Math.pow(i - s[0], 2) + Math.pow(j - s[1], 2)), 0.5);
+						
+						if(minDis > dis) {
+							
+							minDis = Math.min(minDis, dis);
+							p[0] = i;
+							p[1] = j;
+						}
+					}
+				}
+			}
+			
+			String ans = String.format("%.2f", minDis);
+			
+			sb.append("(" + s[0] + "," + s[1] + "):(" +p[0] + "," + p[1] + "):" + ans + "\n");
+		}
+		
+		System.out.println(sb);
 	}
 	
 	// 
