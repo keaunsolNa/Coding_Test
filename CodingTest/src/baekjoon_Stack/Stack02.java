@@ -25,7 +25,7 @@ public class Stack02 {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		test03();
+		test05();
 	}
 	
 	// 2304번 - 창고 다각형(F)
@@ -192,12 +192,55 @@ public class Stack02 {
 		System.out.println(sb);
 	}
 
-
-    
-	// 
+	// 5957번 - Cleaning the Dishes
 	public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		int N = Integer.parseInt(br.readLine());
+		
+		Stack<Integer> stack1 = new Stack<>();
+		Stack<Integer> stack2 = new Stack<>();
+		Stack<Integer> stack3 = new Stack<>();
+		
+		for(int i = N; i >= 1; i--) stack1.add(i);
+		
+		String input = "";
+		
+		while((input = br.readLine()) != null) {
+			st = new StringTokenizer(input);
+			
+			int work = Integer.parseInt(st.nextToken());
+			int doing = Integer.parseInt(st.nextToken());
+			
+			switch(work) {
+			
+				case 1 : 
+					for(int i = 0; i < doing; i++) stack2.add(stack1.pop()); break;
+					
+				case 2 : 
+					for(int i = 0; i < doing; i++) stack3.add(stack2.pop()); break;
+					
+			}
+		}
+
+		while(!stack3.isEmpty()) System.out.println(stack3.pop());
+		
+	}
+	
+	// 
+	public static void test05() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+
+	}
+	
+	// 
+	public static void test06() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		st = new StringTokenizer(br.readLine());
 		
 		
 	}
