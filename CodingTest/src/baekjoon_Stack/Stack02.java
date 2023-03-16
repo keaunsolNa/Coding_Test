@@ -6,7 +6,9 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
@@ -25,7 +27,7 @@ public class Stack02 {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		test05();
+		test10();
 	}
 	
 	// 2304번 - 창고 다각형(F)
@@ -228,22 +230,150 @@ public class Stack02 {
 		
 	}
 	
-	// 
+	// 9935번 - 문자열 폭발
 	public static void test05() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		char[] input = br.readLine().toCharArray();
+		String target = br.readLine();
+		
+		Stack<Character> stack = new Stack<>();
+		
+		for(int i = 0; i < input.length; i++) {
+			stack.push(input[i]);
+			
+			if(stack.size() >= target.length()) {
+				boolean flag = true;
+				
+				for(int j = 0; j < target.length(); j++) {
+					if(stack.get(stack.size() - target.length() + j) != target.charAt(j)) {
+						flag = false;
+						break;
+					}
+				}
+				
+				if(flag) for(int j = 0; j < target.length(); j++) stack.pop();
+			}
+				
+		}
+		
+		if(stack.size() == 0) {
+			System.out.println("FRULA");
+			return;
+		}
+		
+		for (Character character : stack) sb.append(character);
+		
+		System.out.println(sb);
+	}
+	
+	// 16120 - PPAP
+	public static void test06() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String input = br.readLine();
+		
+		Stack<Character> stack = new Stack<>();
+		String PPAP = "PPAP";
+		for(int i = 0; i < input.length(); i++) {
+			
+			stack.push(input.charAt(i));
+			
+			if(stack.size() >= 4) {
+				boolean flag = true;
+				
+				for(int j = 0; j < 4; j++) {
+					if(stack.get(stack.size() - 4 + j) != PPAP.charAt(j)) {
+						flag = false;
+						break;
+					}
+				}
+				
+				if(flag) {
+					for(int j = 0; j < 4; j++) stack.pop();
+					stack.push('P');
+				}
+			}
+		}
+		
+		if(stack.pop() == 'P' && stack.size() == 0) System.out.println("PPAP");
+		else System.out.println("NP");
+	}
+	
+	// 15926번 - 현욱은 괄호왕이야!!
+	public static void test07() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int n = Integer.parseInt(br.readLine());
+		String input = br.readLine();
+		
+		Stack<Integer> stack = new Stack<>();
+		int cnt = 0;
+		stack.add(-1);
+		
+		for(int i = 0; i < n; i++) {
+			char target = input.charAt(i);
+			
+			if(target == '(') stack.push(i);
+			else {
+				stack.pop();
+				if(!stack.isEmpty()) cnt = Math.max(cnt, i - stack.peek());
+				else stack.add(i);
+			}
+		}
+		
+		System.out.println(cnt);
+	}
+	
+	// 17299번 - 오등큰수
+	public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
+		
+		Stack<Integer> stack = new Stack<Integer>();
+		int N = Integer.parseInt(br.readLine());
+		int[] sq = new int[N];
+		
+		st = new StringTokenizer(br.readLine());
+		Map<Integer, Integer> map = new HashMap<>();
+		for(int i = 0; i < N; i++) {
+			
+			int key = Integer.parseInt(st.nextToken());
+			map.put(key, map.getOrDefault(key, 0) + 1);
+			sq[i] = key;
+			
+		}
+		
+		for(int i = 0; i < N; i++) {
+			
+			while(!stack.isEmpty() && map.get(sq[stack.peek()]) < map.get(sq[i]))
+				sq[stack.pop()] = sq[i];
+			stack.push(i);
+		}
+
+		while(!stack.isEmpty()) sq[stack.pop()] = -1;
+		
+		for(int i = 0; i < N; i++) sb.append(sq[i] + " ");
+		
+		System.out.println(sb);
+	}
+	
+	
+	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		
+		char[] Number = br.readLine().toCharArray();
+		
+		
 	}
 	
-	// 
-	public static void test06() throws IOException {
+	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		st = new StringTokenizer(br.readLine());
-		
 		
 	}
-	
 
 }

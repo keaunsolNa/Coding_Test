@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class Implement44 {
 
 	public static void main(String[] args) throws IOException {
-		test10();
+		test06();
 	}
 	
 	// 27251번 - Звездочки
@@ -154,7 +154,7 @@ public class Implement44 {
 		
 	}
 	
-	// 11949번 - 번호표 교환 
+	// 1996번 - 지뢰 찾기
 	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
