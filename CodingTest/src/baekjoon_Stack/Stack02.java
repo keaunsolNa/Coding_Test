@@ -358,21 +358,100 @@ public class Stack02 {
 		System.out.println(sb);
 	}
 	
-	
+	// 26558 - Clothes
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
+		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
 		
-		int N = Integer.parseInt(st.nextToken());
-		int K = Integer.parseInt(st.nextToken());
+		int T = Integer.parseInt(br.readLine());
 		
-		char[] Number = br.readLine().toCharArray();
+		while(T --> 0) {
+			int N = Integer.parseInt(br.readLine());
+			
+			Stack<String> shirt = new Stack<>();
+			Stack<String> pants = new Stack<>();
+			Stack<String> socks = new Stack<>();
+			
+			for(int i = 0; i < N; i++) {
+				
+				st = new StringTokenizer(br.readLine(), "(");
+				String value = st.nextToken();
+				value = value.substring(0, value.length() - 1);
+				
+				String key = st.nextToken();
+				key = key.substring(0, key.length() - 1);
+
+				switch(key) {
+					
+					case "shirt" : shirt.add(value); break;
+					
+					case "pants" : pants.add(value); break;
+					
+					case "socks" : socks.add(value); break;
+					
+				}
+			}
+			
+			while(!shirt.isEmpty()) {
+				
+				if(!pants.isEmpty()) {
+					
+					if(!socks.isEmpty()) {
+						
+						sb.append(shirt.pop() + ", " + pants.pop() + ", " + socks.pop() +"\n");
+						continue;
+					}
+				}
+				
+				break;
+			}
+			
+			sb.append("\n");
 		
+		}
 		
+		System.out.println(sb);
 	}
 	
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		Stack<Long> stack = new Stack<>();
+
+		int n = Integer.parseInt(br.readLine());
+		long max = 0;
+		long ans = 0;
+		
+		for(int i = 0; i < n; i++) {
+			long target = Long.parseLong(br.readLine());
+			max = Math.max(max, target);
+			
+			if(stack.isEmpty()) stack.push(target);
+			
+			else {
+				
+				if(stack.peek() < target) {
+					
+					ans += target - stack.pop();
+					stack.push(target);
+					
+				}
+				
+				else if(stack.peek() > target) {
+					
+					stack.pop();
+					stack.add(target);
+					
+				}
+			}
+		}
+		
+		while(!stack.isEmpty()) {
+			long num = stack.pop();
+			ans += max - num;
+		}
+		
+		System.out.println(ans);
 		
 	}
 
