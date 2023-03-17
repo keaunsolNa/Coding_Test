@@ -358,7 +358,7 @@ public class Stack02 {
 		System.out.println(sb);
 	}
 	
-	// 26558 - Clothes
+	// 26558번 - Clothes
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
@@ -414,6 +414,7 @@ public class Stack02 {
 		System.out.println(sb);
 	}
 	
+	// 2374번 - 같은 수로 만들기 
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Stack<Long> stack = new Stack<>();
