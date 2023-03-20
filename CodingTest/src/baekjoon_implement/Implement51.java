@@ -35,7 +35,7 @@ public class Implement51 {
     private static ArrayList<Node> list;
     
 	public static void main(String[] args) throws IOException {
-		test07();
+		test09();
 	}
 	
 	// 16234번 - 인구 이동
@@ -354,8 +354,44 @@ public class Implement51 {
 		System.out.println(idx);
 	}
 	
-	// 
+	// 6246번 - 풍선 놀이
 	public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int Q = Integer.parseInt(st.nextToken());
+		
+		boolean[] chk = new boolean[N + 1];
+		for(int i = 0; i < Q; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			
+			int start = Integer.parseInt(st.nextToken());
+			int term = Integer.parseInt(st.nextToken());
+			
+			for(int j = start; j <= N; j += term) chk[j] = true;
+		}
+		
+		int ans = 0;
+		for(int i = 1; i <= N; i++) if(!chk[i]) ans++;
+		
+		
+		System.out.println(ans);
+	}
+	
+	// 
+	public static void test09() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		st = new StringTokenizer(br.readLine());
+		
+		
+	}
+	
+	// 
+	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		st = new StringTokenizer(br.readLine());
