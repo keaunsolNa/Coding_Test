@@ -16,7 +16,7 @@ import java.util.StringTokenizer;
 
 public class GraphTheory01 {
 	public static void main(String[] args) throws IOException {
-		test08();
+		test10();
 	}
 	
 	// 9372번 - 상근이의 여행
@@ -404,18 +404,118 @@ public class GraphTheory01 {
 		
 	}
 	
-	// 
+	// 17086 아기 상어 2
+	private static int dx2[]= {0, 0, 1, -1 ,1 ,1 ,- 1, -1};
+	private static int dy2[]= {1, -1, 0, 0, 1, -1 ,- 1, 1};
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
+		
+		st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		
+		int[][] map = new int[N][M];
+		Queue<int[]> que = new LinkedList<>();
+		int[][] dist = new int[N][M];   
+		
+		for(int i = 0; i < N; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			
+			for(int j = 0; j < M; j++) {
+				
+				map[i][j] = Integer.parseInt(st.nextToken());
+				if(map[i][j] == 1) que.add(new int[] {j, i});
+							
+			}
+		}
+		
+		int answer = Integer.MIN_VALUE;
+		
+		while(!que.isEmpty()) {
+			
+			int[] cur = que.poll();  
+			int x = cur[0];
+			int y = cur[1];
+			for (int j = 0; j < 8; j++) {
+				
+				int yy = y + dy2[j];
+				int xx = x + dx2[j];
+				
+				if(xx < 0 || yy < 0 || xx >= M || yy >= N)continue;
+				
+				if(dist[yy][xx] != 0 || map[yy][xx] == 1)continue;
+				
+				dist[yy][xx] = dist[y][x] + 1;
+				
+				if(dist[yy][xx] > answer) answer = dist[yy][xx];
+				
+				que.add(new int[] {xx, yy});
+		
+			}
+		}
+		
+		System.out.println(answer);	
+		
 	}
 	
-	// 
+	// 1389번 - 케빈 베이컨의 6단계 법칙
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
+		
+		st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		int[][] arr = new int[N + 1][N + 1];
+		final int INF = 987654321;
+		
+		for (int i = 1; i <= N; i++) {
+	    
+			for (int j = 1; j <= N; j++) {
+	        
+				arr[i][j] = INF;
+				if (i == j) arr[i][j] = 0;
+				
+			}
+		}
+		
+        for (int i = 0; i < M; i++) {
+        	
+            st = new StringTokenizer(br.readLine());
+            int x = Integer.parseInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
+ 
+            arr[x][y] = arr[y][x] = 1;
+            
+        }
+     
+        for (int k = 1; k <= N; k++) {
+            for (int i = 1; i <= N; i++) {
+                for (int j = 1; j <= N; j++) {
+                    if (arr[i][j] > arr[i][k] + arr[k][j]) 
+                    	arr[i][j] = arr[i][k] + arr[k][j];
+                }
+            }
+        }
+ 
+        int res = INF;
+        int idx = -1;
+     
+        for (int i = 1; i <= N; i++) {
+        	
+            int total = 0;
+            for (int j = 1; j <= N; j++)  total += arr[i][j];
+            
+ 
+            if (res > total) {
+                res = total;
+                idx = i;
+            }
+        }
+        
+        System.out.println(idx);
 	}
 	
 }
