@@ -4,14 +4,17 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Implement52 {
     
 	public static void main(String[] args) throws IOException {
-		test06();
+		test09();
 	}
 	
 	// 27889번 - 특별한 학교 이름
@@ -184,14 +187,173 @@ public class Implement52 {
 		
 	}
 	
-	// 
+	// 16433번 - 주디와 당근농장
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		st = new StringTokenizer(br.readLine());
 		
+		int N = Integer.parseInt(st.nextToken());
+		int R = Integer.parseInt(st.nextToken()) - 1;
+		int C = Integer.parseInt(st.nextToken()) - 1;
+		
+		char[][] map = new char[N][N];
+		for(int i = 0; i < N; i++) {
+			
+			for(int j = 0; j < N; j++) {
+				
+				map[i][j] = '.';
+			}
+		}
+		
+		map[R][C] = 'v';
+		int dy[]= {-1, -1, 1, 1};
+		int dx[]= {1, -1, 1, -1};
+		Queue<int[]> q=new LinkedList<int[]>();
+		
+		q.add(new int[] {R, C});
+		
+		while(!q.isEmpty()) {
+			
+			int[] p = q.poll();
+			
+			for(int i = 0; i < 4; i++) {
+				int ny = p[0] + dy[i];
+				int nx = p[1] + dx[i];
+				if(ny >= 0 && nx >= 0 && ny < N && nx < N && map[ny][nx] == '.') {
+					map[ny][nx] = 'v';
+					q.add(new int[] {ny, nx});
+				}
+			}
+		}
+		
+		for(int i = 0; i < N; i++) {
+			for(int j = 0; j < N; j++) {
+				System.out.print(map[i][j]);
+			}
+			System.out.println();
+		}
+	}
+
+	// 11949번 - 번호표 교환
+	public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		
+		int[] arr = new int[N];
+        for (int i = 0; i < N; i++) arr[i] = Integer.parseInt(br.readLine());
+
+        for (int i = 1; i <= M; i++) {
+        	
+            for (int j = 1; j < N; j++) {
+            	
+                if (arr[j - 1] % i > arr[j] % i) {
+                    int temp = arr[j - 1];
+                    arr[j - 1] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        
+        for (int i : arr) System.out.println(i +" ");
 		
 	}
 	
+	// 27891번 - 특별한 학교 이름 암호화
+	public static void test09() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder input = new StringBuilder(br.readLine());
+
+		while(true) {
+			
+			String ans = check(input.toString());
+			
+			if(!ans.equals("F")) {
+				System.out.println(ans);
+				break;
+			}
+			
+			StringBuilder tempStr = new StringBuilder();
+			for(int i = 0; i < input.length(); i++) {
+
+				int temp = (int)input.charAt(i);
+				temp = temp + 1 > 122 ? 97 : temp + 1;
+
+				tempStr.append((char)temp);
+			}
+			
+			input = tempStr;
+		}
+	}
+	
+	private static String check(String input) {
+
+		String NLCS = "northlondo";
+		String BHA = "branksomeh";
+		String KIS = "koreainter";
+		String SJA = "stjohnsbur";
+		
+		if(input.equals(NLCS)) return "NLCS";
+		else if(input.equals(BHA)) return "BHA";
+		else if(input.equals(KIS)) return "KIS";
+		else if(input.equals(SJA)) return "SJA";
+		
+		return "F";
+	}
+	
+	// 1236번 - 성 지키기
+	public static void test10() throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+              
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
+        int col = 0;
+        int row = 0;
+       
+        boolean[][] arr = new boolean[N][M];
+
+        for(int i = 0; i < N; i++) {
+        	
+            String str = br.readLine();
+            
+            for(int j = 0; j < M; j++) {
+           
+                if(str.charAt(j) == '.') arr[i][j] = false;
+                else arr[i][j] = true;
+                
+            }
+        }
+       
+        for(int i = 0; i < M; i++) {
+
+        	int count = 0;
+
+            for(int k = 0; k < N; k++) 
+                if(arr[k][i] == false) count ++;
+
+            if(count == N) col++;
+            
+        }
+
+        for(int i = 0; i < N; i++) {
+        	
+            int count = 0;
+            
+            for(int k = 0; k < M; k++) 
+                if(arr[i][k] == false) count ++;
+
+            if(count == M) row++;
+            
+        }
+
+        if(row >= col) System.out.println(row);
+        else System.out.println(col);
+        
+	}
 	
 }
