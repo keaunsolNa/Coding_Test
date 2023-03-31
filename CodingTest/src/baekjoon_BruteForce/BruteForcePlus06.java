@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 public class BruteForcePlus06 {
 	
    public static void main(String[] args) throws IOException {
-      test06();
+      test10();
    }
 	
    private static class BD {
@@ -304,16 +304,186 @@ public class BruteForcePlus06 {
 		System.out.print(sb);
 	}
 
-   //
+   // 3595번 - 맥주 냉장고
    public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
+		int N = Integer.parseInt(br.readLine());
+
+		long ans = Long.MAX_VALUE;
+		int[] answer = new int[3];
+		for(int i = 1; i <= N; i++) {
+			
+			for(int j = 1; j <= i; j++) {
+				
+				if(i * j > N) break;
+				for(int q = 1; q <= j; q++) {
+					
+					if(i * j * q > N) break;
+					if(i * j * q < N) continue;
+					
+                    long size = i * j * 2 + i * q * 2 + j * q * 2;
+                    if (size < ans) {
+                        ans = size;
+                        answer[0] = i;
+                        answer[1] = j;
+                        answer[2] = q;
+                    }
+				}
+			}
+		}
+		
+		System.out.println(answer[0] + " " + answer[1] + " " + answer[2]);
 	}
    
-   //
+   // 2468번 - 안전 영역
+   private static int[][] map;
    public static void test08() throws IOException {
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringTokenizer st;
+	   
+	   n = Integer.parseInt(br.readLine());
+	   
+	   map = new int[n][n];
+	   checked = new boolean[n][n];
+	   int maxRow = 0;
+	   for(int i = 0; i < n; i++) {
+		   
+		   st = new StringTokenizer(br.readLine());
+		   for(int j = 0; j < n; j++) {
+			
+			   int idx = Integer.parseInt(st.nextToken());
+			   map[i][j] = idx;
+			   maxRow = Math.max(maxRow, idx);
+		   }
+	   }
+	   
+	   int max = 0;
+	   for(int h = 0; h < maxRow + 1; h++) {
+		
+		   checked = new boolean[n][n];
+		   int cnt = 0;
+			
+		   for(int i = 0; i < n; i++) {
+			
+			   for(int j = 0; j < n; j++) {
+
+				   if(!checked[i][j] && map[i][j] > h)
+					   cnt+=mapCheck(i, j, h); 
+			   }
+		   }
+		   max = Math.max(max, cnt);
+	   }
+	   
+	   System.out.println(max);
+	   
    }
+
+   private static boolean[][] checked;
+   private static int[] dx = {1, 0, -1, 0};
+   private static int[] dy = {0,- 1, 0, 1};
+   private static int mapCheck(int x, int y, int H) {
+	   checked[x][y] = true;
+	   for(int i = 0; i < 4; i++) {
+		   
+		   int nx = x + dx[i];
+		   int ny = y + dy[i];
+		   
+			if(nx < 0 || ny < 0 || nx > n - 1 || ny > n - 1) continue;
+
+			if(checked[nx][ny]) continue;
+			
+			if(map[nx][ny] > H) 
+				mapCheck(nx, ny, H);
+
+	   }
+	   
+	   return 1;
+   }
+   
+   // 1440 - 타임머신
+   public static void test09() throws IOException {
+	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	   StringTokenizer st = new StringTokenizer(br.readLine(), ":");
+	   
+       ArrayList<Integer> list = new ArrayList<>();
+       for (int i = 0; i < 3; i++) list.add(Integer.parseInt(st.nextToken()));
+       
+       int ans = 0;
+	   for (int i = 0; i < 3; i++) {
+		   
+           ArrayList<Integer> tmp_1 = (ArrayList<Integer>) list.clone();
+           
+           if (checkHour(list.get(i))) {
+        	   
+               tmp_1.remove(i);
+               for (int j = 0; j < 2; j++) {
+            	   
+                   ArrayList<Integer> tmp_2 = (ArrayList<Integer>) tmp_1.clone();
+                   
+                   if (checkTime(tmp_1.get(j))) {
+                	   
+                       tmp_2.remove(j);
+                       if (checkTime(tmp_2.get(0))) ans++;
+                   }
+               }
+           }
+       }
+	   
+	   System.out.println(ans);
+   }
+   
+   private static boolean checkHour(int time) {
+	   
+       if (time >= 1 && time <= 12) return true;
+       
+       return false;
+   }
+   
+   private static boolean checkTime(int time) {
+	   
+       if (time >= 0 && time <= 59)  return true;
+       
+       return false;
+   }
+
+   // 18868번 - 멀티 버스 I
+   public static void test10() throws IOException {
+       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+       StringTokenizer st = new StringTokenizer(br.readLine());
+       
+       int m = Integer.parseInt(st.nextToken());
+       int n = Integer.parseInt(st.nextToken());
+       String[] arr = new String[m];
+       
+       for (int i = 0; i < m; i++) {
+    	   
+           StringBuilder sb = new StringBuilder();
+           st = new StringTokenizer(br.readLine());
+           int[] tmp = new int[n];
+           
+           for (int j = 0; j < n; j++) tmp[j] = Integer.parseInt(st.nextToken());
+           
+           for (int j = 0; j < n - 1; j++) {
+        	   
+               for (int k = j + 1; k < n; k++) {
+            	   
+                   if (tmp[k] > tmp[j]) sb.append('+');
+                   else if (tmp[k] < tmp[j]) sb.append('-');
+                   else sb.append('=');
+                   
+               }
+           }
+           
+           arr[i] = sb.toString();
+       }
+
+       int cnt = 0;
+       for (int i = 0; i < m - 1; i++) 
+           for (int j = i + 1; j < m; j++) 
+               if (arr[i].equals(arr[j])) cnt++;
+       
+       System.out.println(cnt);
+   }
+   
 }
 
