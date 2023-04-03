@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 public class BasicMath2Plus48 {
 
    public static void main(String[] args) throws IOException {
-      test07();
+      test10();
    }
 	
    // 22341번 - 사각형 면적 
@@ -229,20 +229,94 @@ public class BasicMath2Plus48 {
        }
    }
 
+   // 10158번 - 개미
    public static void test08() throws IOException {
 	   
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	   StringTokenizer st;
+
+	   st = new StringTokenizer(br.readLine());
+	   int W = Integer.parseInt(st.nextToken());
+	   int H = Integer.parseInt(st.nextToken());
+	   
+	   st = new StringTokenizer(br.readLine());
+	   int P = Integer.parseInt(st.nextToken());
+	   int Q = Integer.parseInt(st.nextToken());
+	   
+	   int T = Integer.parseInt(br.readLine());
+	   
+	   P += T % (W * 2);
+	   Q += T % (H * 2);
+	   if(P > W) P = Math.abs(W * 2 - P);
+	   if(Q > H) Q = Math.abs(H * 2 - Q);
+	   
+	   System.out.println(P + " " + Q);
    }
-   
+
+   // 5344번 - GCD
    public static void test09() throws IOException {
 	   
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	   StringTokenizer st;
+	   
+	   int T = Integer.parseInt(br.readLine());
+	   
+	   while(T --> 0) {
+		   st = new StringTokenizer(br.readLine());
+		   
+		   long num1 = Long.parseLong(st.nextToken());
+		   long num2 = Long.parseLong(st.nextToken());
+		   
+		   System.out.println(gcd(num1, num2));
+	   }
+	   
+	   
    }
    
+   private static long gcd(long num1, long num2){
+       if(num2 == 0) return num1;
+       else return gcd(num2, num1 % num2);
+   }
+
+   // 24039번 - 2021은 무엇이 특별할까?
    public static void test10() throws IOException {
 	   
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	   int N = Integer.parseInt(br.readLine());
+	   boolean[] prime = new boolean[1000001];
+
+	   if(N <= 3) {
+		   System.out.println(6);
+		   System.exit(0);
+	   }
+	   
+	   for(int i = 2; i < prime.length; i++) {
+		   if(isPrime(i)) prime[i] = true;
+	   }
+	   
+	   for(int i = 2; i < N; i++) {
+		   
+		   if(!prime[i]) continue;
+		   for(int j = i + 1; j < N; j++) {
+			   
+			   if(!prime[j]) continue;
+			   
+			   if(i * j <= N) break;
+			   
+			   System.out.println(i * j);
+			   return;
+		   }
+	   }
    }
    
+   private static boolean isPrime(long n) {
+		
+       if(n == 1 || n == 0) return false;
+
+       for(long i = 2; i <= Math.sqrt(n); i++) if(n % i == 0) return false;
+
+       return true;
+       
+   }
 
 }
