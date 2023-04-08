@@ -12,7 +12,7 @@ import java.util.TreeSet;
 public class Implement53 {
     
 	public static void main(String[] args) throws IOException {
-		test05();
+		test10();
 	}
 	
 	// 9916번 - Zeros 
@@ -140,19 +140,192 @@ public class Implement53 {
 			
 	}
 	
-	// 
+	// 6318번 - Box of Bricks
 	public static void test05() throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
+        StringTokenizer st;
+        int set = 1;
+        
+        while (true) {
+        	
+            int n = Integer.parseInt(br.readLine());
+            if (n == 0) break;
+            
+            st = new StringTokenizer(br.readLine());
+            int[] arr = new int[n];
+            int sum = 0;
+            
+            for (int i = 0; i < n; i++) {
+                int cur = Integer.parseInt(st.nextToken());
+                sum += cur;
+                arr[i] = cur;
+            }
+            
+            int cnt = 0;
+            sum /= n;
+            
+            for (int i = 0; i < n; i++) 
+                if (arr[i] > sum) cnt += arr[i] - sum;
+            
+            sb.append(String.format("Set #%d\nThe minimum number of moves is %d.\n\n", set++, cnt));
+        }
+        
+        System.out.print(sb);
+	}
+	
+	// 6081번 - Hay Expenses
+	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
+		st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int Q = Integer.parseInt(st.nextToken());
+		
+		int[] arr = new int[N];
+		
+		for(int i = 0; i < N; i++) arr[i] = Integer.parseInt(br.readLine());
+		
+		for(int i = 0; i < Q; i++) {
+			st = new StringTokenizer(br.readLine());
+			
+			int start = Integer.parseInt(st.nextToken()) - 1;
+			int end = Integer.parseInt(st.nextToken()) - 1;
+			
+			long ans = 0;
+			for(int j = start; j <= end; j++) {
+				ans += arr[j];
+			}
+			
+			System.out.println(ans);
+		}
+		
 		
 	}
-	// 
-	public static void test06() throws IOException {
+	
+	// 13627번 - Dangerous Dive
+	public static void test07() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
+		
+		st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int R = Integer.parseInt(st.nextToken());
+		
+		int[] arr = new int[N];
+		for(int i = 1; i <= N; i++) arr[i - 1] = i;
+		
+		st = new StringTokenizer(br.readLine());
+		for(int i = 0; i < R; i++) {
+			
+			int temp = Integer.parseInt(st.nextToken());
+			
+			arr[temp - 1] = 0;
+		}
+		
+		for(int i = 0; i < N; i++) {
+			
+			if(arr[i] != 0) sb.append(arr[i] +" ");
+		}
+		
+		if(sb.length() == 0) System.out.println("*");
+		else System.out.println(sb);
+	}
+	
+	// 24420번 - ピアノコンクール (Piano Competition)
+	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
+		int N = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
+		int[] arr = new int[N];
+		for(int i = 0; i < N; i++) {
+			arr[i] = Integer.parseInt(st.nextToken());
+		}
 		
+		Arrays.sort(arr);
+		long total = 0;
+		for(int i = 1; i < N - 1; i++) total += arr[i];
+		
+		System.out.println(total);
+		
+	}
+	
+	// 6976번 - Divisibility by 11
+	public static void test09() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int T = Integer.parseInt(br.readLine());
+		StringBuilder ans = new StringBuilder();
+		while(T --> 0) {
+			
+			StringBuilder sb = new StringBuilder(br.readLine());
+			String firstNumber = sb.toString();
+			BigInteger ten = new BigInteger("10");
+			
+			ans.append(sb + "\n");
+			while(sb.length() > 2) {
+				BigInteger num1 = new BigInteger(sb.toString());
+				BigInteger mod = num1.mod(ten);
+				num1 = num1.divide(ten);
+				num1 = num1.subtract(mod);
+				sb.setLength(0);
+				sb.append(num1);
+				ans.append(sb + "\n");
+			}
+			
+			if(Integer.parseInt(sb.toString()) % 11 == 0) {
+				ans.append("The number " + firstNumber +" is divisible by 11.\n");
+			} else {
+				ans.append("The number " + firstNumber +" is not divisible by 11.\n");
+			}
+			ans.append("\n");
+		}
+		
+		ans.deleteCharAt(ans.length() - 1);
+		System.out.print(ans);
+	}
+	
+	// 2303번 - 숫자 게임
+	public static void test10() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+
+		int N = Integer.parseInt(br.readLine());
+        int arr[] = new int[5];
+        int[] list = new int[N];
+        
+        for (int i = 0; i < N; i++) {
+        	
+        	st = new StringTokenizer(br.readLine());
+            for (int j = 0; j < 5; j++) 
+                arr[j] = Integer.parseInt(st.nextToken());
+ 
+            int max = Integer.MIN_VALUE;
+ 
+            for (int j = 0; j < 3; j++) 
+                for (int k = j + 1; k < 4; k++) 
+                    for (int z = k + 1; z < 5; z++) 
+                        max = Math.max(max, (arr[j] + arr[k] + arr[z]) % 10);
+            
+            list[i] = max;
+        }
+ 
+        int idx = -1;
+        int res = -1;
+ 
+        for (int i = 0; i < N; i++) {
+            if (res <= list[i]) {
+                res = list[i];
+                idx = i + 1;
+            }
+        }
+ 
+        System.out.println(idx);
+ 
 	}
 	
 	
