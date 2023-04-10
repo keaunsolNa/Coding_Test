@@ -6,14 +6,26 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.StringTokenizer;
 
 public class Sort06 {
 	
+    static class Condo {
+        int d, p;
+        public Condo(int d, int p) {
+            this.d = d;
+            this.p = p;
+        }
+    }
+    
 	public static void main(String[] args) throws IOException {
-		test07();
-	}
+		test10();
+	}	
 	
 	// 23969번 - 알고리즘 수업 - 버블 정렬 2
 	public static void test01() throws IOException {
@@ -286,20 +298,125 @@ public class Sort06 {
 		}
 	}
 	
-	//
+	// 2246번 - 콘도 선정
 	public static void test08() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+        
+        int N = Integer.parseInt(br.readLine());
+        Condo[] arr = new Condo[N];
+        
+        for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(br.readLine());
+            arr[i] = new Condo(Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()));
+        }
+        
+        int cnt = 0;
+        for (int i = 0; i < N; i++) {
+            Condo cur = arr[i];
+            boolean chk = true;
+            for (int j = 0; j < N; j++) {
+            	
+                if (i == j) continue;
+                if (cur.p>arr[j].p && cur.d>=arr[j].d) {
+                    chk = false;
+                    break;
+                }
+                
+                if (cur.d>arr[j].d && cur.p>=arr[j].p) {
+                    chk = false;
+                    break;
+                }
+                
+            }
+            if (chk) cnt++;
+        }
+        System.out.println(cnt);
 	}
 	
-	//
+	// 25859번 - Sort by Frequency
 	public static void test09() throws IOException {
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		Map<Character, Integer> map = new HashMap<>();
+		String input = br.readLine();
+		
+		for(int i = 0; i < input.length(); i++) {
+			map.put(input.charAt(i), map.getOrDefault(input.charAt(i), 0) + 1);
+		}
+
+		List<Entry<Character, Integer>> list_entries = new ArrayList<Entry<Character, Integer>>(map.entrySet());
+
+		Collections.sort(list_entries, new Comparator<Entry<Character, Integer>>() {
+			public int compare(Entry<Character, Integer> o1, Entry<Character, Integer> o2) {
+				
+				if(o1.getValue() == o2.getValue()) {
+					return o1.getKey() - o2.getKey();
+				}
+				else return o2.getValue().compareTo(o1.getValue());
+			}
+		});
+
+		for (Entry<Character, Integer> entry : list_entries) {
+			for(int i = 0; i < entry.getValue(); i++) sb.append(entry.getKey());
+		}
+		
+		System.out.println(sb);
 	}
 	
-	//
+	// 2628번 - 종이자르기
 	public static void test10() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(bf.readLine());
+
+		int w = Integer.parseInt(st.nextToken());
+		int h = Integer.parseInt(st.nextToken());
+
+		boolean[] wa = new boolean[w];
+		boolean[] ha = new boolean[h];
+
+		int n = Integer.parseInt(bf.readLine());
+
+		while (n > 0) {
+			st = new StringTokenizer(bf.readLine());
+			int wh = Integer.parseInt(st.nextToken());
+			int idx = Integer.parseInt(st.nextToken());
+
+			if (wh == 0) ha[idx] = true;
+			if (wh == 1) wa[idx] = true;
+			n--;
+		}
+
+		int mw = 0;
+		int tmp = 0;
+		for (int i = 0; i < wa.length; i++) {
+			
+			if (wa[i]) {
+				
+				mw = Math.max(mw, tmp);
+				tmp = 1;
+				
+			} else tmp++;
+		}
+		
+		mw = Math.max(mw, tmp);
+
+		tmp = 0;
+		int mh = 0;
+		for (int i = 0; i < ha.length; i++) {
+			
+			if (ha[i]) {
+				
+				mh = Math.max(mh, tmp);
+				tmp = 1;
+				
+			} else tmp++;
+		}
+		
+		mh = Math.max(mh, tmp);
+
+		System.out.println(mw * mh);
 	}
 	
 	
