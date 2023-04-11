@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Tree01 {
@@ -54,7 +56,7 @@ public class Tree01 {
 
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test03();
+		test05();
 	}
 
 	// 1991번 - 트리 순회
@@ -178,13 +180,109 @@ public class Tree01 {
         }
     }
 	
+    // 6615번 - 콜라츠 추측
 	public static void test04() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		StringTokenizer st ;
+		
+		while(true) {
+			st = new StringTokenizer(br.readLine());
+			
+			long a = Integer.parseInt(st.nextToken());
+			long b = Integer.parseInt(st.nextToken());
+			int A = (int)a;
+			int B = (int)b;
+			
+			if(a == 0 && b == 0) break;
+			List<Long> arr1 = new ArrayList<>();
+			List<Long> arr2 = new ArrayList<>();
+			
+			arr1.add(a);
+			arr2.add(b);
+			
+			while(a != 1) {
+				a = a % 2 == 0 ? a / 2 : a * 3 + 1;
+				arr1.add(a);
+			}
+			
+			while(b != 1) {
+				b = b % 2 == 0 ? b / 2 : b * 3 + 1;
+				arr2.add(b);
+			}
+			
+			long SA = 0;
+			long SB = 0;
+			long C = 0;
+			for(int i = 0; i < arr1.size(); i++) {
+				
+				if(arr2.contains(arr1.get(i))) {
+					SA = i;
+					SB = arr2.indexOf(arr1.get(i));
+					C = arr1.get(i);
+					break;
+				}
+			}
+			
+			sb.append(A +" needs " + SA + " steps, " + B + " needs " + SB + " steps, they meet at " + C);
+			sb.append("\n");
+		}
+
+		sb.deleteCharAt(sb.length() - 1);
+		System.out.print(sb);
+		
+	}
+	
+	// 11725번 - 트리의 부모 찾기
+	public static void test05() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		int n = Integer.parseInt(br.readLine());
+		ArrayList<ArrayList<Integer>> tree = new ArrayList<>();
+		for(int i = 0; i < n; i++) tree.add(new ArrayList<>());
+
+		for(int i = 0; i < n - 1; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			int a = Integer.parseInt(st.nextToken()) - 1;
+			int b = Integer.parseInt(st.nextToken()) - 1;
+			tree.get(a).add(b);
+			tree.get(b).add(a);
+		}
+
+		boolean[] visited = new boolean[n]; 
+		int[] pNode = new int[n]; 
+
+		Queue<Integer> queue = new LinkedList<>();
+		queue.add(0);
+		visited[0] = true;
+		while (!queue.isEmpty()) {
+			int v = queue.poll();
+			for (int node : tree.get(v))
+				if (!visited[node]) {
+					visited[node] = true;
+					queue.add(node);
+					pNode[node] = v; 
+				}
+		}
+
+		for(int i = 1; i < n; i++) System.out.println(pNode[i] + 1);
+		
+	}
+
+	
+	public static void test06() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st ;
 	}
 	
+	public static void test07() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st ;
+	}
 	
-	public static void test05() throws NumberFormatException, IOException {
+	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st ;
 	}
