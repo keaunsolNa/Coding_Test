@@ -14,7 +14,7 @@ import java.util.TreeMap;
 public class StringPlus33 {
 	
 	public static void main(String[] args) throws IOException {
-		test03();
+		test04();
 	}
 
 	// 5103번 - DVDs
@@ -118,8 +118,36 @@ public class StringPlus33 {
 
 	}
 	
-	// 
+	// 21966번 - (중략)
 	public static void test04() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int N = Integer.parseInt(br.readLine());
+		String input = br.readLine();
+		
+		if(N <= 25) {
+			System.out.println(input);
+			System.exit(0);
+		}
+		
+		String sub = input.substring(12, N - 12);
+
+		if(!sub.contains(".")) 
+			System.out.println(input.substring(0, 11) + "..." + input.substring(N - 11, N));
+		else 
+			System.out.println(input.substring(0, 9) + "......" + input.substring(N - 10));
+		
+	}
+
+	// 
+	public static void test05() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+	}
+	
+	// 
+	public static void test06() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
