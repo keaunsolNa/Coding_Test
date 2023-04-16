@@ -3,12 +3,14 @@ package baekjoon_DynamicProgramming;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class DynamicProgramming05 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test07();
+		test10();
 	}
 	
 	// 26529번 - Bunnies
@@ -213,19 +215,61 @@ public class DynamicProgramming05 {
 		return dp3[n];
 	}
 	
-	//
+	// 12738번 -가장 긴 증가하는 부분 수열 3
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+        int n = Integer.parseInt(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        List<Integer> list = new ArrayList<>();
+        int arr[] = new int[n + 1];
+
+        for(int i = 1 ; i <= n; i++) arr[i] = Integer.parseInt(st.nextToken());
+
+        list.add(Integer.MIN_VALUE);
+
+        for(int i = 1 ; i <= n; i++){
+        	
+            int num = arr[i];
+            int left = 1;
+            int right = list.size() - 1;
+
+            if(num > list.get(list.size() - 1)) list.add(num);
+            
+            else{
+
+            	while(left < right){
+                    int mid = (left + right) >> 1;
+
+                    if(list.get(mid) >= num) right = mid;
+                    else left = mid + 1;
+                }
+            	
+                list.set(right, num);
+            }
+        }
+
+        System.out.println(list.size() - 1);
 	}
 
-	//
+	// 9658번 - 돌 게임 4
 	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		
+		if(N%7 == 1 || N%7 == 3) System.out.println("CY");
+		else System.out.println("SK");
+		
 	}
 	
-	//
+	// 9658번 - 돌 게임 5
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		long N = Long.parseLong(br.readLine());
+		
+		if(N % 2 == 0) System.out.println("CY");
+		else System.out.println("SK");
 	}
 
 }
