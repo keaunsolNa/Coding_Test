@@ -3,7 +3,11 @@ package baekjoon_DataStructure;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.PriorityQueue;
+import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class DataStructure12 {
@@ -27,7 +31,7 @@ public class DataStructure12 {
 	}
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test04();
+		test06();
 	}
 
 	// 11000번 - 강의실 배정
@@ -194,8 +198,76 @@ public class DataStructure12 {
         
     }
     
-	// 
+	// 14713번 - 앵무새 
 	public static void test05() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		int N = Integer.parseInt(br.readLine());
+		List<Stack<String>>  list = new ArrayList<>();
+		
+		for(int i = 0; i < N; i++) {
+			st = new StringTokenizer(br.readLine());
+			
+			Stack<String> temp = new Stack<>();
+			while(st.hasMoreTokens()) temp.push(st.nextToken());
+			list.add(temp);
+		}
+		
+		st = new StringTokenizer(br.readLine());
+		Stack<String> stack = new Stack<>(); 
+		while(st.hasMoreTokens()) stack.push(st.nextToken());
+
+		while(true)	{
+			boolean flag = false;
+			
+			for(int i = 0; i< N; i++) {
+				if(list.get(i).isEmpty()) continue;
+				if(list.get(i).peek().equals(stack.peek())) {
+					list.get(i).pop();
+					stack.pop();
+					flag = true;
+					break;
+				}
+			}
+			
+			if(!flag || stack.isEmpty()) break;
+			
+		}
+		
+		System.out.println(stack.isEmpty() ? "Possible" : "Impossible");
+	}
+	
+	// 19638번 - 센티와 마법의 뿅망치
+	public static void test06() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+
+		int N = Integer.parseInt(st.nextToken());
+		int H = Integer.parseInt(st.nextToken());
+		int T = Integer.parseInt(st.nextToken());
+		PriorityQueue<Integer> height = new PriorityQueue<>(Collections.reverseOrder());
+
+		while(N --> 0) height.add(Integer.parseInt(br.readLine()));
+		int idx = 0;
+        
+		String answer = "NO";
+        for (int i = 0; i < T; i++) {
+
+            if ((height.peek() < H) || (height.peek() == 1)) break;
+            idx++;
+            height.add(height.poll() / 2);
+            
+        }
+		
+        if (height.peek() < H) answer = "YES";
+        
+        System.out.print(answer.equals("YES") ? answer +"\n" + idx : answer +"\n" + height.poll());
+        
+	}
+	
+	// 
+	public static void test07() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int T = Integer.parseInt(br.readLine());
@@ -203,9 +275,8 @@ public class DataStructure12 {
 		
 	}
 	
-	
 	// 
-	public static void test06() throws NumberFormatException, IOException {
+	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int T = Integer.parseInt(br.readLine());
