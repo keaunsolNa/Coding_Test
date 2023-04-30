@@ -5,10 +5,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.PriorityQueue;
+import java.util.Scanner;
 import java.util.Stack;
 import java.util.StringTokenizer;
+import java.util.TreeMap;
 
 public class DataStructure12 {
 
@@ -30,8 +34,25 @@ public class DataStructure12 {
 		}
 	}
 	
+	private static class goods implements Comparable<goods> {
+		String name;
+		int value;
+		
+		goods(String name, int value) {
+			this.name = name;
+			this.value = value;
+		}
+		
+		@Override
+		public int compareTo(goods o) {
+			
+			if(this.name.length() == o.name.length()) return this.name.compareTo(o.name);
+			else return this.name.length() - o.name.length();
+		}
+	}
+	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test06();
+		test08();
 	}
 
 	// 11000번 - 강의실 배정
@@ -76,7 +97,6 @@ public class DataStructure12 {
 		while(N --> 0) {
 			
 			st = new StringTokenizer(br.readLine());
-			int classNo = Integer.parseInt(st.nextToken());
 			int start = Integer.parseInt(st.nextToken());
 			int end = Integer.parseInt(st.nextToken());
 			que.add(new classroom(start, end));	
@@ -266,8 +286,69 @@ public class DataStructure12 {
         
 	}
 	
-	// 
+	// 5614번 - 問題 3
 	public static void test07() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		int T = Integer.parseInt(br.readLine());
+		PriorityQueue<goods> que = new PriorityQueue<>();
+		Map<String, Integer> map = new TreeMap<>();
+		
+		while(T --> 0) {
+			st = new StringTokenizer(br.readLine());
+
+			String name = st.nextToken();
+			int value = Integer.parseInt(st.nextToken());
+			
+			map.put(name, map.getOrDefault(name, 0) + value);
+		}
+		
+		for (String goods : map.keySet()) 
+			que.add(new goods(goods, map.get(goods)));
+		
+		
+		
+		while(!que.isEmpty()) 
+			System.out.println(que.peek().name + " " + que.poll().value);
+	}
+	
+	// 3277번 - DOMAINS 
+	public static void test08() throws NumberFormatException, IOException {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        sc.nextLine(); 
+
+        Map<String, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < n; i++) {
+            String address = sc.nextLine().trim();
+
+            if (address.startsWith("http://")) 
+                address = address.substring(7);
+            
+
+            String domain = address.split("/")[0].split("\\.")[address.split("/")[0].split("\\.").length - 1];
+
+            map.put(domain, map.getOrDefault(domain, 0) + 1);
+        }
+
+        int maxFreq = Collections.max(map.values());
+        List<String> mostVisited = new ArrayList<>();
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            if (entry.getValue() == maxFreq) 
+                mostVisited.add(entry.getKey());
+            
+        }
+
+        System.out.println(maxFreq);
+        System.out.println(String.join(" ", mostVisited));
+		
+	}
+	
+	// 
+	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int T = Integer.parseInt(br.readLine());
@@ -276,7 +357,7 @@ public class DataStructure12 {
 	}
 	
 	// 
-	public static void test08() throws NumberFormatException, IOException {
+	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int T = Integer.parseInt(br.readLine());
