@@ -6,10 +6,12 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Scanner;
+import java.util.Set;
 import java.util.Stack;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
@@ -52,7 +54,7 @@ public class DataStructure12 {
 	}
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test08();
+		test10();
 	}
 
 	// 11000번 - 강의실 배정
@@ -347,22 +349,69 @@ public class DataStructure12 {
 		
 	}
 	
-	// 
+	// 24431번 - 유사 라임 게임
 	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
 		
 		int T = Integer.parseInt(br.readLine());
-		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		while(T --> 0) {
+			st = new StringTokenizer(br.readLine());
+			
+			int n = Integer.parseInt(st.nextToken());
+			int L = Integer.parseInt(st.nextToken());
+			int F = Integer.parseInt(st.nextToken());
+			
+			List<String> list = new ArrayList<>();
+			Set<String> set = new HashSet<>();
+			
+			st = new StringTokenizer(br.readLine());
+			
+			Map<String, Integer> map = new HashMap<>();
+			while(n --> 0) {
+				
+				String input = st.nextToken();
+				map.put(input.substring(input.length() - F, input.length()), map.getOrDefault(input.substring(input.length() - F, input.length()), 0) + 1);
+			}
+
+			int ans = 0;
+			for (String string : map.keySet()) ans += map.get(string) / 2;
+		
+			System.out.println(ans);
+		}
 		
 	}
 	
-	// 
+	// 23757번 - 아이들과 선물 상자
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int T = Integer.parseInt(br.readLine());
-		StringTokenizer st = new StringTokenizer(br.readLine());
+		StringTokenizer st;
+		st = new StringTokenizer(br.readLine());
 		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		
+		PriorityQueue<Integer> que = new PriorityQueue<>(Collections.reverseOrder());
+		st = new StringTokenizer(br.readLine());
+		for(int i = 0; i < N; i++) que.add(Integer.parseInt(st.nextToken()));
+		
+		st = new StringTokenizer(br.readLine());
+		boolean flag = true;
+		for(int i = 0; i < M; i++) {
+			
+			int box = que.poll();
+			int need = Integer.parseInt(st.nextToken());
+			
+			if(box >= need) que.add(box - need);
+			else {
+				flag = false;
+				break;
+			}
+		}
+		
+		System.out.println(flag ? 1 : 0);
 	}
 	
 	
