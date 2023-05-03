@@ -3,13 +3,16 @@ package baekjoon_String;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
+import java.util.StringTokenizer;
 
 public class StringPlus34 {
 	
 	public static void main(String[] args) throws IOException {
-		test05();
+		test10();
 	}
 
 	// 5365번 - Decoder
@@ -282,35 +285,106 @@ public class StringPlus34 {
         }
 	}
 	
-	// 
+	// 8826번 - Spacer
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		
+		for(int i = 0; i < N; i++) {
+			
+			int t = Integer.parseInt(br.readLine());
+			char[] input = br.readLine().toCharArray();
+			
+			Map<Character, Integer> map = new HashMap<>();
+			
+			map.put('N', 0);
+			map.put('S', 0);
+			map.put('E', 0);
+			map.put('W', 0);
+			
+			for(int j = 0;j < t; j++) map.put(input[j], map.get(input[j]) + 1);
+			
+			System.out.println(Math.abs(map.get('N') - map.get('S')) + Math.abs(map.get('E') - map.get('W')));
+		}
 		
 	}
 	
-	// 
+	// 26590번 - Word Mix
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		String input1 = st.nextToken();
+		String input2 = st.nextToken();
+		
+		int len = Math.min(input1.length(), input2.length());
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for(int i = 0; i < len; i++) {
+			
+			if(i % 2 == 0) sb.append(input1.charAt(i));
+			else sb.append(input2.charAt(i));
+		}
+		
+		System.out.println(sb);
 		
 		
 	}
 	
-	// 
+	// 9777번 - Birthday Statistics
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
+		StringTokenizer st;
+		int T = Integer.parseInt(br.readLine());
+
+		Map<Integer, Integer> map = new HashMap<>();
+		while(T --> 0) {
+			
+			st = new StringTokenizer(br.readLine());
+			
+			int id = Integer.parseInt(st.nextToken());
+			int month = Integer.parseInt(st.nextToken().split("/")[1]);
+			
+			map.put(month, map.getOrDefault(month, 0) + 1);
+		}
 		
+		for(int i = 1; i <= 12; i++) {
+			
+			System.out.print(i + " ");
+			System.out.println(map.containsKey(i) ? map.get(i) : 0);
+		}
 		
 	}
 	
-	// 
+	// 13216번 - Badminton
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
+
+		String input = br.readLine();
 		
+		int p1 = 0;
+		int p2 = 0;
+		int p1w = 0;
+		int p2w = 0;
+		for(int i = 0; i < input.length(); i++) {
+			
+			if(input.charAt(i) == 'A') p1++;
+			else p2++;
+			
+			if(p1 == 21 || p2 == 21) {
+				
+				System.out.println(p1+ "-" + p2);
+				if(p1 > p2) p1w++;
+				else p2w++;
+				
+				p1 = 0;
+				p2 = 0;
+			}
+			
+		}
+		
+		System.out.println(p1w > p2w ? "A" : "B");
 		
 	}
 }
