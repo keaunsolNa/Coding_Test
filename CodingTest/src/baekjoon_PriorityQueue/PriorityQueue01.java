@@ -12,10 +12,10 @@ import java.util.StringTokenizer;
 public class PriorityQueue01 {
 
 	public static void main(String[] args) throws IOException {
-		test02();
+		test05();
 	}
 	
-	public static class process implements Comparable<process> {
+	private static class process implements Comparable<process> {
 		
 		int pid;
 		int needTime;
@@ -118,16 +118,114 @@ public class PriorityQueue01 {
         }
     }
 	
-	// 
+	// 1715번 - 카드 정렬하기
 	public static void test03() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+
+		int N = Integer.parseInt(br.readLine());
+		
+		PriorityQueue<Long> pq = new PriorityQueue<>();
+		for(int i = 0; i < N; i++) {
+			pq.add(Long.parseLong(br.readLine()));
+		}
+		
+		long ans = 0;
+		while(pq.size() > 1) {
+			long temp1 = pq.poll();
+			long temp2 = pq.poll();
+			
+			ans += temp1 + temp2;
+			pq.add(temp1 + temp2);
+		}
+		
+		System.out.println(ans);
 	}
 	
-	// 
+	// 13975번 - 파일 합치기 3
 	public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
+
+		int T = Integer.parseInt(br.readLine());
+		
+		while(T --> 0) {
+			int K = Integer.parseInt(br.readLine());
+			st = new StringTokenizer(br.readLine());
+			PriorityQueue<Long> pq = new PriorityQueue<>();
+			
+			while(K --> 0) pq.add(Long.parseLong(st.nextToken()));
+			
+			long ans = 0;
+			while(pq.size() > 1) {
+				long temp1 = pq.poll();
+				long temp2 = pq.poll();
+				
+				ans += temp1 + temp2;
+				pq.add(temp1 + temp2);
+			}
+			
+			sb.append(ans + "\n");
+		}
+		
+		System.out.println(sb);
+	}
+
+	// 14698번 - 전생했더니 슬라임 연구자였던 건에 대하여 (Hard)
+	public static void test05() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		StringBuilder sb = new StringBuilder();
+		
+		int T = Integer.parseInt(br.readLine());
+		while(T --> 0) {
+			
+			int N = Integer.parseInt(br.readLine());
+			PriorityQueue<Long> pq = new PriorityQueue<>();
+			st = new StringTokenizer(br.readLine());
+			while(N --> 0) pq.add(Long.parseLong(st.nextToken()));
+			
+			long ans = 1;
+			
+			while(pq.size() > 1) {
+				long temp1 = pq.poll();
+				long temp2 = pq.poll();
+				long temp = temp1 * temp2;
+				
+				ans *= temp % 1000000007;
+				ans %= 1000000007;
+				
+				pq.add(temp);
+			}
+			
+			sb.append(ans + "\n");
+		}
+		
+		System.out.println(sb);
+	}
+	
+	// 
+	public static void test06() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		int T = Integer.parseInt(br.readLine());
+	}
+	
+	// 
+	public static void test07() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		int T = Integer.parseInt(br.readLine());
+	}
+	
+	// 
+	public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		int T = Integer.parseInt(br.readLine());
 	}
 	
 }
