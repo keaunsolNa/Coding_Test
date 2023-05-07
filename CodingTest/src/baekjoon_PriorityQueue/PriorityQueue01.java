@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class PriorityQueue01 {
 
 	public static void main(String[] args) throws IOException {
-		test05();
+		test08();
 	}
 	
 	private static class process implements Comparable<process> {
@@ -36,6 +36,28 @@ public class PriorityQueue01 {
 			
 			return o.priority - this.priority;
 		}
+		
+	}
+	
+	private static class flavor implements Comparable<flavor> {
+		
+		int a;
+		int b;
+		int dif;
+		
+		flavor(int a, int b, int dif) {
+			this.a = a;
+			this.b = b;
+			this.dif = dif;
+		}
+		
+		@Override
+		public int compareTo(flavor o) {
+			
+			if(this.dif != o.dif) return this.dif - o.dif;
+			return this.a - o.a;
+		}
+		
 		
 	}
 	
@@ -204,24 +226,118 @@ public class PriorityQueue01 {
 		System.out.println(sb);
 	}
 	
-	// 
+	// 5464번 - 주차장
 	public static void test06() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		
-		int T = Integer.parseInt(br.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+
+        int[] cP = new int[n + 1]; 
+        int[] cW = new int[m + 1]; 
+        int[] pW = new int[n + 1]; 
+
+        int sum = 0;
+
+        for (int i = 1; i <=n; i++) pW[i] = Integer.parseInt(br.readLine());
+        
+        for (int i = 1; i <=m; i++) cW[i] = Integer.parseInt(br.readLine());
+        
+        Queue<Integer> queue = new LinkedList<>();
+
+        start: for (int i = 0; i < 2 * m; i++) {
+            int car = Integer.parseInt(br.readLine());
+
+            if (car > 0) { 
+                for (int j = 1; j < n + 1; j++) { 
+                    if (cP[j] == 0) { 
+                    	cP[j] = car; 
+                        continue start;
+                    }
+                }
+                
+                queue.offer(car);
+                
+            } else { 
+            	
+                for (int j = 1; j < n + 1; j++) {
+                	
+                    if (cP[j] == car * (-1)) {
+                    	cP[j] = 0;
+                        sum += pW[j] * cW[car * (-1)];
+                        if (!queue.isEmpty()) cP[j] = queue.poll();
+                        break;
+                    }
+                }
+            }
+        }
+        System.out.println(sum);
 	}
 	
-	// 
+	// 2359번 - 밥
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		StringTokenizer st = new StringTokenizer(br.readLine());
+
+		int N = Integer.parseInt(st.nextToken());
+		int X = Integer.parseInt(st.nextToken());
 		
-		int T = Integer.parseInt(br.readLine());
+		PriorityQueue<flavor> pq = new PriorityQueue<>(Comparator.reverseOrder());
+		
+		for(int i = 0; i < N; i++) {
+			st = new StringTokenizer(br.readLine());
+			
+			int A = Integer.parseInt(st.nextToken());
+			int B = Integer.parseInt(st.nextToken());
+			
+			pq.add(new flavor(A, B, A - B));
+		}
+
+		int ans = 0;
+		int restDay = N - 1;
+		for(int i = 0; i < N; i++) {
+			
+			flavor temp = pq.poll();
+			
+			if(temp.dif <= 0) {
+				ans += temp.b;
+				X -= 1000;
+			}
+			
+			else if(X - 5000 >= restDay * 1000) {
+				ans += temp.a;
+				X -= 5000;
+			}
+			
+			else {
+				ans += temp.b;
+				X -= 1000;
+			}
+			
+			restDay--;
+		}
+		
+		System.out.println(ans);
 	}
 	
 	// 
 	public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		int T = Integer.parseInt(br.readLine());
+	}
+	
+	// 
+	public static void test09() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		int T = Integer.parseInt(br.readLine());
+	}
+	
+	// 
+	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		
