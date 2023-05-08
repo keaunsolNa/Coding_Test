@@ -3,6 +3,7 @@ package baekjoon_PriorityQueue;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
@@ -12,7 +13,7 @@ import java.util.StringTokenizer;
 public class PriorityQueue01 {
 
 	public static void main(String[] args) throws IOException {
-		test09();
+		test10();
 	}
 	
 	private static class process implements Comparable<process> {
@@ -443,12 +444,33 @@ public class PriorityQueue01 {
         return true;
     }
     
-	// 
+	// 27896번 - 특별한 서빙
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
 		
-		int T = Integer.parseInt(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		
+		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
+		int ans = 0;
+		st = new StringTokenizer(br.readLine());
+		
+		for(int i, s = 0; N --> 0;) {
+			
+			i = Integer.parseInt(st.nextToken());
+			pq.add(i);
+			s += i;
+			
+			while(s >= M) {
+				ans++;
+				s -= pq.poll() * 2;
+			}
+		}
+		
+		System.out.println(ans);
+		
+		
 	}
 	
 }
