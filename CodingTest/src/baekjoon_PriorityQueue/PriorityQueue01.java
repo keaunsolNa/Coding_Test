@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class PriorityQueue01 {
 
 	public static void main(String[] args) throws IOException {
-		test08();
+		test09();
 	}
 	
 	private static class process implements Comparable<process> {
@@ -60,6 +60,35 @@ public class PriorityQueue01 {
 		
 		
 	}
+	
+    private static class employee implements Comparable<employee>{
+    	
+        boolean isDeka; 
+        int D;
+        int H;
+        int L;    
+
+        public employee(boolean isDeka, int D, int H, int L) {
+            this.isDeka = isDeka;
+            this.D = D;
+            this.H = H;
+            this.L = L;
+        }
+
+		@Override
+		public int compareTo(employee o) {
+			
+			if (this.D == o.D) {
+				
+				if(this.H == o.H) return this.L - o.L;
+				
+				else return o.H - this.H;
+			}
+			
+			return o.D - this.D;
+			
+		}
+    }
 	
 	// 21773번 - 가희와 프로세스 1
 	public static void test01() throws IOException {
@@ -320,22 +349,100 @@ public class PriorityQueue01 {
 		System.out.println(ans);
 	}
 	
-	// 
+	// 19640번 - 화장실의 규칙
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		int T = Integer.parseInt(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+
+        Queue<employee>[] lines = new LinkedList[M];
+        for(int i = 0; i < M; i++) lines[i] = new LinkedList<employee>();
+        
+	
+        for(int i = 0; i < N; i++) {
+        	
+            st = new StringTokenizer(br.readLine());
+
+            boolean isDeka = false;
+            int D = Integer.parseInt(st.nextToken());
+            int H = Integer.parseInt(st.nextToken());
+            int L = i%M;
+
+            if(i == K) isDeka = true;
+
+            lines[L].add(new employee(isDeka, D, H, L));
+        }
+
+        PriorityQueue<employee> firsts = new PriorityQueue<employee>();
+
+        for(int i = 0; i < M; i++) {
+        	
+            if(lines[i].size() > 0) firsts.add(lines[i].poll());
+            else break;
+        }
+        
+        int cnt = 0;
+        while(true) {
+        	
+            ++cnt;
+            employee curEmployee = firsts.poll();
+
+            if(curEmployee.isDeka) break;
+
+            if(lines[curEmployee.L].size() > 0) 
+            	firsts.add(lines[curEmployee.L].poll());
+        }
+
+        System.out.println(cnt-1);
 	}
 	
-	// 
+	// 22254번 - 공정 컨설턴트 호석
+	private static int[] present;
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		int T = Integer.parseInt(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int X = Integer.parseInt(st.nextToken());
+		
+		present = new int[N + 1];
+		
+		st = new StringTokenizer(br.readLine());
+		for(int i = 1; i <= N; i++) present[i] = Integer.parseInt(st.nextToken());
+
+		int left = 1;
+		int right = N;
+		
+		while(left <= right) {
+			int mid = (left + right) /2;
+			
+			if(check(mid, X, N)) right = mid - 1; 
+			else left = mid + 1;
+			
+		}
+		
+		System.out.println(left);
+
 	}
 	
+    public static boolean check(int mid, int X, int N) {
+        PriorityQueue<Integer> que = new PriorityQueue<>();
+        
+        for(int i = 0; i < mid; i++) que.add(0);
+ 
+        for(int i = 1; i <= N; i++) {
+        	
+            int time = que.poll();
+            if(time + present[i] > X) return false;
+            que.offer(time + present[i]);
+        }
+
+        return true;
+    }
+    
 	// 
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
