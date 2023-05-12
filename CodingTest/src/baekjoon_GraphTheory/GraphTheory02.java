@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 
 public class GraphTheory02 {
 	public static void main(String[] args) throws IOException {
-		test03();
+		test04();
 	}
 	
 	public static class Node{
@@ -202,11 +202,52 @@ public class GraphTheory02 {
 
 	}
 	
-	//
+	// 1058번 - 친구
+	private static int max = Integer.MAX_VALUE >> 2;
 	public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
+		int N = Integer.parseInt(br.readLine());
+		
+		int[][] arr = new int[N + 1][N + 1];
+		
+		for(int i = 1; i <= N; i++) {
+			
+			String input = br.readLine();
+			for(int j = 1; j <= N; j++) 
+				arr[i][j] = input.charAt(j - 1) == 'Y' ? 1 : max;
+			
+		}
+
+		for(int k = 1; k <= N; k++) {
+			
+			for(int i = 1; i <= N; i++) {
+				
+				for(int j = 1; j <= N; j++) {
+					
+					if(i == j || j == k || i == k) continue;
+					
+					else if(arr[i][j] > arr[i][k] + arr[k][j])
+						arr[i][j] = arr[i][k] + arr[k][j];
+				}
+			}
+		}
+		
+		int ans = 0;
+		for(int i = 1; i <= N; i++) {
+			int temp = 0;
+			
+			for(int j = 1; j <= N; j++) {
+				
+				if(i == j) continue;
+				
+				else if(arr[i][j] <= 2) temp++;
+			}
+			
+			ans = Math.max(ans, temp);
+		}
+		
+		System.out.println(ans);
+		
 	}
 	
 	// 
