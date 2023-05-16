@@ -3,16 +3,32 @@ package baekjoon_implement;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.PriorityQueue;
 import java.util.StringTokenizer;
-import java.util.TreeSet;
 
 public class Implement54 {
     
 	public static void main(String[] args) throws IOException {
-		test05();
+		test07();
+	}
+	
+	private static class runner implements Comparable<runner> {
+		int number = 0;
+		int time = 0;
+		
+		runner(int number, int time){
+			this.number = number;
+			this.time = time;
+		}
+		
+		@Override
+		public int compareTo(runner o) {
+			
+			return this.time - o.time;
+		}
+		
 	}
 	
 	// 5566번 - 주사위 게임 
@@ -160,11 +176,6 @@ public class Implement54 {
 
 	    int t = partition(p, r);  
 	    int k = t - p + 1;           
-		
-	    if (K == 0) {
-	        System.out.println(Math.min(A[t], A[t-1]) + " " + Math.max(A[t], A[t-1]));
-	        System.exit(0);
-	    }
 	    
 	    if (q < k) return select(p, t - 1, q);  
 	    else if (q == k) return A[t];          
@@ -185,7 +196,9 @@ public class Implement54 {
 	        }
 	    }
 	    
-	    swap2(i + 1, r); 
+	    if(i + 1 != r) {
+	    	swap2(i + 1, r);
+	    }
 	    return i + 1;
 	    
 	}
@@ -206,7 +219,7 @@ public class Implement54 {
 	    }
 	}
 	
-	// 24398번 - 알고리즘 수업 - 선택 알고리즘 1 F
+	// 24398번 - 알고리즘 수업 - 선택 알고리즘 1
 	public static void test05() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -241,16 +254,62 @@ public class Implement54 {
 	    }
 	}
 	
-	// 
+	// 9339번 - 마라토너
 	public static void test06() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		int T = Integer.parseInt(br.readLine());
+		
+		while(T --> 0) {
+			
+			int K = Integer.parseInt(br.readLine());
+			st = new StringTokenizer(br.readLine());
+			
+			PriorityQueue<runner> pq = new PriorityQueue<>();
+			List<Integer> runner = new ArrayList<>();
+			
+			for(int i = 0; i < K; i++) runner.add(Integer.parseInt(st.nextToken()));
+			
+			int N = Integer.parseInt(br.readLine());
+			
+			for(int i = 0; i < N; i++) {
+				
+				st = new StringTokenizer(br.readLine());
+				
+				int number = Integer.parseInt(st.nextToken());
+				int t = Integer.parseInt(st.nextToken());
+				int m = Integer.parseInt(st.nextToken());
+				
+				int time = t * 60 + m;
+				
+				if(time > 0 && time <= 360 && runner.contains(number)) {
+					pq.add(new runner(number, time));
+				}
+			}
+			
+			System.out.println(pq.peek().number + " " +  pq.size());
+		}
+	}
+	
+	// 
+	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int N = Integer.parseInt(br.readLine());
 		
 	}
-	// 
 	
-	public static void test07() throws IOException {
+	// 
+	public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int N = Integer.parseInt(br.readLine());
+		
+	}
+	
+	// 
+	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int N = Integer.parseInt(br.readLine());
