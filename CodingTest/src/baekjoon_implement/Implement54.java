@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 public class Implement54 {
     
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 	
 	private static class runner implements Comparable<runner> {
@@ -292,28 +292,208 @@ public class Implement54 {
 		}
 	}
 	
-	// 
+	// 12353번 - Dr. Spaceman의 특별한 알고리즘
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		char BG;
+		String F;
+		String M;
+		int f;
+		String i;
+		int I;
+		int Ftall;
+		int Mtall;
+		int Ctall;
+		boolean odd;
 		
-		int N = Integer.parseInt(br.readLine());
-		
+		int T = Integer.parseInt(br.readLine());
+		for(int t = 1; t <= T; t++) {
+			
+			st = new StringTokenizer(br.readLine());
+			BG = st.nextToken().charAt(0);
+			F = st.nextToken();
+			M = st.nextToken();
+			
+			f = Integer.parseInt(F.split("'")[0]);
+			i = F.split("'")[1];
+			I = Integer.parseInt(i.substring(0, i.length() - 1));
+			Ftall = f * 12 + I;
+
+			f = Integer.parseInt(M.split("'")[0]);
+			i = M.split("'")[1];
+			I = Integer.parseInt(i.substring(0, i.length() - 1));
+			Mtall = f * 12 + I;;
+
+			Ctall = Ftall + Mtall + (BG == 'G' ? -5 : 5);
+			
+			odd = ((Ctall & 1) == 1) ? true : false;
+			Ctall /= 2;
+			
+			System.out.print("Case #" + t + ": ");
+			
+			if(odd) {
+				
+				print(Ctall - 3);
+                System.out.print(" to ");
+                print(Ctall + 4);
+                System.out.println();
+                
+			} else {
+				
+				print(Ctall - 4);
+				System.out.print(" to ");
+				print(Ctall + 4);
+				System.out.println();
+			}
+		}
 	}
 	
-	// 
+	public static void print(int x) {
+		
+		System.out.print(x / 12 + "'" + x % 12 + "\"");
+	}
+	
+	// 4108번 - 지뢰찾기
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		String input;
 		
-		int N = Integer.parseInt(br.readLine());
+		while(true) {
+			
+			st = new StringTokenizer(br.readLine());
+			
+			int R = Integer.parseInt(st.nextToken());
+			int C = Integer.parseInt(st.nextToken());
+			
+			if(R == 0 && C == 0) break;
+			
+			int[][]map = new int[R][C];
+			
+			for(int i = 0; i < R; i++) {
+				
+				input = br.readLine();
+				for(int j = 0; j < C; j++) 
+					map[i][j] = (input.charAt(j) == '*') ? -1 : 0;
+			}
+			
+			for(int x = 0; x < R; x++) {
+				
+				for(int y = 0; y < C; y++) {
+					
+					if(map[x][y] == -1) continue;
+					if(x - 1 >= 0 && map[x - 1][y] == -1) map[x][y]++;
+					if(x - 1 >= 0 && y - 1 >= 0 && map[x - 1][y - 1] == -1) map[x][y]++;
+					if(x - 1 >= 0 && y + 1 < C && map[x - 1][y + 1] == -1) map[x][y]++;
+					if(y - 1 >= 0 && map[x][y - 1] == -1) map[x][y]++;
+					if(y + 1 < C && map[x][y + 1] == -1) map[x][y]++;
+					if(x + 1 < R && map[x + 1][y] == -1) map[x][y]++;
+					if(x + 1 < R && y - 1 >= 0 && map[x + 1][y - 1] == -1) map[x][y]++;
+					if(x + 1 < R && y + 1 < C && map[x + 1][y + 1] == -1) map[x][y]++;
+				}
+			}
+			
+			for(int x = 0; x < R; x++) {
+				
+				for(int y = 0; y < C; y++) {
+					
+					System.out.print(map[x][y] == -1 ? "*" : map[x][y]);
+				}
+				System.out.println();
+			}
+			
+		}
 		
 	}
 	
-	// 
+	// 1384번 - 메시지
 	public static void test09() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb;
+		
+		int idx = 1;
+		while(true) {
+			
+			sb = new StringBuilder();
+			
+			sb.append("Group " + idx + "\n");
+			int N = Integer.parseInt(br.readLine());
+			if(N == 0) break;
+			
+			String list[][] = new String[N][N];
+			 
+            for (int i = 0; i < N; i++) {
+                String str[] = br.readLine().split(" ");
+                list[i] = str;
+            }
+ 
+            int CR = 0;
+            int cnt = 0;
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j < N; j++) {
+ 
+                    if (list[i][j].equals("N")) {
+ 
+                        CR = i - j;
+                        if (CR < 0) CR += N;
+ 
+                        sb.append(list[CR][0] + " was nasty about " + list[i][0] + "\n");
+                        cnt++;
+                    }
+                }
+            }
+            
+            if(cnt == 0) sb.append("Nobody was nasty"+"\n");
+            
+            System.out.println(sb);
+			idx++;
+		}
+		
+		
+	}
+	
+	// 13015번 - 별 찍기 - 23
+	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int N = Integer.parseInt(br.readLine());
 		
+		int a = 0; 
+		int b = N - 1;
+		int c = 3 * N - 3;
+		int d = 4 * N - 4;
+		
+		for (int i = 1; i < 2 * N; ++i) {
+			
+	        if (i == 1 || i == (2 * N) - 1) {
+	        	
+	            for (int j = a; j <= b; j++) System.out.print("*");
+	            for (int j = b + 1; j < c; j++) System.out.print(" ");
+	            for (int j = c; j <= d; j++) System.out.print("*");
+	        }
+	        
+	        else {
+	        	
+	            for (int j = 0; j < a; j++) System.out.print(" ");
+	            System.out.print("*"); 
+	            for (int j = a + 1; j < b; j++) System.out.print(" ");
+	            System.out.print("*"); 
+	            for (int j = b + 1; j < c; j++) System.out.print(" ");
+	            if(b != c) System.out.print("*"); 
+	            for (int j = c + 1; j < d; j++) System.out.print(" ");
+	            System.out.print("*");
+	        }
+	        System.out.println();
+	 
+	 
+	        if (i < N) {
+	            a++; b++; c--; d--;
+	        }
+	        else {
+	            a--; b--; c++; d++;
+	        }
+	    }
 	}
 	
 	
