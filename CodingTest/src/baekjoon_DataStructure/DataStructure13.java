@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Deque;
+import java.util.HashMap;
 import java.util.List;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
@@ -34,7 +36,7 @@ public class DataStructure13 {
 	}
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test03();
+		test05();
 	}
 
 	// 27659번 - Queue skipping (Easy)
@@ -150,8 +152,90 @@ public class DataStructure13 {
 		if(a != b) parents[b] = a;
 	}
 	
-	// 
+	// 5052번 - 전화번호 목록
 	public static void test04() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int T = Integer.parseInt(br.readLine());
+		
+		while(T --> 0) {
+			
+			int n = Integer.parseInt(br.readLine());
+			String[] arr = new String[n];
+
+			for(int i = 0; i < n; i++) arr[i] = br.readLine();
+			
+			Arrays.sort(arr);
+			boolean chk = true;
+			
+			for(int i = 0; i < n - 1; i++) {
+				
+				if(arr[i + 1].startsWith(arr[i])) chk = false;
+				if(!chk) break;
+				
+			}
+			
+			System.out.println(chk ? "YES" : "NO");
+		}
+				
+	}
+	
+	// 3078번 - 좋은 친구
+	public static void test05() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		HashMap<Integer, List<Integer>> map = new HashMap<>();
+		long ans = 0;
+		
+		for(int i = 0; i < N; i++) {
+			
+			int len = br.readLine().length();
+			
+			if(map.containsKey(len)) {
+				List<Integer> list = map.get(len);
+				
+				for(int j = 0; j < list.size(); j++) {
+					
+					if(i - list.get(j) <= K) {
+						
+						ans += list.size();
+						break;
+						
+					}
+					
+					else list.remove(j--);
+				}
+				
+			} else map.put(len, new ArrayList<>());
+			
+			map.get(len).add(i);
+		} 
+		
+		System.out.println(ans);
+		
+	}
+	
+	// 
+	public static void test06() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		
+	}
+	
+	// 
+	public static void test07() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		
+	}
+	
+	// 
+	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
