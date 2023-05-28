@@ -68,7 +68,7 @@ public class DataStructure13 {
     }
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test07();
+		test10();
 	}
 
 	// 27659번 - Queue skipping (Easy)
@@ -250,7 +250,7 @@ public class DataStructure13 {
 		
 	}
 	
-	// 
+	// 4881번 - 자리수의 제곱
 	private static ArrayList<Node> list[];
 	private static boolean[] visited;
 	private static int start;
@@ -383,14 +383,135 @@ public class DataStructure13 {
         System.out.println(sb);
 	}
 	
-	
-	// 
+	// 2358번 - 평행선
 	public static void test08() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
+        StringTokenizer st;
+        
+        int n = Integer.parseInt(br.readLine());
+        Map<Integer, Integer> x = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> y = new HashMap<Integer, Integer>();
+
+        int count = 0;
+        
+        for(int i = 0; i < n; i++) {
+         
+        	st = new StringTokenizer(br.readLine());
+            int input_x = Integer.parseInt(st.nextToken());
+            int input_y = Integer.parseInt(st.nextToken());
+
+            if(x.containsKey(input_x)) x.put(input_x, x.get(input_x) + 1);
+            else  x.put(input_x, 1);
+            
+
+            if(y.containsKey(input_y)) y.put(input_y, y.get(input_y) + 1);
+            else y.put(input_y, 1);
+            
+        }
+
+        for(int key : x.keySet()) 
+            if(x.get(key) > 1) count++;
+
+        for(int key : y.keySet()) 
+            if(y.get(key) > 1) count++;
+
+        System.out.println(count);
+	}
+	
+	// 1043번 - 거짓말
+	public static void test09() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		ArrayList<Integer> know = new ArrayList<>();
+		int answer;
+		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		ArrayList<Integer>[] party = new ArrayList[M];
+		answer = M;
+		
+		st = new StringTokenizer(br.readLine());
+		int cnt = Integer.parseInt(st.nextToken());
+		
+		for(int i = 0; i < cnt; i++) 
+			know.add(Integer.parseInt(st.nextToken()));
+		
+		for(int i = 0; i < M; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			cnt = Integer.parseInt(st.nextToken());
+			party[i] = new ArrayList<>();
+			
+			for(int j = 0; j < cnt; j++) 
+				party[i].add(Integer.parseInt(st.nextToken()));
+			
+		}
+		
+		Queue<Integer> q = new LinkedList<>();
+		int[] partyCheck = new int[M];
+		int[] peopleCheck = new int[N + 1];
+		
+		for(int i = 0; i < know.size(); i++) {
+			
+			q.add(know.get(i));
+			peopleCheck[know.get(i)] = 1;
+			
+		}
+		
+		while(!q.isEmpty()) {
+			
+			int now = q.poll();
+			for(int i = 0; i < M; i++) {
+				
+				if(partyCheck[i] == 1) continue;
+				
+				if(!party[i].contains(now)) continue;
+				
+				for(int j = 0; j < party[i].size(); j++) {
+					
+					if(peopleCheck[party[i].get(j)] == 1) continue;
+					
+					peopleCheck[party[i].get(j)] = 1;
+					q.add(party[i].get(j));
+				}
+				
+				partyCheck[i] = 1;
+				answer--;
+			}
+		}
+		
+		
+		System.out.println(answer);
+	}
+	
+	// 1351번 - 무한 수열
+	private static int P;
+	private static int Q;
+	private static Map<Long, Long> map = new HashMap<>();
+	public static void test10() throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		long N = Long.parseLong(st.nextToken());
+		P = Integer.parseInt(st.nextToken());
+		Q = Integer.parseInt(st.nextToken());
+		
+		System.out.println(solve(N));;
 		
 		
 	}
 	
+	private static long solve(long num) {
+		if(num == 0) return 1;
+		if(map.containsKey(num)) return map.get(num);
+		
+		long a = (long)Math.floor(num / P);
+		long b = (long)Math.floor(num / Q);
+		
+		map.put(num, solve(a) + solve(b));
+		
+		return map.get(num);
+	}
 	
 }
