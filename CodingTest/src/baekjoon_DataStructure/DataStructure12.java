@@ -54,7 +54,7 @@ public class DataStructure12 {
 	}
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test10();
+		test02();
 	}
 
 	// 11000번 - 강의실 배정
@@ -99,6 +99,7 @@ public class DataStructure12 {
 		while(N --> 0) {
 			
 			st = new StringTokenizer(br.readLine());
+			int classNo = Integer.parseInt(st.nextToken());
 			int start = Integer.parseInt(st.nextToken());
 			int end = Integer.parseInt(st.nextToken());
 			que.add(new classroom(start, end));	
