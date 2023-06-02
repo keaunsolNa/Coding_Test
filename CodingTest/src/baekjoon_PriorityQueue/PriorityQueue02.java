@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -15,7 +16,7 @@ import java.util.StringTokenizer;
 public class PriorityQueue02 {
 
 	public static void main(String[] args) throws IOException {
-		test05();
+		test09();
 	}
 	
 	private static class Assignment implements Comparable<Assignment> {
@@ -56,6 +57,72 @@ public class PriorityQueue02 {
 		public int compareTo(Point o) {
 			
 			return Math.min(100	- o.basepoint, o.upPoint) - Math.min(100 - this.basepoint, this.upPoint);
+		}
+		
+		
+	}
+	
+	private static class Money implements Comparable<Money> {
+		
+		int idx;
+		int money;
+		
+		Money(int idx, int money) {
+			this.idx = idx;
+			this.money = money;
+		}
+
+		@Override
+		public int compareTo(Money o) {
+			
+			if(o.money == this.money) return this.idx - o.idx;
+			return o.money - this.money;
+		}
+		
+		
+	}
+	
+	private static class Jewelry {
+		
+		int m;
+		int v;
+		
+		Jewelry(int m, int v) {
+			this.m = m;
+			this.v = v;
+		}
+		
+	}
+	
+	private static class Question implements Comparable<Question> {
+		
+		double ideaLevel;
+		double implLevel;
+		int DataHave;
+		int EditHave;
+		
+		Question (double ideaLevel, double implLevel, int DataLevel, int EditLevel) {
+			
+			this.ideaLevel = ideaLevel;
+			this.implLevel = implLevel;
+			this.DataHave = DataLevel;
+			this.EditHave = EditLevel;
+			
+		}
+
+		@Override
+		public int compareTo(Question o1) {
+			
+			if(this.DataHave == o1.DataHave) {
+
+				if(this.ideaLevel == o1.ideaLevel) {
+					
+					return this.implLevel > o1.implLevel ? 1 : 0;
+					
+				} else return this.ideaLevel > o1.ideaLevel ? 1 : 0; 
+				
+			} else return o1.DataHave - this.DataHave;
+			
 		}
 		
 		
@@ -308,6 +375,7 @@ public class PriorityQueue02 {
         
 	}
 	
+	// 에라토스테네스의 체
 	private static void sieve(int N) {
 		
         isPrime = new boolean[N + 1];
@@ -324,8 +392,170 @@ public class PriorityQueue02 {
         }
     }
     
-	// 
+	// 25101번 - Robin Hood
 	public static void test06() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+		st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		
+		st = new StringTokenizer(br.readLine());
+		PriorityQueue<Money> pq = new PriorityQueue<>();
+		for(int i = 0; i < N; i++) pq.add(new Money(i, Integer.parseInt(st.nextToken())));
+
+		boolean flag = true;
+		while(K --> 0) {
+			
+			int idx = pq.peek().idx;
+			int target = pq.poll().money;
+			
+			if(target - 100 > 0) pq.add(new Money(idx, target - 100));
+			
+			else {
+				flag = false;
+				break;
+			}
+		}
+		
+		if(K > 0 || !flag) System.out.println("impossible");
+		else {
+			
+			int[] money = new int[N];
+			
+			while(!pq.isEmpty()) money[pq.peek().idx] = pq.poll().money;
+			
+			for(int i = 0; i < N - 1; i++) System.out.print(money[i] + " ");
+			System.out.print(money[N - 1]);
+			
+		}
+	}
+	
+	// 15577번 - Prosjek 
+	public static void test07() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int N = Integer.parseInt(br.readLine());
+		
+		PriorityQueue<Double> pq = new PriorityQueue<>();
+		while(N --> 0) pq.add(Double.parseDouble(br.readLine()));
+		
+		while(pq.size() != 1) {
+			
+			Double first = pq.poll();
+			Double second = pq.poll();
+			pq.add((first + second) / 2);
+			
+		}
+		
+		System.out.printf("%.6f", pq.poll());
+	}
+	
+	// 1202번 - 보석 도둑
+	public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int K = Integer.parseInt(st.nextToken());
+		
+		Jewelry[] jewelries = new Jewelry[N];
+		
+		for(int i = 0; i < N; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			jewelries[i] = new Jewelry(Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()));
+			
+		}
+		
+        Arrays.sort(jewelries, new Comparator<Jewelry>() {
+        	 
+            @Override
+            public int compare(Jewelry o1, Jewelry o2) {
+                if (o1.m == o2.m) {
+                    return o2.v - o1.v;
+                }
+                return o1.m - o2.m;
+            }
+ 
+        });
+		
+        int[] pack = new int[K];
+        for (int i = 0; i < K; i++) pack[i] = Integer.parseInt(br.readLine());
+        Arrays.sort(pack);
+        
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
+        long ans = 0;
+        for (int i = 0, j = 0; i < K; i++) {
+        	
+            while (j < N && jewelries[j].m <= pack[i]) pq.offer(jewelries[j++].v);
+            if (!pq.isEmpty()) ans += pq.poll();
+            
+        }
+		
+		System.out.println(ans);
+	}
+	
+	// 27315번 - 틀리는 건 싫으니까 쉬운 문제에 올인하려고 합니다
+	public static void test09() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		
+        PriorityQueue<int[]> question = new PriorityQueue<>(new Comparator<int[]>() {
+        	
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return o1[0] - o2[0];
+            }
+        });
+        
+        while (N --> 0) {
+        	
+            st = new StringTokenizer(br.readLine());
+            int D = Integer.parseInt(st.nextToken());
+            int P = Integer.parseInt(st.nextToken());
+            int T = Integer.parseInt(st.nextToken());
+            int E = Integer.parseInt(st.nextToken());
+            
+            if (T == 1) P = 0;
+            
+            question.add(E == 1 ? new int[]{D / 2 + D % 2, P / 2} : new int[]{D, P});
+            
+        }
+        
+        st = new StringTokenizer(br.readLine());
+        int hd = Integer.parseInt(st.nextToken());
+        int hp = Integer.parseInt(st.nextToken());
+        
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        long ans = 0;
+        
+        while (M --> 0) {
+            while (!question.isEmpty() && question.peek()[0] <= hd) pq.add(question.poll()[1]);
+            
+            if (pq.isEmpty()) { 
+            	
+            	System.out.println(-1); 
+            	System.exit(0); 
+            	
+        	}
+            
+            int p = pq.poll();
+            if (p > hp) ans += p-hp;
+            hd += 1; 
+            hp += 1;
+            
+        }
+        
+        System.out.println(ans);
+	}
+	
+	// 
+	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
