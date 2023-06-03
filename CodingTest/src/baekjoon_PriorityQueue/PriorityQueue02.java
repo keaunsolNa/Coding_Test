@@ -16,7 +16,7 @@ import java.util.StringTokenizer;
 public class PriorityQueue02 {
 
 	public static void main(String[] args) throws IOException {
-		test09();
+		test10();
 	}
 	
 	private static class Assignment implements Comparable<Assignment> {
@@ -94,35 +94,20 @@ public class PriorityQueue02 {
 		
 	}
 	
-	private static class Question implements Comparable<Question> {
+	private static class GasStation implements Comparable<GasStation> {
 		
-		double ideaLevel;
-		double implLevel;
-		int DataHave;
-		int EditHave;
+		int distance;
+		int canFill;
 		
-		Question (double ideaLevel, double implLevel, int DataLevel, int EditLevel) {
-			
-			this.ideaLevel = ideaLevel;
-			this.implLevel = implLevel;
-			this.DataHave = DataLevel;
-			this.EditHave = EditLevel;
-			
+		GasStation(int distance, int canFill) {
+			this.distance = distance;
+			this.canFill = canFill;
 		}
 
 		@Override
-		public int compareTo(Question o1) {
+		public int compareTo(GasStation o) {
 			
-			if(this.DataHave == o1.DataHave) {
-
-				if(this.ideaLevel == o1.ideaLevel) {
-					
-					return this.implLevel > o1.implLevel ? 1 : 0;
-					
-				} else return this.ideaLevel > o1.ideaLevel ? 1 : 0; 
-				
-			} else return o1.DataHave - this.DataHave;
-			
+			return this.distance - o.distance;
 		}
 		
 		
@@ -554,11 +539,46 @@ public class PriorityQueue02 {
         System.out.println(ans);
 	}
 	
-	// 
+	// 1826번 - 연료 채우기
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
+		
+		int N = Integer.parseInt(br.readLine());
+		
+		PriorityQueue<GasStation> pq = new PriorityQueue<>();
+		while(N --> 0) {
+			
+			st = new StringTokenizer(br.readLine());
+			int a = Integer.parseInt(st.nextToken());
+			int b = Integer.parseInt(st.nextToken()); 
+			
+			pq.add(new GasStation(a, b));
+		}
+		
+		st = new StringTokenizer(br.readLine());
+		int L = Integer.parseInt(st.nextToken());
+		int P = Integer.parseInt(st.nextToken());
+	
+		PriorityQueue<Integer> fuels = new PriorityQueue<>(Collections.reverseOrder());
+        int answer = 0;
+        
+        while (P < L) {
+            
+        	while (!pq.isEmpty() && pq.peek().distance <= P) fuels.add(pq.poll().canFill);
+            
+
+            if (fuels.isEmpty()) {
+                System.out.println(-1);
+                return;
+            }
+
+            answer++;
+            P += fuels.poll();
+    
+        }
+
+        System.out.println(answer);
 		
 	}
 	
