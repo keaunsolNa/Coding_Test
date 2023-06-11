@@ -3,14 +3,13 @@ package baekjoon_BasicMath;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class BasicMath2Plus52 {
 
    public static void main(String[] args) throws IOException {
-      test06();
+      test10();
    }
    
    // 6871번 - The Cell Sell
@@ -149,17 +148,100 @@ public class BasicMath2Plus52 {
 	   
    }
    
-   // 
+   // 28224번 - Final Price
    public static void test07() throws IOException {
 	   
 	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	   
+	   int N = Integer.parseInt(br.readLine());
+	   int price = Integer.parseInt(br.readLine());
+	   
+	   for(int i = 0; i < N - 1; i++) price += Integer.parseInt(br.readLine());
+	   
+	   System.out.println(price);
+   }
+   
+   // 1816번 - 암호 키
+   public static void test08() throws IOException {
+	   
+	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	   int N = Integer.parseInt(br.readLine());	   
+	   sieve(1000001);
+	   
+	   for(int i = 0; i < N; i++) {
+		   
+		   long S = Long.parseLong(br.readLine());
+		   boolean chk = true;
+		   
+		   for(int j = 2; j < 1000001; j++) {
+			   if(isPrime[j] && S % j == 0) {
+				   chk = false;
+			   }
+		   }
+		   
+		   System.out.println(chk ? "YES" : "NO");
+	   }
+   }
+
+   private static boolean[] isPrime;
+   private static void sieve(int N) {
+		
+	   isPrime = new boolean[N + 1];
+	   Arrays.fill(isPrime, true);
+	   isPrime[0] = false;
+	   isPrime[1] = false;
+
+	   for (int i = 2; i * i <= N; i++) {
+		   if (isPrime[i]) {
+			   for (int j = 2 * i; j < N + 1; j += i) {
+				   isPrime[j] = false;
+			   }
+		   }
+	   }
+   }
+	
+   // 1312번 - 소수
+   public static void test09() throws IOException {
+	   
+	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	   StringTokenizer st = new StringTokenizer(br.readLine());
+	   int A = Integer.parseInt(st.nextToken());
+	   int B = Integer.parseInt(st.nextToken());
 	   int N = Integer.parseInt(st.nextToken());
-	   int M = Integer.parseInt(st.nextToken());
+	
+	   int result = 0;
+	   for(int i = 0; i < N; i++) {
+		   A = A % B * 10;
+		   result = A / B;
+	   }
+
+	   System.out.println(result);
+   }
+   
+   // 1094번 - 막대기
+   public static void test10() throws IOException {
+	   
+	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	   int N = Integer.parseInt(br.readLine());
+	   int stick = 64;
+	   
+	   int ans = 0;
+	   
+	   while(stick > 0) {
+		   
+		   if(stick <= N) {
+			   N -= stick;
+			   ans++;
+		   }
+		   
+		   if(N == 0) break;
+		   
+		   stick /= 2;
+			   
+	   }
+	   
+	   System.out.println(ans);
 	   
    }
    
-   
-   
-
 }
