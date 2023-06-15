@@ -3,13 +3,31 @@ package baekjoon_implement;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class Implement57 {
     
 	public static void main(String[] args) throws IOException {
-		test05();
+		test07();
 	}
+
+	private static class Pair implements Comparable<Pair> {
+        
+		int number;
+        int player;
+        
+        Pair(int number, int player) {
+        	this.number = number; 
+        	this.player = player;
+        }
+
+        @Override
+        public int compareTo(Pair o) {
+            return Integer.compare(this.number, o.number);
+        }
+        
+    }
 	
 	// 10219번 - Meats On The Grill 
 	public static void test01() throws IOException {
@@ -173,15 +191,106 @@ public class Implement57 {
 		
 	}
 	
-	// 
+	// 25850번 - A Game Called Mind 
 	public static void test05() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
+		
+		int N = Integer.parseInt(br.readLine());
+		PriorityQueue<Pair> pq = new PriorityQueue<>();
+		for(int p = 0; p < N; p++) {
+			
+			st = new StringTokenizer(br.readLine());
+			int t = Integer.parseInt(st.nextToken());
+			
+			for(int i = 0; i < t; i++) pq.add(new Pair(Integer.parseInt(st.nextToken()), p));
+				
+		}
+		
+		while(!pq.isEmpty()) {
+			
+			sb.append((char)(pq.poll().player + 'A'));
+		}
+		
+		System.out.println(sb);
+	}
+	
+	// 26535번 - Chicken Pen 
+	public static void test06() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+
+		int chicken = (int)Math.ceil(Math.sqrt(Integer.parseInt(br.readLine())));
+		for(int i = 0; i < chicken + 2; i++) sb.append("x");
+		
+		
+		sb.append("\n");
+		
+		for(int o = 0; o < chicken; o++) {
+			
+			for(int i = 0; i < chicken + 2; i++) {
+				
+				if(i == 0 || i == chicken + 1) sb.append("x");
+				else sb.append(".");
+			}
+			
+			sb.append("\n");
+			
+		}
+		
+		for(int i = 0; i < chicken + 2; i++) sb.append("x");
+		
+		System.out.println(sb);
+		
+	}
+	
+	// 26510번 - V for Vendetta 
+	public static void test07() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		String two   = "* *\n *";
+		String three = "*   *\n * *\n  *";
+		String four  = "*     *\n *   *\n  * *\n   *";
+		String five  = "*       *\n *     *\n  *   *\n   * *\n    *";
+		String six   = "*         *\n *       *\n  *     *\n   *   *\n    * *\n     *";
+		String seven = "*           *\n *         *\n  *       *\n   *     *\n    *   *\n     * *\n      *";
+		String eight = "*             *\n *           *\n  *         *\n   *       *\n    *     *\n     *   *\n      * *\n       *";
+		String nine  = "*               *\n *             *\n  *           *\n   *         *\n    *       *\n     *     *\n      *   *\n       * *\n        *";
+		
+		StringBuilder sb = new StringBuilder();
+		while(st.hasMoreTokens()) {
+			
+			switch(Integer.parseInt(st.nextToken())) {
+				
+				case 2 : sb.append(two); break;
+				case 3 : sb.append(three); break;
+				case 4 : sb.append(four); break;
+				case 5 : sb.append(five); break;
+				case 6 : sb.append(six); break;
+				case 7 : sb.append(seven); break;
+				case 8 : sb.append(eight); break;
+				case 9 : sb.append(nine); break;
+				
+			}
+			sb.append("\n");
+		}
+		
+		sb.deleteCharAt(sb.length() - 1);
+		
+		System.out.print(sb);
+	}
+	
+	// 
+	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
 	}
 	
 	// 
-	public static void test06() throws IOException {
+	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
