@@ -3,13 +3,15 @@ package baekjoon_implement;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.PriorityQueue;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Implement57 {
     
 	public static void main(String[] args) throws IOException {
-		test07();
+		test10();
 	}
 
 	private static class Pair implements Comparable<Pair> {
@@ -282,19 +284,93 @@ public class Implement57 {
 		System.out.print(sb);
 	}
 	
-	// 
+	// 5246번 - Checkerboard Rows
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
+		int board = Integer.parseInt(br.readLine());
+		
+		for (int i = 0; i < board; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+            int cntPieces = Integer.parseInt(st.nextToken());
+            int[] rows = new int[8];
+            
+            for (int j = 0; j < cntPieces; j++) {
+            	
+                int x = Integer.parseInt(st.nextToken());
+                int y = Integer.parseInt(st.nextToken());
+
+                rows[y - 1]++;
+                
+            }
+
+            int maxPieces = Arrays.stream(rows).max().getAsInt();
+            
+            System.out.println(maxPieces);
+        }
+
 	}
 	
-	// 
+	// 6856번 - Roll the Dice
 	public static void test09() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
 		
+		int a = Integer.parseInt(br.readLine());
+		int b = Integer.parseInt(br.readLine());
+		
+		int ans = 0;
+		for(int i = 1; i <= a; i++) {
+			
+			for(int j = 1; j <= b; j++) {
+				
+				if(i + j == 10) ans++;
+			}
+		}
+		
+		if(ans == 1) System.out.println("There is 1 way to get the sum 10."); 
+		else if(ans > 1) System.out.println("There are " + ans +" ways to get the sum 10.");
+			
 	}
 	
+	// 10994번 - 별 찍기 - 19
+	private static char[][] star;
+	public static void test10() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+        
+        n = 4 * n - 3;
+        star = new char[n][n];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                star[i][j] = ' ';
+            }
+        }
+
+        solve(0, n);
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(star[i][j]);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void solve(int s, int len) {
+        if (len<=s) return;
+
+        for (int i = s; i < len; i++) {
+            star[s][i] = '*'; 
+            star[len - 1][i] = '*'; 
+            star[i][s] = '*';
+            star[i][len - 1] = '*'; 
+        }
+
+
+        solve(s + 2, len - 2);
+    }
 	
 }
