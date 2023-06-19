@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class PriorityQueue03 {
 
 	public static void main(String[] args) throws IOException {
-		test02();
+		test03();
 	}
 	
 	private static class Pair implements Comparable<Pair> {
@@ -43,6 +43,26 @@ public class PriorityQueue03 {
 	    
 	}
 
+	private static class Mario implements Comparable<Mario> {
+		
+		int time;
+		int need;
+		
+		Mario(int time, int need) {
+			this.time = time;
+			this.need = need;
+		}
+
+		@Override
+		public int compareTo(Mario o) {
+			
+			if(this.need == o.need) return this.time - o.time;
+			return this.need - o.need;
+		}
+		
+		
+		
+	}
 	
 	// 13334번 - 철로
 	private static ArrayList<Pair> pairs = new ArrayList<>();
@@ -101,7 +121,7 @@ public class PriorityQueue03 {
 	}
 	
 	
-	// 
+	// 12764번 - 싸지방에 간 준하
 	public static void test02() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
@@ -146,6 +166,24 @@ public class PriorityQueue03 {
 	
 	// 
 	public static void test03() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		
+	}
+	
+	
+	
+	// 
+	public static void test04() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		
+	}
+	
+	
+	// 
+	public static void test05() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
