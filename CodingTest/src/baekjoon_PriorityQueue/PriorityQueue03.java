@@ -42,27 +42,6 @@ public class PriorityQueue03 {
 	    }
 	    
 	}
-
-	private static class Mario implements Comparable<Mario> {
-		
-		int time;
-		int need;
-		
-		Mario(int time, int need) {
-			this.time = time;
-			this.need = need;
-		}
-
-		@Override
-		public int compareTo(Mario o) {
-			
-			if(this.need == o.need) return this.time - o.time;
-			return this.need - o.need;
-		}
-		
-		
-		
-	}
 	
 	// 13334번 - 철로
 	private static ArrayList<Pair> pairs = new ArrayList<>();
