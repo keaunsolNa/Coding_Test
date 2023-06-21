@@ -3,15 +3,14 @@ package baekjoon_implement;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.PriorityQueue;
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class Implement58 {
     
 	public static void main(String[] args) throws IOException {
-		test06();
+		test10();
 	}
 
 	
@@ -205,8 +204,102 @@ public class Implement58 {
 		
 	}
 	
-	// 
+	// 1392번 - 노래 악보
 	public static void test07() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int Q = Integer.parseInt(st.nextToken());
+		StringBuilder sb = new StringBuilder();
+		List<Integer> list = new ArrayList<>();
+		
+		for(int i = 1; i <= N; i++) {
+			int t = Integer.parseInt(br.readLine());
+			
+			for(int j = 0; j < t; j++) list.add(i);
+		}
+		
+		for(int i = 0; i < Q; i++) {
+			int num = Integer.parseInt(br.readLine());
+			sb.append(list.get(num)).append("\n");
+		}
+		
+		System.out.println(sb);
+		
+	}
+	
+	// 28225번 - Flower Festival
+	public static void test08() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int n = Integer.parseInt(st.nextToken());
+		int f = Integer.parseInt(st.nextToken());
+		
+		double min = Integer.MAX_VALUE;
+		int winner = 0;
+		
+		for(int i = 1; i <= n; i++) {
+			
+			st = new StringTokenizer(br.readLine());
+			int x = Integer.parseInt(st.nextToken());
+			double v = Integer.parseInt(st.nextToken());
+			
+			double rest = f - x;
+			
+			double time = rest / v ;
+			
+			if(time < min) {
+				min = time;
+				winner = i;
+			}
+		}
+		
+		System.out.println(winner);
+		
+	}
+	
+	// 11285번 - 초성 중성 종성 2
+	public static void test09() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String[] first = {"ㄱ", "ㄲ", "ㄴ", "ㄷ", "ㄸ", "ㄹ", "ㅁ", "ㅂ", "ㅃ", "ㅅ", "ㅆ", "ㅇ", "ㅈ", "ㅉ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ"};
+		String[] second = {"ㅏ", "ㅐ", "ㅑ", "ㅒ", "ㅓ", "ㅔ", "ㅕ", "ㅖ", "ㅗ", "ㅘ", "ㅙ", "ㅚ", "ㅛ", "ㅜ", "ㅝ", "ㅞ", "ㅟ", "ㅠ", "ㅡ", "ㅢ", "ㅣ"};
+		String[] third = {"", "ㄱ", "ㄲ", "ㄳ", "ㄴ", "ㄵ", "ㄶ", "ㄷ", "ㄹ", "ㄺ", "ㄻ", "ㄼ", "ㄽ", "ㄾ", "ㄿ", "ㅀ", "ㅁ", "ㅂ", "ㅄ", "ㅅ", "ㅆ", "ㅇ", "ㅈ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ" };
+		
+		String s1 = br.readLine().trim();
+		String s2 = br.readLine().trim();
+		String s3 = br.readLine().trim();
+		
+		int n = 44032;
+		
+		for (int i = 0; i < first.length; i++) {
+            if (s1.equals(first[i])) {
+                n += (i * 21 * 28);
+                break;
+            }
+        }
+
+        for (int i = 0; i < second.length; i++) {
+            if (s2.equals(second[i])) {
+                n += i * 28;
+                break;
+            }
+        }
+
+        for (int i = 0; i < third.length; i++) {
+            if (s3.equals(third[i])) {
+                n += i;
+                break;
+            }
+        }
+
+        System.out.println((char)n);
+		
+	}
+	
+	// 
+	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		
