@@ -298,12 +298,33 @@ public class Implement58 {
 		
 	}
 	
-	// 
+	// 13877번 - 이건 무슨 진법이지?
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
+		StringTokenizer st;
+		int T = Integer.parseInt(br.readLine());
 		
+		while(T --> 0) {
+			
+			st = new StringTokenizer(br.readLine());
+            int K = Integer.parseInt(st.nextToken());
+            char[] N = st.nextToken().toCharArray();
+
+            int o = findMaxDigit(N) < '8' ? Integer.parseInt(String.valueOf(N), 8) : 0;
+
+            System.out.println(K + " " + o + " " + Integer.parseInt(String.valueOf(N)) + " " + Integer.parseInt(String.valueOf(N), 16));
+      
+		}
 	}
+	
+	private static char findMaxDigit(char[] arr) {
+        char max = '0';
+        
+        for (char c : arr)
+            if (c > max) max = c;
+        
+        return max;
+    }
 	
 	
 }
