@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
 public class PriorityQueue03 {
 
 	public static void main(String[] args) throws IOException {
-		test04();
+		test05();
 	}
 	
 	private static class Pair implements Comparable<Pair> {
@@ -204,12 +204,38 @@ public class PriorityQueue03 {
 		System.out.print(sb);
 	}
 	
-	// 
+	// 15708번 - 미네크래프트 
 	public static void test05() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
+
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		long T = Long.parseLong(st.nextToken());
+		long P = Long.parseLong(st.nextToken());
 		
+		int sum = 0;
+		int ans = 0;
+		PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+		st = new StringTokenizer(br.readLine());
+		
+		for (int i = 0; i < N; i++) {
+			
+			int K = Integer.parseInt(st.nextToken());
+			sum += K;
+			pq.add(-K);
+            while (sum > T - i * P) {
+            	
+                if (pq.size() == 0) break;
+                sum += pq.poll();
+                
+            }
+            
+            ans = Math.max(ans, pq.size());
+        }
+		
+		System.out.print(ans);
 	}
+	
 	
 	// 
 	public static void test06() throws IOException {
