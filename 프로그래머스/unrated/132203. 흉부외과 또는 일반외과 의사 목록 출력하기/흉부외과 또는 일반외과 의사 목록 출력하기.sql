@@ -1,0 +1,10 @@
+-- 코드를 입력하세요
+SELECT
+       A.DR_NAME
+     , A.DR_ID
+     , A.MCDP_CD
+     , TO_CHAR(A.HIRE_YMD, 'YYYY-MM-DD')
+  FROM DOCTOR A
+ WHERE A.MCDP_CD = 'CS'
+    OR A.MCDP_CD = 'GS'
+ ORDER BY HIRE_YMD DESC, DR_NAME
