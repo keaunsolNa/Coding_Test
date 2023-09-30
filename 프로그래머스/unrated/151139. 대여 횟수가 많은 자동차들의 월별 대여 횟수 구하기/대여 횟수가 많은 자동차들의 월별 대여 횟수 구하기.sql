@@ -1,0 +1,16 @@
+SELECT
+       EXTRACT(MONTH FROM START_DATE) AS MONTH, 
+       CAR_ID,
+       COUNT(*) AS RECORD
+  FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+ WHERE CAR_ID IN (SELECT CAR_ID
+                    FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+                   WHERE START_DATE BETWEEN TO_DATE('20220801','YYYYMMDD') 
+                                        AND TO_DATE('20221101','YYYYMMDD')
+                   GROUP BY CAR_ID
+                  HAVING COUNT(*) > 4)
+                     AND START_DATE BETWEEN TO_DATE('2022-08-01', 'YYYY-MM-DD') 
+                                        AND TO_DATE('2022-10-31', 'YYYY-MM-DD')
+                   GROUP BY EXTRACT(MONTH FROM START_DATE), CAR_ID
+                  HAVING COUNT(*) > 0
+ORDER BY EXTRACT(MONTH FROM START_DATE), CAR_ID DESC
