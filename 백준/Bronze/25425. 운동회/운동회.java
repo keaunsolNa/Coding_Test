@@ -10,13 +10,13 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int n = Integer.parseInt(st.nextToken());
-        int m = Integer.parseInt(st.nextToken());
-        int a = Integer.parseInt(st.nextToken());
-        int k = Integer.parseInt(st.nextToken());
+        long n = Long.parseLong(st.nextToken());
+        long m = Long.parseLong(st.nextToken());
+        long a = Long.parseLong(st.nextToken());
+        long k = Long.parseLong(st.nextToken());
 
-        int max = 0;
-        int min = 0;
+        long max = 0;
+        long min = 0;
         if(a - k >= n - 1) {
             max = n;
 
