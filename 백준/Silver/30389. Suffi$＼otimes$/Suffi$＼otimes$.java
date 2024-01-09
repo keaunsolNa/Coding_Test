@@ -8,20 +8,17 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
-        String s = br.readLine();
-        Map<String, Boolean> suffix = new HashMap<>();
-        for(int i = s.length() - 1; i >= 0; i--) suffix.put(s.substring(i), true);
-        n--;
+        HashSet<String> suffix = new HashSet<>();
 
         while(n --> 0) {
 
             String str = br.readLine();
             for(int i = str.length() - 1; i >= 0; i--) {
                 String key = str.substring(i);
-                if(suffix.containsKey(key)) {
+                if(suffix.contains(key)) {
                     suffix.remove(key);
                 } else {
-                    suffix.put(key, true);
+                    suffix.add(key);
                 }
             }
 
