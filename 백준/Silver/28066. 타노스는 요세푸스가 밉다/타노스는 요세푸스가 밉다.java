@@ -9,21 +9,23 @@ public class Main {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		
-		int N = Integer.parseInt(st.nextToken());
-		int K = Integer.parseInt(st.nextToken());
+
+        int n = Integer.parseInt(st.nextToken());
+		int k = Integer.parseInt(st.nextToken());
 		
 		Deque<Integer> deq = new LinkedList<>();
-		for(int i = 1; i <= N; i++)  deq.add(i);
+		for(int i = 1; i <= n; i++)  deq.add(i);
 		
 		while(true) {
 			
-			if(deq.size() < K) { System.out.println(deq.pollFirst()); return; }
+			if(deq.size() < k) { System.out.println(deq.poll()); return; }
 			
-			int start = deq.pollFirst();
-			deq.addLast(start);
+			deq.addLast(deq.poll());
 			
-			for(int i = 0; i < K - 1; i++) deq.pollFirst();
+			for(int i = 0; i < k - 1; i++) deq.poll();
 		}
 	}
 }
+
+
+		
