@@ -80,7 +80,7 @@ public class Sort04 {
 		while(true) {
 			int key1 = iter.next();
 			int firstNation = map.get(key1)[0];
-			int firstStudㄷnt = map.get(key1)[1];
+			int firstStudnt = map.get(key1)[1];
 			
 			int key2 = iter.next();
 			int secondNation = map.get(key2)[0];
@@ -103,7 +103,7 @@ public class Sort04 {
 				threeStudent = map.get(key3)[1];
 			}
 			
-			System.out.println(firstNation + " " + firstStudㄷnt);
+			System.out.println(firstNation + " " + firstStudnt);
 			System.out.println(secondNation + " " + secondStudent);
 			System.out.println(threeNation + " " + threeStudent);
 			break;
