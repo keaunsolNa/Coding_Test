@@ -163,6 +163,8 @@ buildNumber.properties
 # Ignore all local history of files
 .history
 .ionide
+*.iml
+*.idea
 
 # Support for Project snippet scope
 .vscode/*.code-snippets
