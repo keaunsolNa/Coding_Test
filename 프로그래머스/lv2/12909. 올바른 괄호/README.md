@@ -1,10 +1,10 @@
 # [level 2] 올바른 괄호 - 12909 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12909) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12909?language=javascript) 
 
 ### 성능 요약
 
-메모리: 54.1 MB, 시간: 13.68 ms
+메모리: 38.4 MB, 시간: 5.24 ms
 
 ### 구분
 
@@ -13,6 +13,10 @@
 ### 채점결과
 
 정확성: 69.5<br/>효율성: 30.5<br/>합계: 100.0 / 100.0
+
+### 제출 일자
+
+2024년 1월 2일 21:28:1
 
 ### 문제 설명
 
@@ -65,4 +69,4 @@
 문제의 예시와 같습니다.</p>
 
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges

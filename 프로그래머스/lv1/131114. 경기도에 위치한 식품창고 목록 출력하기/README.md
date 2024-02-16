@@ -14,6 +14,10 @@
 
 Empty
 
+### 제출 일자
+
+2023년 10월 4일 16:27:23
+
 ### 문제 설명
 
 <p>다음은 식품창고의 정보를 담은 <code>FOOD_WAREHOUSE</code> 테이블입니다. <code>FOOD_WAREHOUSE</code> 테이블은 다음과 같으며 <code>WAREHOUSE_ID</code>, <code>WAREHOUSE_NAME</code>, <code>ADDRESS</code>, <code>TLNO</code>, <code>FREEZER_YN</code>는 창고 ID, 창고 이름, 창고 주소, 전화번호, 냉동시설 여부를 의미합니다.</p>
@@ -138,4 +142,4 @@ Empty
 </tbody>
       </table>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
