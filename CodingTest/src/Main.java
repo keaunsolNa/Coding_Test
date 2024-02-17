@@ -5,29 +5,29 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        StringTokenizer st = new StringTokenizer(br.readLine());
+        int[] weights = new int[] {100,180,360,100,270};
+        long answer = 0;
 
-        int n = Integer.parseInt(st.nextToken());
-        int m = Integer.parseInt(st.nextToken());
+        Map<Long, Long> map = new HashMap<>();
+        Map<Long, Long> map2 = new HashMap<>();
 
-        int[] arr = new int[n];
-        st = new StringTokenizer(br.readLine());
-        for(int i = 0; i < n; i++) arr[i] = Integer.parseInt(st.nextToken());
+        for(long weight : weights) {
 
-        st = new StringTokenizer(br.readLine());
-        int[] friend = new int[m];
-        for(int i = 0; i < m; i++) friend[i] = Integer.parseInt(st.nextToken());
+            map2.put(weight, map2.getOrDefault(weight, 0L) + 1);
+            Long[] temp = { weight * 2, weight * 3, weight * 4 };
 
-        int ans = 0;
-        for(int i = 0; i < m; i++)
+            for(Long tem : temp) map.put(tem, map.getOrDefault(tem, 0L) + 1);
+        }
 
-            for(int j = 0; j < m; j++)
+        for (Long cnt : map.values()) if(cnt > 1) answer += (Long) cnt * (cnt - 1) / 2;
 
-                if(arr[j] == friend[i]) ans++;
+        Long minus = 0L;
 
+        for (Long cnt : map2.values()) if(cnt > 1) minus += (cnt * (cnt - 1) / 2) * 2;
 
-        System.out.println(m - ans);
 
     }
+
 }

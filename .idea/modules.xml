@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/프로그래머스/1/1.iml" filepath="$PROJECT_DIR$/프로그래머스/1/1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/프로그래머스/2/2.iml" filepath="$PROJECT_DIR$/프로그래머스/2/2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/프로그래머스/3/3.iml" filepath="$PROJECT_DIR$/프로그래머스/3/3.iml" />
       <module fileurl="file://$PROJECT_DIR$/백준/Bronze/Bronze.iml" filepath="$PROJECT_DIR$/백준/Bronze/Bronze.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodingTest/CodingTest.iml" filepath="$PROJECT_DIR$/CodingTest/CodingTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Coding_Test.iml" filepath="$PROJECT_DIR$/.idea/Coding_Test.iml" />
