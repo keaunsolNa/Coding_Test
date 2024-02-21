@@ -171,5 +171,5 @@ buildNumber.properties
 
 # Ignore code-workspaces
 *.code-workspace
-
+CodingTest/src/Main.java
 # End of https://www.toptal.com/developers/gitignore/api/macos,eclipse,java,maven,visualstudiocode
