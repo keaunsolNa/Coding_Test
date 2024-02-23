@@ -1,0 +1,11 @@
+-- 코드를 작성해주세요
+SELECT
+       DISTINCT ID,
+       EMAIL,
+       FIRST_NAME,
+       LAST_NAME
+  FROM DEVELOPERS 
+  JOIN SKILLCODES ON CODE & SKILL_CODE
+ WHERE NAME = 'Python'
+    OR NAME = 'C#'
+ ORDER BY ID   
