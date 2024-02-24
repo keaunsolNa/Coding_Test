@@ -3,37 +3,61 @@ import java.util.*;
 
 public class Main {
 
+    private static class RoomTime {
+
+        int startTime;
+        int endTime;
+
+        public RoomTime(String startTime, String endTime) {
+
+            this.startTime = stringToInt(startTime);
+            this.endTime = ((stringToInt(endTime) + 10) % 100 >= 60 ? stringToInt(endTime) + 50 : stringToInt(endTime) + 10);
+
+        }
+
+        private int stringToInt(String time) {
+
+            int hh = Integer.parseInt(time.split(":")[0]) * 60;
+            int mm = Integer.parseInt(time.split(":")[1]);
+            return hh + mm;
+        }
+    }
+
+
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        StringTokenizer st;
 
-        int n = Integer.parseInt(br.readLine());
+        String[][] book_time = new String[][]{{"15:00", "17:00"}, {"16:40", "18:20"}, {"14:20", "15:20"}, {"14:10", "19:20"}, {"18:20", "21:20"}};
 
-        switch (n) {
-
-            case 1 :
-                System.out.print(12 + " " + 1600); break;
-            case 2 :
-                System.out.print(11 + " " + 894); break;
-            case 3 :
-                System.out.print(11 + " " + 1327); break;
-            case 4 :
-                System.out.print(10 + " " + 1311); break;
-            case 5 :
-                System.out.print(9 + " " + 1004); break;
-            case 6 :
-                System.out.print(9 + " " + 1178); break;
-            case 7 :
-                System.out.print(9 + " " + 1357); break;
-            case 8 :
-                System.out.print(8 + " " + 837); break;
-            case 9 :
-                System.out.print(7 + " " + 1055); break;
-            case 10 :
-                System.out.print(6 + " " + 556); break;
-            case 11 :
-                System.out.print(6 + " " + 773);
+        RoomTime[] roomTimes = new RoomTime[book_time.length];
+        for(int i = 0; i < book_time.length; i++) {
+            roomTimes[i] = new RoomTime(book_time[i][0], book_time[i][1]);
         }
+
+        Arrays.sort(roomTimes, ((Comparator.comparingInt(o -> o.startTime))));
+
+        PriorityQueue<RoomTime> pq =
+                new PriorityQueue<>(Comparator.comparingInt(a -> a.endTime));
+
+        for(RoomTime RoomTime : roomTimes) {
+
+            if(pq.isEmpty()) pq.add(RoomTime);
+
+            else {
+
+                RoomTime temp = pq.peek();
+                int start = temp.startTime;
+                int end = temp.endTime;
+
+                if(RoomTime.startTime >= end) pq.poll();
+
+                pq.add(RoomTime);
+            }
+        }
+
+        System.out.println(pq.size());
     }
 
 }
