@@ -3,61 +3,67 @@ import java.util.*;
 
 public class Main {
 
-    private static class RoomTime {
-
-        int startTime;
-        int endTime;
-
-        public RoomTime(String startTime, String endTime) {
-
-            this.startTime = stringToInt(startTime);
-            this.endTime = ((stringToInt(endTime) + 10) % 100 >= 60 ? stringToInt(endTime) + 50 : stringToInt(endTime) + 10);
-
-        }
-
-        private int stringToInt(String time) {
-
-            int hh = Integer.parseInt(time.split(":")[0]) * 60;
-            int mm = Integer.parseInt(time.split(":")[1]);
-            return hh + mm;
-        }
-    }
-
-
     public static void main(String[] args) throws IOException {
 
-//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//        StringTokenizer st;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        String[][] book_time = new String[][]{{"15:00", "17:00"}, {"16:40", "18:20"}, {"14:20", "15:20"}, {"14:10", "19:20"}, {"18:20", "21:20"}};
+        long l = Long.parseLong(st.nextToken());
+        int k = Integer.parseInt(st.nextToken());
+        int c = Integer.parseInt(st.nextToken());
 
-        RoomTime[] roomTimes = new RoomTime[book_time.length];
-        for(int i = 0; i < book_time.length; i++) {
-            roomTimes[i] = new RoomTime(book_time[i][0], book_time[i][1]);
-        }
+        st = new StringTokenizer(br.readLine());
 
-        Arrays.sort(roomTimes, ((Comparator.comparingInt(o -> o.startTime))));
+        List<Long> cutList = new ArrayList<>();
+        cutList.add(0L);
+        cutList.add(l);
+        for (int i = 0; i < k; i++) cutList.add(Long.parseLong(st.nextToken()));
 
-        PriorityQueue<RoomTime> pq =
-                new PriorityQueue<>(Comparator.comparingInt(a -> a.endTime));
+        cutList.sort((a, b) -> (int) (a - b));
 
-        for(RoomTime RoomTime : roomTimes) {
+        long start = 0;
+        long end = l;
+        long first = 0;
+        long last = l;
 
-            if(pq.isEmpty()) pq.add(RoomTime);
+        while(start <= end) {
 
-            else {
+            long mid = start + (end - start) / 2;
+            long currentCut = 0;
+            long firstCut = -1;
+            long diff = 0;
 
-                RoomTime temp = pq.peek();
-                int start = temp.startTime;
-                int end = temp.endTime;
+            for (int i = k; i >= 0; i--) {
 
-                if(RoomTime.startTime >= end) pq.poll();
+                diff += cutList.get(i + 1) - cutList.get(i);
 
-                pq.add(RoomTime);
+                if (diff > mid)  {
+
+                    diff = cutList.get(i + 1) - cutList.get(i);
+                    currentCut++;
+
+                    if(diff > mid) {
+
+                        currentCut = c + 1;
+                        break;
+                    }
+                }
             }
+
+            if (currentCut < c) firstCut = cutList.get(1);
+            else firstCut = diff;
+
+            if (currentCut <= c) {
+
+                last = Math.min(mid, last);
+                first = firstCut;
+                end = mid - 1;
+
+            } else start = mid + 1;
         }
 
-        System.out.println(pq.size());
+
+        System.out.println(last + " " + first);
     }
 
 }
