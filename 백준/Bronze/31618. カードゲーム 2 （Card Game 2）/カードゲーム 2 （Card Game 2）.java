@@ -9,21 +9,18 @@ public class Main {
 
         int n = Integer.parseInt(br.readLine());
         st = new StringTokenizer(br.readLine());
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) arr[i] = Integer.parseInt(st.nextToken());
+        boolean[] arr = new boolean[200010];
+        for (int i = 0; i < n; i++) arr[Integer.parseInt(st.nextToken())] = true;
 
-        Arrays.sort(arr);
-        int correct = 0;
-        boolean yes = false;
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i <= 200001; i++) {
 
-            if(arr[i + 1] - arr[i] == 3) correct++;
-            else correct = 0;
+            if(arr[i]) {
 
-            if(correct == 2) yes = true;
+                if(arr[i + 3] && arr[i + 6]) { System.out.println("Yes"); return; }
+            }
         }
 
-        System.out.println(yes ? "Yes" : "No");
-
+        System.out.println("No");
     }
 }
+
