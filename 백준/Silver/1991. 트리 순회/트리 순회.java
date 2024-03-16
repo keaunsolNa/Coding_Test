@@ -56,7 +56,7 @@ public class Main {
         postOrder(head);
 	}
     
-    	private static void preOrder(Node node) {
+	private static void preOrder(Node node) {
 		
 		if(node == null) return;
 		System.out.print(node.root);

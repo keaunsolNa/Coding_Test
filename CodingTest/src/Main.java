@@ -3,67 +3,35 @@ import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    private static final int MOD = 1000000007;
+    public static void main(String[] args) throws NumberFormatException, IOException {
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        int m = 4;
+        int n = 3;
+        int[][] puddles = new int[][]{{2, 2}};
 
-        long l = Long.parseLong(st.nextToken());
-        int k = Integer.parseInt(st.nextToken());
-        int c = Integer.parseInt(st.nextToken());
+        int[][] map = new int[n + 1][m + 1];
+        for (int i = 0; i < puddles.length; i++) map[puddles[i][1]][puddles[i][0]] = -1;
 
-        st = new StringTokenizer(br.readLine());
+        map[1][1] = 1;
 
-        List<Long> cutList = new ArrayList<>();
-        cutList.add(0L);
-        cutList.add(l);
-        for (int i = 0; i < k; i++) cutList.add(Long.parseLong(st.nextToken()));
+        int x = map.length;
+        int y = map[0].length;
+        for (int i = 1; i < n + 1; i++) {
 
-        cutList.sort((a, b) -> (int) (a - b));
+            for (int j = 1; j < m + 1; j++) {
 
-        long start = 0;
-        long end = l;
-        long first = 0;
-        long last = l;
-
-        while(start <= end) {
-
-            long mid = start + (end - start) / 2;
-            long currentCut = 0;
-            long firstCut = -1;
-            long diff = 0;
-
-            for (int i = k; i >= 0; i--) {
-
-                diff += cutList.get(i + 1) - cutList.get(i);
-
-                if (diff > mid)  {
-
-                    diff = cutList.get(i + 1) - cutList.get(i);
-                    currentCut++;
-
-                    if(diff > mid) {
-
-                        currentCut = c + 1;
-                        break;
-                    }
-                }
+                if (map[i][j] == -1) continue;
+                if (map[i - 1][j] > 0) map[i][j] += map[i - 1][j] % MOD;
+                if (map[i][j - 1] > 0) map[i][j] += map[i][j - 1] % MOD;
             }
-
-            if (currentCut < c) firstCut = cutList.get(1);
-            else firstCut = diff;
-
-            if (currentCut <= c) {
-
-                last = Math.min(mid, last);
-                first = firstCut;
-                end = mid - 1;
-
-            } else start = mid + 1;
         }
 
 
-        System.out.println(last + " " + first);
+
     }
+
 
 }
