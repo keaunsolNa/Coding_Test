@@ -1,0 +1,15 @@
+-- 코드를 작성해주세요
+SELECT 
+       CASE
+         WHEN MONTH(DIFFERENTIATION_DATE) <= 03 
+         THEN '1Q'
+         WHEN MONTH(DIFFERENTIATION_DATE) <= 06
+         THEN '2Q'
+         WHEN MONTH(DIFFERENTIATION_DATE) <= 09
+         THEN '3Q'
+         ELSE '4Q'
+       END  QUARTER
+     , COUNT(*) ECOLI_COUNT 
+  FROM ECOLI_DATA 
+ GROUP BY 1 
+ ORDER BY 1
