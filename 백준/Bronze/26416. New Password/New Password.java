@@ -31,7 +31,7 @@ public class Main {
             if (!check[2]) input.append('1');
             if (!check[3]) input.append('#');
 
-            while (input.length() < 8) input.append('a');
+            while (input.length() < 7) input.append('a');
 
             sb.append("Case #").append(i).append(": ").append(input).append("\n");
         }
