@@ -5,10 +5,10 @@ public class Main {
 
     private static class Box {
 
-        private int x;
-        private int y;
-        private int z;
-        private int size;
+        private final int x;
+        private final int y;
+        private final int z;
+        private final int size;
 
         public Box (int x, int y, int z) {
 
