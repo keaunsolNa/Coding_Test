@@ -18,19 +18,11 @@ public class Main {
             int r = Integer.parseInt(st.nextToken());
             int s = Integer.parseInt(st.nextToken());
 
-            int idx = 1;
-            int ans = 1;
-            for (int i = 0; ; i++) {
+            int ls = s - l;
+            int rs = r - s;
+            if (ls < rs) System.out.println(ls * 2 + 1);
+            else System.out.println(2 * rs);
 
-                if (s == l || s == r) break;
-
-                if (i % 2 == 0) s += idx++;
-                else s -= idx++;
-
-                ans++;
-            }
-
-            System.out.println(ans);
         }
 
     }
