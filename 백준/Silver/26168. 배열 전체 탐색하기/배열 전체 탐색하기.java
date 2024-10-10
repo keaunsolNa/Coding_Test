@@ -1,76 +1,94 @@
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.Arrays;
-import java.util.StringTokenizer;
 
 public class Main {
-    
-	public static void main(String[] args) throws NumberFormatException, IOException {
-        
+    public static void main(String[] args) throws IOException {
+        new Main().solution();
+    }
+
+    static long[] arrayA = null;
+
+    private void solution() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        int n = Integer.parseInt(st.nextToken());
-        int m = Integer.parseInt(st.nextToken());
-        long [] arr = new long[n];
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        st = new StringTokenizer(br.readLine());
-        for(int i = 0; i < n; i++) arr[i] = Long.parseLong(st.nextToken());
+        String[] input = br.readLine().split(" ");
+        int n = Integer.parseInt(input[0]);
+        int m = Integer.parseInt(input[1]);
 
-        Arrays.sort(arr);
-        StringBuilder sb = new StringBuilder();
+        arrayA = new long[n];
 
-        for(int i = 0 ; i < m; i++) {
-
-            st = new StringTokenizer(br.readLine());
-            int query = Integer.parseInt(st.nextToken());
-
-            int start = 0;
-            int end = n - 1;
-            if(query == 1) {
-
-                long target = Long.parseLong(st.nextToken());
-                while(start <= end && end <= n) {
-
-                    if(arr[end] >= target) end--;
-
-                    else if(arr[start] <= target) start++;
-
-
-                }
-
-                sb.append(n - end - 1);
-
-            } else if(query == 2) {
-
-                long target = Long.parseLong(st.nextToken());
-
-                while(start <= end && end <= n) {
-
-                    if(arr[end] > target) end--;
-
-                    else if(arr[start] <= target) start++;
-
-                }
-
-                sb.append(n - end - 1);
-
-            } else {
-
-                long startTarget = Long.parseLong(st.nextToken());
-                long endTarget = Long.parseLong(st.nextToken());
-
-                int count = 0;
-                for (int q = 0; q < n; q++) if (arr[q] >= startTarget && arr[q] <= endTarget) count++;
-                sb.append(count);
-
-            }
-
-
-            sb.append("\n");
-
+        input = br.readLine().split(" ");
+        for (int i = 0; i < n; i++) {
+            arrayA[i] = Long.parseLong(input[i]);
         }
 
-        System.out.println(sb);
-	}
+        Arrays.sort(arrayA);
+        for (int i = 0; i < m; i++) {
+            input = br.readLine().split(" ");
+            int category = Integer.parseInt(input[0]);
+            long number = Long.parseLong(input[1]);
+
+            int numberCount = 0;
+            if (category == 1) {
+                numberCount = n - lowerBound(number);
+                bw.write(numberCount + "\n");
+
+            } else if (category == 2) {
+                numberCount = n - upperBound(category, number);
+                bw.write(numberCount + "\n");
+            } else if (category == 3) {
+                long number2 = Long.parseLong(input[2]); // j
+
+                numberCount = lowerBound(number);
+                long jCount = upperBound(category, number2);
+                bw.write((jCount - numberCount + 1) + "\n");
+            }
+        }
+
+        bw.flush();
+        bw.close();
+        br.close();
+    }
+
+    private int lowerBound(long number2) {
+        int start = 0;
+        int end = arrayA.length;
+
+        while (start < end) {
+            int mid = (start + end) / 2;
+
+            if (number2 <= arrayA[mid]) {
+                end = mid;
+            } else {
+                start = mid + 1;
+            }
+        }
+        return start;
+    }
+
+    private int upperBound(int category, long number) {
+        int start = 0;
+        int end = arrayA.length;
+
+        while (start < end) {
+            int mid = (start + end) / 2;
+
+            if (arrayA[mid] <= number) {
+                start = mid + 1;
+            } else {
+                end = mid;
+            }
+        }
+
+        if (category == 2) {
+            return start;
+        } else {
+            return start - 1;
+        }
+    }
 }
