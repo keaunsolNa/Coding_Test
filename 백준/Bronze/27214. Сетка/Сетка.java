@@ -13,13 +13,14 @@ public class Main {
         int H = Integer.parseInt(br.readLine());
         int T = Integer.parseInt(br.readLine());
 
+        String calc = "*".repeat(Math.max(0, W * K + (W + 1) * T));
 
         for (int h = 0; h < H; h++)
         {
 
             for (int t = 0; t < T; t++)
             {
-                sb.append("*".repeat(Math.max(0, W * K + (W + 1) * T)));
+                sb.append(calc);
                 sb.append("\n");
             }
 
@@ -39,7 +40,7 @@ public class Main {
 
         for (int t = 0; t < T; t++)
         {
-            sb.append("*".repeat(Math.max(0, W * K + (W + 1) * T)));
+            sb.append(calc);
             if (t < T - 1) sb.append("\n");
         }
 
