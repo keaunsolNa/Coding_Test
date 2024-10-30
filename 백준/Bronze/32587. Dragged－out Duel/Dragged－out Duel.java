@@ -27,14 +27,11 @@ public class Main {
     private static int game (char a, char b)
     {
 
-        int result = 0;
-        switch (a)
-        {
-            case 'R' : result = b == 'P' ? -1 : b == 'S' ? 1 : 0; break;
-            case 'P' : result = b == 'S' ? -1 : b == 'R' ? 1 : 0; break;
-            case 'S' : result = b == 'R' ? -1 : b == 'P' ? 1 : 0; break;
-        }
-
-        return result;
+        return switch (a) {
+            case 'R' -> b == 'P' ? -1 : b == 'S' ? 1 : 0;
+            case 'P' -> b == 'S' ? -1 : b == 'R' ? 1 : 0;
+            case 'S' -> b == 'R' ? -1 : b == 'P' ? 1 : 0;
+            default -> 0;
+        };
     }
 }
