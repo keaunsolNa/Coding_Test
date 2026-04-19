@@ -1,71 +1,61 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    private static StringTokenizer st;
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+	public static void main(String[] args) throws IOException {
 
-        int n = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
-        int a = Integer.parseInt(st.nextToken());
+		int[] nums1 = new int[] {55,30,5,4,2};
+		int[] nums2 = new int[] {100,20,10,10,5};
+		int max = 0;
 
-        int[] arr = new int[n];
-        st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < n; i++) arr[i] = Integer.parseInt(st.nextToken());
+		for (int i = 0; i < nums2.length; i++) {
 
-        Arrays.sort(arr);
+			int left = 0;
+			int right = nums2.length - 1;
 
-        System.out.println(solve(a, b, n, arr));
+			while (left <= right) {
+
+				int mid = (left + right) / 2;
+
+				if (nums2[mid] >= nums1[i]) {
+					max = Math.max(mid - i, max);
+					left = mid + 1;
+				}
+
+				else if (nums2[mid] < nums1[i]) {
+					right = mid - 1;
+				}
+				else {
+					left = mid + 1;
+				}
+			}
+		}
+
+		bw.write(String.valueOf(max));
+		bw.flush();
+        bw.close();
+        br.close();
+
     }
 
-    private static int solve(int a, int b, int n, int[] arr) {
+    private static boolean solve(int n) throws IOException {
 
-        int left = 0;
-        int right = 0;
-        boolean flag = true;
+		while (n > 2)
+		{
+			System.out.printf("n = %d\n", n);
+			if (n == 2) return true;
+			if (n % 2 != 0) return false;
+			n /= 2;
+		}
 
-        for (int i = 0; i < a; i++) {
-
-            b -= arr[i] / 2;
-            right = i + 1;
-
-            if (b < 0) {
-                flag = false;
-                return i;
-            }
-        }
-
-        if (flag) {
-
-            while (right < n) {
-
-                if (right - left < a) {
-
-                    b -= arr[right] / 2;
-                    if (b < 0) break;
-                    right++;
-                }
-
-                else {
-
-                    if (a > 0) b -= arr[left++] / 2;
-
-                    else {
-
-                        b -= arr[right];
-                        if (b < 0) break;
-                        right++;
-                    }
-                }
-            }
-
-            return right;
-        }
-
-        return right;
+		return n == 1 || n == 2;
     }
+
+
 
 }

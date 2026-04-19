@@ -1,0 +1,17 @@
+---
+id: 2969
+slug: minimum-number-of-coins-for-fruits-ii
+title: Minimum Number of Coins for Fruits II
+difficulty: Hard
+tags: Array, Dynamic Programming, Queue, Heap (Priority Queue), Monotonic Queue
+date: 2026-04-19
+lang: java
+---
+
+# 2969. Minimum Number of Coins for Fruits II
+
+**Difficulty:** Hard | **Tags:** Array, Dynamic Programming, Queue, Heap (Priority Queue), Monotonic Queue
+
+## Description
+
+null

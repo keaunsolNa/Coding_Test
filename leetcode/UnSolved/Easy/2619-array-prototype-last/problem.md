@@ -1,0 +1,44 @@
+---
+id: 2619
+slug: array-prototype-last
+title: Array Prototype Last
+difficulty: Easy
+tags: 
+date: 2026-04-19
+lang: java
+---
+
+# 2619. Array Prototype Last
+
+**Difficulty:** Easy | **Tags:** 
+
+## Description
+
+Write code that enhances all arrays such that you can call the `array.last()` method on any array and it will return the last element. If there are no elements in the array, it should return `-1`.
+
+ You may assume the array is the output of `JSON.parse`.
+
+ 
+
+ **Example 1:**
+
+ ```
+Input: nums = [null, {}, 3]
+Output: 3
+Explanation: Calling nums.last() should return the last element: 3.
+```
+
+ **Example 2:**
+
+ ```
+Input: nums = []
+Output: -1
+Explanation: Because there are no elements, return -1.
+```
+
+ 
+
+ **Constraints:**
+
+ - `arr` is a valid JSON array
+- `0 <= arr.length <= 1000`
