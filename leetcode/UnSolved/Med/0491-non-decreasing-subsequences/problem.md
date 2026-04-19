@@ -1,0 +1,40 @@
+---
+id: 491
+slug: non-decreasing-subsequences
+title: Non-decreasing Subsequences
+difficulty: Medium
+tags: Array, Hash Table, Backtracking, Bit Manipulation
+date: 2026-04-20
+lang: java
+---
+
+# 491. Non-decreasing Subsequences
+
+**Difficulty:** Medium | **Tags:** Array, Hash Table, Backtracking, Bit Manipulation
+
+## Description
+
+Given an integer array `nums`, return _all the different possible non-decreasing subsequences of the given array with at least two elements_. You may return the answer in **any order**.
+
+ 
+
+ **Example 1:**
+
+ ```
+Input: nums = [4,6,7,7]
+Output: [[4,6],[4,6,7],[4,6,7,7],[4,7],[4,7,7],[6,7],[6,7,7],[7,7]]
+```
+
+ **Example 2:**
+
+ ```
+Input: nums = [4,4,3,2,1]
+Output: [[4,4]]
+```
+
+ 
+
+ **Constraints:**
+
+ - `1 <= nums.length <= 15`
+- `-100 <= nums[i] <= 100`
