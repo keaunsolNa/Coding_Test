@@ -1,0 +1,17 @@
+---
+id: 3089
+slug: find-bursty-behavior
+title: Find Bursty Behavior
+difficulty: Medium
+tags: Database
+date: 2026-04-20
+lang: java
+---
+
+# 3089. Find Bursty Behavior
+
+**Difficulty:** Medium | **Tags:** Database
+
+## Description
+
+null

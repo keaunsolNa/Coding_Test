@@ -1,0 +1,43 @@
+---
+id: 870
+slug: advantage-shuffle
+title: Advantage Shuffle
+difficulty: Medium
+tags: Array, Two Pointers, Greedy, Sorting
+date: 2026-04-20
+lang: java
+---
+
+# 870. Advantage Shuffle
+
+**Difficulty:** Medium | **Tags:** Array, Two Pointers, Greedy, Sorting
+
+## Description
+
+You are given two integer arrays `nums1` and `nums2` both of the same length. The **advantage** of `nums1` with respect to `nums2` is the number of indices `i` for which `nums1[i] > nums2[i]`.
+
+ Return _any permutation of _`nums1`_ that maximizes its **advantage** with respect to _`nums2`.
+
+ 
+
+ **Example 1:**
+
+ ```
+Input: nums1 = [2,7,11,15], nums2 = [1,10,4,11]
+Output: [2,11,7,15]
+```
+
+**Example 2:**
+
+ ```
+Input: nums1 = [12,24,8,32], nums2 = [13,25,32,11]
+Output: [24,32,8,12]
+```
+
+ 
+
+ **Constraints:**
+
+ - `1 <= nums1.length <= 105`
+- `nums2.length == nums1.length`
+- `0 <= nums1[i], nums2[i] <= 109`
