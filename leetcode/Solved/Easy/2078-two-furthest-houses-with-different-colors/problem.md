@@ -1,10 +1,11 @@
 ---
 id: 2078
+internal_id: 2199
 slug: two-furthest-houses-with-different-colors
 title: Two Furthest Houses With Different Colors
 difficulty: Easy
 tags: Array, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

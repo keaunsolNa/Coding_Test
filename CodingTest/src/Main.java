@@ -9,30 +9,27 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 
-		int[] nums1 = new int[] {55,30,5,4,2};
-		int[] nums2 = new int[] {100,20,10,10,5};
+		Map<Integer, Integer> map = new HashMap<>();
+
+		int[] colors = {1,8,3,8,3};
+
+
+		for (int i = 0; i < colors.length; i++) {
+
+			int target = colors[i];
+			if (!map.containsKey(target)) map.put(target, i);
+		}
+
+		System.out.println(map);
 		int max = 0;
-
-		for (int i = 0; i < nums2.length; i++) {
-
-			int left = 0;
-			int right = nums2.length - 1;
-
-			while (left <= right) {
-
-				int mid = (left + right) / 2;
-
-				if (nums2[mid] >= nums1[i]) {
-					max = Math.max(mid - i, max);
-					left = mid + 1;
-				}
-
-				else if (nums2[mid] < nums1[i]) {
-					right = mid - 1;
-				}
-				else {
-					left = mid + 1;
-				}
+		for (int i : map.keySet())
+		{
+			int dis = 0;
+			for (int j : map.keySet())
+			{
+				System.out.println(i + " " + j);
+				if (i != j) dis = map.get(j) - map.get(i);
+				max = Math.max(max, dis);
 			}
 		}
 
