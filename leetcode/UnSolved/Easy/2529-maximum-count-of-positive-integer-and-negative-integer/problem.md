@@ -1,10 +1,11 @@
 ---
 id: 2529
+internal_id: 2614
 slug: maximum-count-of-positive-integer-and-negative-integer
 title: Maximum Count of Positive Integer and Negative Integer
 difficulty: Easy
 tags: Array, Binary Search, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

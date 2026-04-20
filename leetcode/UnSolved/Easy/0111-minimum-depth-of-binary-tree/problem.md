@@ -1,10 +1,11 @@
 ---
 id: 111
+internal_id: 111
 slug: minimum-depth-of-binary-tree
 title: Minimum Depth of Binary Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

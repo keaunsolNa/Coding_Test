@@ -1,10 +1,11 @@
 ---
 id: 1694
+internal_id: 1812
 slug: reformat-phone-number
 title: Reformat Phone Number
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

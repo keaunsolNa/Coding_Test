@@ -1,10 +1,11 @@
 ---
 id: 2867
+internal_id: 3112
 slug: count-valid-paths-in-a-tree
 title: Count Valid Paths in a Tree
 difficulty: Hard
 tags: Math, Dynamic Programming, Tree, Depth-First Search, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

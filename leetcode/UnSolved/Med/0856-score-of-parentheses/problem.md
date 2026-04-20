@@ -1,5 +1,6 @@
 ---
 id: 856
+internal_id: 886
 slug: score-of-parentheses
 title: Score of Parentheses
 difficulty: Medium

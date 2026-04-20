@@ -1,5 +1,6 @@
 ---
 id: 1524
+internal_id: 1631
 slug: number-of-sub-arrays-with-odd-sum
 title: Number of Sub-arrays With Odd Sum
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 113
+internal_id: 113
 slug: path-sum-ii
 title: Path Sum II
 difficulty: Medium

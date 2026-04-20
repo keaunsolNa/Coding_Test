@@ -1,5 +1,6 @@
 ---
 id: 2310
+internal_id: 1334
 slug: sum-of-numbers-with-units-digit-k
 title: Sum of Numbers With Units Digit K
 difficulty: Medium

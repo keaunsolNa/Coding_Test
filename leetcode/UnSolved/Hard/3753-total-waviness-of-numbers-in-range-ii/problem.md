@@ -1,10 +1,11 @@
 ---
 id: 3753
+internal_id: 4128
 slug: total-waviness-of-numbers-in-range-ii
 title: Total Waviness of Numbers in Range II
 difficulty: Hard
 tags: Math, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3004
+internal_id: 3304
 slug: maximum-subtree-of-the-same-color
 title: Maximum Subtree of the Same Color
 difficulty: Medium

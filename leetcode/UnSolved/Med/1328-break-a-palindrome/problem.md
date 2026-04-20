@@ -1,5 +1,6 @@
 ---
 id: 1328
+internal_id: 1252
 slug: break-a-palindrome
 title: Break a Palindrome
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3443
+internal_id: 3754
 slug: maximum-manhattan-distance-after-k-changes
 title: Maximum Manhattan Distance After K Changes
 difficulty: Medium

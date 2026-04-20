@@ -1,5 +1,6 @@
 ---
 id: 314
+internal_id: 314
 slug: binary-tree-vertical-order-traversal
 title: Binary Tree Vertical Order Traversal
 difficulty: Medium

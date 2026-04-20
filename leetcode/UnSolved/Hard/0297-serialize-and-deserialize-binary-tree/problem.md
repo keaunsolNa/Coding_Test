@@ -1,10 +1,11 @@
 ---
 id: 297
+internal_id: 297
 slug: serialize-and-deserialize-binary-tree
 title: Serialize and Deserialize Binary Tree
 difficulty: Hard
 tags: String, Tree, Depth-First Search, Breadth-First Search, Design, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

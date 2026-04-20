@@ -1,11 +1,12 @@
 ---
 id: 1070
+internal_id: 1155
 slug: product-sales-analysis-iii
 title: Product Sales Analysis III
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1070. Product Sales Analysis III

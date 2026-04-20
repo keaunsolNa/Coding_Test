@@ -1,10 +1,11 @@
 ---
 id: 2876
+internal_id: 3140
 slug: count-visited-nodes-in-a-directed-graph
 title: Count Visited Nodes in a Directed Graph
 difficulty: Hard
 tags: Dynamic Programming, Depth-First Search, Graph Theory, Topological Sort, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

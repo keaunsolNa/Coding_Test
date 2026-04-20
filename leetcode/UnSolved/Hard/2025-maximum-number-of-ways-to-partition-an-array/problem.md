@@ -1,10 +1,11 @@
 ---
 id: 2025
+internal_id: 2135
 slug: maximum-number-of-ways-to-partition-an-array
 title: Maximum Number of Ways to Partition an Array
 difficulty: Hard
 tags: Array, Hash Table, Counting, Enumeration, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

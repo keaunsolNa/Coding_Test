@@ -1,5 +1,6 @@
 ---
 id: 253
+internal_id: 253
 slug: meeting-rooms-ii
 title: Meeting Rooms II
 difficulty: Medium

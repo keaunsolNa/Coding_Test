@@ -1,10 +1,11 @@
 ---
 id: 2515
+internal_id: 2598
 slug: shortest-distance-to-target-string-in-a-circular-array
 title: Shortest Distance to Target String in a Circular Array
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

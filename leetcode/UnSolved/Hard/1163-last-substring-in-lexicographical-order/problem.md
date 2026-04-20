@@ -1,10 +1,11 @@
 ---
 id: 1163
+internal_id: 1133
 slug: last-substring-in-lexicographical-order
 title: Last Substring in Lexicographical Order
 difficulty: Hard
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

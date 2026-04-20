@@ -1,10 +1,11 @@
 ---
 id: 913
+internal_id: 949
 slug: cat-and-mouse
 title: Cat and Mouse
 difficulty: Hard
 tags: Math, Dynamic Programming, Graph Theory, Topological Sort, Memoization, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

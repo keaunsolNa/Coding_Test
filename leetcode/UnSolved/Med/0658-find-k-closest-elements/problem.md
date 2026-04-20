@@ -1,5 +1,6 @@
 ---
 id: 658
+internal_id: 658
 slug: find-k-closest-elements
 title: Find K Closest Elements
 difficulty: Medium

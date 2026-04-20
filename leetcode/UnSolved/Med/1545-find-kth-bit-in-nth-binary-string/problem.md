@@ -1,5 +1,6 @@
 ---
 id: 1545
+internal_id: 1667
 slug: find-kth-bit-in-nth-binary-string
 title: Find Kth Bit in Nth Binary String
 difficulty: Medium

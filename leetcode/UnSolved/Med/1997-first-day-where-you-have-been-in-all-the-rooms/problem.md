@@ -1,5 +1,6 @@
 ---
 id: 1997
+internal_id: 2124
 slug: first-day-where-you-have-been-in-all-the-rooms
 title: First Day Where You Have Been in All the Rooms
 difficulty: Medium

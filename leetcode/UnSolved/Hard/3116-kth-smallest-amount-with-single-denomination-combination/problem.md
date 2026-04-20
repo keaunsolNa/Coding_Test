@@ -1,10 +1,11 @@
 ---
 id: 3116
+internal_id: 3375
 slug: kth-smallest-amount-with-single-denomination-combination
 title: Kth Smallest Amount With Single Denomination Combination
 difficulty: Hard
 tags: Array, Math, Binary Search, Bit Manipulation, Combinatorics, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

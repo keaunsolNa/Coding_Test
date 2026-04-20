@@ -1,10 +1,11 @@
 ---
 id: 1002
+internal_id: 1044
 slug: find-common-characters
 title: Find Common Characters
 difficulty: Easy
 tags: Array, Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

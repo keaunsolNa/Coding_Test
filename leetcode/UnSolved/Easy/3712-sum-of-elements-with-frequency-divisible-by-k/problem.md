@@ -1,10 +1,11 @@
 ---
 id: 3712
+internal_id: 4068
 slug: sum-of-elements-with-frequency-divisible-by-k
 title: Sum of Elements With Frequency Divisible by K
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

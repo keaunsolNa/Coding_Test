@@ -1,5 +1,6 @@
 ---
 id: 3084
+internal_id: 3337
 slug: count-substrings-starting-and-ending-with-given-character
 title: Count Substrings Starting and Ending with Given Character
 difficulty: Medium

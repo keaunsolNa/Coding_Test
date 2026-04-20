@@ -1,5 +1,6 @@
 ---
 id: 3567
+internal_id: 3884
 slug: minimum-absolute-difference-in-sliding-submatrix
 title: Minimum Absolute Difference in Sliding Submatrix
 difficulty: Medium

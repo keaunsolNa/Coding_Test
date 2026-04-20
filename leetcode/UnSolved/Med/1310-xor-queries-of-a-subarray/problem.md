@@ -1,5 +1,6 @@
 ---
 id: 1310
+internal_id: 1435
 slug: xor-queries-of-a-subarray
 title: XOR Queries of a Subarray
 difficulty: Medium

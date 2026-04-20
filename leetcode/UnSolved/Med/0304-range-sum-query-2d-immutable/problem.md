@@ -1,5 +1,6 @@
 ---
 id: 304
+internal_id: 304
 slug: range-sum-query-2d-immutable
 title: Range Sum Query 2D - Immutable
 difficulty: Medium

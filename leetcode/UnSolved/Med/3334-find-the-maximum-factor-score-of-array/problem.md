@@ -1,5 +1,6 @@
 ---
 id: 3334
+internal_id: 3593
 slug: find-the-maximum-factor-score-of-array
 title: Find the Maximum Factor Score of Array
 difficulty: Medium

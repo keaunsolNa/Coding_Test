@@ -1,5 +1,6 @@
 ---
 id: 2237
+internal_id: 2385
 slug: count-positions-on-street-with-required-brightness
 title: Count Positions on Street With Required Brightness
 difficulty: Medium

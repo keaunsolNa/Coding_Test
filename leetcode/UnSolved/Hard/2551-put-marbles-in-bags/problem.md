@@ -1,10 +1,11 @@
 ---
 id: 2551
+internal_id: 2681
 slug: put-marbles-in-bags
 title: Put Marbles in Bags
 difficulty: Hard
 tags: Array, Greedy, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

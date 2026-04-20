@@ -1,5 +1,6 @@
 ---
 id: 3143
+internal_id: 3419
 slug: maximum-points-inside-the-square
 title: Maximum Points Inside the Square
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1716
+internal_id: 1817
 slug: calculate-money-in-leetcode-bank
 title: Calculate Money in Leetcode Bank
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

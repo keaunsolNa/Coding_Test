@@ -1,10 +1,11 @@
 ---
 id: 2276
+internal_id: 2357
 slug: count-integers-in-intervals
 title: Count Integers in Intervals
 difficulty: Hard
 tags: Design, Segment Tree, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

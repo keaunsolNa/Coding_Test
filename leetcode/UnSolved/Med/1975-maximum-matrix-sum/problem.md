@@ -1,5 +1,6 @@
 ---
 id: 1975
+internal_id: 2089
 slug: maximum-matrix-sum
 title: Maximum Matrix Sum
 difficulty: Medium

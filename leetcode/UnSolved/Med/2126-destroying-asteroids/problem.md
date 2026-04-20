@@ -1,5 +1,6 @@
 ---
 id: 2126
+internal_id: 2245
 slug: destroying-asteroids
 title: Destroying Asteroids
 difficulty: Medium

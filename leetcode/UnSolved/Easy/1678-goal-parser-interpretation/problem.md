@@ -1,10 +1,11 @@
 ---
 id: 1678
+internal_id: 1797
 slug: goal-parser-interpretation
 title: Goal Parser Interpretation
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3618
+internal_id: 3936
 slug: split-array-by-prime-indices
 title: Split Array by Prime Indices
 difficulty: Medium

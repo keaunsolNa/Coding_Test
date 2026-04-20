@@ -1,5 +1,6 @@
 ---
 id: 1733
+internal_id: 1834
 slug: minimum-number-of-people-to-teach
 title: Minimum Number of People to Teach
 difficulty: Medium

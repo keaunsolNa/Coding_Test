@@ -1,5 +1,6 @@
 ---
 id: 1680
+internal_id: 1800
 slug: concatenation-of-consecutive-binary-numbers
 title: Concatenation of Consecutive Binary Numbers
 difficulty: Medium

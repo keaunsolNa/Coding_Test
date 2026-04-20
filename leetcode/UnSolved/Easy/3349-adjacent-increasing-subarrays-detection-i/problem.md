@@ -1,10 +1,11 @@
 ---
 id: 3349
+internal_id: 3612
 slug: adjacent-increasing-subarrays-detection-i
 title: Adjacent Increasing Subarrays Detection I
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1572
+internal_id: 1677
 slug: matrix-diagonal-sum
 title: Matrix Diagonal Sum
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

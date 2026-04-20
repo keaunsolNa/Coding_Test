@@ -1,5 +1,6 @@
 ---
 id: 3523
+internal_id: 3738
 slug: make-array-non-decreasing
 title: Make Array Non-decreasing
 difficulty: Medium

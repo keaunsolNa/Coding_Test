@@ -1,10 +1,11 @@
 ---
 id: 2677
+internal_id: 2798
 slug: chunk-array
 title: Chunk Array
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

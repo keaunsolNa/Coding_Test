@@ -1,10 +1,11 @@
 ---
 id: 2209
+internal_id: 2311
 slug: minimum-white-tiles-after-covering-with-carpets
 title: Minimum White Tiles After Covering With Carpets
 difficulty: Hard
 tags: String, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

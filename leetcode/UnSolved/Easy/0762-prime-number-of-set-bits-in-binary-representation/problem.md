@@ -1,10 +1,11 @@
 ---
 id: 762
+internal_id: 767
 slug: prime-number-of-set-bits-in-binary-representation
 title: Prime Number of Set Bits in Binary Representation
 difficulty: Easy
 tags: Math, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

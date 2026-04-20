@@ -1,10 +1,11 @@
 ---
 id: 3803
+internal_id: 4186
 slug: count-residue-prefixes
 title: Count Residue Prefixes
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

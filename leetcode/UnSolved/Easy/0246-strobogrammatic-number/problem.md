@@ -1,10 +1,11 @@
 ---
 id: 246
+internal_id: 246
 slug: strobogrammatic-number
 title: Strobogrammatic Number
 difficulty: Easy
 tags: Hash Table, Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

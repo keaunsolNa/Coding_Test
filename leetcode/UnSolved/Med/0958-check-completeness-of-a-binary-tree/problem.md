@@ -1,5 +1,6 @@
 ---
 id: 958
+internal_id: 998
 slug: check-completeness-of-a-binary-tree
 title: Check Completeness of a Binary Tree
 difficulty: Medium

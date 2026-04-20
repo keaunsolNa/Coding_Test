@@ -1,5 +1,6 @@
 ---
 id: 735
+internal_id: 735
 slug: asteroid-collision
 title: Asteroid Collision
 difficulty: Medium

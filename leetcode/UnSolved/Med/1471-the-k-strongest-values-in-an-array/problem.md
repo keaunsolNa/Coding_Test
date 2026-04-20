@@ -1,5 +1,6 @@
 ---
 id: 1471
+internal_id: 1581
 slug: the-k-strongest-values-in-an-array
 title: The k Strongest Values in an Array
 difficulty: Medium

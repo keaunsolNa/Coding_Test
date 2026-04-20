@@ -1,10 +1,11 @@
 ---
 id: 2725
+internal_id: 2862
 slug: interval-cancellation
 title: Interval Cancellation
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

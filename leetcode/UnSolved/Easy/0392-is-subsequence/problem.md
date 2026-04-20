@@ -1,10 +1,11 @@
 ---
 id: 392
+internal_id: 392
 slug: is-subsequence
 title: Is Subsequence
 difficulty: Easy
 tags: Two Pointers, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

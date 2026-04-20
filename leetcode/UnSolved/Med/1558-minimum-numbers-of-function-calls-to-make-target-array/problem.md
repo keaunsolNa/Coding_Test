@@ -1,5 +1,6 @@
 ---
 id: 1558
+internal_id: 1662
 slug: minimum-numbers-of-function-calls-to-make-target-array
 title: Minimum Numbers of Function Calls to Make Target Array
 difficulty: Medium

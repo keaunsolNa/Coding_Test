@@ -1,10 +1,11 @@
 ---
 id: 3470
+internal_id: 3783
 slug: permutations-iv
 title: Permutations IV
 difficulty: Hard
 tags: Array, Math, Combinatorics, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

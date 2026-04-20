@@ -1,10 +1,11 @@
 ---
 id: 2463
+internal_id: 2554
 slug: minimum-total-distance-traveled
 title: Minimum Total Distance Traveled
 difficulty: Hard
 tags: Array, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

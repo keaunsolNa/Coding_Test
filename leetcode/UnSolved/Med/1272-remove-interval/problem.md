@@ -1,5 +1,6 @@
 ---
 id: 1272
+internal_id: 1200
 slug: remove-interval
 title: Remove Interval
 difficulty: Medium

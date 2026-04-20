@@ -1,10 +1,11 @@
 ---
 id: 895
+internal_id: 931
 slug: maximum-frequency-stack
 title: Maximum Frequency Stack
 difficulty: Hard
 tags: Hash Table, Stack, Design, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

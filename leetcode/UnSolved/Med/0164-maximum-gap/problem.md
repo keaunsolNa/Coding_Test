@@ -1,5 +1,6 @@
 ---
 id: 164
+internal_id: 164
 slug: maximum-gap
 title: Maximum Gap
 difficulty: Medium

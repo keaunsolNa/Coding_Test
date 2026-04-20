@@ -1,10 +1,11 @@
 ---
 id: 2540
+internal_id: 2634
 slug: minimum-common-value
 title: Minimum Common Value
 difficulty: Easy
 tags: Array, Hash Table, Two Pointers, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

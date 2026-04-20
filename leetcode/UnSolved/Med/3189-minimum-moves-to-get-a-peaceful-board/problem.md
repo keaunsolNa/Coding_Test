@@ -1,5 +1,6 @@
 ---
 id: 3189
+internal_id: 3504
 slug: minimum-moves-to-get-a-peaceful-board
 title: Minimum Moves to Get a Peaceful Board
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3801
+internal_id: 4144
 slug: minimum-cost-to-merge-sorted-lists
 title: Minimum Cost to Merge Sorted Lists
 difficulty: Hard
 tags: Array, Two Pointers, Binary Search, Dynamic Programming, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

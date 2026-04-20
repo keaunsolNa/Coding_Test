@@ -1,10 +1,11 @@
 ---
 id: 2751
+internal_id: 2846
 slug: robot-collisions
 title: Robot Collisions
 difficulty: Hard
 tags: Array, Stack, Sorting, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2413
+internal_id: 2491
 slug: smallest-even-multiple
 title: Smallest Even Multiple
 difficulty: Easy
 tags: Math, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

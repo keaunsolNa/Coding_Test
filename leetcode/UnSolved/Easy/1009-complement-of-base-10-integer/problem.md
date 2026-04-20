@@ -1,10 +1,11 @@
 ---
 id: 1009
+internal_id: 1054
 slug: complement-of-base-10-integer
 title: Complement of Base 10 Integer
 difficulty: Easy
 tags: Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

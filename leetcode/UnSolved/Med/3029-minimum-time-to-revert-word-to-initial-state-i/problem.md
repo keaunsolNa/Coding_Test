@@ -1,5 +1,6 @@
 ---
 id: 3029
+internal_id: 3297
 slug: minimum-time-to-revert-word-to-initial-state-i
 title: Minimum Time to Revert Word to Initial State I
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 385
+internal_id: 385
 slug: mini-parser
 title: Mini Parser
 difficulty: Medium

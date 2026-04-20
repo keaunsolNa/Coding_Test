@@ -1,5 +1,6 @@
 ---
 id: 623
+internal_id: 623
 slug: add-one-row-to-tree
 title: Add One Row to Tree
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1046
+internal_id: 1127
 slug: last-stone-weight
 title: Last Stone Weight
 difficulty: Easy
 tags: Array, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

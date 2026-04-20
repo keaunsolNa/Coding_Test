@@ -1,10 +1,11 @@
 ---
 id: 1408
+internal_id: 1524
 slug: string-matching-in-an-array
 title: String Matching in an Array
 difficulty: Easy
 tags: Array, String, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

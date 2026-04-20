@@ -1,5 +1,6 @@
 ---
 id: 72
+internal_id: 72
 slug: edit-distance
 title: Edit Distance
 difficulty: Medium

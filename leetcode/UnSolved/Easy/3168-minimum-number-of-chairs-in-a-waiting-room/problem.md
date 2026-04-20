@@ -1,10 +1,11 @@
 ---
 id: 3168
+internal_id: 3426
 slug: minimum-number-of-chairs-in-a-waiting-room
 title: Minimum Number of Chairs in a Waiting Room
 difficulty: Easy
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

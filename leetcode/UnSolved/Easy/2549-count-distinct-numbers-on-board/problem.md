@@ -1,10 +1,11 @@
 ---
 id: 2549
+internal_id: 2679
 slug: count-distinct-numbers-on-board
 title: Count Distinct Numbers on Board
 difficulty: Easy
 tags: Array, Hash Table, Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

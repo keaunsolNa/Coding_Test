@@ -1,5 +1,6 @@
 ---
 id: 3837
+internal_id: 4228
 slug: delayed-count-of-equal-elements
 title: Delayed Count of Equal Elements
 difficulty: Medium

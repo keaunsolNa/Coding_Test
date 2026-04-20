@@ -1,5 +1,6 @@
 ---
 id: 2285
+internal_id: 2379
 slug: maximum-total-importance-of-roads
 title: Maximum Total Importance of Roads
 difficulty: Medium

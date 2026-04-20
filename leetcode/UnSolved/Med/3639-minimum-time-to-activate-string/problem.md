@@ -1,5 +1,6 @@
 ---
 id: 3639
+internal_id: 3944
 slug: minimum-time-to-activate-string
 title: Minimum Time to Activate String
 difficulty: Medium

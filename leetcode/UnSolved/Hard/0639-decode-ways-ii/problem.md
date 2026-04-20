@@ -1,10 +1,11 @@
 ---
 id: 639
+internal_id: 639
 slug: decode-ways-ii
 title: Decode Ways II
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

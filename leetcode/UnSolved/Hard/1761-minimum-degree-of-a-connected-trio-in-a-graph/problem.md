@@ -1,10 +1,11 @@
 ---
 id: 1761
+internal_id: 1887
 slug: minimum-degree-of-a-connected-trio-in-a-graph
 title: Minimum Degree of a Connected Trio in a Graph
 difficulty: Hard
 tags: Graph Theory, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

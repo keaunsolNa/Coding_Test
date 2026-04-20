@@ -1,5 +1,6 @@
 ---
 id: 3685
+internal_id: 3873
 slug: subsequence-sum-after-capping-elements
 title: Subsequence Sum After Capping Elements
 difficulty: Medium

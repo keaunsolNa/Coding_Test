@@ -1,5 +1,6 @@
 ---
 id: 2548
+internal_id: 2693
 slug: maximum-price-to-fill-a-bag
 title: Maximum Price to Fill a Bag
 difficulty: Medium

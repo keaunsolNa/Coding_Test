@@ -1,5 +1,6 @@
 ---
 id: 2013
+internal_id: 2139
 slug: detect-squares
 title: Detect Squares
 difficulty: Medium

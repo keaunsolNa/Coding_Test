@@ -1,10 +1,11 @@
 ---
 id: 3533
+internal_id: 3841
 slug: concatenated-divisibility
 title: Concatenated Divisibility
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

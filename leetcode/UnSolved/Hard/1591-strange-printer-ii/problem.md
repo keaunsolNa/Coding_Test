@@ -1,10 +1,11 @@
 ---
 id: 1591
+internal_id: 1696
 slug: strange-printer-ii
 title: Strange Printer II
 difficulty: Hard
 tags: Array, Graph Theory, Topological Sort, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

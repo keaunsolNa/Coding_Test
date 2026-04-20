@@ -1,5 +1,6 @@
 ---
 id: 3021
+internal_id: 3279
 slug: alice-and-bob-playing-flower-game
 title: Alice and Bob Playing Flower Game
 difficulty: Medium

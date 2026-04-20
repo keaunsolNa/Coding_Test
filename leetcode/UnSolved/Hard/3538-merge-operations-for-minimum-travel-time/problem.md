@@ -1,10 +1,11 @@
 ---
 id: 3538
+internal_id: 3833
 slug: merge-operations-for-minimum-travel-time
 title: Merge Operations for Minimum Travel Time
 difficulty: Hard
 tags: Array, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2885
+internal_id: 3068
 slug: rename-columns
 title: Rename Columns
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

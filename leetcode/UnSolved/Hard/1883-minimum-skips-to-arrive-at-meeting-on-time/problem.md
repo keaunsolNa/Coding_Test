@@ -1,10 +1,11 @@
 ---
 id: 1883
+internal_id: 2013
 slug: minimum-skips-to-arrive-at-meeting-on-time
 title: Minimum Skips to Arrive at Meeting On Time
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

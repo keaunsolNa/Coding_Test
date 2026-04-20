@@ -1,5 +1,6 @@
 ---
 id: 3694
+internal_id: 4021
 slug: distinct-points-reachable-after-substring-removal
 title: Distinct Points Reachable After Substring Removal
 difficulty: Medium

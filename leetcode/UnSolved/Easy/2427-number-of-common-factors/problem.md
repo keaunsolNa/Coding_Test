@@ -1,10 +1,11 @@
 ---
 id: 2427
+internal_id: 2507
 slug: number-of-common-factors
 title: Number of Common Factors
 difficulty: Easy
 tags: Math, Enumeration, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

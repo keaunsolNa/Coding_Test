@@ -1,10 +1,11 @@
 ---
 id: 2509
+internal_id: 2597
 slug: cycle-length-queries-in-a-tree
 title: Cycle Length Queries in a Tree
 difficulty: Hard
 tags: Array, Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3573
+internal_id: 3892
 slug: best-time-to-buy-and-sell-stock-v
 title: Best Time to Buy and Sell Stock V
 difficulty: Medium

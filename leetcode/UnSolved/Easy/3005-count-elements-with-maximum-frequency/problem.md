@@ -1,10 +1,11 @@
 ---
 id: 3005
+internal_id: 3242
 slug: count-elements-with-maximum-frequency
 title: Count Elements With Maximum Frequency
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3078
+internal_id: 3385
 slug: match-alphanumerical-pattern-in-matrix-i
 title: Match Alphanumerical Pattern in Matrix I
 difficulty: Medium

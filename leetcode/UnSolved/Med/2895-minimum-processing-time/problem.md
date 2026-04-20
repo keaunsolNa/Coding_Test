@@ -1,5 +1,6 @@
 ---
 id: 2895
+internal_id: 3151
 slug: minimum-processing-time
 title: Minimum Processing Time
 difficulty: Medium

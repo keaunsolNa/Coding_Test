@@ -1,5 +1,6 @@
 ---
 id: 355
+internal_id: 355
 slug: design-twitter
 title: Design Twitter
 difficulty: Medium

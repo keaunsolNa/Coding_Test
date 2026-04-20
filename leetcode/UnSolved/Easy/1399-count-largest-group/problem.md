@@ -1,10 +1,11 @@
 ---
 id: 1399
+internal_id: 1500
 slug: count-largest-group
 title: Count Largest Group
 difficulty: Easy
 tags: Hash Table, Math, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

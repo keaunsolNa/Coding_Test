@@ -1,10 +1,11 @@
 ---
 id: 112
+internal_id: 112
 slug: path-sum
 title: Path Sum
 difficulty: Easy
 tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

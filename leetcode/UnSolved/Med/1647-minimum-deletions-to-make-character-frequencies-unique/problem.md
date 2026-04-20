@@ -1,5 +1,6 @@
 ---
 id: 1647
+internal_id: 1770
 slug: minimum-deletions-to-make-character-frequencies-unique
 title: Minimum Deletions to Make Character Frequencies Unique
 difficulty: Medium

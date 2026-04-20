@@ -1,5 +1,6 @@
 ---
 id: 2130
+internal_id: 2236
 slug: maximum-twin-sum-of-a-linked-list
 title: Maximum Twin Sum of a Linked List
 difficulty: Medium

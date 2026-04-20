@@ -1,11 +1,12 @@
 ---
 id: 185
+internal_id: 185
 slug: department-top-three-salaries
 title: Department Top Three Salaries
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 185. Department Top Three Salaries

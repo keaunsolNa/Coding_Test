@@ -1,10 +1,11 @@
 ---
 id: 1537
+internal_id: 1659
 slug: get-the-maximum-score
 title: Get the Maximum Score
 difficulty: Hard
 tags: Array, Two Pointers, Dynamic Programming, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

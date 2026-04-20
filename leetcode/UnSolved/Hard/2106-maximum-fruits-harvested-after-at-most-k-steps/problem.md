@@ -1,10 +1,11 @@
 ---
 id: 2106
+internal_id: 2229
 slug: maximum-fruits-harvested-after-at-most-k-steps
 title: Maximum Fruits Harvested After at Most K Steps
 difficulty: Hard
 tags: Array, Binary Search, Sliding Window, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2086
+internal_id: 2191
 slug: minimum-number-of-food-buckets-to-feed-the-hamsters
 title: Minimum Number of Food Buckets to Feed the Hamsters
 difficulty: Medium

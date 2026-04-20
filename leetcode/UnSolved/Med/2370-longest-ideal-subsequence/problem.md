@@ -1,5 +1,6 @@
 ---
 id: 2370
+internal_id: 2444
 slug: longest-ideal-subsequence
 title: Longest Ideal Subsequence
 difficulty: Medium

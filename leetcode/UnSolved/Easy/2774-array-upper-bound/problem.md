@@ -1,10 +1,11 @@
 ---
 id: 2774
+internal_id: 2768
 slug: array-upper-bound
 title: Array Upper Bound
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

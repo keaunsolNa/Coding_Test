@@ -1,10 +1,11 @@
 ---
 id: 3283
+internal_id: 3560
 slug: maximum-number-of-moves-to-kill-all-pawns
 title: Maximum Number of Moves to Kill All Pawns
 difficulty: Hard
 tags: Array, Math, Bit Manipulation, Breadth-First Search, Game Theory, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

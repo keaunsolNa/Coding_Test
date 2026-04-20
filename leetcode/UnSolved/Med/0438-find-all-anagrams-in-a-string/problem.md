@@ -1,5 +1,6 @@
 ---
 id: 438
+internal_id: 438
 slug: find-all-anagrams-in-a-string
 title: Find All Anagrams in a String
 difficulty: Medium

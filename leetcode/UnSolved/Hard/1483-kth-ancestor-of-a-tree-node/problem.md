@@ -1,10 +1,11 @@
 ---
 id: 1483
+internal_id: 1296
 slug: kth-ancestor-of-a-tree-node
 title: Kth Ancestor of a Tree Node
 difficulty: Hard
 tags: Binary Search, Dynamic Programming, Bit Manipulation, Tree, Depth-First Search, Breadth-First Search, Design
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

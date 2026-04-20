@@ -1,10 +1,11 @@
 ---
 id: 3830
+internal_id: 4198
 slug: longest-alternating-subarray-after-removing-at-most-one-element
 title: Longest Alternating Subarray After Removing At Most One Element
 difficulty: Hard
 tags: Array, Dynamic Programming, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

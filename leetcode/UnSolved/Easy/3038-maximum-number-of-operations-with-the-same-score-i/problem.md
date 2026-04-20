@@ -1,10 +1,11 @@
 ---
 id: 3038
+internal_id: 3320
 slug: maximum-number-of-operations-with-the-same-score-i
 title: Maximum Number of Operations With the Same Score I
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

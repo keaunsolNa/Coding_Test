@@ -1,5 +1,6 @@
 ---
 id: 2305
+internal_id: 1418
 slug: fair-distribution-of-cookies
 title: Fair Distribution of Cookies
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2034
+internal_id: 2161
 slug: stock-price-fluctuation
 title: Stock Price Fluctuation 
 difficulty: Medium

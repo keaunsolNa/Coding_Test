@@ -1,10 +1,11 @@
 ---
 id: 1566
+internal_id: 1689
 slug: detect-pattern-of-length-m-repeated-k-or-more-times
 title: Detect Pattern of Length M Repeated K or More Times
 difficulty: Easy
 tags: Array, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

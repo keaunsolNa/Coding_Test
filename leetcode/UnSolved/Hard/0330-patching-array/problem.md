@@ -1,10 +1,11 @@
 ---
 id: 330
+internal_id: 330
 slug: patching-array
 title: Patching Array
 difficulty: Hard
 tags: Array, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

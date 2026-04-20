@@ -1,10 +1,11 @@
 ---
 id: 854
+internal_id: 884
 slug: k-similar-strings
 title: K-Similar Strings
 difficulty: Hard
 tags: Hash Table, String, Breadth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

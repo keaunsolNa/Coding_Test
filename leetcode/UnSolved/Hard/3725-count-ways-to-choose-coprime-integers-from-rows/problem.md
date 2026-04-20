@@ -1,10 +1,11 @@
 ---
 id: 3725
+internal_id: 4069
 slug: count-ways-to-choose-coprime-integers-from-rows
 title: Count Ways to Choose Coprime Integers from Rows
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Matrix, Combinatorics, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

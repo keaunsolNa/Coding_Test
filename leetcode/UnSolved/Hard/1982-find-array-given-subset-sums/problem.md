@@ -1,10 +1,11 @@
 ---
 id: 1982
+internal_id: 2109
 slug: find-array-given-subset-sums
 title: Find Array Given Subset Sums
 difficulty: Hard
 tags: Array, Hash Table, Sorting, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

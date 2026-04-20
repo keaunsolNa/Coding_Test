@@ -1,10 +1,11 @@
 ---
 id: 2485
+internal_id: 2571
 slug: find-the-pivot-integer
 title: Find the Pivot Integer
 difficulty: Easy
 tags: Math, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

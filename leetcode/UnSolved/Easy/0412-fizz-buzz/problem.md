@@ -1,10 +1,11 @@
 ---
 id: 412
+internal_id: 412
 slug: fizz-buzz
 title: Fizz Buzz
 difficulty: Easy
 tags: Math, String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

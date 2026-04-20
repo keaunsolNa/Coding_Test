@@ -1,10 +1,11 @@
 ---
 id: 780
+internal_id: 796
 slug: reaching-points
 title: Reaching Points
 difficulty: Hard
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

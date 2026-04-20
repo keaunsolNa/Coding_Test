@@ -1,5 +1,6 @@
 ---
 id: 1630
+internal_id: 1752
 slug: arithmetic-subarrays
 title: Arithmetic Subarrays
 difficulty: Medium

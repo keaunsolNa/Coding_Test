@@ -1,5 +1,6 @@
 ---
 id: 2712
+internal_id: 2817
 slug: minimum-cost-to-make-all-characters-equal
 title: Minimum Cost to Make All Characters Equal
 difficulty: Medium

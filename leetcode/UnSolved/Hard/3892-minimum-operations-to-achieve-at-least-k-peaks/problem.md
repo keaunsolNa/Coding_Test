@@ -1,10 +1,11 @@
 ---
 id: 3892
+internal_id: 4263
 slug: minimum-operations-to-achieve-at-least-k-peaks
 title: Minimum Operations to Achieve At Least K Peaks
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

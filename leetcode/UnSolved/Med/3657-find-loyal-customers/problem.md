@@ -1,5 +1,6 @@
 ---
 id: 3657
+internal_id: 4025
 slug: find-loyal-customers
 title: Find Loyal Customers
 difficulty: Medium

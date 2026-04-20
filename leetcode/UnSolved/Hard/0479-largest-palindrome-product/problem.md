@@ -1,10 +1,11 @@
 ---
 id: 479
+internal_id: 479
 slug: largest-palindrome-product
 title: Largest Palindrome Product
 difficulty: Hard
 tags: Math, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

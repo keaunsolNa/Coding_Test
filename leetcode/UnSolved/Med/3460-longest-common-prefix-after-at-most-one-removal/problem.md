@@ -1,5 +1,6 @@
 ---
 id: 3460
+internal_id: 3796
 slug: longest-common-prefix-after-at-most-one-removal
 title: Longest Common Prefix After at Most One Removal
 difficulty: Medium

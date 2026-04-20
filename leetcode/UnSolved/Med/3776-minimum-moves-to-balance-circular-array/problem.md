@@ -1,5 +1,6 @@
 ---
 id: 3776
+internal_id: 4018
 slug: minimum-moves-to-balance-circular-array
 title: Minimum Moves to Balance Circular Array
 difficulty: Medium

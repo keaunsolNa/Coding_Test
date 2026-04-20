@@ -1,10 +1,11 @@
 ---
 id: 2496
+internal_id: 2589
 slug: maximum-value-of-a-string-in-an-array
 title: Maximum Value of a String in an Array
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

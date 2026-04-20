@@ -1,10 +1,11 @@
 ---
 id: 1812
+internal_id: 1920
 slug: determine-color-of-a-chessboard-square
 title: Determine Color of a Chessboard Square
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

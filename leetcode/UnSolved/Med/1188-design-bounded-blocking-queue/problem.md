@@ -1,5 +1,6 @@
 ---
 id: 1188
+internal_id: 1209
 slug: design-bounded-blocking-queue
 title: Design Bounded Blocking Queue
 difficulty: Medium

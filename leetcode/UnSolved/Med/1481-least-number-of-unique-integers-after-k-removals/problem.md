@@ -1,5 +1,6 @@
 ---
 id: 1481
+internal_id: 1604
 slug: least-number-of-unique-integers-after-k-removals
 title: Least Number of Unique Integers after K Removals
 difficulty: Medium

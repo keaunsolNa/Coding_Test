@@ -1,5 +1,6 @@
 ---
 id: 2599
+internal_id: 2674
 slug: make-the-prefix-sum-non-negative
 title: Make the Prefix Sum Non-negative
 difficulty: Medium

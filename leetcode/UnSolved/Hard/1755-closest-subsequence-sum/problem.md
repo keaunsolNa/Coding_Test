@@ -1,10 +1,11 @@
 ---
 id: 1755
+internal_id: 1881
 slug: closest-subsequence-sum
 title: Closest Subsequence Sum
 difficulty: Hard
 tags: Array, Two Pointers, Dynamic Programming, Bit Manipulation, Sorting, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

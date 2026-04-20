@@ -1,11 +1,12 @@
 ---
 id: 1193
+internal_id: 1317
 slug: monthly-transactions-i
 title: Monthly Transactions I
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1193. Monthly Transactions I

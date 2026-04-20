@@ -1,5 +1,6 @@
 ---
 id: 1428
+internal_id: 1374
 slug: leftmost-column-with-at-least-a-one
 title: Leftmost Column with at Least a One
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 361
+internal_id: 361
 slug: bomb-enemy
 title: Bomb Enemy
 difficulty: Medium

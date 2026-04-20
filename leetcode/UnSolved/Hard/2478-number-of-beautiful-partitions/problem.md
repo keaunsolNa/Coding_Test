@@ -1,10 +1,11 @@
 ---
 id: 2478
+internal_id: 2569
 slug: number-of-beautiful-partitions
 title: Number of Beautiful Partitions
 difficulty: Hard
 tags: String, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

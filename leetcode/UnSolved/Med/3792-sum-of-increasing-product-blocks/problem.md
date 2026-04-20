@@ -1,5 +1,6 @@
 ---
 id: 3792
+internal_id: 4172
 slug: sum-of-increasing-product-blocks
 title: Sum of Increasing Product Blocks
 difficulty: Medium

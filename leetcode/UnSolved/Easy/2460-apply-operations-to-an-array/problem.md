@@ -1,10 +1,11 @@
 ---
 id: 2460
+internal_id: 2551
 slug: apply-operations-to-an-array
 title: Apply Operations to an Array
 difficulty: Easy
 tags: Array, Two Pointers, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 211
+internal_id: 211
 slug: design-add-and-search-words-data-structure
 title: Design Add and Search Words Data Structure
 difficulty: Medium

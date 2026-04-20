@@ -1,10 +1,11 @@
 ---
 id: 2869
+internal_id: 3044
 slug: minimum-operations-to-collect-elements
 title: Minimum Operations to Collect Elements
 difficulty: Easy
 tags: Array, Hash Table, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

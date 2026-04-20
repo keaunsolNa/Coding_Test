@@ -1,5 +1,6 @@
 ---
 id: 3608
+internal_id: 3908
 slug: minimum-time-for-k-connected-components
 title: Minimum Time for K Connected Components
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2918
+internal_id: 3171
 slug: minimum-equal-sum-of-two-arrays-after-replacing-zeros
 title: Minimum Equal Sum of Two Arrays After Replacing Zeros
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2486
+internal_id: 2572
 slug: append-characters-to-string-to-make-subsequence
 title: Append Characters to String to Make Subsequence
 difficulty: Medium

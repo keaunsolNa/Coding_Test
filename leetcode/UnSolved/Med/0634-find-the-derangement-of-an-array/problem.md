@@ -1,5 +1,6 @@
 ---
 id: 634
+internal_id: 634
 slug: find-the-derangement-of-an-array
 title: Find the Derangement of An Array
 difficulty: Medium

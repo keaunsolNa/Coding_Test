@@ -1,5 +1,6 @@
 ---
 id: 3607
+internal_id: 3863
 slug: power-grid-maintenance
 title: Power Grid Maintenance
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 434
+internal_id: 434
 slug: number-of-segments-in-a-string
 title: Number of Segments in a String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

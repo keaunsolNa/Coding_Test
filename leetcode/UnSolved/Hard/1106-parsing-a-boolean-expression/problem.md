@@ -1,10 +1,11 @@
 ---
 id: 1106
+internal_id: 1197
 slug: parsing-a-boolean-expression
 title: Parsing A Boolean Expression
 difficulty: Hard
 tags: String, Stack, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

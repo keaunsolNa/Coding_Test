@@ -1,10 +1,11 @@
 ---
 id: 3312
+internal_id: 3583
 slug: sorted-gcd-pair-queries
 title: Sorted GCD Pair Queries
 difficulty: Hard
 tags: Array, Hash Table, Math, Binary Search, Combinatorics, Counting, Number Theory, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

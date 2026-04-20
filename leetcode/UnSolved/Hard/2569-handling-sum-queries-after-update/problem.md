@@ -1,10 +1,11 @@
 ---
 id: 2569
+internal_id: 2703
 slug: handling-sum-queries-after-update
 title: Handling Sum Queries After Update
 difficulty: Hard
 tags: Array, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

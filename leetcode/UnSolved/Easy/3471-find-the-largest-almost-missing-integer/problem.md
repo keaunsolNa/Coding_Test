@@ -1,10 +1,11 @@
 ---
 id: 3471
+internal_id: 3705
 slug: find-the-largest-almost-missing-integer
 title: Find the Largest Almost Missing Integer
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

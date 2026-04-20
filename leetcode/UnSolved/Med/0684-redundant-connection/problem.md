@@ -1,5 +1,6 @@
 ---
 id: 684
+internal_id: 684
 slug: redundant-connection
 title: Redundant Connection
 difficulty: Medium

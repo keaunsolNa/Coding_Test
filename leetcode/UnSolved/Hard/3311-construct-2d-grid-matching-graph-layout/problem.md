@@ -1,10 +1,11 @@
 ---
 id: 3311
+internal_id: 3578
 slug: construct-2d-grid-matching-graph-layout
 title: Construct 2D Grid Matching Graph Layout
 difficulty: Hard
 tags: Array, Hash Table, Graph Theory, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2171
+internal_id: 2290
 slug: removing-minimum-number-of-magic-beans
 title: Removing Minimum Number of Magic Beans
 difficulty: Medium

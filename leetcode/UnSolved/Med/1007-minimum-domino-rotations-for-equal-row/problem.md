@@ -1,5 +1,6 @@
 ---
 id: 1007
+internal_id: 1049
 slug: minimum-domino-rotations-for-equal-row
 title: Minimum Domino Rotations For Equal Row
 difficulty: Medium

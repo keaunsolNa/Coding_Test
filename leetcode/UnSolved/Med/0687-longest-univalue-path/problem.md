@@ -1,5 +1,6 @@
 ---
 id: 687
+internal_id: 687
 slug: longest-univalue-path
 title: Longest Univalue Path
 difficulty: Medium

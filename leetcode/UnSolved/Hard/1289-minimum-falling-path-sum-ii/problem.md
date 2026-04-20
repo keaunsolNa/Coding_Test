@@ -1,10 +1,11 @@
 ---
 id: 1289
+internal_id: 1224
 slug: minimum-falling-path-sum-ii
 title: Minimum Falling Path Sum II
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

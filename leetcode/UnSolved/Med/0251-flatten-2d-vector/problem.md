@@ -1,5 +1,6 @@
 ---
 id: 251
+internal_id: 251
 slug: flatten-2d-vector
 title: Flatten 2D Vector
 difficulty: Medium

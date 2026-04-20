@@ -1,5 +1,6 @@
 ---
 id: 86
+internal_id: 86
 slug: partition-list
 title: Partition List
 difficulty: Medium

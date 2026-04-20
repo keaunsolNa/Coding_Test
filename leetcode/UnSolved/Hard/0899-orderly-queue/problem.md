@@ -1,10 +1,11 @@
 ---
 id: 899
+internal_id: 935
 slug: orderly-queue
 title: Orderly Queue
 difficulty: Hard
 tags: Math, String, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

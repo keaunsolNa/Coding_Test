@@ -1,10 +1,11 @@
 ---
 id: 2561
+internal_id: 2689
 slug: rearranging-fruits
 title: Rearranging Fruits
 difficulty: Hard
 tags: Array, Hash Table, Greedy, Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3132
+internal_id: 3399
 slug: find-the-integer-added-to-array-ii
 title: Find the Integer Added to Array II
 difficulty: Medium

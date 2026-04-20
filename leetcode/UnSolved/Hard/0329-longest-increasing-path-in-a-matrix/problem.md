@@ -1,10 +1,11 @@
 ---
 id: 329
+internal_id: 329
 slug: longest-increasing-path-in-a-matrix
 title: Longest Increasing Path in a Matrix
 difficulty: Hard
 tags: Array, Dynamic Programming, Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort, Memoization, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

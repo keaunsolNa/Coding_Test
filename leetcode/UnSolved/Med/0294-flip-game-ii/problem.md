@@ -1,5 +1,6 @@
 ---
 id: 294
+internal_id: 294
 slug: flip-game-ii
 title: Flip Game II
 difficulty: Medium

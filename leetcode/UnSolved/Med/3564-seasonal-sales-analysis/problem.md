@@ -1,11 +1,12 @@
 ---
 id: 3564
+internal_id: 3898
 slug: seasonal-sales-analysis
 title: Seasonal Sales Analysis
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3564. Seasonal Sales Analysis

@@ -1,10 +1,11 @@
 ---
 id: 682
+internal_id: 682
 slug: baseball-game
 title: Baseball Game
 difficulty: Easy
 tags: Array, Stack, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

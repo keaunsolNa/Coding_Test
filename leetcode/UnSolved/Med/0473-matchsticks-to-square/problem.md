@@ -1,5 +1,6 @@
 ---
 id: 473
+internal_id: 473
 slug: matchsticks-to-square
 title: Matchsticks to Square
 difficulty: Medium

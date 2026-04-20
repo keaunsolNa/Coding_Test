@@ -1,5 +1,6 @@
 ---
 id: 531
+internal_id: 531
 slug: lonely-pixel-i
 title: Lonely Pixel I
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1963
+internal_id: 2095
 slug: minimum-number-of-swaps-to-make-the-string-balanced
 title: Minimum Number of Swaps to Make the String Balanced
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2920
+internal_id: 3179
 slug: maximum-points-after-collecting-coins-from-all-nodes
 title: Maximum Points After Collecting Coins From All Nodes
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Tree, Depth-First Search, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

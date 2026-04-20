@@ -1,5 +1,6 @@
 ---
 id: 396
+internal_id: 396
 slug: rotate-function
 title: Rotate Function
 difficulty: Medium

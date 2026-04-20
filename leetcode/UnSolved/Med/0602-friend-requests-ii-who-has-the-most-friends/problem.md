@@ -1,11 +1,12 @@
 ---
 id: 602
+internal_id: 602
 slug: friend-requests-ii-who-has-the-most-friends
 title: Friend Requests II: Who Has the Most Friends
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 602. Friend Requests II: Who Has the Most Friends

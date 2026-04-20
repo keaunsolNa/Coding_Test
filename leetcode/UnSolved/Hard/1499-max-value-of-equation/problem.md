@@ -1,10 +1,11 @@
 ---
 id: 1499
+internal_id: 1622
 slug: max-value-of-equation
 title: Max Value of Equation
 difficulty: Hard
 tags: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

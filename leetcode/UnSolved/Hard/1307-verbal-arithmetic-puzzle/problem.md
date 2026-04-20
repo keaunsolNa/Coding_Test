@@ -1,10 +1,11 @@
 ---
 id: 1307
+internal_id: 1429
 slug: verbal-arithmetic-puzzle
 title: Verbal Arithmetic Puzzle
 difficulty: Hard
 tags: Array, Math, String, Backtracking
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1062
+internal_id: 1060
 slug: longest-repeating-substring
 title: Longest Repeating Substring
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 779
+internal_id: 795
 slug: k-th-symbol-in-grammar
 title: K-th Symbol in Grammar
 difficulty: Medium

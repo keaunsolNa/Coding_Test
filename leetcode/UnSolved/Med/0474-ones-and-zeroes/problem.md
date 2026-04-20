@@ -1,5 +1,6 @@
 ---
 id: 474
+internal_id: 474
 slug: ones-and-zeroes
 title: Ones and Zeroes
 difficulty: Medium

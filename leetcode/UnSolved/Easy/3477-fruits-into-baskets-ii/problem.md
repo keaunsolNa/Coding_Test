@@ -1,10 +1,11 @@
 ---
 id: 3477
+internal_id: 3790
 slug: fruits-into-baskets-ii
 title: Fruits Into Baskets II
 difficulty: Easy
 tags: Array, Binary Search, Segment Tree, Simulation, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

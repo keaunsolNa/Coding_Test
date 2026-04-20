@@ -1,10 +1,11 @@
 ---
 id: 709
+internal_id: 742
 slug: to-lower-case
 title: To Lower Case
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

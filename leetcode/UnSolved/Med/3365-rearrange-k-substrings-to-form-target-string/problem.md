@@ -1,5 +1,6 @@
 ---
 id: 3365
+internal_id: 3595
 slug: rearrange-k-substrings-to-form-target-string
 title: Rearrange K Substrings to Form Target String
 difficulty: Medium

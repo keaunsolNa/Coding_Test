@@ -1,10 +1,11 @@
 ---
 id: 1681
+internal_id: 1799
 slug: minimum-incompatibility
 title: Minimum Incompatibility
 difficulty: Hard
 tags: Array, Hash Table, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

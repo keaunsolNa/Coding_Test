@@ -1,10 +1,11 @@
 ---
 id: 3646
+internal_id: 3951
 slug: next-special-palindrome-number
 title: Next Special Palindrome Number
 difficulty: Hard
 tags: Backtracking, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

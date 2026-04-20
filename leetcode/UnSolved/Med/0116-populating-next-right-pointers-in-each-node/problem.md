@@ -1,5 +1,6 @@
 ---
 id: 116
+internal_id: 116
 slug: populating-next-right-pointers-in-each-node
 title: Populating Next Right Pointers in Each Node
 difficulty: Medium

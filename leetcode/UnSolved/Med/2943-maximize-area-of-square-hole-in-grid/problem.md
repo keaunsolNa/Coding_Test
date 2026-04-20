@@ -1,5 +1,6 @@
 ---
 id: 2943
+internal_id: 3214
 slug: maximize-area-of-square-hole-in-grid
 title: Maximize Area of Square Hole in Grid
 difficulty: Medium

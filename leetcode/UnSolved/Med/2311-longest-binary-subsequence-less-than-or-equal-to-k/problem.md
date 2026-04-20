@@ -1,5 +1,6 @@
 ---
 id: 2311
+internal_id: 2395
 slug: longest-binary-subsequence-less-than-or-equal-to-k
 title: Longest Binary Subsequence Less Than or Equal to K
 difficulty: Medium

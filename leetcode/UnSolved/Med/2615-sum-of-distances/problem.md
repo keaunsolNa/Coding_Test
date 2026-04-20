@@ -1,5 +1,6 @@
 ---
 id: 2615
+internal_id: 2721
 slug: sum-of-distances
 title: Sum of Distances
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1161
+internal_id: 1116
 slug: maximum-level-sum-of-a-binary-tree
 title: Maximum Level Sum of a Binary Tree
 difficulty: Medium

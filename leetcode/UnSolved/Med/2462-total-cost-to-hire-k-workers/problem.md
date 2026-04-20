@@ -1,5 +1,6 @@
 ---
 id: 2462
+internal_id: 2553
 slug: total-cost-to-hire-k-workers
 title: Total Cost to Hire K Workers
 difficulty: Medium

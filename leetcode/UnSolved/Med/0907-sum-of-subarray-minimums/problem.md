@@ -1,5 +1,6 @@
 ---
 id: 907
+internal_id: 943
 slug: sum-of-subarray-minimums
 title: Sum of Subarray Minimums
 difficulty: Medium

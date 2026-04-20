@@ -1,5 +1,6 @@
 ---
 id: 2958
+internal_id: 3225
 slug: length-of-longest-subarray-with-at-most-k-frequency
 title: Length of Longest Subarray With at Most K Frequency
 difficulty: Medium

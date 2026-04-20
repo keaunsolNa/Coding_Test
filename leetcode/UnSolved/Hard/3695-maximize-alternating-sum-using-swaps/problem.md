@@ -1,10 +1,11 @@
 ---
 id: 3695
+internal_id: 4010
 slug: maximize-alternating-sum-using-swaps
 title: Maximize Alternating Sum Using Swaps
 difficulty: Hard
 tags: Array, Greedy, Union-Find, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

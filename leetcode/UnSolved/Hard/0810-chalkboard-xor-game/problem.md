@@ -1,10 +1,11 @@
 ---
 id: 810
+internal_id: 828
 slug: chalkboard-xor-game
 title: Chalkboard XOR Game
 difficulty: Hard
 tags: Array, Math, Bit Manipulation, Brainteaser, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

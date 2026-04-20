@@ -1,5 +1,6 @@
 ---
 id: 3291
+internal_id: 3559
 slug: minimum-number-of-valid-strings-to-form-target-i
 title: Minimum Number of Valid Strings to Form Target I
 difficulty: Medium

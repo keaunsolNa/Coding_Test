@@ -1,5 +1,6 @@
 ---
 id: 3372
+internal_id: 3633
 slug: maximize-the-number-of-target-nodes-after-connecting-trees-i
 title: Maximize the Number of Target Nodes After Connecting Trees I
 difficulty: Medium

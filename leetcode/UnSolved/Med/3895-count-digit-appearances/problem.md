@@ -1,5 +1,6 @@
 ---
 id: 3895
+internal_id: 4280
 slug: count-digit-appearances
 title: Count Digit Appearances
 difficulty: Medium

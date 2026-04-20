@@ -1,10 +1,11 @@
 ---
 id: 829
+internal_id: 856
 slug: consecutive-numbers-sum
 title: Consecutive Numbers Sum
 difficulty: Hard
 tags: Math, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

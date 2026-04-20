@@ -1,5 +1,6 @@
 ---
 id: 3659
+internal_id: 3979
 slug: partition-array-into-k-distinct-groups
 title: Partition Array Into K-Distinct Groups
 difficulty: Medium

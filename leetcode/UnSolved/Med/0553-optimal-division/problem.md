@@ -1,5 +1,6 @@
 ---
 id: 553
+internal_id: 553
 slug: optimal-division
 title: Optimal Division
 difficulty: Medium

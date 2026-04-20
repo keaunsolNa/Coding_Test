@@ -1,10 +1,11 @@
 ---
 id: 3502
+internal_id: 3832
 slug: minimum-cost-to-reach-every-position
 title: Minimum Cost to Reach Every Position
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3876
+internal_id: 4258
 slug: construct-uniform-parity-array-ii
 title: Construct Uniform Parity Array II
 difficulty: Medium

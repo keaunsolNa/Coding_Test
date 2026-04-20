@@ -1,10 +1,11 @@
 ---
 id: 2912
+internal_id: 3198
 slug: number-of-ways-to-reach-destination-in-the-grid
 title: Number of Ways to Reach Destination in the Grid
 difficulty: Hard
 tags: Math, Dynamic Programming, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

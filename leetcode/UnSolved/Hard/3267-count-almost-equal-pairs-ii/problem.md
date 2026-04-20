@@ -1,10 +1,11 @@
 ---
 id: 3267
+internal_id: 3544
 slug: count-almost-equal-pairs-ii
 title: Count Almost Equal Pairs II
 difficulty: Hard
 tags: Array, Hash Table, Sorting, Counting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

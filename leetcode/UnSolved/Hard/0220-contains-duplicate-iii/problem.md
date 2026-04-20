@@ -1,10 +1,11 @@
 ---
 id: 220
+internal_id: 220
 slug: contains-duplicate-iii
 title: Contains Duplicate III
 difficulty: Hard
 tags: Array, Sliding Window, Sorting, Bucket Sort, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

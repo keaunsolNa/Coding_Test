@@ -1,5 +1,6 @@
 ---
 id: 1286
+internal_id: 1211
 slug: iterator-for-combination
 title: Iterator for Combination
 difficulty: Medium

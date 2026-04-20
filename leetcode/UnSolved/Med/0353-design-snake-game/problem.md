@@ -1,5 +1,6 @@
 ---
 id: 353
+internal_id: 353
 slug: design-snake-game
 title: Design Snake Game
 difficulty: Medium

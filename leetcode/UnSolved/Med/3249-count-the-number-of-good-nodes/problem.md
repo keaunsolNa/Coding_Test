@@ -1,5 +1,6 @@
 ---
 id: 3249
+internal_id: 3486
 slug: count-the-number-of-good-nodes
 title: Count the Number of Good Nodes
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1718
+internal_id: 1819
 slug: construct-the-lexicographically-largest-valid-sequence
 title: Construct the Lexicographically Largest Valid Sequence
 difficulty: Medium

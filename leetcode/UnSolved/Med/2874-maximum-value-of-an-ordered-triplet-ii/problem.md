@@ -1,5 +1,6 @@
 ---
 id: 2874
+internal_id: 3152
 slug: maximum-value-of-an-ordered-triplet-ii
 title: Maximum Value of an Ordered Triplet II
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2824
+internal_id: 2917
 slug: count-pairs-whose-sum-is-less-than-target
 title: Count Pairs Whose Sum is Less than Target
 difficulty: Easy
 tags: Array, Two Pointers, Binary Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

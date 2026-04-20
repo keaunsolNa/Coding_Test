@@ -1,5 +1,6 @@
 ---
 id: 179
+internal_id: 179
 slug: largest-number
 title: Largest Number
 difficulty: Medium

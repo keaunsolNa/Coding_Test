@@ -1,10 +1,11 @@
 ---
 id: 3754
+internal_id: 4135
 slug: concatenate-non-zero-digits-and-multiply-by-sum-i
 title: Concatenate Non-Zero Digits and Multiply by Sum I
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

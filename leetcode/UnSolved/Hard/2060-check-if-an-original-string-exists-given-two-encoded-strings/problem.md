@@ -1,10 +1,11 @@
 ---
 id: 2060
+internal_id: 2184
 slug: check-if-an-original-string-exists-given-two-encoded-strings
 title: Check if an Original String Exists Given Two Encoded Strings
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2571
+internal_id: 2710
 slug: minimum-operations-to-reduce-an-integer-to-0
 title: Minimum Operations to Reduce an Integer to 0
 difficulty: Medium

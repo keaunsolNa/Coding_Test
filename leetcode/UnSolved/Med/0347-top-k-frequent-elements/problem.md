@@ -1,5 +1,6 @@
 ---
 id: 347
+internal_id: 347
 slug: top-k-frequent-elements
 title: Top K Frequent Elements
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3610
+internal_id: 3949
 slug: minimum-number-of-primes-to-sum-to-target
 title: Minimum Number of Primes to Sum to Target
 difficulty: Medium

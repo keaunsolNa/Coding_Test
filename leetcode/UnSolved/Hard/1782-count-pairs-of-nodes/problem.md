@@ -1,10 +1,11 @@
 ---
 id: 1782
+internal_id: 1891
 slug: count-pairs-of-nodes
 title: Count Pairs Of Nodes
 difficulty: Hard
 tags: Array, Hash Table, Two Pointers, Binary Search, Graph Theory, Sorting, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

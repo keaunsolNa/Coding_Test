@@ -1,10 +1,11 @@
 ---
 id: 1728
+internal_id: 1727
 slug: cat-and-mouse-ii
 title: Cat and Mouse II
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Graph Theory, Topological Sort, Memoization, Matrix, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

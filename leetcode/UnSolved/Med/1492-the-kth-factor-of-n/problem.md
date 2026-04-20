@@ -1,5 +1,6 @@
 ---
 id: 1492
+internal_id: 1585
 slug: the-kth-factor-of-n
 title: The kth Factor of n
 difficulty: Medium

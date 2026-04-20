@@ -1,5 +1,6 @@
 ---
 id: 1214
+internal_id: 1150
 slug: two-sum-bsts
 title: Two Sum BSTs
 difficulty: Medium

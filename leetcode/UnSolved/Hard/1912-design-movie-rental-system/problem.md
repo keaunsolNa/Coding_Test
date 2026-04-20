@@ -1,10 +1,11 @@
 ---
 id: 1912
+internal_id: 2023
 slug: design-movie-rental-system
 title: Design Movie Rental System
 difficulty: Hard
 tags: Array, Hash Table, Design, Heap (Priority Queue), Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

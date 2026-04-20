@@ -1,5 +1,6 @@
 ---
 id: 3634
+internal_id: 3958
 slug: minimum-removals-to-balance-array
 title: Minimum Removals to Balance Array
 difficulty: Medium

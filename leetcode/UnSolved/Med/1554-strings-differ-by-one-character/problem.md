@@ -1,5 +1,6 @@
 ---
 id: 1554
+internal_id: 1697
 slug: strings-differ-by-one-character
 title: Strings Differ by One Character
 difficulty: Medium

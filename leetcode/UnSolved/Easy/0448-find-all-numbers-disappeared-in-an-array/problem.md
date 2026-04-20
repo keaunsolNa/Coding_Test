@@ -1,10 +1,11 @@
 ---
 id: 448
+internal_id: 448
 slug: find-all-numbers-disappeared-in-an-array
 title: Find All Numbers Disappeared in an Array
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

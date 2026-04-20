@@ -1,5 +1,6 @@
 ---
 id: 3844
+internal_id: 4221
 slug: longest-almost-palindromic-substring
 title: Longest Almost-Palindromic Substring
 difficulty: Medium

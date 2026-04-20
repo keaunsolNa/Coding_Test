@@ -1,5 +1,6 @@
 ---
 id: 2491
+internal_id: 2581
 slug: divide-players-into-teams-of-equal-skill
 title: Divide Players Into Teams of Equal Skill
 difficulty: Medium

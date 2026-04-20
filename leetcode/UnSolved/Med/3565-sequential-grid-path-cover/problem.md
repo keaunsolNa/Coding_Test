@@ -1,5 +1,6 @@
 ---
 id: 3565
+internal_id: 3899
 slug: sequential-grid-path-cover
 title: Sequential Grid Path Cover
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3131
+internal_id: 3397
 slug: find-the-integer-added-to-array-i
 title: Find the Integer Added to Array I
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

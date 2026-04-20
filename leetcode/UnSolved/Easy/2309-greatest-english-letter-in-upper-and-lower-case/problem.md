@@ -1,10 +1,11 @@
 ---
 id: 2309
+internal_id: 1363
 slug: greatest-english-letter-in-upper-and-lower-case
 title: Greatest English Letter in Upper and Lower Case
 difficulty: Easy
 tags: Hash Table, String, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

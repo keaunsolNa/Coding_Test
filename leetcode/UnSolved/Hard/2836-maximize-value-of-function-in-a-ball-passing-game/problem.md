@@ -1,10 +1,11 @@
 ---
 id: 2836
+internal_id: 3032
 slug: maximize-value-of-function-in-a-ball-passing-game
 title: Maximize Value of Function in a Ball Passing Game
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

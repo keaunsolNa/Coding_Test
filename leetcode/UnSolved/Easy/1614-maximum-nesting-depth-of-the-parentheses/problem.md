@@ -1,10 +1,11 @@
 ---
 id: 1614
+internal_id: 1737
 slug: maximum-nesting-depth-of-the-parentheses
 title: Maximum Nesting Depth of the Parentheses
 difficulty: Easy
 tags: String, Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

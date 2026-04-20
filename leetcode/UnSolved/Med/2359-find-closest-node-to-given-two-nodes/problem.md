@@ -1,5 +1,6 @@
 ---
 id: 2359
+internal_id: 2438
 slug: find-closest-node-to-given-two-nodes
 title: Find Closest Node to Given Two Nodes
 difficulty: Medium

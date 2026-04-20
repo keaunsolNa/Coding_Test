@@ -1,10 +1,11 @@
 ---
 id: 1360
+internal_id: 1274
 slug: number-of-days-between-two-dates
 title: Number of Days Between Two Dates
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

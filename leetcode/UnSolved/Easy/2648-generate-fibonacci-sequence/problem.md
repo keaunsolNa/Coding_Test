@@ -1,10 +1,11 @@
 ---
 id: 2648
+internal_id: 2775
 slug: generate-fibonacci-sequence
 title: Generate Fibonacci Sequence
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

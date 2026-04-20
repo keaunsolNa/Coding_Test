@@ -1,5 +1,6 @@
 ---
 id: 592
+internal_id: 592
 slug: fraction-addition-and-subtraction
 title: Fraction Addition and Subtraction
 difficulty: Medium

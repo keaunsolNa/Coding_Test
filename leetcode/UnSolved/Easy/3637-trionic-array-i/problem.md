@@ -1,10 +1,11 @@
 ---
 id: 3637
+internal_id: 3952
 slug: trionic-array-i
 title: Trionic Array I
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

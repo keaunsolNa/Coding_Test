@@ -1,5 +1,6 @@
 ---
 id: 3066
+internal_id: 3332
 slug: minimum-operations-to-exceed-threshold-value-ii
 title: Minimum Operations to Exceed Threshold Value II
 difficulty: Medium

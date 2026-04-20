@@ -1,11 +1,12 @@
 ---
 id: 3611
+internal_id: 3943
 slug: find-overbooked-employees
 title: Find Overbooked Employees
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3611. Find Overbooked Employees

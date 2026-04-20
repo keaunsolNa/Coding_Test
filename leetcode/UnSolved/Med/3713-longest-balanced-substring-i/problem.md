@@ -1,5 +1,6 @@
 ---
 id: 3713
+internal_id: 4055
 slug: longest-balanced-substring-i
 title: Longest Balanced Substring I
 difficulty: Medium

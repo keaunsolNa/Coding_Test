@@ -1,10 +1,11 @@
 ---
 id: 2398
+internal_id: 2449
 slug: maximum-number-of-robots-within-budget
 title: Maximum Number of Robots Within Budget
 difficulty: Hard
 tags: Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

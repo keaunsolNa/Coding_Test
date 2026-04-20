@@ -1,5 +1,6 @@
 ---
 id: 667
+internal_id: 667
 slug: beautiful-arrangement-ii
 title: Beautiful Arrangement II
 difficulty: Medium

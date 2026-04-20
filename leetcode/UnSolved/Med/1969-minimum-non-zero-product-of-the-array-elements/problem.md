@@ -1,5 +1,6 @@
 ---
 id: 1969
+internal_id: 2100
 slug: minimum-non-zero-product-of-the-array-elements
 title: Minimum Non-Zero Product of the Array Elements
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2531
+internal_id: 2615
 slug: make-number-of-distinct-characters-equal
 title: Make Number of Distinct Characters Equal
 difficulty: Medium

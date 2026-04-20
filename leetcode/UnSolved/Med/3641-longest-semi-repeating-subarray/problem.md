@@ -1,5 +1,6 @@
 ---
 id: 3641
+internal_id: 3992
 slug: longest-semi-repeating-subarray
 title: Longest Semi-Repeating Subarray
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2545
+internal_id: 2631
 slug: sort-the-students-by-their-kth-score
 title: Sort the Students by Their Kth Score
 difficulty: Medium

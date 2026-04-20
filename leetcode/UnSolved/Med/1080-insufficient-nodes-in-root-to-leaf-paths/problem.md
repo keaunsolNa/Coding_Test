@@ -1,5 +1,6 @@
 ---
 id: 1080
+internal_id: 1157
 slug: insufficient-nodes-in-root-to-leaf-paths
 title: Insufficient Nodes in Root to Leaf Paths
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1923
+internal_id: 2051
 slug: longest-common-subpath
 title: Longest Common Subpath
 difficulty: Hard
 tags: Array, Binary Search, Rolling Hash, Suffix Array, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

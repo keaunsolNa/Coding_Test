@@ -1,5 +1,6 @@
 ---
 id: 3732
+internal_id: 4101
 slug: maximum-product-of-three-elements-after-one-replacement
 title: Maximum Product of Three Elements After One Replacement
 difficulty: Medium

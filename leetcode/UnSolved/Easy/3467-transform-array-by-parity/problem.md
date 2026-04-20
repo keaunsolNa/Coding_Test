@@ -1,10 +1,11 @@
 ---
 id: 3467
+internal_id: 3778
 slug: transform-array-by-parity
 title: Transform Array by Parity
 difficulty: Easy
 tags: Array, Sorting, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

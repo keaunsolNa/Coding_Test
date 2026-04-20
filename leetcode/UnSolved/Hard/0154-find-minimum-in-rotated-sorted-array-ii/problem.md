@@ -1,10 +1,11 @@
 ---
 id: 154
+internal_id: 154
 slug: find-minimum-in-rotated-sorted-array-ii
 title: Find Minimum in Rotated Sorted Array II
 difficulty: Hard
 tags: Array, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

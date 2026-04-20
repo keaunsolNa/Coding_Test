@@ -1,5 +1,6 @@
 ---
 id: 1020
+internal_id: 1073
 slug: number-of-enclaves
 title: Number of Enclaves
 difficulty: Medium

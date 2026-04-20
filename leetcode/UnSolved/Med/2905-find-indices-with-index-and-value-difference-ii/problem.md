@@ -1,5 +1,6 @@
 ---
 id: 2905
+internal_id: 3170
 slug: find-indices-with-index-and-value-difference-ii
 title: Find Indices With Index and Value Difference II
 difficulty: Medium

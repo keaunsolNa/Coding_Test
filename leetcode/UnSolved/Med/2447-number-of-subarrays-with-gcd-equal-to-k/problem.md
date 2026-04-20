@@ -1,5 +1,6 @@
 ---
 id: 2447
+internal_id: 2546
 slug: number-of-subarrays-with-gcd-equal-to-k
 title: Number of Subarrays With GCD Equal to K
 difficulty: Medium

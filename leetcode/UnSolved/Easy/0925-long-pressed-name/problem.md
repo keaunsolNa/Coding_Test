@@ -1,10 +1,11 @@
 ---
 id: 925
+internal_id: 961
 slug: long-pressed-name
 title: Long Pressed Name
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3422
+internal_id: 3698
 slug: minimum-operations-to-make-subarray-elements-equal
 title: Minimum Operations to Make Subarray Elements Equal
 difficulty: Medium

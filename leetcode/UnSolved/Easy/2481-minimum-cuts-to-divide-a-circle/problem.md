@@ -1,10 +1,11 @@
 ---
 id: 2481
+internal_id: 2575
 slug: minimum-cuts-to-divide-a-circle
 title: Minimum Cuts to Divide a Circle
 difficulty: Easy
 tags: Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

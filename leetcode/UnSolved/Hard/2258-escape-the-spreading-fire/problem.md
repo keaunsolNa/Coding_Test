@@ -1,10 +1,11 @@
 ---
 id: 2258
+internal_id: 2344
 slug: escape-the-spreading-fire
 title: Escape the Spreading Fire
 difficulty: Hard
 tags: Array, Binary Search, Breadth-First Search, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3656
+internal_id: 4006
 slug: determine-if-a-simple-graph-exists
 title: Determine if a Simple Graph Exists
 difficulty: Medium

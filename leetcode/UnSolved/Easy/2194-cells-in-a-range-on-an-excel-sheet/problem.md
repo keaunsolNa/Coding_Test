@@ -1,10 +1,11 @@
 ---
 id: 2194
+internal_id: 2304
 slug: cells-in-a-range-on-an-excel-sheet
 title: Cells in a Range on an Excel Sheet
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

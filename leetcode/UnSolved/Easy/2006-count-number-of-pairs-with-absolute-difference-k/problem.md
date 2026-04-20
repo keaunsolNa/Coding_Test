@@ -1,10 +1,11 @@
 ---
 id: 2006
+internal_id: 2116
 slug: count-number-of-pairs-with-absolute-difference-k
 title: Count Number of Pairs With Absolute Difference K
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

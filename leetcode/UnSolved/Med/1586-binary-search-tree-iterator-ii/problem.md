@@ -1,5 +1,6 @@
 ---
 id: 1586
+internal_id: 1729
 slug: binary-search-tree-iterator-ii
 title: Binary Search Tree Iterator II
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3588
+internal_id: 3868
 slug: find-maximum-area-of-a-triangle
 title: Find Maximum Area of a Triangle
 difficulty: Medium

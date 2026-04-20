@@ -1,5 +1,6 @@
 ---
 id: 646
+internal_id: 646
 slug: maximum-length-of-pair-chain
 title: Maximum Length of Pair Chain
 difficulty: Medium

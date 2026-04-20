@@ -1,10 +1,11 @@
 ---
 id: 2973
+internal_id: 3218
 slug: find-number-of-coins-to-place-in-tree-nodes
 title: Find Number of Coins to Place in Tree Nodes
 difficulty: Hard
 tags: Dynamic Programming, Tree, Depth-First Search, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

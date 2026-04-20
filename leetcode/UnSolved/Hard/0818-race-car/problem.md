@@ -1,10 +1,11 @@
 ---
 id: 818
+internal_id: 836
 slug: race-car
 title: Race Car
 difficulty: Hard
 tags: Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

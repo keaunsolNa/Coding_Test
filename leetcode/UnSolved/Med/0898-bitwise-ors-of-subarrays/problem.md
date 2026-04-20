@@ -1,5 +1,6 @@
 ---
 id: 898
+internal_id: 934
 slug: bitwise-ors-of-subarrays
 title: Bitwise ORs of Subarrays
 difficulty: Medium

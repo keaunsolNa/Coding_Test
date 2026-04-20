@@ -1,10 +1,11 @@
 ---
 id: 1627
+internal_id: 1223
 slug: graph-connectivity-with-threshold
 title: Graph Connectivity With Threshold
 difficulty: Hard
 tags: Array, Math, Union-Find, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

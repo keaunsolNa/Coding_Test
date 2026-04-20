@@ -1,5 +1,6 @@
 ---
 id: 3638
+internal_id: 3954
 slug: maximum-balanced-shipments
 title: Maximum Balanced Shipments
 difficulty: Medium

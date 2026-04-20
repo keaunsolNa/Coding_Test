@@ -1,5 +1,6 @@
 ---
 id: 754
+internal_id: 755
 slug: reach-a-number
 title: Reach a Number
 difficulty: Medium

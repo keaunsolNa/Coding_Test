@@ -1,5 +1,6 @@
 ---
 id: 3503
+internal_id: 3793
 slug: longest-palindrome-after-substring-concatenation-i
 title: Longest Palindrome After Substring Concatenation I
 difficulty: Medium

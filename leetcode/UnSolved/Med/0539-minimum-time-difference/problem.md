@@ -1,5 +1,6 @@
 ---
 id: 539
+internal_id: 539
 slug: minimum-time-difference
 title: Minimum Time Difference
 difficulty: Medium

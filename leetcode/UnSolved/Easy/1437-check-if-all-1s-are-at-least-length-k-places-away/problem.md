@@ -1,10 +1,11 @@
 ---
 id: 1437
+internal_id: 1548
 slug: check-if-all-1s-are-at-least-length-k-places-away
 title: Check If All 1's Are at Least Length K Places Away
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

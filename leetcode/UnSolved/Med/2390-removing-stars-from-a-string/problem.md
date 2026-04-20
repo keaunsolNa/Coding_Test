@@ -1,5 +1,6 @@
 ---
 id: 2390
+internal_id: 2470
 slug: removing-stars-from-a-string
 title: Removing Stars From a String
 difficulty: Medium

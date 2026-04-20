@@ -1,5 +1,6 @@
 ---
 id: 2380
+internal_id: 2464
 slug: time-needed-to-rearrange-a-binary-string
 title: Time Needed to Rearrange a Binary String
 difficulty: Medium

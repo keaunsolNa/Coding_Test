@@ -1,5 +1,6 @@
 ---
 id: 686
+internal_id: 686
 slug: repeated-string-match
 title: Repeated String Match
 difficulty: Medium

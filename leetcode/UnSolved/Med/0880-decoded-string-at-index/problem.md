@@ -1,5 +1,6 @@
 ---
 id: 880
+internal_id: 916
 slug: decoded-string-at-index
 title: Decoded String at Index
 difficulty: Medium

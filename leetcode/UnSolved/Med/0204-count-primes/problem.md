@@ -1,5 +1,6 @@
 ---
 id: 204
+internal_id: 204
 slug: count-primes
 title: Count Primes
 difficulty: Medium

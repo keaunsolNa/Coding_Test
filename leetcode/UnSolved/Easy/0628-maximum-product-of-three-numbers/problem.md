@@ -1,10 +1,11 @@
 ---
 id: 628
+internal_id: 628
 slug: maximum-product-of-three-numbers
 title: Maximum Product of Three Numbers
 difficulty: Easy
 tags: Array, Math, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

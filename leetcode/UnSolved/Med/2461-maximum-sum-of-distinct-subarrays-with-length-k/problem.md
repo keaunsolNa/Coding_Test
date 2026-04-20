@@ -1,5 +1,6 @@
 ---
 id: 2461
+internal_id: 2552
 slug: maximum-sum-of-distinct-subarrays-with-length-k
 title: Maximum Sum of Distinct Subarrays With Length K
 difficulty: Medium

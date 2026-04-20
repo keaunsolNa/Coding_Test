@@ -1,5 +1,6 @@
 ---
 id: 1039
+internal_id: 1111
 slug: minimum-score-triangulation-of-polygon
 title: Minimum Score Triangulation of Polygon
 difficulty: Medium

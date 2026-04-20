@@ -1,10 +1,11 @@
 ---
 id: 2111
+internal_id: 2234
 slug: minimum-operations-to-make-the-array-k-increasing
 title: Minimum Operations to Make the Array K-Increasing
 difficulty: Hard
 tags: Array, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

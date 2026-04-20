@@ -1,5 +1,6 @@
 ---
 id: 814
+internal_id: 832
 slug: binary-tree-pruning
 title: Binary Tree Pruning
 difficulty: Medium

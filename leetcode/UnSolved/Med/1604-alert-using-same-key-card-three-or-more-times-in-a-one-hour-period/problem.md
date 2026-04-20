@@ -1,5 +1,6 @@
 ---
 id: 1604
+internal_id: 1709
 slug: alert-using-same-key-card-three-or-more-times-in-a-one-hour-period
 title: Alert Using Same Key-Card Three or More Times in a One Hour Period
 difficulty: Medium

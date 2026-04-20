@@ -1,5 +1,6 @@
 ---
 id: 508
+internal_id: 508
 slug: most-frequent-subtree-sum
 title: Most Frequent Subtree Sum
 difficulty: Medium

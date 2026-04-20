@@ -1,5 +1,6 @@
 ---
 id: 1829
+internal_id: 1940
 slug: maximum-xor-for-each-query
 title: Maximum XOR for Each Query
 difficulty: Medium

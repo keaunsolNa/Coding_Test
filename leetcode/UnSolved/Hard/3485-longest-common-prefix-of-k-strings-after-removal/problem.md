@@ -1,10 +1,11 @@
 ---
 id: 3485
+internal_id: 3784
 slug: longest-common-prefix-of-k-strings-after-removal
 title: Longest Common Prefix of K Strings After Removal
 difficulty: Hard
 tags: Array, String, Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

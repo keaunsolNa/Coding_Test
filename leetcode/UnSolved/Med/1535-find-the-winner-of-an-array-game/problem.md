@@ -1,5 +1,6 @@
 ---
 id: 1535
+internal_id: 1657
 slug: find-the-winner-of-an-array-game
 title: Find the Winner of an Array Game
 difficulty: Medium

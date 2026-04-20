@@ -1,10 +1,11 @@
 ---
 id: 2373
+internal_id: 2454
 slug: largest-local-values-in-a-matrix
 title: Largest Local Values in a Matrix
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

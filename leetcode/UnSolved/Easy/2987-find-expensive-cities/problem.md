@@ -1,11 +1,12 @@
 ---
 id: 2987
+internal_id: 3284
 slug: find-expensive-cities
 title: Find Expensive Cities
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 2987. Find Expensive Cities

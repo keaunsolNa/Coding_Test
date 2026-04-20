@@ -1,5 +1,6 @@
 ---
 id: 1711
+internal_id: 1830
 slug: count-good-meals
 title: Count Good Meals
 difficulty: Medium

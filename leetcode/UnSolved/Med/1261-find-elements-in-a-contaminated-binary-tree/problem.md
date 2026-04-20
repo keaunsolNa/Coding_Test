@@ -1,5 +1,6 @@
 ---
 id: 1261
+internal_id: 1387
 slug: find-elements-in-a-contaminated-binary-tree
 title: Find Elements in a Contaminated Binary Tree
 difficulty: Medium

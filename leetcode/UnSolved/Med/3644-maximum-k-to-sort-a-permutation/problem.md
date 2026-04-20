@@ -1,5 +1,6 @@
 ---
 id: 3644
+internal_id: 3950
 slug: maximum-k-to-sort-a-permutation
 title: Maximum K to Sort a Permutation
 difficulty: Medium

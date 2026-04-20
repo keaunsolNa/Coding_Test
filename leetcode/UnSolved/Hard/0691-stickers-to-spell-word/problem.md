@@ -1,10 +1,11 @@
 ---
 id: 691
+internal_id: 691
 slug: stickers-to-spell-word
 title: Stickers to Spell Word
 difficulty: Hard
 tags: Array, Hash Table, String, Dynamic Programming, Backtracking, Bit Manipulation, Memoization, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

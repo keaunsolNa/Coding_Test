@@ -1,5 +1,6 @@
 ---
 id: 775
+internal_id: 790
 slug: global-and-local-inversions
 title: Global and Local Inversions
 difficulty: Medium

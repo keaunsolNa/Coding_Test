@@ -1,5 +1,6 @@
 ---
 id: 1253
+internal_id: 1379
 slug: reconstruct-a-2-row-binary-matrix
 title: Reconstruct a 2-Row Binary Matrix
 difficulty: Medium

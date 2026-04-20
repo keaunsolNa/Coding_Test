@@ -1,5 +1,6 @@
 ---
 id: 1016
+internal_id: 1065
 slug: binary-string-with-substrings-representing-1-to-n
 title: Binary String With Substrings Representing 1 To N
 difficulty: Medium

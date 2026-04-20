@@ -1,5 +1,6 @@
 ---
 id: 2654
+internal_id: 2753
 slug: minimum-number-of-operations-to-make-all-array-elements-equal-to-1
 title: Minimum Number of Operations to Make All Array Elements Equal to 1
 difficulty: Medium

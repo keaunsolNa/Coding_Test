@@ -1,10 +1,11 @@
 ---
 id: 2612
+internal_id: 2726
 slug: minimum-reverse-operations
 title: Minimum Reverse Operations
 difficulty: Hard
 tags: Array, Hash Table, Breadth-First Search, Union-Find, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

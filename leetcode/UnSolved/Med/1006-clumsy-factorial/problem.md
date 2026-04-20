@@ -1,5 +1,6 @@
 ---
 id: 1006
+internal_id: 1048
 slug: clumsy-factorial
 title: Clumsy Factorial
 difficulty: Medium

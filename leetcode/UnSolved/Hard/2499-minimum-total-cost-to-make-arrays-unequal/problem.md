@@ -1,10 +1,11 @@
 ---
 id: 2499
+internal_id: 2592
 slug: minimum-total-cost-to-make-arrays-unequal
 title: Minimum Total Cost to Make Arrays Unequal
 difficulty: Hard
 tags: Array, Hash Table, Greedy, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

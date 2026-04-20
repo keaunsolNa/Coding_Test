@@ -1,10 +1,11 @@
 ---
 id: 806
+internal_id: 824
 slug: number-of-lines-to-write-string
 title: Number of Lines To Write String
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

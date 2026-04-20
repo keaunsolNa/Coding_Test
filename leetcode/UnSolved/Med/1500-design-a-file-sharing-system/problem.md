@@ -1,5 +1,6 @@
 ---
 id: 1500
+internal_id: 1640
 slug: design-a-file-sharing-system
 title: Design a File Sharing System
 difficulty: Medium

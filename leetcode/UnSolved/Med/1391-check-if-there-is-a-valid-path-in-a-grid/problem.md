@@ -1,5 +1,6 @@
 ---
 id: 1391
+internal_id: 1507
 slug: check-if-there-is-a-valid-path-in-a-grid
 title: Check if There is a Valid Path in a Grid
 difficulty: Medium

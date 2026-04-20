@@ -1,11 +1,12 @@
 ---
 id: 1084
+internal_id: 1174
 slug: sales-analysis-iii
 title: Sales Analysis III
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1084. Sales Analysis III

@@ -1,5 +1,6 @@
 ---
 id: 2168
+internal_id: 2303
 slug: unique-substrings-with-equal-digit-frequency
 title: Unique Substrings With Equal Digit Frequency
 difficulty: Medium

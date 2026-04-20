@@ -1,10 +1,11 @@
 ---
 id: 1213
+internal_id: 1149
 slug: intersection-of-three-sorted-arrays
 title: Intersection of Three Sorted Arrays
 difficulty: Easy
 tags: Array, Hash Table, Binary Search, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

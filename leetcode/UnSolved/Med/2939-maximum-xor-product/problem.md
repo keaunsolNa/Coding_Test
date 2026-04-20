@@ -1,5 +1,6 @@
 ---
 id: 2939
+internal_id: 3192
 slug: maximum-xor-product
 title: Maximum Xor Product
 difficulty: Medium

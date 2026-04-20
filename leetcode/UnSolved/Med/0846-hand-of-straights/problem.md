@@ -1,5 +1,6 @@
 ---
 id: 846
+internal_id: 876
 slug: hand-of-straights
 title: Hand of Straights
 difficulty: Medium

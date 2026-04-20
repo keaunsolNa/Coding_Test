@@ -1,5 +1,6 @@
 ---
 id: 1706
+internal_id: 1324
 slug: where-will-the-ball-fall
 title: Where Will the Ball Fall
 difficulty: Medium

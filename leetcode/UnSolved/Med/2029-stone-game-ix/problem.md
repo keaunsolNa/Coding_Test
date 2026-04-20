@@ -1,5 +1,6 @@
 ---
 id: 2029
+internal_id: 2156
 slug: stone-game-ix
 title: Stone Game IX
 difficulty: Medium

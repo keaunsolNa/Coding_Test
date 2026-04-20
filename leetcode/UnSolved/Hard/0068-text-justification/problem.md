@@ -1,10 +1,11 @@
 ---
 id: 68
+internal_id: 68
 slug: text-justification
 title: Text Justification
 difficulty: Hard
 tags: Array, String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

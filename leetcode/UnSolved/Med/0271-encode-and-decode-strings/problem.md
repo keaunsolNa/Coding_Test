@@ -1,5 +1,6 @@
 ---
 id: 271
+internal_id: 271
 slug: encode-and-decode-strings
 title: Encode and Decode Strings
 difficulty: Medium

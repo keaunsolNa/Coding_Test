@@ -1,10 +1,11 @@
 ---
 id: 42
+internal_id: 42
 slug: trapping-rain-water
 title: Trapping Rain Water
 difficulty: Hard
 tags: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2032
+internal_id: 2159
 slug: two-out-of-three
 title: Two Out of Three
 difficulty: Easy
 tags: Array, Hash Table, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

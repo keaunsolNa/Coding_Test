@@ -1,5 +1,6 @@
 ---
 id: 3612
+internal_id: 3931
 slug: process-string-with-special-operations-i
 title: Process String with Special Operations I
 difficulty: Medium

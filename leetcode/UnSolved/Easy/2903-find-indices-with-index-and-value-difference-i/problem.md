@@ -1,10 +1,11 @@
 ---
 id: 2903
+internal_id: 3165
 slug: find-indices-with-index-and-value-difference-i
 title: Find Indices With Index and Value Difference I
 difficulty: Easy
 tags: Array, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

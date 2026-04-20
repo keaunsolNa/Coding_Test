@@ -1,10 +1,11 @@
 ---
 id: 2236
+internal_id: 2384
 slug: root-equals-sum-of-children
 title: Root Equals Sum of Children
 difficulty: Easy
 tags: Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

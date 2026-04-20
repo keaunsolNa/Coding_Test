@@ -1,10 +1,11 @@
 ---
 id: 2235
+internal_id: 2383
 slug: add-two-integers
 title: Add Two Integers
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

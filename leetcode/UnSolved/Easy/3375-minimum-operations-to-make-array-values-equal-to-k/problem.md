@@ -1,10 +1,11 @@
 ---
 id: 3375
+internal_id: 3621
 slug: minimum-operations-to-make-array-values-equal-to-k
 title: Minimum Operations to Make Array Values Equal to K
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 383
+internal_id: 383
 slug: ransom-note
 title: Ransom Note
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

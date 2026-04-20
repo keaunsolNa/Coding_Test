@@ -1,10 +1,11 @@
 ---
 id: 661
+internal_id: 661
 slug: image-smoother
 title: Image Smoother
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

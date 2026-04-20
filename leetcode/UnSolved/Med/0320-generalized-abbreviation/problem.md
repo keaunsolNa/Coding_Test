@@ -1,5 +1,6 @@
 ---
 id: 320
+internal_id: 320
 slug: generalized-abbreviation
 title: Generalized Abbreviation
 difficulty: Medium

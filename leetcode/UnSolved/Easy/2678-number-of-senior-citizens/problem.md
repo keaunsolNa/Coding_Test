@@ -1,10 +1,11 @@
 ---
 id: 2678
+internal_id: 2727
 slug: number-of-senior-citizens
 title: Number of Senior Citizens
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

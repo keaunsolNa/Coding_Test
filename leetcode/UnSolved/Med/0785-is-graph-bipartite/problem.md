@@ -1,5 +1,6 @@
 ---
 id: 785
+internal_id: 801
 slug: is-graph-bipartite
 title: Is Graph Bipartite?
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2421
+internal_id: 2505
 slug: number-of-good-paths
 title: Number of Good Paths
 difficulty: Hard
 tags: Array, Hash Table, Tree, Union-Find, Graph Theory, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

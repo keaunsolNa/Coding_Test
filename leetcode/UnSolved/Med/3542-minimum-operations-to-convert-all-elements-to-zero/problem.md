@@ -1,5 +1,6 @@
 ---
 id: 3542
+internal_id: 3834
 slug: minimum-operations-to-convert-all-elements-to-zero
 title: Minimum Operations to Convert All Elements to Zero
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2503
+internal_id: 2588
 slug: maximum-number-of-points-from-grid-queries
 title: Maximum Number of Points From Grid Queries
 difficulty: Hard
 tags: Array, Two Pointers, Breadth-First Search, Union-Find, Sorting, Heap (Priority Queue), Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

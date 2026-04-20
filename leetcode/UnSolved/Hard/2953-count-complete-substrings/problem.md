@@ -1,10 +1,11 @@
 ---
 id: 2953
+internal_id: 3223
 slug: count-complete-substrings
 title: Count Complete Substrings
 difficulty: Hard
 tags: Hash Table, String, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

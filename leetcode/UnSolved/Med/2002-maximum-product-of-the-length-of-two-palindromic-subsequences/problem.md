@@ -1,5 +1,6 @@
 ---
 id: 2002
+internal_id: 2130
 slug: maximum-product-of-the-length-of-two-palindromic-subsequences
 title: Maximum Product of the Length of Two Palindromic Subsequences
 difficulty: Medium

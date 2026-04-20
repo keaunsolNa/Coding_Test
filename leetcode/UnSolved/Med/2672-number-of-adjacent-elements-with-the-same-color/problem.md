@@ -1,5 +1,6 @@
 ---
 id: 2672
+internal_id: 2779
 slug: number-of-adjacent-elements-with-the-same-color
 title: Number of Adjacent Elements With the Same Color
 difficulty: Medium

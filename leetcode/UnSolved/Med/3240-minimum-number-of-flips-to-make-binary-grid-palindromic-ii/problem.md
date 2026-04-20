@@ -1,5 +1,6 @@
 ---
 id: 3240
+internal_id: 3524
 slug: minimum-number-of-flips-to-make-binary-grid-palindromic-ii
 title: Minimum Number of Flips to Make Binary Grid Palindromic II
 difficulty: Medium

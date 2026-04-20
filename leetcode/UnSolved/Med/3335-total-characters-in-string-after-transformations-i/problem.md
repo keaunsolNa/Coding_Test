@@ -1,5 +1,6 @@
 ---
 id: 3335
+internal_id: 3629
 slug: total-characters-in-string-after-transformations-i
 title: Total Characters in String After Transformations I
 difficulty: Medium

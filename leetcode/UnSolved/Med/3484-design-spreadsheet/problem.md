@@ -1,5 +1,6 @@
 ---
 id: 3484
+internal_id: 3797
 slug: design-spreadsheet
 title: Design Spreadsheet
 difficulty: Medium

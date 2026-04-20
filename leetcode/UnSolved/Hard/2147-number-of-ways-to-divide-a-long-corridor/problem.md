@@ -1,10 +1,11 @@
 ---
 id: 2147
+internal_id: 2251
 slug: number-of-ways-to-divide-a-long-corridor
 title: Number of Ways to Divide a Long Corridor
 difficulty: Hard
 tags: Math, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 325
+internal_id: 325
 slug: maximum-size-subarray-sum-equals-k
 title: Maximum Size Subarray Sum Equals k
 difficulty: Medium

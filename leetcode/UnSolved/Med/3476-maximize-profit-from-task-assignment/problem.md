@@ -1,5 +1,6 @@
 ---
 id: 3476
+internal_id: 3818
 slug: maximize-profit-from-task-assignment
 title: Maximize Profit from Task Assignment
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 813
+internal_id: 831
 slug: largest-sum-of-averages
 title: Largest Sum of Averages
 difficulty: Medium

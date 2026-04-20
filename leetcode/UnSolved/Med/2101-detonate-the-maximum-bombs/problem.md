@@ -1,5 +1,6 @@
 ---
 id: 2101
+internal_id: 2206
 slug: detonate-the-maximum-bombs
 title: Detonate the Maximum Bombs
 difficulty: Medium

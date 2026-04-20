@@ -1,5 +1,6 @@
 ---
 id: 3730
+internal_id: 4109
 slug: maximum-calories-burnt-from-jumps
 title: Maximum Calories Burnt from Jumps
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3870
+internal_id: 4245
 slug: count-commas-in-range
 title: Count Commas in Range
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

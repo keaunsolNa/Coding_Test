@@ -1,10 +1,11 @@
 ---
 id: 480
+internal_id: 480
 slug: sliding-window-median
 title: Sliding Window Median
 difficulty: Hard
 tags: Array, Hash Table, Sliding Window, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

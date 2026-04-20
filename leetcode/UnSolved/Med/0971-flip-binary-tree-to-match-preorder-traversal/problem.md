@@ -1,5 +1,6 @@
 ---
 id: 971
+internal_id: 1011
 slug: flip-binary-tree-to-match-preorder-traversal
 title: Flip Binary Tree To Match Preorder Traversal
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3676
+internal_id: 4000
 slug: count-bowl-subarrays
 title: Count Bowl Subarrays
 difficulty: Medium

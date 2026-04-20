@@ -1,5 +1,6 @@
 ---
 id: 2250
+internal_id: 2333
 slug: count-number-of-rectangles-containing-each-point
 title: Count Number of Rectangles Containing Each Point
 difficulty: Medium

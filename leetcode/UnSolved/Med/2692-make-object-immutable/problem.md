@@ -1,5 +1,6 @@
 ---
 id: 2692
+internal_id: 2776
 slug: make-object-immutable
 title: Make Object Immutable
 difficulty: Medium

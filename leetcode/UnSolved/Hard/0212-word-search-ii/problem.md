@@ -1,10 +1,11 @@
 ---
 id: 212
+internal_id: 212
 slug: word-search-ii
 title: Word Search II
 difficulty: Hard
 tags: Array, String, Backtracking, Trie, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

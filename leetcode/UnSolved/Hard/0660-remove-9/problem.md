@@ -1,10 +1,11 @@
 ---
 id: 660
+internal_id: 660
 slug: remove-9
 title: Remove 9
 difficulty: Hard
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

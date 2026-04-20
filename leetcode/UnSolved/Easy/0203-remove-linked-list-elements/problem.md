@@ -1,10 +1,11 @@
 ---
 id: 203
+internal_id: 203
 slug: remove-linked-list-elements
 title: Remove Linked List Elements
 difficulty: Easy
 tags: Linked List, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

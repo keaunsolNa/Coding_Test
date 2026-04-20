@@ -1,5 +1,6 @@
 ---
 id: 640
+internal_id: 640
 slug: solve-the-equation
 title: Solve the Equation
 difficulty: Medium

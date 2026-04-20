@@ -1,10 +1,11 @@
 ---
 id: 3392
+internal_id: 3685
 slug: count-subarrays-of-length-three-with-a-condition
 title: Count Subarrays of Length Three With a Condition
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

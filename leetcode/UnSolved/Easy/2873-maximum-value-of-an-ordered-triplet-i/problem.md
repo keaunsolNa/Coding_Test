@@ -1,10 +1,11 @@
 ---
 id: 2873
+internal_id: 3154
 slug: maximum-value-of-an-ordered-triplet-i
 title: Maximum Value of an Ordered Triplet I
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

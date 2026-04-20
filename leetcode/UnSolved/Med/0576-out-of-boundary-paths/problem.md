@@ -1,5 +1,6 @@
 ---
 id: 576
+internal_id: 576
 slug: out-of-boundary-paths
 title: Out of Boundary Paths
 difficulty: Medium

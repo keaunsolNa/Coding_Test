@@ -1,10 +1,11 @@
 ---
 id: 1723
+internal_id: 1825
 slug: find-minimum-time-to-finish-all-jobs
 title: Find Minimum Time to Finish All Jobs
 difficulty: Hard
 tags: Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

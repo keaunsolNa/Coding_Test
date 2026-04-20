@@ -1,5 +1,6 @@
 ---
 id: 159
+internal_id: 159
 slug: longest-substring-with-at-most-two-distinct-characters
 title: Longest Substring with At Most Two Distinct Characters
 difficulty: Medium

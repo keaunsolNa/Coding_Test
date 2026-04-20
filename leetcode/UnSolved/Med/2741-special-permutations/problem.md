@@ -1,5 +1,6 @@
 ---
 id: 2741
+internal_id: 2848
 slug: special-permutations
 title: Special Permutations
 difficulty: Medium

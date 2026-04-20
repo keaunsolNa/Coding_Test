@@ -1,10 +1,11 @@
 ---
 id: 599
+internal_id: 599
 slug: minimum-index-sum-of-two-lists
 title: Minimum Index Sum of Two Lists
 difficulty: Easy
 tags: Array, Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

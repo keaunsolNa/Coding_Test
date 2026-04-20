@@ -1,5 +1,6 @@
 ---
 id: 742
+internal_id: 743
 slug: closest-leaf-in-a-binary-tree
 title: Closest Leaf in a Binary Tree
 difficulty: Medium

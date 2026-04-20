@@ -1,10 +1,11 @@
 ---
 id: 1825
+internal_id: 1953
 slug: finding-mk-average
 title: Finding MK Average
 difficulty: Hard
 tags: Design, Queue, Heap (Priority Queue), Data Stream, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

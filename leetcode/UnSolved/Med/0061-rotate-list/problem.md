@@ -1,5 +1,6 @@
 ---
 id: 61
+internal_id: 61
 slug: rotate-list
 title: Rotate List
 difficulty: Medium

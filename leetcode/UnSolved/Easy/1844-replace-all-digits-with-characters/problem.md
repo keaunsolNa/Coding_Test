@@ -1,10 +1,11 @@
 ---
 id: 1844
+internal_id: 1954
 slug: replace-all-digits-with-characters
 title: Replace All Digits with Characters
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

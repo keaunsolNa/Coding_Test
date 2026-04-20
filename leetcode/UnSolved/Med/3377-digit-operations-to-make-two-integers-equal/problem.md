@@ -1,5 +1,6 @@
 ---
 id: 3377
+internal_id: 3655
 slug: digit-operations-to-make-two-integers-equal
 title: Digit Operations to Make Two Integers Equal
 difficulty: Medium

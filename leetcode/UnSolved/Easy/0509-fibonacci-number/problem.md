@@ -1,10 +1,11 @@
 ---
 id: 509
+internal_id: 1013
 slug: fibonacci-number
 title: Fibonacci Number
 difficulty: Easy
 tags: Math, Dynamic Programming, Recursion, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

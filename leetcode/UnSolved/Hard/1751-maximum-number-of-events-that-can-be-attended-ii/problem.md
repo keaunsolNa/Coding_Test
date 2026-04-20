@@ -1,10 +1,11 @@
 ---
 id: 1751
+internal_id: 1851
 slug: maximum-number-of-events-that-can-be-attended-ii
 title: Maximum Number of Events That Can Be Attended II
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

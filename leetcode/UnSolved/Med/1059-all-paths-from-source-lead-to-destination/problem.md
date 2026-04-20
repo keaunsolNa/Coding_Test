@@ -1,5 +1,6 @@
 ---
 id: 1059
+internal_id: 511
 slug: all-paths-from-source-lead-to-destination
 title: All Paths from Source Lead to Destination
 difficulty: Medium

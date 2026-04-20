@@ -1,10 +1,11 @@
 ---
 id: 3609
+internal_id: 3922
 slug: minimum-moves-to-reach-target-in-grid
 title: Minimum Moves to Reach Target in Grid
 difficulty: Hard
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

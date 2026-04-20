@@ -1,10 +1,11 @@
 ---
 id: 3823
+internal_id: 4200
 slug: reverse-letters-then-special-characters-in-a-string
 title: Reverse Letters Then Special Characters in a String
 difficulty: Easy
 tags: Two Pointers, String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

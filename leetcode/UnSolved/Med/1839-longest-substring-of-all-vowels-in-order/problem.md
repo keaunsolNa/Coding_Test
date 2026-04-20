@@ -1,5 +1,6 @@
 ---
 id: 1839
+internal_id: 1967
 slug: longest-substring-of-all-vowels-in-order
 title: Longest Substring Of All Vowels in Order
 difficulty: Medium

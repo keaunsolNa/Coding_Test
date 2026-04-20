@@ -1,5 +1,6 @@
 ---
 id: 544
+internal_id: 544
 slug: output-contest-matches
 title: Output Contest Matches
 difficulty: Medium

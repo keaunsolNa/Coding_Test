@@ -1,10 +1,11 @@
 ---
 id: 1005
+internal_id: 1047
 slug: maximize-sum-of-array-after-k-negations
 title: Maximize Sum Of Array After K Negations
 difficulty: Easy
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

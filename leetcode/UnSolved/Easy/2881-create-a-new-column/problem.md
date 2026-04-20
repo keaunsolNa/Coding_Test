@@ -1,10 +1,11 @@
 ---
 id: 2881
+internal_id: 3066
 slug: create-a-new-column
 title: Create a New Column
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

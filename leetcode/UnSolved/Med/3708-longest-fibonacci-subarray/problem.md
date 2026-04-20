@@ -1,5 +1,6 @@
 ---
 id: 3708
+internal_id: 4003
 slug: longest-fibonacci-subarray
 title: Longest Fibonacci Subarray
 difficulty: Medium

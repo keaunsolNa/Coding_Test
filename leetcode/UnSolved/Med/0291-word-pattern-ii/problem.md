@@ -1,5 +1,6 @@
 ---
 id: 291
+internal_id: 291
 slug: word-pattern-ii
 title: Word Pattern II
 difficulty: Medium

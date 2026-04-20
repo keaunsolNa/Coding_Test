@@ -1,10 +1,11 @@
 ---
 id: 2608
+internal_id: 2671
 slug: shortest-cycle-in-a-graph
 title: Shortest Cycle in a Graph
 difficulty: Hard
 tags: Breadth-First Search, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

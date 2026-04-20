@@ -1,10 +1,11 @@
 ---
 id: 3842
+internal_id: 4212
 slug: toggle-light-bulbs
 title: Toggle Light Bulbs
 difficulty: Easy
 tags: Array, Hash Table, Sorting, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

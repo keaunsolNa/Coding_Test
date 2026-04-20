@@ -1,5 +1,6 @@
 ---
 id: 3153
+internal_id: 3416
 slug: sum-of-digit-differences-of-all-pairs
 title: Sum of Digit Differences of All Pairs
 difficulty: Medium

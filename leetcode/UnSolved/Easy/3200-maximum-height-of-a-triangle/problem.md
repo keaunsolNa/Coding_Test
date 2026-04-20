@@ -1,10 +1,11 @@
 ---
 id: 3200
+internal_id: 3469
 slug: maximum-height-of-a-triangle
 title: Maximum Height of a Triangle
 difficulty: Easy
 tags: Array, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

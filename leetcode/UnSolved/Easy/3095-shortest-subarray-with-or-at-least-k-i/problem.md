@@ -1,10 +1,11 @@
 ---
 id: 3095
+internal_id: 3381
 slug: shortest-subarray-with-or-at-least-k-i
 title: Shortest Subarray With OR at Least K I
 difficulty: Easy
 tags: Array, Bit Manipulation, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

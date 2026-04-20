@@ -1,11 +1,12 @@
 ---
 id: 1075
+internal_id: 1161
 slug: project-employees-i
 title: Project Employees I
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1075. Project Employees I

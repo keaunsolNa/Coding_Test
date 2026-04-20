@@ -1,10 +1,11 @@
 ---
 id: 3615
+internal_id: 3930
 slug: longest-palindromic-path-in-graph
 title: Longest Palindromic Path in Graph
 difficulty: Hard
 tags: String, Dynamic Programming, Bit Manipulation, Graph Theory, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

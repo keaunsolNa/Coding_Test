@@ -1,5 +1,6 @@
 ---
 id: 1333
+internal_id: 1455
 slug: filter-restaurants-by-vegan-friendly-price-and-distance
 title: Filter Restaurants by Vegan-Friendly, Price and Distance
 difficulty: Medium

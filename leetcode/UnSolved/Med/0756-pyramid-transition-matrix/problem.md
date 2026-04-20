@@ -1,5 +1,6 @@
 ---
 id: 756
+internal_id: 757
 slug: pyramid-transition-matrix
 title: Pyramid Transition Matrix
 difficulty: Medium

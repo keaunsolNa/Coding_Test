@@ -1,5 +1,6 @@
 ---
 id: 1167
+internal_id: 1126
 slug: minimum-cost-to-connect-sticks
 title: Minimum Cost to Connect Sticks
 difficulty: Medium

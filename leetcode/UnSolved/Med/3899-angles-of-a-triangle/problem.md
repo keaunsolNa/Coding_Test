@@ -1,5 +1,6 @@
 ---
 id: 3899
+internal_id: 4266
 slug: angles-of-a-triangle
 title: Angles of a Triangle
 difficulty: Medium

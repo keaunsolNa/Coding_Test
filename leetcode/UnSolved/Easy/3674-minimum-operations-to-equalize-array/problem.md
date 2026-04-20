@@ -1,10 +1,11 @@
 ---
 id: 3674
+internal_id: 3998
 slug: minimum-operations-to-equalize-array
 title: Minimum Operations to Equalize Array
 difficulty: Easy
 tags: Array, Bit Manipulation, Brainteaser
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

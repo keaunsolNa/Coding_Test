@@ -1,5 +1,6 @@
 ---
 id: 2457
+internal_id: 2544
 slug: minimum-addition-to-make-integer-beautiful
 title: Minimum Addition to Make Integer Beautiful
 difficulty: Medium

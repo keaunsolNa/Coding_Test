@@ -1,5 +1,6 @@
 ---
 id: 3556
+internal_id: 3815
 slug: sum-of-largest-prime-substrings
 title: Sum of Largest Prime Substrings
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1130
+internal_id: 1228
 slug: minimum-cost-tree-from-leaf-values
 title: Minimum Cost Tree From Leaf Values
 difficulty: Medium

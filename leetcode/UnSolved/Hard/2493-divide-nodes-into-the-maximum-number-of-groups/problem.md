@@ -1,10 +1,11 @@
 ---
 id: 2493
+internal_id: 2583
 slug: divide-nodes-into-the-maximum-number-of-groups
 title: Divide Nodes Into the Maximum Number of Groups
 difficulty: Hard
 tags: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

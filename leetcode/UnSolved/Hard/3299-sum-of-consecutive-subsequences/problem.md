@@ -1,10 +1,11 @@
 ---
 id: 3299
+internal_id: 3623
 slug: sum-of-consecutive-subsequences
 title: Sum of Consecutive Subsequences
 difficulty: Hard
 tags: Array, Hash Table, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

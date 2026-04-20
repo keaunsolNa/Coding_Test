@@ -1,10 +1,11 @@
 ---
 id: 3417
+internal_id: 3708
 slug: zigzag-grid-traversal-with-skip
 title: Zigzag Grid Traversal With Skip
 difficulty: Easy
 tags: Array, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

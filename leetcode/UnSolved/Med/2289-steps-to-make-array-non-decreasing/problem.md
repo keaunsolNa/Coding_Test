@@ -1,5 +1,6 @@
 ---
 id: 2289
+internal_id: 2374
 slug: steps-to-make-array-non-decreasing
 title: Steps to Make Array Non-decreasing
 difficulty: Medium

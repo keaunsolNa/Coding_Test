@@ -1,10 +1,11 @@
 ---
 id: 2578
+internal_id: 2650
 slug: split-with-minimum-sum
 title: Split With Minimum Sum
 difficulty: Easy
 tags: Math, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2257
+internal_id: 2343
 slug: count-unguarded-cells-in-the-grid
 title: Count Unguarded Cells in the Grid
 difficulty: Medium

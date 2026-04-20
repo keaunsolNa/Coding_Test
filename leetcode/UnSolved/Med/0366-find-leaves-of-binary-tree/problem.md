@@ -1,5 +1,6 @@
 ---
 id: 366
+internal_id: 366
 slug: find-leaves-of-binary-tree
 title: Find Leaves of Binary Tree
 difficulty: Medium

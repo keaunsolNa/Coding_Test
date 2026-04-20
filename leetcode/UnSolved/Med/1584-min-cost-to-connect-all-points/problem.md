@@ -1,5 +1,6 @@
 ---
 id: 1584
+internal_id: 1706
 slug: min-cost-to-connect-all-points
 title: Min Cost to Connect All Points
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3515
+internal_id: 3829
 slug: shortest-path-in-a-weighted-tree
 title: Shortest Path in a Weighted Tree
 difficulty: Hard
 tags: Array, Tree, Depth-First Search, Binary Indexed Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

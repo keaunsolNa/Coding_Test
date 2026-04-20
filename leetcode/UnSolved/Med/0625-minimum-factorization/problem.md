@@ -1,5 +1,6 @@
 ---
 id: 625
+internal_id: 625
 slug: minimum-factorization
 title: Minimum Factorization
 difficulty: Medium

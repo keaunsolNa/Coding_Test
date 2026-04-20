@@ -1,5 +1,6 @@
 ---
 id: 3733
+internal_id: 4048
 slug: minimum-time-to-complete-all-deliveries
 title: Minimum Time to Complete All Deliveries
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 635
+internal_id: 635
 slug: design-log-storage-system
 title: Design Log Storage System
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1901
+internal_id: 2047
 slug: find-a-peak-element-ii
 title: Find a Peak Element II
 difficulty: Medium

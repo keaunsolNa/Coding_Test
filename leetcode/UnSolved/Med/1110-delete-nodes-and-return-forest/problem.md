@@ -1,5 +1,6 @@
 ---
 id: 1110
+internal_id: 1207
 slug: delete-nodes-and-return-forest
 title: Delete Nodes And Return Forest
 difficulty: Medium

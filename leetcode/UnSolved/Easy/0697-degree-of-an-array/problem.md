@@ -1,10 +1,11 @@
 ---
 id: 697
+internal_id: 697
 slug: degree-of-an-array
 title: Degree of an Array
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1903
+internal_id: 2032
 slug: largest-odd-number-in-string
 title: Largest Odd Number in String
 difficulty: Easy
 tags: Math, String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

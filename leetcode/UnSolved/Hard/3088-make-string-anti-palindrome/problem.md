@@ -1,10 +1,11 @@
 ---
 id: 3088
+internal_id: 3393
 slug: make-string-anti-palindrome
 title: Make String Anti-palindrome
 difficulty: Hard
 tags: String, Greedy, Sorting, Counting Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

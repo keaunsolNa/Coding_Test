@@ -1,10 +1,11 @@
 ---
 id: 1523
+internal_id: 1630
 slug: count-odd-numbers-in-an-interval-range
 title: Count Odd Numbers in an Interval Range
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 801
+internal_id: 819
 slug: minimum-swaps-to-make-sequences-increasing
 title: Minimum Swaps To Make Sequences Increasing
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

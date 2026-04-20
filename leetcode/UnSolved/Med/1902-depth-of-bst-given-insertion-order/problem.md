@@ -1,5 +1,6 @@
 ---
 id: 1902
+internal_id: 2052
 slug: depth-of-bst-given-insertion-order
 title: Depth of BST Given Insertion Order
 difficulty: Medium

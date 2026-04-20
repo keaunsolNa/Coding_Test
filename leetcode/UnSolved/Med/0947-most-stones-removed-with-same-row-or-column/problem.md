@@ -1,5 +1,6 @@
 ---
 id: 947
+internal_id: 984
 slug: most-stones-removed-with-same-row-or-column
 title: Most Stones Removed with Same Row or Column
 difficulty: Medium

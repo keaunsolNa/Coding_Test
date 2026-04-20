@@ -1,10 +1,11 @@
 ---
 id: 149
+internal_id: 149
 slug: max-points-on-a-line
 title: Max Points on a Line
 difficulty: Hard
 tags: Array, Hash Table, Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

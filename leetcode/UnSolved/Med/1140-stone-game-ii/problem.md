@@ -1,5 +1,6 @@
 ---
 id: 1140
+internal_id: 1240
 slug: stone-game-ii
 title: Stone Game II
 difficulty: Medium

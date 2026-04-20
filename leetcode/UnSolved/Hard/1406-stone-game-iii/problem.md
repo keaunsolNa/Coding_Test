@@ -1,10 +1,11 @@
 ---
 id: 1406
+internal_id: 1522
 slug: stone-game-iii
 title: Stone Game III
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

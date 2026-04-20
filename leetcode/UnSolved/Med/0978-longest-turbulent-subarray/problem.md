@@ -1,5 +1,6 @@
 ---
 id: 978
+internal_id: 1020
 slug: longest-turbulent-subarray
 title: Longest Turbulent Subarray
 difficulty: Medium

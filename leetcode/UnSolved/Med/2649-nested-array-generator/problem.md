@@ -1,5 +1,6 @@
 ---
 id: 2649
+internal_id: 2783
 slug: nested-array-generator
 title: Nested Array Generator
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 954
+internal_id: 991
 slug: array-of-doubled-pairs
 title: Array of Doubled Pairs
 difficulty: Medium

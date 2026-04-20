@@ -1,10 +1,11 @@
 ---
 id: 3498
+internal_id: 3811
 slug: reverse-degree-of-a-string
 title: Reverse Degree of a String
 difficulty: Easy
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1525
+internal_id: 1632
 slug: number-of-good-ways-to-split-a-string
 title: Number of Good Ways to Split a String
 difficulty: Medium

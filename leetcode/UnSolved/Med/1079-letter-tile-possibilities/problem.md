@@ -1,5 +1,6 @@
 ---
 id: 1079
+internal_id: 1160
 slug: letter-tile-possibilities
 title: Letter Tile Possibilities
 difficulty: Medium

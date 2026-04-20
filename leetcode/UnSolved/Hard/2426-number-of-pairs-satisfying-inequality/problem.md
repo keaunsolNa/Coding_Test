@@ -1,10 +1,11 @@
 ---
 id: 2426
+internal_id: 2513
 slug: number-of-pairs-satisfying-inequality
 title: Number of Pairs Satisfying Inequality
 difficulty: Hard
 tags: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

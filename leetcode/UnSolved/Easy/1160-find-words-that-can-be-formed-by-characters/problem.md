@@ -1,10 +1,11 @@
 ---
 id: 1160
+internal_id: 1112
 slug: find-words-that-can-be-formed-by-characters
 title: Find Words That Can Be Formed by Characters
 difficulty: Easy
 tags: Array, Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

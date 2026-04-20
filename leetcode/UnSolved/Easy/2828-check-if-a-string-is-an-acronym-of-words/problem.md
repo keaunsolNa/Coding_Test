@@ -1,10 +1,11 @@
 ---
 id: 2828
+internal_id: 2977
 slug: check-if-a-string-is-an-acronym-of-words
 title: Check if a String Is an Acronym of Words
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,11 +1,12 @@
 ---
 id: 585
+internal_id: 585
 slug: investments-in-2016
 title: Investments in 2016
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 585. Investments in 2016

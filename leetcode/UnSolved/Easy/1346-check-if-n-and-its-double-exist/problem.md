@@ -1,10 +1,11 @@
 ---
 id: 1346
+internal_id: 1468
 slug: check-if-n-and-its-double-exist
 title: Check If N and Its Double Exist
 difficulty: Easy
 tags: Array, Hash Table, Two Pointers, Binary Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

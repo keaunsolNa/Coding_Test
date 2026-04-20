@@ -1,5 +1,6 @@
 ---
 id: 633
+internal_id: 633
 slug: sum-of-square-numbers
 title: Sum of Square Numbers
 difficulty: Medium

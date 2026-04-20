@@ -1,5 +1,6 @@
 ---
 id: 1503
+internal_id: 1627
 slug: last-moment-before-all-ants-fall-out-of-a-plank
 title: Last Moment Before All Ants Fall Out of a Plank
 difficulty: Medium

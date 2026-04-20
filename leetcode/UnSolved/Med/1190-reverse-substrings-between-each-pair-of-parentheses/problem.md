@@ -1,5 +1,6 @@
 ---
 id: 1190
+internal_id: 1298
 slug: reverse-substrings-between-each-pair-of-parentheses
 title: Reverse Substrings Between Each Pair of Parentheses
 difficulty: Medium

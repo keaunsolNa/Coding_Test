@@ -1,5 +1,6 @@
 ---
 id: 2517
+internal_id: 2600
 slug: maximum-tastiness-of-candy-basket
 title: Maximum Tastiness of Candy Basket
 difficulty: Medium

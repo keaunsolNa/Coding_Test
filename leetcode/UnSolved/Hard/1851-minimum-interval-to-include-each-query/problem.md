@@ -1,10 +1,11 @@
 ---
 id: 1851
+internal_id: 1977
 slug: minimum-interval-to-include-each-query
 title: Minimum Interval to Include Each Query
 difficulty: Hard
 tags: Array, Binary Search, Sweep Line, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 451
+internal_id: 451
 slug: sort-characters-by-frequency
 title: Sort Characters By Frequency
 difficulty: Medium

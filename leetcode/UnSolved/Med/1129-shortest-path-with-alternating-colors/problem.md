@@ -1,5 +1,6 @@
 ---
 id: 1129
+internal_id: 1229
 slug: shortest-path-with-alternating-colors
 title: Shortest Path with Alternating Colors
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1585
+internal_id: 1707
 slug: check-if-string-is-transformable-with-substring-sort-operations
 title: Check If String Is Transformable With Substring Sort Operations
 difficulty: Hard
 tags: String, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

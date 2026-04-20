@@ -1,10 +1,11 @@
 ---
 id: 1857
+internal_id: 1986
 slug: largest-color-value-in-a-directed-graph
 title: Largest Color Value in a Directed Graph
 difficulty: Hard
 tags: Hash Table, String, Dynamic Programming, Graph Theory, Topological Sort, Memoization, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

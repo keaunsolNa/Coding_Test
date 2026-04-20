@@ -1,5 +1,6 @@
 ---
 id: 3394
+internal_id: 3657
 slug: check-if-grid-can-be-cut-into-sections
 title: Check if Grid can be Cut into Sections
 difficulty: Medium

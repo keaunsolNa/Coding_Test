@@ -1,10 +1,11 @@
 ---
 id: 3501
+internal_id: 3804
 slug: maximize-active-section-with-trade-ii
 title: Maximize Active Section with Trade II
 difficulty: Hard
 tags: Array, String, Binary Search, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

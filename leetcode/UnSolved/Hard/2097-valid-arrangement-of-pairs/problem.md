@@ -1,10 +1,11 @@
 ---
 id: 2097
+internal_id: 2201
 slug: valid-arrangement-of-pairs
 title: Valid Arrangement of Pairs
 difficulty: Hard
 tags: Array, Depth-First Search, Graph Theory, Eulerian Circuit
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

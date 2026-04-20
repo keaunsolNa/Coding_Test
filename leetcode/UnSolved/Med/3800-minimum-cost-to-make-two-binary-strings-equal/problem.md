@@ -1,5 +1,6 @@
 ---
 id: 3800
+internal_id: 4156
 slug: minimum-cost-to-make-two-binary-strings-equal
 title: Minimum Cost to Make Two Binary Strings Equal
 difficulty: Medium

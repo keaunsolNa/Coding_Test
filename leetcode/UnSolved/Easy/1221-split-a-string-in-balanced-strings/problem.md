@@ -1,10 +1,11 @@
 ---
 id: 1221
+internal_id: 1341
 slug: split-a-string-in-balanced-strings
 title: Split a String in Balanced Strings
 difficulty: Easy
 tags: String, Greedy, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 82
+internal_id: 82
 slug: remove-duplicates-from-sorted-list-ii
 title: Remove Duplicates from Sorted List II
 difficulty: Medium

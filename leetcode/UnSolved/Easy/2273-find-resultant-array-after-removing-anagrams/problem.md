@@ -1,10 +1,11 @@
 ---
 id: 2273
+internal_id: 1353
 slug: find-resultant-array-after-removing-anagrams
 title: Find Resultant Array After Removing Anagrams
 difficulty: Easy
 tags: Array, Hash Table, String, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

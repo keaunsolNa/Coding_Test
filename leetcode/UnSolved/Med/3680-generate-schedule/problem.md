@@ -1,5 +1,6 @@
 ---
 id: 3680
+internal_id: 3991
 slug: generate-schedule
 title: Generate Schedule
 difficulty: Medium

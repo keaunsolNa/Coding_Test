@@ -1,5 +1,6 @@
 ---
 id: 3645
+internal_id: 3959
 slug: maximum-total-from-optimal-activation-order
 title: Maximum Total from Optimal Activation Order
 difficulty: Medium

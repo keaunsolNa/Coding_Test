@@ -1,5 +1,6 @@
 ---
 id: 1946
+internal_id: 2077
 slug: largest-number-after-mutating-substring
 title: Largest Number After Mutating Substring
 difficulty: Medium

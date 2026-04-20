@@ -1,5 +1,6 @@
 ---
 id: 789
+internal_id: 805
 slug: escape-the-ghosts
 title: Escape The Ghosts
 difficulty: Medium

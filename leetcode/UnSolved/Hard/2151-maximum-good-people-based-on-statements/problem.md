@@ -1,10 +1,11 @@
 ---
 id: 2151
+internal_id: 2272
 slug: maximum-good-people-based-on-statements
 title: Maximum Good People Based on Statements
 difficulty: Hard
 tags: Array, Backtracking, Bit Manipulation, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

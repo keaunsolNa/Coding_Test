@@ -1,5 +1,6 @@
 ---
 id: 1432
+internal_id: 1529
 slug: max-difference-you-can-get-from-changing-an-integer
 title: Max Difference You Can Get From Changing an Integer
 difficulty: Medium

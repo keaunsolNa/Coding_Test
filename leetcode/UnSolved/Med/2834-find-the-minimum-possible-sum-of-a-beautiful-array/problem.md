@@ -1,5 +1,6 @@
 ---
 id: 2834
+internal_id: 3026
 slug: find-the-minimum-possible-sum-of-a-beautiful-array
 title: Find the Minimum Possible Sum of a Beautiful Array
 difficulty: Medium

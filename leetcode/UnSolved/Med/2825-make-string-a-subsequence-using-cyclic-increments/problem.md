@@ -1,5 +1,6 @@
 ---
 id: 2825
+internal_id: 3018
 slug: make-string-a-subsequence-using-cyclic-increments
 title: Make String a Subsequence Using Cyclic Increments
 difficulty: Medium

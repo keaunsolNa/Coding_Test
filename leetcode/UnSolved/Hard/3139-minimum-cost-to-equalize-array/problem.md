@@ -1,10 +1,11 @@
 ---
 id: 3139
+internal_id: 3402
 slug: minimum-cost-to-equalize-array
 title: Minimum Cost to Equalize Array
 difficulty: Hard
 tags: Array, Greedy, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

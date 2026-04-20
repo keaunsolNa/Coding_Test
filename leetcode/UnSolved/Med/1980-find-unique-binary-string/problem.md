@@ -1,5 +1,6 @@
 ---
 id: 1980
+internal_id: 2107
 slug: find-unique-binary-string
 title: Find Unique Binary String
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1531
+internal_id: 1637
 slug: string-compression-ii
 title: String Compression II
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

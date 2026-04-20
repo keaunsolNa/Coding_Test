@@ -1,5 +1,6 @@
 ---
 id: 714
+internal_id: 714
 slug: best-time-to-buy-and-sell-stock-with-transaction-fee
 title: Best Time to Buy and Sell Stock with Transaction Fee
 difficulty: Medium

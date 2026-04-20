@@ -1,10 +1,11 @@
 ---
 id: 440
+internal_id: 440
 slug: k-th-smallest-in-lexicographical-order
 title: K-th Smallest in Lexicographical Order
 difficulty: Hard
 tags: Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

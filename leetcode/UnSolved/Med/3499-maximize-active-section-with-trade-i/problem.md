@@ -1,5 +1,6 @@
 ---
 id: 3499
+internal_id: 3805
 slug: maximize-active-section-with-trade-i
 title: Maximize Active Section with Trade I
 difficulty: Medium

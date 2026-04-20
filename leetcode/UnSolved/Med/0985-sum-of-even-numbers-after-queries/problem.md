@@ -1,5 +1,6 @@
 ---
 id: 985
+internal_id: 1027
 slug: sum-of-even-numbers-after-queries
 title: Sum of Even Numbers After Queries
 difficulty: Medium

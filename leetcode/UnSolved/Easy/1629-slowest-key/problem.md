@@ -1,10 +1,11 @@
 ---
 id: 1629
+internal_id: 1751
 slug: slowest-key
 title: Slowest Key
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

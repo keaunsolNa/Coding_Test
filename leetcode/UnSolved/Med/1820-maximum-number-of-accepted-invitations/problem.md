@@ -1,5 +1,6 @@
 ---
 id: 1820
+internal_id: 1969
 slug: maximum-number-of-accepted-invitations
 title: Maximum Number of Accepted Invitations
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1218
+internal_id: 1330
 slug: longest-arithmetic-subsequence-of-given-difference
 title: Longest Arithmetic Subsequence of Given Difference
 difficulty: Medium

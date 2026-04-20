@@ -1,10 +1,11 @@
 ---
 id: 3726
+internal_id: 4051
 slug: remove-zeros-in-decimal-representation
 title: Remove Zeros in Decimal Representation
 difficulty: Easy
 tags: Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

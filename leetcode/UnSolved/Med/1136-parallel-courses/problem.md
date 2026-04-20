@@ -1,5 +1,6 @@
 ---
 id: 1136
+internal_id: 1101
 slug: parallel-courses
 title: Parallel Courses
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2706
+internal_id: 2756
 slug: buy-two-chocolates
 title: Buy Two Chocolates
 difficulty: Easy
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

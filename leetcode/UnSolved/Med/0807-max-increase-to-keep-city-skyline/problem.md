@@ -1,5 +1,6 @@
 ---
 id: 807
+internal_id: 825
 slug: max-increase-to-keep-city-skyline
 title: Max Increase to Keep City Skyline
 difficulty: Medium

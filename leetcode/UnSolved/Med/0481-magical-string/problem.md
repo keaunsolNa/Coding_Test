@@ -1,5 +1,6 @@
 ---
 id: 481
+internal_id: 481
 slug: magical-string
 title: Magical String
 difficulty: Medium

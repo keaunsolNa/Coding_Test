@@ -1,5 +1,6 @@
 ---
 id: 3237
+internal_id: 3538
 slug: alt-and-tab-simulation
 title: Alt and Tab Simulation
 difficulty: Medium

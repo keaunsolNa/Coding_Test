@@ -1,5 +1,6 @@
 ---
 id: 3728
+internal_id: 4083
 slug: stable-subarrays-with-equal-boundary-and-interior-sum
 title: Stable Subarrays With Equal Boundary and Interior Sum
 difficulty: Medium

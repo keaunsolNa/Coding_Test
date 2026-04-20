@@ -1,10 +1,11 @@
 ---
 id: 867
+internal_id: 898
 slug: transpose-matrix
 title: Transpose Matrix
 difficulty: Easy
 tags: Array, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

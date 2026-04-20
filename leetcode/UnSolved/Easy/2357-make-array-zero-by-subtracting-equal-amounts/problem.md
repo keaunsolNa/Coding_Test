@@ -1,10 +1,11 @@
 ---
 id: 2357
+internal_id: 2436
 slug: make-array-zero-by-subtracting-equal-amounts
 title: Make Array Zero by Subtracting Equal Amounts
 difficulty: Easy
 tags: Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

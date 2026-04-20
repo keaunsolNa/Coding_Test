@@ -1,10 +1,11 @@
 ---
 id: 703
+internal_id: 789
 slug: kth-largest-element-in-a-stream
 title: Kth Largest Element in a Stream
 difficulty: Easy
 tags: Tree, Design, Binary Search Tree, Heap (Priority Queue), Binary Tree, Data Stream
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

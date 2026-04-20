@@ -1,10 +1,11 @@
 ---
 id: 3480
+internal_id: 3789
 slug: maximize-subarrays-after-removing-one-conflicting-pair
 title: Maximize Subarrays After Removing One Conflicting Pair
 difficulty: Hard
 tags: Array, Segment Tree, Enumeration, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

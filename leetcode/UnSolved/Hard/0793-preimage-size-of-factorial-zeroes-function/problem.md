@@ -1,10 +1,11 @@
 ---
 id: 793
+internal_id: 809
 slug: preimage-size-of-factorial-zeroes-function
 title: Preimage Size of Factorial Zeroes Function
 difficulty: Hard
 tags: Math, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 277
+internal_id: 277
 slug: find-the-celebrity
 title: Find the Celebrity
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 83
+internal_id: 83
 slug: remove-duplicates-from-sorted-list
 title: Remove Duplicates from Sorted List
 difficulty: Easy
 tags: Linked List
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

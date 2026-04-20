@@ -1,5 +1,6 @@
 ---
 id: 1156
+internal_id: 1261
 slug: swap-for-longest-repeated-character-substring
 title: Swap For Longest Repeated Character Substring
 difficulty: Medium

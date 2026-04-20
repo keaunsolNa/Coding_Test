@@ -1,5 +1,6 @@
 ---
 id: 3196
+internal_id: 3464
 slug: maximize-total-cost-of-alternating-subarrays
 title: Maximize Total Cost of Alternating Subarrays
 difficulty: Medium

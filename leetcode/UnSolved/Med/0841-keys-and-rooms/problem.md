@@ -1,5 +1,6 @@
 ---
 id: 841
+internal_id: 871
 slug: keys-and-rooms
 title: Keys and Rooms
 difficulty: Medium

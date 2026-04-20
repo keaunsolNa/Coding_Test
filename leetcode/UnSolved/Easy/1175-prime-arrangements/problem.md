@@ -1,10 +1,11 @@
 ---
 id: 1175
+internal_id: 1279
 slug: prime-arrangements
 title: Prime Arrangements
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

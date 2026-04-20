@@ -1,10 +1,11 @@
 ---
 id: 2565
+internal_id: 2701
 slug: subsequence-with-the-minimum-score
 title: Subsequence With the Minimum Score
 difficulty: Hard
 tags: Two Pointers, String, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

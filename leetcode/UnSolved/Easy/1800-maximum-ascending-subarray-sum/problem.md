@@ -1,10 +1,11 @@
 ---
 id: 1800
+internal_id: 1927
 slug: maximum-ascending-subarray-sum
 title: Maximum Ascending Subarray Sum
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

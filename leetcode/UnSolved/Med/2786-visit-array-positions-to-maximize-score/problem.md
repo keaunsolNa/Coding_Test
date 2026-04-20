@@ -1,5 +1,6 @@
 ---
 id: 2786
+internal_id: 2893
 slug: visit-array-positions-to-maximize-score
 title: Visit Array Positions to Maximize Score
 difficulty: Medium

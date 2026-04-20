@@ -1,5 +1,6 @@
 ---
 id: 3543
+internal_id: 3856
 slug: maximum-weighted-k-edge-path
 title: Maximum Weighted K-Edge Path
 difficulty: Medium

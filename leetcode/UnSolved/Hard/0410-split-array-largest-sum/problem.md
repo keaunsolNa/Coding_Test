@@ -1,10 +1,11 @@
 ---
 id: 410
+internal_id: 410
 slug: split-array-largest-sum
 title: Split Array Largest Sum
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Greedy, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 250
+internal_id: 250
 slug: count-univalue-subtrees
 title: Count Univalue Subtrees
 difficulty: Medium

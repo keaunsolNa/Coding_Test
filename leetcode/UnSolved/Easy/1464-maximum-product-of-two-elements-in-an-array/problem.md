@@ -1,10 +1,11 @@
 ---
 id: 1464
+internal_id: 1574
 slug: maximum-product-of-two-elements-in-an-array
 title: Maximum Product of Two Elements in an Array
 difficulty: Easy
 tags: Array, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

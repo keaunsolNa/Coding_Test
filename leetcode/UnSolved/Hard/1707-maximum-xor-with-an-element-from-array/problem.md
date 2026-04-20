@@ -1,10 +1,11 @@
 ---
 id: 1707
+internal_id: 1826
 slug: maximum-xor-with-an-element-from-array
 title: Maximum XOR With an Element From Array
 difficulty: Hard
 tags: Array, Bit Manipulation, Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3244
+internal_id: 3514
 slug: shortest-distance-after-road-addition-queries-ii
 title: Shortest Distance After Road Addition Queries II
 difficulty: Hard
 tags: Array, Greedy, Graph Theory, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

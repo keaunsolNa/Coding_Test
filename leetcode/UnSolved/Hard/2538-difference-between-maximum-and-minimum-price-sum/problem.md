@@ -1,10 +1,11 @@
 ---
 id: 2538
+internal_id: 2627
 slug: difference-between-maximum-and-minimum-price-sum
 title: Difference Between Maximum and Minimum Price Sum
 difficulty: Hard
 tags: Array, Dynamic Programming, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

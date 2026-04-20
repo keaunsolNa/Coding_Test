@@ -1,10 +1,11 @@
 ---
 id: 3740
+internal_id: 4115
 slug: minimum-distance-between-three-equal-elements-i
 title: Minimum Distance Between Three Equal Elements I
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

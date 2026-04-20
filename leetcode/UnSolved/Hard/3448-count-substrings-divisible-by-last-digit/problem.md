@@ -1,10 +1,11 @@
 ---
 id: 3448
+internal_id: 3696
 slug: count-substrings-divisible-by-last-digit
 title: Count Substrings Divisible By Last Digit
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

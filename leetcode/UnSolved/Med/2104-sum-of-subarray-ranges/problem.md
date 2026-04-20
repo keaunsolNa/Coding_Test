@@ -1,5 +1,6 @@
 ---
 id: 2104
+internal_id: 2227
 slug: sum-of-subarray-ranges
 title: Sum of Subarray Ranges
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3795
+internal_id: 4152
 slug: minimum-subarray-length-with-distinct-sum-at-least-k
 title: Minimum Subarray Length With Distinct Sum At Least K
 difficulty: Medium

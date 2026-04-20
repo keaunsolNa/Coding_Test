@@ -1,10 +1,11 @@
 ---
 id: 1475
+internal_id: 1570
 slug: final-prices-with-a-special-discount-in-a-shop
 title: Final Prices With a Special Discount in a Shop
 difficulty: Easy
 tags: Array, Stack, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

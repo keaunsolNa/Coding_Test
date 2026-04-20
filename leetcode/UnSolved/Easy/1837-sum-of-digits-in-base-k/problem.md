@@ -1,10 +1,11 @@
 ---
 id: 1837
+internal_id: 1965
 slug: sum-of-digits-in-base-k
 title: Sum of Digits in Base K
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

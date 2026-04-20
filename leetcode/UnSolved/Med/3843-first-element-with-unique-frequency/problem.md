@@ -1,5 +1,6 @@
 ---
 id: 3843
+internal_id: 4217
 slug: first-element-with-unique-frequency
 title: First Element with Unique Frequency
 difficulty: Medium

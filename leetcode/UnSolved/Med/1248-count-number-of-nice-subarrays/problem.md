@@ -1,5 +1,6 @@
 ---
 id: 1248
+internal_id: 1370
 slug: count-number-of-nice-subarrays
 title: Count Number of Nice Subarrays
 difficulty: Medium

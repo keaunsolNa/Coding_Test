@@ -1,5 +1,6 @@
 ---
 id: 3331
+internal_id: 3576
 slug: find-subtree-sizes-after-changes
 title: Find Subtree Sizes After Changes
 difficulty: Medium

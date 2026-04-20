@@ -1,10 +1,11 @@
 ---
 id: 282
+internal_id: 282
 slug: expression-add-operators
 title: Expression Add Operators
 difficulty: Hard
 tags: Math, String, Backtracking
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

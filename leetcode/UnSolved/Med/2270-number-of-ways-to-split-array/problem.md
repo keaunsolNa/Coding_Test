@@ -1,5 +1,6 @@
 ---
 id: 2270
+internal_id: 2358
 slug: number-of-ways-to-split-array
 title: Number of Ways to Split Array
 difficulty: Medium

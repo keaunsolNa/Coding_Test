@@ -1,10 +1,11 @@
 ---
 id: 26
+internal_id: 26
 slug: remove-duplicates-from-sorted-array
 title: Remove Duplicates from Sorted Array
 difficulty: Easy
 tags: Array, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

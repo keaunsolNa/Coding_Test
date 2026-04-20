@@ -1,5 +1,6 @@
 ---
 id: 2567
+internal_id: 2706
 slug: minimum-score-by-changing-two-elements
 title: Minimum Score by Changing Two Elements
 difficulty: Medium

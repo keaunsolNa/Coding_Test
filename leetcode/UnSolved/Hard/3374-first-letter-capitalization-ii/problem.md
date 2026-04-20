@@ -1,11 +1,12 @@
 ---
 id: 3374
+internal_id: 3711
 slug: first-letter-capitalization-ii
 title: First Letter Capitalization II
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 3374. First Letter Capitalization II

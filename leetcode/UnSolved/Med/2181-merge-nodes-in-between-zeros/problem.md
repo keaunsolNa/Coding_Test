@@ -1,5 +1,6 @@
 ---
 id: 2181
+internal_id: 2299
 slug: merge-nodes-in-between-zeros
 title: Merge Nodes in Between Zeros
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2201
+internal_id: 1312
 slug: count-artifacts-that-can-be-extracted
 title: Count Artifacts That Can Be Extracted
 difficulty: Medium

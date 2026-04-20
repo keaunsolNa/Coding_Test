@@ -1,10 +1,11 @@
 ---
 id: 1876
+internal_id: 1987
 slug: substrings-of-size-three-with-distinct-characters
 title: Substrings of Size Three with Distinct Characters
 difficulty: Easy
 tags: Hash Table, String, Sliding Window, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

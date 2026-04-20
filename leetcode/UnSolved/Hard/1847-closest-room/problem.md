@@ -1,10 +1,11 @@
 ---
 id: 1847
+internal_id: 1957
 slug: closest-room
 title: Closest Room
 difficulty: Hard
 tags: Array, Binary Search, Sorting, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3202
+internal_id: 3491
 slug: find-the-maximum-length-of-valid-subsequence-ii
 title: Find the Maximum Length of Valid Subsequence II
 difficulty: Medium

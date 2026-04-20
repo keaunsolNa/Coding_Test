@@ -1,5 +1,6 @@
 ---
 id: 2638
+internal_id: 2738
 slug: count-the-number-of-k-free-subsets
 title: Count the Number of K-Free Subsets
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2208
+internal_id: 2310
 slug: minimum-operations-to-halve-array-sum
 title: Minimum Operations to Halve Array Sum
 difficulty: Medium

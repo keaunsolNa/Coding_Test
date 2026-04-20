@@ -1,5 +1,6 @@
 ---
 id: 2495
+internal_id: 2638
 slug: number-of-subarrays-having-even-product
 title: Number of Subarrays Having Even Product
 difficulty: Medium

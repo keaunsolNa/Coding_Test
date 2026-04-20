@@ -1,5 +1,6 @@
 ---
 id: 2295
+internal_id: 2388
 slug: replace-elements-in-an-array
 title: Replace Elements in an Array
 difficulty: Medium

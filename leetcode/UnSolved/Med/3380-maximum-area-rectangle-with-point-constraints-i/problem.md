@@ -1,5 +1,6 @@
 ---
 id: 3380
+internal_id: 3681
 slug: maximum-area-rectangle-with-point-constraints-i
 title: Maximum Area Rectangle With Point Constraints I
 difficulty: Medium

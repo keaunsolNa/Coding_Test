@@ -1,11 +1,12 @@
 ---
 id: 3051
+internal_id: 3256
 slug: find-candidates-for-data-scientist-position
 title: Find Candidates for Data Scientist Position
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 3051. Find Candidates for Data Scientist Position

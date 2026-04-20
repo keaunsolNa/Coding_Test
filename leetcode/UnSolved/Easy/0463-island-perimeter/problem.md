@@ -1,10 +1,11 @@
 ---
 id: 463
+internal_id: 463
 slug: island-perimeter
 title: Island Perimeter
 difficulty: Easy
 tags: Array, Depth-First Search, Breadth-First Search, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2364
+internal_id: 2448
 slug: count-number-of-bad-pairs
 title: Count Number of Bad Pairs
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2605
+internal_id: 2668
 slug: form-smallest-number-from-two-digit-arrays
 title: Form Smallest Number From Two Digit Arrays
 difficulty: Easy
 tags: Array, Hash Table, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

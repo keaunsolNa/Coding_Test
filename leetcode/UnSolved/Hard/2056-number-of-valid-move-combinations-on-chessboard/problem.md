@@ -1,10 +1,11 @@
 ---
 id: 2056
+internal_id: 2166
 slug: number-of-valid-move-combinations-on-chessboard
 title: Number of Valid Move Combinations On Chessboard
 difficulty: Hard
 tags: Array, String, Backtracking, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1922
+internal_id: 2050
 slug: count-good-numbers
 title: Count Good Numbers
 difficulty: Medium

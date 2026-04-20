@@ -1,5 +1,6 @@
 ---
 id: 1806
+internal_id: 1935
 slug: minimum-number-of-operations-to-reinitialize-a-permutation
 title: Minimum Number of Operations to Reinitialize a Permutation
 difficulty: Medium

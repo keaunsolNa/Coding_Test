@@ -1,5 +1,6 @@
 ---
 id: 2708
+internal_id: 2754
 slug: maximum-strength-of-a-group
 title: Maximum Strength of a Group
 difficulty: Medium

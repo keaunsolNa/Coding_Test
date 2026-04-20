@@ -1,5 +1,6 @@
 ---
 id: 769
+internal_id: 780
 slug: max-chunks-to-make-sorted
 title: Max Chunks To Make Sorted
 difficulty: Medium

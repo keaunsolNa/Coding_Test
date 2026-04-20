@@ -1,10 +1,11 @@
 ---
 id: 936
+internal_id: 973
 slug: stamping-the-sequence
 title: Stamping The Sequence
 difficulty: Hard
 tags: String, Stack, Greedy, Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

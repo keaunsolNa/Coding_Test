@@ -1,5 +1,6 @@
 ---
 id: 2337
+internal_id: 2414
 slug: move-pieces-to-obtain-a-string
 title: Move Pieces to Obtain a String
 difficulty: Medium

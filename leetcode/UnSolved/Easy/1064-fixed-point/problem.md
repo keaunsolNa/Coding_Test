@@ -1,10 +1,11 @@
 ---
 id: 1064
+internal_id: 1066
 slug: fixed-point
 title: Fixed Point
 difficulty: Easy
 tags: Array, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3620
+internal_id: 3919
 slug: network-recovery-pathways
 title: Network Recovery Pathways
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Graph Theory, Topological Sort, Heap (Priority Queue), Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

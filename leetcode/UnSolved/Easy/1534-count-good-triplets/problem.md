@@ -1,10 +1,11 @@
 ---
 id: 1534
+internal_id: 1656
 slug: count-good-triplets
 title: Count Good Triplets
 difficulty: Easy
 tags: Array, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

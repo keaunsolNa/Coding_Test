@@ -1,10 +1,11 @@
 ---
 id: 1941
+internal_id: 2053
 slug: check-if-all-characters-have-equal-number-of-occurrences
 title: Check if All Characters Have Equal Number of Occurrences
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

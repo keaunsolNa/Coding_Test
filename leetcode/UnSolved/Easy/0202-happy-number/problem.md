@@ -1,10 +1,11 @@
 ---
 id: 202
+internal_id: 202
 slug: happy-number
 title: Happy Number
 difficulty: Easy
 tags: Hash Table, Math, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

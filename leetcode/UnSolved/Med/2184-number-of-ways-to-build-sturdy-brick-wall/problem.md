@@ -1,5 +1,6 @@
 ---
 id: 2184
+internal_id: 2322
 slug: number-of-ways-to-build-sturdy-brick-wall
 title: Number of Ways to Build Sturdy Brick Wall
 difficulty: Medium

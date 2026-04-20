@@ -1,5 +1,6 @@
 ---
 id: 467
+internal_id: 467
 slug: unique-substrings-in-wraparound-string
 title: Unique Substrings in Wraparound String
 difficulty: Medium

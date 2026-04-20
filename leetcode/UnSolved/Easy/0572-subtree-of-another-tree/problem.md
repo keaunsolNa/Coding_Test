@@ -1,10 +1,11 @@
 ---
 id: 572
+internal_id: 572
 slug: subtree-of-another-tree
 title: Subtree of Another Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, String Matching, Binary Tree, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

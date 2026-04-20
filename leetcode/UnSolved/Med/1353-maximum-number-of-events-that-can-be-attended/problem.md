@@ -1,5 +1,6 @@
 ---
 id: 1353
+internal_id: 1478
 slug: maximum-number-of-events-that-can-be-attended
 title: Maximum Number of Events That Can Be Attended
 difficulty: Medium

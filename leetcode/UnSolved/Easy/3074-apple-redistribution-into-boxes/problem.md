@@ -1,10 +1,11 @@
 ---
 id: 3074
+internal_id: 3334
 slug: apple-redistribution-into-boxes
 title: Apple Redistribution into Boxes
 difficulty: Easy
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

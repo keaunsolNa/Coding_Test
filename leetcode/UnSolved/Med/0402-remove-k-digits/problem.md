@@ -1,5 +1,6 @@
 ---
 id: 402
+internal_id: 402
 slug: remove-k-digits
 title: Remove K Digits
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 289
+internal_id: 289
 slug: game-of-life
 title: Game of Life
 difficulty: Medium

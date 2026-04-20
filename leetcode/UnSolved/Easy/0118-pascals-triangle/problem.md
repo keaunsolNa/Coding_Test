@@ -1,10 +1,11 @@
 ---
 id: 118
+internal_id: 118
 slug: pascals-triangle
 title: Pascal's Triangle
 difficulty: Easy
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1932
+internal_id: 2060
 slug: merge-bsts-to-create-single-bst
 title: Merge BSTs to Create Single BST
 difficulty: Hard
 tags: Array, Hash Table, Tree, Depth-First Search, Binary Search Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

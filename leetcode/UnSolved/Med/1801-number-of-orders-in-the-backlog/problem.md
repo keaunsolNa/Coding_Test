@@ -1,5 +1,6 @@
 ---
 id: 1801
+internal_id: 1928
 slug: number-of-orders-in-the-backlog
 title: Number of Orders in the Backlog
 difficulty: Medium

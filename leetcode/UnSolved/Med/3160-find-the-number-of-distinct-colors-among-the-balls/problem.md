@@ -1,5 +1,6 @@
 ---
 id: 3160
+internal_id: 3434
 slug: find-the-number-of-distinct-colors-among-the-balls
 title: Find the Number of Distinct Colors Among the Balls
 difficulty: Medium

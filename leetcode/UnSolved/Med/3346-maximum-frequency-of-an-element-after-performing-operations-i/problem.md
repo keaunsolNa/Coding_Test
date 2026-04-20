@@ -1,5 +1,6 @@
 ---
 id: 3346
+internal_id: 3622
 slug: maximum-frequency-of-an-element-after-performing-operations-i
 title: Maximum Frequency of an Element After Performing Operations I
 difficulty: Medium

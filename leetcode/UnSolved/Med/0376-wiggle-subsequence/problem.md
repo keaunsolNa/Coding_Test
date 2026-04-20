@@ -1,5 +1,6 @@
 ---
 id: 376
+internal_id: 376
 slug: wiggle-subsequence
 title: Wiggle Subsequence
 difficulty: Medium

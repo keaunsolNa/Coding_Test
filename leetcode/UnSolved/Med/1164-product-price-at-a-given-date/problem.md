@@ -1,11 +1,12 @@
 ---
 id: 1164
+internal_id: 1278
 slug: product-price-at-a-given-date
 title: Product Price at a Given Date
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1164. Product Price at a Given Date

@@ -1,5 +1,6 @@
 ---
 id: 2271
+internal_id: 2359
 slug: maximum-white-tiles-covered-by-a-carpet
 title: Maximum White Tiles Covered by a Carpet
 difficulty: Medium

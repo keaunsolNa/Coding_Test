@@ -1,5 +1,6 @@
 ---
 id: 2095
+internal_id: 2216
 slug: delete-the-middle-node-of-a-linked-list
 title: Delete the Middle Node of a Linked List
 difficulty: Medium

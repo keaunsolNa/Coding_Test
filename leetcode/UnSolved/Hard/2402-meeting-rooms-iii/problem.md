@@ -1,10 +1,11 @@
 ---
 id: 2402
+internal_id: 2479
 slug: meeting-rooms-iii
 title: Meeting Rooms III
 difficulty: Hard
 tags: Array, Hash Table, Sorting, Heap (Priority Queue), Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

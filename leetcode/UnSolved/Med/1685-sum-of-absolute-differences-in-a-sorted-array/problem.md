@@ -1,5 +1,6 @@
 ---
 id: 1685
+internal_id: 1787
 slug: sum-of-absolute-differences-in-a-sorted-array
 title: Sum of Absolute Differences in a Sorted Array
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1458
+internal_id: 1569
 slug: max-dot-product-of-two-subsequences
 title: Max Dot Product of Two Subsequences
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

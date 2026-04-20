@@ -1,5 +1,6 @@
 ---
 id: 2336
+internal_id: 2413
 slug: smallest-number-in-infinite-set
 title: Smallest Number in Infinite Set
 difficulty: Medium

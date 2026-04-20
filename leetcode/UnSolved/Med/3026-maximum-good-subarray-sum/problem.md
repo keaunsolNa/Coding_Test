@@ -1,5 +1,6 @@
 ---
 id: 3026
+internal_id: 3265
 slug: maximum-good-subarray-sum
 title: Maximum Good Subarray Sum
 difficulty: Medium

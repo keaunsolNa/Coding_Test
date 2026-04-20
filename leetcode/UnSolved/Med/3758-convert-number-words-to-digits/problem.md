@@ -1,5 +1,6 @@
 ---
 id: 3758
+internal_id: 4148
 slug: convert-number-words-to-digits
 title: Convert Number Words to Digits
 difficulty: Medium

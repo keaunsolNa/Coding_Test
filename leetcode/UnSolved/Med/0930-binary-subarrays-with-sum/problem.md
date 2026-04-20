@@ -1,5 +1,6 @@
 ---
 id: 930
+internal_id: 966
 slug: binary-subarrays-with-sum
 title: Binary Subarrays With Sum
 difficulty: Medium

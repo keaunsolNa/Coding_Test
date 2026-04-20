@@ -1,10 +1,11 @@
 ---
 id: 1970
+internal_id: 2101
 slug: last-day-where-you-can-still-cross
 title: Last Day Where You Can Still Cross
 difficulty: Hard
 tags: Array, Binary Search, Depth-First Search, Breadth-First Search, Union-Find, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

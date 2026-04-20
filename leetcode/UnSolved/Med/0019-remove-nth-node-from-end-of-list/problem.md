@@ -1,5 +1,6 @@
 ---
 id: 19
+internal_id: 19
 slug: remove-nth-node-from-end-of-list
 title: Remove Nth Node From End of List
 difficulty: Medium

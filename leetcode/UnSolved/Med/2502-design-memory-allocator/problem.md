@@ -1,5 +1,6 @@
 ---
 id: 2502
+internal_id: 2587
 slug: design-memory-allocator
 title: Design Memory Allocator
 difficulty: Medium

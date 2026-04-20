@@ -1,10 +1,11 @@
 ---
 id: 3718
+internal_id: 4080
 slug: smallest-missing-multiple-of-k
 title: Smallest Missing Multiple of K
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1814
+internal_id: 1925
 slug: count-nice-pairs-in-an-array
 title: Count Nice Pairs in an Array
 difficulty: Medium

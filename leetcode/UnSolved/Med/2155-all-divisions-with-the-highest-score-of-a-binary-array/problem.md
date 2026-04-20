@@ -1,5 +1,6 @@
 ---
 id: 2155
+internal_id: 2261
 slug: all-divisions-with-the-highest-score-of-a-binary-array
 title: All Divisions With the Highest Score of a Binary Array
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3784
+internal_id: 4138
 slug: minimum-deletion-cost-to-make-all-characters-equal
 title: Minimum Deletion Cost to Make All Characters Equal
 difficulty: Medium

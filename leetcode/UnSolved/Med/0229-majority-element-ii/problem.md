@@ -1,5 +1,6 @@
 ---
 id: 229
+internal_id: 229
 slug: majority-element-ii
 title: Majority Element II
 difficulty: Medium

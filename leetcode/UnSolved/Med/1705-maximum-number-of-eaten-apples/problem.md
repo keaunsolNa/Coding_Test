@@ -1,5 +1,6 @@
 ---
 id: 1705
+internal_id: 1824
 slug: maximum-number-of-eaten-apples
 title: Maximum Number of Eaten Apples
 difficulty: Medium

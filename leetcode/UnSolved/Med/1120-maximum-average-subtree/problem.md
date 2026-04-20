@@ -1,5 +1,6 @@
 ---
 id: 1120
+internal_id: 1091
 slug: maximum-average-subtree
 title: Maximum Average Subtree
 difficulty: Medium

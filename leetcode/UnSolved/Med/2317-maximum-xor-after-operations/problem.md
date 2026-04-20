@@ -1,5 +1,6 @@
 ---
 id: 2317
+internal_id: 2402
 slug: maximum-xor-after-operations
 title: Maximum XOR After Operations 
 difficulty: Medium

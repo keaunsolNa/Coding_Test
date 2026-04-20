@@ -1,5 +1,6 @@
 ---
 id: 1376
+internal_id: 1492
 slug: time-needed-to-inform-all-employees
 title: Time Needed to Inform All Employees
 difficulty: Medium

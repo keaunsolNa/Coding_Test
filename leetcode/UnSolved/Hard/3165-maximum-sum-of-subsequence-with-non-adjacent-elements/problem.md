@@ -1,10 +1,11 @@
 ---
 id: 3165
+internal_id: 3423
 slug: maximum-sum-of-subsequence-with-non-adjacent-elements
 title: Maximum Sum of Subsequence With Non-adjacent Elements
 difficulty: Hard
 tags: Array, Divide and Conquer, Dynamic Programming, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

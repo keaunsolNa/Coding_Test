@@ -1,5 +1,6 @@
 ---
 id: 3831
+internal_id: 4210
 slug: median-of-a-binary-search-tree-level
 title: Median of a Binary Search Tree Level
 difficulty: Medium

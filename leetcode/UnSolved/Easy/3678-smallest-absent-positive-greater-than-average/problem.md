@@ -1,10 +1,11 @@
 ---
 id: 3678
+internal_id: 4011
 slug: smallest-absent-positive-greater-than-average
 title: Smallest Absent Positive Greater Than Average
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

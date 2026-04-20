@@ -1,5 +1,6 @@
 ---
 id: 1490
+internal_id: 1634
 slug: clone-n-ary-tree
 title: Clone N-ary Tree
 difficulty: Medium

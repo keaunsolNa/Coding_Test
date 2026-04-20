@@ -1,5 +1,6 @@
 ---
 id: 2445
+internal_id: 2584
 slug: number-of-nodes-with-value-one
 title: Number of Nodes With Value One
 difficulty: Medium

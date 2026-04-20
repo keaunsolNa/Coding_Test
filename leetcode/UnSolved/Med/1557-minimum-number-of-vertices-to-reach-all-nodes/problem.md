@@ -1,5 +1,6 @@
 ---
 id: 1557
+internal_id: 1661
 slug: minimum-number-of-vertices-to-reach-all-nodes
 title: Minimum Number of Vertices to Reach All Nodes
 difficulty: Medium

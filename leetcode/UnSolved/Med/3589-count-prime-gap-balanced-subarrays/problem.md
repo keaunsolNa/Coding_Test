@@ -1,5 +1,6 @@
 ---
 id: 3589
+internal_id: 3907
 slug: count-prime-gap-balanced-subarrays
 title: Count Prime-Gap Balanced Subarrays
 difficulty: Medium

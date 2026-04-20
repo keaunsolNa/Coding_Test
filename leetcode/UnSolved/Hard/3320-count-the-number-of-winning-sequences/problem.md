@@ -1,10 +1,11 @@
 ---
 id: 3320
+internal_id: 3588
 slug: count-the-number-of-winning-sequences
 title: Count The Number of Winning Sequences
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

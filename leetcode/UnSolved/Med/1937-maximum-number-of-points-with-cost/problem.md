@@ -1,5 +1,6 @@
 ---
 id: 1937
+internal_id: 2067
 slug: maximum-number-of-points-with-cost
 title: Maximum Number of Points with Cost
 difficulty: Medium

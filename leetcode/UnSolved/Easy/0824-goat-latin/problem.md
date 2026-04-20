@@ -1,10 +1,11 @@
 ---
 id: 824
+internal_id: 851
 slug: goat-latin
 title: Goat Latin
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

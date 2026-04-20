@@ -1,10 +1,11 @@
 ---
 id: 2399
+internal_id: 2476
 slug: check-distances-between-same-letters
 title: Check Distances Between Same Letters
 difficulty: Easy
 tags: Array, Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 430
+internal_id: 766
 slug: flatten-a-multilevel-doubly-linked-list
 title: Flatten a Multilevel Doubly Linked List
 difficulty: Medium

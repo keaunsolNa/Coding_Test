@@ -1,5 +1,6 @@
 ---
 id: 1926
+internal_id: 2038
 slug: nearest-exit-from-entrance-in-maze
 title: Nearest Exit from Entrance in Maze
 difficulty: Medium

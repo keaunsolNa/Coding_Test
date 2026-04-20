@@ -1,10 +1,11 @@
 ---
 id: 2798
+internal_id: 2876
 slug: number-of-employees-who-met-the-target
 title: Number of Employees Who Met the Target
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

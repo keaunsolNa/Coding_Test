@@ -1,5 +1,6 @@
 ---
 id: 3566
+internal_id: 3843
 slug: partition-array-into-two-equal-product-subsets
 title: Partition Array into Two Equal Product Subsets
 difficulty: Medium

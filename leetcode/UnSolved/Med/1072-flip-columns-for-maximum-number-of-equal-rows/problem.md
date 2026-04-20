@@ -1,5 +1,6 @@
 ---
 id: 1072
+internal_id: 1147
 slug: flip-columns-for-maximum-number-of-equal-rows
 title: Flip Columns For Maximum Number of Equal Rows
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2789
+internal_id: 2872
 slug: largest-element-in-an-array-after-merge-operations
 title: Largest Element in an Array after Merge Operations
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1547
+internal_id: 1669
 slug: minimum-cost-to-cut-a-stick
 title: Minimum Cost to Cut a Stick
 difficulty: Hard
 tags: Array, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

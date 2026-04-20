@@ -1,10 +1,11 @@
 ---
 id: 3123
+internal_id: 3386
 slug: find-edges-in-shortest-paths
 title: Find Edges in Shortest Paths
 difficulty: Hard
 tags: Depth-First Search, Breadth-First Search, Graph Theory, Heap (Priority Queue), Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2304
+internal_id: 1394
 slug: minimum-path-cost-in-a-grid
 title: Minimum Path Cost in a Grid
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1727
+internal_id: 1845
 slug: largest-submatrix-with-rearrangements
 title: Largest Submatrix With Rearrangements
 difficulty: Medium

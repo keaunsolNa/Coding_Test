@@ -1,10 +1,11 @@
 ---
 id: 1608
+internal_id: 1730
 slug: special-array-with-x-elements-greater-than-or-equal-x
 title: Special Array With X Elements Greater Than or Equal X
 difficulty: Easy
 tags: Array, Binary Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

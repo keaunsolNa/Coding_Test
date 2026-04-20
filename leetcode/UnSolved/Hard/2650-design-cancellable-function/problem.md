@@ -1,10 +1,11 @@
 ---
 id: 2650
+internal_id: 2788
 slug: design-cancellable-function
 title: Design Cancellable Function
 difficulty: Hard
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

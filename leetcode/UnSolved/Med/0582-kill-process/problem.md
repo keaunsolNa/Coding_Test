@@ -1,5 +1,6 @@
 ---
 id: 582
+internal_id: 582
 slug: kill-process
 title: Kill Process
 difficulty: Medium

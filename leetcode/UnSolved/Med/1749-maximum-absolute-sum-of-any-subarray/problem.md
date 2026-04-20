@@ -1,5 +1,6 @@
 ---
 id: 1749
+internal_id: 1849
 slug: maximum-absolute-sum-of-any-subarray
 title: Maximum Absolute Sum of Any Subarray
 difficulty: Medium

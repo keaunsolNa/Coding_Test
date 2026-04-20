@@ -1,5 +1,6 @@
 ---
 id: 1093
+internal_id: 1183
 slug: statistics-from-a-large-sample
 title: Statistics from a Large Sample
 difficulty: Medium

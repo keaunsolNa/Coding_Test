@@ -1,5 +1,6 @@
 ---
 id: 2597
+internal_id: 2696
 slug: the-number-of-beautiful-subsets
 title: The Number of Beautiful Subsets
 difficulty: Medium

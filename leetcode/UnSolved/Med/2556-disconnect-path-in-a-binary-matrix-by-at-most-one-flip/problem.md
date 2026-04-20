@@ -1,5 +1,6 @@
 ---
 id: 2556
+internal_id: 2641
 slug: disconnect-path-in-a-binary-matrix-by-at-most-one-flip
 title: Disconnect Path in a Binary Matrix by at Most One Flip
 difficulty: Medium

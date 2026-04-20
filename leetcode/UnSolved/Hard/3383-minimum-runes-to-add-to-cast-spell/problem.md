@@ -1,10 +1,11 @@
 ---
 id: 3383
+internal_id: 3718
 slug: minimum-runes-to-add-to-cast-spell
 title: Minimum Runes to Add to Cast Spell
 difficulty: Hard
 tags: Array, Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Topological Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

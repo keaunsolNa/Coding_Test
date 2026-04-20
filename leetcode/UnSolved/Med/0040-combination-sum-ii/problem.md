@@ -1,5 +1,6 @@
 ---
 id: 40
+internal_id: 40
 slug: combination-sum-ii
 title: Combination Sum II
 difficulty: Medium

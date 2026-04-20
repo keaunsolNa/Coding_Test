@@ -1,10 +1,11 @@
 ---
 id: 3260
+internal_id: 3552
 slug: find-the-largest-palindrome-divisible-by-k
 title: Find the Largest Palindrome Divisible by K
 difficulty: Hard
 tags: Math, String, Dynamic Programming, Greedy, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

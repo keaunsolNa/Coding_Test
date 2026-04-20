@@ -1,10 +1,11 @@
 ---
 id: 432
+internal_id: 432
 slug: all-oone-data-structure
 title: All O`one Data Structure
 difficulty: Hard
 tags: Hash Table, Linked List, Design, Doubly-Linked List
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

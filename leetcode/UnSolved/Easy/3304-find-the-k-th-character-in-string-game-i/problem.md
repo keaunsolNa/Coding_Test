@@ -1,10 +1,11 @@
 ---
 id: 3304
+internal_id: 3600
 slug: find-the-k-th-character-in-string-game-i
 title: Find the K-th Character in String Game I
 difficulty: Easy
 tags: Math, Bit Manipulation, Recursion, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

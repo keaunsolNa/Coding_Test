@@ -1,10 +1,11 @@
 ---
 id: 1601
+internal_id: 1723
 slug: maximum-number-of-achievable-transfer-requests
 title: Maximum Number of Achievable Transfer Requests
 difficulty: Hard
 tags: Array, Backtracking, Bit Manipulation, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

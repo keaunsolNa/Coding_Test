@@ -1,10 +1,11 @@
 ---
 id: 1520
+internal_id: 1644
 slug: maximum-number-of-non-overlapping-substrings
 title: Maximum Number of Non-Overlapping Substrings
 difficulty: Hard
 tags: Hash Table, String, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

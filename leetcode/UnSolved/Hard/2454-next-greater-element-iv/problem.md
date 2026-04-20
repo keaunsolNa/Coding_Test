@@ -1,10 +1,11 @@
 ---
 id: 2454
+internal_id: 2549
 slug: next-greater-element-iv
 title: Next Greater Element IV
 difficulty: Hard
 tags: Array, Binary Search, Stack, Sorting, Heap (Priority Queue), Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

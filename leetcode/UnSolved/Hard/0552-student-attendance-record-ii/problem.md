@@ -1,10 +1,11 @@
 ---
 id: 552
+internal_id: 552
 slug: student-attendance-record-ii
 title: Student Attendance Record II
 difficulty: Hard
 tags: Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 92
+internal_id: 92
 slug: reverse-linked-list-ii
 title: Reverse Linked List II
 difficulty: Medium

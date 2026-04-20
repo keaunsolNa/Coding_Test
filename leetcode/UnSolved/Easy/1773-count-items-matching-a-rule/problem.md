@@ -1,10 +1,11 @@
 ---
 id: 1773
+internal_id: 1899
 slug: count-items-matching-a-rule
 title: Count Items Matching a Rule
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

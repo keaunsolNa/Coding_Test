@@ -1,10 +1,11 @@
 ---
 id: 1995
+internal_id: 2122
 slug: count-special-quadruplets
 title: Count Special Quadruplets
 difficulty: Easy
 tags: Array, Hash Table, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

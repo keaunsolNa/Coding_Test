@@ -1,10 +1,11 @@
 ---
 id: 51
+internal_id: 51
 slug: n-queens
 title: N-Queens
 difficulty: Hard
 tags: Array, Backtracking
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

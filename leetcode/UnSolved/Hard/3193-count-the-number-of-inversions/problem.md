@@ -1,10 +1,11 @@
 ---
 id: 3193
+internal_id: 3460
 slug: count-the-number-of-inversions
 title: Count the Number of Inversions
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

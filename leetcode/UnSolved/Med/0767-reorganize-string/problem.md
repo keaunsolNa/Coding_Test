@@ -1,5 +1,6 @@
 ---
 id: 767
+internal_id: 778
 slug: reorganize-string
 title: Reorganize String
 difficulty: Medium

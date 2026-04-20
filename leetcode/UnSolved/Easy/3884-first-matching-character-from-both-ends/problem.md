@@ -1,10 +1,11 @@
 ---
 id: 3884
+internal_id: 4264
 slug: first-matching-character-from-both-ends
 title: First Matching Character From Both Ends
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

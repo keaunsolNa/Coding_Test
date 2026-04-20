@@ -1,5 +1,6 @@
 ---
 id: 560
+internal_id: 560
 slug: subarray-sum-equals-k
 title: Subarray Sum Equals K
 difficulty: Medium

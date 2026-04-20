@@ -1,10 +1,11 @@
 ---
 id: 3655
+internal_id: 3975
 slug: xor-after-range-multiplication-queries-ii
 title: XOR After Range Multiplication Queries II
 difficulty: Hard
 tags: Array, Divide and Conquer
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

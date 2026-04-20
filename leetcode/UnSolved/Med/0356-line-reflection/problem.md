@@ -1,5 +1,6 @@
 ---
 id: 356
+internal_id: 356
 slug: line-reflection
 title: Line Reflection
 difficulty: Medium

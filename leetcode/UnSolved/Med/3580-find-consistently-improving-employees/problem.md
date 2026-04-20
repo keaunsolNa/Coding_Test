@@ -1,11 +1,12 @@
 ---
 id: 3580
+internal_id: 3921
 slug: find-consistently-improving-employees
 title: Find Consistently Improving Employees
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3580. Find Consistently Improving Employees

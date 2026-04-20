@@ -1,10 +1,11 @@
 ---
 id: 2781
+internal_id: 2884
 slug: length-of-the-longest-valid-substring
 title: Length of the Longest Valid Substring
 difficulty: Hard
 tags: Array, Hash Table, String, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

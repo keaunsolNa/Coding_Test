@@ -1,10 +1,11 @@
 ---
 id: 1704
+internal_id: 1823
 slug: determine-if-string-halves-are-alike
 title: Determine if String Halves Are Alike
 difficulty: Easy
 tags: String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

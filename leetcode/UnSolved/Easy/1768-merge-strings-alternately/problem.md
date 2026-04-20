@@ -1,10 +1,11 @@
 ---
 id: 1768
+internal_id: 1894
 slug: merge-strings-alternately
 title: Merge Strings Alternately
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

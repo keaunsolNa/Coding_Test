@@ -1,5 +1,6 @@
 ---
 id: 319
+internal_id: 319
 slug: bulb-switcher
 title: Bulb Switcher
 difficulty: Medium

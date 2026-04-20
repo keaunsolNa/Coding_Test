@@ -1,10 +1,11 @@
 ---
 id: 1434
+internal_id: 1531
 slug: number-of-ways-to-wear-different-hats-to-each-other
 title: Number of Ways to Wear Different Hats to Each Other
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

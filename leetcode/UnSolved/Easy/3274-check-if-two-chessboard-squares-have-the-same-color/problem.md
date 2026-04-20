@@ -1,10 +1,11 @@
 ---
 id: 3274
+internal_id: 3553
 slug: check-if-two-chessboard-squares-have-the-same-color
 title: Check if Two Chessboard Squares Have the Same Color
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

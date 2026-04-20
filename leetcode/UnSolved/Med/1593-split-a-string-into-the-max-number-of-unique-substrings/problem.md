@@ -1,5 +1,6 @@
 ---
 id: 1593
+internal_id: 1715
 slug: split-a-string-into-the-max-number-of-unique-substrings
 title: Split a String Into the Max Number of Unique Substrings
 difficulty: Medium

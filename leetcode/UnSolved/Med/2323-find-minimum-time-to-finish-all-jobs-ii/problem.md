@@ -1,5 +1,6 @@
 ---
 id: 2323
+internal_id: 2458
 slug: find-minimum-time-to-finish-all-jobs-ii
 title: Find Minimum Time to Finish All Jobs II
 difficulty: Medium

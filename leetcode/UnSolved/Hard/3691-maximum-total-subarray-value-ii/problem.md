@@ -1,10 +1,11 @@
 ---
 id: 3691
+internal_id: 4007
 slug: maximum-total-subarray-value-ii
 title: Maximum Total Subarray Value II
 difficulty: Hard
 tags: Array, Greedy, Segment Tree, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

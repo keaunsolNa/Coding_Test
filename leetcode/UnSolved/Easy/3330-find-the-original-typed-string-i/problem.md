@@ -1,10 +1,11 @@
 ---
 id: 3330
+internal_id: 3617
 slug: find-the-original-typed-string-i
 title: Find the Original Typed String I
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

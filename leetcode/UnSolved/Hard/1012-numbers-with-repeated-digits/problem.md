@@ -1,10 +1,11 @@
 ---
 id: 1012
+internal_id: 1057
 slug: numbers-with-repeated-digits
 title: Numbers With Repeated Digits
 difficulty: Hard
 tags: Math, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

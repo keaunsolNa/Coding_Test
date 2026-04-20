@@ -1,5 +1,6 @@
 ---
 id: 3137
+internal_id: 3384
 slug: minimum-number-of-operations-to-make-word-k-periodic
 title: Minimum Number of Operations to Make Word K-Periodic
 difficulty: Medium

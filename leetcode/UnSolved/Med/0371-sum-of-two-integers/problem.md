@@ -1,5 +1,6 @@
 ---
 id: 371
+internal_id: 371
 slug: sum-of-two-integers
 title: Sum of Two Integers
 difficulty: Medium

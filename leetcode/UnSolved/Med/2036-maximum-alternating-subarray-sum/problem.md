@@ -1,5 +1,6 @@
 ---
 id: 2036
+internal_id: 512
 slug: maximum-alternating-subarray-sum
 title: Maximum Alternating Subarray Sum
 difficulty: Medium

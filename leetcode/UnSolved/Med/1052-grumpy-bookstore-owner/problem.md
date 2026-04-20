@@ -1,5 +1,6 @@
 ---
 id: 1052
+internal_id: 1138
 slug: grumpy-bookstore-owner
 title: Grumpy Bookstore Owner
 difficulty: Medium

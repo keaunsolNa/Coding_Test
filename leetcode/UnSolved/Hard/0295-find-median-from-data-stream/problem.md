@@ -1,10 +1,11 @@
 ---
 id: 295
+internal_id: 295
 slug: find-median-from-data-stream
 title: Find Median from Data Stream
 difficulty: Hard
 tags: Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

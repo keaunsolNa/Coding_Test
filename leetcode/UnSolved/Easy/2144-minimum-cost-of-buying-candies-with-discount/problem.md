@@ -1,10 +1,11 @@
 ---
 id: 2144
+internal_id: 2248
 slug: minimum-cost-of-buying-candies-with-discount
 title: Minimum Cost of Buying Candies With Discount
 difficulty: Easy
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

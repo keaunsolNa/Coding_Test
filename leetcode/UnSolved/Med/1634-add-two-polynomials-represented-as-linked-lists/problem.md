@@ -1,5 +1,6 @@
 ---
 id: 1634
+internal_id: 1774
 slug: add-two-polynomials-represented-as-linked-lists
 title: Add Two Polynomials Represented as Linked Lists
 difficulty: Medium

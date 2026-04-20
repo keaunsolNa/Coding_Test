@@ -1,5 +1,6 @@
 ---
 id: 1314
+internal_id: 1242
 slug: matrix-block-sum
 title: Matrix Block Sum
 difficulty: Medium

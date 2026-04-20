@@ -1,5 +1,6 @@
 ---
 id: 2948
+internal_id: 3219
 slug: make-lexicographically-smallest-array-by-swapping-elements
 title: Make Lexicographically Smallest Array by Swapping Elements
 difficulty: Medium

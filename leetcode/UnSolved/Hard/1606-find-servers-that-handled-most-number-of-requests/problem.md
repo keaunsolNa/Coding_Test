@@ -1,10 +1,11 @@
 ---
 id: 1606
+internal_id: 1710
 slug: find-servers-that-handled-most-number-of-requests
 title: Find Servers That Handled Most Number of Requests
 difficulty: Hard
 tags: Array, Heap (Priority Queue), Simulation, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

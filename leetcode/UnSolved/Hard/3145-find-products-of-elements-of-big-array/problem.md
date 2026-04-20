@@ -1,10 +1,11 @@
 ---
 id: 3145
+internal_id: 3411
 slug: find-products-of-elements-of-big-array
 title: Find Products of Elements of Big Array
 difficulty: Hard
 tags: Array, Binary Search, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

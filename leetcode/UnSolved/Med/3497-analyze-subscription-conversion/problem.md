@@ -1,11 +1,12 @@
 ---
 id: 3497
+internal_id: 3848
 slug: analyze-subscription-conversion
 title: Analyze Subscription Conversion 
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3497. Analyze Subscription Conversion 

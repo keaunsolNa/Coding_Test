@@ -1,5 +1,6 @@
 ---
 id: 3706
+internal_id: 4070
 slug: maximum-distance-between-unequal-words-in-array-ii
 title: Maximum Distance Between Unequal Words in Array II
 difficulty: Medium

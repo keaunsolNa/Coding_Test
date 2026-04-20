@@ -1,10 +1,11 @@
 ---
 id: 3028
+internal_id: 3311
 slug: ant-on-the-boundary
 title: Ant on the Boundary
 difficulty: Easy
 tags: Array, Simulation, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3333
+internal_id: 3618
 slug: find-the-original-typed-string-ii
 title: Find the Original Typed String II
 difficulty: Hard
 tags: String, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

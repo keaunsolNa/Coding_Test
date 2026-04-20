@@ -1,10 +1,11 @@
 ---
 id: 3782
+internal_id: 4164
 slug: last-remaining-integer-after-alternating-deletion-operations
 title: Last Remaining Integer After Alternating Deletion Operations
 difficulty: Hard
 tags: Math, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

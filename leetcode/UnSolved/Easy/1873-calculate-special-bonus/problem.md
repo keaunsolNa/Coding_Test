@@ -1,11 +1,12 @@
 ---
 id: 1873
+internal_id: 2024
 slug: calculate-special-bonus
 title: Calculate Special Bonus
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1873. Calculate Special Bonus

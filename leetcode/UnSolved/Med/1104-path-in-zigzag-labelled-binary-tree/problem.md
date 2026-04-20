@@ -1,5 +1,6 @@
 ---
 id: 1104
+internal_id: 1194
 slug: path-in-zigzag-labelled-binary-tree
 title: Path In Zigzag Labelled Binary Tree
 difficulty: Medium

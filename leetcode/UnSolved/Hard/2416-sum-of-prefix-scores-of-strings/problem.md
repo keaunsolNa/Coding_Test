@@ -1,10 +1,11 @@
 ---
 id: 2416
+internal_id: 2494
 slug: sum-of-prefix-scores-of-strings
 title: Sum of Prefix Scores of Strings
 difficulty: Hard
 tags: Array, String, Trie, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

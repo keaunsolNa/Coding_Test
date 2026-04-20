@@ -1,10 +1,11 @@
 ---
 id: 3605
+internal_id: 3920
 slug: minimum-stability-factor-of-array
 title: Minimum Stability Factor of Array
 difficulty: Hard
 tags: Array, Math, Binary Search, Greedy, Segment Tree, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1288
+internal_id: 1222
 slug: remove-covered-intervals
 title: Remove Covered Intervals
 difficulty: Medium

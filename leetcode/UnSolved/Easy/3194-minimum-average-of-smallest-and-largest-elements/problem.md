@@ -1,10 +1,11 @@
 ---
 id: 3194
+internal_id: 3471
 slug: minimum-average-of-smallest-and-largest-elements
 title: Minimum Average of Smallest and Largest Elements
 difficulty: Easy
 tags: Array, Two Pointers, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

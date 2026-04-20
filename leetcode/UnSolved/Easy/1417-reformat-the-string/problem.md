@@ -1,10 +1,11 @@
 ---
 id: 1417
+internal_id: 1532
 slug: reformat-the-string
 title: Reformat The String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

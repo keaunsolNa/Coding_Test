@@ -1,10 +1,11 @@
 ---
 id: 3562
+internal_id: 3854
 slug: maximum-profit-from-trading-stocks-with-discounts
 title: Maximum Profit from Trading Stocks with Discounts
 difficulty: Hard
 tags: Array, Dynamic Programming, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

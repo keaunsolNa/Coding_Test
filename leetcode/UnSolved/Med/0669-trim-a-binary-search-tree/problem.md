@@ -1,5 +1,6 @@
 ---
 id: 669
+internal_id: 669
 slug: trim-a-binary-search-tree
 title: Trim a Binary Search Tree
 difficulty: Medium

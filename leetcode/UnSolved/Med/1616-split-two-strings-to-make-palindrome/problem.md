@@ -1,5 +1,6 @@
 ---
 id: 1616
+internal_id: 1739
 slug: split-two-strings-to-make-palindrome
 title: Split Two Strings to Make Palindrome
 difficulty: Medium

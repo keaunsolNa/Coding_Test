@@ -1,10 +1,11 @@
 ---
 id: 876
+internal_id: 908
 slug: middle-of-the-linked-list
 title: Middle of the Linked List
 difficulty: Easy
 tags: Linked List, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

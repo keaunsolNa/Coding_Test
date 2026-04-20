@@ -1,10 +1,11 @@
 ---
 id: 2842
+internal_id: 3057
 slug: count-k-subsequences-of-a-string-with-maximum-beauty
 title: Count K-Subsequences of a String With Maximum Beauty
 difficulty: Hard
 tags: Hash Table, Math, String, Greedy, Sorting, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 49
+internal_id: 49
 slug: group-anagrams
 title: Group Anagrams
 difficulty: Medium

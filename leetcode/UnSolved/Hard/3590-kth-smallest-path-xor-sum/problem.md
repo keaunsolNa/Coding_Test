@@ -1,10 +1,11 @@
 ---
 id: 3590
+internal_id: 3906
 slug: kth-smallest-path-xor-sum
 title: Kth Smallest Path XOR Sum
 difficulty: Hard
 tags: Array, Tree, Depth-First Search, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,11 +1,12 @@
 ---
 id: 3570
+internal_id: 3910
 slug: find-books-with-no-available-copies
 title: Find Books with No Available Copies
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 3570. Find Books with No Available Copies

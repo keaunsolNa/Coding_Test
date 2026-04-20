@@ -1,5 +1,6 @@
 ---
 id: 918
+internal_id: 954
 slug: maximum-sum-circular-subarray
 title: Maximum Sum Circular Subarray
 difficulty: Medium

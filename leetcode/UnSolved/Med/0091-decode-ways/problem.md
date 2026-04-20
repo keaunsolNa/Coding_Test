@@ -1,5 +1,6 @@
 ---
 id: 91
+internal_id: 91
 slug: decode-ways
 title: Decode Ways
 difficulty: Medium

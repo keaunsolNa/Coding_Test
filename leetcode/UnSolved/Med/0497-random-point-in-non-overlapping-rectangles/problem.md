@@ -1,5 +1,6 @@
 ---
 id: 497
+internal_id: 914
 slug: random-point-in-non-overlapping-rectangles
 title: Random Point in Non-overlapping Rectangles
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1695
+internal_id: 1813
 slug: maximum-erasure-value
 title: Maximum Erasure Value
 difficulty: Medium

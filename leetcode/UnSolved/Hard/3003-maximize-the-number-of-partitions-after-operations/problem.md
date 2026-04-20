@@ -1,10 +1,11 @@
 ---
 id: 3003
+internal_id: 3233
 slug: maximize-the-number-of-partitions-after-operations
 title: Maximize the Number of Partitions After Operations
 difficulty: Hard
 tags: String, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

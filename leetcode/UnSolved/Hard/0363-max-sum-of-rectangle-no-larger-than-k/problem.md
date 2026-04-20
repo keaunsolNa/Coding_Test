@@ -1,10 +1,11 @@
 ---
 id: 363
+internal_id: 363
 slug: max-sum-of-rectangle-no-larger-than-k
 title: Max Sum of Rectangle No Larger Than K
 difficulty: Hard
 tags: Array, Binary Search, Matrix, Prefix Sum, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

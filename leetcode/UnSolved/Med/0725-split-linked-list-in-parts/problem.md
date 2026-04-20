@@ -1,5 +1,6 @@
 ---
 id: 725
+internal_id: 725
 slug: split-linked-list-in-parts
 title: Split Linked List in Parts
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 143
+internal_id: 143
 slug: reorder-list
 title: Reorder List
 difficulty: Medium

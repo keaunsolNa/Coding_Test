@@ -1,10 +1,11 @@
 ---
 id: 3701
+internal_id: 4058
 slug: compute-alternating-sum
 title: Compute Alternating Sum
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

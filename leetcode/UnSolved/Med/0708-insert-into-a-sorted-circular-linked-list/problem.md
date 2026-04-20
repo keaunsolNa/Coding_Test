@@ -1,5 +1,6 @@
 ---
 id: 708
+internal_id: 850
 slug: insert-into-a-sorted-circular-linked-list
 title: Insert into a Sorted Circular Linked List
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2780
+internal_id: 2888
 slug: minimum-index-of-a-valid-split
 title: Minimum Index of a Valid Split
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2116
+internal_id: 2221
 slug: check-if-a-parentheses-string-can-be-valid
 title: Check if a Parentheses String Can Be Valid
 difficulty: Medium

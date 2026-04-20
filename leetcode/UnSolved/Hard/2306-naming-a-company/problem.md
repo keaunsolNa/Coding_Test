@@ -1,10 +1,11 @@
 ---
 id: 2306
+internal_id: 2390
 slug: naming-a-company
 title: Naming a Company
 difficulty: Hard
 tags: Array, Hash Table, String, Bit Manipulation, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

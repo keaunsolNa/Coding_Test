@@ -1,5 +1,6 @@
 ---
 id: 2090
+internal_id: 2211
 slug: k-radius-subarray-averages
 title: K Radius Subarray Averages
 difficulty: Medium

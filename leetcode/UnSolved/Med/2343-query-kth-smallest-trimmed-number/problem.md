@@ -1,5 +1,6 @@
 ---
 id: 2343
+internal_id: 2422
 slug: query-kth-smallest-trimmed-number
 title: Query Kth Smallest Trimmed Number
 difficulty: Medium

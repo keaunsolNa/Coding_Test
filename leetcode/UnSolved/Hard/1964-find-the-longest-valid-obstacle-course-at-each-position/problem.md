@@ -1,10 +1,11 @@
 ---
 id: 1964
+internal_id: 2096
 slug: find-the-longest-valid-obstacle-course-at-each-position
 title: Find the Longest Valid Obstacle Course at Each Position
 difficulty: Hard
 tags: Array, Binary Search, Binary Indexed Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

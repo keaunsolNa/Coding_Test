@@ -1,5 +1,6 @@
 ---
 id: 1466
+internal_id: 1576
 slug: reorder-routes-to-make-all-paths-lead-to-the-city-zero
 title: Reorder Routes to Make All Paths Lead to the City Zero
 difficulty: Medium

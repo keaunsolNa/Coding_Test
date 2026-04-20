@@ -1,10 +1,11 @@
 ---
 id: 2946
+internal_id: 3215
 slug: matrix-similarity-after-cyclic-shifts
 title: Matrix Similarity After Cyclic Shifts
 difficulty: Easy
 tags: Array, Math, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

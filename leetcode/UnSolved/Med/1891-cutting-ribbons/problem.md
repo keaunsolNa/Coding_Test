@@ -1,5 +1,6 @@
 ---
 id: 1891
+internal_id: 2045
 slug: cutting-ribbons
 title: Cutting Ribbons
 difficulty: Medium

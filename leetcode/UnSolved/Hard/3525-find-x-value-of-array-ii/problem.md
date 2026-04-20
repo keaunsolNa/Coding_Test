@@ -1,10 +1,11 @@
 ---
 id: 3525
+internal_id: 3840
 slug: find-x-value-of-array-ii
 title: Find X Value of Array II
 difficulty: Hard
 tags: Array, Math, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

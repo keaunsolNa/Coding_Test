@@ -1,11 +1,12 @@
 ---
 id: 3436
+internal_id: 3782
 slug: find-valid-emails
 title: Find Valid Emails
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 3436. Find Valid Emails

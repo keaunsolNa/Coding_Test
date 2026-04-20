@@ -1,5 +1,6 @@
 ---
 id: 2664
+internal_id: 2823
 slug: the-knights-tour
 title: The Knight’s Tour
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3623
+internal_id: 3886
 slug: count-number-of-trapezoids-i
 title: Count Number of Trapezoids I
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2658
+internal_id: 2764
 slug: maximum-number-of-fish-in-a-grid
 title: Maximum Number of Fish in a Grid
 difficulty: Medium

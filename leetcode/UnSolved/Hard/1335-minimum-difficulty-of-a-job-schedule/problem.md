@@ -1,10 +1,11 @@
 ---
 id: 1335
+internal_id: 1457
 slug: minimum-difficulty-of-a-job-schedule
 title: Minimum Difficulty of a Job Schedule
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

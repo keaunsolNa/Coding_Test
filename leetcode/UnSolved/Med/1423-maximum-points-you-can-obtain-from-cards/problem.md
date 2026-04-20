@@ -1,5 +1,6 @@
 ---
 id: 1423
+internal_id: 1538
 slug: maximum-points-you-can-obtain-from-cards
 title: Maximum Points You Can Obtain from Cards
 difficulty: Medium

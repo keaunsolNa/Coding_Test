@@ -1,10 +1,11 @@
 ---
 id: 1610
+internal_id: 1733
 slug: maximum-number-of-visible-points
 title: Maximum Number of Visible Points
 difficulty: Hard
 tags: Array, Math, Geometry, Sliding Window, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

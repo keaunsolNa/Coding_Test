@@ -1,5 +1,6 @@
 ---
 id: 751
+internal_id: 752
 slug: ip-to-cidr
 title: IP to CIDR
 difficulty: Medium

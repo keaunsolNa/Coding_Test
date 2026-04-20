@@ -1,5 +1,6 @@
 ---
 id: 526
+internal_id: 526
 slug: beautiful-arrangement
 title: Beautiful Arrangement
 difficulty: Medium

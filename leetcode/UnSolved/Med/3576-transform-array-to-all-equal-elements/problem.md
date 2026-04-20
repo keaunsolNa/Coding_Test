@@ -1,5 +1,6 @@
 ---
 id: 3576
+internal_id: 3876
 slug: transform-array-to-all-equal-elements
 title: Transform Array to All Equal Elements
 difficulty: Medium

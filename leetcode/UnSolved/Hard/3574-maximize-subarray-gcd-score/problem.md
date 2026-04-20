@@ -1,10 +1,11 @@
 ---
 id: 3574
+internal_id: 3888
 slug: maximize-subarray-gcd-score
 title: Maximize Subarray GCD Score
 difficulty: Hard
 tags: Array, Math, Enumeration, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

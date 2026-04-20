@@ -1,5 +1,6 @@
 ---
 id: 3067
+internal_id: 3326
 slug: count-pairs-of-connectable-servers-in-a-weighted-tree-network
 title: Count Pairs of Connectable Servers in a Weighted Tree Network
 difficulty: Medium

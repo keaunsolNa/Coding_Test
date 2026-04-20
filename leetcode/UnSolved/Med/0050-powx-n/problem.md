@@ -1,5 +1,6 @@
 ---
 id: 50
+internal_id: 50
 slug: powx-n
 title: Pow(x, n)
 difficulty: Medium

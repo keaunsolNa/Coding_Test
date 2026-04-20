@@ -1,10 +1,11 @@
 ---
 id: 2085
+internal_id: 2190
 slug: count-common-words-with-one-occurrence
 title: Count Common Words With One Occurrence
 difficulty: Easy
 tags: Array, Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

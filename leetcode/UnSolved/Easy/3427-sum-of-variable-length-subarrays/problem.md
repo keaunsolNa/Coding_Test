@@ -1,10 +1,11 @@
 ---
 id: 3427
+internal_id: 3731
 slug: sum-of-variable-length-subarrays
 title: Sum of Variable Length Subarrays
 difficulty: Easy
 tags: Array, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

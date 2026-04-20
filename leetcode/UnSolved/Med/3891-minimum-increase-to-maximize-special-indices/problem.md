@@ -1,5 +1,6 @@
 ---
 id: 3891
+internal_id: 4149
 slug: minimum-increase-to-maximize-special-indices
 title: Minimum Increase to Maximize Special Indices
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1753
+internal_id: 1879
 slug: maximum-score-from-removing-stones
 title: Maximum Score From Removing Stones
 difficulty: Medium

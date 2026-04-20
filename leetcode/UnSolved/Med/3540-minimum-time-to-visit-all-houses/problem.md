@@ -1,5 +1,6 @@
 ---
 id: 3540
+internal_id: 3880
 slug: minimum-time-to-visit-all-houses
 title: Minimum Time to Visit All Houses
 difficulty: Medium

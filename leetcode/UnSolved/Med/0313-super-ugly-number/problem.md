@@ -1,5 +1,6 @@
 ---
 id: 313
+internal_id: 313
 slug: super-ugly-number
 title: Super Ugly Number
 difficulty: Medium

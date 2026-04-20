@@ -1,5 +1,6 @@
 ---
 id: 743
+internal_id: 744
 slug: network-delay-time
 title: Network Delay Time
 difficulty: Medium

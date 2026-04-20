@@ -1,5 +1,6 @@
 ---
 id: 3867
+internal_id: 4242
 slug: sum-of-gcd-of-formed-pairs
 title: Sum of GCD of Formed Pairs
 difficulty: Medium

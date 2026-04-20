@@ -1,5 +1,6 @@
 ---
 id: 951
+internal_id: 988
 slug: flip-equivalent-binary-trees
 title: Flip Equivalent Binary Trees
 difficulty: Medium

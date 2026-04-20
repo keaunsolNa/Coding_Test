@@ -1,5 +1,6 @@
 ---
 id: 2982
+internal_id: 3266
 slug: find-longest-special-substring-that-occurs-thrice-ii
 title: Find Longest Special Substring That Occurs Thrice II
 difficulty: Medium

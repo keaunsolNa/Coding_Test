@@ -1,10 +1,11 @@
 ---
 id: 1725
+internal_id: 1843
 slug: number-of-rectangles-that-can-form-the-largest-square
 title: Number Of Rectangles That Can Form The Largest Square
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

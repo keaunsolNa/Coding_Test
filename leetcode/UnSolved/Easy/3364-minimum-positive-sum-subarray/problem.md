@@ -1,10 +1,11 @@
 ---
 id: 3364
+internal_id: 3644
 slug: minimum-positive-sum-subarray
 title: Minimum Positive Sum Subarray 
 difficulty: Easy
 tags: Array, Sliding Window, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

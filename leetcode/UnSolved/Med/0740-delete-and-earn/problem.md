@@ -1,5 +1,6 @@
 ---
 id: 740
+internal_id: 740
 slug: delete-and-earn
 title: Delete and Earn
 difficulty: Medium

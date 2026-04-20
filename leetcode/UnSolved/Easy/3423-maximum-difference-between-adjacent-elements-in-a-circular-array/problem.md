@@ -1,10 +1,11 @@
 ---
 id: 3423
+internal_id: 3747
 slug: maximum-difference-between-adjacent-elements-in-a-circular-array
 title: Maximum Difference Between Adjacent Elements in a Circular Array
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

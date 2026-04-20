@@ -1,10 +1,11 @@
 ---
 id: 561
+internal_id: 561
 slug: array-partition
 title: Array Partition
 difficulty: Easy
 tags: Array, Greedy, Sorting, Counting Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

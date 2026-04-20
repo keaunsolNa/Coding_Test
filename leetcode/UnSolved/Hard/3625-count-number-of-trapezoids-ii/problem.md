@@ -1,10 +1,11 @@
 ---
 id: 3625
+internal_id: 3897
 slug: count-number-of-trapezoids-ii
 title: Count Number of Trapezoids II
 difficulty: Hard
 tags: Array, Hash Table, Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

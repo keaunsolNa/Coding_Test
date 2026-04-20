@@ -1,5 +1,6 @@
 ---
 id: 2439
+internal_id: 2530
 slug: minimize-maximum-of-array
 title: Minimize Maximum of Array
 difficulty: Medium

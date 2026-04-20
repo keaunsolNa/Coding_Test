@@ -1,5 +1,6 @@
 ---
 id: 139
+internal_id: 139
 slug: word-break
 title: Word Break
 difficulty: Medium

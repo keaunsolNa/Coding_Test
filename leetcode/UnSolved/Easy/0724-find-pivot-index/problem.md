@@ -1,10 +1,11 @@
 ---
 id: 724
+internal_id: 724
 slug: find-pivot-index
 title: Find Pivot Index
 difficulty: Easy
 tags: Array, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

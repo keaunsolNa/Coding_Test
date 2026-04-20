@@ -1,5 +1,6 @@
 ---
 id: 3773
+internal_id: 4155
 slug: maximum-number-of-equal-length-runs
 title: Maximum Number of Equal Length Runs
 difficulty: Medium

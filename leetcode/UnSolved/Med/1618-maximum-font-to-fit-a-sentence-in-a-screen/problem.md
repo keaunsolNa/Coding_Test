@@ -1,5 +1,6 @@
 ---
 id: 1618
+internal_id: 1384
 slug: maximum-font-to-fit-a-sentence-in-a-screen
 title: Maximum Font to Fit a Sentence in a Screen
 difficulty: Medium

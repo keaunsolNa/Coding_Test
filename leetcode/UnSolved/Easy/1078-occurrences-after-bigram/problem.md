@@ -1,10 +1,11 @@
 ---
 id: 1078
+internal_id: 1156
 slug: occurrences-after-bigram
 title: Occurrences After Bigram
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

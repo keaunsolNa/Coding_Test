@@ -1,10 +1,11 @@
 ---
 id: 2430
+internal_id: 2510
 slug: maximum-deletions-on-a-string
 title: Maximum Deletions on a String
 difficulty: Hard
 tags: String, Dynamic Programming, Rolling Hash, String Matching, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

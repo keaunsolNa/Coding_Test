@@ -1,10 +1,11 @@
 ---
 id: 110
+internal_id: 110
 slug: balanced-binary-tree
 title: Balanced Binary Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

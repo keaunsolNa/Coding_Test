@@ -1,10 +1,11 @@
 ---
 id: 3897
+internal_id: 4278
 slug: maximum-value-of-concatenated-binary-segments
 title: Maximum Value of Concatenated Binary Segments
 difficulty: Hard
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

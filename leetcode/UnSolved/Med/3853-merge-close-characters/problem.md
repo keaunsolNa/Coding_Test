@@ -1,5 +1,6 @@
 ---
 id: 3853
+internal_id: 4013
 slug: merge-close-characters
 title: Merge Close Characters
 difficulty: Medium

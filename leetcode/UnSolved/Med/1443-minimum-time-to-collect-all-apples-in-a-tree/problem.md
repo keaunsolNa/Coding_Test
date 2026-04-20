@@ -1,5 +1,6 @@
 ---
 id: 1443
+internal_id: 1554
 slug: minimum-time-to-collect-all-apples-in-a-tree
 title: Minimum Time to Collect All Apples in a Tree
 difficulty: Medium

@@ -1,11 +1,12 @@
 ---
 id: 1978
+internal_id: 2127
 slug: employees-whose-manager-left-the-company
 title: Employees Whose Manager Left the Company
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1978. Employees Whose Manager Left the Company

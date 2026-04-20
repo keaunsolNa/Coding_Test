@@ -1,5 +1,6 @@
 ---
 id: 63
+internal_id: 63
 slug: unique-paths-ii
 title: Unique Paths II
 difficulty: Medium

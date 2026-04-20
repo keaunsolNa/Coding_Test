@@ -1,11 +1,12 @@
 ---
 id: 1484
+internal_id: 1625
 slug: group-sold-products-by-the-date
 title: Group Sold Products By The Date
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1484. Group Sold Products By The Date

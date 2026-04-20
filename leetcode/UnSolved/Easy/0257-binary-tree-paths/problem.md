@@ -1,10 +1,11 @@
 ---
 id: 257
+internal_id: 257
 slug: binary-tree-paths
 title: Binary Tree Paths
 difficulty: Easy
 tags: String, Backtracking, Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

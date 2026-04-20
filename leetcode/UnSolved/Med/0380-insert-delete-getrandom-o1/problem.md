@@ -1,5 +1,6 @@
 ---
 id: 380
+internal_id: 380
 slug: insert-delete-getrandom-o1
 title: Insert Delete GetRandom O(1)
 difficulty: Medium

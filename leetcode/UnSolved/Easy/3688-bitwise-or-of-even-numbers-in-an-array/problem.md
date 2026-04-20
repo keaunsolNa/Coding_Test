@@ -1,10 +1,11 @@
 ---
 id: 3688
+internal_id: 4009
 slug: bitwise-or-of-even-numbers-in-an-array
 title: Bitwise OR of Even Numbers in an Array
 difficulty: Easy
 tags: Array, Bit Manipulation, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1344
+internal_id: 1446
 slug: angle-between-hands-of-a-clock
 title: Angle Between Hands of a Clock
 difficulty: Medium

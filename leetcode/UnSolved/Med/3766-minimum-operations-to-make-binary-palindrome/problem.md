@@ -1,5 +1,6 @@
 ---
 id: 3766
+internal_id: 4099
 slug: minimum-operations-to-make-binary-palindrome
 title: Minimum Operations to Make Binary Palindrome
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3373
+internal_id: 3645
 slug: maximize-the-number-of-target-nodes-after-connecting-trees-ii
 title: Maximize the Number of Target Nodes After Connecting Trees II
 difficulty: Hard
 tags: Tree, Depth-First Search, Breadth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

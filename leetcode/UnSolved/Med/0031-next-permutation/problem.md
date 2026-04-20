@@ -1,5 +1,6 @@
 ---
 id: 31
+internal_id: 31
 slug: next-permutation
 title: Next Permutation
 difficulty: Medium

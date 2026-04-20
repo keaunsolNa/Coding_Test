@@ -1,5 +1,6 @@
 ---
 id: 554
+internal_id: 554
 slug: brick-wall
 title: Brick Wall
 difficulty: Medium

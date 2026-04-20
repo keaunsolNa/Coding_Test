@@ -1,5 +1,6 @@
 ---
 id: 288
+internal_id: 288
 slug: unique-word-abbreviation
 title: Unique Word Abbreviation
 difficulty: Medium

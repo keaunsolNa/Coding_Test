@@ -1,10 +1,11 @@
 ---
 id: 3013
+internal_id: 3260
 slug: divide-an-array-into-subarrays-with-minimum-cost-ii
 title: Divide an Array Into Subarrays With Minimum Cost II
 difficulty: Hard
 tags: Array, Hash Table, Sliding Window, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

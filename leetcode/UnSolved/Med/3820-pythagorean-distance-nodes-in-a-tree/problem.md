@@ -1,5 +1,6 @@
 ---
 id: 3820
+internal_id: 4180
 slug: pythagorean-distance-nodes-in-a-tree
 title: Pythagorean Distance Nodes in a Tree
 difficulty: Medium

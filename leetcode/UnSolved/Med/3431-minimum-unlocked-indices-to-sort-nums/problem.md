@@ -1,5 +1,6 @@
 ---
 id: 3431
+internal_id: 3758
 slug: minimum-unlocked-indices-to-sort-nums
 title: Minimum Unlocked Indices to Sort Nums
 difficulty: Medium

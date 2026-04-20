@@ -1,5 +1,6 @@
 ---
 id: 1538
+internal_id: 1681
 slug: guess-the-majority-in-a-hidden-array
 title: Guess the Majority in a Hidden Array
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 11
+internal_id: 11
 slug: container-with-most-water
 title: Container With Most Water
 difficulty: Medium

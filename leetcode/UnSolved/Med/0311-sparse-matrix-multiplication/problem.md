@@ -1,5 +1,6 @@
 ---
 id: 311
+internal_id: 311
 slug: sparse-matrix-multiplication
 title: Sparse Matrix Multiplication
 difficulty: Medium

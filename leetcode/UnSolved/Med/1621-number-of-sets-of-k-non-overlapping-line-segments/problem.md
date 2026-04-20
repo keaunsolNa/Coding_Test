@@ -1,5 +1,6 @@
 ---
 id: 1621
+internal_id: 1725
 slug: number-of-sets-of-k-non-overlapping-line-segments
 title: Number of Sets of K Non-Overlapping Line Segments
 difficulty: Medium

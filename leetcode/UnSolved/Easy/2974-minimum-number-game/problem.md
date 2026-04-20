@@ -1,10 +1,11 @@
 ---
 id: 2974
+internal_id: 3226
 slug: minimum-number-game
 title: Minimum Number Game
 difficulty: Easy
 tags: Array, Sorting, Heap (Priority Queue), Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

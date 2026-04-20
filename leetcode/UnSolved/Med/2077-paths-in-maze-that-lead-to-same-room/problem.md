@@ -1,5 +1,6 @@
 ---
 id: 2077
+internal_id: 2218
 slug: paths-in-maze-that-lead-to-same-room
 title: Paths in Maze That Lead to Same Room
 difficulty: Medium

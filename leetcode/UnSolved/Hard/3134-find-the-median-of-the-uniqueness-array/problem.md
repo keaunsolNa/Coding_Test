@@ -1,10 +1,11 @@
 ---
 id: 3134
+internal_id: 3362
 slug: find-the-median-of-the-uniqueness-array
 title: Find the Median of the Uniqueness Array
 difficulty: Hard
 tags: Array, Hash Table, Binary Search, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1367
+internal_id: 1484
 slug: linked-list-in-binary-tree
 title: Linked List in Binary Tree
 difficulty: Medium

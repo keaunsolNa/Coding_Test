@@ -1,10 +1,11 @@
 ---
 id: 2894
+internal_id: 3172
 slug: divisible-and-non-divisible-sums-difference
 title: Divisible and Non-divisible Sums Difference
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 655
+internal_id: 655
 slug: print-binary-tree
 title: Print Binary Tree
 difficulty: Medium

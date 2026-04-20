@@ -1,5 +1,6 @@
 ---
 id: 2320
+internal_id: 2397
 slug: count-number-of-ways-to-place-houses
 title: Count Number of Ways to Place Houses
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1646
+internal_id: 1769
 slug: get-maximum-in-generated-array
 title: Get Maximum in Generated Array
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1658
+internal_id: 1776
 slug: minimum-operations-to-reduce-x-to-zero
 title: Minimum Operations to Reduce X to Zero
 difficulty: Medium

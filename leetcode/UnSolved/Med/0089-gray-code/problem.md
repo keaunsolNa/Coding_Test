@@ -1,5 +1,6 @@
 ---
 id: 89
+internal_id: 89
 slug: gray-code
 title: Gray Code
 difficulty: Medium

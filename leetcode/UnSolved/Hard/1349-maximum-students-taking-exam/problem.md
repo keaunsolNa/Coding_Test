@@ -1,10 +1,11 @@
 ---
 id: 1349
+internal_id: 1471
 slug: maximum-students-taking-exam
 title: Maximum Students Taking Exam
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Matrix, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

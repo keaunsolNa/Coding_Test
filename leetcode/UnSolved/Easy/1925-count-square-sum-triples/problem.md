@@ -1,10 +1,11 @@
 ---
 id: 1925
+internal_id: 2037
 slug: count-square-sum-triples
 title: Count Square Sum Triples
 difficulty: Easy
 tags: Math, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

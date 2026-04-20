@@ -1,5 +1,6 @@
 ---
 id: 959
+internal_id: 999
 slug: regions-cut-by-slashes
 title: Regions Cut By Slashes
 difficulty: Medium

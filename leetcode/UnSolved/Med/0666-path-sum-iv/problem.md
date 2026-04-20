@@ -1,5 +1,6 @@
 ---
 id: 666
+internal_id: 666
 slug: path-sum-iv
 title: Path Sum IV
 difficulty: Medium

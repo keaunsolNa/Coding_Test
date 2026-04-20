@@ -1,5 +1,6 @@
 ---
 id: 1291
+internal_id: 1212
 slug: sequential-digits
 title: Sequential Digits
 difficulty: Medium

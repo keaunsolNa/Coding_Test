@@ -1,10 +1,11 @@
 ---
 id: 2458
+internal_id: 2545
 slug: height-of-binary-tree-after-subtree-removal-queries
 title: Height of Binary Tree After Subtree Removal Queries
 difficulty: Hard
 tags: Array, Tree, Depth-First Search, Breadth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

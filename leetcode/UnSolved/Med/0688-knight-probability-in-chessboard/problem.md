@@ -1,5 +1,6 @@
 ---
 id: 688
+internal_id: 688
 slug: knight-probability-in-chessboard
 title: Knight Probability in Chessboard
 difficulty: Medium

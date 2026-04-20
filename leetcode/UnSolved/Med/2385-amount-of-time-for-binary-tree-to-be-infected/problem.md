@@ -1,5 +1,6 @@
 ---
 id: 2385
+internal_id: 2461
 slug: amount-of-time-for-binary-tree-to-be-infected
 title: Amount of Time for Binary Tree to Be Infected
 difficulty: Medium

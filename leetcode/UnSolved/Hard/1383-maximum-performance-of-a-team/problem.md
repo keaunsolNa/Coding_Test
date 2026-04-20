@@ -1,10 +1,11 @@
 ---
 id: 1383
+internal_id: 1499
 slug: maximum-performance-of-a-team
 title: Maximum Performance of a Team
 difficulty: Hard
 tags: Array, Greedy, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

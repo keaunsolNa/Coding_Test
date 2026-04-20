@@ -1,5 +1,6 @@
 ---
 id: 825
+internal_id: 852
 slug: friends-of-appropriate-ages
 title: Friends Of Appropriate Ages
 difficulty: Medium

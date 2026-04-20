@@ -1,5 +1,6 @@
 ---
 id: 877
+internal_id: 909
 slug: stone-game
 title: Stone Game
 difficulty: Medium

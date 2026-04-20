@@ -1,5 +1,6 @@
 ---
 id: 2671
+internal_id: 2778
 slug: frequency-tracker
 title: Frequency Tracker
 difficulty: Medium

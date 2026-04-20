@@ -1,5 +1,6 @@
 ---
 id: 1014
+internal_id: 1063
 slug: best-sightseeing-pair
 title: Best Sightseeing Pair
 difficulty: Medium

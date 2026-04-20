@@ -1,10 +1,11 @@
 ---
 id: 493
+internal_id: 493
 slug: reverse-pairs
 title: Reverse Pairs
 difficulty: Hard
 tags: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

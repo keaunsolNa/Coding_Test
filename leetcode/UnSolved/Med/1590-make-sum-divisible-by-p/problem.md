@@ -1,5 +1,6 @@
 ---
 id: 1590
+internal_id: 1694
 slug: make-sum-divisible-by-p
 title: Make Sum Divisible by P
 difficulty: Medium

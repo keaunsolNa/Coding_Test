@@ -1,5 +1,6 @@
 ---
 id: 1209
+internal_id: 1320
 slug: remove-all-adjacent-duplicates-in-string-ii
 title: Remove All Adjacent Duplicates in String II
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2653
+internal_id: 2751
 slug: sliding-subarray-beauty
 title: Sliding Subarray Beauty
 difficulty: Medium

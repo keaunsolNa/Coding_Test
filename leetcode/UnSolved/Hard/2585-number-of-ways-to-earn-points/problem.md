@@ -1,10 +1,11 @@
 ---
 id: 2585
+internal_id: 2648
 slug: number-of-ways-to-earn-points
 title: Number of Ways to Earn Points
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

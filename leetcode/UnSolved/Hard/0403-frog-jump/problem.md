@@ -1,10 +1,11 @@
 ---
 id: 403
+internal_id: 403
 slug: frog-jump
 title: Frog Jump
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1019
+internal_id: 1072
 slug: next-greater-node-in-linked-list
 title: Next Greater Node In Linked List
 difficulty: Medium

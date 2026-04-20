@@ -1,10 +1,11 @@
 ---
 id: 2407
+internal_id: 2526
 slug: longest-increasing-subsequence-ii
 title: Longest Increasing Subsequence II
 difficulty: Hard
 tags: Array, Divide and Conquer, Dynamic Programming, Binary Indexed Tree, Segment Tree, Queue, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

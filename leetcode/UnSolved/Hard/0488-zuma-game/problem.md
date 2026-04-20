@@ -1,10 +1,11 @@
 ---
 id: 488
+internal_id: 488
 slug: zuma-game
 title: Zuma Game
 difficulty: Hard
 tags: String, Dynamic Programming, Stack, Breadth-First Search, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

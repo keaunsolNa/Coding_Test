@@ -1,5 +1,6 @@
 ---
 id: 281
+internal_id: 281
 slug: zigzag-iterator
 title: Zigzag Iterator
 difficulty: Medium

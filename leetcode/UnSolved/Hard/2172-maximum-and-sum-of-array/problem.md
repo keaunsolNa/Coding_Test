@@ -1,10 +1,11 @@
 ---
 id: 2172
+internal_id: 2291
 slug: maximum-and-sum-of-array
 title: Maximum AND Sum of Array
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

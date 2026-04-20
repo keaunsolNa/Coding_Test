@@ -1,5 +1,6 @@
 ---
 id: 2115
+internal_id: 2220
 slug: find-all-possible-recipes-from-given-supplies
 title: Find All Possible Recipes from Given Supplies
 difficulty: Medium

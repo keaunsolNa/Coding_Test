@@ -1,10 +1,11 @@
 ---
 id: 2259
+internal_id: 2337
 slug: remove-digit-from-number-to-maximize-result
 title: Remove Digit From Number to Maximize Result
 difficulty: Easy
 tags: String, Greedy, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

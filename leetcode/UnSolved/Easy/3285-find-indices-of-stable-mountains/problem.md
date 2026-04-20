@@ -1,10 +1,11 @@
 ---
 id: 3285
+internal_id: 3582
 slug: find-indices-of-stable-mountains
 title: Find Indices of Stable Mountains
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

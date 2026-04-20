@@ -1,5 +1,6 @@
 ---
 id: 2936
+internal_id: 3222
 slug: number-of-equal-numbers-blocks
 title: Number of Equal Numbers Blocks
 difficulty: Medium

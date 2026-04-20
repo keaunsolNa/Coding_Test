@@ -1,5 +1,6 @@
 ---
 id: 2722
+internal_id: 2858
 slug: join-two-arrays-by-id
 title: Join Two Arrays by ID
 difficulty: Medium

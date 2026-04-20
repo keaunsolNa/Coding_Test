@@ -1,5 +1,6 @@
 ---
 id: 373
+internal_id: 373
 slug: find-k-pairs-with-smallest-sums
 title: Find K Pairs with Smallest Sums
 difficulty: Medium

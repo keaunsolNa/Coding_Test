@@ -1,5 +1,6 @@
 ---
 id: 1124
+internal_id: 1219
 slug: longest-well-performing-interval
 title: Longest Well-Performing Interval
 difficulty: Medium

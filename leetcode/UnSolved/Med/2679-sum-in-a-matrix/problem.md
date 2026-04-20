@@ -1,5 +1,6 @@
 ---
 id: 2679
+internal_id: 2728
 slug: sum-in-a-matrix
 title: Sum in a Matrix
 difficulty: Medium

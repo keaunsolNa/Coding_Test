@@ -1,5 +1,6 @@
 ---
 id: 1807
+internal_id: 1934
 slug: evaluate-the-bracket-pairs-of-a-string
 title: Evaluate the Bracket Pairs of a String
 difficulty: Medium

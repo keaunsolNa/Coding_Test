@@ -1,5 +1,6 @@
 ---
 id: 2396
+internal_id: 2481
 slug: strictly-palindromic-number
 title: Strictly Palindromic Number
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 516
+internal_id: 516
 slug: longest-palindromic-subsequence
 title: Longest Palindromic Subsequence
 difficulty: Medium

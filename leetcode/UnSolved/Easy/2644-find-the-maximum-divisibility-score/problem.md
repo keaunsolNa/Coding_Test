@@ -1,10 +1,11 @@
 ---
 id: 2644
+internal_id: 2694
 slug: find-the-maximum-divisibility-score
 title: Find the Maximum Divisibility Score
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

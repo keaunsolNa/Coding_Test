@@ -1,5 +1,6 @@
 ---
 id: 1754
+internal_id: 1880
 slug: largest-merge-of-two-strings
 title: Largest Merge Of Two Strings
 difficulty: Medium

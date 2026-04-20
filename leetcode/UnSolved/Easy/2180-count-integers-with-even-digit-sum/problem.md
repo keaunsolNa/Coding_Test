@@ -1,10 +1,11 @@
 ---
 id: 2180
+internal_id: 2298
 slug: count-integers-with-even-digit-sum
 title: Count Integers With Even Digit Sum
 difficulty: Easy
 tags: Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3551
+internal_id: 3847
 slug: minimum-swaps-to-sort-by-digit-sum
 title: Minimum Swaps to Sort by Digit Sum
 difficulty: Medium

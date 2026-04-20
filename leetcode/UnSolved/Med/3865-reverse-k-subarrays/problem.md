@@ -1,5 +1,6 @@
 ---
 id: 3865
+internal_id: 4261
 slug: reverse-k-subarrays
 title: Reverse K Subarrays
 difficulty: Medium

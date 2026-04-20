@@ -1,10 +1,11 @@
 ---
 id: 2827
+internal_id: 3017
 slug: number-of-beautiful-integers-in-the-range
 title: Number of Beautiful Integers in the Range
 difficulty: Hard
 tags: Math, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

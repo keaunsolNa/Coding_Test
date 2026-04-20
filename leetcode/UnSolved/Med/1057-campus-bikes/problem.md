@@ -1,5 +1,6 @@
 ---
 id: 1057
+internal_id: 1052
 slug: campus-bikes
 title: Campus Bikes
 difficulty: Medium

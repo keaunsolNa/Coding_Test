@@ -1,10 +1,11 @@
 ---
 id: 827
+internal_id: 854
 slug: making-a-large-island
 title: Making A Large Island
 difficulty: Hard
 tags: Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

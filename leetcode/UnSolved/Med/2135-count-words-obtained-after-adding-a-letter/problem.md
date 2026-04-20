@@ -1,5 +1,6 @@
 ---
 id: 2135
+internal_id: 2256
 slug: count-words-obtained-after-adding-a-letter
 title: Count Words Obtained After Adding a Letter
 difficulty: Medium

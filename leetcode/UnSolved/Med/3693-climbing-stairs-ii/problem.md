@@ -1,5 +1,6 @@
 ---
 id: 3693
+internal_id: 4041
 slug: climbing-stairs-ii
 title: Climbing Stairs II
 difficulty: Medium

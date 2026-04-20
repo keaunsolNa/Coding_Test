@@ -1,10 +1,11 @@
 ---
 id: 3569
+internal_id: 3878
 slug: maximize-count-of-distinct-primes-after-split
 title: Maximize Count of Distinct Primes After Split
 difficulty: Hard
 tags: Array, Math, Segment Tree, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

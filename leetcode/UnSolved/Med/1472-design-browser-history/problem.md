@@ -1,5 +1,6 @@
 ---
 id: 1472
+internal_id: 1582
 slug: design-browser-history
 title: Design Browser History
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2487
+internal_id: 2573
 slug: remove-nodes-from-linked-list
 title: Remove Nodes From Linked List
 difficulty: Medium

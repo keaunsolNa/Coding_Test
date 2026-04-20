@@ -1,5 +1,6 @@
 ---
 id: 1513
+internal_id: 1636
 slug: number-of-substrings-with-only-1s
 title: Number of Substrings With Only 1s
 difficulty: Medium

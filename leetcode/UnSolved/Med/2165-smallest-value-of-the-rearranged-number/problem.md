@@ -1,5 +1,6 @@
 ---
 id: 2165
+internal_id: 2284
 slug: smallest-value-of-the-rearranged-number
 title: Smallest Value of the Rearranged Number
 difficulty: Medium

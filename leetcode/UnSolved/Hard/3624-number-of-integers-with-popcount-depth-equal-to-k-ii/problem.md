@@ -1,10 +1,11 @@
 ---
 id: 3624
+internal_id: 3941
 slug: number-of-integers-with-popcount-depth-equal-to-k-ii
 title: Number of Integers With Popcount-Depth Equal to K II
 difficulty: Hard
 tags: Array, Divide and Conquer, Binary Indexed Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

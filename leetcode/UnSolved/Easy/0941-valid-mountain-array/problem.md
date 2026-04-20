@@ -1,10 +1,11 @@
 ---
 id: 941
+internal_id: 978
 slug: valid-mountain-array
 title: Valid Mountain Array
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

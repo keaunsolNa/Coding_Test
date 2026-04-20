@@ -1,10 +1,11 @@
 ---
 id: 2103
+internal_id: 2226
 slug: rings-and-rods
 title: Rings and Rods
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

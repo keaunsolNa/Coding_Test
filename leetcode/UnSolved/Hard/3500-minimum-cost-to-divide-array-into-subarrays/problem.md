@@ -1,10 +1,11 @@
 ---
 id: 3500
+internal_id: 3765
 slug: minimum-cost-to-divide-array-into-subarrays
 title: Minimum Cost to Divide Array Into Subarrays
 difficulty: Hard
 tags: Array, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2472
+internal_id: 2559
 slug: maximum-number-of-non-overlapping-palindrome-substrings
 title: Maximum Number of Non-overlapping Palindrome Substrings
 difficulty: Hard
 tags: Two Pointers, String, Dynamic Programming, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

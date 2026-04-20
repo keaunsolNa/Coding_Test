@@ -1,10 +1,11 @@
 ---
 id: 1184
+internal_id: 1287
 slug: distance-between-bus-stops
 title: Distance Between Bus Stops
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,11 +1,12 @@
 ---
 id: 1050
+internal_id: 1136
 slug: actors-and-directors-who-cooperated-at-least-three-times
 title: Actors and Directors Who Cooperated At Least Three Times
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1050. Actors and Directors Who Cooperated At Least Three Times

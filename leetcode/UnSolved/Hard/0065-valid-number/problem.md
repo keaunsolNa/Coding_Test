@@ -1,10 +1,11 @@
 ---
 id: 65
+internal_id: 65
 slug: valid-number
 title: Valid Number
 difficulty: Hard
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2466
+internal_id: 2562
 slug: count-ways-to-build-good-strings
 title: Count Ways To Build Good Strings
 difficulty: Medium

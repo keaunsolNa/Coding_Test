@@ -1,10 +1,11 @@
 ---
 id: 124
+internal_id: 124
 slug: binary-tree-maximum-path-sum
 title: Binary Tree Maximum Path Sum
 difficulty: Hard
 tags: Dynamic Programming, Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

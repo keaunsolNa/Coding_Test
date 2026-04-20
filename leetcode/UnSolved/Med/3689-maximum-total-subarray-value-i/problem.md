@@ -1,5 +1,6 @@
 ---
 id: 3689
+internal_id: 4005
 slug: maximum-total-subarray-value-i
 title: Maximum Total Subarray Value I
 difficulty: Medium

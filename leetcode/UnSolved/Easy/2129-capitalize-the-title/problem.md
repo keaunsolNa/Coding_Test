@@ -1,10 +1,11 @@
 ---
 id: 2129
+internal_id: 2235
 slug: capitalize-the-title
 title: Capitalize the Title
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

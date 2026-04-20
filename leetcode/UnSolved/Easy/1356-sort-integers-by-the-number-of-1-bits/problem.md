@@ -1,10 +1,11 @@
 ---
 id: 1356
+internal_id: 1458
 slug: sort-integers-by-the-number-of-1-bits
 title: Sort Integers by The Number of 1 Bits
 difficulty: Easy
 tags: Array, Bit Manipulation, Sorting, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

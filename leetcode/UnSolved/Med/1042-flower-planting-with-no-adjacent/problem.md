@@ -1,5 +1,6 @@
 ---
 id: 1042
+internal_id: 1120
 slug: flower-planting-with-no-adjacent
 title: Flower Planting With No Adjacent
 difficulty: Medium

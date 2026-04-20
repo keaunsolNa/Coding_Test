@@ -1,5 +1,6 @@
 ---
 id: 2059
+internal_id: 2183
 slug: minimum-operations-to-convert-number
 title: Minimum Operations to Convert Number
 difficulty: Medium

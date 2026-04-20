@@ -1,5 +1,6 @@
 ---
 id: 3751
+internal_id: 4057
 slug: total-waviness-of-numbers-in-range-i
 title: Total Waviness of Numbers in Range I
 difficulty: Medium

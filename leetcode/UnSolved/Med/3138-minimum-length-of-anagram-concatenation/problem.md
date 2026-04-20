@@ -1,5 +1,6 @@
 ---
 id: 3138
+internal_id: 3395
 slug: minimum-length-of-anagram-concatenation
 title: Minimum Length of Anagram Concatenation
 difficulty: Medium

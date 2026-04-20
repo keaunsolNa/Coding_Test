@@ -1,10 +1,11 @@
 ---
 id: 2239
+internal_id: 2350
 slug: find-closest-number-to-zero
 title: Find Closest Number to Zero
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

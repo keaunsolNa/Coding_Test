@@ -1,5 +1,6 @@
 ---
 id: 2901
+internal_id: 3142
 slug: longest-unequal-adjacent-groups-subsequence-ii
 title: Longest Unequal Adjacent Groups Subsequence II
 difficulty: Medium

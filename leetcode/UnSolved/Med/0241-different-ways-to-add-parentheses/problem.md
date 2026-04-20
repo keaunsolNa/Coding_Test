@@ -1,5 +1,6 @@
 ---
 id: 241
+internal_id: 241
 slug: different-ways-to-add-parentheses
 title: Different Ways to Add Parentheses
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1342
+internal_id: 1444
 slug: number-of-steps-to-reduce-a-number-to-zero
 title: Number of Steps to Reduce a Number to Zero
 difficulty: Easy
 tags: Math, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

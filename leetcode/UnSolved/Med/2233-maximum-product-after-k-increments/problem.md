@@ -1,5 +1,6 @@
 ---
 id: 2233
+internal_id: 2329
 slug: maximum-product-after-k-increments
 title: Maximum Product After K Increments
 difficulty: Medium

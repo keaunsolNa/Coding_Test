@@ -1,10 +1,11 @@
 ---
 id: 2138
+internal_id: 2260
 slug: divide-a-string-into-groups-of-size-k
 title: Divide a String Into Groups of Size k
 difficulty: Easy
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,11 +1,12 @@
 ---
 id: 1327
+internal_id: 1462
 slug: list-the-products-ordered-in-a-period
 title: List the Products Ordered in a Period
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1327. List the Products Ordered in a Period

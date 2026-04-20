@@ -1,5 +1,6 @@
 ---
 id: 3208
+internal_id: 3483
 slug: alternating-groups-ii
 title: Alternating Groups II
 difficulty: Medium

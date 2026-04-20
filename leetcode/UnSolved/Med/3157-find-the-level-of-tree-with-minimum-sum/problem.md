@@ -1,5 +1,6 @@
 ---
 id: 3157
+internal_id: 3467
 slug: find-the-level-of-tree-with-minimum-sum
 title: Find the Level of Tree with Minimum Sum
 difficulty: Medium

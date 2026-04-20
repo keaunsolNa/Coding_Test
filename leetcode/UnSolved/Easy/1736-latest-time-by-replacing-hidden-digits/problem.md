@@ -1,10 +1,11 @@
 ---
 id: 1736
+internal_id: 1858
 slug: latest-time-by-replacing-hidden-digits
 title: Latest Time by Replacing Hidden Digits
 difficulty: Easy
 tags: String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

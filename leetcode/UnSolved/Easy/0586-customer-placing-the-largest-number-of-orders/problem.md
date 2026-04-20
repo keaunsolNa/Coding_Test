@@ -1,11 +1,12 @@
 ---
 id: 586
+internal_id: 586
 slug: customer-placing-the-largest-number-of-orders
 title: Customer Placing the Largest Number of Orders
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 586. Customer Placing the Largest Number of Orders

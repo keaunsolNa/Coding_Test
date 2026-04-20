@@ -1,10 +1,11 @@
 ---
 id: 1263
+internal_id: 1389
 slug: minimum-moves-to-move-a-box-to-their-target-location
 title: Minimum Moves to Move a Box to Their Target Location
 difficulty: Hard
 tags: Array, Breadth-First Search, Heap (Priority Queue), Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

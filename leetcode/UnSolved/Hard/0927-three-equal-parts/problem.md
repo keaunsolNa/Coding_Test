@@ -1,10 +1,11 @@
 ---
 id: 927
+internal_id: 963
 slug: three-equal-parts
 title: Three Equal Parts
 difficulty: Hard
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

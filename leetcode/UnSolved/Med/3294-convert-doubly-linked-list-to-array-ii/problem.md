@@ -1,5 +1,6 @@
 ---
 id: 3294
+internal_id: 3615
 slug: convert-doubly-linked-list-to-array-ii
 title: Convert Doubly Linked List to Array II
 difficulty: Medium

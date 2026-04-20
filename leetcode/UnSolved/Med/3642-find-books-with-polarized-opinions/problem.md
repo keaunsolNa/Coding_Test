@@ -1,5 +1,6 @@
 ---
 id: 3642
+internal_id: 3996
 slug: find-books-with-polarized-opinions
 title: Find Books with Polarized Opinions
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 926
+internal_id: 962
 slug: flip-string-to-monotone-increasing
 title: Flip String to Monotone Increasing
 difficulty: Medium

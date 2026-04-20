@@ -1,5 +1,6 @@
 ---
 id: 64
+internal_id: 64
 slug: minimum-path-sum
 title: Minimum Path Sum
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3112
+internal_id: 3389
 slug: minimum-time-to-visit-disappearing-nodes
 title: Minimum Time to Visit Disappearing Nodes
 difficulty: Medium

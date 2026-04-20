@@ -1,5 +1,6 @@
 ---
 id: 3848
+internal_id: 4226
 slug: check-digitorial-permutation
 title: Check Digitorial Permutation
 difficulty: Medium

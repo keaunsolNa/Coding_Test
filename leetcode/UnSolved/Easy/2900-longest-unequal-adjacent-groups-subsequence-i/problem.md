@@ -1,10 +1,11 @@
 ---
 id: 2900
+internal_id: 3143
 slug: longest-unequal-adjacent-groups-subsequence-i
 title: Longest Unequal Adjacent Groups Subsequence I
 difficulty: Easy
 tags: Array, String, Dynamic Programming, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

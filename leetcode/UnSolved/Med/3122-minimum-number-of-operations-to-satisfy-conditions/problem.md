@@ -1,5 +1,6 @@
 ---
 id: 3122
+internal_id: 3404
 slug: minimum-number-of-operations-to-satisfy-conditions
 title: Minimum Number of Operations to Satisfy Conditions
 difficulty: Medium

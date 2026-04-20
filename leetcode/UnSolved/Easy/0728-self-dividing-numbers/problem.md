@@ -1,10 +1,11 @@
 ---
 id: 728
+internal_id: 728
 slug: self-dividing-numbers
 title: Self Dividing Numbers
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

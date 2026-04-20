@@ -1,5 +1,6 @@
 ---
 id: 1721
+internal_id: 528
 slug: swapping-nodes-in-a-linked-list
 title: Swapping Nodes in a Linked List
 difficulty: Medium

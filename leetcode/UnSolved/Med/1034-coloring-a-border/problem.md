@@ -1,5 +1,6 @@
 ---
 id: 1034
+internal_id: 1104
 slug: coloring-a-border
 title: Coloring A Border
 difficulty: Medium

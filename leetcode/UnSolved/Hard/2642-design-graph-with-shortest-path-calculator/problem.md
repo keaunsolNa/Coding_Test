@@ -1,10 +1,11 @@
 ---
 id: 2642
+internal_id: 2678
 slug: design-graph-with-shortest-path-calculator
 title: Design Graph With Shortest Path Calculator
 difficulty: Hard
 tags: Graph Theory, Design, Heap (Priority Queue), Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

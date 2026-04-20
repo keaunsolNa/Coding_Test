@@ -1,5 +1,6 @@
 ---
 id: 2841
+internal_id: 2954
 slug: maximum-sum-of-almost-unique-subarray
 title: Maximum Sum of Almost Unique Subarray
 difficulty: Medium

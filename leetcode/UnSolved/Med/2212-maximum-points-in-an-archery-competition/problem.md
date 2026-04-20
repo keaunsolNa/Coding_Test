@@ -1,5 +1,6 @@
 ---
 id: 2212
+internal_id: 2318
 slug: maximum-points-in-an-archery-competition
 title: Maximum Points in an Archery Competition
 difficulty: Medium

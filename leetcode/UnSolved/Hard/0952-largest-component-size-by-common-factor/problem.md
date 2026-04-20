@@ -1,10 +1,11 @@
 ---
 id: 952
+internal_id: 989
 slug: largest-component-size-by-common-factor
 title: Largest Component Size by Common Factor
 difficulty: Hard
 tags: Array, Hash Table, Math, Union-Find, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

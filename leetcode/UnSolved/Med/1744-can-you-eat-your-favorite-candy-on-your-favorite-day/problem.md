@@ -1,5 +1,6 @@
 ---
 id: 1744
+internal_id: 1872
 slug: can-you-eat-your-favorite-candy-on-your-favorite-day
 title: Can You Eat Your Favorite Candy on Your Favorite Day?
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2977
+internal_id: 3238
 slug: minimum-cost-to-convert-string-ii
 title: Minimum Cost to Convert String II
 difficulty: Hard
 tags: Array, String, Dynamic Programming, Graph Theory, Trie, Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

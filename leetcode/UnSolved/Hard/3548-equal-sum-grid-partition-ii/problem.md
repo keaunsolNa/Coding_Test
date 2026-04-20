@@ -1,10 +1,11 @@
 ---
 id: 3548
+internal_id: 3850
 slug: equal-sum-grid-partition-ii
 title: Equal Sum Grid Partition II
 difficulty: Hard
 tags: Array, Hash Table, Matrix, Enumeration, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 757
+internal_id: 759
 slug: set-intersection-size-at-least-two
 title: Set Intersection Size At Least Two
 difficulty: Hard
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

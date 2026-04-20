@@ -1,5 +1,6 @@
 ---
 id: 2610
+internal_id: 2724
 slug: convert-an-array-into-a-2d-array-with-conditions
 title: Convert an Array Into a 2D Array With Conditions
 difficulty: Medium

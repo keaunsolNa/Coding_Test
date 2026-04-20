@@ -1,5 +1,6 @@
 ---
 id: 1823
+internal_id: 1951
 slug: find-the-winner-of-the-circular-game
 title: Find the Winner of the Circular Game
 difficulty: Medium

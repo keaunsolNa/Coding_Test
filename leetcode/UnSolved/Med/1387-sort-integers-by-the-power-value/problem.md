@@ -1,5 +1,6 @@
 ---
 id: 1387
+internal_id: 1488
 slug: sort-integers-by-the-power-value
 title: Sort Integers by The Power Value
 difficulty: Medium

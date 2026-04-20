@@ -1,10 +1,11 @@
 ---
 id: 389
+internal_id: 389
 slug: find-the-difference
 title: Find the Difference
 difficulty: Easy
 tags: Hash Table, String, Bit Manipulation, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

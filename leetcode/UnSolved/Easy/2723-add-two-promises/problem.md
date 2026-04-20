@@ -1,10 +1,11 @@
 ---
 id: 2723
+internal_id: 2859
 slug: add-two-promises
 title: Add Two Promises
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

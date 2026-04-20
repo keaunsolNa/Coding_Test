@@ -1,10 +1,11 @@
 ---
 id: 2520
+internal_id: 2608
 slug: count-the-digits-that-divide-a-number
 title: Count the Digits That Divide a Number
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

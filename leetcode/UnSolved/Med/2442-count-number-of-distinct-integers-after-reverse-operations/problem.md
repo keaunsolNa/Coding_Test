@@ -1,5 +1,6 @@
 ---
 id: 2442
+internal_id: 2525
 slug: count-number-of-distinct-integers-after-reverse-operations
 title: Count Number of Distinct Integers After Reverse Operations
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1460
+internal_id: 1556
 slug: make-two-arrays-equal-by-reversing-subarrays
 title: Make Two Arrays Equal by Reversing Subarrays
 difficulty: Easy
 tags: Array, Hash Table, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

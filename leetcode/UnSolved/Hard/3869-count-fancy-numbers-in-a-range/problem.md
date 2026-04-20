@@ -1,10 +1,11 @@
 ---
 id: 3869
+internal_id: 4159
 slug: count-fancy-numbers-in-a-range
 title: Count Fancy Numbers in a Range
 difficulty: Hard
 tags: Math, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

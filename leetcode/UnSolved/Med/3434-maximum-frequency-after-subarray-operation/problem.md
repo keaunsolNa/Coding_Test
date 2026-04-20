@@ -1,5 +1,6 @@
 ---
 id: 3434
+internal_id: 3751
 slug: maximum-frequency-after-subarray-operation
 title: Maximum Frequency After Subarray Operation
 difficulty: Medium

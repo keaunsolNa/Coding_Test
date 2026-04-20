@@ -1,5 +1,6 @@
 ---
 id: 690
+internal_id: 690
 slug: employee-importance
 title: Employee Importance
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3824
+internal_id: 4176
 slug: minimum-k-to-reduce-array-within-limit
 title: Minimum K to Reduce Array Within Limit
 difficulty: Medium

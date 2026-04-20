@@ -1,10 +1,11 @@
 ---
 id: 3382
+internal_id: 3689
 slug: maximum-area-rectangle-with-point-constraints-ii
 title: Maximum Area Rectangle With Point Constraints II
 difficulty: Hard
 tags: Array, Math, Binary Indexed Tree, Segment Tree, Geometry, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

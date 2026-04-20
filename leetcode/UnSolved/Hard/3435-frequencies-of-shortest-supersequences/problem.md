@@ -1,10 +1,11 @@
 ---
 id: 3435
+internal_id: 3713
 slug: frequencies-of-shortest-supersequences
 title: Frequencies of Shortest Supersequences
 difficulty: Hard
 tags: Array, String, Bit Manipulation, Graph Theory, Topological Sort, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 538
+internal_id: 538
 slug: convert-bst-to-greater-tree
 title: Convert BST to Greater Tree
 difficulty: Medium

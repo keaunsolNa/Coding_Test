@@ -1,10 +1,11 @@
 ---
 id: 3303
+internal_id: 3580
 slug: find-the-occurrence-of-first-almost-equal-substring
 title: Find the Occurrence of First Almost Equal Substring
 difficulty: Hard
 tags: String, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

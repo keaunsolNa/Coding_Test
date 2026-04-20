@@ -1,10 +1,11 @@
 ---
 id: 3486
+internal_id: 3798
 slug: longest-special-path-ii
 title: Longest Special Path II
 difficulty: Hard
 tags: Array, Hash Table, Tree, Depth-First Search, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

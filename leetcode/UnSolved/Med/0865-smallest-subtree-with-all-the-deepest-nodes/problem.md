@@ -1,5 +1,6 @@
 ---
 id: 865
+internal_id: 896
 slug: smallest-subtree-with-all-the-deepest-nodes
 title: Smallest Subtree with all the Deepest Nodes
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2348
+internal_id: 2432
 slug: number-of-zero-filled-subarrays
 title: Number of Zero-Filled Subarrays
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2164
+internal_id: 2283
 slug: sort-even-and-odd-indices-independently
 title: Sort Even and Odd Indices Independently
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

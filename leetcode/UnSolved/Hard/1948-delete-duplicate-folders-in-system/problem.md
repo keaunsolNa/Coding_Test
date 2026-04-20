@@ -1,10 +1,11 @@
 ---
 id: 1948
+internal_id: 2079
 slug: delete-duplicate-folders-in-system
 title: Delete Duplicate Folders in System
 difficulty: Hard
 tags: Array, Hash Table, String, Trie, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

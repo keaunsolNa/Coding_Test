@@ -1,10 +1,11 @@
 ---
 id: 689
+internal_id: 689
 slug: maximum-sum-of-3-non-overlapping-subarrays
 title: Maximum Sum of 3 Non-Overlapping Subarrays
 difficulty: Hard
 tags: Array, Dynamic Programming, Sliding Window, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

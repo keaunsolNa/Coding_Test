@@ -1,5 +1,6 @@
 ---
 id: 2598
+internal_id: 2661
 slug: smallest-missing-non-negative-integer-after-operations
 title: Smallest Missing Non-negative Integer After Operations
 difficulty: Medium

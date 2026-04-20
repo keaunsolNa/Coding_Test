@@ -1,5 +1,6 @@
 ---
 id: 1073
+internal_id: 1148
 slug: adding-two-negabinary-numbers
 title: Adding Two Negabinary Numbers
 difficulty: Medium

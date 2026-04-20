@@ -1,10 +1,11 @@
 ---
 id: 2923
+internal_id: 3188
 slug: find-champion-i
 title: Find Champion I
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

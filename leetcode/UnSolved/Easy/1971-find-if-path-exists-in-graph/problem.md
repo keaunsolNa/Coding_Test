@@ -1,10 +1,11 @@
 ---
 id: 1971
+internal_id: 2121
 slug: find-if-path-exists-in-graph
 title: Find if Path Exists in Graph
 difficulty: Easy
 tags: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

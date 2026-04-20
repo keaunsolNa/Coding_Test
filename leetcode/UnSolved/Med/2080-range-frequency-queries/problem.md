@@ -1,5 +1,6 @@
 ---
 id: 2080
+internal_id: 1294
 slug: range-frequency-queries
 title: Range Frequency Queries
 difficulty: Medium

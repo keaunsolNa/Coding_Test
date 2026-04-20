@@ -1,5 +1,6 @@
 ---
 id: 3413
+internal_id: 3715
 slug: maximum-coins-from-k-consecutive-bags
 title: Maximum Coins From K Consecutive Bags
 difficulty: Medium

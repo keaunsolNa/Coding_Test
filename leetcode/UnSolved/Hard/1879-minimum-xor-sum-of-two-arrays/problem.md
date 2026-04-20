@@ -1,10 +1,11 @@
 ---
 id: 1879
+internal_id: 1989
 slug: minimum-xor-sum-of-two-arrays
 title: Minimum XOR Sum of Two Arrays
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

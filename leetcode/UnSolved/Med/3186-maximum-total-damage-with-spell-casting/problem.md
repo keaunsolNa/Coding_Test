@@ -1,5 +1,6 @@
 ---
 id: 3186
+internal_id: 3437
 slug: maximum-total-damage-with-spell-casting
 title: Maximum Total Damage With Spell Casting
 difficulty: Medium

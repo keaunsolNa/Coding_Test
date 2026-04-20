@@ -1,5 +1,6 @@
 ---
 id: 1845
+internal_id: 1955
 slug: seat-reservation-manager
 title: Seat Reservation Manager
 difficulty: Medium

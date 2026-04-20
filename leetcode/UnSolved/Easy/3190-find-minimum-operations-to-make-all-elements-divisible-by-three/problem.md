@@ -1,10 +1,11 @@
 ---
 id: 3190
+internal_id: 3476
 slug: find-minimum-operations-to-make-all-elements-divisible-by-three
 title: Find Minimum Operations to Make All Elements Divisible by Three
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

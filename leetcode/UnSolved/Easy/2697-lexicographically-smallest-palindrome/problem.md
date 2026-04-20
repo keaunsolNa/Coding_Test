@@ -1,10 +1,11 @@
 ---
 id: 2697
+internal_id: 2816
 slug: lexicographically-smallest-palindrome
 title: Lexicographically Smallest Palindrome
 difficulty: Easy
 tags: Two Pointers, String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

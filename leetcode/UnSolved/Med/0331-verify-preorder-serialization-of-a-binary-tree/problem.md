@@ -1,5 +1,6 @@
 ---
 id: 331
+internal_id: 331
 slug: verify-preorder-serialization-of-a-binary-tree
 title: Verify Preorder Serialization of a Binary Tree
 difficulty: Medium

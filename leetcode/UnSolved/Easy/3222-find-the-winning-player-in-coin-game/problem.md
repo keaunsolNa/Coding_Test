@@ -1,10 +1,11 @@
 ---
 id: 3222
+internal_id: 3511
 slug: find-the-winning-player-in-coin-game
 title: Find the Winning Player in Coin Game
 difficulty: Easy
 tags: Math, Simulation, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

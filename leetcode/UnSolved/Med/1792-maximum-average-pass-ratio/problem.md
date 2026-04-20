@@ -1,5 +1,6 @@
 ---
 id: 1792
+internal_id: 1917
 slug: maximum-average-pass-ratio
 title: Maximum Average Pass Ratio
 difficulty: Medium

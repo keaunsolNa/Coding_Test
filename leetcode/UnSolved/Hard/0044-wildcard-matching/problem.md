@@ -1,10 +1,11 @@
 ---
 id: 44
+internal_id: 44
 slug: wildcard-matching
 title: Wildcard Matching
 difficulty: Hard
 tags: String, Dynamic Programming, Greedy, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

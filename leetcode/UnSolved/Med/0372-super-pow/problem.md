@@ -1,5 +1,6 @@
 ---
 id: 372
+internal_id: 372
 slug: super-pow
 title: Super Pow
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 673
+internal_id: 673
 slug: number-of-longest-increasing-subsequence
 title: Number of Longest Increasing Subsequence
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3361
+internal_id: 3591
 slug: shift-distance-between-two-strings
 title: Shift Distance Between Two Strings
 difficulty: Medium

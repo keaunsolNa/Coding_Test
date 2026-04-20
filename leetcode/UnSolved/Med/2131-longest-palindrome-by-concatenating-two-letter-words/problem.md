@@ -1,5 +1,6 @@
 ---
 id: 2131
+internal_id: 2237
 slug: longest-palindrome-by-concatenating-two-letter-words
 title: Longest Palindrome by Concatenating Two Letter Words
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 983
+internal_id: 1025
 slug: minimum-cost-for-tickets
 title: Minimum Cost For Tickets
 difficulty: Medium

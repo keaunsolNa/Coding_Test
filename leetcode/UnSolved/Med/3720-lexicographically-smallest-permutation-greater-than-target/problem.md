@@ -1,5 +1,6 @@
 ---
 id: 3720
+internal_id: 4020
 slug: lexicographically-smallest-permutation-greater-than-target
 title: Lexicographically Smallest Permutation Greater Than Target
 difficulty: Medium

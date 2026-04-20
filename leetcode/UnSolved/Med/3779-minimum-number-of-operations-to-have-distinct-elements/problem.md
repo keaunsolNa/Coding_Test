@@ -1,5 +1,6 @@
 ---
 id: 3779
+internal_id: 4162
 slug: minimum-number-of-operations-to-have-distinct-elements
 title: Minimum Number of Operations to Have Distinct Elements
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 641
+internal_id: 859
 slug: design-circular-deque
 title: Design Circular Deque
 difficulty: Medium

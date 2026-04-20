@@ -1,10 +1,11 @@
 ---
 id: 1512
+internal_id: 1635
 slug: number-of-good-pairs
 title: Number of Good Pairs
 difficulty: Easy
 tags: Array, Hash Table, Math, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

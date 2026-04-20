@@ -1,10 +1,11 @@
 ---
 id: 3280
+internal_id: 3567
 slug: convert-date-to-binary
 title: Convert Date to Binary
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

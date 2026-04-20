@@ -1,10 +1,11 @@
 ---
 id: 1916
+internal_id: 1313
 slug: count-ways-to-build-rooms-in-an-ant-colony
 title: Count Ways to Build Rooms in an Ant Colony
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Tree, Depth-First Search, Graph Theory, Topological Sort, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

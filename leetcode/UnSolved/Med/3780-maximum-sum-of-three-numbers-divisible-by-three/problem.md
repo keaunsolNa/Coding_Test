@@ -1,5 +1,6 @@
 ---
 id: 3780
+internal_id: 4160
 slug: maximum-sum-of-three-numbers-divisible-by-three
 title: Maximum Sum of Three Numbers Divisible by Three
 difficulty: Medium

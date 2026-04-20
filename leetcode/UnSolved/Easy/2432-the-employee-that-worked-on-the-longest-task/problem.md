@@ -1,10 +1,11 @@
 ---
 id: 2432
+internal_id: 2518
 slug: the-employee-that-worked-on-the-longest-task
 title: The Employee That Worked on the Longest Task
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

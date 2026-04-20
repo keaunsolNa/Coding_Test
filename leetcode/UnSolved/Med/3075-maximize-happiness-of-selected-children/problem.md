@@ -1,5 +1,6 @@
 ---
 id: 3075
+internal_id: 3351
 slug: maximize-happiness-of-selected-children
 title: Maximize Happiness of Selected Children
 difficulty: Medium

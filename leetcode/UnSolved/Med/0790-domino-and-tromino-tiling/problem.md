@@ -1,5 +1,6 @@
 ---
 id: 790
+internal_id: 806
 slug: domino-and-tromino-tiling
 title: Domino and Tromino Tiling
 difficulty: Medium

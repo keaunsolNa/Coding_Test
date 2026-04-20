@@ -1,5 +1,6 @@
 ---
 id: 1382
+internal_id: 1285
 slug: balance-a-binary-search-tree
 title: Balance a Binary Search Tree
 difficulty: Medium

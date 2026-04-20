@@ -1,10 +1,11 @@
 ---
 id: 2224
+internal_id: 2345
 slug: minimum-number-of-operations-to-convert-time
 title: Minimum Number of Operations to Convert Time
 difficulty: Easy
 tags: String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

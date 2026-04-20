@@ -1,5 +1,6 @@
 ---
 id: 2560
+internal_id: 2690
 slug: house-robber-iv
 title: House Robber IV
 difficulty: Medium

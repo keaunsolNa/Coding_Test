@@ -1,5 +1,6 @@
 ---
 id: 105
+internal_id: 105
 slug: construct-binary-tree-from-preorder-and-inorder-traversal
 title: Construct Binary Tree from Preorder and Inorder Traversal
 difficulty: Medium

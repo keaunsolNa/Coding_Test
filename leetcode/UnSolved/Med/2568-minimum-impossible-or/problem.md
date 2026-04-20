@@ -1,5 +1,6 @@
 ---
 id: 2568
+internal_id: 2705
 slug: minimum-impossible-or
 title: Minimum Impossible OR
 difficulty: Medium

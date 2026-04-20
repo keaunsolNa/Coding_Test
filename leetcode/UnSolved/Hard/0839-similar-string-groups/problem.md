@@ -1,10 +1,11 @@
 ---
 id: 839
+internal_id: 869
 slug: similar-string-groups
 title: Similar String Groups
 difficulty: Hard
 tags: Array, Hash Table, String, Depth-First Search, Breadth-First Search, Union-Find
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

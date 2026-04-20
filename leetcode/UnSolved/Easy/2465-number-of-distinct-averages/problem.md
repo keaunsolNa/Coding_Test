@@ -1,10 +1,11 @@
 ---
 id: 2465
+internal_id: 2561
 slug: number-of-distinct-averages
 title: Number of Distinct Averages
 difficulty: Easy
 tags: Array, Hash Table, Two Pointers, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

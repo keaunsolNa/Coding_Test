@@ -1,5 +1,6 @@
 ---
 id: 1448
+internal_id: 1544
 slug: count-good-nodes-in-binary-tree
 title: Count Good Nodes in Binary Tree
 difficulty: Medium

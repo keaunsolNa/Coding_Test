@@ -1,10 +1,11 @@
 ---
 id: 2582
+internal_id: 2645
 slug: pass-the-pillow
 title: Pass the Pillow
 difficulty: Easy
 tags: Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

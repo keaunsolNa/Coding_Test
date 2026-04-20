@@ -1,5 +1,6 @@
 ---
 id: 3039
+internal_id: 3308
 slug: apply-operations-to-make-string-empty
 title: Apply Operations to Make String Empty
 difficulty: Medium

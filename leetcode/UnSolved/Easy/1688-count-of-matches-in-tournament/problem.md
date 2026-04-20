@@ -1,10 +1,11 @@
 ---
 id: 1688
+internal_id: 1806
 slug: count-of-matches-in-tournament
 title: Count of Matches in Tournament
 difficulty: Easy
 tags: Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

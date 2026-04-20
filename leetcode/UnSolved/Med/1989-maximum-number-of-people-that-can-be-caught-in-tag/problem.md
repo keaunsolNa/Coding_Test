@@ -1,5 +1,6 @@
 ---
 id: 1989
+internal_id: 1979
 slug: maximum-number-of-people-that-can-be-caught-in-tag
 title: Maximum Number of People That Can Be Caught in Tag
 difficulty: Medium

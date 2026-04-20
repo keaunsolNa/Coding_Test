@@ -1,10 +1,11 @@
 ---
 id: 292
+internal_id: 292
 slug: nim-game
 title: Nim Game
 difficulty: Easy
 tags: Math, Brainteaser, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

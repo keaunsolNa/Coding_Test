@@ -1,10 +1,11 @@
 ---
 id: 14
+internal_id: 14
 slug: longest-common-prefix
 title: Longest Common Prefix
 difficulty: Easy
 tags: Array, String, Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

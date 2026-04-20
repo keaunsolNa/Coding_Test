@@ -1,5 +1,6 @@
 ---
 id: 2898
+internal_id: 3182
 slug: maximum-linear-stock-score
 title: Maximum Linear Stock Score
 difficulty: Medium

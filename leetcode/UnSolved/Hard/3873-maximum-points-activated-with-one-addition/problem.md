@@ -1,10 +1,11 @@
 ---
 id: 3873
+internal_id: 4249
 slug: maximum-points-activated-with-one-addition
 title: Maximum Points Activated with One Addition
 difficulty: Hard
 tags: Array, Hash Table, Union-Find
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

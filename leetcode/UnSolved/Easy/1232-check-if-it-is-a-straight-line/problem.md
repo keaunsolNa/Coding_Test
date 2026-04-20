@@ -1,10 +1,11 @@
 ---
 id: 1232
+internal_id: 1349
 slug: check-if-it-is-a-straight-line
 title: Check If It Is a Straight Line
 difficulty: Easy
 tags: Array, Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

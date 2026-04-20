@@ -1,10 +1,11 @@
 ---
 id: 168
+internal_id: 168
 slug: excel-sheet-column-title
 title: Excel Sheet Column Title
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

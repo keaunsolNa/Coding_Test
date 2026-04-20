@@ -1,5 +1,6 @@
 ---
 id: 2031
+internal_id: 510
 slug: count-subarrays-with-more-ones-than-zeros
 title: Count Subarrays With More Ones Than Zeros
 difficulty: Medium

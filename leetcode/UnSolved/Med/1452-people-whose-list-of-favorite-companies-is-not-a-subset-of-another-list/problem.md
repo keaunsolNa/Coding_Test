@@ -1,5 +1,6 @@
 ---
 id: 1452
+internal_id: 1562
 slug: people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list
 title: People Whose List of Favorite Companies Is Not a Subset of Another List
 difficulty: Medium

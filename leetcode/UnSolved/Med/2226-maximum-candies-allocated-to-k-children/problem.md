@@ -1,5 +1,6 @@
 ---
 id: 2226
+internal_id: 1335
 slug: maximum-candies-allocated-to-k-children
 title: Maximum Candies Allocated to K Children
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3215
+internal_id: 3521
 slug: count-triplets-with-even-xor-set-bits-ii
 title: Count Triplets with Even XOR Set Bits II
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1864
+internal_id: 1994
 slug: minimum-number-of-swaps-to-make-the-binary-string-alternating
 title: Minimum Number of Swaps to Make the Binary String Alternating
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 70
+internal_id: 70
 slug: climbing-stairs
 title: Climbing Stairs
 difficulty: Easy
 tags: Math, Dynamic Programming, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

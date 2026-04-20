@@ -1,10 +1,11 @@
 ---
 id: 32
+internal_id: 32
 slug: longest-valid-parentheses
 title: Longest Valid Parentheses
 difficulty: Hard
 tags: String, Dynamic Programming, Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

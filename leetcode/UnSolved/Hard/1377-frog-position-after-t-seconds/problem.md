@@ -1,10 +1,11 @@
 ---
 id: 1377
+internal_id: 1493
 slug: frog-position-after-t-seconds
 title: Frog Position After T Seconds
 difficulty: Hard
 tags: Tree, Depth-First Search, Breadth-First Search, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

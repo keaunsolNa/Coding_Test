@@ -1,5 +1,6 @@
 ---
 id: 3342
+internal_id: 3628
 slug: find-minimum-time-to-reach-last-room-ii
 title: Find Minimum Time to Reach Last Room II
 difficulty: Medium

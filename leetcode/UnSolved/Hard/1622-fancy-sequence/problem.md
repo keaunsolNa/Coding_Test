@@ -1,10 +1,11 @@
 ---
 id: 1622
+internal_id: 1728
 slug: fancy-sequence
 title: Fancy Sequence
 difficulty: Hard
 tags: Math, Design, Segment Tree, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

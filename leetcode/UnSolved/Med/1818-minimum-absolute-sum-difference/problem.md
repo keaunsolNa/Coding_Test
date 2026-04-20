@@ -1,5 +1,6 @@
 ---
 id: 1818
+internal_id: 1946
 slug: minimum-absolute-sum-difference
 title: Minimum Absolute Sum Difference
 difficulty: Medium

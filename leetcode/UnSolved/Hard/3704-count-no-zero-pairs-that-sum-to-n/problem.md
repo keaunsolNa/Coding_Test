@@ -1,10 +1,11 @@
 ---
 id: 3704
+internal_id: 4049
 slug: count-no-zero-pairs-that-sum-to-n
 title: Count No-Zero Pairs That Sum to N
 difficulty: Hard
 tags: Math, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

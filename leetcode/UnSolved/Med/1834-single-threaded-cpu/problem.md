@@ -1,5 +1,6 @@
 ---
 id: 1834
+internal_id: 1962
 slug: single-threaded-cpu
 title: Single-Threaded CPU
 difficulty: Medium

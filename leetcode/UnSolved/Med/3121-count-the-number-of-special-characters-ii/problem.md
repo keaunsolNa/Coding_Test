@@ -1,5 +1,6 @@
 ---
 id: 3121
+internal_id: 3405
 slug: count-the-number-of-special-characters-ii
 title: Count the Number of Special Characters II
 difficulty: Medium

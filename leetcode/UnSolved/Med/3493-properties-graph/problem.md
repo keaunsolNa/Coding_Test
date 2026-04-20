@@ -1,5 +1,6 @@
 ---
 id: 3493
+internal_id: 3809
 slug: properties-graph
 title: Properties Graph
 difficulty: Medium

@@ -1,11 +1,12 @@
 ---
 id: 610
+internal_id: 610
 slug: triangle-judgement
 title: Triangle Judgement
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 610. Triangle Judgement

@@ -1,5 +1,6 @@
 ---
 id: 2871
+internal_id: 3080
 slug: split-array-into-maximum-number-of-subarrays
 title: Split Array Into Maximum Number of Subarrays
 difficulty: Medium

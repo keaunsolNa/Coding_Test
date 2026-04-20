@@ -1,5 +1,6 @@
 ---
 id: 1186
+internal_id: 1288
 slug: maximum-subarray-sum-with-one-deletion
 title: Maximum Subarray Sum with One Deletion
 difficulty: Medium

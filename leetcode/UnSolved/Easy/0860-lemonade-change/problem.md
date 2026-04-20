@@ -1,10 +1,11 @@
 ---
 id: 860
+internal_id: 890
 slug: lemonade-change
 title: Lemonade Change
 difficulty: Easy
 tags: Array, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

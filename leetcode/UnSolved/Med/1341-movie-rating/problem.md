@@ -1,11 +1,12 @@
 ---
 id: 1341
+internal_id: 1480
 slug: movie-rating
 title: Movie Rating
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1341. Movie Rating

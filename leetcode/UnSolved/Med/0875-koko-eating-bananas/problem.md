@@ -1,5 +1,6 @@
 ---
 id: 875
+internal_id: 907
 slug: koko-eating-bananas
 title: Koko Eating Bananas
 difficulty: Medium

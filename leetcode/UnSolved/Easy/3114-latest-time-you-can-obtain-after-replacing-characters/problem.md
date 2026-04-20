@@ -1,10 +1,11 @@
 ---
 id: 3114
+internal_id: 3361
 slug: latest-time-you-can-obtain-after-replacing-characters
 title: Latest Time You Can Obtain After Replacing Characters
 difficulty: Easy
 tags: String, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

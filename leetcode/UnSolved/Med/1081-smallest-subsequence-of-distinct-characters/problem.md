@@ -1,5 +1,6 @@
 ---
 id: 1081
+internal_id: 1159
 slug: smallest-subsequence-of-distinct-characters
 title: Smallest Subsequence of Distinct Characters
 difficulty: Medium

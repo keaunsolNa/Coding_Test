@@ -1,10 +1,11 @@
 ---
 id: 1363
+internal_id: 1277
 slug: largest-multiple-of-three
 title: Largest Multiple of Three
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

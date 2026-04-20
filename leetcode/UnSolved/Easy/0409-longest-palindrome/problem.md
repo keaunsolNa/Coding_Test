@@ -1,10 +1,11 @@
 ---
 id: 409
+internal_id: 409
 slug: longest-palindrome
 title: Longest Palindrome
 difficulty: Easy
 tags: Hash Table, String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

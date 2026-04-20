@@ -1,5 +1,6 @@
 ---
 id: 416
+internal_id: 416
 slug: partition-equal-subset-sum
 title: Partition Equal Subset Sum
 difficulty: Medium

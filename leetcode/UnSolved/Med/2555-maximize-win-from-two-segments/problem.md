@@ -1,5 +1,6 @@
 ---
 id: 2555
+internal_id: 2673
 slug: maximize-win-from-two-segments
 title: Maximize Win From Two Segments
 difficulty: Medium

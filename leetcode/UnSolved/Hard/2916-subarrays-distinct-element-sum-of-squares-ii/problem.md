@@ -1,10 +1,11 @@
 ---
 id: 2916
+internal_id: 3139
 slug: subarrays-distinct-element-sum-of-squares-ii
 title: Subarrays Distinct Element Sum of Squares II
 difficulty: Hard
 tags: Array, Dynamic Programming, Binary Indexed Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

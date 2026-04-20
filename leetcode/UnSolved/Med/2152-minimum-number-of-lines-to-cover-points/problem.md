@@ -1,5 +1,6 @@
 ---
 id: 2152
+internal_id: 2287
 slug: minimum-number-of-lines-to-cover-points
 title: Minimum Number of Lines to Cover Points
 difficulty: Medium

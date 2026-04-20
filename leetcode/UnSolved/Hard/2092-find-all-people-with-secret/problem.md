@@ -1,10 +1,11 @@
 ---
 id: 2092
+internal_id: 2213
 slug: find-all-people-with-secret
 title: Find All People With Secret
 difficulty: Hard
 tags: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

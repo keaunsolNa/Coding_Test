@@ -1,5 +1,6 @@
 ---
 id: 1908
+internal_id: 2062
 slug: game-of-nim
 title: Game of Nim
 difficulty: Medium

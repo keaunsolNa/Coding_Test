@@ -1,10 +1,11 @@
 ---
 id: 170
+internal_id: 170
 slug: two-sum-iii-data-structure-design
 title: Two Sum III - Data structure design
 difficulty: Easy
 tags: Array, Hash Table, Two Pointers, Design, Data Stream
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

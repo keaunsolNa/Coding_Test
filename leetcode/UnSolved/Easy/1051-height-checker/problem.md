@@ -1,10 +1,11 @@
 ---
 id: 1051
+internal_id: 1137
 slug: height-checker
 title: Height Checker
 difficulty: Easy
 tags: Array, Sorting, Counting Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

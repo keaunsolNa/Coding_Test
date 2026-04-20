@@ -1,10 +1,11 @@
 ---
 id: 483
+internal_id: 483
 slug: smallest-good-base
 title: Smallest Good Base
 difficulty: Hard
 tags: Math, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

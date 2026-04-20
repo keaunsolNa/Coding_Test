@@ -1,5 +1,6 @@
 ---
 id: 2856
+internal_id: 3081
 slug: minimum-array-length-after-pair-removals
 title: Minimum Array Length After Pair Removals
 difficulty: Medium

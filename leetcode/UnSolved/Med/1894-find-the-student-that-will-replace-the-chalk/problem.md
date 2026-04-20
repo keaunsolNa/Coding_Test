@@ -1,5 +1,6 @@
 ---
 id: 1894
+internal_id: 2006
 slug: find-the-student-that-will-replace-the-chalk
 title: Find the Student that Will Replace the Chalk
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2717
+internal_id: 2785
 slug: semi-ordered-permutation
 title: Semi-Ordered Permutation
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

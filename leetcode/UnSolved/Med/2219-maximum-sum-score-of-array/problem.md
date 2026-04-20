@@ -1,5 +1,6 @@
 ---
 id: 2219
+internal_id: 2369
 slug: maximum-sum-score-of-array
 title: Maximum Sum Score of Array
 difficulty: Medium

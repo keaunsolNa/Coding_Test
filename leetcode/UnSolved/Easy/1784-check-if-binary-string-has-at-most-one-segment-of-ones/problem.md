@@ -1,10 +1,11 @@
 ---
 id: 1784
+internal_id: 1910
 slug: check-if-binary-string-has-at-most-one-segment-of-ones
 title: Check if Binary String Has at Most One Segment of Ones
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

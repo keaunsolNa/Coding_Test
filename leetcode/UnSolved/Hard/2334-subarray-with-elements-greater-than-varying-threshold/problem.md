@@ -1,10 +1,11 @@
 ---
 id: 2334
+internal_id: 2419
 slug: subarray-with-elements-greater-than-varying-threshold
 title: Subarray With Elements Greater Than Varying Threshold
 difficulty: Hard
 tags: Array, Stack, Union-Find, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

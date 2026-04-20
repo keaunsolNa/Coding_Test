@@ -1,10 +1,11 @@
 ---
 id: 2455
+internal_id: 2542
 slug: average-value-of-even-numbers-that-are-divisible-by-three
 title: Average Value of Even Numbers That Are Divisible by Three
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

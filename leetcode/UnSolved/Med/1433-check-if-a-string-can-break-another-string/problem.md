@@ -1,5 +1,6 @@
 ---
 id: 1433
+internal_id: 1530
 slug: check-if-a-string-can-break-another-string
 title: Check If a String Can Break Another String
 difficulty: Medium

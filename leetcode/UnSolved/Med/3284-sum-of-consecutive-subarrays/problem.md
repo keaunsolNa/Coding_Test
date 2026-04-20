@@ -1,5 +1,6 @@
 ---
 id: 3284
+internal_id: 3602
 slug: sum-of-consecutive-subarrays
 title: Sum of Consecutive Subarrays
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 651
+internal_id: 651
 slug: 4-keys-keyboard
 title: 4 Keys Keyboard
 difficulty: Medium

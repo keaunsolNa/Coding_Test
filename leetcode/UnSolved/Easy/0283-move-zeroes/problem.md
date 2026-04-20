@@ -1,10 +1,11 @@
 ---
 id: 283
+internal_id: 283
 slug: move-zeroes
 title: Move Zeroes
 difficulty: Easy
 tags: Array, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

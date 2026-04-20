@@ -1,10 +1,11 @@
 ---
 id: 2704
+internal_id: 2813
 slug: to-be-or-not-to-be
 title: To Be Or Not To Be
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

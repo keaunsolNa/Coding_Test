@@ -1,10 +1,11 @@
 ---
 id: 2331
+internal_id: 2416
 slug: evaluate-boolean-binary-tree
 title: Evaluate Boolean Binary Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3044
+internal_id: 3314
 slug: most-frequent-prime
 title: Most Frequent Prime
 difficulty: Medium

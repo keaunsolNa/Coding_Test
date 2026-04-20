@@ -1,5 +1,6 @@
 ---
 id: 2606
+internal_id: 2669
 slug: find-the-substring-with-maximum-cost
 title: Find the Substring With Maximum Cost
 difficulty: Medium

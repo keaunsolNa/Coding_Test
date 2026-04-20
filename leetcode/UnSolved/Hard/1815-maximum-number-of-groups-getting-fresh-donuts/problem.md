@@ -1,10 +1,11 @@
 ---
 id: 1815
+internal_id: 1924
 slug: maximum-number-of-groups-getting-fresh-donuts
 title: Maximum Number of Groups Getting Fresh Donuts
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Memoization, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

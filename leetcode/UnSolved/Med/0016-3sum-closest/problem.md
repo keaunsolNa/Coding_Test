@@ -1,5 +1,6 @@
 ---
 id: 16
+internal_id: 16
 slug: 3sum-closest
 title: 3Sum Closest
 difficulty: Medium

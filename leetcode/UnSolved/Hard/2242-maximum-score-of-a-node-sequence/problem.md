@@ -1,10 +1,11 @@
 ---
 id: 2242
+internal_id: 2353
 slug: maximum-score-of-a-node-sequence
 title: Maximum Score of a Node Sequence
 difficulty: Hard
 tags: Array, Graph Theory, Sorting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

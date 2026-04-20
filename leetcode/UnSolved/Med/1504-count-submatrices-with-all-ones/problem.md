@@ -1,5 +1,6 @@
 ---
 id: 1504
+internal_id: 1628
 slug: count-submatrices-with-all-ones
 title: Count Submatrices With All Ones
 difficulty: Medium

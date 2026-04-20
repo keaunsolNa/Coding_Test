@@ -1,10 +1,11 @@
 ---
 id: 1025
+internal_id: 1086
 slug: divisor-game
 title: Divisor Game
 difficulty: Easy
 tags: Math, Dynamic Programming, Brainteaser, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

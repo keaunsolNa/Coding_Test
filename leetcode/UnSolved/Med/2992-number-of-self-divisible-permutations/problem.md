@@ -1,5 +1,6 @@
 ---
 id: 2992
+internal_id: 3294
 slug: number-of-self-divisible-permutations
 title: Number of Self-Divisible Permutations
 difficulty: Medium

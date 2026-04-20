@@ -1,5 +1,6 @@
 ---
 id: 419
+internal_id: 419
 slug: battleships-in-a-board
 title: Battleships in a Board
 difficulty: Medium

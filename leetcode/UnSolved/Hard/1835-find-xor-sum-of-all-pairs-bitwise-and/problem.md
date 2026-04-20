@@ -1,10 +1,11 @@
 ---
 id: 1835
+internal_id: 1963
 slug: find-xor-sum-of-all-pairs-bitwise-and
 title: Find XOR Sum of All Pairs Bitwise AND
 difficulty: Hard
 tags: Array, Math, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

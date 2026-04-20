@@ -1,10 +1,11 @@
 ---
 id: 2891
+internal_id: 3063
 slug: method-chaining
 title: Method Chaining
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

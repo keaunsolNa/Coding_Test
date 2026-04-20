@@ -1,5 +1,6 @@
 ---
 id: 1663
+internal_id: 1782
 slug: smallest-string-with-a-given-numeric-value
 title: Smallest String With A Given Numeric Value
 difficulty: Medium

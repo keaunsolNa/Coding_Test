@@ -1,5 +1,6 @@
 ---
 id: 3835
+internal_id: 4211
 slug: count-subarrays-with-cost-less-than-or-equal-to-k
 title: Count Subarrays With Cost Less Than or Equal to K
 difficulty: Medium

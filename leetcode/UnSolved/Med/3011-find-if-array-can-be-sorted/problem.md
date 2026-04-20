@@ -1,5 +1,6 @@
 ---
 id: 3011
+internal_id: 3291
 slug: find-if-array-can-be-sorted
 title: Find if Array Can Be Sorted
 difficulty: Medium

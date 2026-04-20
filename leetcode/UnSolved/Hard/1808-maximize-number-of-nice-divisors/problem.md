@@ -1,10 +1,11 @@
 ---
 id: 1808
+internal_id: 1936
 slug: maximize-number-of-nice-divisors
 title: Maximize Number of Nice Divisors
 difficulty: Hard
 tags: Math, Recursion, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

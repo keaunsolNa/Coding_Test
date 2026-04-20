@@ -1,10 +1,11 @@
 ---
 id: 2089
+internal_id: 2210
 slug: find-target-indices-after-sorting-array
 title: Find Target Indices After Sorting Array
 difficulty: Easy
 tags: Array, Binary Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

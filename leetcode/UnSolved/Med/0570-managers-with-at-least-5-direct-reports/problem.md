@@ -1,11 +1,12 @@
 ---
 id: 570
+internal_id: 570
 slug: managers-with-at-least-5-direct-reports
 title: Managers with at Least 5 Direct Reports
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 570. Managers with at Least 5 Direct Reports

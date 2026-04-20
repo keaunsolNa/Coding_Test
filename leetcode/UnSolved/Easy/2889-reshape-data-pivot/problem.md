@@ -1,10 +1,11 @@
 ---
 id: 2889
+internal_id: 3072
 slug: reshape-data-pivot
 title: Reshape Data: Pivot
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

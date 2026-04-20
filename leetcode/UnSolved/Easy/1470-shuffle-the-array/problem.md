@@ -1,10 +1,11 @@
 ---
 id: 1470
+internal_id: 1580
 slug: shuffle-the-array
 title: Shuffle the Array
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

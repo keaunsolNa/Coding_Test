@@ -1,10 +1,11 @@
 ---
 id: 3292
+internal_id: 3557
 slug: minimum-number-of-valid-strings-to-form-target-ii
 title: Minimum Number of Valid Strings to Form Target II
 difficulty: Hard
 tags: Array, String, Binary Search, Dynamic Programming, Greedy, Segment Tree, Rolling Hash, String Matching, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

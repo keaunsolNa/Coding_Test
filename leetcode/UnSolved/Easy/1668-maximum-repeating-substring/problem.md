@@ -1,10 +1,11 @@
 ---
 id: 1668
+internal_id: 1764
 slug: maximum-repeating-substring
 title: Maximum Repeating Substring
 difficulty: Easy
 tags: String, Dynamic Programming, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

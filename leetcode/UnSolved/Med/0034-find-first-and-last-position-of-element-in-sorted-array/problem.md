@@ -1,5 +1,6 @@
 ---
 id: 34
+internal_id: 34
 slug: find-first-and-last-position-of-element-in-sorted-array
 title: Find First and Last Position of Element in Sorted Array
 difficulty: Medium

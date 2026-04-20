@@ -1,10 +1,11 @@
 ---
 id: 3318
+internal_id: 3610
 slug: find-x-sum-of-all-k-long-subarrays-i
 title: Find X-Sum of All K-Long Subarrays I
 difficulty: Easy
 tags: Array, Hash Table, Sliding Window, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

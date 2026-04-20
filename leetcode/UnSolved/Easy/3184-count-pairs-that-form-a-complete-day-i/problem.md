@@ -1,10 +1,11 @@
 ---
 id: 3184
+internal_id: 3421
 slug: count-pairs-that-form-a-complete-day-i
 title: Count Pairs That Form a Complete Day I
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

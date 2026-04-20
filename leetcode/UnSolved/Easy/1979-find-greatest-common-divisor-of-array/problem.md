@@ -1,10 +1,11 @@
 ---
 id: 1979
+internal_id: 2106
 slug: find-greatest-common-divisor-of-array
 title: Find Greatest Common Divisor of Array
 difficulty: Easy
 tags: Array, Math, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

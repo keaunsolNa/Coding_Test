@@ -1,5 +1,6 @@
 ---
 id: 1273
+internal_id: 1201
 slug: delete-tree-nodes
 title: Delete Tree Nodes
 difficulty: Medium

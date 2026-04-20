@@ -1,5 +1,6 @@
 ---
 id: 1249
+internal_id: 1371
 slug: minimum-remove-to-make-valid-parentheses
 title: Minimum Remove to Make Valid Parentheses
 difficulty: Medium

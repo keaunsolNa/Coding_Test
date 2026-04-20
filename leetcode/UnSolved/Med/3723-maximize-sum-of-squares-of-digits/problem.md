@@ -1,5 +1,6 @@
 ---
 id: 3723
+internal_id: 4084
 slug: maximize-sum-of-squares-of-digits
 title: Maximize Sum of Squares of Digits
 difficulty: Medium

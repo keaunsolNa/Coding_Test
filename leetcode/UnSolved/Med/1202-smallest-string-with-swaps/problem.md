@@ -1,5 +1,6 @@
 ---
 id: 1202
+internal_id: 1308
 slug: smallest-string-with-swaps
 title: Smallest String With Swaps
 difficulty: Medium

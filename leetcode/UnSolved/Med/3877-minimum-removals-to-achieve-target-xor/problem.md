@@ -1,5 +1,6 @@
 ---
 id: 3877
+internal_id: 4097
 slug: minimum-removals-to-achieve-target-xor
 title: Minimum Removals to Achieve Target XOR
 difficulty: Medium

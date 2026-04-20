@@ -1,10 +1,11 @@
 ---
 id: 1994
+internal_id: 2105
 slug: the-number-of-good-subsets
 title: The Number of Good Subsets
 difficulty: Hard
 tags: Array, Hash Table, Math, Dynamic Programming, Bit Manipulation, Counting, Number Theory, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

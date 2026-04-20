@@ -1,5 +1,6 @@
 ---
 id: 3522
+internal_id: 3732
 slug: calculate-score-after-performing-instructions
 title: Calculate Score After Performing Instructions
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 885
+internal_id: 921
 slug: spiral-matrix-iii
 title: Spiral Matrix III
 difficulty: Medium

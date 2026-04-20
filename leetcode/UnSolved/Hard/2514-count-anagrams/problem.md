@@ -1,10 +1,11 @@
 ---
 id: 2514
+internal_id: 2605
 slug: count-anagrams
 title: Count Anagrams
 difficulty: Hard
 tags: Hash Table, Math, String, Combinatorics, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

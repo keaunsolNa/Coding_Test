@@ -1,5 +1,6 @@
 ---
 id: 3227
+internal_id: 3462
 slug: vowels-game-in-a-string
 title: Vowels Game in a String
 difficulty: Medium

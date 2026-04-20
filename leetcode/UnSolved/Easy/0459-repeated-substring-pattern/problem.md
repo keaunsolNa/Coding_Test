@@ -1,10 +1,11 @@
 ---
 id: 459
+internal_id: 459
 slug: repeated-substring-pattern
 title: Repeated Substring Pattern
 difficulty: Easy
 tags: String, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

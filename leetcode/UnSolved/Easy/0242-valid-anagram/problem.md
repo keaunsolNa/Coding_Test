@@ -1,10 +1,11 @@
 ---
 id: 242
+internal_id: 242
 slug: valid-anagram
 title: Valid Anagram
 difficulty: Easy
 tags: Hash Table, String, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

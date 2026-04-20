@@ -1,5 +1,6 @@
 ---
 id: 2391
+internal_id: 2471
 slug: minimum-amount-of-time-to-collect-garbage
 title: Minimum Amount of Time to Collect Garbage
 difficulty: Medium

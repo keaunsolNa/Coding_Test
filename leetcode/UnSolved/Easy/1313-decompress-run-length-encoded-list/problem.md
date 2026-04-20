@@ -1,10 +1,11 @@
 ---
 id: 1313
+internal_id: 1241
 slug: decompress-run-length-encoded-list
 title: Decompress Run-Length Encoded List
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

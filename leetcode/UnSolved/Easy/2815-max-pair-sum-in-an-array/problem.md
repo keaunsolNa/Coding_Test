@@ -1,10 +1,11 @@
 ---
 id: 2815
+internal_id: 2902
 slug: max-pair-sum-in-an-array
 title: Max Pair Sum in an Array
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

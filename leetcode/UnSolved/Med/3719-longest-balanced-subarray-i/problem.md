@@ -1,5 +1,6 @@
 ---
 id: 3719
+internal_id: 4045
 slug: longest-balanced-subarray-i
 title: Longest Balanced Subarray I
 difficulty: Medium

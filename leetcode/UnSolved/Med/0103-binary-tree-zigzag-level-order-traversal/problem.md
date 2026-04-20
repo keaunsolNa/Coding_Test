@@ -1,5 +1,6 @@
 ---
 id: 103
+internal_id: 103
 slug: binary-tree-zigzag-level-order-traversal
 title: Binary Tree Zigzag Level Order Traversal
 difficulty: Medium

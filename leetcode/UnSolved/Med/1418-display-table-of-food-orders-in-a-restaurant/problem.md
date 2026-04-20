@@ -1,5 +1,6 @@
 ---
 id: 1418
+internal_id: 1533
 slug: display-table-of-food-orders-in-a-restaurant
 title: Display Table of Food Orders in a Restaurant
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1636
+internal_id: 1741
 slug: sort-array-by-increasing-frequency
 title: Sort Array by Increasing Frequency
 difficulty: Easy
 tags: Array, Hash Table, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 969
+internal_id: 1009
 slug: pancake-sorting
 title: Pancake Sorting
 difficulty: Medium

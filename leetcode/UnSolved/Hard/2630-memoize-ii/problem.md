@@ -1,10 +1,11 @@
 ---
 id: 2630
+internal_id: 2744
 slug: memoize-ii
 title: Memoize II
 difficulty: Hard
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

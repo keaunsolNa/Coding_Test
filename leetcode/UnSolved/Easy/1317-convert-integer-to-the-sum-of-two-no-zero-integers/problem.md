@@ -1,10 +1,11 @@
 ---
 id: 1317
+internal_id: 1440
 slug: convert-integer-to-the-sum-of-two-no-zero-integers
 title: Convert Integer to the Sum of Two No-Zero Integers
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2763
+internal_id: 2849
 slug: sum-of-imbalance-numbers-of-all-subarrays
 title: Sum of Imbalance Numbers of All Subarrays
 difficulty: Hard
 tags: Array, Hash Table, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

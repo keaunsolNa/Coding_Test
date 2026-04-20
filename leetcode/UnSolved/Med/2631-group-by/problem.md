@@ -1,5 +1,6 @@
 ---
 id: 2631
+internal_id: 2742
 slug: group-by
 title: Group By
 difficulty: Medium

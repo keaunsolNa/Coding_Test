@@ -1,5 +1,6 @@
 ---
 id: 15
+internal_id: 15
 slug: 3sum
 title: 3Sum
 difficulty: Medium

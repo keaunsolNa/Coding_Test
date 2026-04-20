@@ -1,5 +1,6 @@
 ---
 id: 919
+internal_id: 955
 slug: complete-binary-tree-inserter
 title: Complete Binary Tree Inserter
 difficulty: Medium

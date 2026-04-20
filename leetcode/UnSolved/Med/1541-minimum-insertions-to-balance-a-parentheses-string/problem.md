@@ -1,5 +1,6 @@
 ---
 id: 1541
+internal_id: 1648
 slug: minimum-insertions-to-balance-a-parentheses-string
 title: Minimum Insertions to Balance a Parentheses String
 difficulty: Medium

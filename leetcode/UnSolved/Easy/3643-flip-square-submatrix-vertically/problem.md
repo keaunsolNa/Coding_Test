@@ -1,10 +1,11 @@
 ---
 id: 3643
+internal_id: 3973
 slug: flip-square-submatrix-vertically
 title: Flip Square Submatrix Vertically
 difficulty: Easy
 tags: Array, Two Pointers, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

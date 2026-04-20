@@ -1,10 +1,11 @@
 ---
 id: 10
+internal_id: 10
 slug: regular-expression-matching
 title: Regular Expression Matching
 difficulty: Hard
 tags: String, Dynamic Programming, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

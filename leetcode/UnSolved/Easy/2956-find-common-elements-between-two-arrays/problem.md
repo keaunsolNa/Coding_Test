@@ -1,10 +1,11 @@
 ---
 id: 2956
+internal_id: 3206
 slug: find-common-elements-between-two-arrays
 title: Find Common Elements Between Two Arrays
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

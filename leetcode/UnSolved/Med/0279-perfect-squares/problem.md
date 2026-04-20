@@ -1,5 +1,6 @@
 ---
 id: 279
+internal_id: 279
 slug: perfect-squares
 title: Perfect Squares
 difficulty: Medium

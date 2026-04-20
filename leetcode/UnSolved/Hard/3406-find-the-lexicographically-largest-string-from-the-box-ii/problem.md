@@ -1,10 +1,11 @@
 ---
 id: 3406
+internal_id: 3749
 slug: find-the-lexicographically-largest-string-from-the-box-ii
 title: Find the Lexicographically Largest String From the Box II
 difficulty: Hard
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

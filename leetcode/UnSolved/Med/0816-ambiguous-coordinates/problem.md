@@ -1,5 +1,6 @@
 ---
 id: 816
+internal_id: 834
 slug: ambiguous-coordinates
 title: Ambiguous Coordinates
 difficulty: Medium

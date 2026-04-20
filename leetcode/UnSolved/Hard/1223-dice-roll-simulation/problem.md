@@ -1,10 +1,11 @@
 ---
 id: 1223
+internal_id: 1343
 slug: dice-roll-simulation
 title: Dice Roll Simulation
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

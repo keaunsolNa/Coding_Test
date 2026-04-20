@@ -1,5 +1,6 @@
 ---
 id: 6
+internal_id: 6
 slug: zigzag-conversion
 title: Zigzag Conversion
 difficulty: Medium

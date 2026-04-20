@@ -1,5 +1,6 @@
 ---
 id: 3756
+internal_id: 4136
 slug: concatenate-non-zero-digits-and-multiply-by-sum-ii
 title: Concatenate Non-Zero Digits and Multiply by Sum II
 difficulty: Medium

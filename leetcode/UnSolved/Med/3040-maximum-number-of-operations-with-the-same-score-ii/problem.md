@@ -1,5 +1,6 @@
 ---
 id: 3040
+internal_id: 3318
 slug: maximum-number-of-operations-with-the-same-score-ii
 title: Maximum Number of Operations With the Same Score II
 difficulty: Medium

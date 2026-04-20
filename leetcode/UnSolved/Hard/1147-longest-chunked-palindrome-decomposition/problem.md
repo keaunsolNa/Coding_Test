@@ -1,10 +1,11 @@
 ---
 id: 1147
+internal_id: 1251
 slug: longest-chunked-palindrome-decomposition
 title: Longest Chunked Palindrome Decomposition
 difficulty: Hard
 tags: Two Pointers, String, Dynamic Programming, Greedy, Rolling Hash, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

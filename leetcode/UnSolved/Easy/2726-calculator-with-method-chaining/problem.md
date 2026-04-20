@@ -1,10 +1,11 @@
 ---
 id: 2726
+internal_id: 2863
 slug: calculator-with-method-chaining
 title: Calculator with Method Chaining
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

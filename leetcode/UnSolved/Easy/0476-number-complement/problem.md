@@ -1,10 +1,11 @@
 ---
 id: 476
+internal_id: 476
 slug: number-complement
 title: Number Complement
 difficulty: Easy
 tags: Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

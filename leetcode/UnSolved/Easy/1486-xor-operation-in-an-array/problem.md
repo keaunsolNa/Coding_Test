@@ -1,10 +1,11 @@
 ---
 id: 1486
+internal_id: 1610
 slug: xor-operation-in-an-array
 title: XOR Operation in an Array
 difficulty: Easy
 tags: Math, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

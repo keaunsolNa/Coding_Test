@@ -1,5 +1,6 @@
 ---
 id: 1506
+internal_id: 1650
 slug: find-root-of-n-ary-tree
 title: Find Root of N-Ary Tree
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2700
+internal_id: 2774
 slug: differences-between-two-objects
 title: Differences Between Two Objects
 difficulty: Medium

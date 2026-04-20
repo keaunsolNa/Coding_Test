@@ -1,10 +1,11 @@
 ---
 id: 3386
+internal_id: 3632
 slug: button-with-longest-push-time
 title: Button with Longest Push Time
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

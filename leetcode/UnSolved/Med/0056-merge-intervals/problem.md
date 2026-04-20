@@ -1,5 +1,6 @@
 ---
 id: 56
+internal_id: 56
 slug: merge-intervals
 title: Merge Intervals
 difficulty: Medium

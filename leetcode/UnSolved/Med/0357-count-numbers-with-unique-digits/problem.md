@@ -1,5 +1,6 @@
 ---
 id: 357
+internal_id: 357
 slug: count-numbers-with-unique-digits
 title: Count Numbers with Unique Digits
 difficulty: Medium

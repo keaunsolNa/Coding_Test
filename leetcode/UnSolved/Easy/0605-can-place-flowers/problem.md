@@ -1,10 +1,11 @@
 ---
 id: 605
+internal_id: 605
 slug: can-place-flowers
 title: Can Place Flowers
 difficulty: Easy
 tags: Array, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2656
+internal_id: 2767
 slug: maximum-sum-with-exactly-k-elements
 title: Maximum Sum With Exactly K Elements 
 difficulty: Easy
 tags: Array, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

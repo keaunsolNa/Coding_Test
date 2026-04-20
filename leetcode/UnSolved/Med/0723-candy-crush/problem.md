@@ -1,5 +1,6 @@
 ---
 id: 723
+internal_id: 723
 slug: candy-crush
 title: Candy Crush
 difficulty: Medium

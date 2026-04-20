@@ -1,10 +1,11 @@
 ---
 id: 630
+internal_id: 630
 slug: course-schedule-iii
 title: Course Schedule III
 difficulty: Hard
 tags: Array, Greedy, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3552
+internal_id: 3837
 slug: grid-teleportation-traversal
 title: Grid Teleportation Traversal
 difficulty: Medium

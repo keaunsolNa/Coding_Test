@@ -1,5 +1,6 @@
 ---
 id: 172
+internal_id: 172
 slug: factorial-trailing-zeroes
 title: Factorial Trailing Zeroes
 difficulty: Medium

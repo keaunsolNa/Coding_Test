@@ -1,10 +1,11 @@
 ---
 id: 1114
+internal_id: 1203
 slug: print-in-order
 title: Print in Order
 difficulty: Easy
 tags: Concurrency
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

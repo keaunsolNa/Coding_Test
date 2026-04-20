@@ -1,10 +1,11 @@
 ---
 id: 3347
+internal_id: 3640
 slug: maximum-frequency-of-an-element-after-performing-operations-ii
 title: Maximum Frequency of an Element After Performing Operations II
 difficulty: Hard
 tags: Array, Binary Search, Sliding Window, Sorting, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

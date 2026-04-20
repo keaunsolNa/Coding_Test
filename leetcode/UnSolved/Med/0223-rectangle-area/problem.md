@@ -1,5 +1,6 @@
 ---
 id: 223
+internal_id: 223
 slug: rectangle-area
 title: Rectangle Area
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 280
+internal_id: 280
 slug: wiggle-sort
 title: Wiggle Sort
 difficulty: Medium

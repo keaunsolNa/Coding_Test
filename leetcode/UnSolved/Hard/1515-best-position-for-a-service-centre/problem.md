@@ -1,10 +1,11 @@
 ---
 id: 1515
+internal_id: 1638
 slug: best-position-for-a-service-centre
 title: Best Position for a Service Centre
 difficulty: Hard
 tags: Array, Math, Geometry, Randomized
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

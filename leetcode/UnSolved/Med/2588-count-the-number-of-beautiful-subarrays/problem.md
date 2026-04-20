@@ -1,5 +1,6 @@
 ---
 id: 2588
+internal_id: 2656
 slug: count-the-number-of-beautiful-subarrays
 title: Count the Number of Beautiful Subarrays
 difficulty: Medium

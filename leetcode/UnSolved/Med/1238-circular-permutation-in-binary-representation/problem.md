@@ -1,5 +1,6 @@
 ---
 id: 1238
+internal_id: 1359
 slug: circular-permutation-in-binary-representation
 title: Circular Permutation in Binary Representation
 difficulty: Medium

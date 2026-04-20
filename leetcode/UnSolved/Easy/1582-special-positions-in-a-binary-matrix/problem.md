@@ -1,10 +1,11 @@
 ---
 id: 1582
+internal_id: 1704
 slug: special-positions-in-a-binary-matrix
 title: Special Positions in a Binary Matrix
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

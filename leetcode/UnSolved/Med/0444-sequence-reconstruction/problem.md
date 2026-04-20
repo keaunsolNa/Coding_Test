@@ -1,5 +1,6 @@
 ---
 id: 444
+internal_id: 444
 slug: sequence-reconstruction
 title: Sequence Reconstruction
 difficulty: Medium

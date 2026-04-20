@@ -1,5 +1,6 @@
 ---
 id: 2627
+internal_id: 2743
 slug: debounce
 title: Debounce
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 127
+internal_id: 127
 slug: word-ladder
 title: Word Ladder
 difficulty: Hard
 tags: Hash Table, String, Breadth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

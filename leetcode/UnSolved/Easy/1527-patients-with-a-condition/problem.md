@@ -1,11 +1,12 @@
 ---
 id: 1527
+internal_id: 1670
 slug: patients-with-a-condition
 title: Patients With a Condition
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1527. Patients With a Condition

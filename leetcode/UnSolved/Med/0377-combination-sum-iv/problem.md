@@ -1,5 +1,6 @@
 ---
 id: 377
+internal_id: 377
 slug: combination-sum-iv
 title: Combination Sum IV
 difficulty: Medium

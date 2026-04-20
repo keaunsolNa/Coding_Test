@@ -1,5 +1,6 @@
 ---
 id: 1300
+internal_id: 1232
 slug: sum-of-mutated-array-closest-to-target
 title: Sum of Mutated Array Closest to Target
 difficulty: Medium

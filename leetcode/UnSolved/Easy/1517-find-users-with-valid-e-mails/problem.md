@@ -1,11 +1,12 @@
 ---
 id: 1517
+internal_id: 1664
 slug: find-users-with-valid-e-mails
 title: Find Users With Valid E-Mails
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1517. Find Users With Valid E-Mails

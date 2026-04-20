@@ -1,10 +1,11 @@
 ---
 id: 2882
+internal_id: 3071
 slug: drop-duplicate-rows
 title: Drop Duplicate Rows
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

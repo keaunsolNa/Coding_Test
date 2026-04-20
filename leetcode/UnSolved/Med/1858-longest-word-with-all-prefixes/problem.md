@@ -1,5 +1,6 @@
 ---
 id: 1858
+internal_id: 2009
 slug: longest-word-with-all-prefixes
 title: Longest Word With All Prefixes
 difficulty: Medium

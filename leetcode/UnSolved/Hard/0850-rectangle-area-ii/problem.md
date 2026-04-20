@@ -1,10 +1,11 @@
 ---
 id: 850
+internal_id: 880
 slug: rectangle-area-ii
 title: Rectangle Area II
 difficulty: Hard
 tags: Array, Segment Tree, Sweep Line, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

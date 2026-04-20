@@ -1,5 +1,6 @@
 ---
 id: 2483
+internal_id: 2576
 slug: minimum-penalty-for-a-shop
 title: Minimum Penalty for a Shop
 difficulty: Medium

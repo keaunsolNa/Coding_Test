@@ -1,5 +1,6 @@
 ---
 id: 2397
+internal_id: 2482
 slug: maximum-rows-covered-by-columns
 title: Maximum Rows Covered by Columns
 difficulty: Medium

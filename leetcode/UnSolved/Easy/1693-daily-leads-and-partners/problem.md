@@ -1,11 +1,12 @@
 ---
 id: 1693
+internal_id: 1837
 slug: daily-leads-and-partners
 title: Daily Leads and Partners
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1693. Daily Leads and Partners

@@ -1,5 +1,6 @@
 ---
 id: 3778
+internal_id: 4127
 slug: minimum-distance-excluding-one-maximum-weighted-edge
 title: Minimum Distance Excluding One Maximum Weighted Edge
 difficulty: Medium

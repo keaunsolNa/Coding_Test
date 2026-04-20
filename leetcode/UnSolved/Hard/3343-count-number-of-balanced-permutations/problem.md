@@ -1,10 +1,11 @@
 ---
 id: 3343
+internal_id: 3637
 slug: count-number-of-balanced-permutations
 title: Count Number of Balanced Permutations
 difficulty: Hard
 tags: Math, String, Dynamic Programming, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

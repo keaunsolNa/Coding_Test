@@ -1,10 +1,11 @@
 ---
 id: 2528
+internal_id: 2618
 slug: maximize-the-minimum-powered-city
 title: Maximize the Minimum Powered City
 difficulty: Hard
 tags: Array, Binary Search, Greedy, Queue, Sliding Window, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

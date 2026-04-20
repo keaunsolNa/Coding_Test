@@ -1,5 +1,6 @@
 ---
 id: 694
+internal_id: 694
 slug: number-of-distinct-islands
 title: Number of Distinct Islands
 difficulty: Medium

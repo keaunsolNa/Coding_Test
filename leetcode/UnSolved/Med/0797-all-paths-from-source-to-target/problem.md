@@ -1,5 +1,6 @@
 ---
 id: 797
+internal_id: 813
 slug: all-paths-from-source-to-target
 title: All Paths From Source to Target
 difficulty: Medium

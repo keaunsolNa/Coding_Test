@@ -1,5 +1,6 @@
 ---
 id: 494
+internal_id: 494
 slug: target-sum
 title: Target Sum
 difficulty: Medium

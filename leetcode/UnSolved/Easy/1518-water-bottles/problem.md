@@ -1,10 +1,11 @@
 ---
 id: 1518
+internal_id: 1642
 slug: water-bottles
 title: Water Bottles
 difficulty: Easy
 tags: Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2645
+internal_id: 2736
 slug: minimum-additions-to-make-valid-string
 title: Minimum Additions to Make Valid String
 difficulty: Medium

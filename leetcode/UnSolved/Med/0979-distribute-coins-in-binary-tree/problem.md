@@ -1,5 +1,6 @@
 ---
 id: 979
+internal_id: 1021
 slug: distribute-coins-in-binary-tree
 title: Distribute Coins in Binary Tree
 difficulty: Medium

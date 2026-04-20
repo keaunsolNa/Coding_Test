@@ -1,5 +1,6 @@
 ---
 id: 820
+internal_id: 839
 slug: short-encoding-of-words
 title: Short Encoding of Words
 difficulty: Medium

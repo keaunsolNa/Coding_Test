@@ -1,5 +1,6 @@
 ---
 id: 59
+internal_id: 59
 slug: spiral-matrix-ii
 title: Spiral Matrix II
 difficulty: Medium

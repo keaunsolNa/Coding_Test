@@ -1,5 +1,6 @@
 ---
 id: 1498
+internal_id: 1621
 slug: number-of-subsequences-that-satisfy-the-given-sum-condition
 title: Number of Subsequences That Satisfy the Given Sum Condition
 difficulty: Medium

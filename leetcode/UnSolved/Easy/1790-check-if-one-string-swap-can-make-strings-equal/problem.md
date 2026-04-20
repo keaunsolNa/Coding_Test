@@ -1,10 +1,11 @@
 ---
 id: 1790
+internal_id: 1915
 slug: check-if-one-string-swap-can-make-strings-equal
 title: Check if One String Swap Can Make Strings Equal
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

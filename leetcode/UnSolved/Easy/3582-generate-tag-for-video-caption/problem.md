@@ -1,10 +1,11 @@
 ---
 id: 3582
+internal_id: 3893
 slug: generate-tag-for-video-caption
 title: Generate Tag for Video Caption
 difficulty: Easy
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

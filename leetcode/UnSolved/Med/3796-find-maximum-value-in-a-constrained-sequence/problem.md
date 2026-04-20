@@ -1,5 +1,6 @@
 ---
 id: 3796
+internal_id: 3807
 slug: find-maximum-value-in-a-constrained-sequence
 title: Find Maximum Value in a Constrained Sequence
 difficulty: Medium

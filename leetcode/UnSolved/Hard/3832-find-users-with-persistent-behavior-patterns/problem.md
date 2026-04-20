@@ -1,10 +1,11 @@
 ---
 id: 3832
+internal_id: 4227
 slug: find-users-with-persistent-behavior-patterns
 title: Find Users with Persistent Behavior Patterns
 difficulty: Hard
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2934
+internal_id: 3190
 slug: minimum-operations-to-maximize-last-elements-in-arrays
 title: Minimum Operations to Maximize Last Elements in Arrays
 difficulty: Medium

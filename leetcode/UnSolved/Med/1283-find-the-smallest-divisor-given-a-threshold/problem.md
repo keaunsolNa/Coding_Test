@@ -1,5 +1,6 @@
 ---
 id: 1283
+internal_id: 1408
 slug: find-the-smallest-divisor-given-a-threshold
 title: Find the Smallest Divisor Given a Threshold
 difficulty: Medium

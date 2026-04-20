@@ -1,5 +1,6 @@
 ---
 id: 2771
+internal_id: 2869
 slug: longest-non-decreasing-subarray-from-two-arrays
 title: Longest Non-decreasing Subarray From Two Arrays
 difficulty: Medium

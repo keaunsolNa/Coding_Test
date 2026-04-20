@@ -1,5 +1,6 @@
 ---
 id: 2844
+internal_id: 3046
 slug: minimum-operations-to-make-a-special-number
 title: Minimum Operations to Make a Special Number
 difficulty: Medium

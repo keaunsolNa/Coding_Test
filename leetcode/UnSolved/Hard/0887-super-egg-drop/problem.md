@@ -1,10 +1,11 @@
 ---
 id: 887
+internal_id: 923
 slug: super-egg-drop
 title: Super Egg Drop
 difficulty: Hard
 tags: Math, Binary Search, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

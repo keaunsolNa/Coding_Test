@@ -1,10 +1,11 @@
 ---
 id: 3663
+internal_id: 3994
 slug: find-the-least-frequent-digit
 title: Find The Least Frequent Digit
 difficulty: Easy
 tags: Array, Hash Table, Math, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

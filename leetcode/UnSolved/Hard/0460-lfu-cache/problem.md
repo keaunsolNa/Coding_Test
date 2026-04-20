@@ -1,10 +1,11 @@
 ---
 id: 460
+internal_id: 460
 slug: lfu-cache
 title: LFU Cache
 difficulty: Hard
 tags: Hash Table, Linked List, Design, Doubly-Linked List
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

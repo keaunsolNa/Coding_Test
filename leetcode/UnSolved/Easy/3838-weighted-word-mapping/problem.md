@@ -1,10 +1,11 @@
 ---
 id: 3838
+internal_id: 4216
 slug: weighted-word-mapping
 title: Weighted Word Mapping
 difficulty: Easy
 tags: Array, String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

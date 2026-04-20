@@ -1,5 +1,6 @@
 ---
 id: 3775
+internal_id: 4157
 slug: reverse-words-with-same-vowel-count
 title: Reverse Words With Same Vowel Count
 difficulty: Medium

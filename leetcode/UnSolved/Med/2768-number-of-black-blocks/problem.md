@@ -1,5 +1,6 @@
 ---
 id: 2768
+internal_id: 2889
 slug: number-of-black-blocks
 title: Number of Black Blocks
 difficulty: Medium

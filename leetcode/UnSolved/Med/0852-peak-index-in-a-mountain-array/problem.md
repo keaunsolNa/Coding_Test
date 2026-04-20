@@ -1,5 +1,6 @@
 ---
 id: 852
+internal_id: 882
 slug: peak-index-in-a-mountain-array
 title: Peak Index in a Mountain Array
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1620
+internal_id: 1726
 slug: coordinate-with-maximum-network-quality
 title: Coordinate With Maximum Network Quality
 difficulty: Medium

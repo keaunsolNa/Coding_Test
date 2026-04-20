@@ -1,10 +1,11 @@
 ---
 id: 2911
+internal_id: 2879
 slug: minimum-changes-to-make-k-semi-palindromes
 title: Minimum Changes to Make K Semi-palindromes
 difficulty: Hard
 tags: Two Pointers, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

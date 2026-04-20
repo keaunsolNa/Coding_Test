@@ -1,10 +1,11 @@
 ---
 id: 629
+internal_id: 629
 slug: k-inverse-pairs-array
 title: K Inverse Pairs Array
 difficulty: Hard
 tags: Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

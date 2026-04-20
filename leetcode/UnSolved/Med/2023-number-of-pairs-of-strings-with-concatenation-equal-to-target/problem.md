@@ -1,5 +1,6 @@
 ---
 id: 2023
+internal_id: 2133
 slug: number-of-pairs-of-strings-with-concatenation-equal-to-target
 title: Number of Pairs of Strings With Concatenation Equal to Target
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2790
+internal_id: 2919
 slug: maximum-number-of-groups-with-increasing-length
 title: Maximum Number of Groups With Increasing Length
 difficulty: Hard
 tags: Array, Math, Binary Search, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

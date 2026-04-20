@@ -1,10 +1,11 @@
 ---
 id: 190
+internal_id: 190
 slug: reverse-bits
 title: Reverse Bits
 difficulty: Easy
 tags: Divide and Conquer, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

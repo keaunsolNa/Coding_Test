@@ -1,5 +1,6 @@
 ---
 id: 1615
+internal_id: 1738
 slug: maximal-network-rank
 title: Maximal Network Rank
 difficulty: Medium

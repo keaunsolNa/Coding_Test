@@ -1,5 +1,6 @@
 ---
 id: 1947
+internal_id: 2078
 slug: maximum-compatibility-score-sum
 title: Maximum Compatibility Score Sum
 difficulty: Medium

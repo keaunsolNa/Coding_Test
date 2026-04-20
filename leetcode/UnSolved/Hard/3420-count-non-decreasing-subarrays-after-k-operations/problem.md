@@ -1,10 +1,11 @@
 ---
 id: 3420
+internal_id: 3674
 slug: count-non-decreasing-subarrays-after-k-operations
 title: Count Non-Decreasing Subarrays After K Operations
 difficulty: Hard
 tags: Array, Stack, Segment Tree, Queue, Sliding Window, Monotonic Stack, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

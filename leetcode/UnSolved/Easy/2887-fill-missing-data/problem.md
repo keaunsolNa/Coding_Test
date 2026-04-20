@@ -1,10 +1,11 @@
 ---
 id: 2887
+internal_id: 3070
 slug: fill-missing-data
 title: Fill Missing Data
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

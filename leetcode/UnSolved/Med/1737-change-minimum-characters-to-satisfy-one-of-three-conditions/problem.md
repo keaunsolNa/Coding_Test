@@ -1,5 +1,6 @@
 ---
 id: 1737
+internal_id: 1859
 slug: change-minimum-characters-to-satisfy-one-of-three-conditions
 title: Change Minimum Characters to Satisfy One of Three Conditions
 difficulty: Medium

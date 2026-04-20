@@ -1,5 +1,6 @@
 ---
 id: 1191
+internal_id: 1299
 slug: k-concatenation-maximum-sum
 title: K-Concatenation Maximum Sum
 difficulty: Medium

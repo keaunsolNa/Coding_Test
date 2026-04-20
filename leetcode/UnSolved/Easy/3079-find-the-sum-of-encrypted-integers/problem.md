@@ -1,10 +1,11 @@
 ---
 id: 3079
+internal_id: 3367
 slug: find-the-sum-of-encrypted-integers
 title: Find the Sum of Encrypted Integers
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

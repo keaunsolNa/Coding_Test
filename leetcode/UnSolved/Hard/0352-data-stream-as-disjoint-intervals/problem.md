@@ -1,10 +1,11 @@
 ---
 id: 352
+internal_id: 352
 slug: data-stream-as-disjoint-intervals
 title: Data Stream as Disjoint Intervals
 difficulty: Hard
 tags: Hash Table, Binary Search, Union-Find, Design, Data Stream, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

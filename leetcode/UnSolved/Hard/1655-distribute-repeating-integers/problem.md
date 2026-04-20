@@ -1,10 +1,11 @@
 ---
 id: 1655
+internal_id: 1758
 slug: distribute-repeating-integers
 title: Distribute Repeating Integers
 difficulty: Hard
 tags: Array, Hash Table, Dynamic Programming, Backtracking, Bit Manipulation, Counting, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

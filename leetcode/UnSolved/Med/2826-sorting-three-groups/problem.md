@@ -1,5 +1,6 @@
 ---
 id: 2826
+internal_id: 2904
 slug: sorting-three-groups
 title: Sorting Three Groups
 difficulty: Medium

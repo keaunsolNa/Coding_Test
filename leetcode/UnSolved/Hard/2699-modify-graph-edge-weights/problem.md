@@ -1,10 +1,11 @@
 ---
 id: 2699
+internal_id: 2803
 slug: modify-graph-edge-weights
 title: Modify Graph Edge Weights
 difficulty: Hard
 tags: Graph Theory, Heap (Priority Queue), Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

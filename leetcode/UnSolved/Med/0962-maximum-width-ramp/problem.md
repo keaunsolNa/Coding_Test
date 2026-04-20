@@ -1,5 +1,6 @@
 ---
 id: 962
+internal_id: 1002
 slug: maximum-width-ramp
 title: Maximum Width Ramp
 difficulty: Medium

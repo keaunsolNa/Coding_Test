@@ -1,5 +1,6 @@
 ---
 id: 1155
+internal_id: 1263
 slug: number-of-dice-rolls-with-target-sum
 title: Number of Dice Rolls With Target Sum
 difficulty: Medium

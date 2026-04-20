@@ -1,10 +1,11 @@
 ---
 id: 160
+internal_id: 160
 slug: intersection-of-two-linked-lists
 title: Intersection of Two Linked Lists
 difficulty: Easy
 tags: Hash Table, Linked List, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

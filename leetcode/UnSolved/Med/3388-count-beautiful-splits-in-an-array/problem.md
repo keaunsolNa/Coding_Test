@@ -1,5 +1,6 @@
 ---
 id: 3388
+internal_id: 3686
 slug: count-beautiful-splits-in-an-array
 title: Count Beautiful Splits in an Array
 difficulty: Medium

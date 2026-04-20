@@ -1,5 +1,6 @@
 ---
 id: 2266
+internal_id: 2348
 slug: count-number-of-texts
 title: Count Number of Texts
 difficulty: Medium

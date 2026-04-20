@@ -1,5 +1,6 @@
 ---
 id: 2997
+internal_id: 3249
 slug: minimum-number-of-operations-to-make-array-xor-equal-to-k
 title: Minimum Number of Operations to Make Array XOR Equal to K
 difficulty: Medium

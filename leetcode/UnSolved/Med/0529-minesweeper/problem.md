@@ -1,5 +1,6 @@
 ---
 id: 529
+internal_id: 529
 slug: minesweeper
 title: Minesweeper
 difficulty: Medium

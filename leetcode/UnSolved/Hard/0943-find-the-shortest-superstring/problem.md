@@ -1,10 +1,11 @@
 ---
 id: 943
+internal_id: 980
 slug: find-the-shortest-superstring
 title: Find the Shortest Superstring
 difficulty: Hard
 tags: Array, String, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

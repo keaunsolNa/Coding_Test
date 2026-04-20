@@ -1,5 +1,6 @@
 ---
 id: 650
+internal_id: 650
 slug: 2-keys-keyboard
 title: 2 Keys Keyboard
 difficulty: Medium

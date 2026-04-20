@@ -1,10 +1,11 @@
 ---
 id: 420
+internal_id: 420
 slug: strong-password-checker
 title: Strong Password Checker
 difficulty: Hard
 tags: String, Greedy, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

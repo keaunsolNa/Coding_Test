@@ -1,10 +1,11 @@
 ---
 id: 2954
+internal_id: 3224
 slug: count-the-number-of-infection-sequences
 title: Count the Number of Infection Sequences
 difficulty: Hard
 tags: Array, Math, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

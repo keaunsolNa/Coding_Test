@@ -1,10 +1,11 @@
 ---
 id: 1595
+internal_id: 1717
 slug: minimum-cost-to-connect-two-groups-of-points
 title: Minimum Cost to Connect Two Groups of Points
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Matrix, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

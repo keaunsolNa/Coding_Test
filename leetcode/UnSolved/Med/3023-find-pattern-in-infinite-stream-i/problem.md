@@ -1,5 +1,6 @@
 ---
 id: 3023
+internal_id: 3333
 slug: find-pattern-in-infinite-stream-i
 title: Find Pattern in Infinite Stream I
 difficulty: Medium

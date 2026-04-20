@@ -1,10 +1,11 @@
 ---
 id: 193
+internal_id: 193
 slug: valid-phone-numbers
 title: Valid Phone Numbers
 difficulty: Easy
 tags: Shell
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

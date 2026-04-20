@@ -1,5 +1,6 @@
 ---
 id: 1750
+internal_id: 1850
 slug: minimum-length-of-string-after-deleting-similar-ends
 title: Minimum Length of String After Deleting Similar Ends
 difficulty: Medium

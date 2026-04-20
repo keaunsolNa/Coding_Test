@@ -1,5 +1,6 @@
 ---
 id: 2443
+internal_id: 2541
 slug: sum-of-number-and-its-reverse
 title: Sum of Number and Its Reverse
 difficulty: Medium

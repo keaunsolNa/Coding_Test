@@ -1,5 +1,6 @@
 ---
 id: 1670
+internal_id: 1767
 slug: design-front-middle-back-queue
 title: Design Front Middle Back Queue
 difficulty: Medium

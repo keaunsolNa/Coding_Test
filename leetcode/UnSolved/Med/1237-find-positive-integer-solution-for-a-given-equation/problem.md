@@ -1,5 +1,6 @@
 ---
 id: 1237
+internal_id: 1358
 slug: find-positive-integer-solution-for-a-given-equation
 title: Find Positive Integer Solution for a Given Equation
 difficulty: Medium

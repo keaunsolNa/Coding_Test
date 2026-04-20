@@ -1,10 +1,11 @@
 ---
 id: 1961
+internal_id: 2093
 slug: check-if-string-is-a-prefix-of-array
 title: Check If String Is a Prefix of Array
 difficulty: Easy
 tags: Array, Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

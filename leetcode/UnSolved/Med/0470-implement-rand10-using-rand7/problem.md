@@ -1,5 +1,6 @@
 ---
 id: 470
+internal_id: 903
 slug: implement-rand10-using-rand7
 title: Implement Rand10() Using Rand7()
 difficulty: Medium

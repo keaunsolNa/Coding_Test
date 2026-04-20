@@ -1,10 +1,11 @@
 ---
 id: 1863
+internal_id: 1993
 slug: sum-of-all-subset-xor-totals
 title: Sum of All Subset XOR Totals
 difficulty: Easy
 tags: Array, Math, Backtracking, Bit Manipulation, Combinatorics, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

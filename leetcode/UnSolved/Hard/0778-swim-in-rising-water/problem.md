@@ -1,10 +1,11 @@
 ---
 id: 778
+internal_id: 794
 slug: swim-in-rising-water
 title: Swim in Rising Water
 difficulty: Hard
 tags: Array, Binary Search, Depth-First Search, Breadth-First Search, Union-Find, Heap (Priority Queue), Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

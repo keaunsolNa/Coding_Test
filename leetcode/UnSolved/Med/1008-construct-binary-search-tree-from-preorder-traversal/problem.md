@@ -1,5 +1,6 @@
 ---
 id: 1008
+internal_id: 1050
 slug: construct-binary-search-tree-from-preorder-traversal
 title: Construct Binary Search Tree from Preorder Traversal
 difficulty: Medium

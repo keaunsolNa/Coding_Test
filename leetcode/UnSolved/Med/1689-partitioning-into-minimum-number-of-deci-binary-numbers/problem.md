@@ -1,5 +1,6 @@
 ---
 id: 1689
+internal_id: 1807
 slug: partitioning-into-minimum-number-of-deci-binary-numbers
 title: Partitioning Into Minimum Number Of Deci-Binary Numbers
 difficulty: Medium

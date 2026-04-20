@@ -1,5 +1,6 @@
 ---
 id: 777
+internal_id: 793
 slug: swap-adjacent-in-lr-string
 title: Swap Adjacent in LR String
 difficulty: Medium

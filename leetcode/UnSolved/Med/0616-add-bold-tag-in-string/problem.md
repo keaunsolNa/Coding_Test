@@ -1,5 +1,6 @@
 ---
 id: 616
+internal_id: 616
 slug: add-bold-tag-in-string
 title: Add Bold Tag in String
 difficulty: Medium

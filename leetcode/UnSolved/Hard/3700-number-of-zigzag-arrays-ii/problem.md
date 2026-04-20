@@ -1,10 +1,11 @@
 ---
 id: 3700
+internal_id: 3964
 slug: number-of-zigzag-arrays-ii
 title: Number of ZigZag Arrays II
 difficulty: Hard
 tags: Math, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

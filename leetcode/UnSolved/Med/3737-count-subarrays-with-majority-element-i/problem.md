@@ -1,5 +1,6 @@
 ---
 id: 3737
+internal_id: 4074
 slug: count-subarrays-with-majority-element-i
 title: Count Subarrays With Majority Element I
 difficulty: Medium

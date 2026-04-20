@@ -1,5 +1,6 @@
 ---
 id: 2929
+internal_id: 3201
 slug: distribute-candies-among-children-ii
 title: Distribute Candies Among Children II
 difficulty: Medium

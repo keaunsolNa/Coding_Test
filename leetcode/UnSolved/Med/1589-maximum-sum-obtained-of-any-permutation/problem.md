@@ -1,5 +1,6 @@
 ---
 id: 1589
+internal_id: 1695
 slug: maximum-sum-obtained-of-any-permutation
 title: Maximum Sum Obtained of Any Permutation
 difficulty: Medium

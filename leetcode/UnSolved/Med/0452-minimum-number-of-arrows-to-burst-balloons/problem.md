@@ -1,5 +1,6 @@
 ---
 id: 452
+internal_id: 452
 slug: minimum-number-of-arrows-to-burst-balloons
 title: Minimum Number of Arrows to Burst Balloons
 difficulty: Medium

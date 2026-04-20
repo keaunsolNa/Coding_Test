@@ -1,10 +1,11 @@
 ---
 id: 332
+internal_id: 332
 slug: reconstruct-itinerary
 title: Reconstruct Itinerary
 difficulty: Hard
 tags: Array, String, Depth-First Search, Graph Theory, Sorting, Heap (Priority Queue), Eulerian Circuit
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

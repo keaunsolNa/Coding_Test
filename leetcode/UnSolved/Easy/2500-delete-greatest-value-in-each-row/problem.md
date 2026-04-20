@@ -1,10 +1,11 @@
 ---
 id: 2500
+internal_id: 2585
 slug: delete-greatest-value-in-each-row
 title: Delete Greatest Value in Each Row
 difficulty: Easy
 tags: Array, Sorting, Heap (Priority Queue), Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

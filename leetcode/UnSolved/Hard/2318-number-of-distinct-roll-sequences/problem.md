@@ -1,10 +1,11 @@
 ---
 id: 2318
+internal_id: 2404
 slug: number-of-distinct-roll-sequences
 title: Number of Distinct Roll Sequences
 difficulty: Hard
 tags: Dynamic Programming, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

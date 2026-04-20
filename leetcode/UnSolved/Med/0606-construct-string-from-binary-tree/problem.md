@@ -1,5 +1,6 @@
 ---
 id: 606
+internal_id: 606
 slug: construct-string-from-binary-tree
 title: Construct String from Binary Tree
 difficulty: Medium

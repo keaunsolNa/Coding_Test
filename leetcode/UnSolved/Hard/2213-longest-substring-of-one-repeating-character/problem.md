@@ -1,10 +1,11 @@
 ---
 id: 2213
+internal_id: 2319
 slug: longest-substring-of-one-repeating-character
 title: Longest Substring of One Repeating Character
 difficulty: Hard
 tags: Array, String, Segment Tree, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

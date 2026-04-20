@@ -1,5 +1,6 @@
 ---
 id: 475
+internal_id: 475
 slug: heaters
 title: Heaters
 difficulty: Medium

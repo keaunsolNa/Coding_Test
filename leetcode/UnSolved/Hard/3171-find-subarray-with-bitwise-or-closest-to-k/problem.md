@@ -1,10 +1,11 @@
 ---
 id: 3171
+internal_id: 3436
 slug: find-subarray-with-bitwise-or-closest-to-k
 title: Find Subarray With Bitwise OR Closest to K
 difficulty: Hard
 tags: Array, Binary Search, Bit Manipulation, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

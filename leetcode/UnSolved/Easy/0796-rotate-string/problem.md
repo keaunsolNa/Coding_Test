@@ -1,10 +1,11 @@
 ---
 id: 796
+internal_id: 812
 slug: rotate-string
 title: Rotate String
 difficulty: Easy
 tags: String, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

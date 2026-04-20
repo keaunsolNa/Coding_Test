@@ -1,5 +1,6 @@
 ---
 id: 1983
+internal_id: 519
 slug: widest-pair-of-indices-with-equal-range-sum
 title: Widest Pair of Indices With Equal Range Sum
 difficulty: Medium

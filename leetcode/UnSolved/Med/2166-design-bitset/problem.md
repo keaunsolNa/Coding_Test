@@ -1,5 +1,6 @@
 ---
 id: 2166
+internal_id: 2285
 slug: design-bitset
 title: Design Bitset
 difficulty: Medium

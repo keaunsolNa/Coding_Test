@@ -1,11 +1,12 @@
 ---
 id: 584
+internal_id: 584
 slug: find-customer-referee
 title: Find Customer Referee
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 584. Find Customer Referee

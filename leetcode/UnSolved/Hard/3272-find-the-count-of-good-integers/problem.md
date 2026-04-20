@@ -1,10 +1,11 @@
 ---
 id: 3272
+internal_id: 3548
 slug: find-the-count-of-good-integers
 title: Find the Count of Good Integers
 difficulty: Hard
 tags: Hash Table, Math, Combinatorics, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

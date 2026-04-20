@@ -1,10 +1,11 @@
 ---
 id: 3033
+internal_id: 3330
 slug: modify-the-matrix
 title: Modify the Matrix
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

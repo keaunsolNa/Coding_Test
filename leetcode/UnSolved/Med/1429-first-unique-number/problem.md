@@ -1,5 +1,6 @@
 ---
 id: 1429
+internal_id: 1366
 slug: first-unique-number
 title: First Unique Number
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2333
+internal_id: 2418
 slug: minimum-sum-of-squared-difference
 title: Minimum Sum of Squared Difference
 difficulty: Medium

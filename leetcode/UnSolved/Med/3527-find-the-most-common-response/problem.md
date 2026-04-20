@@ -1,5 +1,6 @@
 ---
 id: 3527
+internal_id: 3707
 slug: find-the-most-common-response
 title: Find the Most Common Response
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2635
+internal_id: 2747
 slug: apply-transform-over-each-element-in-array
 title: Apply Transform Over Each Element in Array
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

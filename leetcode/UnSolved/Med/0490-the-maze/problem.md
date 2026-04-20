@@ -1,5 +1,6 @@
 ---
 id: 490
+internal_id: 490
 slug: the-maze
 title: The Maze
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1631
+internal_id: 1753
 slug: path-with-minimum-effort
 title: Path With Minimum Effort
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2904
+internal_id: 3150
 slug: shortest-and-lexicographically-smallest-beautiful-string
 title: Shortest and Lexicographically Smallest Beautiful String
 difficulty: Medium

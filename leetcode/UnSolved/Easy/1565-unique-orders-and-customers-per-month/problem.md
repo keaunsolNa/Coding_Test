@@ -1,11 +1,12 @@
 ---
 id: 1565
+internal_id: 1712
 slug: unique-orders-and-customers-per-month
 title: Unique Orders and Customers Per Month
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1565. Unique Orders and Customers Per Month

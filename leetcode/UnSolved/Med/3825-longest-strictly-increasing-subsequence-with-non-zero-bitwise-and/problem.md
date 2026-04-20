@@ -1,5 +1,6 @@
 ---
 id: 3825
+internal_id: 4032
 slug: longest-strictly-increasing-subsequence-with-non-zero-bitwise-and
 title: Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND
 difficulty: Medium

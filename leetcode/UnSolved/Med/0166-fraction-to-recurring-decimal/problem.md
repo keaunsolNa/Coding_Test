@@ -1,5 +1,6 @@
 ---
 id: 166
+internal_id: 166
 slug: fraction-to-recurring-decimal
 title: Fraction to Recurring Decimal
 difficulty: Medium

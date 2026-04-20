@@ -1,10 +1,11 @@
 ---
 id: 2000
+internal_id: 2128
 slug: reverse-prefix-of-word
 title: Reverse Prefix of Word
 difficulty: Easy
 tags: Two Pointers, String, Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 379
+internal_id: 379
 slug: design-phone-directory
 title: Design Phone Directory
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 388
+internal_id: 388
 slug: longest-absolute-file-path
 title: Longest Absolute File Path
 difficulty: Medium

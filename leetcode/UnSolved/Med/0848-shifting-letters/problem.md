@@ -1,5 +1,6 @@
 ---
 id: 848
+internal_id: 878
 slug: shifting-letters
 title: Shifting Letters
 difficulty: Medium

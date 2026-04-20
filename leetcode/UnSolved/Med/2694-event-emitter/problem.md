@@ -1,5 +1,6 @@
 ---
 id: 2694
+internal_id: 2797
 slug: event-emitter
 title: Event Emitter
 difficulty: Medium

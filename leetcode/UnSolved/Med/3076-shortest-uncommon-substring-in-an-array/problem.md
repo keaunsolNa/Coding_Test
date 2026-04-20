@@ -1,5 +1,6 @@
 ---
 id: 3076
+internal_id: 3356
 slug: shortest-uncommon-substring-in-an-array
 title: Shortest Uncommon Substring in an Array
 difficulty: Medium

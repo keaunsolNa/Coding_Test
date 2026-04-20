@@ -1,11 +1,12 @@
 ---
 id: 3058
+internal_id: 3358
 slug: friends-with-no-mutual-friends
 title: Friends With No Mutual Friends
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3058. Friends With No Mutual Friends

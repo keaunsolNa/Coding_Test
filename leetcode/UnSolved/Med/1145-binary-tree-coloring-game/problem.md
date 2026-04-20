@@ -1,5 +1,6 @@
 ---
 id: 1145
+internal_id: 1248
 slug: binary-tree-coloring-game
 title: Binary Tree Coloring Game
 difficulty: Medium

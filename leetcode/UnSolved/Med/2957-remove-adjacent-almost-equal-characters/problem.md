@@ -1,5 +1,6 @@
 ---
 id: 2957
+internal_id: 3230
 slug: remove-adjacent-almost-equal-characters
 title: Remove Adjacent Almost-Equal Characters
 difficulty: Medium

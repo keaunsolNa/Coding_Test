@@ -1,10 +1,11 @@
 ---
 id: 3836
+internal_id: 4202
 slug: maximum-score-using-exactly-k-pairs
 title: Maximum Score Using Exactly K Pairs
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

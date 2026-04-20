@@ -1,10 +1,11 @@
 ---
 id: 3276
+internal_id: 3563
 slug: select-cells-in-grid-with-maximum-score
 title: Select Cells in Grid With Maximum Score
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Matrix, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

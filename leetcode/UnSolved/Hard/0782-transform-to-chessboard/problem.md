@@ -1,10 +1,11 @@
 ---
 id: 782
+internal_id: 798
 slug: transform-to-chessboard
 title: Transform to Chessboard
 difficulty: Hard
 tags: Array, Math, Bit Manipulation, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

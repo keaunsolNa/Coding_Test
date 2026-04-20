@@ -1,10 +1,11 @@
 ---
 id: 1632
+internal_id: 1257
 slug: rank-transform-of-a-matrix
 title: Rank Transform of a Matrix
 difficulty: Hard
 tags: Array, Union-Find, Graph Theory, Topological Sort, Sorting, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

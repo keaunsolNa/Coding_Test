@@ -1,10 +1,11 @@
 ---
 id: 171
+internal_id: 171
 slug: excel-sheet-column-number
 title: Excel Sheet Column Number
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

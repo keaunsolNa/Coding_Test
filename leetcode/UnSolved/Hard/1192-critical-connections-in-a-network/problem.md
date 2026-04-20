@@ -1,10 +1,11 @@
 ---
 id: 1192
+internal_id: 1300
 slug: critical-connections-in-a-network
 title: Critical Connections in a Network
 difficulty: Hard
 tags: Depth-First Search, Graph Theory, Biconnected Component
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

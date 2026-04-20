@@ -1,10 +1,11 @@
 ---
 id: 2210
+internal_id: 2316
 slug: count-hills-and-valleys-in-an-array
 title: Count Hills and Valleys in an Array
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

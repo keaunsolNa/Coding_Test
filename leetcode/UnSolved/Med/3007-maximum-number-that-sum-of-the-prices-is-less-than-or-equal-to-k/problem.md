@@ -1,5 +1,6 @@
 ---
 id: 3007
+internal_id: 3240
 slug: maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k
 title: Maximum Number That Sum of the Prices Is Less Than or Equal to K
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2369
+internal_id: 2443
 slug: check-if-there-is-a-valid-partition-for-the-array
 title: Check if There is a Valid Partition For The Array
 difficulty: Medium

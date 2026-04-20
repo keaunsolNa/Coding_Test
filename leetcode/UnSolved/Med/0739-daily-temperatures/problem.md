@@ -1,5 +1,6 @@
 ---
 id: 739
+internal_id: 739
 slug: daily-temperatures
 title: Daily Temperatures
 difficulty: Medium

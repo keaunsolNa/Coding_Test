@@ -1,10 +1,11 @@
 ---
 id: 1671
+internal_id: 1766
 slug: minimum-number-of-removals-to-make-mountain-array
 title: Minimum Number of Removals to Make Mountain Array
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

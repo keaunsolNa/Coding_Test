@@ -1,10 +1,11 @@
 ---
 id: 2444
+internal_id: 2527
 slug: count-subarrays-with-fixed-bounds
 title: Count Subarrays With Fixed Bounds
 difficulty: Hard
 tags: Array, Queue, Sliding Window, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

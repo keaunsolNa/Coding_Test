@@ -1,5 +1,6 @@
 ---
 id: 1222
+internal_id: 1342
 slug: queens-that-can-attack-the-king
 title: Queens That Can Attack the King
 difficulty: Medium

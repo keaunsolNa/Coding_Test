@@ -1,5 +1,6 @@
 ---
 id: 96
+internal_id: 96
 slug: unique-binary-search-trees
 title: Unique Binary Search Trees
 difficulty: Medium

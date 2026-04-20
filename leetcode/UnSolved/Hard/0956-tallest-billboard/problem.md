@@ -1,10 +1,11 @@
 ---
 id: 956
+internal_id: 993
 slug: tallest-billboard
 title: Tallest Billboard
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

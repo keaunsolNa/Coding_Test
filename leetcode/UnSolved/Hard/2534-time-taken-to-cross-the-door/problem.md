@@ -1,10 +1,11 @@
 ---
 id: 2534
+internal_id: 2617
 slug: time-taken-to-cross-the-door
 title: Time Taken to Cross the Door
 difficulty: Hard
 tags: Array, Queue, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

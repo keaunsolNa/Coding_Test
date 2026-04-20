@@ -1,5 +1,6 @@
 ---
 id: 3557
+internal_id: 3857
 slug: find-maximum-number-of-non-intersecting-substrings
 title: Find Maximum Number of Non Intersecting Substrings
 difficulty: Medium

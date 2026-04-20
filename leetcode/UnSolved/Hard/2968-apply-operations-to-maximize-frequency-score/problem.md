@@ -1,10 +1,11 @@
 ---
 id: 2968
+internal_id: 3196
 slug: apply-operations-to-maximize-frequency-score
 title: Apply Operations to Maximize Frequency Score
 difficulty: Hard
 tags: Array, Binary Search, Sliding Window, Sorting, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

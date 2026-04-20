@@ -1,10 +1,11 @@
 ---
 id: 3399
+internal_id: 3706
 slug: smallest-substring-with-identical-characters-ii
 title: Smallest Substring With Identical Characters II
 difficulty: Hard
 tags: String, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2328
+internal_id: 2409
 slug: number-of-increasing-paths-in-a-grid
 title: Number of Increasing Paths in a Grid
 difficulty: Hard
 tags: Array, Dynamic Programming, Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort, Memoization, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

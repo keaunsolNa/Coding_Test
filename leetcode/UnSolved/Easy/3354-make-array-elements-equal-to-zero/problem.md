@@ -1,10 +1,11 @@
 ---
 id: 3354
+internal_id: 3616
 slug: make-array-elements-equal-to-zero
 title: Make Array Elements Equal to Zero
 difficulty: Easy
 tags: Array, Simulation, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 808
+internal_id: 826
 slug: soup-servings
 title: Soup Servings
 difficulty: Medium

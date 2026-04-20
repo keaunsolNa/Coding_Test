@@ -1,10 +1,11 @@
 ---
 id: 2040
+internal_id: 2150
 slug: kth-smallest-product-of-two-sorted-arrays
 title: Kth Smallest Product of Two Sorted Arrays
 difficulty: Hard
 tags: Array, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

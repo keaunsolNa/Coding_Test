@@ -1,5 +1,6 @@
 ---
 id: 893
+internal_id: 929
 slug: groups-of-special-equivalent-strings
 title: Groups of Special-Equivalent Strings
 difficulty: Medium

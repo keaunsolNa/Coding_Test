@@ -1,10 +1,11 @@
 ---
 id: 706
+internal_id: 817
 slug: design-hashmap
 title: Design HashMap
 difficulty: Easy
 tags: Array, Hash Table, Linked List, Design, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

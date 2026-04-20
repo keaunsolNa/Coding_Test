@@ -1,10 +1,11 @@
 ---
 id: 2945
+internal_id: 3211
 slug: find-maximum-non-decreasing-array-length
 title: Find Maximum Non-decreasing Array Length
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Stack, Queue, Monotonic Stack, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

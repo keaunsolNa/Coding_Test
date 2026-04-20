@@ -1,11 +1,12 @@
 ---
 id: 1731
+internal_id: 1882
 slug: the-number-of-employees-which-report-to-each-employee
 title: The Number of Employees Which Report to Each Employee
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1731. The Number of Employees Which Report to Each Employee

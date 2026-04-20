@@ -1,10 +1,11 @@
 ---
 id: 2183
+internal_id: 2301
 slug: count-array-pairs-divisible-by-k
 title: Count Array Pairs Divisible by K
 difficulty: Hard
 tags: Array, Hash Table, Math, Counting, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

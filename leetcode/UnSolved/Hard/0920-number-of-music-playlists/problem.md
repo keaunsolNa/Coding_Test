@@ -1,10 +1,11 @@
 ---
 id: 920
+internal_id: 956
 slug: number-of-music-playlists
 title: Number of Music Playlists
 difficulty: Hard
 tags: Math, Dynamic Programming, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

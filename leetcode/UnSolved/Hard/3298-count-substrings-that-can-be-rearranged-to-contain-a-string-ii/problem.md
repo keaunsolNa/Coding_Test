@@ -1,10 +1,11 @@
 ---
 id: 3298
+internal_id: 3572
 slug: count-substrings-that-can-be-rearranged-to-contain-a-string-ii
 title: Count Substrings That Can Be Rearranged to Contain a String II
 difficulty: Hard
 tags: Hash Table, String, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

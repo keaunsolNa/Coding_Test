@@ -1,10 +1,11 @@
 ---
 id: 273
+internal_id: 273
 slug: integer-to-english-words
 title: Integer to English Words
 difficulty: Hard
 tags: Math, String, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2595
+internal_id: 2659
 slug: number-of-even-and-odd-bits
 title: Number of Even and Odd Bits
 difficulty: Easy
 tags: Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

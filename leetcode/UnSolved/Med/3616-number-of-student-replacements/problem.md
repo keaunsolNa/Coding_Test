@@ -1,5 +1,6 @@
 ---
 id: 3616
+internal_id: 3960
 slug: number-of-student-replacements
 title: Number of Student Replacements
 difficulty: Medium

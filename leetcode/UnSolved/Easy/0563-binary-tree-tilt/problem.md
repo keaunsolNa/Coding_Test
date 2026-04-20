@@ -1,10 +1,11 @@
 ---
 id: 563
+internal_id: 563
 slug: binary-tree-tilt
 title: Binary Tree Tilt
 difficulty: Easy
 tags: Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

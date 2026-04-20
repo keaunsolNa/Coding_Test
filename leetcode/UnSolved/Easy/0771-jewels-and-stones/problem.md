@@ -1,10 +1,11 @@
 ---
 id: 771
+internal_id: 782
 slug: jewels-and-stones
 title: Jewels and Stones
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

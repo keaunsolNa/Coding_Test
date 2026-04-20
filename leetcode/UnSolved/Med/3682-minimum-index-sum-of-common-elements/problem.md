@@ -1,5 +1,6 @@
 ---
 id: 3682
+internal_id: 4050
 slug: minimum-index-sum-of-common-elements
 title: Minimum Index Sum of Common Elements
 difficulty: Medium

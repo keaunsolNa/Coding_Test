@@ -1,10 +1,11 @@
 ---
 id: 3142
+internal_id: 3415
 slug: check-if-grid-satisfies-conditions
 title: Check if Grid Satisfies Conditions
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

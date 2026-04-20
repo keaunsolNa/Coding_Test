@@ -1,5 +1,6 @@
 ---
 id: 3619
+internal_id: 3823
 slug: count-islands-with-total-value-divisible-by-k
 title: Count Islands With Total Value Divisible by K
 difficulty: Medium

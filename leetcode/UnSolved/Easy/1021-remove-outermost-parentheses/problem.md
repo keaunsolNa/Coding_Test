@@ -1,10 +1,11 @@
 ---
 id: 1021
+internal_id: 1078
 slug: remove-outermost-parentheses
 title: Remove Outermost Parentheses
 difficulty: Easy
 tags: String, Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

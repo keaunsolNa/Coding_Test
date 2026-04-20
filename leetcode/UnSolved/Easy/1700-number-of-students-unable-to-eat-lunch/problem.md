@@ -1,10 +1,11 @@
 ---
 id: 1700
+internal_id: 1802
 slug: number-of-students-unable-to-eat-lunch
 title: Number of Students Unable to Eat Lunch
 difficulty: Easy
 tags: Array, Stack, Queue, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

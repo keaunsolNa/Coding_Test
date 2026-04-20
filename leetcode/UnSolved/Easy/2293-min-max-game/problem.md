@@ -1,10 +1,11 @@
 ---
 id: 2293
+internal_id: 2386
 slug: min-max-game
 title: Min Max Game
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

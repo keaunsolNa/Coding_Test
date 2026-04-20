@@ -1,10 +1,11 @@
 ---
 id: 312
+internal_id: 312
 slug: burst-balloons
 title: Burst Balloons
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

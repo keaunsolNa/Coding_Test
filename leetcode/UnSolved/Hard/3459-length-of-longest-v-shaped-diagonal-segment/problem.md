@@ -1,10 +1,11 @@
 ---
 id: 3459
+internal_id: 3733
 slug: length-of-longest-v-shaped-diagonal-segment
 title: Length of Longest V-Shaped Diagonal Segment
 difficulty: Hard
 tags: Array, Dynamic Programming, Memoization, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

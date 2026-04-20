@@ -1,10 +1,11 @@
 ---
 id: 938
+internal_id: 975
 slug: range-sum-of-bst
 title: Range Sum of BST
 difficulty: Easy
 tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

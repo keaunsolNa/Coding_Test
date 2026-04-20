@@ -1,10 +1,11 @@
 ---
 id: 2019
+internal_id: 2147
 slug: the-score-of-students-solving-math-expression
 title: The Score of Students Solving Math Expression
 difficulty: Hard
 tags: Array, Hash Table, Math, String, Dynamic Programming, Stack, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

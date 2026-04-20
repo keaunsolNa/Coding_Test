@@ -1,10 +1,11 @@
 ---
 id: 3545
+internal_id: 3871
 slug: minimum-deletions-for-at-most-k-distinct-characters
 title: Minimum Deletions for At Most K Distinct Characters
 difficulty: Easy
 tags: Hash Table, String, Greedy, Sorting, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

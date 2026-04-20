@@ -1,5 +1,6 @@
 ---
 id: 1348
+internal_id: 1470
 slug: tweet-counts-per-frequency
 title: Tweet Counts Per Frequency
 difficulty: Medium

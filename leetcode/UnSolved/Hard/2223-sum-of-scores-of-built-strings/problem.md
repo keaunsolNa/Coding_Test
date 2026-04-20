@@ -1,10 +1,11 @@
 ---
 id: 2223
+internal_id: 2326
 slug: sum-of-scores-of-built-strings
 title: Sum of Scores of Built Strings
 difficulty: Hard
 tags: String, Binary Search, Rolling Hash, Suffix Array, String Matching, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

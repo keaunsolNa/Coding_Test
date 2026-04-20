@@ -1,5 +1,6 @@
 ---
 id: 2787
+internal_id: 2882
 slug: ways-to-express-an-integer-as-sum-of-powers
 title: Ways to Express an Integer as Sum of Powers
 difficulty: Medium

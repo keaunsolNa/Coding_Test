@@ -1,5 +1,6 @@
 ---
 id: 1877
+internal_id: 1988
 slug: minimize-maximum-pair-sum-in-array
 title: Minimize Maximum Pair Sum in Array
 difficulty: Medium

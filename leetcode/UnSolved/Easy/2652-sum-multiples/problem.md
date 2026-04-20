@@ -1,10 +1,11 @@
 ---
 id: 2652
+internal_id: 2752
 slug: sum-multiples
 title: Sum Multiples
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

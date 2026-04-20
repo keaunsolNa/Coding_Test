@@ -1,10 +1,11 @@
 ---
 id: 3238
+internal_id: 3519
 slug: find-the-number-of-winning-players
 title: Find the Number of Winning Players
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

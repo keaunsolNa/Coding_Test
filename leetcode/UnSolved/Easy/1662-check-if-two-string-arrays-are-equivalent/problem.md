@@ -1,10 +1,11 @@
 ---
 id: 1662
+internal_id: 1781
 slug: check-if-two-string-arrays-are-equivalent
 title: Check If Two String Arrays are Equivalent
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

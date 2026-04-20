@@ -1,11 +1,12 @@
 ---
 id: 1633
+internal_id: 1773
 slug: percentage-of-users-attended-a-contest
 title: Percentage of Users Attended a Contest
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1633. Percentage of Users Attended a Contest

@@ -1,10 +1,11 @@
 ---
 id: 1422
+internal_id: 1537
 slug: maximum-score-after-splitting-a-string
 title: Maximum Score After Splitting a String
 difficulty: Easy
 tags: String, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

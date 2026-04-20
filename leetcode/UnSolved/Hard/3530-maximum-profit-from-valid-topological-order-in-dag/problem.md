@@ -1,10 +1,11 @@
 ---
 id: 3530
+internal_id: 3826
 slug: maximum-profit-from-valid-topological-order-in-dag
 title: Maximum Profit from Valid Topological Order in DAG
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Graph Theory, Topological Sort, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 415
+internal_id: 415
 slug: add-strings
 title: Add Strings
 difficulty: Easy
 tags: Math, String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

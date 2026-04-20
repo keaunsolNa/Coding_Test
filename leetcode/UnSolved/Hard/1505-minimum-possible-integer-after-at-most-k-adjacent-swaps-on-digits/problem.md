@@ -1,10 +1,11 @@
 ---
 id: 1505
+internal_id: 1629
 slug: minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits
 title: Minimum Possible Integer After at Most K Adjacent Swaps On Digits
 difficulty: Hard
 tags: String, Greedy, Binary Indexed Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

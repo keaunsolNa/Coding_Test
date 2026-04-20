@@ -1,10 +1,11 @@
 ---
 id: 987
+internal_id: 1029
 slug: vertical-order-traversal-of-a-binary-tree
 title: Vertical Order Traversal of a Binary Tree
 difficulty: Hard
 tags: Hash Table, Tree, Depth-First Search, Breadth-First Search, Sorting, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

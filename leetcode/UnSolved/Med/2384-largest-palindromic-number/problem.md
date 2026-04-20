@@ -1,5 +1,6 @@
 ---
 id: 2384
+internal_id: 2475
 slug: largest-palindromic-number
 title: Largest Palindromic Number
 difficulty: Medium

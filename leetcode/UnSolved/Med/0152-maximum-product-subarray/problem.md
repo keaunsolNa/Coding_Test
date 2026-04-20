@@ -1,5 +1,6 @@
 ---
 id: 152
+internal_id: 152
 slug: maximum-product-subarray
 title: Maximum Product Subarray
 difficulty: Medium

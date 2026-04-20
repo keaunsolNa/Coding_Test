@@ -1,5 +1,6 @@
 ---
 id: 792
+internal_id: 808
 slug: number-of-matching-subsequences
 title: Number of Matching Subsequences
 difficulty: Medium

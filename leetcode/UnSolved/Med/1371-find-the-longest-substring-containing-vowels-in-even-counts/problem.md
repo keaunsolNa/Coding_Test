@@ -1,5 +1,6 @@
 ---
 id: 1371
+internal_id: 1473
 slug: find-the-longest-substring-containing-vowels-in-even-counts
 title: Find the Longest Substring Containing Vowels in Even Counts
 difficulty: Medium

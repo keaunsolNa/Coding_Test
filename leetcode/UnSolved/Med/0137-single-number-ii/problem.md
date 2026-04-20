@@ -1,5 +1,6 @@
 ---
 id: 137
+internal_id: 137
 slug: single-number-ii
 title: Single Number II
 difficulty: Medium

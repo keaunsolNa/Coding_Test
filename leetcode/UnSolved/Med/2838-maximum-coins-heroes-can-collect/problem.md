@@ -1,5 +1,6 @@
 ---
 id: 2838
+internal_id: 3101
 slug: maximum-coins-heroes-can-collect
 title: Maximum Coins Heroes Can Collect
 difficulty: Medium

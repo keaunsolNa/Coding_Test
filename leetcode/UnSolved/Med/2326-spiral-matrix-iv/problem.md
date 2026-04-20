@@ -1,5 +1,6 @@
 ---
 id: 2326
+internal_id: 2411
 slug: spiral-matrix-iv
 title: Spiral Matrix IV
 difficulty: Medium

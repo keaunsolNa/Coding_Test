@@ -1,10 +1,11 @@
 ---
 id: 2003
+internal_id: 2131
 slug: smallest-missing-genetic-value-in-each-subtree
 title: Smallest Missing Genetic Value in Each Subtree
 difficulty: Hard
 tags: Array, Dynamic Programming, Tree, Depth-First Search, Union-Find
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

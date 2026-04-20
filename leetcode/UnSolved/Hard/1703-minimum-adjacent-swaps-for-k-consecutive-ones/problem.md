@@ -1,10 +1,11 @@
 ---
 id: 1703
+internal_id: 1805
 slug: minimum-adjacent-swaps-for-k-consecutive-ones
 title: Minimum Adjacent Swaps for K Consecutive Ones
 difficulty: Hard
 tags: Array, Greedy, Sliding Window, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

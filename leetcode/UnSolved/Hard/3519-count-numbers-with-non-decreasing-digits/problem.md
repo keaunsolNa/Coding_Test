@@ -1,10 +1,11 @@
 ---
 id: 3519
+internal_id: 3810
 slug: count-numbers-with-non-decreasing-digits
 title: Count Numbers with Non-Decreasing Digits 
 difficulty: Hard
 tags: Math, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

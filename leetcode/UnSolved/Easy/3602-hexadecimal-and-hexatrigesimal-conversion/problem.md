@@ -1,10 +1,11 @@
 ---
 id: 3602
+internal_id: 3912
 slug: hexadecimal-and-hexatrigesimal-conversion
 title: Hexadecimal and Hexatrigesimal Conversion
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

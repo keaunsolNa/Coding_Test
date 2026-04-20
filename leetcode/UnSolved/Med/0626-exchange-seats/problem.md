@@ -1,11 +1,12 @@
 ---
 id: 626
+internal_id: 626
 slug: exchange-seats
 title: Exchange Seats
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 626. Exchange Seats

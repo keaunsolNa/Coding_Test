@@ -1,10 +1,11 @@
 ---
 id: 993
+internal_id: 1035
 slug: cousins-in-binary-tree
 title: Cousins in Binary Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

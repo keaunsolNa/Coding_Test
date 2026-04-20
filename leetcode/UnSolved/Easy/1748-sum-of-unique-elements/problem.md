@@ -1,10 +1,11 @@
 ---
 id: 1748
+internal_id: 1848
 slug: sum-of-unique-elements
 title: Sum of Unique Elements
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

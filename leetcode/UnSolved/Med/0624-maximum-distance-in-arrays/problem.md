@@ -1,5 +1,6 @@
 ---
 id: 624
+internal_id: 624
 slug: maximum-distance-in-arrays
 title: Maximum Distance in Arrays
 difficulty: Medium

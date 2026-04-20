@@ -1,5 +1,6 @@
 ---
 id: 1798
+internal_id: 1930
 slug: maximum-number-of-consecutive-values-you-can-make
 title: Maximum Number of Consecutive Values You Can Make
 difficulty: Medium

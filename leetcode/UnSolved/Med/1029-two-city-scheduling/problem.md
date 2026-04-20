@@ -1,5 +1,6 @@
 ---
 id: 1029
+internal_id: 1095
 slug: two-city-scheduling
 title: Two City Scheduling
 difficulty: Medium

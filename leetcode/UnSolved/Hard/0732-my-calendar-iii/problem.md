@@ -1,10 +1,11 @@
 ---
 id: 732
+internal_id: 732
 slug: my-calendar-iii
 title: My Calendar III
 difficulty: Hard
 tags: Binary Search, Design, Segment Tree, Prefix Sum, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1959
+internal_id: 2081
 slug: minimum-total-space-wasted-with-k-resizing-operations
 title: Minimum Total Space Wasted With K Resizing Operations
 difficulty: Medium

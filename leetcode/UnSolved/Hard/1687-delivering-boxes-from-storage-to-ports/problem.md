@@ -1,10 +1,11 @@
 ---
 id: 1687
+internal_id: 1789
 slug: delivering-boxes-from-storage-to-ports
 title: Delivering Boxes from Storage to Ports
 difficulty: Hard
 tags: Array, Dynamic Programming, Segment Tree, Queue, Heap (Priority Queue), Prefix Sum, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

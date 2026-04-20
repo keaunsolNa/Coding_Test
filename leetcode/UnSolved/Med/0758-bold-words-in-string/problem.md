@@ -1,5 +1,6 @@
 ---
 id: 758
+internal_id: 760
 slug: bold-words-in-string
 title: Bold Words in String
 difficulty: Medium

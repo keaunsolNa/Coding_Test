@@ -1,5 +1,6 @@
 ---
 id: 3070
+internal_id: 3338
 slug: count-submatrices-with-top-left-element-and-sum-less-than-k
 title: Count Submatrices with Top-Left Element and Sum Less Than k
 difficulty: Medium

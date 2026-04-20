@@ -1,10 +1,11 @@
 ---
 id: 2412
+internal_id: 2499
 slug: minimum-money-required-before-transactions
 title: Minimum Money Required Before Transactions
 difficulty: Hard
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

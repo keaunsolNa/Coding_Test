@@ -1,5 +1,6 @@
 ---
 id: 3391
+internal_id: 3735
 slug: design-a-3d-binary-matrix-with-efficient-layer-tracking
 title: Design a 3D Binary Matrix with Efficient Layer Tracking
 difficulty: Medium

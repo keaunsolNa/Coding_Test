@@ -1,5 +1,6 @@
 ---
 id: 3747
+internal_id: 4054
 slug: count-distinct-integers-after-removing-zeros
 title: Count Distinct Integers After Removing Zeros
 difficulty: Medium

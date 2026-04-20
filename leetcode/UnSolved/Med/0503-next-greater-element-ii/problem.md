@@ -1,5 +1,6 @@
 ---
 id: 503
+internal_id: 503
 slug: next-greater-element-ii
 title: Next Greater Element II
 difficulty: Medium

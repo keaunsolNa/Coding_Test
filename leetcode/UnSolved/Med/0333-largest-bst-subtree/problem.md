@@ -1,5 +1,6 @@
 ---
 id: 333
+internal_id: 333
 slug: largest-bst-subtree
 title: Largest BST Subtree
 difficulty: Medium

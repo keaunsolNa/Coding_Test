@@ -1,10 +1,11 @@
 ---
 id: 2877
+internal_id: 3062
 slug: create-a-dataframe-from-list
 title: Create a DataFrame from List
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

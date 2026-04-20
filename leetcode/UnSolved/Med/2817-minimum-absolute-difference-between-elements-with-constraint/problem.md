@@ -1,5 +1,6 @@
 ---
 id: 2817
+internal_id: 3000
 slug: minimum-absolute-difference-between-elements-with-constraint
 title: Minimum Absolute Difference Between Elements With Constraint
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 337
+internal_id: 337
 slug: house-robber-iii
 title: House Robber III
 difficulty: Medium

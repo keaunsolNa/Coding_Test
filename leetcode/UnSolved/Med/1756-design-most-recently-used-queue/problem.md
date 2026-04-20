@@ -1,5 +1,6 @@
 ---
 id: 1756
+internal_id: 1903
 slug: design-most-recently-used-queue
 title: Design Most Recently Used Queue
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 995
+internal_id: 1037
 slug: minimum-number-of-k-consecutive-bit-flips
 title: Minimum Number of K Consecutive Bit Flips
 difficulty: Hard
 tags: Array, Bit Manipulation, Queue, Sliding Window, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 217
+internal_id: 217
 slug: contains-duplicate
 title: Contains Duplicate
 difficulty: Easy
 tags: Array, Hash Table, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 961
+internal_id: 1001
 slug: n-repeated-element-in-size-2n-array
 title: N-Repeated Element in Size 2N Array
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

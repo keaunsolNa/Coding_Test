@@ -1,5 +1,6 @@
 ---
 id: 134
+internal_id: 134
 slug: gas-station
 title: Gas Station
 difficulty: Medium

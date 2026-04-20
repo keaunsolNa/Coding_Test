@@ -1,5 +1,6 @@
 ---
 id: 3446
+internal_id: 3748
 slug: sort-matrix-by-diagonals
 title: Sort Matrix by Diagonals
 difficulty: Medium

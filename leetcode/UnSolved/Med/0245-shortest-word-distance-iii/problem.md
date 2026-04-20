@@ -1,5 +1,6 @@
 ---
 id: 245
+internal_id: 245
 slug: shortest-word-distance-iii
 title: Shortest Word Distance III
 difficulty: Medium

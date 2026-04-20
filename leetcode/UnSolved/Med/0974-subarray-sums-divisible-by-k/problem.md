@@ -1,5 +1,6 @@
 ---
 id: 974
+internal_id: 1016
 slug: subarray-sums-divisible-by-k
 title: Subarray Sums Divisible by K
 difficulty: Medium

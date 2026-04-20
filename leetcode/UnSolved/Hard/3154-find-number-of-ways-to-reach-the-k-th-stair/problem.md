@@ -1,10 +1,11 @@
 ---
 id: 3154
+internal_id: 3414
 slug: find-number-of-ways-to-reach-the-k-th-stair
 title: Find Number of Ways to Reach the K-th Stair
 difficulty: Hard
 tags: Math, Dynamic Programming, Bit Manipulation, Memoization, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

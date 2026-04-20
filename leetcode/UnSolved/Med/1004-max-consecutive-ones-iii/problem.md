@@ -1,5 +1,6 @@
 ---
 id: 1004
+internal_id: 1046
 slug: max-consecutive-ones-iii
 title: Max Consecutive Ones III
 difficulty: Medium

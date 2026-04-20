@@ -1,5 +1,6 @@
 ---
 id: 2070
+internal_id: 2179
 slug: most-beautiful-item-for-each-query
 title: Most Beautiful Item for Each Query
 difficulty: Medium

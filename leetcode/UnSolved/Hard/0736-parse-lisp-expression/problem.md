@@ -1,10 +1,11 @@
 ---
 id: 736
+internal_id: 736
 slug: parse-lisp-expression
 title: Parse Lisp Expression
 difficulty: Hard
 tags: Hash Table, String, Stack, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

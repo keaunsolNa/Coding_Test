@@ -1,5 +1,6 @@
 ---
 id: 1726
+internal_id: 1364
 slug: tuple-with-same-product
 title: Tuple with Same Product
 difficulty: Medium

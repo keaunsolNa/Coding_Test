@@ -1,5 +1,6 @@
 ---
 id: 1577
+internal_id: 1699
 slug: number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers
 title: Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 difficulty: Medium

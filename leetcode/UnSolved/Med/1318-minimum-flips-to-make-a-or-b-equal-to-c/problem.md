@@ -1,5 +1,6 @@
 ---
 id: 1318
+internal_id: 1441
 slug: minimum-flips-to-make-a-or-b-equal-to-c
 title: Minimum Flips to Make a OR b Equal to c
 difficulty: Medium

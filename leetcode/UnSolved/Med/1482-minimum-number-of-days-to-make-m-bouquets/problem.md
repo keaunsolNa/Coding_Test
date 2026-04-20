@@ -1,5 +1,6 @@
 ---
 id: 1482
+internal_id: 1605
 slug: minimum-number-of-days-to-make-m-bouquets
 title: Minimum Number of Days to Make m Bouquets
 difficulty: Medium

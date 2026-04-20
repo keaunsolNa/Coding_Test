@@ -1,10 +1,11 @@
 ---
 id: 1154
+internal_id: 1260
 slug: day-of-the-year
 title: Day of the Year
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

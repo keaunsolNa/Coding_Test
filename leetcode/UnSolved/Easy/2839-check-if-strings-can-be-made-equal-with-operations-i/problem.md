@@ -1,10 +1,11 @@
 ---
 id: 2839
+internal_id: 2999
 slug: check-if-strings-can-be-made-equal-with-operations-i
 title: Check if Strings Can be Made Equal With Operations I
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

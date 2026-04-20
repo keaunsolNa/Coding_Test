@@ -1,10 +1,11 @@
 ---
 id: 1799
+internal_id: 1906
 slug: maximize-score-after-n-operations
 title: Maximize Score After N Operations
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Backtracking, Bit Manipulation, Number Theory, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

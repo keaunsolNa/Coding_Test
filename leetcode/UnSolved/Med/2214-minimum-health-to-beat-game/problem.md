@@ -1,5 +1,6 @@
 ---
 id: 2214
+internal_id: 2354
 slug: minimum-health-to-beat-game
 title: Minimum Health to Beat Game
 difficulty: Medium

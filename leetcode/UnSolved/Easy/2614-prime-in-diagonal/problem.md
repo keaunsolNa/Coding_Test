@@ -1,10 +1,11 @@
 ---
 id: 2614
+internal_id: 2722
 slug: prime-in-diagonal
 title: Prime In Diagonal
 difficulty: Easy
 tags: Array, Math, Matrix, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

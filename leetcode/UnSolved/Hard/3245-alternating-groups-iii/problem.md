@@ -1,10 +1,11 @@
 ---
 id: 3245
+internal_id: 3527
 slug: alternating-groups-iii
 title: Alternating Groups III
 difficulty: Hard
 tags: Array, Binary Indexed Tree, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

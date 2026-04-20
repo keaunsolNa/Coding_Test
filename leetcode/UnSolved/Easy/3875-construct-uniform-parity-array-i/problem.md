@@ -1,10 +1,11 @@
 ---
 id: 3875
+internal_id: 4256
 slug: construct-uniform-parity-array-i
 title: Construct Uniform Parity Array I
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

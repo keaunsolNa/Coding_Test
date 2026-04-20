@@ -1,10 +1,11 @@
 ---
 id: 1431
+internal_id: 1528
 slug: kids-with-the-greatest-number-of-candies
 title: Kids With the Greatest Number of Candies
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

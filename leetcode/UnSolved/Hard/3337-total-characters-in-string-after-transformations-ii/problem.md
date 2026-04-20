@@ -1,10 +1,11 @@
 ---
 id: 3337
+internal_id: 3630
 slug: total-characters-in-string-after-transformations-ii
 title: Total Characters in String After Transformations II
 difficulty: Hard
 tags: Hash Table, Math, String, Dynamic Programming, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

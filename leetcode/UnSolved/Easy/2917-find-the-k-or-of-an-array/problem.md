@@ -1,10 +1,11 @@
 ---
 id: 2917
+internal_id: 3183
 slug: find-the-k-or-of-an-array
 title: Find the K-or of an Array
 difficulty: Easy
 tags: Array, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

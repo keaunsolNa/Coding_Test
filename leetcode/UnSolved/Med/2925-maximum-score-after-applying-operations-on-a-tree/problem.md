@@ -1,5 +1,6 @@
 ---
 id: 2925
+internal_id: 3191
 slug: maximum-score-after-applying-operations-on-a-tree
 title: Maximum Score After Applying Operations on a Tree
 difficulty: Medium

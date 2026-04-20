@@ -1,10 +1,11 @@
 ---
 id: 2227
+internal_id: 1433
 slug: encrypt-and-decrypt-strings
 title: Encrypt and Decrypt Strings
 difficulty: Hard
 tags: Array, Hash Table, String, Design, Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

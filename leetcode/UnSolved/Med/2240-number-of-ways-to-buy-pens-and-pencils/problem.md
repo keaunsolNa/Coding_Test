@@ -1,5 +1,6 @@
 ---
 id: 2240
+internal_id: 2351
 slug: number-of-ways-to-buy-pens-and-pencils
 title: Number of Ways to Buy Pens and Pencils
 difficulty: Medium

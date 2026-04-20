@@ -1,5 +1,6 @@
 ---
 id: 3839
+internal_id: 4137
 slug: number-of-prefix-connected-groups
 title: Number of Prefix Connected Groups
 difficulty: Medium

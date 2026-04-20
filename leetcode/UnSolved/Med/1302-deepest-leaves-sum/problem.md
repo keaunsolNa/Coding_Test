@@ -1,5 +1,6 @@
 ---
 id: 1302
+internal_id: 1254
 slug: deepest-leaves-sum
 title: Deepest Leaves Sum
 difficulty: Medium

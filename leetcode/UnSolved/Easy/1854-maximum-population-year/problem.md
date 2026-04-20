@@ -1,10 +1,11 @@
 ---
 id: 1854
+internal_id: 1983
 slug: maximum-population-year
 title: Maximum Population Year
 difficulty: Easy
 tags: Array, Counting, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

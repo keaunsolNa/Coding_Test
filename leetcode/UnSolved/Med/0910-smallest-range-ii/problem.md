@@ -1,5 +1,6 @@
 ---
 id: 910
+internal_id: 946
 slug: smallest-range-ii
 title: Smallest Range II
 difficulty: Medium

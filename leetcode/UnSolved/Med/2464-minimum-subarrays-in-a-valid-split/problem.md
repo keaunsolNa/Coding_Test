@@ -1,5 +1,6 @@
 ---
 id: 2464
+internal_id: 2607
 slug: minimum-subarrays-in-a-valid-split
 title: Minimum Subarrays in a Valid Split
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 218
+internal_id: 218
 slug: the-skyline-problem
 title: The Skyline Problem
 difficulty: Hard
 tags: Array, Divide and Conquer, Binary Indexed Tree, Segment Tree, Sweep Line, Sorting, Heap (Priority Queue), Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

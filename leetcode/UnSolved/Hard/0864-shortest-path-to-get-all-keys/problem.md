@@ -1,10 +1,11 @@
 ---
 id: 864
+internal_id: 895
 slug: shortest-path-to-get-all-keys
 title: Shortest Path to Get All Keys
 difficulty: Hard
 tags: Array, Bit Manipulation, Breadth-First Search, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

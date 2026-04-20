@@ -1,10 +1,11 @@
 ---
 id: 3880
+internal_id: 4255
 slug: minimum-absolute-difference-between-two-values
 title: Minimum Absolute Difference Between Two Values
 difficulty: Easy
 tags: Array, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3833
+internal_id: 4214
 slug: count-dominant-indices
 title: Count Dominant Indices
 difficulty: Easy
 tags: Array, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

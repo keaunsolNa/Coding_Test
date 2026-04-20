@@ -1,10 +1,11 @@
 ---
 id: 766
+internal_id: 777
 slug: toeplitz-matrix
 title: Toeplitz Matrix
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

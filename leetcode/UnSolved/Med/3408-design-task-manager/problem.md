@@ -1,5 +1,6 @@
 ---
 id: 3408
+internal_id: 3678
 slug: design-task-manager
 title: Design Task Manager
 difficulty: Medium

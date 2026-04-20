@@ -1,5 +1,6 @@
 ---
 id: 486
+internal_id: 486
 slug: predict-the-winner
 title: Predict the Winner
 difficulty: Medium

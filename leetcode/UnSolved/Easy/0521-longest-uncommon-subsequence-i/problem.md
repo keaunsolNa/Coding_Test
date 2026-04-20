@@ -1,10 +1,11 @@
 ---
 id: 521
+internal_id: 521
 slug: longest-uncommon-subsequence-i
 title: Longest Uncommon Subsequence I
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

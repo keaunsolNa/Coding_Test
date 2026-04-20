@@ -1,5 +1,6 @@
 ---
 id: 2750
+internal_id: 2867
 slug: ways-to-split-array-into-good-subarrays
 title: Ways to Split Array Into Good Subarrays
 difficulty: Medium

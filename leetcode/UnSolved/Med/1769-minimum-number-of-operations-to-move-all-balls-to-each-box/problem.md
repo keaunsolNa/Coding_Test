@@ -1,5 +1,6 @@
 ---
 id: 1769
+internal_id: 1895
 slug: minimum-number-of-operations-to-move-all-balls-to-each-box
 title: Minimum Number of Operations to Move All Balls to Each Box
 difficulty: Medium

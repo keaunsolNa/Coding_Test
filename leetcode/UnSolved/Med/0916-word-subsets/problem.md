@@ -1,5 +1,6 @@
 ---
 id: 916
+internal_id: 952
 slug: word-subsets
 title: Word Subsets
 difficulty: Medium

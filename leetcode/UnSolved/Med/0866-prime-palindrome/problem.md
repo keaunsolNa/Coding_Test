@@ -1,5 +1,6 @@
 ---
 id: 866
+internal_id: 897
 slug: prime-palindrome
 title: Prime Palindrome
 difficulty: Medium

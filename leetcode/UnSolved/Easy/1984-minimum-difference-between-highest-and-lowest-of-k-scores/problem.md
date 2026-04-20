@@ -1,10 +1,11 @@
 ---
 id: 1984
+internal_id: 2112
 slug: minimum-difference-between-highest-and-lowest-of-k-scores
 title: Minimum Difference Between Highest and Lowest of K Scores
 difficulty: Easy
 tags: Array, Sliding Window, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

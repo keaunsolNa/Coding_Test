@@ -1,5 +1,6 @@
 ---
 id: 3469
+internal_id: 3776
 slug: find-minimum-cost-to-remove-array-elements
 title: Find Minimum Cost to Remove Array Elements
 difficulty: Medium

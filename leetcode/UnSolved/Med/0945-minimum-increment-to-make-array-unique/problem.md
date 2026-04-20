@@ -1,5 +1,6 @@
 ---
 id: 945
+internal_id: 982
 slug: minimum-increment-to-make-array-unique
 title: Minimum Increment to Make Array Unique
 difficulty: Medium

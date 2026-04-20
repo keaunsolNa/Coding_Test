@@ -1,5 +1,6 @@
 ---
 id: 210
+internal_id: 210
 slug: course-schedule-ii
 title: Course Schedule II
 difficulty: Medium

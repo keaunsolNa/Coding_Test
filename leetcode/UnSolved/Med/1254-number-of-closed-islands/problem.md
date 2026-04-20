@@ -1,5 +1,6 @@
 ---
 id: 1254
+internal_id: 1380
 slug: number-of-closed-islands
 title: Number of Closed Islands
 difficulty: Medium

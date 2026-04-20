@@ -1,10 +1,11 @@
 ---
 id: 2451
+internal_id: 2547
 slug: odd-string-difference
 title: Odd String Difference
 difficulty: Easy
 tags: Array, Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

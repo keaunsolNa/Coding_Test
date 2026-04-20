@@ -1,10 +1,11 @@
 ---
 id: 3213
+internal_id: 3482
 slug: construct-string-with-minimum-cost
 title: Construct String with Minimum Cost
 difficulty: Hard
 tags: Array, String, Dynamic Programming, Suffix Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

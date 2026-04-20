@@ -1,10 +1,11 @@
 ---
 id: 1108
+internal_id: 1205
 slug: defanging-an-ip-address
 title: Defanging an IP Address
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 426
+internal_id: 758
 slug: convert-binary-search-tree-to-sorted-doubly-linked-list
 title: Convert Binary Search Tree to Sorted Doubly Linked List
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 506
+internal_id: 506
 slug: relative-ranks
 title: Relative Ranks
 difficulty: Easy
 tags: Array, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

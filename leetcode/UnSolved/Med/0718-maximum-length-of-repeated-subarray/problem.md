@@ -1,5 +1,6 @@
 ---
 id: 718
+internal_id: 718
 slug: maximum-length-of-repeated-subarray
 title: Maximum Length of Repeated Subarray
 difficulty: Medium

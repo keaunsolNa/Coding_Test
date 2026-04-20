@@ -1,5 +1,6 @@
 ---
 id: 2433
+internal_id: 2519
 slug: find-the-original-array-of-prefix-xor
 title: Find The Original Array of Prefix Xor
 difficulty: Medium

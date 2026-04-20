@@ -1,11 +1,12 @@
 ---
 id: 627
+internal_id: 627
 slug: swap-sex-of-employees
 title: Swap Sex of Employees
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 627. Swap Sex of Employees

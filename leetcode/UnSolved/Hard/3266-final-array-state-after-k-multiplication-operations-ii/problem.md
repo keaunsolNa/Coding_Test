@@ -1,10 +1,11 @@
 ---
 id: 3266
+internal_id: 3556
 slug: final-array-state-after-k-multiplication-operations-ii
 title: Final Array State After K Multiplication Operations II
 difficulty: Hard
 tags: Array, Heap (Priority Queue), Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

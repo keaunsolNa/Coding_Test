@@ -1,10 +1,11 @@
 ---
 id: 1920
+internal_id: 2048
 slug: build-array-from-permutation
 title: Build Array from Permutation
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

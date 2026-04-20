@@ -1,5 +1,6 @@
 ---
 id: 3809
+internal_id: 4187
 slug: best-reachable-tower
 title: Best Reachable Tower
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 393
+internal_id: 393
 slug: utf-8-validation
 title: UTF-8 Validation
 difficulty: Medium

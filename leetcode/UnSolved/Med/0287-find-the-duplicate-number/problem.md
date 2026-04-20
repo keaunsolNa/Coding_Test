@@ -1,5 +1,6 @@
 ---
 id: 287
+internal_id: 287
 slug: find-the-duplicate-number
 title: Find the Duplicate Number
 difficulty: Medium

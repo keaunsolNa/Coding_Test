@@ -1,10 +1,11 @@
 ---
 id: 3273
+internal_id: 3531
 slug: minimum-amount-of-damage-dealt-to-bob
 title: Minimum Amount of Damage Dealt to Bob
 difficulty: Hard
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

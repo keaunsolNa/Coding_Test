@@ -1,10 +1,11 @@
 ---
 id: 1392
+internal_id: 1508
 slug: longest-happy-prefix
 title: Longest Happy Prefix
 difficulty: Hard
 tags: String, Rolling Hash, String Matching, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

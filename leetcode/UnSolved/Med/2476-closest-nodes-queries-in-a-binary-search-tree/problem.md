@@ -1,5 +1,6 @@
 ---
 id: 2476
+internal_id: 2567
 slug: closest-nodes-queries-in-a-binary-search-tree
 title: Closest Nodes Queries in a Binary Search Tree
 difficulty: Medium

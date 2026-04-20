@@ -1,10 +1,11 @@
 ---
 id: 843
+internal_id: 873
 slug: guess-the-word
 title: Guess the Word
 difficulty: Hard
 tags: Array, Math, String, Interactive, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

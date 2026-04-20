@@ -1,10 +1,11 @@
 ---
 id: 2299
+internal_id: 2391
 slug: strong-password-checker-ii
 title: Strong Password Checker II
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

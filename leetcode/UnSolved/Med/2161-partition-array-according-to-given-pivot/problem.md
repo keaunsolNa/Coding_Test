@@ -1,5 +1,6 @@
 ---
 id: 2161
+internal_id: 2265
 slug: partition-array-according-to-given-pivot
 title: Partition Array According to Given Pivot
 difficulty: Medium

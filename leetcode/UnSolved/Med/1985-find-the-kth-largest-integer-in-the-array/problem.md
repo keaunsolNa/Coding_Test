@@ -1,5 +1,6 @@
 ---
 id: 1985
+internal_id: 2113
 slug: find-the-kth-largest-integer-in-the-array
 title: Find the Kth Largest Integer in the Array
 difficulty: Medium

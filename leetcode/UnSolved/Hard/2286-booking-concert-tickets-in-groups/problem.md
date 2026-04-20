@@ -1,10 +1,11 @@
 ---
 id: 2286
+internal_id: 2380
 slug: booking-concert-tickets-in-groups
 title: Booking Concert Tickets in Groups
 difficulty: Hard
 tags: Binary Search, Design, Binary Indexed Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

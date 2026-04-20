@@ -1,10 +1,11 @@
 ---
 id: 2418
+internal_id: 2502
 slug: sort-the-people
 title: Sort the People
 difficulty: Easy
 tags: Array, Hash Table, String, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

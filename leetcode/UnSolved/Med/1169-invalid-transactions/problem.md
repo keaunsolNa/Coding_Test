@@ -1,5 +1,6 @@
 ---
 id: 1169
+internal_id: 1272
 slug: invalid-transactions
 title: Invalid Transactions
 difficulty: Medium

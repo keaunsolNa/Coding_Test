@@ -1,5 +1,6 @@
 ---
 id: 3310
+internal_id: 3561
 slug: remove-methods-from-project
 title: Remove Methods From Project
 difficulty: Medium

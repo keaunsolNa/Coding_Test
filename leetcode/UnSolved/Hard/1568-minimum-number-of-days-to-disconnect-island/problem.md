@@ -1,10 +1,11 @@
 ---
 id: 1568
+internal_id: 1691
 slug: minimum-number-of-days-to-disconnect-island
 title: Minimum Number of Days to Disconnect Island
 difficulty: Hard
 tags: Array, Depth-First Search, Breadth-First Search, Matrix, Strongly Connected Component
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

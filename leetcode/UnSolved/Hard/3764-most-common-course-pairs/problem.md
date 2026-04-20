@@ -1,10 +1,11 @@
 ---
 id: 3764
+internal_id: 4169
 slug: most-common-course-pairs
 title: Most Common Course Pairs
 difficulty: Hard
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

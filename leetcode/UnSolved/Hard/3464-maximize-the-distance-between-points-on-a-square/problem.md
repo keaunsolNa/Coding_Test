@@ -1,10 +1,11 @@
 ---
 id: 3464
+internal_id: 3781
 slug: maximize-the-distance-between-points-on-a-square
 title: Maximize the Distance Between Points on a Square
 difficulty: Hard
 tags: Array, Math, Binary Search, Geometry, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1675
+internal_id: 1794
 slug: minimize-deviation-in-array
 title: Minimize Deviation in Array
 difficulty: Hard
 tags: Array, Greedy, Heap (Priority Queue), Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

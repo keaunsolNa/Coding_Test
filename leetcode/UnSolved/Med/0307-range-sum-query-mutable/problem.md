@@ -1,5 +1,6 @@
 ---
 id: 307
+internal_id: 307
 slug: range-sum-query-mutable
 title: Range Sum Query - Mutable
 difficulty: Medium

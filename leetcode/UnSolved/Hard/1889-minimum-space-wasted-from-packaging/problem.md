@@ -1,10 +1,11 @@
 ---
 id: 1889
+internal_id: 2018
 slug: minimum-space-wasted-from-packaging
 title: Minimum Space Wasted From Packaging
 difficulty: Hard
 tags: Array, Binary Search, Sorting, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

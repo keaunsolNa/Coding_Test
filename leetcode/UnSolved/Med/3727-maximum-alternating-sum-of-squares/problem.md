@@ -1,5 +1,6 @@
 ---
 id: 3727
+internal_id: 4078
 slug: maximum-alternating-sum-of-squares
 title: Maximum Alternating Sum of Squares
 difficulty: Medium

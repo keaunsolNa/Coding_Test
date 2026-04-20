@@ -1,10 +1,11 @@
 ---
 id: 3785
+internal_id: 4061
 slug: minimum-swaps-to-avoid-forbidden-values
 title: Minimum Swaps to Avoid Forbidden Values
 difficulty: Hard
 tags: Array, Hash Table, Greedy, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

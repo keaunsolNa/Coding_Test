@@ -1,5 +1,6 @@
 ---
 id: 3511
+internal_id: 3855
 slug: make-a-positive-array
 title: Make a Positive Array
 difficulty: Medium

@@ -1,11 +1,12 @@
 ---
 id: 615
+internal_id: 615
 slug: average-salary-departments-vs-company
 title: Average Salary: Departments VS Company
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 615. Average Salary: Departments VS Company

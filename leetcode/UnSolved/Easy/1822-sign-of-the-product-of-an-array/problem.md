@@ -1,10 +1,11 @@
 ---
 id: 1822
+internal_id: 1950
 slug: sign-of-the-product-of-an-array
 title: Sign of the Product of an Array
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

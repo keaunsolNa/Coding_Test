@@ -1,10 +1,11 @@
 ---
 id: 2715
+internal_id: 2821
 slug: timeout-cancellation
 title: Timeout Cancellation
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

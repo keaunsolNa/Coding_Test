@@ -1,10 +1,11 @@
 ---
 id: 2573
+internal_id: 2708
 slug: find-the-string-with-lcp
 title: Find the String with LCP
 difficulty: Hard
 tags: Array, String, Dynamic Programming, Greedy, Union-Find, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

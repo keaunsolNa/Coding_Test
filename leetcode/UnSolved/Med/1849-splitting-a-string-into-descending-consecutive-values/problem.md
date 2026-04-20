@@ -1,5 +1,6 @@
 ---
 id: 1849
+internal_id: 1976
 slug: splitting-a-string-into-descending-consecutive-values
 title: Splitting a String Into Descending Consecutive Values
 difficulty: Medium

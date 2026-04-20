@@ -1,5 +1,6 @@
 ---
 id: 2419
+internal_id: 2503
 slug: longest-subarray-with-maximum-bitwise-and
 title: Longest Subarray With Maximum Bitwise AND
 difficulty: Medium

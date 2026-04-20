@@ -1,5 +1,6 @@
 ---
 id: 840
+internal_id: 870
 slug: magic-squares-in-grid
 title: Magic Squares In Grid
 difficulty: Medium

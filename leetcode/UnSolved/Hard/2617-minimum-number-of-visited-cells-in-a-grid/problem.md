@@ -1,10 +1,11 @@
 ---
 id: 2617
+internal_id: 2697
 slug: minimum-number-of-visited-cells-in-a-grid
 title: Minimum Number of Visited Cells in a Grid
 difficulty: Hard
 tags: Array, Dynamic Programming, Stack, Breadth-First Search, Union-Find, Heap (Priority Queue), Matrix, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

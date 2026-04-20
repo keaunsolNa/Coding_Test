@@ -1,10 +1,11 @@
 ---
 id: 2220
+internal_id: 2323
 slug: minimum-bit-flips-to-convert-number
 title: Minimum Bit Flips to Convert Number
 difficulty: Easy
 tags: Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

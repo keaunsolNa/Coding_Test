@@ -1,5 +1,6 @@
 ---
 id: 348
+internal_id: 348
 slug: design-tic-tac-toe
 title: Design Tic-Tac-Toe
 difficulty: Medium

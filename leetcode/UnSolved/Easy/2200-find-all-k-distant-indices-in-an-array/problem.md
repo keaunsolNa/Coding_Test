@@ -1,10 +1,11 @@
 ---
 id: 2200
+internal_id: 2320
 slug: find-all-k-distant-indices-in-an-array
 title: Find All K-Distant Indices in an Array
 difficulty: Easy
 tags: Array, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

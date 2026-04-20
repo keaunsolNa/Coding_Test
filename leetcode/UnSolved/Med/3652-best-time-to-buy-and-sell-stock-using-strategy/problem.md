@@ -1,5 +1,6 @@
 ---
 id: 3652
+internal_id: 3980
 slug: best-time-to-buy-and-sell-stock-using-strategy
 title: Best Time to Buy and Sell Stock using Strategy
 difficulty: Medium

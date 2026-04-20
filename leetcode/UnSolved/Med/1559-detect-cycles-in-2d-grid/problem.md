@@ -1,5 +1,6 @@
 ---
 id: 1559
+internal_id: 1663
 slug: detect-cycles-in-2d-grid
 title: Detect Cycles in 2D Grid
 difficulty: Medium

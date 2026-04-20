@@ -1,5 +1,6 @@
 ---
 id: 187
+internal_id: 187
 slug: repeated-dna-sequences
 title: Repeated DNA Sequences
 difficulty: Medium

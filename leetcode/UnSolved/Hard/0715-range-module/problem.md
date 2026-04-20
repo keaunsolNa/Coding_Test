@@ -1,10 +1,11 @@
 ---
 id: 715
+internal_id: 715
 slug: range-module
 title: Range Module
 difficulty: Hard
 tags: Design, Segment Tree, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

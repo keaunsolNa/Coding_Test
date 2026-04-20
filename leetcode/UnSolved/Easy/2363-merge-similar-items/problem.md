@@ -1,10 +1,11 @@
 ---
 id: 2363
+internal_id: 2447
 slug: merge-similar-items
 title: Merge Similar Items
 difficulty: Easy
 tags: Array, Hash Table, Sorting, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3504
+internal_id: 3808
 slug: longest-palindrome-after-substring-concatenation-ii
 title: Longest Palindrome After Substring Concatenation II
 difficulty: Hard
 tags: Two Pointers, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

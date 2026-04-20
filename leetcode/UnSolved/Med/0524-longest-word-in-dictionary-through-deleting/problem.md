@@ -1,5 +1,6 @@
 ---
 id: 524
+internal_id: 524
 slug: longest-word-in-dictionary-through-deleting
 title: Longest Word in Dictionary through Deleting
 difficulty: Medium

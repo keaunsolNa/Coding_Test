@@ -1,10 +1,11 @@
 ---
 id: 1074
+internal_id: 1145
 slug: number-of-submatrices-that-sum-to-target
 title: Number of Submatrices That Sum to Target
 difficulty: Hard
 tags: Array, Hash Table, Matrix, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

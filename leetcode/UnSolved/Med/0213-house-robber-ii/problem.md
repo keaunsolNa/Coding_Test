@@ -1,5 +1,6 @@
 ---
 id: 213
+internal_id: 213
 slug: house-robber-ii
 title: House Robber II
 difficulty: Medium

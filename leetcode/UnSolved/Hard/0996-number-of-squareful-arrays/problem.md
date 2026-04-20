@@ -1,10 +1,11 @@
 ---
 id: 996
+internal_id: 1038
 slug: number-of-squareful-arrays
 title: Number of Squareful Arrays
 difficulty: Hard
 tags: Array, Hash Table, Math, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

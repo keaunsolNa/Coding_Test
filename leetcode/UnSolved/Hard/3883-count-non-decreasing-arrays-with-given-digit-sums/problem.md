@@ -1,10 +1,11 @@
 ---
 id: 3883
+internal_id: 4259
 slug: count-non-decreasing-arrays-with-given-digit-sums
 title: Count Non Decreasing Arrays With Given Digit Sums
 difficulty: Hard
 tags: Array, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2050
+internal_id: 2176
 slug: parallel-courses-iii
 title: Parallel Courses III
 difficulty: Hard
 tags: Array, Dynamic Programming, Graph Theory, Topological Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

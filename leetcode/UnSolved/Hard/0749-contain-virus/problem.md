@@ -1,10 +1,11 @@
 ---
 id: 749
+internal_id: 750
 slug: contain-virus
 title: Contain Virus
 difficulty: Hard
 tags: Array, Depth-First Search, Breadth-First Search, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

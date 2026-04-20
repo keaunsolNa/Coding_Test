@@ -1,5 +1,6 @@
 ---
 id: 2222
+internal_id: 2325
 slug: number-of-ways-to-select-buildings
 title: Number of Ways to Select Buildings
 difficulty: Medium

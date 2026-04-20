@@ -1,5 +1,6 @@
 ---
 id: 3587
+internal_id: 3904
 slug: minimum-adjacent-swaps-to-alternate-parity
 title: Minimum Adjacent Swaps to Alternate Parity
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2527
+internal_id: 2621
 slug: find-xor-beauty-of-array
 title: Find Xor-Beauty of Array
 difficulty: Medium

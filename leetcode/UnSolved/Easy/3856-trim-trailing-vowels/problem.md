@@ -1,10 +1,11 @@
 ---
 id: 3856
+internal_id: 4229
 slug: trim-trailing-vowels
 title: Trim Trailing Vowels
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

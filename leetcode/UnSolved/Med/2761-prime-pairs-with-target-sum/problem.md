@@ -1,5 +1,6 @@
 ---
 id: 2761
+internal_id: 2873
 slug: prime-pairs-with-target-sum
 title: Prime Pairs With Target Sum
 difficulty: Medium

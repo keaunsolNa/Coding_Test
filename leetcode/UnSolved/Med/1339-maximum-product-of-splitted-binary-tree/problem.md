@@ -1,5 +1,6 @@
 ---
 id: 1339
+internal_id: 1465
 slug: maximum-product-of-splitted-binary-tree
 title: Maximum Product of Splitted Binary Tree
 difficulty: Medium

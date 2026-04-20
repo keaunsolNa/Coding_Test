@@ -1,5 +1,6 @@
 ---
 id: 1441
+internal_id: 1552
 slug: build-an-array-with-stack-operations
 title: Build an Array With Stack Operations
 difficulty: Medium

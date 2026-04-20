@@ -1,5 +1,6 @@
 ---
 id: 776
+internal_id: 791
 slug: split-bst
 title: Split BST
 difficulty: Medium

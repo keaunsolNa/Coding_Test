@@ -1,5 +1,6 @@
 ---
 id: 863
+internal_id: 893
 slug: all-nodes-distance-k-in-binary-tree
 title: All Nodes Distance K in Binary Tree
 difficulty: Medium

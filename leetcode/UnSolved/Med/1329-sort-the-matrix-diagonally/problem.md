@@ -1,5 +1,6 @@
 ---
 id: 1329
+internal_id: 1253
 slug: sort-the-matrix-diagonally
 title: Sort the Matrix Diagonally
 difficulty: Medium

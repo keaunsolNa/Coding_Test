@@ -1,5 +1,6 @@
 ---
 id: 2673
+internal_id: 2780
 slug: make-costs-of-paths-equal-in-a-binary-tree
 title: Make Costs of Paths Equal in a Binary Tree
 difficulty: Medium

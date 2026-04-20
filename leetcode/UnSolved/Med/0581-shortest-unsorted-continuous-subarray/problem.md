@@ -1,5 +1,6 @@
 ---
 id: 581
+internal_id: 581
 slug: shortest-unsorted-continuous-subarray
 title: Shortest Unsorted Continuous Subarray
 difficulty: Medium

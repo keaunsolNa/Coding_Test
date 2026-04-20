@@ -1,10 +1,11 @@
 ---
 id: 2160
+internal_id: 2264
 slug: minimum-sum-of-four-digit-number-after-splitting-digits
 title: Minimum Sum of Four Digit Number After Splitting Digits
 difficulty: Easy
 tags: Math, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

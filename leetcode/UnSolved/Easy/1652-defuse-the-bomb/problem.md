@@ -1,10 +1,11 @@
 ---
 id: 1652
+internal_id: 1755
 slug: defuse-the-bomb
 title: Defuse the Bomb
 difficulty: Easy
 tags: Array, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

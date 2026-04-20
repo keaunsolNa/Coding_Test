@@ -1,5 +1,6 @@
 ---
 id: 3185
+internal_id: 3418
 slug: count-pairs-that-form-a-complete-day-ii
 title: Count Pairs That Form a Complete Day II
 difficulty: Medium

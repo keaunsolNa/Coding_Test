@@ -1,10 +1,11 @@
 ---
 id: 965
+internal_id: 1005
 slug: univalued-binary-tree
 title: Univalued Binary Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

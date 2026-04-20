@@ -1,5 +1,6 @@
 ---
 id: 1551
+internal_id: 1674
 slug: minimum-operations-to-make-array-equal
 title: Minimum Operations to Make Array Equal
 difficulty: Medium

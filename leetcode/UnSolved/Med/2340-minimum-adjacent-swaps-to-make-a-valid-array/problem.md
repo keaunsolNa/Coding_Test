@@ -1,5 +1,6 @@
 ---
 id: 2340
+internal_id: 2474
 slug: minimum-adjacent-swaps-to-make-a-valid-array
 title: Minimum Adjacent Swaps to Make a Valid Array
 difficulty: Medium

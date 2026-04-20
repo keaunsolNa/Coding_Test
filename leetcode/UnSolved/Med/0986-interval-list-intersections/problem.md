@@ -1,5 +1,6 @@
 ---
 id: 986
+internal_id: 1028
 slug: interval-list-intersections
 title: Interval List Intersections
 difficulty: Medium

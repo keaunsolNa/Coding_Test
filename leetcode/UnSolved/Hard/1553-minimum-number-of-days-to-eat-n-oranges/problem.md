@@ -1,10 +1,11 @@
 ---
 id: 1553
+internal_id: 1676
 slug: minimum-number-of-days-to-eat-n-oranges
 title: Minimum Number of Days to Eat N Oranges
 difficulty: Hard
 tags: Dynamic Programming, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

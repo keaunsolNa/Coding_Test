@@ -1,10 +1,11 @@
 ---
 id: 301
+internal_id: 301
 slug: remove-invalid-parentheses
 title: Remove Invalid Parentheses
 difficulty: Hard
 tags: String, Backtracking, Breadth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

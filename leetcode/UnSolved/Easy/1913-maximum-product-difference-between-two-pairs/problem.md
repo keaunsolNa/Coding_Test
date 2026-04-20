@@ -1,10 +1,11 @@
 ---
 id: 1913
+internal_id: 2042
 slug: maximum-product-difference-between-two-pairs
 title: Maximum Product Difference Between Two Pairs
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

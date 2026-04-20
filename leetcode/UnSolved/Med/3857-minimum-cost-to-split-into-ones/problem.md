@@ -1,5 +1,6 @@
 ---
 id: 3857
+internal_id: 4024
 slug: minimum-cost-to-split-into-ones
 title: Minimum Cost to Split into Ones
 difficulty: Medium

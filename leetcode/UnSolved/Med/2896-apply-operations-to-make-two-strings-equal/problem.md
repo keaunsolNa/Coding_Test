@@ -1,5 +1,6 @@
 ---
 id: 2896
+internal_id: 3033
 slug: apply-operations-to-make-two-strings-equal
 title: Apply Operations to Make Two Strings Equal
 difficulty: Medium

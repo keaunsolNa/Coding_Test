@@ -1,10 +1,11 @@
 ---
 id: 1592
+internal_id: 1714
 slug: rearrange-spaces-between-words
 title: Rearrange Spaces Between Words
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

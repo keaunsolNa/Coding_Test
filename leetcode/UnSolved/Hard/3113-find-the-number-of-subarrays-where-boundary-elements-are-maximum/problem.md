@@ -1,10 +1,11 @@
 ---
 id: 3113
+internal_id: 3382
 slug: find-the-number-of-subarrays-where-boundary-elements-are-maximum
 title: Find the Number of Subarrays Where Boundary Elements Are Maximum
 difficulty: Hard
 tags: Array, Binary Search, Stack, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

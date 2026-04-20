@@ -1,11 +1,12 @@
 ---
 id: 1867
+internal_id: 2014
 slug: orders-with-maximum-quantity-above-average
 title: Orders With Maximum Quantity Above Average
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1867. Orders With Maximum Quantity Above Average

@@ -1,5 +1,6 @@
 ---
 id: 1828
+internal_id: 1939
 slug: queries-on-number-of-points-inside-a-circle
 title: Queries on Number of Points Inside a Circle
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 267
+internal_id: 267
 slug: palindrome-permutation-ii
 title: Palindrome Permutation II
 difficulty: Medium

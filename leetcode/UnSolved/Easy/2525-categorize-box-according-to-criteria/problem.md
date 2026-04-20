@@ -1,10 +1,11 @@
 ---
 id: 2525
+internal_id: 2619
 slug: categorize-box-according-to-criteria
 title: Categorize Box According to Criteria
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

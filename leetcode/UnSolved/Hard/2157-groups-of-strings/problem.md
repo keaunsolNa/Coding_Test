@@ -1,10 +1,11 @@
 ---
 id: 2157
+internal_id: 2276
 slug: groups-of-strings
 title: Groups of Strings
 difficulty: Hard
 tags: Array, Hash Table, String, Bit Manipulation, Union-Find
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

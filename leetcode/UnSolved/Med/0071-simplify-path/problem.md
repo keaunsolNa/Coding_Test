@@ -1,5 +1,6 @@
 ---
 id: 71
+internal_id: 71
 slug: simplify-path
 title: Simplify Path
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 836
+internal_id: 866
 slug: rectangle-overlap
 title: Rectangle Overlap
 difficulty: Easy
 tags: Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

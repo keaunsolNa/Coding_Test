@@ -1,5 +1,6 @@
 ---
 id: 1043
+internal_id: 1121
 slug: partition-array-for-maximum-sum
 title: Partition Array for Maximum Sum
 difficulty: Medium

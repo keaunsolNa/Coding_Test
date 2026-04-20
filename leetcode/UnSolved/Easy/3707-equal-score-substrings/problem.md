@@ -1,10 +1,11 @@
 ---
 id: 3707
+internal_id: 4052
 slug: equal-score-substrings
 title: Equal Score Substrings
 difficulty: Easy
 tags: String, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

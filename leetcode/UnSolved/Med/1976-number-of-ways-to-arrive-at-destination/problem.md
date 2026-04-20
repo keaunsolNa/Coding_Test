@@ -1,5 +1,6 @@
 ---
 id: 1976
+internal_id: 2090
 slug: number-of-ways-to-arrive-at-destination
 title: Number of Ways to Arrive at Destination
 difficulty: Medium

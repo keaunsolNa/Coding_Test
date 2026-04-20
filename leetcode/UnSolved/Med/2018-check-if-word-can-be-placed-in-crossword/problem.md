@@ -1,5 +1,6 @@
 ---
 id: 2018
+internal_id: 2146
 slug: check-if-word-can-be-placed-in-crossword
 title: Check if Word Can Be Placed In Crossword
 difficulty: Medium

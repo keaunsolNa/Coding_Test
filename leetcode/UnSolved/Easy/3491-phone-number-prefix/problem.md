@@ -1,10 +1,11 @@
 ---
 id: 3491
+internal_id: 3836
 slug: phone-number-prefix
 title: Phone Number Prefix
 difficulty: Easy
 tags: Array, String, Trie, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

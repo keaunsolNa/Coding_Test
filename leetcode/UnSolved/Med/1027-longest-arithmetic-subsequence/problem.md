@@ -1,5 +1,6 @@
 ---
 id: 1027
+internal_id: 1087
 slug: longest-arithmetic-subsequence
 title: Longest Arithmetic Subsequence
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2909
+internal_id: 3186
 slug: minimum-sum-of-mountain-triplets-ii
 title: Minimum Sum of Mountain Triplets II
 difficulty: Medium

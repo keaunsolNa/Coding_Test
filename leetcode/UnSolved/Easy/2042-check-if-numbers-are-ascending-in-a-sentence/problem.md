@@ -1,10 +1,11 @@
 ---
 id: 2042
+internal_id: 2168
 slug: check-if-numbers-are-ascending-in-a-sentence
 title: Check if Numbers Are Ascending in a Sentence
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

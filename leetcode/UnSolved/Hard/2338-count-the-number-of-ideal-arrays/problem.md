@@ -1,10 +1,11 @@
 ---
 id: 2338
+internal_id: 2415
 slug: count-the-number-of-ideal-arrays
 title: Count the Number of Ideal Arrays
 difficulty: Hard
 tags: Math, Dynamic Programming, Combinatorics, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

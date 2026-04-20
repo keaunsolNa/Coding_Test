@@ -1,10 +1,11 @@
 ---
 id: 2246
+internal_id: 2364
 slug: longest-path-with-different-adjacent-characters
 title: Longest Path With Different Adjacent Characters
 difficulty: Hard
 tags: Array, String, Tree, Depth-First Search, Graph Theory, Topological Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

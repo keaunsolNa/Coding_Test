@@ -1,5 +1,6 @@
 ---
 id: 3724
+internal_id: 4042
 slug: minimum-operations-to-transform-array
 title: Minimum Operations to Transform Array
 difficulty: Medium

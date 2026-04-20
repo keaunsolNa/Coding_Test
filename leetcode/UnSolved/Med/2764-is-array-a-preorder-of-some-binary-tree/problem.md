@@ -1,5 +1,6 @@
 ---
 id: 2764
+internal_id: 2918
 slug: is-array-a-preorder-of-some-binary-tree
 title: Is Array a Preorder of Some ‌Binary Tree
 difficulty: Medium

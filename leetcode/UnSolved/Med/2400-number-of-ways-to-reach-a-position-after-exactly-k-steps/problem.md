@@ -1,5 +1,6 @@
 ---
 id: 2400
+internal_id: 2477
 slug: number-of-ways-to-reach-a-position-after-exactly-k-steps
 title: Number of Ways to Reach a Position After Exactly k Steps
 difficulty: Medium

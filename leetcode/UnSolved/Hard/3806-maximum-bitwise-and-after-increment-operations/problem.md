@@ -1,10 +1,11 @@
 ---
 id: 3806
+internal_id: 4154
 slug: maximum-bitwise-and-after-increment-operations
 title: Maximum Bitwise AND After Increment Operations
 difficulty: Hard
 tags: Array, Greedy, Bit Manipulation, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

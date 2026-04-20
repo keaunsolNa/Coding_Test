@@ -1,5 +1,6 @@
 ---
 id: 3675
+internal_id: 3999
 slug: minimum-operations-to-transform-string
 title: Minimum Operations to Transform String
 difficulty: Medium

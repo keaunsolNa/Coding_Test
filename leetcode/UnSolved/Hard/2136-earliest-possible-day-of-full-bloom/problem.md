@@ -1,10 +1,11 @@
 ---
 id: 2136
+internal_id: 2257
 slug: earliest-possible-day-of-full-bloom
 title: Earliest Possible Day of Full Bloom
 difficulty: Hard
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

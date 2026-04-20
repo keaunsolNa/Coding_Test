@@ -1,5 +1,6 @@
 ---
 id: 3212
+internal_id: 3492
 slug: count-submatrices-with-equal-frequency-of-x-and-y
 title: Count Submatrices With Equal Frequency of X and Y
 difficulty: Medium

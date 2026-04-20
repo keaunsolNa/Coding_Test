@@ -1,10 +1,11 @@
 ---
 id: 407
+internal_id: 407
 slug: trapping-rain-water-ii
 title: Trapping Rain Water II
 difficulty: Hard
 tags: Array, Breadth-First Search, Heap (Priority Queue), Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

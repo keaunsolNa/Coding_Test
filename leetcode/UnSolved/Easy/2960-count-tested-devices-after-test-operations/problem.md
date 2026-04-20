@@ -1,10 +1,11 @@
 ---
 id: 2960
+internal_id: 3220
 slug: count-tested-devices-after-test-operations
 title: Count Tested Devices After Test Operations
 difficulty: Easy
 tags: Array, Simulation, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

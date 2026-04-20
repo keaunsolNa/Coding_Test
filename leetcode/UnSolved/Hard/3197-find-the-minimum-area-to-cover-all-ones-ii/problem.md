@@ -1,10 +1,11 @@
 ---
 id: 3197
+internal_id: 3459
 slug: find-the-minimum-area-to-cover-all-ones-ii
 title: Find the Minimum Area to Cover All Ones II
 difficulty: Hard
 tags: Array, Matrix, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

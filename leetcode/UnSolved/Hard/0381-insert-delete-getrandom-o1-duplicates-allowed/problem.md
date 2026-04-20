@@ -1,10 +1,11 @@
 ---
 id: 381
+internal_id: 381
 slug: insert-delete-getrandom-o1-duplicates-allowed
 title: Insert Delete GetRandom O(1) - Duplicates allowed
 difficulty: Hard
 tags: Array, Hash Table, Math, Design, Randomized
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3209
+internal_id: 3466
 slug: number-of-subarrays-with-and-value-of-k
 title: Number of Subarrays With AND Value of K
 difficulty: Hard
 tags: Array, Binary Search, Bit Manipulation, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

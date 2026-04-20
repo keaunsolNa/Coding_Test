@@ -1,5 +1,6 @@
 ---
 id: 2196
+internal_id: 2306
 slug: create-binary-tree-from-descriptions
 title: Create Binary Tree From Descriptions
 difficulty: Medium

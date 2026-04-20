@@ -1,10 +1,11 @@
 ---
 id: 2303
+internal_id: 1382
 slug: calculate-amount-paid-in-taxes
 title: Calculate Amount Paid in Taxes
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

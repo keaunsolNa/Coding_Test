@@ -1,5 +1,6 @@
 ---
 id: 3847
+internal_id: 4224
 slug: find-the-score-difference-in-a-game
 title: Find the Score Difference in a Game
 difficulty: Medium

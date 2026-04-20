@@ -1,10 +1,11 @@
 ---
 id: 1416
+internal_id: 1517
 slug: restore-the-array
 title: Restore The Array
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

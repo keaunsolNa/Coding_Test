@@ -1,10 +1,11 @@
 ---
 id: 733
+internal_id: 733
 slug: flood-fill
 title: Flood Fill
 difficulty: Easy
 tags: Array, Depth-First Search, Breadth-First Search, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

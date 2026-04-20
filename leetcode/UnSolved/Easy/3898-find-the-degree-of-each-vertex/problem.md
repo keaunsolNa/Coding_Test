@@ -1,10 +1,11 @@
 ---
 id: 3898
+internal_id: 4271
 slug: find-the-degree-of-each-vertex
 title: Find the Degree of Each Vertex
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

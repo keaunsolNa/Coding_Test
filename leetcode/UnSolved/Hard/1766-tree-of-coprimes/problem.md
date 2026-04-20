@@ -1,10 +1,11 @@
 ---
 id: 1766
+internal_id: 1875
 slug: tree-of-coprimes
 title: Tree of Coprimes
 difficulty: Hard
 tags: Array, Math, Tree, Depth-First Search, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

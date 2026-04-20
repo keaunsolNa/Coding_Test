@@ -1,5 +1,6 @@
 ---
 id: 3679
+internal_id: 3953
 slug: minimum-discards-to-balance-inventory
 title:  Minimum Discards to Balance Inventory
 difficulty: Medium

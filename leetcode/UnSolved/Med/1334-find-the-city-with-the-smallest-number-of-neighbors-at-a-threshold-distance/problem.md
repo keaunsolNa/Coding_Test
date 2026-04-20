@@ -1,5 +1,6 @@
 ---
 id: 1334
+internal_id: 1456
 slug: find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
 title: Find the City With the Smallest Number of Neighbors at a Threshold Distance
 difficulty: Medium

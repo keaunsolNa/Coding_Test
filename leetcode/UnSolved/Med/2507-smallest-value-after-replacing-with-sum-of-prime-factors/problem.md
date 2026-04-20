@@ -1,5 +1,6 @@
 ---
 id: 2507
+internal_id: 2595
 slug: smallest-value-after-replacing-with-sum-of-prime-factors
 title: Smallest Value After Replacing With Sum of Prime Factors
 difficulty: Medium

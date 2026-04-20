@@ -1,10 +1,11 @@
 ---
 id: 345
+internal_id: 345
 slug: reverse-vowels-of-a-string
 title: Reverse Vowels of a String
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

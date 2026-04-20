@@ -1,10 +1,11 @@
 ---
 id: 1560
+internal_id: 1682
 slug: most-visited-sector-in-a-circular-track
 title: Most Visited Sector in  a Circular Track
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

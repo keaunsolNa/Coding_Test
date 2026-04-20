@@ -1,5 +1,6 @@
 ---
 id: 2001
+internal_id: 2129
 slug: number-of-pairs-of-interchangeable-rectangles
 title: Number of Pairs of Interchangeable Rectangles
 difficulty: Medium

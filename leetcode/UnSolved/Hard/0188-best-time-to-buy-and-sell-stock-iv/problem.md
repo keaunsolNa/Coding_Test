@@ -1,10 +1,11 @@
 ---
 id: 188
+internal_id: 188
 slug: best-time-to-buy-and-sell-stock-iv
 title: Best Time to Buy and Sell Stock IV
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2248
+internal_id: 2331
 slug: intersection-of-multiple-arrays
 title: Intersection of Multiple Arrays
 difficulty: Easy
 tags: Array, Hash Table, Sorting, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

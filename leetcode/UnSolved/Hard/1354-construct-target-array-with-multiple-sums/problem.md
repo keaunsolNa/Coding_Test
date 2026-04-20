@@ -1,10 +1,11 @@
 ---
 id: 1354
+internal_id: 1479
 slug: construct-target-array-with-multiple-sums
 title: Construct Target Array With Multiple Sums
 difficulty: Hard
 tags: Array, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

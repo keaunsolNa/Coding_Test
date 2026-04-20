@@ -1,5 +1,6 @@
 ---
 id: 247
+internal_id: 247
 slug: strobogrammatic-number-ii
 title: Strobogrammatic Number II
 difficulty: Medium

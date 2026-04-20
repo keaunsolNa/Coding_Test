@@ -1,5 +1,6 @@
 ---
 id: 1794
+internal_id: 1943
 slug: count-pairs-of-equal-substrings-with-minimum-difference
 title: Count Pairs of Equal Substrings With Minimum Difference
 difficulty: Medium

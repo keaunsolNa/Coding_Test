@@ -1,5 +1,6 @@
 ---
 id: 3265
+internal_id: 3534
 slug: count-almost-equal-pairs-i
 title: Count Almost Equal Pairs I
 difficulty: Medium

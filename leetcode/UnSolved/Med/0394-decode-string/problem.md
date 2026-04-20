@@ -1,5 +1,6 @@
 ---
 id: 394
+internal_id: 394
 slug: decode-string
 title: Decode String
 difficulty: Medium

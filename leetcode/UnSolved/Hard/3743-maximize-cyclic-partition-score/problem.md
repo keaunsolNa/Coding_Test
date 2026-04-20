@@ -1,10 +1,11 @@
 ---
 id: 3743
+internal_id: 4030
 slug: maximize-cyclic-partition-score
 title: Maximize Cyclic Partition Score
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

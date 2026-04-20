@@ -1,5 +1,6 @@
 ---
 id: 3481
+internal_id: 3825
 slug: apply-substitutions
 title: Apply Substitutions
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2765
+internal_id: 2870
 slug: longest-alternating-subarray
 title: Longest Alternating Subarray
 difficulty: Easy
 tags: Array, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

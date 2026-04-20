@@ -1,5 +1,6 @@
 ---
 id: 3296
+internal_id: 3496
 slug: minimum-number-of-seconds-to-make-mountain-height-zero
 title: Minimum Number of Seconds to Make Mountain Height Zero
 difficulty: Medium

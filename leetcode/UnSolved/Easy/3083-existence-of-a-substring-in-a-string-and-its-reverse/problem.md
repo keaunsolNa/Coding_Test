@@ -1,10 +1,11 @@
 ---
 id: 3083
+internal_id: 3353
 slug: existence-of-a-substring-in-a-string-and-its-reverse
 title: Existence of a Substring in a String and Its Reverse
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

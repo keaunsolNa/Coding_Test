@@ -1,11 +1,12 @@
 ---
 id: 3465
+internal_id: 3803
 slug: find-products-with-valid-serial-numbers
 title: Find Products with Valid Serial Numbers
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 3465. Find Products with Valid Serial Numbers

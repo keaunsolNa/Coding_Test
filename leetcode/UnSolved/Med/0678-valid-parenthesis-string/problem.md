@@ -1,5 +1,6 @@
 ---
 id: 678
+internal_id: 678
 slug: valid-parenthesis-string
 title: Valid Parenthesis String
 difficulty: Medium

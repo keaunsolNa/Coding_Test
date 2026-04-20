@@ -1,5 +1,6 @@
 ---
 id: 1049
+internal_id: 1130
 slug: last-stone-weight-ii
 title: Last Stone Weight II
 difficulty: Medium

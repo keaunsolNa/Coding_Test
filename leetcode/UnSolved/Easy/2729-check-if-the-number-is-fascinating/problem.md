@@ -1,10 +1,11 @@
 ---
 id: 2729
+internal_id: 2824
 slug: check-if-the-number-is-fascinating
 title: Check if The Number is Fascinating
 difficulty: Easy
 tags: Hash Table, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

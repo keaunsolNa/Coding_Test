@@ -1,5 +1,6 @@
 ---
 id: 334
+internal_id: 334
 slug: increasing-triplet-subsequence
 title: Increasing Triplet Subsequence
 difficulty: Medium

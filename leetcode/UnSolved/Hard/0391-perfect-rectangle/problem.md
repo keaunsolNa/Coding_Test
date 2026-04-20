@@ -1,10 +1,11 @@
 ---
 id: 391
+internal_id: 391
 slug: perfect-rectangle
 title: Perfect Rectangle
 difficulty: Hard
 tags: Array, Hash Table, Math, Geometry, Sweep Line
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

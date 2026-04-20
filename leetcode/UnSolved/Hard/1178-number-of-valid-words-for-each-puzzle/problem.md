@@ -1,10 +1,11 @@
 ---
 id: 1178
+internal_id: 1282
 slug: number-of-valid-words-for-each-puzzle
 title: Number of Valid Words for Each Puzzle
 difficulty: Hard
 tags: Array, Hash Table, String, Bit Manipulation, Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

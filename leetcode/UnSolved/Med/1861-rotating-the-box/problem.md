@@ -1,5 +1,6 @@
 ---
 id: 1861
+internal_id: 1972
 slug: rotating-the-box
 title: Rotating the Box
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1999
+internal_id: 2141
 slug: smallest-greater-multiple-made-of-two-digits
 title: Smallest Greater Multiple Made of Two Digits
 difficulty: Medium

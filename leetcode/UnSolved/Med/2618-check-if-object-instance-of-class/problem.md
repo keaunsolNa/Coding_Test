@@ -1,5 +1,6 @@
 ---
 id: 2618
+internal_id: 2758
 slug: check-if-object-instance-of-class
 title: Check if Object Instance of Class
 difficulty: Medium

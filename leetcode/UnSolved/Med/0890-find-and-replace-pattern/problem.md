@@ -1,5 +1,6 @@
 ---
 id: 890
+internal_id: 926
 slug: find-and-replace-pattern
 title: Find and Replace Pattern
 difficulty: Medium

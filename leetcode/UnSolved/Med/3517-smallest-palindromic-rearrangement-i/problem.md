@@ -1,5 +1,6 @@
 ---
 id: 3517
+internal_id: 3812
 slug: smallest-palindromic-rearrangement-i
 title: Smallest Palindromic Rearrangement I
 difficulty: Medium

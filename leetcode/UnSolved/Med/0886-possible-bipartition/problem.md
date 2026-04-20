@@ -1,5 +1,6 @@
 ---
 id: 886
+internal_id: 922
 slug: possible-bipartition
 title: Possible Bipartition
 difficulty: Medium

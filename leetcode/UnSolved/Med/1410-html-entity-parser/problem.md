@@ -1,5 +1,6 @@
 ---
 id: 1410
+internal_id: 1526
 slug: html-entity-parser
 title: HTML Entity Parser
 difficulty: Medium

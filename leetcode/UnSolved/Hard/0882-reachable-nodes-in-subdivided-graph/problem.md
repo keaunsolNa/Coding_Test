@@ -1,10 +1,11 @@
 ---
 id: 882
+internal_id: 918
 slug: reachable-nodes-in-subdivided-graph
 title: Reachable Nodes In Subdivided Graph
 difficulty: Hard
 tags: Graph Theory, Heap (Priority Queue), Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

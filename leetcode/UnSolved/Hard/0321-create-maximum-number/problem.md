@@ -1,10 +1,11 @@
 ---
 id: 321
+internal_id: 321
 slug: create-maximum-number
 title: Create Maximum Number
 difficulty: Hard
 tags: Array, Two Pointers, Stack, Greedy, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

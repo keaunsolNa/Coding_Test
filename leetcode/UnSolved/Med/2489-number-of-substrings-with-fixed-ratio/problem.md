@@ -1,5 +1,6 @@
 ---
 id: 2489
+internal_id: 2629
 slug: number-of-substrings-with-fixed-ratio
 title: Number of Substrings With Fixed Ratio
 difficulty: Medium

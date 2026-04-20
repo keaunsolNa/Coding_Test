@@ -1,10 +1,11 @@
 ---
 id: 2532
+internal_id: 2642
 slug: time-to-cross-a-bridge
 title: Time to Cross a Bridge
 difficulty: Hard
 tags: Array, Heap (Priority Queue), Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

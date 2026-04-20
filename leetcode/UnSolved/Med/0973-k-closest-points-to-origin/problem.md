@@ -1,5 +1,6 @@
 ---
 id: 973
+internal_id: 1014
 slug: k-closest-points-to-origin
 title: K Closest Points to Origin
 difficulty: Medium

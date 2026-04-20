@@ -1,5 +1,6 @@
 ---
 id: 2063
+internal_id: 2187
 slug: vowels-of-all-substrings
 title: Vowels of All Substrings
 difficulty: Medium

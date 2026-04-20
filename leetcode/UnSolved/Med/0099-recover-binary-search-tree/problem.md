@@ -1,5 +1,6 @@
 ---
 id: 99
+internal_id: 99
 slug: recover-binary-search-tree
 title: Recover Binary Search Tree
 difficulty: Medium

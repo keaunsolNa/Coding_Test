@@ -1,5 +1,6 @@
 ---
 id: 1628
+internal_id: 1768
 slug: design-an-expression-tree-with-evaluate-function
 title: Design an Expression Tree With Evaluate Function
 difficulty: Medium

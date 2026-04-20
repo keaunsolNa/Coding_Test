@@ -1,5 +1,6 @@
 ---
 id: 894
+internal_id: 930
 slug: all-possible-full-binary-trees
 title: All Possible Full Binary Trees
 difficulty: Medium

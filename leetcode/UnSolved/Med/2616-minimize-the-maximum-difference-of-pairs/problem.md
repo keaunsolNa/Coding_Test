@@ -1,5 +1,6 @@
 ---
 id: 2616
+internal_id: 2720
 slug: minimize-the-maximum-difference-of-pairs
 title: Minimize the Maximum Difference of Pairs
 difficulty: Medium

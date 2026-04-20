@@ -1,10 +1,11 @@
 ---
 id: 2833
+internal_id: 3019
 slug: furthest-point-from-origin
 title: Furthest Point From Origin
 difficulty: Easy
 tags: String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

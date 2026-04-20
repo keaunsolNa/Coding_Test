@@ -1,5 +1,6 @@
 ---
 id: 189
+internal_id: 189
 slug: rotate-array
 title: Rotate Array
 difficulty: Medium

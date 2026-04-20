@@ -1,10 +1,11 @@
 ---
 id: 2858
+internal_id: 3105
 slug: minimum-edge-reversals-so-every-node-is-reachable
 title: Minimum Edge Reversals So Every Node Is Reachable
 difficulty: Hard
 tags: Dynamic Programming, Depth-First Search, Breadth-First Search, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1139
+internal_id: 1239
 slug: largest-1-bordered-square
 title: Largest 1-Bordered Square
 difficulty: Medium

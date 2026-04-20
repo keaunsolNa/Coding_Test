@@ -1,10 +1,11 @@
 ---
 id: 2855
+internal_id: 3045
 slug: minimum-right-shifts-to-sort-the-array
 title: Minimum Right Shifts to Sort the Array
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

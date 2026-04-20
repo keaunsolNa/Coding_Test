@@ -1,5 +1,6 @@
 ---
 id: 1904
+internal_id: 2033
 slug: the-number-of-full-rounds-you-have-played
 title: The Number of Full Rounds You Have Played
 difficulty: Medium

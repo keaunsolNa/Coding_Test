@@ -1,10 +1,11 @@
 ---
 id: 3841
+internal_id: 4209
 slug: palindromic-path-queries-in-a-tree
 title: Palindromic Path Queries in a Tree
 difficulty: Hard
 tags: Array, String, Divide and Conquer, Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

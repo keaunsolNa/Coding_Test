@@ -1,5 +1,6 @@
 ---
 id: 238
+internal_id: 238
 slug: product-of-array-except-self
 title: Product of Array Except Self
 difficulty: Medium

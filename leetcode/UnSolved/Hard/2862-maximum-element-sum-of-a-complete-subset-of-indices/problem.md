@@ -1,10 +1,11 @@
 ---
 id: 2862
+internal_id: 3047
 slug: maximum-element-sum-of-a-complete-subset-of-indices
 title: Maximum Element-Sum of a Complete Subset of Indices
 difficulty: Hard
 tags: Array, Math, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

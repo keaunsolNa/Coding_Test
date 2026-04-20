@@ -1,5 +1,6 @@
 ---
 id: 3763
+internal_id: 4166
 slug: maximum-total-sum-with-threshold-constraints
 title: Maximum Total Sum with Threshold Constraints
 difficulty: Medium

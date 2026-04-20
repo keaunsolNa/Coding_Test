@@ -1,5 +1,6 @@
 ---
 id: 1152
+internal_id: 1108
 slug: analyze-user-website-visit-pattern
 title: Analyze User Website Visit Pattern
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2067
+internal_id: 2209
 slug: number-of-equal-count-substrings
 title: Number of Equal Count Substrings
 difficulty: Medium

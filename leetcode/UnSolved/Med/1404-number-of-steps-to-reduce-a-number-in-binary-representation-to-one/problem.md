@@ -1,5 +1,6 @@
 ---
 id: 1404
+internal_id: 1520
 slug: number-of-steps-to-reduce-a-number-in-binary-representation-to-one
 title: Number of Steps to Reduce a Number in Binary Representation to One
 difficulty: Medium

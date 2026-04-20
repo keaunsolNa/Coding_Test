@@ -1,5 +1,6 @@
 ---
 id: 3218
+internal_id: 3494
 slug: minimum-cost-for-cutting-cake-i
 title: Minimum Cost for Cutting Cake I
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3628
+internal_id: 3948
 slug: maximum-number-of-subsequences-after-one-inserting
 title: Maximum Number of Subsequences After One Inserting
 difficulty: Medium

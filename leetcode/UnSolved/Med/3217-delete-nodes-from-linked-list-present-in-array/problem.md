@@ -1,5 +1,6 @@
 ---
 id: 3217
+internal_id: 3501
 slug: delete-nodes-from-linked-list-present-in-array
 title: Delete Nodes From Linked List Present in Array
 difficulty: Medium

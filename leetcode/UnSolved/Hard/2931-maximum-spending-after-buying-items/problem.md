@@ -1,10 +1,11 @@
 ---
 id: 2931
+internal_id: 3107
 slug: maximum-spending-after-buying-items
 title: Maximum Spending After Buying Items
 difficulty: Hard
 tags: Array, Greedy, Sorting, Heap (Priority Queue), Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

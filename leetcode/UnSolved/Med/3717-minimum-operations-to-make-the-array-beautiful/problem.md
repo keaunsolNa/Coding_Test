@@ -1,5 +1,6 @@
 ---
 id: 3717
+internal_id: 4108
 slug: minimum-operations-to-make-the-array-beautiful
 title: Minimum Operations to Make the Array Beautiful
 difficulty: Medium

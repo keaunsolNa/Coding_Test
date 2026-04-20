@@ -1,10 +1,11 @@
 ---
 id: 1281
+internal_id: 1406
 slug: subtract-the-product-and-sum-of-digits-of-an-integer
 title: Subtract the Product and Sum of Digits of an Integer
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 537
+internal_id: 537
 slug: complex-number-multiplication
 title: Complex Number Multiplication
 difficulty: Medium

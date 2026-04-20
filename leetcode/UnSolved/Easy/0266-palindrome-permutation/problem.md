@@ -1,10 +1,11 @@
 ---
 id: 266
+internal_id: 266
 slug: palindrome-permutation
 title: Palindrome Permutation
 difficulty: Easy
 tags: Hash Table, String, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

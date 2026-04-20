@@ -1,10 +1,11 @@
 ---
 id: 123
+internal_id: 123
 slug: best-time-to-buy-and-sell-stock-iii
 title: Best Time to Buy and Sell Stock III
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

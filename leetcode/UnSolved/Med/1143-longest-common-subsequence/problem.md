@@ -1,5 +1,6 @@
 ---
 id: 1143
+internal_id: 1250
 slug: longest-common-subsequence
 title: Longest Common Subsequence
 difficulty: Medium

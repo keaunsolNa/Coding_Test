@@ -1,5 +1,6 @@
 ---
 id: 3020
+internal_id: 3299
 slug: find-the-maximum-number-of-elements-in-subset
 title: Find the Maximum Number of Elements in Subset
 difficulty: Medium

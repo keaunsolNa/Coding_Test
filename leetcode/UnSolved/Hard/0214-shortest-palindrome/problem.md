@@ -1,10 +1,11 @@
 ---
 id: 214
+internal_id: 214
 slug: shortest-palindrome
 title: Shortest Palindrome
 difficulty: Hard
 tags: String, Rolling Hash, String Matching, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

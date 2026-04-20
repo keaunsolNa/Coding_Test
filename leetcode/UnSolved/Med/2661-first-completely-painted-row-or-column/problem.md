@@ -1,5 +1,6 @@
 ---
 id: 2661
+internal_id: 2685
 slug: first-completely-painted-row-or-column
 title: First Completely Painted Row or Column
 difficulty: Medium

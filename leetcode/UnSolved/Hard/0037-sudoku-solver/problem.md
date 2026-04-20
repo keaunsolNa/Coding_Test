@@ -1,10 +1,11 @@
 ---
 id: 37
+internal_id: 37
 slug: sudoku-solver
 title: Sudoku Solver
 difficulty: Hard
 tags: Array, Hash Table, Backtracking, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

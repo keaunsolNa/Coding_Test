@@ -1,10 +1,11 @@
 ---
 id: 745
+internal_id: 746
 slug: prefix-and-suffix-search
 title: Prefix and Suffix Search
 difficulty: Hard
 tags: Array, Hash Table, String, Design, Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

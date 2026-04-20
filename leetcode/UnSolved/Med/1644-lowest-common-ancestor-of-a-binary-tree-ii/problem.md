@@ -1,5 +1,6 @@
 ---
 id: 1644
+internal_id: 1780
 slug: lowest-common-ancestor-of-a-binary-tree-ii
 title: Lowest Common Ancestor of a Binary Tree II
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1215
+internal_id: 1151
 slug: stepping-numbers
 title: Stepping Numbers
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1493
+internal_id: 1586
 slug: longest-subarray-of-1s-after-deleting-one-element
 title: Longest Subarray of 1's After Deleting One Element
 difficulty: Medium

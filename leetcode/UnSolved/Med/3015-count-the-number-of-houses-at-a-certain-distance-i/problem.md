@@ -1,5 +1,6 @@
 ---
 id: 3015
+internal_id: 3271
 slug: count-the-number-of-houses-at-a-certain-distance-i
 title: Count the Number of Houses at a Certain Distance I
 difficulty: Medium

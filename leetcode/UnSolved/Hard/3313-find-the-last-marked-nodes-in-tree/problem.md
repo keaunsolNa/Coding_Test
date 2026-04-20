@@ -1,10 +1,11 @@
 ---
 id: 3313
+internal_id: 3497
 slug: find-the-last-marked-nodes-in-tree
 title: Find the Last Marked Nodes in Tree
 difficulty: Hard
 tags: Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

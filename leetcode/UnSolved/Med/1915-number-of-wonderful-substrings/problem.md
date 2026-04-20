@@ -1,5 +1,6 @@
 ---
 id: 1915
+internal_id: 2044
 slug: number-of-wonderful-substrings
 title: Number of Wonderful Substrings
 difficulty: Medium

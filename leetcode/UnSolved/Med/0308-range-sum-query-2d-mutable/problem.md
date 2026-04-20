@@ -1,5 +1,6 @@
 ---
 id: 308
+internal_id: 308
 slug: range-sum-query-2d-mutable
 title: Range Sum Query 2D - Mutable
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2802
+internal_id: 3030
 slug: find-the-k-th-lucky-number
 title: Find The K-th Lucky Number
 difficulty: Medium

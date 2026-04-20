@@ -1,5 +1,6 @@
 ---
 id: 1734
+internal_id: 1835
 slug: decode-xored-permutation
 title: Decode XORed Permutation
 difficulty: Medium

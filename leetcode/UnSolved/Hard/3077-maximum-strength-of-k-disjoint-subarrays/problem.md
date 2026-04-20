@@ -1,10 +1,11 @@
 ---
 id: 3077
+internal_id: 3313
 slug: maximum-strength-of-k-disjoint-subarrays
 title: Maximum Strength of K Disjoint Subarrays
 difficulty: Hard
 tags: Array, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

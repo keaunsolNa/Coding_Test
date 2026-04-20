@@ -1,5 +1,6 @@
 ---
 id: 447
+internal_id: 447
 slug: number-of-boomerangs
 title: Number of Boomerangs
 difficulty: Medium

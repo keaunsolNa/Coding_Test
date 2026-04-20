@@ -1,5 +1,6 @@
 ---
 id: 264
+internal_id: 264
 slug: ugly-number-ii
 title: Ugly Number II
 difficulty: Medium

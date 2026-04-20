@@ -1,10 +1,11 @@
 ---
 id: 922
+internal_id: 958
 slug: sort-array-by-parity-ii
 title: Sort Array By Parity II
 difficulty: Easy
 tags: Array, Two Pointers, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

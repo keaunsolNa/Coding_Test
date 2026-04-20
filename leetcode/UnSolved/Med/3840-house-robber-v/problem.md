@@ -1,5 +1,6 @@
 ---
 id: 3840
+internal_id: 4062
 slug: house-robber-v
 title: House Robber V
 difficulty: Medium

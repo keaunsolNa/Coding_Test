@@ -1,10 +1,11 @@
 ---
 id: 1269
+internal_id: 1398
 slug: number-of-ways-to-stay-in-the-same-place-after-some-steps
 title: Number of Ways to Stay in the Same Place After Some Steps
 difficulty: Hard
 tags: Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

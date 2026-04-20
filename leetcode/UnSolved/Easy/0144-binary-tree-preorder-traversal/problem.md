@@ -1,10 +1,11 @@
 ---
 id: 144
+internal_id: 144
 slug: binary-tree-preorder-traversal
 title: Binary Tree Preorder Traversal
 difficulty: Easy
 tags: Stack, Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

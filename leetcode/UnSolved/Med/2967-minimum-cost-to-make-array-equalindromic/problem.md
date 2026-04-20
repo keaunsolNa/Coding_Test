@@ -1,5 +1,6 @@
 ---
 id: 2967
+internal_id: 3229
 slug: minimum-cost-to-make-array-equalindromic
 title: Minimum Cost to Make Array Equalindromic
 difficulty: Medium

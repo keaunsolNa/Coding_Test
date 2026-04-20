@@ -1,10 +1,11 @@
 ---
 id: 1187
+internal_id: 1290
 slug: make-array-strictly-increasing
 title: Make Array Strictly Increasing
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 722
+internal_id: 722
 slug: remove-comments
 title: Remove Comments
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 906
+internal_id: 942
 slug: super-palindromes
 title: Super Palindromes
 difficulty: Hard
 tags: Math, String, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

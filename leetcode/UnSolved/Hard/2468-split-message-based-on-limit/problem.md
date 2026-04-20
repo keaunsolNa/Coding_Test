@@ -1,10 +1,11 @@
 ---
 id: 2468
+internal_id: 2563
 slug: split-message-based-on-limit
 title: Split Message Based on Limit
 difficulty: Hard
 tags: String, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

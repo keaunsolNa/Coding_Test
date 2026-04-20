@@ -1,11 +1,12 @@
 ---
 id: 1174
+internal_id: 1292
 slug: immediate-food-delivery-ii
 title: Immediate Food Delivery II
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1174. Immediate Food Delivery II

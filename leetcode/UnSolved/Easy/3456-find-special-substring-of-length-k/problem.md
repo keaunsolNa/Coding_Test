@@ -1,10 +1,11 @@
 ---
 id: 3456
+internal_id: 3709
 slug: find-special-substring-of-length-k
 title: Find Special Substring of Length K
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

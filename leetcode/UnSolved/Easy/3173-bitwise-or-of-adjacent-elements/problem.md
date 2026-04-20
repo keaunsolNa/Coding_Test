@@ -1,10 +1,11 @@
 ---
 id: 3173
+internal_id: 3472
 slug: bitwise-or-of-adjacent-elements
 title: Bitwise OR of Adjacent Elements
 difficulty: Easy
 tags: Array, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

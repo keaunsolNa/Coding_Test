@@ -1,5 +1,6 @@
 ---
 id: 3152
+internal_id: 3427
 slug: special-array-ii
 title: Special Array II
 difficulty: Medium

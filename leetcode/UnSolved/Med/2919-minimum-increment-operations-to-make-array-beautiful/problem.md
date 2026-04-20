@@ -1,5 +1,6 @@
 ---
 id: 2919
+internal_id: 3178
 slug: minimum-increment-operations-to-make-array-beautiful
 title: Minimum Increment Operations to Make Array Beautiful
 difficulty: Medium

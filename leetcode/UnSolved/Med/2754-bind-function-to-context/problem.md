@@ -1,5 +1,6 @@
 ---
 id: 2754
+internal_id: 2770
 slug: bind-function-to-context
 title: Bind Function to Context
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3882
+internal_id: 4205
 slug: minimum-xor-path-in-a-grid
 title: Minimum XOR Path in a Grid
 difficulty: Medium

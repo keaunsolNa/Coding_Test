@@ -1,10 +1,11 @@
 ---
 id: 2088
+internal_id: 2193
 slug: count-fertile-pyramids-in-a-land
 title: Count Fertile Pyramids in a Land
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

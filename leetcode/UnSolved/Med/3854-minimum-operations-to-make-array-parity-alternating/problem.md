@@ -1,5 +1,6 @@
 ---
 id: 3854
+internal_id: 4219
 slug: minimum-operations-to-make-array-parity-alternating
 title: Minimum Operations to Make Array Parity Alternating
 difficulty: Medium

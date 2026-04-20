@@ -1,10 +1,11 @@
 ---
 id: 2999
+internal_id: 3243
 slug: count-the-number-of-powerful-integers
 title: Count the Number of Powerful Integers
 difficulty: Hard
 tags: Math, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

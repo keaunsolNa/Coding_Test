@@ -1,5 +1,6 @@
 ---
 id: 2845
+internal_id: 2915
 slug: count-of-interesting-subarrays
 title: Count of Interesting Subarrays
 difficulty: Medium

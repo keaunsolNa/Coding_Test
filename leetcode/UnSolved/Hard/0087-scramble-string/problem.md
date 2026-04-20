@@ -1,10 +1,11 @@
 ---
 id: 87
+internal_id: 87
 slug: scramble-string
 title: Scramble String
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3760
+internal_id: 4087
 slug: maximum-substrings-with-distinct-start
 title: Maximum Substrings With Distinct Start
 difficulty: Medium

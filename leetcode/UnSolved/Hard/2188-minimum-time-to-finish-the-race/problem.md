@@ -1,10 +1,11 @@
 ---
 id: 2188
+internal_id: 2295
 slug: minimum-time-to-finish-the-race
 title: Minimum Time to Finish the Race
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

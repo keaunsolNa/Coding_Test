@@ -1,5 +1,6 @@
 ---
 id: 2284
+internal_id: 2378
 slug: sender-with-largest-word-count
 title: Sender With Largest Word Count
 difficulty: Medium

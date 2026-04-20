@@ -1,5 +1,6 @@
 ---
 id: 1010
+internal_id: 1055
 slug: pairs-of-songs-with-total-durations-divisible-by-60
 title: Pairs of Songs With Total Durations Divisible by 60
 difficulty: Medium

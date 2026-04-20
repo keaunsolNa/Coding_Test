@@ -1,5 +1,6 @@
 ---
 id: 1146
+internal_id: 1249
 slug: snapshot-array
 title: Snapshot Array
 difficulty: Medium

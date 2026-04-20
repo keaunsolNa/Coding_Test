@@ -1,10 +1,11 @@
 ---
 id: 1510
+internal_id: 1617
 slug: stone-game-iv
 title: Stone Game IV
 difficulty: Hard
 tags: Math, Dynamic Programming, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

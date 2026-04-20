@@ -1,10 +1,11 @@
 ---
 id: 1345
+internal_id: 1447
 slug: jump-game-iv
 title: Jump Game IV
 difficulty: Hard
 tags: Array, Hash Table, Breadth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

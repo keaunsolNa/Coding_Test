@@ -1,10 +1,11 @@
 ---
 id: 3534
+internal_id: 3852
 slug: path-existence-queries-in-a-graph-ii
 title: Path Existence Queries in a Graph II
 difficulty: Hard
 tags: Array, Two Pointers, Binary Search, Dynamic Programming, Greedy, Bit Manipulation, Graph Theory, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

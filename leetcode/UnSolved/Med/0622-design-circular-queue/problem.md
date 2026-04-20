@@ -1,5 +1,6 @@
 ---
 id: 622
+internal_id: 860
 slug: design-circular-queue
 title: Design Circular Queue
 difficulty: Medium

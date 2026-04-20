@@ -1,5 +1,6 @@
 ---
 id: 1040
+internal_id: 1113
 slug: moving-stones-until-consecutive-ii
 title: Moving Stones Until Consecutive II
 difficulty: Medium

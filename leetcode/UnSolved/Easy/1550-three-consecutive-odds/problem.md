@@ -1,10 +1,11 @@
 ---
 id: 1550
+internal_id: 1293
 slug: three-consecutive-odds
 title: Three Consecutive Odds
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

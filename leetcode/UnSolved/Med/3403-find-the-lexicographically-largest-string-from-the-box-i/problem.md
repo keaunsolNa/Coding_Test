@@ -1,5 +1,6 @@
 ---
 id: 3403
+internal_id: 3683
 slug: find-the-lexicographically-largest-string-from-the-box-i
 title: Find the Lexicographically Largest String From the Box I
 difficulty: Medium

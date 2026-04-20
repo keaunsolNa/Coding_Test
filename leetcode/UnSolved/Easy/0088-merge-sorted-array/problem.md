@@ -1,10 +1,11 @@
 ---
 id: 88
+internal_id: 88
 slug: merge-sorted-array
 title: Merge Sorted Array
 difficulty: Easy
 tags: Array, Two Pointers, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

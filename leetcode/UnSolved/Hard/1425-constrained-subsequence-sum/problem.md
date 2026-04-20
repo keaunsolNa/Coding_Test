@@ -1,10 +1,11 @@
 ---
 id: 1425
+internal_id: 1286
 slug: constrained-subsequence-sum
 title: Constrained Subsequence Sum
 difficulty: Hard
 tags: Array, Dynamic Programming, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

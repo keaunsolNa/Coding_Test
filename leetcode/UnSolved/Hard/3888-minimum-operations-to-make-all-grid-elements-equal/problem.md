@@ -1,10 +1,11 @@
 ---
 id: 3888
+internal_id: 4276
 slug: minimum-operations-to-make-all-grid-elements-equal
 title: Minimum Operations to Make All Grid Elements Equal
 difficulty: Hard
 tags: Array, Math, Matrix, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

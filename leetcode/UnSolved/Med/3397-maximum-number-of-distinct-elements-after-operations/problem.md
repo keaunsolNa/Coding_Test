@@ -1,5 +1,6 @@
 ---
 id: 3397
+internal_id: 3620
 slug: maximum-number-of-distinct-elements-after-operations
 title: Maximum Number of Distinct Elements After Operations
 difficulty: Medium

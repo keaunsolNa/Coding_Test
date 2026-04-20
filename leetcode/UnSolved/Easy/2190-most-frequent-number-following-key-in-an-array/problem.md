@@ -1,10 +1,11 @@
 ---
 id: 2190
+internal_id: 2312
 slug: most-frequent-number-following-key-in-an-array
 title: Most Frequent Number Following Key In an Array
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1017
+internal_id: 1070
 slug: convert-to-base-2
 title: Convert to Base -2
 difficulty: Medium

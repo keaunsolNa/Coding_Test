@@ -1,5 +1,6 @@
 ---
 id: 2453
+internal_id: 2548
 slug: destroy-sequential-targets
 title: Destroy Sequential Targets
 difficulty: Medium

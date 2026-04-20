@@ -1,5 +1,6 @@
 ---
 id: 1666
+internal_id: 1810
 slug: change-the-root-of-a-binary-tree
 title: Change the Root of a Binary Tree
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1691
+internal_id: 1367
 slug: maximum-height-by-stacking-cuboids
 title: Maximum Height by Stacking Cuboids 
 difficulty: Hard
 tags: Array, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

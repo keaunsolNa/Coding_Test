@@ -1,5 +1,6 @@
 ---
 id: 2767
+internal_id: 2883
 slug: partition-string-into-minimum-beautiful-substrings
 title: Partition String Into Minimum Beautiful Substrings
 difficulty: Medium

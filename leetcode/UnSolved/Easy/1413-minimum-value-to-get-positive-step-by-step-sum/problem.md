@@ -1,10 +1,11 @@
 ---
 id: 1413
+internal_id: 1514
 slug: minimum-value-to-get-positive-step-by-step-sum
 title: Minimum Value to Get Positive Step by Step Sum
 difficulty: Easy
 tags: Array, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

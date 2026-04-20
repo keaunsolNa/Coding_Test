@@ -1,5 +1,6 @@
 ---
 id: 165
+internal_id: 165
 slug: compare-version-numbers
 title: Compare Version Numbers
 difficulty: Medium

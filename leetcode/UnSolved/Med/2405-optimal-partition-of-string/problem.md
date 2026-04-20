@@ -1,5 +1,6 @@
 ---
 id: 2405
+internal_id: 2487
 slug: optimal-partition-of-string
 title: Optimal Partition of String
 difficulty: Medium

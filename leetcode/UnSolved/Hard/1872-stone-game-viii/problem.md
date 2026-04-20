@@ -1,10 +1,11 @@
 ---
 id: 1872
+internal_id: 2002
 slug: stone-game-viii
 title: Stone Game VIII
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Prefix Sum, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

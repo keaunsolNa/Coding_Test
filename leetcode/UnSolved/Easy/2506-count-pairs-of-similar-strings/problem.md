@@ -1,10 +1,11 @@
 ---
 id: 2506
+internal_id: 2594
 slug: count-pairs-of-similar-strings
 title: Count Pairs Of Similar Strings
 difficulty: Easy
 tags: Array, Hash Table, String, Bit Manipulation, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2857
+internal_id: 2953
 slug: count-pairs-of-points-with-distance-k
 title: Count Pairs of Points With Distance k
 difficulty: Medium

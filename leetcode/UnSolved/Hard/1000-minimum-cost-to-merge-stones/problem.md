@@ -1,10 +1,11 @@
 ---
 id: 1000
+internal_id: 1042
 slug: minimum-cost-to-merge-stones
 title: Minimum Cost to Merge Stones
 difficulty: Hard
 tags: Array, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1659
+internal_id: 1778
 slug: maximize-grid-happiness
 title: Maximize Grid Happiness
 difficulty: Hard
 tags: Dynamic Programming, Bit Manipulation, Memoization, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

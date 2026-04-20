@@ -1,5 +1,6 @@
 ---
 id: 2225
+internal_id: 1354
 slug: find-players-with-zero-or-one-losses
 title: Find Players With Zero or One Losses
 difficulty: Medium

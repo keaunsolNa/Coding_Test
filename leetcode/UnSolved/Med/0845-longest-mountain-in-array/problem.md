@@ -1,5 +1,6 @@
 ---
 id: 845
+internal_id: 875
 slug: longest-mountain-in-array
 title: Longest Mountain in Array
 difficulty: Medium

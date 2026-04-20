@@ -1,11 +1,12 @@
 ---
 id: 1378
+internal_id: 1509
 slug: replace-employee-id-with-the-unique-identifier
 title: Replace Employee ID With The Unique Identifier
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1378. Replace Employee ID With The Unique Identifier

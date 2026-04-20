@@ -1,10 +1,11 @@
 ---
 id: 2379
+internal_id: 2463
 slug: minimum-recolors-to-get-k-consecutive-black-blocks
 title: Minimum Recolors to Get K Consecutive Black Blocks
 difficulty: Easy
 tags: String, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

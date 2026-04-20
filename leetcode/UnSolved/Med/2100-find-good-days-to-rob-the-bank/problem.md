@@ -1,5 +1,6 @@
 ---
 id: 2100
+internal_id: 2205
 slug: find-good-days-to-rob-the-bank
 title: Find Good Days to Rob the Bank
 difficulty: Medium

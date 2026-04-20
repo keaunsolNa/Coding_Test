@@ -1,5 +1,6 @@
 ---
 id: 2580
+internal_id: 2651
 slug: count-ways-to-group-overlapping-ranges
 title: Count Ways to Group Overlapping Ranges
 difficulty: Medium

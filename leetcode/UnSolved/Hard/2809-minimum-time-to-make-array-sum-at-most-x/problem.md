@@ -1,10 +1,11 @@
 ---
 id: 2809
+internal_id: 2952
 slug: minimum-time-to-make-array-sum-at-most-x
 title: Minimum Time to Make Array Sum At Most x
 difficulty: Hard
 tags: Array, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

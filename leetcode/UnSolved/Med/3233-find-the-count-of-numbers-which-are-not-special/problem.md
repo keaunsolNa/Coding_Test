@@ -1,5 +1,6 @@
 ---
 id: 3233
+internal_id: 3507
 slug: find-the-count-of-numbers-which-are-not-special
 title: Find the Count of Numbers Which Are Not Special
 difficulty: Medium

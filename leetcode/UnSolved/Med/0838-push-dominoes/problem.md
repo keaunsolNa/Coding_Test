@@ -1,5 +1,6 @@
 ---
 id: 838
+internal_id: 868
 slug: push-dominoes
 title: Push Dominoes
 difficulty: Medium

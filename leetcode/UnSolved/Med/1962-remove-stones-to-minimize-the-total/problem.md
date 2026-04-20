@@ -1,5 +1,6 @@
 ---
 id: 1962
+internal_id: 2094
 slug: remove-stones-to-minimize-the-total
 title: Remove Stones to Minimize the Total
 difficulty: Medium

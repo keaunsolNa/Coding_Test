@@ -1,10 +1,11 @@
 ---
 id: 1467
+internal_id: 1577
 slug: probability-of-a-two-boxes-having-the-same-number-of-distinct-balls
 title: Probability of a Two Boxes Having The Same Number of Distinct Balls
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Backtracking, Combinatorics, Probability and Statistics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

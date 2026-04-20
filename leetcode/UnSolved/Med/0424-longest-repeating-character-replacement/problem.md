@@ -1,5 +1,6 @@
 ---
 id: 424
+internal_id: 424
 slug: longest-repeating-character-replacement
 title: Longest Repeating Character Replacement
 difficulty: Medium

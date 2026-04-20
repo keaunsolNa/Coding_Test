@@ -1,11 +1,12 @@
 ---
 id: 2253
+internal_id: 2382
 slug: dynamic-unpivoting-of-a-table
 title: Dynamic Unpivoting of a Table
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 2253. Dynamic Unpivoting of a Table

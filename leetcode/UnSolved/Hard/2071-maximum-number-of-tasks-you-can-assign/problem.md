@@ -1,10 +1,11 @@
 ---
 id: 2071
+internal_id: 2180
 slug: maximum-number-of-tasks-you-can-assign
 title: Maximum Number of Tasks You Can Assign
 difficulty: Hard
 tags: Array, Two Pointers, Binary Search, Greedy, Queue, Sorting, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

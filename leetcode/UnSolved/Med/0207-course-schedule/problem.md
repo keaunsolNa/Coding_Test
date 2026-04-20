@@ -1,5 +1,6 @@
 ---
 id: 207
+internal_id: 207
 slug: course-schedule
 title: Course Schedule
 difficulty: Medium

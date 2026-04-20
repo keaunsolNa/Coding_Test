@@ -1,5 +1,6 @@
 ---
 id: 823
+internal_id: 843
 slug: binary-trees-with-factors
 title: Binary Trees With Factors
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 216
+internal_id: 216
 slug: combination-sum-iii
 title: Combination Sum III
 difficulty: Medium

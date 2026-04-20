@@ -1,5 +1,6 @@
 ---
 id: 22
+internal_id: 22
 slug: generate-parentheses
 title: Generate Parentheses
 difficulty: Medium

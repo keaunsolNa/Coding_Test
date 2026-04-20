@@ -1,10 +1,11 @@
 ---
 id: 3027
+internal_id: 3277
 slug: find-the-number-of-ways-to-place-people-ii
 title: Find the Number of Ways to Place People II
 difficulty: Hard
 tags: Array, Math, Geometry, Sorting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

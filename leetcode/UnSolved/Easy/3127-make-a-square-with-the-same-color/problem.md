@@ -1,10 +1,11 @@
 ---
 id: 3127
+internal_id: 3398
 slug: make-a-square-with-the-same-color
 title: Make a Square with the Same Color
 difficulty: Easy
 tags: Array, Matrix, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

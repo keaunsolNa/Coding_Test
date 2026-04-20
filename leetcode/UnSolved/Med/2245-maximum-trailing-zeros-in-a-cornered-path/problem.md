@@ -1,5 +1,6 @@
 ---
 id: 2245
+internal_id: 2363
 slug: maximum-trailing-zeros-in-a-cornered-path
 title: Maximum Trailing Zeros in a Cornered Path
 difficulty: Medium

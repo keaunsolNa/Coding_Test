@@ -1,10 +1,11 @@
 ---
 id: 3684
+internal_id: 3997
 slug: maximize-sum-of-at-most-k-distinct-elements
 title: Maximize Sum of At Most K Distinct Elements
 difficulty: Easy
 tags: Array, Hash Table, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

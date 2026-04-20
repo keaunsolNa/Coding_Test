@@ -1,10 +1,11 @@
 ---
 id: 3031
+internal_id: 3296
 slug: minimum-time-to-revert-word-to-initial-state-ii
 title: Minimum Time to Revert Word to Initial State II
 difficulty: Hard
 tags: String, Rolling Hash, String Matching, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

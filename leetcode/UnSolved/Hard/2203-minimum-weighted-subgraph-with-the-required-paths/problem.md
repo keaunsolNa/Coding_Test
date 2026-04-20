@@ -1,10 +1,11 @@
 ---
 id: 2203
+internal_id: 2321
 slug: minimum-weighted-subgraph-with-the-required-paths
 title: Minimum Weighted Subgraph With the Required Paths
 difficulty: Hard
 tags: Graph Theory, Heap (Priority Queue), Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

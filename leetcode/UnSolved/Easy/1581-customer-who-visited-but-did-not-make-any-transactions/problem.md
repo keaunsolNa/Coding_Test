@@ -1,11 +1,12 @@
 ---
 id: 1581
+internal_id: 1724
 slug: customer-who-visited-but-did-not-make-any-transactions
 title: Customer Who Visited but Did Not Make Any Transactions
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1581. Customer Who Visited but Did Not Make Any Transactions

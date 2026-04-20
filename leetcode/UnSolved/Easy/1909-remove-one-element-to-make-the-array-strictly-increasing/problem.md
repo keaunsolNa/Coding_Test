@@ -1,10 +1,11 @@
 ---
 id: 1909
+internal_id: 2020
 slug: remove-one-element-to-make-the-array-strictly-increasing
 title: Remove One Element to Make the Array Strictly Increasing
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

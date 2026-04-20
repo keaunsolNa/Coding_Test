@@ -1,10 +1,11 @@
 ---
 id: 3729
+internal_id: 4063
 slug: count-distinct-subarrays-divisible-by-k-in-sorted-array
 title: Count Distinct Subarrays Divisible by K in Sorted Array
 difficulty: Hard
 tags: Array, Hash Table, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

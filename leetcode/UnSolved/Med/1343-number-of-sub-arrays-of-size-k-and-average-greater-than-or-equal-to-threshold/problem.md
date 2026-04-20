@@ -1,5 +1,6 @@
 ---
 id: 1343
+internal_id: 1445
 slug: number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold
 title: Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 difficulty: Medium

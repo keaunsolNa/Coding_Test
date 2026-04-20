@@ -1,10 +1,11 @@
 ---
 id: 2158
+internal_id: 2297
 slug: amount-of-new-area-painted-each-day
 title: Amount of New Area Painted Each Day
 difficulty: Hard
 tags: Array, Segment Tree, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

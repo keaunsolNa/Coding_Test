@@ -1,5 +1,6 @@
 ---
 id: 912
+internal_id: 948
 slug: sort-an-array
 title: Sort an Array
 difficulty: Medium

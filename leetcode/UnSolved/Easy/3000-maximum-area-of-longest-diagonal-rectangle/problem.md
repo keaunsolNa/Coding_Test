@@ -1,10 +1,11 @@
 ---
 id: 3000
+internal_id: 3251
 slug: maximum-area-of-longest-diagonal-rectangle
 title: Maximum Area of Longest Diagonal Rectangle
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

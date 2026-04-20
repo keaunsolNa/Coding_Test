@@ -1,5 +1,6 @@
 ---
 id: 3362
+internal_id: 3647
 slug: zero-array-transformation-iii
 title: Zero Array Transformation III
 difficulty: Medium

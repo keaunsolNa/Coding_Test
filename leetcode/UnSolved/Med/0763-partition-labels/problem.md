@@ -1,5 +1,6 @@
 ---
 id: 763
+internal_id: 768
 slug: partition-labels
 title: Partition Labels
 difficulty: Medium

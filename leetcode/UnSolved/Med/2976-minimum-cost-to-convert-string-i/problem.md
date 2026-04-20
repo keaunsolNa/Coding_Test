@@ -1,5 +1,6 @@
 ---
 id: 2976
+internal_id: 3235
 slug: minimum-cost-to-convert-string-i
 title: Minimum Cost to Convert String I
 difficulty: Medium

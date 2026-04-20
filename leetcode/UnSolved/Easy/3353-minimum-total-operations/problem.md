@@ -1,10 +1,11 @@
 ---
 id: 3353
+internal_id: 3694
 slug: minimum-total-operations
 title: Minimum Total Operations
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

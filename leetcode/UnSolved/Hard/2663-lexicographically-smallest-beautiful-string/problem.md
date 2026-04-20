@@ -1,10 +1,11 @@
 ---
 id: 2663
+internal_id: 2687
 slug: lexicographically-smallest-beautiful-string
 title: Lexicographically Smallest Beautiful String
 difficulty: Hard
 tags: String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

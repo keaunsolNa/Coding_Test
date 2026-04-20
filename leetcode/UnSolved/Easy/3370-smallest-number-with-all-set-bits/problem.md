@@ -1,10 +1,11 @@
 ---
 id: 3370
+internal_id: 3676
 slug: smallest-number-with-all-set-bits
 title: Smallest Number With All Set Bits
 difficulty: Easy
 tags: Math, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

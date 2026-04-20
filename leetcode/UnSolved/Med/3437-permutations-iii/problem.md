@@ -1,5 +1,6 @@
 ---
 id: 3437
+internal_id: 3780
 slug: permutations-iii
 title: Permutations III
 difficulty: Medium

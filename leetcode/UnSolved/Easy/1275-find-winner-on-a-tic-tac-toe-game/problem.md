@@ -1,10 +1,11 @@
 ---
 id: 1275
+internal_id: 1400
 slug: find-winner-on-a-tic-tac-toe-game
 title: Find Winner on a Tic Tac Toe Game
 difficulty: Easy
 tags: Array, Hash Table, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

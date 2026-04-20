@@ -1,10 +1,11 @@
 ---
 id: 3878
+internal_id: 4222
 slug: count-good-subarrays
 title: Count Good Subarrays
 difficulty: Hard
 tags: Array, Stack, Bit Manipulation, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

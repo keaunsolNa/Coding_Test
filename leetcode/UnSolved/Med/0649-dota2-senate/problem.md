@@ -1,5 +1,6 @@
 ---
 id: 649
+internal_id: 649
 slug: dota2-senate
 title: Dota2 Senate
 difficulty: Medium

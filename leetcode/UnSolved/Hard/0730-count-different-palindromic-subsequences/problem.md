@@ -1,10 +1,11 @@
 ---
 id: 730
+internal_id: 730
 slug: count-different-palindromic-subsequences
 title: Count Different Palindromic Subsequences
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

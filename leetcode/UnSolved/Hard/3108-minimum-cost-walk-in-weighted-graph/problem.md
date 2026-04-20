@@ -1,10 +1,11 @@
 ---
 id: 3108
+internal_id: 3348
 slug: minimum-cost-walk-in-weighted-graph
 title: Minimum Cost Walk in Weighted Graph
 difficulty: Hard
 tags: Array, Bit Manipulation, Union-Find, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

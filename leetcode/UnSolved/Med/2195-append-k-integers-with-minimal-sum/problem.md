@@ -1,5 +1,6 @@
 ---
 id: 2195
+internal_id: 2305
 slug: append-k-integers-with-minimal-sum
 title: Append K Integers With Minimal Sum
 difficulty: Medium

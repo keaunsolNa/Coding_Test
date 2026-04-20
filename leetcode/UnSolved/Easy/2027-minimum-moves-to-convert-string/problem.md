@@ -1,10 +1,11 @@
 ---
 id: 2027
+internal_id: 2154
 slug: minimum-moves-to-convert-string
 title: Minimum Moves to Convert String
 difficulty: Easy
 tags: String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 788
+internal_id: 804
 slug: rotated-digits
 title: Rotated Digits
 difficulty: Medium

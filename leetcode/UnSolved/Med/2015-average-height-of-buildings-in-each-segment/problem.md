@@ -1,5 +1,6 @@
 ---
 id: 2015
+internal_id: 2142
 slug: average-height-of-buildings-in-each-segment
 title: Average Height of Buildings in Each Segment
 difficulty: Medium

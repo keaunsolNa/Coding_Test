@@ -1,10 +1,11 @@
 ---
 id: 3633
+internal_id: 3965
 slug: earliest-finish-time-for-land-and-water-rides-i
 title: Earliest Finish Time for Land and Water Rides I
 difficulty: Easy
 tags: Array, Two Pointers, Binary Search, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

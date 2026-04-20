@@ -1,5 +1,6 @@
 ---
 id: 3350
+internal_id: 3619
 slug: adjacent-increasing-subarrays-detection-ii
 title: Adjacent Increasing Subarrays Detection II
 difficulty: Medium

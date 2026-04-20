@@ -1,11 +1,12 @@
 ---
 id: 183
+internal_id: 183
 slug: customers-who-never-order
 title: Customers Who Never Order
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 183. Customers Who Never Order

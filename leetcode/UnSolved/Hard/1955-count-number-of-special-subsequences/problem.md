@@ -1,10 +1,11 @@
 ---
 id: 1955
+internal_id: 2086
 slug: count-number-of-special-subsequences
 title: Count Number of Special Subsequences
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

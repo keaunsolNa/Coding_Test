@@ -1,10 +1,11 @@
 ---
 id: 3757
+internal_id: 4134
 slug: number-of-effective-subsequences
 title: Number of Effective Subsequences
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Bit Manipulation, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

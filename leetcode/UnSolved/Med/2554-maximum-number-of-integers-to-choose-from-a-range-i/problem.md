@@ -1,5 +1,6 @@
 ---
 id: 2554
+internal_id: 2640
 slug: maximum-number-of-integers-to-choose-from-a-range-i
 title: Maximum Number of Integers to Choose From a Range I
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2810
+internal_id: 2886
 slug: faulty-keyboard
 title: Faulty Keyboard
 difficulty: Easy
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

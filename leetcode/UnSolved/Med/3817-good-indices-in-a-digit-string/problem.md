@@ -1,5 +1,6 @@
 ---
 id: 3817
+internal_id: 4207
 slug: good-indices-in-a-digit-string
 title: Good Indices in a Digit String
 difficulty: Medium

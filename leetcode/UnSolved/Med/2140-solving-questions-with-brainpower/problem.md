@@ -1,5 +1,6 @@
 ---
 id: 2140
+internal_id: 2262
 slug: solving-questions-with-brainpower
 title: Solving Questions With Brainpower
 difficulty: Medium

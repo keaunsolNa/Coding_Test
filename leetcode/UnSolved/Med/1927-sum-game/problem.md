@@ -1,5 +1,6 @@
 ---
 id: 1927
+internal_id: 2039
 slug: sum-game
 title: Sum Game
 difficulty: Medium

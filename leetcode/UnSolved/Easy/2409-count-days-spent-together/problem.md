@@ -1,10 +1,11 @@
 ---
 id: 2409
+internal_id: 2496
 slug: count-days-spent-together
 title: Count Days Spent Together
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

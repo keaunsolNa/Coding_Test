@@ -1,10 +1,11 @@
 ---
 id: 3668
+internal_id: 4008
 slug: restore-finishing-order
 title: Restore Finishing Order
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

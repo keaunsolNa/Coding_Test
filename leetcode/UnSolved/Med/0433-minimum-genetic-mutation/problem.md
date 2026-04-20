@@ -1,5 +1,6 @@
 ---
 id: 433
+internal_id: 433
 slug: minimum-genetic-mutation
 title: Minimum Genetic Mutation
 difficulty: Medium

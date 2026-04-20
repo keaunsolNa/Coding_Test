@@ -1,5 +1,6 @@
 ---
 id: 436
+internal_id: 436
 slug: find-right-interval
 title: Find Right Interval
 difficulty: Medium

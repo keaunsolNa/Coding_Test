@@ -1,5 +1,6 @@
 ---
 id: 659
+internal_id: 659
 slug: split-array-into-consecutive-subsequences
 title: Split Array into Consecutive Subsequences
 difficulty: Medium

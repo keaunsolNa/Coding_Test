@@ -1,5 +1,6 @@
 ---
 id: 1626
+internal_id: 1748
 slug: best-team-with-no-conflicts
 title: Best Team With No Conflicts
 difficulty: Medium

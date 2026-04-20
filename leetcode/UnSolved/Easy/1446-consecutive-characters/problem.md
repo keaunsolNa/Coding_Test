@@ -1,10 +1,11 @@
 ---
 id: 1446
+internal_id: 1542
 slug: consecutive-characters
 title: Consecutive Characters
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

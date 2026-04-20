@@ -1,5 +1,6 @@
 ---
 id: 2075
+internal_id: 2197
 slug: decode-the-slanted-ciphertext
 title: Decode the Slanted Ciphertext
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3065
+internal_id: 3331
 slug: minimum-operations-to-exceed-threshold-value-i
 title: Minimum Operations to Exceed Threshold Value I
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

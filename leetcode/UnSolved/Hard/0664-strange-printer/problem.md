@@ -1,10 +1,11 @@
 ---
 id: 664
+internal_id: 664
 slug: strange-printer
 title: Strange Printer
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

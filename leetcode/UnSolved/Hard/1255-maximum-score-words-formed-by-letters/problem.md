@@ -1,10 +1,11 @@
 ---
 id: 1255
+internal_id: 1381
 slug: maximum-score-words-formed-by-letters
 title: Maximum Score Words Formed by Letters
 difficulty: Hard
 tags: Array, Hash Table, String, Dynamic Programming, Backtracking, Bit Manipulation, Counting, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

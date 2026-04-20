@@ -1,5 +1,6 @@
 ---
 id: 939
+internal_id: 976
 slug: minimum-area-rectangle
 title: Minimum Area Rectangle
 difficulty: Medium

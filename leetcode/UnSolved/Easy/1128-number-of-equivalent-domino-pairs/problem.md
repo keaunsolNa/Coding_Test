@@ -1,10 +1,11 @@
 ---
 id: 1128
+internal_id: 1227
 slug: number-of-equivalent-domino-pairs
 title: Number of Equivalent Domino Pairs
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

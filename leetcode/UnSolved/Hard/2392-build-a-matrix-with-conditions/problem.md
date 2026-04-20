@@ -1,10 +1,11 @@
 ---
 id: 2392
+internal_id: 2472
 slug: build-a-matrix-with-conditions
 title: Build a Matrix With Conditions
 difficulty: Hard
 tags: Array, Graph Theory, Topological Sort, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1144
+internal_id: 1247
 slug: decrease-elements-to-make-array-zigzag
 title: Decrease Elements To Make Array Zigzag
 difficulty: Medium

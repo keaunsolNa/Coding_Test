@@ -1,10 +1,11 @@
 ---
 id: 2278
+internal_id: 2365
 slug: percentage-of-letter-in-string
 title: Percentage of Letter in String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

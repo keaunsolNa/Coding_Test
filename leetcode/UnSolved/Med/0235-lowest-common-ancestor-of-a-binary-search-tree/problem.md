@@ -1,5 +1,6 @@
 ---
 id: 235
+internal_id: 235
 slug: lowest-common-ancestor-of-a-binary-search-tree
 title: Lowest Common Ancestor of a Binary Search Tree
 difficulty: Medium

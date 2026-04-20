@@ -1,10 +1,11 @@
 ---
 id: 2584
+internal_id: 2647
 slug: split-the-array-to-make-coprime-products
 title: Split the Array to Make Coprime Products
 difficulty: Hard
 tags: Array, Hash Table, Math, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

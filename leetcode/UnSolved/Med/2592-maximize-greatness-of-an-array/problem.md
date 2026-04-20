@@ -1,5 +1,6 @@
 ---
 id: 2592
+internal_id: 2664
 slug: maximize-greatness-of-an-array
 title: Maximize Greatness of an Array
 difficulty: Medium

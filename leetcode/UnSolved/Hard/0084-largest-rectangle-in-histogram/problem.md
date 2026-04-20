@@ -1,10 +1,11 @@
 ---
 id: 84
+internal_id: 84
 slug: largest-rectangle-in-histogram
 title: Largest Rectangle in Histogram
 difficulty: Hard
 tags: Array, Stack, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

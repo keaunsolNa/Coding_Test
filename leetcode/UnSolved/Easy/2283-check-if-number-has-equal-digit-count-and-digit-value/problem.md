@@ -1,10 +1,11 @@
 ---
 id: 2283
+internal_id: 2377
 slug: check-if-number-has-equal-digit-count-and-digit-value
 title: Check if Number Has Equal Digit Count and Digit Value
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 989
+internal_id: 1031
 slug: add-to-array-form-of-integer
 title: Add to Array-Form of Integer
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

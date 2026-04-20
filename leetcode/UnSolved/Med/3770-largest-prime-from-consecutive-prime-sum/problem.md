@@ -1,5 +1,6 @@
 ---
 id: 3770
+internal_id: 4085
 slug: largest-prime-from-consecutive-prime-sum
 title: Largest Prime from Consecutive Prime Sum
 difficulty: Medium

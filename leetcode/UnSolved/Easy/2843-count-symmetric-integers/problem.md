@@ -1,10 +1,11 @@
 ---
 id: 2843
+internal_id: 2998
 slug: count-symmetric-integers
 title:   Count Symmetric Integers
 difficulty: Easy
 tags: Math, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

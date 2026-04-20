@@ -1,5 +1,6 @@
 ---
 id: 1477
+internal_id: 1573
 slug: find-two-non-overlapping-sub-arrays-each-with-target-sum
 title: Find Two Non-overlapping Sub-arrays Each With Target Sum
 difficulty: Medium

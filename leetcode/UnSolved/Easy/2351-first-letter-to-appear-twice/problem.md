@@ -1,10 +1,11 @@
 ---
 id: 2351
+internal_id: 2427
 slug: first-letter-to-appear-twice
 title: First Letter to Appear Twice
 difficulty: Easy
 tags: Hash Table, String, Bit Manipulation, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

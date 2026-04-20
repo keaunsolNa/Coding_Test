@@ -1,5 +1,6 @@
 ---
 id: 2840
+internal_id: 2978
 slug: check-if-strings-can-be-made-equal-with-operations-ii
 title: Check if Strings Can be Made Equal With Operations II
 difficulty: Medium

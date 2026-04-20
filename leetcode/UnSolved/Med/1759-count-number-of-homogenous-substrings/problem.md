@@ -1,5 +1,6 @@
 ---
 id: 1759
+internal_id: 1885
 slug: count-number-of-homogenous-substrings
 title: Count Number of Homogenous Substrings
 difficulty: Medium

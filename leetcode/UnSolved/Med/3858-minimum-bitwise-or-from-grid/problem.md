@@ -1,5 +1,6 @@
 ---
 id: 3858
+internal_id: 4161
 slug: minimum-bitwise-or-from-grid
 title: Minimum Bitwise OR From Grid
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2217
+internal_id: 1375
 slug: find-palindrome-with-fixed-length
 title: Find Palindrome With Fixed Length
 difficulty: Medium

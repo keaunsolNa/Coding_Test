@@ -1,5 +1,6 @@
 ---
 id: 3170
+internal_id: 3445
 slug: lexicographically-minimum-string-after-removing-stars
 title: Lexicographically Minimum String After Removing Stars
 difficulty: Medium

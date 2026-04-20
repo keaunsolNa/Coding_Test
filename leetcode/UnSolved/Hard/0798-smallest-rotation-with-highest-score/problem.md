@@ -1,10 +1,11 @@
 ---
 id: 798
+internal_id: 814
 slug: smallest-rotation-with-highest-score
 title: Smallest Rotation with Highest Score
 difficulty: Hard
 tags: Array, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

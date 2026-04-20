@@ -1,5 +1,6 @@
 ---
 id: 3400
+internal_id: 3740
 slug: maximum-number-of-matching-indices-after-right-shifts
 title: Maximum Number of Matching Indices After Right Shifts
 difficulty: Medium

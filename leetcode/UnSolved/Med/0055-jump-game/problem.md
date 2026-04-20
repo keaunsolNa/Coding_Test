@@ -1,5 +1,6 @@
 ---
 id: 55
+internal_id: 55
 slug: jump-game
 title: Jump Game
 difficulty: Medium

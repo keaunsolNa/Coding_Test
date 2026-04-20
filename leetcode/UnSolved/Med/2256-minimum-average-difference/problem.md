@@ -1,5 +1,6 @@
 ---
 id: 2256
+internal_id: 2342
 slug: minimum-average-difference
 title: Minimum Average Difference
 difficulty: Medium

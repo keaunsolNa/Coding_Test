@@ -1,11 +1,12 @@
 ---
 id: 2752
+internal_id: 2852
 slug: customers-with-maximum-number-of-transactions-on-consecutive-days
 title: Customers with Maximum Number of Transactions on Consecutive Days
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 2752. Customers with Maximum Number of Transactions on Consecutive Days

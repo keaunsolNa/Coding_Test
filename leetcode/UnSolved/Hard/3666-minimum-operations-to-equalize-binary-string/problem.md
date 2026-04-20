@@ -1,10 +1,11 @@
 ---
 id: 3666
+internal_id: 3983
 slug: minimum-operations-to-equalize-binary-string
 title: Minimum Operations to Equalize Binary String
 difficulty: Hard
 tags: Math, String, Breadth-First Search, Union-Find, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

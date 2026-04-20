@@ -1,10 +1,11 @@
 ---
 id: 1388
+internal_id: 1489
 slug: pizza-with-3n-slices
 title: Pizza With 3n Slices
 difficulty: Hard
 tags: Array, Dynamic Programming, Greedy, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2264
+internal_id: 2346
 slug: largest-3-same-digit-number-in-string
 title: Largest 3-Same-Digit Number in String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

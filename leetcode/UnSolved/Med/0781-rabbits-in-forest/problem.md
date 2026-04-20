@@ -1,5 +1,6 @@
 ---
 id: 781
+internal_id: 797
 slug: rabbits-in-forest
 title: Rabbits in Forest
 difficulty: Medium

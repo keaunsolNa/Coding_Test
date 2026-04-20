@@ -1,10 +1,11 @@
 ---
 id: 2386
+internal_id: 2462
 slug: find-the-k-sum-of-an-array
 title: Find the K-Sum of an Array
 difficulty: Hard
 tags: Array, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

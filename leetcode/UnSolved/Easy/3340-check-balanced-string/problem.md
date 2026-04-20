@@ -1,10 +1,11 @@
 ---
 id: 3340
+internal_id: 3636
 slug: check-balanced-string
 title: Check Balanced String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

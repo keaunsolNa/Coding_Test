@@ -1,10 +1,11 @@
 ---
 id: 637
+internal_id: 637
 slug: average-of-levels-in-binary-tree
 title: Average of Levels in Binary Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

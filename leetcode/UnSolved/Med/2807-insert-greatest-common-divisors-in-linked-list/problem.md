@@ -1,5 +1,6 @@
 ---
 id: 2807
+internal_id: 2903
 slug: insert-greatest-common-divisors-in-linked-list
 title: Insert Greatest Common Divisors in Linked List
 difficulty: Medium

@@ -1,11 +1,12 @@
 ---
 id: 3586
+internal_id: 3932
 slug: find-covid-recovery-patients
 title: Find COVID Recovery Patients
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3586. Find COVID Recovery Patients

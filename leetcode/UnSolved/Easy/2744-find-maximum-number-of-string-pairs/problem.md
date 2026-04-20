@@ -1,10 +1,11 @@
 ---
 id: 2744
+internal_id: 2847
 slug: find-maximum-number-of-string-pairs
 title: Find Maximum Number of String Pairs
 difficulty: Easy
 tags: Array, Hash Table, String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

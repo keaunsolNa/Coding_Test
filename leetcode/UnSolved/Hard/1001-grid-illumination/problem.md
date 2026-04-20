@@ -1,10 +1,11 @@
 ---
 id: 1001
+internal_id: 1043
 slug: grid-illumination
 title: Grid Illumination
 difficulty: Hard
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

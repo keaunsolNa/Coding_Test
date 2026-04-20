@@ -1,5 +1,6 @@
 ---
 id: 3466
+internal_id: 3806
 slug: maximum-coin-collection
 title: Maximum Coin Collection 
 difficulty: Medium

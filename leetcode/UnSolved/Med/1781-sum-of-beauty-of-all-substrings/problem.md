@@ -1,5 +1,6 @@
 ---
 id: 1781
+internal_id: 1890
 slug: sum-of-beauty-of-all-substrings
 title: Sum of Beauty of All Substrings
 difficulty: Medium

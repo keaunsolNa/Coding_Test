@@ -1,10 +1,11 @@
 ---
 id: 2801
+internal_id: 2921
 slug: count-stepping-numbers-in-range
 title: Count Stepping Numbers in Range
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

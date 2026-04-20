@@ -1,10 +1,11 @@
 ---
 id: 1830
+internal_id: 1941
 slug: minimum-number-of-operations-to-make-string-sorted
 title: Minimum Number of Operations to Make String Sorted
 difficulty: Hard
 tags: Hash Table, Math, String, Combinatorics, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

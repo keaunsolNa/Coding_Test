@@ -1,5 +1,6 @@
 ---
 id: 1198
+internal_id: 1143
 slug: find-smallest-common-element-in-all-rows
 title: Find Smallest Common Element in All Rows
 difficulty: Medium

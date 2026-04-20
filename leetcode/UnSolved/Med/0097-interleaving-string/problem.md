@@ -1,5 +1,6 @@
 ---
 id: 97
+internal_id: 97
 slug: interleaving-string
 title: Interleaving String
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2265
+internal_id: 2347
 slug: count-nodes-equal-to-average-of-subtree
 title: Count Nodes Equal to Average of Subtree
 difficulty: Medium

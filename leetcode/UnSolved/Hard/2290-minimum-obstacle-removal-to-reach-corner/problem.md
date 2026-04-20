@@ -1,10 +1,11 @@
 ---
 id: 2290
+internal_id: 2375
 slug: minimum-obstacle-removal-to-reach-corner
 title: Minimum Obstacle Removal to Reach Corner
 difficulty: Hard
 tags: Array, Breadth-First Search, Graph Theory, Heap (Priority Queue), Matrix, Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1197
+internal_id: 1142
 slug: minimum-knight-moves
 title: Minimum Knight Moves
 difficulty: Medium

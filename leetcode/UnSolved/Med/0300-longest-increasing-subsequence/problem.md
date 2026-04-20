@@ -1,5 +1,6 @@
 ---
 id: 300
+internal_id: 300
 slug: longest-increasing-subsequence
 title: Longest Increasing Subsequence
 difficulty: Medium

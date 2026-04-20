@@ -1,5 +1,6 @@
 ---
 id: 565
+internal_id: 565
 slug: array-nesting
 title: Array Nesting
 difficulty: Medium

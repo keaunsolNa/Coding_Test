@@ -1,10 +1,11 @@
 ---
 id: 1022
+internal_id: 1079
 slug: sum-of-root-to-leaf-binary-numbers
 title: Sum of Root To Leaf Binary Numbers
 difficulty: Easy
 tags: Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

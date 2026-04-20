@@ -1,10 +1,11 @@
 ---
 id: 3360
+internal_id: 3625
 slug: stone-removal-game
 title: Stone Removal Game
 difficulty: Easy
 tags: Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

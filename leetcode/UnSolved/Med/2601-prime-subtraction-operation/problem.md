@@ -1,5 +1,6 @@
 ---
 id: 2601
+internal_id: 2716
 slug: prime-subtraction-operation
 title: Prime Subtraction Operation
 difficulty: Medium

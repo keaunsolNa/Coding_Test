@@ -1,5 +1,6 @@
 ---
 id: 153
+internal_id: 153
 slug: find-minimum-in-rotated-sorted-array
 title: Find Minimum in Rotated Sorted Array
 difficulty: Medium

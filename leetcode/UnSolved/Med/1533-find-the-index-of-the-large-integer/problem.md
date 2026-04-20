@@ -1,5 +1,6 @@
 ---
 id: 1533
+internal_id: 1672
 slug: find-the-index-of-the-large-integer
 title: Find the Index of the Large Integer
 difficulty: Medium

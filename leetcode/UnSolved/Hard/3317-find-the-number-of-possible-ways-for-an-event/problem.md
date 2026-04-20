@@ -1,10 +1,11 @@
 ---
 id: 3317
+internal_id: 3604
 slug: find-the-number-of-possible-ways-for-an-event
 title: Find the Number of Possible Ways for an Event
 difficulty: Hard
 tags: Math, Dynamic Programming, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

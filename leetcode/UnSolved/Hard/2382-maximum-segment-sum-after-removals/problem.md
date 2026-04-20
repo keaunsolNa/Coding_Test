@@ -1,10 +1,11 @@
 ---
 id: 2382
+internal_id: 2466
 slug: maximum-segment-sum-after-removals
 title: Maximum Segment Sum After Removals
 difficulty: Hard
 tags: Array, Union-Find, Prefix Sum, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

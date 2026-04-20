@@ -1,5 +1,6 @@
 ---
 id: 360
+internal_id: 360
 slug: sort-transformed-array
 title: Sort Transformed Array
 difficulty: Medium

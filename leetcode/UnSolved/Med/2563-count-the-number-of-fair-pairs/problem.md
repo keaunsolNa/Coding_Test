@@ -1,5 +1,6 @@
 ---
 id: 2563
+internal_id: 2699
 slug: count-the-number-of-fair-pairs
 title: Count the Number of Fair Pairs
 difficulty: Medium

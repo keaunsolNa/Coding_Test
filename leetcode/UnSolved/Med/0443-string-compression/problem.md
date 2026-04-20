@@ -1,5 +1,6 @@
 ---
 id: 443
+internal_id: 443
 slug: string-compression
 title: String Compression
 difficulty: Medium

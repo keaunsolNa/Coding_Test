@@ -1,5 +1,6 @@
 ---
 id: 1123
+internal_id: 1218
 slug: lowest-common-ancestor-of-deepest-leaves
 title: Lowest Common Ancestor of Deepest Leaves
 difficulty: Medium

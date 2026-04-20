@@ -1,10 +1,11 @@
 ---
 id: 3357
+internal_id: 3658
 slug: minimize-the-maximum-adjacent-element-difference
 title: Minimize the Maximum Adjacent Element Difference
 difficulty: Hard
 tags: Array, Binary Search, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

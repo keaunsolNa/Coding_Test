@@ -1,10 +1,11 @@
 ---
 id: 126
+internal_id: 126
 slug: word-ladder-ii
 title: Word Ladder II
 difficulty: Hard
 tags: Hash Table, String, Backtracking, Breadth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

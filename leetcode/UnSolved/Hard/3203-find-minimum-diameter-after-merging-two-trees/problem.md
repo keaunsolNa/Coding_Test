@@ -1,10 +1,11 @@
 ---
 id: 3203
+internal_id: 3439
 slug: find-minimum-diameter-after-merging-two-trees
 title: Find Minimum Diameter After Merging Two Trees
 difficulty: Hard
 tags: Tree, Depth-First Search, Breadth-First Search, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3151
+internal_id: 3429
 slug: special-array-i
 title: Special Array I
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,11 +1,12 @@
 ---
 id: 3451
+internal_id: 3792
 slug: find-invalid-ip-addresses
 title: Find Invalid IP Addresses
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 3451. Find Invalid IP Addresses

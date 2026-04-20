@@ -1,10 +1,11 @@
 ---
 id: 269
+internal_id: 269
 slug: alien-dictionary
 title: Alien Dictionary
 difficulty: Hard
 tags: Array, String, Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 78
+internal_id: 78
 slug: subsets
 title: Subsets
 difficulty: Medium

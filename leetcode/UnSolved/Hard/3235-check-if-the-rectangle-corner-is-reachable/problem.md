@@ -1,10 +1,11 @@
 ---
 id: 3235
+internal_id: 3478
 slug: check-if-the-rectangle-corner-is-reachable
 title: Check if the Rectangle Corner Is Reachable
 difficulty: Hard
 tags: Array, Math, Depth-First Search, Breadth-First Search, Union-Find, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

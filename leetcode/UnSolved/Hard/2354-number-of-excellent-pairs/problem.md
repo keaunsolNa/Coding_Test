@@ -1,10 +1,11 @@
 ---
 id: 2354
+internal_id: 2430
 slug: number-of-excellent-pairs
 title: Number of Excellent Pairs
 difficulty: Hard
 tags: Array, Hash Table, Binary Search, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

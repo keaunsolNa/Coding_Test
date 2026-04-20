@@ -1,10 +1,11 @@
 ---
 id: 140
+internal_id: 140
 slug: word-break-ii
 title: Word Break II
 difficulty: Hard
 tags: Array, Hash Table, String, Dynamic Programming, Backtracking, Trie, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

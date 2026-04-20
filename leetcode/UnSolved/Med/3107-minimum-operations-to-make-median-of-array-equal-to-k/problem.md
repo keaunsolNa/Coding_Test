@@ -1,5 +1,6 @@
 ---
 id: 3107
+internal_id: 3387
 slug: minimum-operations-to-make-median-of-array-equal-to-k
 title: Minimum Operations to Make Median of Array Equal to K
 difficulty: Medium

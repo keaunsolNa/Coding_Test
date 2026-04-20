@@ -1,5 +1,6 @@
 ---
 id: 1268
+internal_id: 1397
 slug: search-suggestions-system
 title: Search Suggestions System
 difficulty: Medium

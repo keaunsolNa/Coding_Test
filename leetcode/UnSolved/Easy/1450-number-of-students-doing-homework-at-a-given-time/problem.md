@@ -1,10 +1,11 @@
 ---
 id: 1450
+internal_id: 1560
 slug: number-of-students-doing-homework-at-a-given-time
 title: Number of Students Doing Homework at a Given Time
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

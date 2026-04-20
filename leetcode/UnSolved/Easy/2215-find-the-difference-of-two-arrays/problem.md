@@ -1,10 +1,11 @@
 ---
 id: 2215
+internal_id: 1392
 slug: find-the-difference-of-two-arrays
 title: Find the Difference of Two Arrays
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

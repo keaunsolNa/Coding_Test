@@ -1,10 +1,11 @@
 ---
 id: 3821
+internal_id: 4189
 slug: find-nth-smallest-integer-with-k-one-bits
 title: Find Nth Smallest Integer With K One Bits
 difficulty: Hard
 tags: Math, Bit Manipulation, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

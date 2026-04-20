@@ -1,10 +1,11 @@
 ---
 id: 1037
+internal_id: 1115
 slug: valid-boomerang
 title: Valid Boomerang
 difficulty: Easy
 tags: Array, Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

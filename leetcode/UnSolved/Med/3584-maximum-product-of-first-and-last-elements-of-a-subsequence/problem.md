@@ -1,5 +1,6 @@
 ---
 id: 3584
+internal_id: 3755
 slug: maximum-product-of-first-and-last-elements-of-a-subsequence
 title: Maximum Product of First and Last Elements of a Subsequence
 difficulty: Medium

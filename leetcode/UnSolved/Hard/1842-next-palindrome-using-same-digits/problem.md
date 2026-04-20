@@ -1,10 +1,11 @@
 ---
 id: 1842
+internal_id: 1997
 slug: next-palindrome-using-same-digits
 title: Next Palindrome Using Same Digits
 difficulty: Hard
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 100
+internal_id: 100
 slug: same-tree
 title: Same Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

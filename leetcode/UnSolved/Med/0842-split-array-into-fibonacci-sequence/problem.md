@@ -1,5 +1,6 @@
 ---
 id: 842
+internal_id: 872
 slug: split-array-into-fibonacci-sequence
 title: Split Array into Fibonacci Sequence
 difficulty: Medium

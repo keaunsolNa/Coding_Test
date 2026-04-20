@@ -1,10 +1,11 @@
 ---
 id: 2742
+internal_id: 2808
 slug: painting-the-walls
 title: Painting the Walls
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

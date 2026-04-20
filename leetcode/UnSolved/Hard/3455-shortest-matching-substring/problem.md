@@ -1,10 +1,11 @@
 ---
 id: 3455
+internal_id: 3692
 slug: shortest-matching-substring
 title: Shortest Matching Substring
 difficulty: Hard
 tags: Two Pointers, String, Binary Search, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

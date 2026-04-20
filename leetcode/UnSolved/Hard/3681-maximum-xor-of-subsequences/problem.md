@@ -1,10 +1,11 @@
 ---
 id: 3681
+internal_id: 3990
 slug: maximum-xor-of-subsequences
 title: Maximum XOR of Subsequences
 difficulty: Hard
 tags: Array, Math, Greedy, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

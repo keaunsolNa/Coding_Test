@@ -1,5 +1,6 @@
 ---
 id: 2832
+internal_id: 3088
 slug: maximal-range-that-each-element-is-maximum-in-it
 title: Maximal Range That Each Element Is Maximum in It
 difficulty: Medium

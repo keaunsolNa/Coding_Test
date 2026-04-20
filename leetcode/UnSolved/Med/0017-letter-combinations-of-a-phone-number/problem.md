@@ -1,5 +1,6 @@
 ---
 id: 17
+internal_id: 17
 slug: letter-combinations-of-a-phone-number
 title: Letter Combinations of a Phone Number
 difficulty: Medium

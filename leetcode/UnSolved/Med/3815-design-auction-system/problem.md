@@ -1,5 +1,6 @@
 ---
 id: 3815
+internal_id: 4067
 slug: design-auction-system
 title: Design Auction System
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 794
+internal_id: 810
 slug: valid-tic-tac-toe-state
 title: Valid Tic-Tac-Toe State
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2374
+internal_id: 2455
 slug: node-with-highest-edge-score
 title: Node With Highest Edge Score
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1956
+internal_id: 2073
 slug: minimum-time-for-k-virus-variants-to-spread
 title: Minimum Time For K Virus Variants to Spread
 difficulty: Hard
 tags: Array, Math, Binary Search, Geometry, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

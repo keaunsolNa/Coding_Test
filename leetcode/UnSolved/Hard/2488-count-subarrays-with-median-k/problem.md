@@ -1,10 +1,11 @@
 ---
 id: 2488
+internal_id: 2574
 slug: count-subarrays-with-median-k
 title: Count Subarrays With Median K
 difficulty: Hard
 tags: Array, Hash Table, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

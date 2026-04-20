@@ -1,5 +1,6 @@
 ---
 id: 738
+internal_id: 738
 slug: monotone-increasing-digits
 title: Monotone Increasing Digits
 difficulty: Medium

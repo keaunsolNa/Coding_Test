@@ -1,5 +1,6 @@
 ---
 id: 3167
+internal_id: 3474
 slug: better-compression-of-string
 title: Better Compression of String
 difficulty: Medium

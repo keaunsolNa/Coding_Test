@@ -1,5 +1,6 @@
 ---
 id: 1852
+internal_id: 2003
 slug: distinct-numbers-in-each-subarray
 title: Distinct Numbers in Each Subarray
 difficulty: Medium

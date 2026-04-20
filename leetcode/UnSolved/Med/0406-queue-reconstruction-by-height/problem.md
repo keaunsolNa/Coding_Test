@@ -1,5 +1,6 @@
 ---
 id: 406
+internal_id: 406
 slug: queue-reconstruction-by-height
 title: Queue Reconstruction by Height
 difficulty: Medium

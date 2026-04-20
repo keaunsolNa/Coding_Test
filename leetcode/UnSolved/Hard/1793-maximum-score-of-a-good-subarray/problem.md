@@ -1,10 +1,11 @@
 ---
 id: 1793
+internal_id: 1918
 slug: maximum-score-of-a-good-subarray
 title: Maximum Score of a Good Subarray
 difficulty: Hard
 tags: Array, Two Pointers, Binary Search, Stack, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

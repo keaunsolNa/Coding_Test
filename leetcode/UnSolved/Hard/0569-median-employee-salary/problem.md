@@ -1,11 +1,12 @@
 ---
 id: 569
+internal_id: 569
 slug: median-employee-salary
 title: Median Employee Salary
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 569. Median Employee Salary

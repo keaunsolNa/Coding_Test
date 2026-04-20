@@ -1,10 +1,11 @@
 ---
 id: 891
+internal_id: 927
 slug: sum-of-subsequence-widths
 title: Sum of Subsequence Widths
 difficulty: Hard
 tags: Array, Math, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

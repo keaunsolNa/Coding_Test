@@ -1,10 +1,11 @@
 ---
 id: 3117
+internal_id: 3364
 slug: minimum-sum-of-values-by-dividing-array
 title: Minimum Sum of Values by Dividing Array
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Bit Manipulation, Segment Tree, Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

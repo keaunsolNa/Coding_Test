@@ -1,10 +1,11 @@
 ---
 id: 41
+internal_id: 41
 slug: first-missing-positive
 title: First Missing Positive
 difficulty: Hard
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

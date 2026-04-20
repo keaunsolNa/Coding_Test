@@ -1,10 +1,11 @@
 ---
 id: 1018
+internal_id: 1071
 slug: binary-prefix-divisible-by-5
 title: Binary Prefix Divisible By 5
 difficulty: Easy
 tags: Array, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

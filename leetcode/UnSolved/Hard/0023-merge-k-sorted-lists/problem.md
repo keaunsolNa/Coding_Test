@@ -1,10 +1,11 @@
 ---
 id: 23
+internal_id: 23
 slug: merge-k-sorted-lists
 title: Merge k Sorted Lists
 difficulty: Hard
 tags: Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

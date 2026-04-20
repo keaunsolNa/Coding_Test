@@ -1,5 +1,6 @@
 ---
 id: 131
+internal_id: 131
 slug: palindrome-partitioning
 title: Palindrome Partitioning
 difficulty: Medium

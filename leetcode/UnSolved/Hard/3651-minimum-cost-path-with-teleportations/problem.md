@@ -1,10 +1,11 @@
 ---
 id: 3651
+internal_id: 3889
 slug: minimum-cost-path-with-teleportations
 title: Minimum Cost Path with Teleportations
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

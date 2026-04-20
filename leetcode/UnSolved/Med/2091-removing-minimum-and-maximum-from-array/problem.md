@@ -1,5 +1,6 @@
 ---
 id: 2091
+internal_id: 2212
 slug: removing-minimum-and-maximum-from-array
 title: Removing Minimum and Maximum From Array
 difficulty: Medium

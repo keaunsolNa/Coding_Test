@@ -1,5 +1,6 @@
 ---
 id: 2539
+internal_id: 2683
 slug: count-the-number-of-good-subsequences
 title: Count the Number of Good Subsequences
 difficulty: Medium

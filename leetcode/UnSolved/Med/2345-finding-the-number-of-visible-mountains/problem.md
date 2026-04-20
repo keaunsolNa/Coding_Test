@@ -1,5 +1,6 @@
 ---
 id: 2345
+internal_id: 2485
 slug: finding-the-number-of-visible-mountains
 title: Finding the Number of Visible Mountains
 difficulty: Medium

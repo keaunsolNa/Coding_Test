@@ -1,10 +1,11 @@
 ---
 id: 2566
+internal_id: 2704
 slug: maximum-difference-by-remapping-a-digit
 title: Maximum Difference by Remapping a Digit
 difficulty: Easy
 tags: Math, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

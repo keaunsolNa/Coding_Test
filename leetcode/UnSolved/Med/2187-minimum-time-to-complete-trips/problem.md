@@ -1,5 +1,6 @@
 ---
 id: 2187
+internal_id: 2294
 slug: minimum-time-to-complete-trips
 title: Minimum Time to Complete Trips
 difficulty: Medium

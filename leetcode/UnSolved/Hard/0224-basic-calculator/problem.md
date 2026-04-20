@@ -1,10 +1,11 @@
 ---
 id: 224
+internal_id: 224
 slug: basic-calculator
 title: Basic Calculator
 difficulty: Hard
 tags: Math, String, Stack, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

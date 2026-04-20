@@ -1,5 +1,6 @@
 ---
 id: 2349
+internal_id: 2434
 slug: design-a-number-container-system
 title: Design a Number Container System
 difficulty: Medium

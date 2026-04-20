@@ -1,5 +1,6 @@
 ---
 id: 77
+internal_id: 77
 slug: combinations
 title: Combinations
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3256
+internal_id: 3550
 slug: maximum-value-sum-by-placing-three-rooks-i
 title: Maximum Value Sum by Placing Three Rooks I
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

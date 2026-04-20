@@ -1,5 +1,6 @@
 ---
 id: 261
+internal_id: 261
 slug: graph-valid-tree
 title: Graph Valid Tree
 difficulty: Medium

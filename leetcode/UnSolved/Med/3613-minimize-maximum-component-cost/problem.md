@@ -1,5 +1,6 @@
 ---
 id: 3613
+internal_id: 3881
 slug: minimize-maximum-component-cost
 title: Minimize Maximum Component Cost
 difficulty: Medium

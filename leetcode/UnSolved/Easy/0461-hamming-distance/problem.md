@@ -1,10 +1,11 @@
 ---
 id: 461
+internal_id: 461
 slug: hamming-distance
 title: Hamming Distance
 difficulty: Easy
 tags: Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

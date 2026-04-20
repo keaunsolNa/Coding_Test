@@ -1,5 +1,6 @@
 ---
 id: 1244
+internal_id: 1176
 slug: design-a-leaderboard
 title: Design A Leaderboard
 difficulty: Medium

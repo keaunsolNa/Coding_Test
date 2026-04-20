@@ -1,10 +1,11 @@
 ---
 id: 1496
+internal_id: 1619
 slug: path-crossing
 title: Path Crossing
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

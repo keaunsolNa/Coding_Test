@@ -1,10 +1,11 @@
 ---
 id: 3082
+internal_id: 3345
 slug: find-the-sum-of-the-power-of-all-subsequences
 title: Find the Sum of the Power of All Subsequences
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

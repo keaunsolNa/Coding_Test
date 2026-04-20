@@ -1,10 +1,11 @@
 ---
 id: 747
+internal_id: 748
 slug: largest-number-at-least-twice-of-others
 title: Largest Number At Least Twice of Others
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

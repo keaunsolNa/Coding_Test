@@ -1,5 +1,6 @@
 ---
 id: 2964
+internal_id: 3254
 slug: number-of-divisible-triplet-sums
 title: Number of Divisible Triplet Sums
 difficulty: Medium

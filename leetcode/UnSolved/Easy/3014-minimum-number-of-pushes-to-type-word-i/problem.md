@@ -1,10 +1,11 @@
 ---
 id: 3014
+internal_id: 3275
 slug: minimum-number-of-pushes-to-type-word-i
 title: Minimum Number of Pushes to Type Word I
 difficulty: Easy
 tags: Math, String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

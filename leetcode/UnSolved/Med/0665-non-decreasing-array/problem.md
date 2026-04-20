@@ -1,5 +1,6 @@
 ---
 id: 665
+internal_id: 665
 slug: non-decreasing-array
 title: Non-decreasing Array
 difficulty: Medium

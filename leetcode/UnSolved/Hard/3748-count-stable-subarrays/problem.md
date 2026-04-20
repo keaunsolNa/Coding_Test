@@ -1,10 +1,11 @@
 ---
 id: 3748
+internal_id: 4110
 slug: count-stable-subarrays
 title: Count Stable Subarrays
 difficulty: Hard
 tags: Array, Binary Search, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1900
+internal_id: 2028
 slug: the-earliest-and-latest-rounds-where-players-compete
 title: The Earliest and Latest Rounds Where Players Compete
 difficulty: Hard
 tags: Dynamic Programming, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

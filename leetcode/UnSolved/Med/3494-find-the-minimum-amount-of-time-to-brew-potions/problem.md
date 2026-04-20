@@ -1,5 +1,6 @@
 ---
 id: 3494
+internal_id: 3794
 slug: find-the-minimum-amount-of-time-to-brew-potions
 title: Find the Minimum Amount of Time to Brew Potions
 difficulty: Medium

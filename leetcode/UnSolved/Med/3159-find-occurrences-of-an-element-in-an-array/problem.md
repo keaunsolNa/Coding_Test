@@ -1,5 +1,6 @@
 ---
 id: 3159
+internal_id: 3420
 slug: find-occurrences-of-an-element-in-an-array
 title: Find Occurrences of an Element in an Array
 difficulty: Medium

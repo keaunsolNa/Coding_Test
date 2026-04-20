@@ -1,10 +1,11 @@
 ---
 id: 169
+internal_id: 169
 slug: majority-element
 title: Majority Element
 difficulty: Easy
 tags: Array, Hash Table, Divide and Conquer, Sorting, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

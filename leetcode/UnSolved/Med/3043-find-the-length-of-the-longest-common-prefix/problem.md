@@ -1,5 +1,6 @@
 ---
 id: 3043
+internal_id: 3329
 slug: find-the-length-of-the-longest-common-prefix
 title: Find the Length of the Longest Common Prefix
 difficulty: Medium

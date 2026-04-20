@@ -1,5 +1,6 @@
 ---
 id: 1552
+internal_id: 1675
 slug: magnetic-force-between-two-balls
 title: Magnetic Force Between Two Balls
 difficulty: Medium

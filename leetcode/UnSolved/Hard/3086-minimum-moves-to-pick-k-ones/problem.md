@@ -1,10 +1,11 @@
 ---
 id: 3086
+internal_id: 3327
 slug: minimum-moves-to-pick-k-ones
 title: Minimum Moves to Pick K Ones
 difficulty: Hard
 tags: Array, Greedy, Sliding Window, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3229
+internal_id: 3454
 slug: minimum-operations-to-make-array-equal-to-target
 title: Minimum Operations to Make Array Equal to Target
 difficulty: Hard
 tags: Array, Dynamic Programming, Stack, Greedy, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

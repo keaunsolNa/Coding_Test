@@ -1,5 +1,6 @@
 ---
 id: 2707
+internal_id: 2755
 slug: extra-characters-in-a-string
 title: Extra Characters in a String
 difficulty: Medium

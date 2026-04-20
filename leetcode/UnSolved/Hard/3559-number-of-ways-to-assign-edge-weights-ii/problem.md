@@ -1,10 +1,11 @@
 ---
 id: 3559
+internal_id: 3842
 slug: number-of-ways-to-assign-edge-weights-ii
 title: Number of Ways to Assign Edge Weights II
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Bit Manipulation, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

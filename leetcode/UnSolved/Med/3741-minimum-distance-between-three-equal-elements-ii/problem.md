@@ -1,5 +1,6 @@
 ---
 id: 3741
+internal_id: 4119
 slug: minimum-distance-between-three-equal-elements-ii
 title: Minimum Distance Between Three Equal Elements II
 difficulty: Medium

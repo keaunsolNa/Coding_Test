@@ -1,5 +1,6 @@
 ---
 id: 934
+internal_id: 971
 slug: shortest-bridge
 title: Shortest Bridge
 difficulty: Medium

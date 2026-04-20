@@ -1,10 +1,11 @@
 ---
 id: 744
+internal_id: 745
 slug: find-smallest-letter-greater-than-target
 title: Find Smallest Letter Greater Than Target
 difficulty: Easy
 tags: Array, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2730
+internal_id: 2786
 slug: find-the-longest-semi-repetitive-substring
 title: Find the Longest Semi-Repetitive Substring
 difficulty: Medium

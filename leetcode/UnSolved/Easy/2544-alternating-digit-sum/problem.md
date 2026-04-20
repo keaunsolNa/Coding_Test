@@ -1,10 +1,11 @@
 ---
 id: 2544
+internal_id: 2630
 slug: alternating-digit-sum
 title: Alternating Digit Sum
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

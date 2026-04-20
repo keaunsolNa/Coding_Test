@@ -1,5 +1,6 @@
 ---
 id: 1151
+internal_id: 1107
 slug: minimum-swaps-to-group-all-1s-together
 title: Minimum Swaps to Group All 1's Together
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1943
+internal_id: 2055
 slug: describe-the-painting
 title: Describe the Painting
 difficulty: Medium

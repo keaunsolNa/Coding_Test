@@ -1,5 +1,6 @@
 ---
 id: 3529
+internal_id: 3821
 slug: count-cells-in-overlapping-horizontal-and-vertical-substrings
 title: Count Cells in Overlapping Horizontal and Vertical Substrings
 difficulty: Medium

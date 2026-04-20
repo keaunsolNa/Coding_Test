@@ -1,5 +1,6 @@
 ---
 id: 1230
+internal_id: 1166
 slug: toss-strange-coins
 title: Toss Strange Coins
 difficulty: Medium

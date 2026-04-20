@@ -1,10 +1,11 @@
 ---
 id: 3345
+internal_id: 3626
 slug: smallest-divisible-digit-product-i
 title: Smallest Divisible Digit Product I
 difficulty: Easy
 tags: Math, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

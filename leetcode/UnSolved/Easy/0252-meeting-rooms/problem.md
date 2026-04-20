@@ -1,10 +1,11 @@
 ---
 id: 252
+internal_id: 252
 slug: meeting-rooms
 title: Meeting Rooms
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

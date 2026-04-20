@@ -1,5 +1,6 @@
 ---
 id: 491
+internal_id: 491
 slug: non-decreasing-subsequences
 title: Non-decreasing Subsequences
 difficulty: Medium

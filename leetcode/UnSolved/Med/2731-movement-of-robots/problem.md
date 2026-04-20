@@ -1,5 +1,6 @@
 ---
 id: 2731
+internal_id: 2787
 slug: movement-of-robots
 title: Movement of Robots
 difficulty: Medium

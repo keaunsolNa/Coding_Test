@@ -1,10 +1,11 @@
 ---
 id: 2733
+internal_id: 2836
 slug: neither-minimum-nor-maximum
 title: Neither Minimum nor Maximum
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

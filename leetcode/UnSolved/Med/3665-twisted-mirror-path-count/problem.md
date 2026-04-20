@@ -1,5 +1,6 @@
 ---
 id: 3665
+internal_id: 3938
 slug: twisted-mirror-path-count
 title: Twisted Mirror Path Count
 difficulty: Medium

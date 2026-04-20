@@ -1,10 +1,11 @@
 ---
 id: 765
+internal_id: 770
 slug: couples-holding-hands
 title: Couples Holding Hands
 difficulty: Hard
 tags: Greedy, Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

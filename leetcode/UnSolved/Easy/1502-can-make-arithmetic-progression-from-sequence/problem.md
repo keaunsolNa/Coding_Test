@@ -1,10 +1,11 @@
 ---
 id: 1502
+internal_id: 1626
 slug: can-make-arithmetic-progression-from-sequence
 title: Can Make Arithmetic Progression From Sequence
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2746
+internal_id: 2854
 slug: decremental-string-concatenation
 title: Decremental String Concatenation
 difficulty: Medium

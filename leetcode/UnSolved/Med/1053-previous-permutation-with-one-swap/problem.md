@@ -1,5 +1,6 @@
 ---
 id: 1053
+internal_id: 1139
 slug: previous-permutation-with-one-swap
 title: Previous Permutation With One Swap
 difficulty: Medium

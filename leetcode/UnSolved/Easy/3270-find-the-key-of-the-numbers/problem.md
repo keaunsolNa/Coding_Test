@@ -1,10 +1,11 @@
 ---
 id: 3270
+internal_id: 3568
 slug: find-the-key-of-the-numbers
 title: Find the Key of the Numbers
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2659
+internal_id: 2765
 slug: make-array-empty
 title: Make Array Empty
 difficulty: Hard
 tags: Array, Binary Search, Greedy, Binary Indexed Tree, Segment Tree, Sorting, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1911
+internal_id: 2022
 slug: maximum-alternating-subsequence-sum
 title: Maximum Alternating Subsequence Sum
 difficulty: Medium

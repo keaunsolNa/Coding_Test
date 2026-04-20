@@ -1,10 +1,11 @@
 ---
 id: 1449
+internal_id: 1545
 slug: form-largest-integer-with-digits-that-add-up-to-target
 title: Form Largest Integer With Digits That Add up to Target
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

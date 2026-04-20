@@ -1,5 +1,6 @@
 ---
 id: 2866
+internal_id: 3113
 slug: beautiful-towers-ii
 title: Beautiful Towers II
 difficulty: Medium

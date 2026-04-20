@@ -1,5 +1,6 @@
 ---
 id: 3771
+internal_id: 4146
 slug: total-score-of-dungeon-runs
 title: Total Score of Dungeon Runs
 difficulty: Medium

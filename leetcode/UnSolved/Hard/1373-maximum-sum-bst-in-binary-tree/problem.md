@@ -1,10 +1,11 @@
 ---
 id: 1373
+internal_id: 1475
 slug: maximum-sum-bst-in-binary-tree
 title: Maximum Sum BST in Binary Tree
 difficulty: Hard
 tags: Dynamic Programming, Tree, Depth-First Search, Binary Search Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

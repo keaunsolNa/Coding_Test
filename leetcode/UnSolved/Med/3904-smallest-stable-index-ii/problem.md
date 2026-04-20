@@ -1,5 +1,6 @@
 ---
 id: 3904
+internal_id: 4285
 slug: smallest-stable-index-ii
 title: Smallest Stable Index II
 difficulty: Medium

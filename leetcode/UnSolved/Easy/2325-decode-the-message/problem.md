@@ -1,10 +1,11 @@
 ---
 id: 2325
+internal_id: 2406
 slug: decode-the-message
 title: Decode the Message
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

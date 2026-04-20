@@ -1,10 +1,11 @@
 ---
 id: 3367
+internal_id: 3675
 slug: maximize-sum-of-weights-after-edge-removals
 title: Maximize Sum of Weights after Edge Removals
 difficulty: Hard
 tags: Dynamic Programming, Tree, Depth-First Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

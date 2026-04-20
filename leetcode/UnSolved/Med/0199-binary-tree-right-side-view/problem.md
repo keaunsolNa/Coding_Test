@@ -1,5 +1,6 @@
 ---
 id: 199
+internal_id: 199
 slug: binary-tree-right-side-view
 title: Binary Tree Right Side View
 difficulty: Medium

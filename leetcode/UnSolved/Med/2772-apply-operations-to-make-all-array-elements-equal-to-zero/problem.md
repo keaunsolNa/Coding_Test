@@ -1,5 +1,6 @@
 ---
 id: 2772
+internal_id: 2878
 slug: apply-operations-to-make-all-array-elements-equal-to-zero
 title: Apply Operations to Make All Array Elements Equal to Zero
 difficulty: Medium

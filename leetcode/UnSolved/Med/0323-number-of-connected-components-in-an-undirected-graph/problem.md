@@ -1,5 +1,6 @@
 ---
 id: 323
+internal_id: 323
 slug: number-of-connected-components-in-an-undirected-graph
 title: Number of Connected Components in an Undirected Graph
 difficulty: Medium

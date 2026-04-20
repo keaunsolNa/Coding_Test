@@ -1,10 +1,11 @@
 ---
 id: 2366
+internal_id: 2450
 slug: minimum-replacements-to-sort-the-array
 title: Minimum Replacements to Sort the Array
 difficulty: Hard
 tags: Array, Math, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

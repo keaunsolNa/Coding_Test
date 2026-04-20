@@ -1,10 +1,11 @@
 ---
 id: 1374
+internal_id: 1490
 slug: generate-a-string-with-characters-that-have-odd-counts
 title: Generate a String With Characters That Have Odd Counts
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

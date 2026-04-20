@@ -1,10 +1,11 @@
 ---
 id: 2951
+internal_id: 3221
 slug: find-the-peaks
 title: Find the Peaks
 difficulty: Easy
 tags: Array, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

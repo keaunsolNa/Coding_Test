@@ -1,10 +1,11 @@
 ---
 id: 997
+internal_id: 1039
 slug: find-the-town-judge
 title: Find the Town Judge
 difficulty: Easy
 tags: Array, Hash Table, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2007
+internal_id: 2117
 slug: find-original-array-from-doubled-array
 title: Find Original Array From Doubled Array
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1036
+internal_id: 1106
 slug: escape-a-large-maze
 title: Escape a Large Maze
 difficulty: Hard
 tags: Array, Hash Table, Depth-First Search, Breadth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

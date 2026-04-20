@@ -1,10 +1,11 @@
 ---
 id: 471
+internal_id: 471
 slug: encode-string-with-shortest-length
 title: Encode String with Shortest Length
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1805
+internal_id: 1933
 slug: number-of-different-integers-in-a-string
 title: Number of Different Integers in a String
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

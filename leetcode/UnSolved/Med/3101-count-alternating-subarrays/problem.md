@@ -1,5 +1,6 @@
 ---
 id: 3101
+internal_id: 3374
 slug: count-alternating-subarrays
 title: Count Alternating Subarrays
 difficulty: Medium

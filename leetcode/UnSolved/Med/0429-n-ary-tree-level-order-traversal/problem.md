@@ -1,5 +1,6 @@
 ---
 id: 429
+internal_id: 764
 slug: n-ary-tree-level-order-traversal
 title: N-ary Tree Level Order Traversal
 difficulty: Medium

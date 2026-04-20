@@ -1,5 +1,6 @@
 ---
 id: 484
+internal_id: 484
 slug: find-permutation
 title: Find Permutation
 difficulty: Medium

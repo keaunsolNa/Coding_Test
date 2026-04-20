@@ -1,5 +1,6 @@
 ---
 id: 2146
+internal_id: 2250
 slug: k-highest-ranked-items-within-a-price-range
 title: K Highest Ranked Items Within a Price Range
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 5
+internal_id: 5
 slug: longest-palindromic-substring
 title: Longest Palindromic Substring
 difficulty: Medium

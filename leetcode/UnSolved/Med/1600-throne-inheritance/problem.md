@@ -1,5 +1,6 @@
 ---
 id: 1600
+internal_id: 1722
 slug: throne-inheritance
 title: Throne Inheritance
 difficulty: Medium

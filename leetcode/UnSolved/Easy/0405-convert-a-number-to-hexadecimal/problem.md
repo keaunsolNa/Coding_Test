@@ -1,10 +1,11 @@
 ---
 id: 405
+internal_id: 405
 slug: convert-a-number-to-hexadecimal
 title: Convert a Number to Hexadecimal
 difficulty: Easy
 tags: Math, String, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

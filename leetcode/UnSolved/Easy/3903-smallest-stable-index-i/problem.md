@@ -1,10 +1,11 @@
 ---
 id: 3903
+internal_id: 4284
 slug: smallest-stable-index-i
 title: Smallest Stable Index I
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

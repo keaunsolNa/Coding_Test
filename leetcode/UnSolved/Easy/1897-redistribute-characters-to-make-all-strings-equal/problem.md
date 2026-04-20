@@ -1,10 +1,11 @@
 ---
 id: 1897
+internal_id: 2025
 slug: redistribute-characters-to-make-all-strings-equal
 title: Redistribute Characters to Make All Strings Equal
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3786
+internal_id: 4072
 slug: total-sum-of-interaction-cost-in-tree-groups
 title: Total Sum of Interaction Cost in Tree Groups
 difficulty: Hard
 tags: Array, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3777
+internal_id: 4064
 slug: minimum-deletions-to-make-alternating-substring
 title: Minimum Deletions to Make Alternating Substring
 difficulty: Hard
 tags: String, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

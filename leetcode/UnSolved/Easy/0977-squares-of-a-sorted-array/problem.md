@@ -1,10 +1,11 @@
 ---
 id: 977
+internal_id: 1019
 slug: squares-of-a-sorted-array
 title: Squares of a Sorted Array
 difficulty: Easy
 tags: Array, Two Pointers, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

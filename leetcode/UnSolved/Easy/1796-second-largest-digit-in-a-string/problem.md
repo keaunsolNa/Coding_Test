@@ -1,10 +1,11 @@
 ---
 id: 1796
+internal_id: 1904
 slug: second-largest-digit-in-a-string
 title: Second Largest Digit in a String
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

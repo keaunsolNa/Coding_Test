@@ -1,10 +1,11 @@
 ---
 id: 674
+internal_id: 674
 slug: longest-continuous-increasing-subsequence
 title: Longest Continuous Increasing Subsequence
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

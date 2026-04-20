@@ -1,10 +1,11 @@
 ---
 id: 2818
+internal_id: 3001
 slug: apply-operations-to-maximize-score
 title: Apply Operations to Maximize Score
 difficulty: Hard
 tags: Array, Math, Stack, Greedy, Sorting, Monotonic Stack, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

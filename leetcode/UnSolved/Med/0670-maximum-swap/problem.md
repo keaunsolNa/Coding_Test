@@ -1,5 +1,6 @@
 ---
 id: 670
+internal_id: 670
 slug: maximum-swap
 title: Maximum Swap
 difficulty: Medium

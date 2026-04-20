@@ -1,10 +1,11 @@
 ---
 id: 2016
+internal_id: 2144
 slug: maximum-difference-between-increasing-elements
 title: Maximum Difference Between Increasing Elements
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

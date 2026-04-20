@@ -1,10 +1,11 @@
 ---
 id: 2124
+internal_id: 2243
 slug: check-if-all-as-appears-before-all-bs
 title: Check if All A's Appears Before All B's
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

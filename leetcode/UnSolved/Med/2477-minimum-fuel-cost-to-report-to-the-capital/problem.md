@@ -1,5 +1,6 @@
 ---
 id: 2477
+internal_id: 2568
 slug: minimum-fuel-cost-to-report-to-the-capital
 title: Minimum Fuel Cost to Report to the Capital
 difficulty: Medium

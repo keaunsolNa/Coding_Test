@@ -1,5 +1,6 @@
 ---
 id: 306
+internal_id: 306
 slug: additive-number
 title: Additive Number
 difficulty: Medium

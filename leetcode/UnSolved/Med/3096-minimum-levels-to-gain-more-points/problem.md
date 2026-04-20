@@ -1,5 +1,6 @@
 ---
 id: 3096
+internal_id: 3355
 slug: minimum-levels-to-gain-more-points
 title: Minimum Levels to Gain More Points
 difficulty: Medium

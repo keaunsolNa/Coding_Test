@@ -1,5 +1,6 @@
 ---
 id: 1824
+internal_id: 1952
 slug: minimum-sideway-jumps
 title: Minimum Sideway Jumps
 difficulty: Medium

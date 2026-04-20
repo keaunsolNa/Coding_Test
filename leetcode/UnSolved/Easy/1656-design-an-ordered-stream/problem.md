@@ -1,10 +1,11 @@
 ---
 id: 1656
+internal_id: 1775
 slug: design-an-ordered-stream
 title: Design an Ordered Stream
 difficulty: Easy
 tags: Array, Hash Table, Design, Data Stream
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

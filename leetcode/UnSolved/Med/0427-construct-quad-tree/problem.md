@@ -1,5 +1,6 @@
 ---
 id: 427
+internal_id: 772
 slug: construct-quad-tree
 title: Construct Quad Tree
 difficulty: Medium

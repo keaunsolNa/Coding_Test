@@ -1,5 +1,6 @@
 ---
 id: 3626
+internal_id: 3971
 slug: find-stores-with-inventory-imbalance
 title: Find Stores with Inventory Imbalance
 difficulty: Medium

@@ -1,11 +1,12 @@
 ---
 id: 607
+internal_id: 607
 slug: sales-person
 title: Sales Person
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 607. Sales Person

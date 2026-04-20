@@ -1,5 +1,6 @@
 ---
 id: 456
+internal_id: 456
 slug: 132-pattern
 title: 132 Pattern
 difficulty: Medium

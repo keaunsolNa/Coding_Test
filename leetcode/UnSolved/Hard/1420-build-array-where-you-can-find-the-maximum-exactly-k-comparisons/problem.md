@@ -1,10 +1,11 @@
 ---
 id: 1420
+internal_id: 1535
 slug: build-array-where-you-can-find-the-maximum-exactly-k-comparisons
 title: Build Array Where You Can Find The Maximum Exactly K Comparisons
 difficulty: Hard
 tags: Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1996
+internal_id: 2123
 slug: the-number-of-weak-characters-in-the-game
 title: The Number of Weak Characters in the Game
 difficulty: Medium

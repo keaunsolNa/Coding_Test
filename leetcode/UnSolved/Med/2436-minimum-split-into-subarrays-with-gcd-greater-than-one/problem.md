@@ -1,5 +1,6 @@
 ---
 id: 2436
+internal_id: 2579
 slug: minimum-split-into-subarrays-with-gcd-greater-than-one
 title: Minimum Split Into Subarrays With GCD Greater Than One
 difficulty: Medium

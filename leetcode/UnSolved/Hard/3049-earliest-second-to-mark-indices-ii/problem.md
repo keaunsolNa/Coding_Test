@@ -1,10 +1,11 @@
 ---
 id: 3049
+internal_id: 3289
 slug: earliest-second-to-mark-indices-ii
 title: Earliest Second to Mark Indices II
 difficulty: Hard
 tags: Array, Binary Search, Greedy, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

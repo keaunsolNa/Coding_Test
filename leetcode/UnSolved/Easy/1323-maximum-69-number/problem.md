@@ -1,10 +1,11 @@
 ---
 id: 1323
+internal_id: 1448
 slug: maximum-69-number
 title: Maximum 69 Number
 difficulty: Easy
 tags: Math, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

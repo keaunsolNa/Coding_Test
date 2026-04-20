@@ -1,10 +1,11 @@
 ---
 id: 1576
+internal_id: 1698
 slug: replace-all-s-to-avoid-consecutive-repeating-characters
 title: Replace All ?'s to Avoid Consecutive Repeating Characters
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

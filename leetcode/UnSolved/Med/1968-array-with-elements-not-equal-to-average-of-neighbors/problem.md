@@ -1,5 +1,6 @@
 ---
 id: 1968
+internal_id: 2085
 slug: array-with-elements-not-equal-to-average-of-neighbors
 title: Array With Elements Not Equal to Average of Neighbors
 difficulty: Medium

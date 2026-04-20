@@ -1,5 +1,6 @@
 ---
 id: 1366
+internal_id: 1483
 slug: rank-teams-by-votes
 title: Rank Teams by Votes
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2178
+internal_id: 2279
 slug: maximum-split-of-positive-even-integers
 title: Maximum Split of Positive Even Integers
 difficulty: Medium

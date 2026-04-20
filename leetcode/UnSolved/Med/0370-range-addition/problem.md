@@ -1,5 +1,6 @@
 ---
 id: 370
+internal_id: 370
 slug: range-addition
 title: Range Addition
 difficulty: Medium

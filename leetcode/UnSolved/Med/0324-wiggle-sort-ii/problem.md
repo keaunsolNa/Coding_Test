@@ -1,5 +1,6 @@
 ---
 id: 324
+internal_id: 324
 slug: wiggle-sort-ii
 title: Wiggle Sort II
 difficulty: Medium

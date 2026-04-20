@@ -1,5 +1,6 @@
 ---
 id: 3016
+internal_id: 3276
 slug: minimum-number-of-pushes-to-type-word-ii
 title: Minimum Number of Pushes to Type Word II
 difficulty: Medium

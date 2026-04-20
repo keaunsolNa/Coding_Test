@@ -1,10 +1,11 @@
 ---
 id: 3617
+internal_id: 3961
 slug: find-students-with-study-spiral-pattern
 title: Find Students with Study Spiral Pattern
 difficulty: Hard
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

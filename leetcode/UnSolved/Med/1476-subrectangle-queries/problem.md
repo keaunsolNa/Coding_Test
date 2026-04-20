@@ -1,5 +1,6 @@
 ---
 id: 1476
+internal_id: 1572
 slug: subrectangle-queries
 title: Subrectangle Queries
 difficulty: Medium

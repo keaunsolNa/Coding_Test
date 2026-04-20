@@ -1,10 +1,11 @@
 ---
 id: 964
+internal_id: 1004
 slug: least-operators-to-express-number
 title: Least Operators to Express Number
 difficulty: Hard
 tags: Math, Dynamic Programming, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

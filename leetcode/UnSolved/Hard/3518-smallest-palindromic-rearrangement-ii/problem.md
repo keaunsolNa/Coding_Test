@@ -1,10 +1,11 @@
 ---
 id: 3518
+internal_id: 3813
 slug: smallest-palindromic-rearrangement-ii
 title: Smallest Palindromic Rearrangement II
 difficulty: Hard
 tags: Hash Table, Math, String, Combinatorics, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

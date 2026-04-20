@@ -1,5 +1,6 @@
 ---
 id: 1690
+internal_id: 1808
 slug: stone-game-vii
 title: Stone Game VII
 difficulty: Medium

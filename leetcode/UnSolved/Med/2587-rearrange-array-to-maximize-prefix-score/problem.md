@@ -1,5 +1,6 @@
 ---
 id: 2587
+internal_id: 2655
 slug: rearrange-array-to-maximize-prefix-score
 title: Rearrange Array to Maximize Prefix Score
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1869
+internal_id: 1999
 slug: longer-contiguous-segments-of-ones-than-zeros
 title: Longer Contiguous Segments of Ones than Zeros
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

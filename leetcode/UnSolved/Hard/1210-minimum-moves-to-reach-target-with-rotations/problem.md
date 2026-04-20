@@ -1,10 +1,11 @@
 ---
 id: 1210
+internal_id: 1322
 slug: minimum-moves-to-reach-target-with-rotations
 title: Minimum Moves to Reach Target with Rotations
 difficulty: Hard
 tags: Array, Breadth-First Search, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

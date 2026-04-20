@@ -1,5 +1,6 @@
 ---
 id: 2938
+internal_id: 3195
 slug: separate-black-and-white-balls
 title: Separate Black and White Balls
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2782
+internal_id: 2995
 slug: number-of-unique-categories
 title: Number of Unique Categories
 difficulty: Medium

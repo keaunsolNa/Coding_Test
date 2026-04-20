@@ -1,5 +1,6 @@
 ---
 id: 413
+internal_id: 413
 slug: arithmetic-slices
 title: Arithmetic Slices
 difficulty: Medium

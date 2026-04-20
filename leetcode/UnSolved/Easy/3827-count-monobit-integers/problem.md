@@ -1,10 +1,11 @@
 ---
 id: 3827
+internal_id: 4194
 slug: count-monobit-integers
 title: Count Monobit Integers
 difficulty: Easy
 tags: Bit Manipulation, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

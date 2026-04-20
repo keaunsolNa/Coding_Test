@@ -1,5 +1,6 @@
 ---
 id: 2411
+internal_id: 2498
 slug: smallest-subarrays-with-maximum-bitwise-or
 title: Smallest Subarrays With Maximum Bitwise OR
 difficulty: Medium

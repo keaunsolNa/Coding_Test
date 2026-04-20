@@ -1,5 +1,6 @@
 ---
 id: 386
+internal_id: 386
 slug: lexicographical-numbers
 title: Lexicographical Numbers
 difficulty: Medium

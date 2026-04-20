@@ -1,10 +1,11 @@
 ---
 id: 1491
+internal_id: 1584
 slug: average-salary-excluding-the-minimum-and-maximum-salary
 title: Average Salary Excluding the Minimum and Maximum Salary
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

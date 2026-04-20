@@ -1,5 +1,6 @@
 ---
 id: 1846
+internal_id: 1956
 slug: maximum-element-after-decreasing-and-rearranging
 title: Maximum Element After Decreasing and Rearranging
 difficulty: Medium

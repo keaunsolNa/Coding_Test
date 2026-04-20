@@ -1,5 +1,6 @@
 ---
 id: 1833
+internal_id: 1961
 slug: maximum-ice-cream-bars
 title: Maximum Ice Cream Bars
 difficulty: Medium

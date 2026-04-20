@@ -1,5 +1,6 @@
 ---
 id: 1570
+internal_id: 1713
 slug: dot-product-of-two-sparse-vectors
 title: Dot Product of Two Sparse Vectors
 difficulty: Medium

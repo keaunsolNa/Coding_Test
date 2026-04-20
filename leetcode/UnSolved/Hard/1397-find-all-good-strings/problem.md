@@ -1,10 +1,11 @@
 ---
 id: 1397
+internal_id: 1513
 slug: find-all-good-strings
 title: Find All Good Strings
 difficulty: Hard
 tags: String, Dynamic Programming, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

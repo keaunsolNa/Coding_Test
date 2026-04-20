@@ -1,10 +1,11 @@
 ---
 id: 2581
+internal_id: 2652
 slug: count-number-of-possible-root-nodes
 title: Count Number of Possible Root Nodes
 difficulty: Hard
 tags: Array, Hash Table, Dynamic Programming, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

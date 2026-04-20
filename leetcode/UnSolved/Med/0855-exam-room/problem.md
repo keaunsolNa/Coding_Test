@@ -1,5 +1,6 @@
 ---
 id: 855
+internal_id: 885
 slug: exam-room
 title: Exam Room
 difficulty: Medium

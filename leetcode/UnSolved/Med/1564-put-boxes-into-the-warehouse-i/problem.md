@@ -1,5 +1,6 @@
 ---
 id: 1564
+internal_id: 1703
 slug: put-boxes-into-the-warehouse-i
 title: Put Boxes Into the Warehouse I
 difficulty: Medium

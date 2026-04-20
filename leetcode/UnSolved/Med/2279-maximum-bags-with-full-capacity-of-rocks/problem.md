@@ -1,5 +1,6 @@
 ---
 id: 2279
+internal_id: 2366
 slug: maximum-bags-with-full-capacity-of-rocks
 title: Maximum Bags With Full Capacity of Rocks
 difficulty: Medium

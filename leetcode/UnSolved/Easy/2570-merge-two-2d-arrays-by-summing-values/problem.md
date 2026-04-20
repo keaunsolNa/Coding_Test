@@ -1,10 +1,11 @@
 ---
 id: 2570
+internal_id: 2707
 slug: merge-two-2d-arrays-by-summing-values
 title: Merge Two 2D Arrays by Summing Values
 difficulty: Easy
 tags: Array, Hash Table, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

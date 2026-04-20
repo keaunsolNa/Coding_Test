@@ -1,10 +1,11 @@
 ---
 id: 2231
+internal_id: 2327
 slug: largest-number-after-digit-swaps-by-parity
 title: Largest Number After Digit Swaps by Parity
 difficulty: Easy
 tags: Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

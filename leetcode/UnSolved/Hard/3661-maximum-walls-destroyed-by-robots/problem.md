@@ -1,10 +1,11 @@
 ---
 id: 3661
+internal_id: 3982
 slug: maximum-walls-destroyed-by-robots
 title: Maximum Walls Destroyed by Robots
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

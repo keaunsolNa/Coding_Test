@@ -1,5 +1,6 @@
 ---
 id: 2947
+internal_id: 3210
 slug: count-beautiful-substrings-i
 title: Count Beautiful Substrings I
 difficulty: Medium

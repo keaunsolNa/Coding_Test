@@ -1,10 +1,11 @@
 ---
 id: 2243
+internal_id: 2361
 slug: calculate-digit-sum-of-a-string
 title: Calculate Digit Sum of a String
 difficulty: Easy
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

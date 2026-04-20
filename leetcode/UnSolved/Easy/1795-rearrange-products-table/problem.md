@@ -1,11 +1,12 @@
 ---
 id: 1795
+internal_id: 1948
 slug: rearrange-products-table
 title: Rearrange Products Table
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1795. Rearrange Products Table

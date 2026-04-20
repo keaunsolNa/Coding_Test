@@ -1,5 +1,6 @@
 ---
 id: 1871
+internal_id: 2001
 slug: jump-game-vii
 title: Jump Game VII
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 513
+internal_id: 513
 slug: find-bottom-left-tree-value
 title: Find Bottom Left Tree Value
 difficulty: Medium

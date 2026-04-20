@@ -1,10 +1,11 @@
 ---
 id: 3887
+internal_id: 4114
 slug: incremental-even-weighted-cycle-queries
 title: Incremental Even-Weighted Cycle Queries
 difficulty: Hard
 tags: Union-Find, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,11 +1,12 @@
 ---
 id: 1393
+internal_id: 1523
 slug: capital-gainloss
 title: Capital Gain/Loss
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1393. Capital Gain/Loss

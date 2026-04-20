@@ -1,10 +1,11 @@
 ---
 id: 1235
+internal_id: 1352
 slug: maximum-profit-in-job-scheduling
 title: Maximum Profit in Job Scheduling
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

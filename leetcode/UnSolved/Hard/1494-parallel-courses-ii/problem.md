@@ -1,10 +1,11 @@
 ---
 id: 1494
+internal_id: 1587
 slug: parallel-courses-ii
 title: Parallel Courses II
 difficulty: Hard
 tags: Dynamic Programming, Bit Manipulation, Graph Theory, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

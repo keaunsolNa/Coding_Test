@@ -1,5 +1,6 @@
 ---
 id: 787
+internal_id: 803
 slug: cheapest-flights-within-k-stops
 title: Cheapest Flights Within K Stops
 difficulty: Medium

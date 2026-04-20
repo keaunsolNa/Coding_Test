@@ -1,5 +1,6 @@
 ---
 id: 1561
+internal_id: 1683
 slug: maximum-number-of-coins-you-can-get
 title: Maximum Number of Coins You Can Get
 difficulty: Medium

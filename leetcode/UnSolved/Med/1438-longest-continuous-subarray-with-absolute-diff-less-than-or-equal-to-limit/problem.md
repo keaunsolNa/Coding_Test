@@ -1,5 +1,6 @@
 ---
 id: 1438
+internal_id: 1549
 slug: longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
 title: Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 difficulty: Medium

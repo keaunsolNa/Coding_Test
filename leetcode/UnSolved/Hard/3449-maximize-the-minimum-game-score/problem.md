@@ -1,10 +1,11 @@
 ---
 id: 3449
+internal_id: 3762
 slug: maximize-the-minimum-game-score
 title: Maximize the Minimum Game Score
 difficulty: Hard
 tags: Array, Binary Search, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

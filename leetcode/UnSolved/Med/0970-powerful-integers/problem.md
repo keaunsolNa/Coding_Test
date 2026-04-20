@@ -1,5 +1,6 @@
 ---
 id: 970
+internal_id: 1010
 slug: powerful-integers
 title: Powerful Integers
 difficulty: Medium

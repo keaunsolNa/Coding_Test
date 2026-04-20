@@ -1,10 +1,11 @@
 ---
 id: 2267
+internal_id: 2349
 slug: check-if-there-is-a-valid-parentheses-string-path
 title:  Check if There Is a Valid Parentheses String Path
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

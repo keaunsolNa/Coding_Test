@@ -1,10 +1,11 @@
 ---
 id: 3697
+internal_id: 4039
 slug: compute-decimal-representation
 title: Compute Decimal Representation
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

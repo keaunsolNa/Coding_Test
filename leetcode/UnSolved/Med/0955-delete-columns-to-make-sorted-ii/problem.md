@@ -1,5 +1,6 @@
 ---
 id: 955
+internal_id: 992
 slug: delete-columns-to-make-sorted-ii
 title: Delete Columns to Make Sorted II
 difficulty: Medium

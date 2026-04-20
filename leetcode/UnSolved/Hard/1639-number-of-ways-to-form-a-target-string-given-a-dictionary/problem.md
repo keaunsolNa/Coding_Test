@@ -1,10 +1,11 @@
 ---
 id: 1639
+internal_id: 1744
 slug: number-of-ways-to-form-a-target-string-given-a-dictionary
 title: Number of Ways to Form a Target String Given a Dictionary
 difficulty: Hard
 tags: Array, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

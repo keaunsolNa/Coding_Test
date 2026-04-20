@@ -1,5 +1,6 @@
 ---
 id: 2294
+internal_id: 2387
 slug: partition-array-such-that-maximum-difference-is-k
 title: Partition Array Such That Maximum Difference Is K
 difficulty: Medium

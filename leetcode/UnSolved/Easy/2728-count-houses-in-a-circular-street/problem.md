@@ -1,10 +1,11 @@
 ---
 id: 2728
+internal_id: 2875
 slug: count-houses-in-a-circular-street
 title: Count Houses in a Circular Street
 difficulty: Easy
 tags: Array, Interactive
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3324
+internal_id: 3566
 slug: find-the-sequence-of-strings-appeared-on-the-screen
 title: Find the Sequence of Strings Appeared on the Screen
 difficulty: Medium

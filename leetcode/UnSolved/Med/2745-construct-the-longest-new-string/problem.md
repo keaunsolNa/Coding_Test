@@ -1,5 +1,6 @@
 ---
 id: 2745
+internal_id: 2850
 slug: construct-the-longest-new-string
 title: Construct the Longest New String
 difficulty: Medium

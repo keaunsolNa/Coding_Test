@@ -1,5 +1,6 @@
 ---
 id: 2655
+internal_id: 2815
 slug: find-maximal-uncovered-ranges
 title: Find Maximal Uncovered Ranges
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3047
+internal_id: 3325
 slug: find-the-largest-area-of-square-inside-two-rectangles
 title: Find the Largest Area of Square Inside Two Rectangles
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1862
+internal_id: 1326
 slug: sum-of-floored-pairs
 title: Sum of Floored Pairs
 difficulty: Hard
 tags: Array, Math, Binary Search, Counting, Enumeration, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

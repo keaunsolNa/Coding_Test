@@ -1,5 +1,6 @@
 ---
 id: 737
+internal_id: 737
 slug: sentence-similarity-ii
 title: Sentence Similarity II
 difficulty: Medium

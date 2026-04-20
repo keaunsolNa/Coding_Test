@@ -1,5 +1,6 @@
 ---
 id: 3819
+internal_id: 4171
 slug: rotate-non-negative-elements
 title: Rotate Non Negative Elements
 difficulty: Medium

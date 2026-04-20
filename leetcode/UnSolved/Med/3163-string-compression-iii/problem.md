@@ -1,5 +1,6 @@
 ---
 id: 3163
+internal_id: 3451
 slug: string-compression-iii
 title: String Compression III
 difficulty: Medium

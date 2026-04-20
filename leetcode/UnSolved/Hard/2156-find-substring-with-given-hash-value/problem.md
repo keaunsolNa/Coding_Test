@@ -1,10 +1,11 @@
 ---
 id: 2156
+internal_id: 2275
 slug: find-substring-with-given-hash-value
 title: Find Substring With Given Hash Value
 difficulty: Hard
 tags: String, Sliding Window, Rolling Hash, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

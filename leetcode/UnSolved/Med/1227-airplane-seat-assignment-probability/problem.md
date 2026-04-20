@@ -1,5 +1,6 @@
 ---
 id: 1227
+internal_id: 1362
 slug: airplane-seat-assignment-probability
 title: Airplane Seat Assignment Probability
 difficulty: Medium

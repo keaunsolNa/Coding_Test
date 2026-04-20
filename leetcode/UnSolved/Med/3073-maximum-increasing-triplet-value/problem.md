@@ -1,5 +1,6 @@
 ---
 id: 3073
+internal_id: 3378
 slug: maximum-increasing-triplet-value
 title: Maximum Increasing Triplet Value
 difficulty: Medium

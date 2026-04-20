@@ -1,5 +1,6 @@
 ---
 id: 230
+internal_id: 230
 slug: kth-smallest-element-in-a-bst
 title: Kth Smallest Element in a BST
 difficulty: Medium

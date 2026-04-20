@@ -1,10 +1,11 @@
 ---
 id: 1394
+internal_id: 1510
 slug: find-lucky-integer-in-an-array
 title: Find Lucky Integer in an Array
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

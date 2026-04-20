@@ -1,10 +1,11 @@
 ---
 id: 3242
+internal_id: 3516
 slug: design-neighbor-sum-service
 title: Design Neighbor Sum Service
 difficulty: Easy
 tags: Array, Hash Table, Design, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

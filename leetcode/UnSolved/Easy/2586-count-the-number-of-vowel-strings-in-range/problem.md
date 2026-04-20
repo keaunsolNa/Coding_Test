@@ -1,10 +1,11 @@
 ---
 id: 2586
+internal_id: 2654
 slug: count-the-number-of-vowel-strings-in-range
 title: Count the Number of Vowel Strings in Range
 difficulty: Easy
 tags: Array, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

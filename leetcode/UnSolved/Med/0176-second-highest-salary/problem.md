@@ -1,11 +1,12 @@
 ---
 id: 176
+internal_id: 176
 slug: second-highest-salary
 title: Second Highest Salary
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 176. Second Highest Salary

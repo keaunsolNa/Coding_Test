@@ -1,10 +1,11 @@
 ---
 id: 367
+internal_id: 367
 slug: valid-perfect-square
 title: Valid Perfect Square
 difficulty: Easy
 tags: Math, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

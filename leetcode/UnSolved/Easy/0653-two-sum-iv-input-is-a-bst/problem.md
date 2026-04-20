@@ -1,10 +1,11 @@
 ---
 id: 653
+internal_id: 653
 slug: two-sum-iv-input-is-a-bst
 title: Two Sum IV - Input is a BST
 difficulty: Easy
 tags: Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

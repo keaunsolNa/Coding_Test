@@ -1,5 +1,6 @@
 ---
 id: 677
+internal_id: 677
 slug: map-sum-pairs
 title: Map Sum Pairs
 difficulty: Medium

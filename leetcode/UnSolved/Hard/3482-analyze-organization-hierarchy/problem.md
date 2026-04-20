@@ -1,11 +1,12 @@
 ---
 id: 3482
+internal_id: 3828
 slug: analyze-organization-hierarchy
 title: Analyze Organization Hierarchy
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 3482. Analyze Organization Hierarchy

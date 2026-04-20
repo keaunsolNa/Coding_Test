@@ -1,5 +1,6 @@
 ---
 id: 1361
+internal_id: 1275
 slug: validate-binary-tree-nodes
 title: Validate Binary Tree Nodes
 difficulty: Medium

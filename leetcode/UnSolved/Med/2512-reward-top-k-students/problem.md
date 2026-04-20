@@ -1,5 +1,6 @@
 ---
 id: 2512
+internal_id: 2603
 slug: reward-top-k-students
 title: Reward Top K Students
 difficulty: Medium

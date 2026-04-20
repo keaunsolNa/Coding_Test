@@ -1,5 +1,6 @@
 ---
 id: 2467
+internal_id: 2564
 slug: most-profitable-path-in-a-tree
 title: Most Profitable Path in a Tree
 difficulty: Medium

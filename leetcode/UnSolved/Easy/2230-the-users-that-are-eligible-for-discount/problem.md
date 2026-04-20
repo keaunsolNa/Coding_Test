@@ -1,11 +1,12 @@
 ---
 id: 2230
+internal_id: 2371
 slug: the-users-that-are-eligible-for-discount
 title: The Users That Are Eligible for Discount
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 2230. The Users That Are Eligible for Discount

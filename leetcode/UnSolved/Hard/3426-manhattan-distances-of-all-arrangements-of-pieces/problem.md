@@ -1,10 +1,11 @@
 ---
 id: 3426
+internal_id: 3739
 slug: manhattan-distances-of-all-arrangements-of-pieces
 title: Manhattan Distances of All Arrangements of Pieces
 difficulty: Hard
 tags: Math, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

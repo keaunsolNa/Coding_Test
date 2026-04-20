@@ -1,5 +1,6 @@
 ---
 id: 2683
+internal_id: 2792
 slug: neighboring-bitwise-xor
 title: Neighboring Bitwise XOR
 difficulty: Medium

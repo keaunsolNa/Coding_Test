@@ -1,10 +1,11 @@
 ---
 id: 3045
+internal_id: 3305
 slug: count-prefix-and-suffix-pairs-ii
 title: Count Prefix and Suffix Pairs II
 difficulty: Hard
 tags: Array, String, Trie, Rolling Hash, String Matching, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

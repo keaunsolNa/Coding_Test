@@ -1,5 +1,6 @@
 ---
 id: 3653
+internal_id: 3974
 slug: xor-after-range-multiplication-queries-i
 title: XOR After Range Multiplication Queries I
 difficulty: Medium

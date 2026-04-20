@@ -1,11 +1,12 @@
 ---
 id: 2356
+internal_id: 2495
 slug: number-of-unique-subjects-taught-by-each-teacher
 title: Number of Unique Subjects Taught by Each Teacher
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 2356. Number of Unique Subjects Taught by Each Teacher

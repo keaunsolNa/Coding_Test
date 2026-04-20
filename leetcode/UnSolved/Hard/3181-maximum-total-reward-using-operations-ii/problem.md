@@ -1,10 +1,11 @@
 ---
 id: 3181
+internal_id: 3443
 slug: maximum-total-reward-using-operations-ii
 title: Maximum Total Reward Using Operations II
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

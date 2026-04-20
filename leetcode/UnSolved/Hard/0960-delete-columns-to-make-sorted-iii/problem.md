@@ -1,10 +1,11 @@
 ---
 id: 960
+internal_id: 1000
 slug: delete-columns-to-make-sorted-iii
 title: Delete Columns to Make Sorted III
 difficulty: Hard
 tags: Array, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

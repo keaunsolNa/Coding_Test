@@ -1,5 +1,6 @@
 ---
 id: 3629
+internal_id: 3933
 slug: minimum-jumps-to-reach-end-via-prime-teleportation
 title: Minimum Jumps to Reach End via Prime Teleportation
 difficulty: Medium

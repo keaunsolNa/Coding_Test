@@ -1,5 +1,6 @@
 ---
 id: 2316
+internal_id: 2403
 slug: count-unreachable-pairs-of-nodes-in-an-undirected-graph
 title: Count Unreachable Pairs of Nodes in an Undirected Graph
 difficulty: Medium

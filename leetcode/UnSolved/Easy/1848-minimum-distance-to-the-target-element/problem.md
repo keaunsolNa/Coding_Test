@@ -1,10 +1,11 @@
 ---
 id: 1848
+internal_id: 1975
 slug: minimum-distance-to-the-target-element
 title: Minimum Distance to the Target Element
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

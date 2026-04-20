@@ -1,10 +1,11 @@
 ---
 id: 2335
+internal_id: 2412
 slug: minimum-amount-of-time-to-fill-cups
 title: Minimum Amount of Time to Fill Cups
 difficulty: Easy
 tags: Array, Greedy, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

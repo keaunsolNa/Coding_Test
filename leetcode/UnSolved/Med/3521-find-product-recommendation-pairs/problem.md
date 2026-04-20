@@ -1,11 +1,12 @@
 ---
 id: 3521
+internal_id: 3865
 slug: find-product-recommendation-pairs
 title: Find Product Recommendation Pairs
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3521. Find Product Recommendation Pairs

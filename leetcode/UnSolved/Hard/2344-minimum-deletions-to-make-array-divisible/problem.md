@@ -1,10 +1,11 @@
 ---
 id: 2344
+internal_id: 2423
 slug: minimum-deletions-to-make-array-divisible
 title: Minimum Deletions to Make Array Divisible
 difficulty: Hard
 tags: Array, Math, Sorting, Heap (Priority Queue), Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

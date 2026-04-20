@@ -1,5 +1,6 @@
 ---
 id: 1090
+internal_id: 1169
 slug: largest-values-from-labels
 title: Largest Values From Labels
 difficulty: Medium

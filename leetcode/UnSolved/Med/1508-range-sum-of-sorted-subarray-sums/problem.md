@@ -1,5 +1,6 @@
 ---
 id: 1508
+internal_id: 1615
 slug: range-sum-of-sorted-subarray-sums
 title: Range Sum of Sorted Subarray Sums
 difficulty: Medium

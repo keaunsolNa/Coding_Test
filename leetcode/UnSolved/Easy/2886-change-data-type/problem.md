@@ -1,10 +1,11 @@
 ---
 id: 2886
+internal_id: 3069
 slug: change-data-type
 title: Change Data Type
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2475
+internal_id: 2566
 slug: number-of-unequal-triplets-in-array
 title: Number of Unequal Triplets in Array
 difficulty: Easy
 tags: Array, Hash Table, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

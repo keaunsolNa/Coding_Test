@@ -1,5 +1,6 @@
 ---
 id: 3129
+internal_id: 3406
 slug: find-all-possible-stable-binary-arrays-i
 title: Find All Possible Stable Binary Arrays I
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3472
+internal_id: 3786
 slug: longest-palindromic-subsequence-after-at-most-k-operations
 title: Longest Palindromic Subsequence After at Most K Operations
 difficulty: Medium

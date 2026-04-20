@@ -1,10 +1,11 @@
 ---
 id: 3289
+internal_id: 3581
 slug: the-two-sneaky-numbers-of-digitville
 title: The Two Sneaky Numbers of Digitville
 difficulty: Easy
 tags: Array, Hash Table, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 141
+internal_id: 141
 slug: linked-list-cycle
 title: Linked List Cycle
 difficulty: Easy
 tags: Hash Table, Linked List, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

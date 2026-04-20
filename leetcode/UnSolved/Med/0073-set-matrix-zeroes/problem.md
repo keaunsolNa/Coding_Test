@@ -1,5 +1,6 @@
 ---
 id: 73
+internal_id: 73
 slug: set-matrix-zeroes
 title: Set Matrix Zeroes
 difficulty: Medium

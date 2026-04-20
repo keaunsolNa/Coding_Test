@@ -1,5 +1,6 @@
 ---
 id: 2470
+internal_id: 2557
 slug: number-of-subarrays-with-lcm-equal-to-k
 title: Number of Subarrays With LCM Equal to K
 difficulty: Medium

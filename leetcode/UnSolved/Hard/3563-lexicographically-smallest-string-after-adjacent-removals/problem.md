@@ -1,10 +1,11 @@
 ---
 id: 3563
+internal_id: 3867
 slug: lexicographically-smallest-string-after-adjacent-removals
 title: Lexicographically Smallest String After Adjacent Removals
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

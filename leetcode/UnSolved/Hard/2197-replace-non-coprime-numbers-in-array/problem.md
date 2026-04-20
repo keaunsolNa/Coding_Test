@@ -1,10 +1,11 @@
 ---
 id: 2197
+internal_id: 2307
 slug: replace-non-coprime-numbers-in-array
 title: Replace Non-Coprime Numbers in Array
 difficulty: Hard
 tags: Array, Math, Stack, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

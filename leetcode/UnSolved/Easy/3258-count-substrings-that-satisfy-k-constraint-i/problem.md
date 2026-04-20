@@ -1,10 +1,11 @@
 ---
 id: 3258
+internal_id: 3543
 slug: count-substrings-that-satisfy-k-constraint-i
 title: Count Substrings That Satisfy K-Constraint I
 difficulty: Easy
 tags: String, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2179
+internal_id: 2280
 slug: count-good-triplets-in-an-array
 title: Count Good Triplets in an Array
 difficulty: Hard
 tags: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

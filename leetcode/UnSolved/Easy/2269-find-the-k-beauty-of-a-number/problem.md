@@ -1,10 +1,11 @@
 ---
 id: 2269
+internal_id: 1430
 slug: find-the-k-beauty-of-a-number
 title: Find the K-Beauty of a Number
 difficulty: Easy
 tags: Math, String, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

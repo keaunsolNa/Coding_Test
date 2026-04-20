@@ -1,5 +1,6 @@
 ---
 id: 672
+internal_id: 672
 slug: bulb-switcher-ii
 title: Bulb Switcher II
 difficulty: Medium

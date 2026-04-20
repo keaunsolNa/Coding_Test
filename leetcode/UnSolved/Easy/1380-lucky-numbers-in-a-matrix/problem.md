@@ -1,10 +1,11 @@
 ---
 id: 1380
+internal_id: 1496
 slug: lucky-numbers-in-a-matrix
 title: Lucky Numbers in a Matrix
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

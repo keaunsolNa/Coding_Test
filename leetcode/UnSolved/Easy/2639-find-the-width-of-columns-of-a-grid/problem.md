@@ -1,10 +1,11 @@
 ---
 id: 2639
+internal_id: 2675
 slug: find-the-width-of-columns-of-a-grid
 title: Find the Width of Columns of a Grid
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2684
+internal_id: 2794
 slug: maximum-number-of-moves-in-a-grid
 title: Maximum Number of Moves in a Grid
 difficulty: Medium

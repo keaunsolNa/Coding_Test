@@ -1,10 +1,11 @@
 ---
 id: 1931
+internal_id: 2061
 slug: painting-a-grid-with-three-different-colors
 title: Painting a Grid With Three Different Colors
 difficulty: Hard
 tags: Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

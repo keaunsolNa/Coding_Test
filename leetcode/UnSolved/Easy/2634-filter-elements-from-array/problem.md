@@ -1,10 +1,11 @@
 ---
 id: 2634
+internal_id: 2746
 slug: filter-elements-from-array
 title: Filter Elements from Array
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

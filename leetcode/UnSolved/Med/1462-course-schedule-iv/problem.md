@@ -1,5 +1,6 @@
 ---
 id: 1462
+internal_id: 1558
 slug: course-schedule-iv
 title: Course Schedule IV
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2543
+internal_id: 2635
 slug: check-if-point-is-reachable
 title: Check if Point Is Reachable
 difficulty: Hard
 tags: Math, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

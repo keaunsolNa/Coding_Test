@@ -1,5 +1,6 @@
 ---
 id: 1855
+internal_id: 1984
 slug: maximum-distance-between-a-pair-of-values
 title: Maximum Distance Between a Pair of Values
 difficulty: Medium

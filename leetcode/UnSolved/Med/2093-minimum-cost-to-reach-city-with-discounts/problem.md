@@ -1,5 +1,6 @@
 ---
 id: 2093
+internal_id: 2230
 slug: minimum-cost-to-reach-city-with-discounts
 title: Minimum Cost to Reach City With Discounts
 difficulty: Medium

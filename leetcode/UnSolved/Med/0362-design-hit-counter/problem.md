@@ -1,5 +1,6 @@
 ---
 id: 362
+internal_id: 362
 slug: design-hit-counter
 title: Design Hit Counter
 difficulty: Medium

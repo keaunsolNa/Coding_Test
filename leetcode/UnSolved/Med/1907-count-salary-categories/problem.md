@@ -1,11 +1,12 @@
 ---
 id: 1907
+internal_id: 2057
 slug: count-salary-categories
 title: Count Salary Categories
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1907. Count Salary Categories

@@ -1,10 +1,11 @@
 ---
 id: 3793
+internal_id: 4195
 slug: find-users-with-high-token-usage
 title: Find Users with High Token Usage
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3874
+internal_id: 4269
 slug: valid-subarrays-with-exactly-one-peak
 title: Valid Subarrays With Exactly One Peak
 difficulty: Medium

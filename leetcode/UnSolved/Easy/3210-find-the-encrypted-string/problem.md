@@ -1,10 +1,11 @@
 ---
 id: 3210
+internal_id: 3468
 slug: find-the-encrypted-string
 title: Find the Encrypted String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

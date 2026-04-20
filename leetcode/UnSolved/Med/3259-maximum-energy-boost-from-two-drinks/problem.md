@@ -1,5 +1,6 @@
 ---
 id: 3259
+internal_id: 3525
 slug: maximum-energy-boost-from-two-drinks
 title: Maximum Energy Boost From Two Drinks
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 107
+internal_id: 107
 slug: binary-tree-level-order-traversal-ii
 title: Binary Tree Level Order Traversal II
 difficulty: Medium

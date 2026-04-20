@@ -1,5 +1,6 @@
 ---
 id: 1660
+internal_id: 1796
 slug: correct-a-binary-tree
 title: Correct a Binary Tree
 difficulty: Medium

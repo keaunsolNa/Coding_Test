@@ -1,5 +1,6 @@
 ---
 id: 2202
+internal_id: 1346
 slug: maximize-the-topmost-element-after-k-moves
 title: Maximize the Topmost Element After K Moves
 difficulty: Medium

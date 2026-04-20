@@ -1,5 +1,6 @@
 ---
 id: 3295
+internal_id: 3541
 slug: report-spam-message
 title: Report Spam Message
 difficulty: Medium

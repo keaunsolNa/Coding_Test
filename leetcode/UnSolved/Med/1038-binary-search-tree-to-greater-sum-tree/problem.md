@@ -1,5 +1,6 @@
 ---
 id: 1038
+internal_id: 1114
 slug: binary-search-tree-to-greater-sum-tree
 title: Binary Search Tree to Greater Sum Tree
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1579
+internal_id: 1701
 slug: remove-max-number-of-edges-to-keep-graph-fully-traversable
 title: Remove Max Number of Edges to Keep Graph Fully Traversable
 difficulty: Hard
 tags: Union-Find, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

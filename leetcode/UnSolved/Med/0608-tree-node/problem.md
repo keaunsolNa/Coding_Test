@@ -1,11 +1,12 @@
 ---
 id: 608
+internal_id: 608
 slug: tree-node
 title: Tree Node
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 608. Tree Node

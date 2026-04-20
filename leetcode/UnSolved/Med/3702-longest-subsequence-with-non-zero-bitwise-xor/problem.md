@@ -1,5 +1,6 @@
 ---
 id: 3702
+internal_id: 4033
 slug: longest-subsequence-with-non-zero-bitwise-xor
 title: Longest Subsequence With Non-Zero Bitwise XOR
 difficulty: Medium

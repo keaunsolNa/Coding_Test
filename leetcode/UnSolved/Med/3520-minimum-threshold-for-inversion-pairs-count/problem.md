@@ -1,5 +1,6 @@
 ---
 id: 3520
+internal_id: 3861
 slug: minimum-threshold-for-inversion-pairs-count
 title: Minimum Threshold for Inversion Pairs Count
 difficulty: Medium

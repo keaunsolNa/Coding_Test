@@ -1,10 +1,11 @@
 ---
 id: 3699
+internal_id: 3962
 slug: number-of-zigzag-arrays-i
 title: Number of ZigZag Arrays I
 difficulty: Hard
 tags: Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

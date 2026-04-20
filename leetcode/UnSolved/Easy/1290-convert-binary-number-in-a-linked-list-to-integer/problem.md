@@ -1,10 +1,11 @@
 ---
 id: 1290
+internal_id: 1411
 slug: convert-binary-number-in-a-linked-list-to-integer
 title: Convert Binary Number in a Linked List to Integer
 difficulty: Easy
 tags: Linked List, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

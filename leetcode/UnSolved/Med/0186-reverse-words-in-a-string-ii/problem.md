@@ -1,5 +1,6 @@
 ---
 id: 186
+internal_id: 186
 slug: reverse-words-in-a-string-ii
 title: Reverse Words in a String II
 difficulty: Medium

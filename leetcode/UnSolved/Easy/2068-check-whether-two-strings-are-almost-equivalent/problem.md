@@ -1,10 +1,11 @@
 ---
 id: 2068
+internal_id: 2177
 slug: check-whether-two-strings-are-almost-equivalent
 title: Check Whether Two Strings are Almost Equivalent
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

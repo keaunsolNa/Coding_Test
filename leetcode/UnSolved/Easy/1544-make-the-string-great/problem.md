@@ -1,10 +1,11 @@
 ---
 id: 1544
+internal_id: 1666
 slug: make-the-string-great
 title: Make The String Great
 difficulty: Easy
 tags: String, Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

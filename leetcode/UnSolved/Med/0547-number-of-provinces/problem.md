@@ -1,5 +1,6 @@
 ---
 id: 547
+internal_id: 547
 slug: number-of-provinces
 title: Number of Provinces
 difficulty: Medium

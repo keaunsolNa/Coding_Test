@@ -1,5 +1,6 @@
 ---
 id: 1973
+internal_id: 2126
 slug: count-nodes-equal-to-sum-of-descendants
 title: Count Nodes Equal to Sum of Descendants
 difficulty: Medium

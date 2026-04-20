@@ -1,5 +1,6 @@
 ---
 id: 80
+internal_id: 80
 slug: remove-duplicates-from-sorted-array-ii
 title: Remove Duplicates from Sorted Array II
 difficulty: Medium

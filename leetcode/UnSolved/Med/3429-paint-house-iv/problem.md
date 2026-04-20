@@ -1,5 +1,6 @@
 ---
 id: 3429
+internal_id: 3737
 slug: paint-house-iv
 title: Paint House IV
 difficulty: Medium

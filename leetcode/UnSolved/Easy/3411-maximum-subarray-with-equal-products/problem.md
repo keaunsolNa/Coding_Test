@@ -1,10 +1,11 @@
 ---
 id: 3411
+internal_id: 3702
 slug: maximum-subarray-with-equal-products
 title: Maximum Subarray With Equal Products
 difficulty: Easy
 tags: Array, Math, Sliding Window, Enumeration, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1256
+internal_id: 1189
 slug: encode-number
 title: Encode Number
 difficulty: Medium

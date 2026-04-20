@@ -1,10 +1,11 @@
 ---
 id: 76
+internal_id: 76
 slug: minimum-window-substring
 title: Minimum Window Substring
 difficulty: Hard
 tags: Hash Table, String, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

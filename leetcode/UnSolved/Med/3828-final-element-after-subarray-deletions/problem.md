@@ -1,5 +1,6 @@
 ---
 id: 3828
+internal_id: 4122
 slug: final-element-after-subarray-deletions
 title: Final Element After Subarray Deletions
 difficulty: Medium

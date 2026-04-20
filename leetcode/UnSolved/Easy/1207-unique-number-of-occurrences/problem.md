@@ -1,10 +1,11 @@
 ---
 id: 1207
+internal_id: 1319
 slug: unique-number-of-occurrences
 title: Unique Number of Occurrences
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

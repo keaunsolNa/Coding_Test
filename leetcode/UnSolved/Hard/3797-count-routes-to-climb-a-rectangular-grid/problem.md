@@ -1,10 +1,11 @@
 ---
 id: 3797
+internal_id: 4153
 slug: count-routes-to-climb-a-rectangular-grid
 title: Count Routes to Climb a Rectangular Grid
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

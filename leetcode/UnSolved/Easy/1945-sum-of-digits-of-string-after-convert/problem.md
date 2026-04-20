@@ -1,10 +1,11 @@
 ---
 id: 1945
+internal_id: 2076
 slug: sum-of-digits-of-string-after-convert
 title: Sum of Digits of String After Convert
 difficulty: Easy
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

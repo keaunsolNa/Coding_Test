@@ -1,10 +1,11 @@
 ---
 id: 1293
+internal_id: 1414
 slug: shortest-path-in-a-grid-with-obstacles-elimination
 title: Shortest Path in a Grid with Obstacles Elimination
 difficulty: Hard
 tags: Array, Breadth-First Search, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

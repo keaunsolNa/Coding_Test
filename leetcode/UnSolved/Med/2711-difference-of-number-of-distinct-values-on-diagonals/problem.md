@@ -1,5 +1,6 @@
 ---
 id: 2711
+internal_id: 2801
 slug: difference-of-number-of-distinct-values-on-diagonals
 title: Difference of Number of Distinct Values on Diagonals
 difficulty: Medium

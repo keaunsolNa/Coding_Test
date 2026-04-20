@@ -1,10 +1,11 @@
 ---
 id: 2940
+internal_id: 3181
 slug: find-building-where-alice-and-bob-can-meet
 title: Find Building Where Alice and Bob Can Meet
 difficulty: Hard
 tags: Array, Binary Search, Stack, Binary Indexed Tree, Segment Tree, Heap (Priority Queue), Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

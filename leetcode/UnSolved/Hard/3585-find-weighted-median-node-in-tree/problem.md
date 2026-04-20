@@ -1,10 +1,11 @@
 ---
 id: 3585
+internal_id: 3900
 slug: find-weighted-median-node-in-tree
 title: Find Weighted Median Node in Tree
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Bit Manipulation, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

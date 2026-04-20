@@ -1,5 +1,6 @@
 ---
 id: 3879
+internal_id: 4218
 slug: maximum-distinct-path-sum-in-a-binary-tree
 title: Maximum Distinct Path Sum in a Binary Tree
 difficulty: Medium

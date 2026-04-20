@@ -1,5 +1,6 @@
 ---
 id: 1673
+internal_id: 1792
 slug: find-the-most-competitive-subsequence
 title: Find the Most Competitive Subsequence
 difficulty: Medium

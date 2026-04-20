@@ -1,5 +1,6 @@
 ---
 id: 3722
+internal_id: 4073
 slug: lexicographically-smallest-string-after-reverse
 title: Lexicographically Smallest String After Reverse
 difficulty: Medium

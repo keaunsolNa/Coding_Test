@@ -1,10 +1,11 @@
 ---
 id: 1028
+internal_id: 1093
 slug: recover-a-tree-from-preorder-traversal
 title: Recover a Tree From Preorder Traversal
 difficulty: Hard
 tags: String, Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

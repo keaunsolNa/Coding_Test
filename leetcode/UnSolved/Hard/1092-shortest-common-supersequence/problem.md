@@ -1,10 +1,11 @@
 ---
 id: 1092
+internal_id: 1170
 slug: shortest-common-supersequence
 title: Shortest Common Supersequence 
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

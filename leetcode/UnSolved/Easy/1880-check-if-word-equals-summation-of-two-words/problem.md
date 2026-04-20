@@ -1,10 +1,11 @@
 ---
 id: 1880
+internal_id: 2010
 slug: check-if-word-equals-summation-of-two-words
 title: Check if Word Equals Summation of Two Words
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

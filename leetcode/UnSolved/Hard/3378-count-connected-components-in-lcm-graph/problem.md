@@ -1,10 +1,11 @@
 ---
 id: 3378
+internal_id: 3680
 slug: count-connected-components-in-lcm-graph
 title: Count Connected Components in LCM Graph
 difficulty: Hard
 tags: Array, Hash Table, Math, Union-Find, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

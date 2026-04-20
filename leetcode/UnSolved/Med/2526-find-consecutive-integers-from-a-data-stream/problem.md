@@ -1,5 +1,6 @@
 ---
 id: 2526
+internal_id: 2620
 slug: find-consecutive-integers-from-a-data-stream
 title: Find Consecutive Integers from a Data Stream
 difficulty: Medium

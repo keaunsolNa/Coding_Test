@@ -1,5 +1,6 @@
 ---
 id: 998
+internal_id: 1040
 slug: maximum-binary-tree-ii
 title: Maximum Binary Tree II
 difficulty: Medium

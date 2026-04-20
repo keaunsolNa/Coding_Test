@@ -1,5 +1,6 @@
 ---
 id: 2662
+internal_id: 2686
 slug: minimum-cost-of-a-path-with-special-roads
 title: Minimum Cost of a Path With Special Roads
 difficulty: Medium

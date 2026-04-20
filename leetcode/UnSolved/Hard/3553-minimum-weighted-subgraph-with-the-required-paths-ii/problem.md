@@ -1,10 +1,11 @@
 ---
 id: 3553
+internal_id: 3853
 slug: minimum-weighted-subgraph-with-the-required-paths-ii
 title: Minimum Weighted Subgraph With the Required Paths II
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

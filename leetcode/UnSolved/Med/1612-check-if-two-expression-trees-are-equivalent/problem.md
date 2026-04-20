@@ -1,5 +1,6 @@
 ---
 id: 1612
+internal_id: 1750
 slug: check-if-two-expression-trees-are-equivalent
 title: Check If Two Expression Trees are Equivalent
 difficulty: Medium

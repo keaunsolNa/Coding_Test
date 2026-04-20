@@ -1,10 +1,11 @@
 ---
 id: 2600
+internal_id: 2715
 slug: k-items-with-the-maximum-sum
 title: K Items With the Maximum Sum
 difficulty: Easy
 tags: Math, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1578
+internal_id: 1700
 slug: minimum-time-to-make-rope-colorful
 title: Minimum Time to Make Rope Colorful
 difficulty: Medium

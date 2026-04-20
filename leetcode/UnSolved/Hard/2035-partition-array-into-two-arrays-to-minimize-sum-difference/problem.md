@@ -1,10 +1,11 @@
 ---
 id: 2035
+internal_id: 2162
 slug: partition-array-into-two-arrays-to-minimize-sum-difference
 title: Partition Array Into Two Arrays to Minimize Sum Difference
 difficulty: Hard
 tags: Array, Two Pointers, Binary Search, Dynamic Programming, Bit Manipulation, Sorting, Ordered Set, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3286
+internal_id: 3558
 slug: find-a-safe-walk-through-a-grid
 title: Find a Safe Walk Through a Grid
 difficulty: Medium

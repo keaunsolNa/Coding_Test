@@ -1,5 +1,6 @@
 ---
 id: 2542
+internal_id: 2636
 slug: maximum-subsequence-score
 title: Maximum Subsequence Score
 difficulty: Medium

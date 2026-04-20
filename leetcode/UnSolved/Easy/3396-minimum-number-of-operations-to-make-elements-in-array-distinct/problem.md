@@ -1,10 +1,11 @@
 ---
 id: 3396
+internal_id: 3656
 slug: minimum-number-of-operations-to-make-elements-in-array-distinct
 title: Minimum Number of Operations to Make Elements in Array Distinct
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

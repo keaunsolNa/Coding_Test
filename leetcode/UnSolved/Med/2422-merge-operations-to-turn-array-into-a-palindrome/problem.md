@@ -1,5 +1,6 @@
 ---
 id: 2422
+internal_id: 2565
 slug: merge-operations-to-turn-array-into-a-palindrome
 title: Merge Operations to Turn Array Into a Palindrome
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3789
+internal_id: 4147
 slug: minimum-cost-to-acquire-required-items
 title: Minimum Cost to Acquire Required Items
 difficulty: Medium

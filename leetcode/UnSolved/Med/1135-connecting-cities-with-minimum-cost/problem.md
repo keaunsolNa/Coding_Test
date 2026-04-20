@@ -1,5 +1,6 @@
 ---
 id: 1135
+internal_id: 1100
 slug: connecting-cities-with-minimum-cost
 title: Connecting Cities With Minimum Cost
 difficulty: Medium

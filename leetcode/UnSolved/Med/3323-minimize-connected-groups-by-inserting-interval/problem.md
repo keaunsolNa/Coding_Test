@@ -1,5 +1,6 @@
 ---
 id: 3323
+internal_id: 3565
 slug: minimize-connected-groups-by-inserting-interval
 title: Minimize Connected Groups by Inserting Interval
 difficulty: Medium

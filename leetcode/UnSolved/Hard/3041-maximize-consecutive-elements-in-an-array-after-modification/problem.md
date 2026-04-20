@@ -1,10 +1,11 @@
 ---
 id: 3041
+internal_id: 3298
 slug: maximize-consecutive-elements-in-an-array-after-modification
 title: Maximize Consecutive Elements in an Array After Modification
 difficulty: Hard
 tags: Array, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

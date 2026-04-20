@@ -1,10 +1,11 @@
 ---
 id: 1402
+internal_id: 1503
 slug: reducing-dishes
 title: Reducing Dishes
 difficulty: Hard
 tags: Array, Dynamic Programming, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

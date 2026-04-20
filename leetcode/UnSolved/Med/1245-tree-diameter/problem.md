@@ -1,5 +1,6 @@
 ---
 id: 1245
+internal_id: 1177
 slug: tree-diameter
 title: Tree Diameter
 difficulty: Medium

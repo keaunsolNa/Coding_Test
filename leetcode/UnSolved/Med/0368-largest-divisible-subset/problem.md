@@ -1,5 +1,6 @@
 ---
 id: 368
+internal_id: 368
 slug: largest-divisible-subset
 title: Largest Divisible Subset
 difficulty: Medium

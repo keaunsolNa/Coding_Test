@@ -1,5 +1,6 @@
 ---
 id: 1921
+internal_id: 2049
 slug: eliminate-maximum-number-of-monsters
 title: Eliminate Maximum Number of Monsters
 difficulty: Medium

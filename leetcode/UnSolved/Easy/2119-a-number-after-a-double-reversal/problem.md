@@ -1,10 +1,11 @@
 ---
 id: 2119
+internal_id: 2238
 slug: a-number-after-a-double-reversal
 title: A Number After a Double Reversal
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

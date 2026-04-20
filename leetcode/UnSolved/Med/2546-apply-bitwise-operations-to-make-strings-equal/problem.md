@@ -1,5 +1,6 @@
 ---
 id: 2546
+internal_id: 2632
 slug: apply-bitwise-operations-to-make-strings-equal
 title: Apply Bitwise Operations to Make Strings Equal
 difficulty: Medium

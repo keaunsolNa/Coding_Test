@@ -1,5 +1,6 @@
 ---
 id: 1686
+internal_id: 1788
 slug: stone-game-vi
 title: Stone Game VI
 difficulty: Medium

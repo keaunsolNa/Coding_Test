@@ -1,5 +1,6 @@
 ---
 id: 2048
+internal_id: 2174
 slug: next-greater-numerically-balanced-number
 title: Next Greater Numerically Balanced Number
 difficulty: Medium

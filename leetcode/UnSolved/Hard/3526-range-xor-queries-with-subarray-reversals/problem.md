@@ -1,10 +1,11 @@
 ---
 id: 3526
+internal_id: 3862
 slug: range-xor-queries-with-subarray-reversals
 title: Range XOR Queries with Subarray Reversals
 difficulty: Hard
 tags: Array, Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2996
+internal_id: 3236
 slug: smallest-missing-integer-greater-than-sequential-prefix-sum
 title: Smallest Missing Integer Greater Than Sequential Prefix Sum
 difficulty: Easy
 tags: Array, Hash Table, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

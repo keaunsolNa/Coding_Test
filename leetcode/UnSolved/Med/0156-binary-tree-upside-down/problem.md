@@ -1,5 +1,6 @@
 ---
 id: 156
+internal_id: 156
 slug: binary-tree-upside-down
 title: Binary Tree Upside Down
 difficulty: Medium

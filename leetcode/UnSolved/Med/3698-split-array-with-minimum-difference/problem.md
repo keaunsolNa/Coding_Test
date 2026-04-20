@@ -1,5 +1,6 @@
 ---
 id: 3698
+internal_id: 4015
 slug: split-array-with-minimum-difference
 title: Split Array With Minimum Difference
 difficulty: Medium

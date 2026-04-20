@@ -1,5 +1,6 @@
 ---
 id: 3306
+internal_id: 3569
 slug: count-of-substrings-containing-every-vowel-and-k-consonants-ii
 title: Count of Substrings Containing Every Vowel and K Consonants II
 difficulty: Medium

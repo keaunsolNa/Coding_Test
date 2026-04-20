@@ -1,5 +1,6 @@
 ---
 id: 873
+internal_id: 905
 slug: length-of-longest-fibonacci-subsequence
 title: Length of Longest Fibonacci Subsequence
 difficulty: Medium

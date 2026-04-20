@@ -1,10 +1,11 @@
 ---
 id: 1316
+internal_id: 1244
 slug: distinct-echo-substrings
 title: Distinct Echo Substrings
 difficulty: Hard
 tags: String, Trie, Rolling Hash, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

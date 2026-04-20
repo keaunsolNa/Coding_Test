@@ -1,5 +1,6 @@
 ---
 id: 200
+internal_id: 200
 slug: number-of-islands
 title: Number of Islands
 difficulty: Medium

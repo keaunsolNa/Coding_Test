@@ -1,10 +1,11 @@
 ---
 id: 3017
+internal_id: 3310
 slug: count-the-number-of-houses-at-a-certain-distance-ii
 title: Count the Number of Houses at a Certain Distance II
 difficulty: Hard
 tags: Graph Theory, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

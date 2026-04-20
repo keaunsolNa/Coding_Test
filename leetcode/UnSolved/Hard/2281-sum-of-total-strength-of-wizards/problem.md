@@ -1,10 +1,11 @@
 ---
 id: 2281
+internal_id: 2368
 slug: sum-of-total-strength-of-wizards
 title: Sum of Total Strength of Wizards
 difficulty: Hard
 tags: Array, Stack, Monotonic Stack, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

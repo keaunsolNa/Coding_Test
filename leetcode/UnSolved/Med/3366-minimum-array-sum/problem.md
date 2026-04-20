@@ -1,5 +1,6 @@
 ---
 id: 3366
+internal_id: 3654
 slug: minimum-array-sum
 title: Minimum Array Sum
 difficulty: Medium

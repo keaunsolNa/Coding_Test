@@ -1,5 +1,6 @@
 ---
 id: 3902
+internal_id: 4296
 slug: zigzag-level-sum-of-binary-tree
 title: Zigzag Level Sum of Binary Tree
 difficulty: Medium

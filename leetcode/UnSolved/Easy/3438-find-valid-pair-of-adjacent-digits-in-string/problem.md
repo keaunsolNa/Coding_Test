@@ -1,10 +1,11 @@
 ---
 id: 3438
+internal_id: 3736
 slug: find-valid-pair-of-adjacent-digits-in-string
 title: Find Valid Pair of Adjacent Digits in String
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

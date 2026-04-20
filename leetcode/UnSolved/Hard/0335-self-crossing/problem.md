@@ -1,10 +1,11 @@
 ---
 id: 335
+internal_id: 335
 slug: self-crossing
 title: Self Crossing
 difficulty: Hard
 tags: Array, Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

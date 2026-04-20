@@ -1,10 +1,11 @@
 ---
 id: 3248
+internal_id: 3533
 slug: snake-in-matrix
 title: Snake in Matrix
 difficulty: Easy
 tags: Array, String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

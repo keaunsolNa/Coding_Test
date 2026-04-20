@@ -1,10 +1,11 @@
 ---
 id: 3622
+internal_id: 3918
 slug: check-divisibility-by-digit-sum-and-product
 title: Check Divisibility by Digit Sum and Product
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

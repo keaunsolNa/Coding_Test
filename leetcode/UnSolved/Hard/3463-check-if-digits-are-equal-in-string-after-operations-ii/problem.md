@@ -1,10 +1,11 @@
 ---
 id: 3463
+internal_id: 3774
 slug: check-if-digits-are-equal-in-string-after-operations-ii
 title: Check If Digits Are Equal in String After Operations II
 difficulty: Hard
 tags: Math, String, Combinatorics, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

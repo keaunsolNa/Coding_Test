@@ -1,5 +1,6 @@
 ---
 id: 573
+internal_id: 573
 slug: squirrel-simulation
 title: Squirrel Simulation
 difficulty: Medium

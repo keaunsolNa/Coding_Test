@@ -1,10 +1,11 @@
 ---
 id: 2846
+internal_id: 3079
 slug: minimum-edge-weight-equilibrium-queries-in-a-tree
 title: Minimum Edge Weight Equilibrium Queries in a Tree
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

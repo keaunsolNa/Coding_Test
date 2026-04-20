@@ -1,5 +1,6 @@
 ---
 id: 3577
+internal_id: 3864
 slug: count-the-number-of-computer-unlocking-permutations
 title: Count the Number of Computer Unlocking Permutations
 difficulty: Medium

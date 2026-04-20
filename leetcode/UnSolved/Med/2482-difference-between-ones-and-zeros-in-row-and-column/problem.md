@@ -1,5 +1,6 @@
 ---
 id: 2482
+internal_id: 2606
 slug: difference-between-ones-and-zeros-in-row-and-column
 title: Difference Between Ones and Zeros in Row and Column
 difficulty: Medium

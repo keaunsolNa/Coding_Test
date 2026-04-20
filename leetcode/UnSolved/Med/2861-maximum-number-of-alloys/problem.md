@@ -1,5 +1,6 @@
 ---
 id: 2861
+internal_id: 3095
 slug: maximum-number-of-alloys
 title: Maximum Number of Alloys
 difficulty: Medium

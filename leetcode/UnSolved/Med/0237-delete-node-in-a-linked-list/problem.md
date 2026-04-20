@@ -1,5 +1,6 @@
 ---
 id: 237
+internal_id: 237
 slug: delete-node-in-a-linked-list
 title: Delete Node in a Linked List
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1575
+internal_id: 1680
 slug: count-all-possible-routes
 title: Count All Possible Routes
 difficulty: Hard
 tags: Array, Dynamic Programming, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

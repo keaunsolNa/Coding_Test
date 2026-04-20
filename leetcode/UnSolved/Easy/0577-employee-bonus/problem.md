@@ -1,11 +1,12 @@
 ---
 id: 577
+internal_id: 577
 slug: employee-bonus
 title: Employee Bonus
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 577. Employee Bonus

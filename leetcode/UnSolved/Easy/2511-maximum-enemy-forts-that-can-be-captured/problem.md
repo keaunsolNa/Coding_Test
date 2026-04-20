@@ -1,10 +1,11 @@
 ---
 id: 2511
+internal_id: 2602
 slug: maximum-enemy-forts-that-can-be-captured
 title: Maximum Enemy Forts That Can Be Captured
 difficulty: Easy
 tags: Array, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3654
+internal_id: 3966
 slug: minimum-sum-after-divisible-sum-deletions
 title: Minimum Sum After Divisible Sum Deletions
 difficulty: Medium

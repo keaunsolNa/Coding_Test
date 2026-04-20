@@ -1,10 +1,11 @@
 ---
 id: 3130
+internal_id: 3407
 slug: find-all-possible-stable-binary-arrays-ii
 title: Find All Possible Stable Binary Arrays II
 difficulty: Hard
 tags: Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

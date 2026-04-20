@@ -1,5 +1,6 @@
 ---
 id: 3447
+internal_id: 3760
 slug: assign-elements-to-groups-with-constraints
 title: Assign Elements to Groups with Constraints
 difficulty: Medium

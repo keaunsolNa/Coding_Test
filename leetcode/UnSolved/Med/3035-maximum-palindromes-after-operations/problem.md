@@ -1,5 +1,6 @@
 ---
 id: 3035
+internal_id: 3317
 slug: maximum-palindromes-after-operations
 title: Maximum Palindromes After Operations
 difficulty: Medium

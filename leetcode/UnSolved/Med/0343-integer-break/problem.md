@@ -1,5 +1,6 @@
 ---
 id: 343
+internal_id: 343
 slug: integer-break
 title: Integer Break
 difficulty: Medium

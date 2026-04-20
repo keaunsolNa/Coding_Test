@@ -1,10 +1,11 @@
 ---
 id: 1816
+internal_id: 1944
 slug: truncate-sentence
 title: Truncate Sentence
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

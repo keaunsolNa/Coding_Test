@@ -1,5 +1,6 @@
 ---
 id: 1679
+internal_id: 1798
 slug: max-number-of-k-sum-pairs
 title: Max Number of K-Sum Pairs
 difficulty: Medium

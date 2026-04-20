@@ -1,10 +1,11 @@
 ---
 id: 1957
+internal_id: 1302
 slug: delete-characters-to-make-fancy-string
 title: Delete Characters to Make Fancy String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

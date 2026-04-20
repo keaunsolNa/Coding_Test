@@ -1,5 +1,6 @@
 ---
 id: 48
+internal_id: 48
 slug: rotate-image
 title: Rotate Image
 difficulty: Medium

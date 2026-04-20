@@ -1,11 +1,12 @@
 ---
 id: 3421
+internal_id: 3767
 slug: find-students-who-improved
 title: Find Students Who Improved
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3421. Find Students Who Improved

@@ -1,5 +1,6 @@
 ---
 id: 1522
+internal_id: 1665
 slug: diameter-of-n-ary-tree
 title: Diameter of N-Ary Tree
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1887
+internal_id: 2016
 slug: reduction-operations-to-make-the-array-elements-equal
 title: Reduction Operations to Make the Array Elements Equal
 difficulty: Medium

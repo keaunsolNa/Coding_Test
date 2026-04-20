@@ -1,5 +1,6 @@
 ---
 id: 2785
+internal_id: 2887
 slug: sort-vowels-in-a-string
 title: Sort Vowels in a String
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3579
+internal_id: 3866
 slug: minimum-steps-to-convert-string-with-operations
 title: Minimum Steps to Convert String with Operations
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

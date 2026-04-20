@@ -1,10 +1,11 @@
 ---
 id: 2440
+internal_id: 2531
 slug: create-components-with-same-value
 title: Create Components With Same Value
 difficulty: Hard
 tags: Array, Math, Tree, Depth-First Search, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

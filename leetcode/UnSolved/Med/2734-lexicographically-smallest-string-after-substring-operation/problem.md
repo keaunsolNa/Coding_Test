@@ -1,5 +1,6 @@
 ---
 id: 2734
+internal_id: 2828
 slug: lexicographically-smallest-string-after-substring-operation
 title: Lexicographically Smallest String After Substring Operation
 difficulty: Medium

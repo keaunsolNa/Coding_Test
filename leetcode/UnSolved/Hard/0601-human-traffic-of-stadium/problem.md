@@ -1,11 +1,12 @@
 ---
 id: 601
+internal_id: 601
 slug: human-traffic-of-stadium
 title: Human Traffic of Stadium
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 601. Human Traffic of Stadium

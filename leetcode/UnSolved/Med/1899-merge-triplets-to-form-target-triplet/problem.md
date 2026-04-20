@@ -1,5 +1,6 @@
 ---
 id: 1899
+internal_id: 2026
 slug: merge-triplets-to-form-target-triplet
 title: Merge Triplets to Form Target Triplet
 difficulty: Medium

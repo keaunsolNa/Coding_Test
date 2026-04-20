@@ -1,5 +1,6 @@
 ---
 id: 1567
+internal_id: 1690
 slug: maximum-length-of-subarray-with-positive-product
 title: Maximum Length of Subarray With Positive Product
 difficulty: Medium

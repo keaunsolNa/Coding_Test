@@ -1,5 +1,6 @@
 ---
 id: 192
+internal_id: 192
 slug: word-frequency
 title: Word Frequency
 difficulty: Medium

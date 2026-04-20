@@ -1,10 +1,11 @@
 ---
 id: 2341
+internal_id: 2421
 slug: maximum-number-of-pairs-in-array
 title: Maximum Number of Pairs in Array
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,11 +1,12 @@
 ---
 id: 620
+internal_id: 620
 slug: not-boring-movies
 title: Not Boring Movies
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 620. Not Boring Movies

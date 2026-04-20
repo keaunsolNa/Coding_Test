@@ -1,5 +1,6 @@
 ---
 id: 2593
+internal_id: 2695
 slug: find-score-of-an-array-after-marking-all-elements
 title: Find Score of an Array After Marking All Elements
 difficulty: Medium

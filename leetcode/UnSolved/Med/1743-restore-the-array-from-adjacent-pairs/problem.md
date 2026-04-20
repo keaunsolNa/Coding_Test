@@ -1,5 +1,6 @@
 ---
 id: 1743
+internal_id: 1866
 slug: restore-the-array-from-adjacent-pairs
 title: Restore the Array From Adjacent Pairs
 difficulty: Medium

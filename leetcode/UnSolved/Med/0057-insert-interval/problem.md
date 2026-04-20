@@ -1,5 +1,6 @@
 ---
 id: 57
+internal_id: 57
 slug: insert-interval
 title: Insert Interval
 difficulty: Medium

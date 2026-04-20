@@ -1,5 +1,6 @@
 ---
 id: 1868
+internal_id: 2019
 slug: product-of-two-run-length-encoded-arrays
 title: Product of Two Run-Length Encoded Arrays
 difficulty: Medium

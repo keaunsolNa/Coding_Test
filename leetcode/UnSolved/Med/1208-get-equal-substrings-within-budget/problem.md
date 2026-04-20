@@ -1,5 +1,6 @@
 ---
 id: 1208
+internal_id: 1321
 slug: get-equal-substrings-within-budget
 title: Get Equal Substrings Within Budget
 difficulty: Medium

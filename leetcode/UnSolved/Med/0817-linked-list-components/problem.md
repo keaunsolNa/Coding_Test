@@ -1,5 +1,6 @@
 ---
 id: 817
+internal_id: 835
 slug: linked-list-components
 title: Linked List Components
 difficulty: Medium

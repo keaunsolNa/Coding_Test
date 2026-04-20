@@ -1,5 +1,6 @@
 ---
 id: 2718
+internal_id: 2838
 slug: sum-of-matrix-after-queries
 title: Sum of Matrix After Queries
 difficulty: Medium

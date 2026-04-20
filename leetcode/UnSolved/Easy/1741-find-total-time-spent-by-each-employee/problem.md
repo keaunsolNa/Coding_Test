@@ -1,11 +1,12 @@
 ---
 id: 1741
+internal_id: 1892
 slug: find-total-time-spent-by-each-employee
 title: Find Total Time Spent by Each Employee
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1741. Find Total Time Spent by Each Employee

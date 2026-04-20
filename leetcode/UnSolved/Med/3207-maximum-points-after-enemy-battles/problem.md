@@ -1,5 +1,6 @@
 ---
 id: 3207
+internal_id: 3264
 slug: maximum-points-after-enemy-battles
 title: Maximum Points After Enemy Battles
 difficulty: Medium

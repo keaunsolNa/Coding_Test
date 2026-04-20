@@ -1,5 +1,6 @@
 ---
 id: 3147
+internal_id: 3383
 slug: taking-maximum-energy-from-the-mystic-dungeon
 title: Taking Maximum Energy From the Mystic Dungeon
 difficulty: Medium

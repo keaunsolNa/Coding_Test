@@ -1,5 +1,6 @@
 ---
 id: 1247
+internal_id: 1369
 slug: minimum-swaps-to-make-strings-equal
 title: Minimum Swaps to Make Strings Equal
 difficulty: Medium

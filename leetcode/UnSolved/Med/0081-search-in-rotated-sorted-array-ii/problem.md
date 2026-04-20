@@ -1,5 +1,6 @@
 ---
 id: 81
+internal_id: 81
 slug: search-in-rotated-sorted-array-ii
 title: Search in Rotated Sorted Array II
 difficulty: Medium

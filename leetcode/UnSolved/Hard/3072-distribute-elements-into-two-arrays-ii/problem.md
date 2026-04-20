@@ -1,10 +1,11 @@
 ---
 id: 3072
+internal_id: 3350
 slug: distribute-elements-into-two-arrays-ii
 title: Distribute Elements Into Two Arrays II
 difficulty: Hard
 tags: Array, Binary Indexed Tree, Segment Tree, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

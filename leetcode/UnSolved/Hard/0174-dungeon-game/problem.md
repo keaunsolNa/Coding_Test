@@ -1,10 +1,11 @@
 ---
 id: 174
+internal_id: 174
 slug: dungeon-game
 title: Dungeon Game
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

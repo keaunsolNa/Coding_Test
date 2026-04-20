@@ -1,5 +1,6 @@
 ---
 id: 3290
+internal_id: 3518
 slug: maximum-multiplication-score
 title: Maximum Multiplication Score
 difficulty: Medium

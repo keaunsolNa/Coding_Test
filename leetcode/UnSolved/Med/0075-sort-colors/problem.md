@@ -1,5 +1,6 @@
 ---
 id: 75
+internal_id: 75
 slug: sort-colors
 title: Sort Colors
 difficulty: Medium

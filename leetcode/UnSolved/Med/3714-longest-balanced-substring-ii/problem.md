@@ -1,5 +1,6 @@
 ---
 id: 3714
+internal_id: 4056
 slug: longest-balanced-substring-ii
 title: Longest Balanced Substring II
 difficulty: Medium

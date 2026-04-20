@@ -1,10 +1,11 @@
 ---
 id: 2835
+internal_id: 3025
 slug: minimum-operations-to-form-subsequence-with-target-sum
 title: Minimum Operations to Form Subsequence With Target Sum
 difficulty: Hard
 tags: Array, Greedy, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

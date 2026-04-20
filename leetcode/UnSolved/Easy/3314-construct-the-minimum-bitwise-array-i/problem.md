@@ -1,10 +1,11 @@
 ---
 id: 3314
+internal_id: 3605
 slug: construct-the-minimum-bitwise-array-i
 title: Construct the Minimum Bitwise Array I
 difficulty: Easy
 tags: Array, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

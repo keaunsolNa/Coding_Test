@@ -1,10 +1,11 @@
 ---
 id: 1203
+internal_id: 1309
 slug: sort-items-by-groups-respecting-dependencies
 title: Sort Items by Groups Respecting Dependencies
 difficulty: Hard
 tags: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

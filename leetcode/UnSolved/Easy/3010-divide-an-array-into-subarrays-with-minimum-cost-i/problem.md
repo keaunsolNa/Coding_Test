@@ -1,10 +1,11 @@
 ---
 id: 3010
+internal_id: 3263
 slug: divide-an-array-into-subarrays-with-minimum-cost-i
 title: Divide an Array Into Subarrays With Minimum Cost I
 difficulty: Easy
 tags: Array, Sorting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

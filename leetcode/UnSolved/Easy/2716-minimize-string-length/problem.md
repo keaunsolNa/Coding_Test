@@ -1,10 +1,11 @@
 ---
 id: 2716
+internal_id: 2825
 slug: minimize-string-length
 title: Minimize String Length
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

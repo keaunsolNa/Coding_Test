@@ -1,10 +1,11 @@
 ---
 id: 2959
+internal_id: 3217
 slug: number-of-possible-sets-of-closing-branches
 title: Number of Possible Sets of Closing Branches
 difficulty: Hard
 tags: Bit Manipulation, Graph Theory, Heap (Priority Queue), Enumeration, Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

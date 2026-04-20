@@ -1,10 +1,11 @@
 ---
 id: 2926
+internal_id: 3184
 slug: maximum-balanced-subsequence-sum
 title: Maximum Balanced Subsequence Sum
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Binary Indexed Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

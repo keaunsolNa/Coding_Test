@@ -1,10 +1,11 @@
 ---
 id: 589
+internal_id: 775
 slug: n-ary-tree-preorder-traversal
 title: N-ary Tree Preorder Traversal
 difficulty: Easy
 tags: Stack, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

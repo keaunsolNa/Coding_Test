@@ -1,5 +1,6 @@
 ---
 id: 469
+internal_id: 469
 slug: convex-polygon
 title: Convex Polygon
 difficulty: Medium

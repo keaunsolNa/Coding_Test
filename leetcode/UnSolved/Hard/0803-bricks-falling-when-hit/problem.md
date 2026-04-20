@@ -1,10 +1,11 @@
 ---
 id: 803
+internal_id: 821
 slug: bricks-falling-when-hit
 title: Bricks Falling When Hit
 difficulty: Hard
 tags: Array, Union-Find, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

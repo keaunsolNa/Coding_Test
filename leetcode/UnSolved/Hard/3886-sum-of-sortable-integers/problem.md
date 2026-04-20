@@ -1,10 +1,11 @@
 ---
 id: 3886
+internal_id: 4257
 slug: sum-of-sortable-integers
 title: Sum of Sortable Integers
 difficulty: Hard
 tags: Array, Math, Sorting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

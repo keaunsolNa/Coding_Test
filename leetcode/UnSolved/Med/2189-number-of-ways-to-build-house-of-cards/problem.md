@@ -1,5 +1,6 @@
 ---
 id: 2189
+internal_id: 1385
 slug: number-of-ways-to-build-house-of-cards
 title: Number of Ways to Build House of Cards
 difficulty: Medium

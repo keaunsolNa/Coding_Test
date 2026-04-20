@@ -1,5 +1,6 @@
 ---
 id: 3211
+internal_id: 3453
 slug: generate-binary-strings-without-adjacent-zeros
 title: Generate Binary Strings Without Adjacent Zeros
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1603
+internal_id: 1708
 slug: design-parking-system
 title: Design Parking System
 difficulty: Easy
 tags: Design, Simulation, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

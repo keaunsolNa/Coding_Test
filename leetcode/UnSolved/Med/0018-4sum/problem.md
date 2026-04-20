@@ -1,5 +1,6 @@
 ---
 id: 18
+internal_id: 18
 slug: 4sum
 title: 4Sum
 difficulty: Medium

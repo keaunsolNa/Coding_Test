@@ -1,11 +1,12 @@
 ---
 id: 1459
+internal_id: 1607
 slug: rectangles-area
 title: Rectangles Area
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1459. Rectangles Area

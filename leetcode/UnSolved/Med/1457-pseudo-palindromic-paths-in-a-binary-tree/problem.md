@@ -1,5 +1,6 @@
 ---
 id: 1457
+internal_id: 1568
 slug: pseudo-palindromic-paths-in-a-binary-tree
 title: Pseudo-Palindromic Paths in a Binary Tree
 difficulty: Medium

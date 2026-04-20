@@ -1,5 +1,6 @@
 ---
 id: 369
+internal_id: 369
 slug: plus-one-linked-list
 title: Plus One Linked List
 difficulty: Medium

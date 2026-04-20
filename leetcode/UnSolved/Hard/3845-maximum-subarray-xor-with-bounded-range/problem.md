@@ -1,10 +1,11 @@
 ---
 id: 3845
+internal_id: 4204
 slug: maximum-subarray-xor-with-bounded-range
 title: Maximum Subarray XOR with Bounded Range
 difficulty: Hard
 tags: Array, Bit Manipulation, Trie, Queue, Sliding Window, Prefix Sum, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

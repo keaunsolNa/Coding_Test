@@ -1,10 +1,11 @@
 ---
 id: 3336
+internal_id: 3608
 slug: find-the-number-of-subsequences-with-equal-gcd
 title: Find the Number of Subsequences With Equal GCD
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

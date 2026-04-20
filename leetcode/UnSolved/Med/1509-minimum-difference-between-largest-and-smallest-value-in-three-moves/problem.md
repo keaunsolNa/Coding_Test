@@ -1,5 +1,6 @@
 ---
 id: 1509
+internal_id: 1616
 slug: minimum-difference-between-largest-and-smallest-value-in-three-moves
 title: Minimum Difference Between Largest and Smallest Value in Three Moves
 difficulty: Medium

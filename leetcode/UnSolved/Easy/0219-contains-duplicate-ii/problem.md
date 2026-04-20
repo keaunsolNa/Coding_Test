@@ -1,10 +1,11 @@
 ---
 id: 219
+internal_id: 219
 slug: contains-duplicate-ii
 title: Contains Duplicate II
 difficulty: Easy
 tags: Array, Hash Table, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

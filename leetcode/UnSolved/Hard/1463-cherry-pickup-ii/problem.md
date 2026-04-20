@@ -1,10 +1,11 @@
 ---
 id: 1463
+internal_id: 1559
 slug: cherry-pickup-ii
 title: Cherry Pickup II
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

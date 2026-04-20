@@ -1,10 +1,11 @@
 ---
 id: 2980
+internal_id: 3246
 slug: check-if-bitwise-or-has-trailing-zeros
 title: Check if Bitwise OR Has Trailing Zeros
 difficulty: Easy
 tags: Array, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

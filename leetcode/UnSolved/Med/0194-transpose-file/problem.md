@@ -1,5 +1,6 @@
 ---
 id: 194
+internal_id: 194
 slug: transpose-file
 title: Transpose File
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1569
+internal_id: 1692
 slug: number-of-ways-to-reorder-array-to-get-same-bst
 title: Number of Ways to Reorder Array to Get Same BST
 difficulty: Hard
 tags: Array, Math, Divide and Conquer, Dynamic Programming, Tree, Union-Find, Binary Search Tree, Memoization, Combinatorics, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

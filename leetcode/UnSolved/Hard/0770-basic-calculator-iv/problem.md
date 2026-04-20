@@ -1,10 +1,11 @@
 ---
 id: 770
+internal_id: 781
 slug: basic-calculator-iv
 title: Basic Calculator IV
 difficulty: Hard
 tags: Hash Table, Math, String, Stack, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

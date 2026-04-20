@@ -1,10 +1,11 @@
 ---
 id: 2167
+internal_id: 2286
 slug: minimum-time-to-remove-all-cars-containing-illegal-goods
 title: Minimum Time to Remove All Cars Containing Illegal Goods
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

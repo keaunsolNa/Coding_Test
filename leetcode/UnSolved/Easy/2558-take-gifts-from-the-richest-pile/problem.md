@@ -1,10 +1,11 @@
 ---
 id: 2558
+internal_id: 2692
 slug: take-gifts-from-the-richest-pile
 title: Take Gifts From the Richest Pile
 difficulty: Easy
 tags: Array, Heap (Priority Queue), Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

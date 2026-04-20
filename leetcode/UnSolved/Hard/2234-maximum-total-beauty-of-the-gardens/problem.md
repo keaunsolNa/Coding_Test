@@ -1,10 +1,11 @@
 ---
 id: 2234
+internal_id: 2330
 slug: maximum-total-beauty-of-the-gardens
 title: Maximum Total Beauty of the Gardens
 difficulty: Hard
 tags: Array, Two Pointers, Binary Search, Greedy, Sorting, Enumeration, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

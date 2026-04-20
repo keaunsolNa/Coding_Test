@@ -1,10 +1,11 @@
 ---
 id: 502
+internal_id: 502
 slug: ipo
 title: IPO
 difficulty: Hard
 tags: Array, Greedy, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

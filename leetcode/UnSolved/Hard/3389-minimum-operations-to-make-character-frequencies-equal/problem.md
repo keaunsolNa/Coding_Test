@@ -1,10 +1,11 @@
 ---
 id: 3389
+internal_id: 3638
 slug: minimum-operations-to-make-character-frequencies-equal
 title: Minimum Operations to Make Character Frequencies Equal
 difficulty: Hard
 tags: Hash Table, String, Dynamic Programming, Counting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1966
+internal_id: 2111
 slug: binary-searchable-numbers-in-an-unsorted-array
 title: Binary Searchable Numbers in an Unsorted Array
 difficulty: Medium

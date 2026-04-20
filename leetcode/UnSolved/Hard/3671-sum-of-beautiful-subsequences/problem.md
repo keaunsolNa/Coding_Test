@@ -1,10 +1,11 @@
 ---
 id: 3671
+internal_id: 3989
 slug: sum-of-beautiful-subsequences
 title: Sum of Beautiful Subsequences
 difficulty: Hard
 tags: Array, Math, Binary Indexed Tree, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

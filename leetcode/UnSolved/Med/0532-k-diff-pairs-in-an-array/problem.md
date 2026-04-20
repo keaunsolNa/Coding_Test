@@ -1,5 +1,6 @@
 ---
 id: 532
+internal_id: 532
 slug: k-diff-pairs-in-an-array
 title: K-diff Pairs in an Array
 difficulty: Medium

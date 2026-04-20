@@ -1,10 +1,11 @@
 ---
 id: 696
+internal_id: 696
 slug: count-binary-substrings
 title: Count Binary Substrings
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

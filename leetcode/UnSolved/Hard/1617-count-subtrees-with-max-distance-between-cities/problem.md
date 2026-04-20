@@ -1,10 +1,11 @@
 ---
 id: 1617
+internal_id: 1740
 slug: count-subtrees-with-max-distance-between-cities
 title: Count Subtrees With Max Distance Between Cities
 difficulty: Hard
 tags: Dynamic Programming, Bit Manipulation, Tree, Enumeration, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

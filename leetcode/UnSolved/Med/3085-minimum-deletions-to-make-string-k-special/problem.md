@@ -1,5 +1,6 @@
 ---
 id: 3085
+internal_id: 3360
 slug: minimum-deletions-to-make-string-k-special
 title: Minimum Deletions to Make String K-Special
 difficulty: Medium

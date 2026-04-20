@@ -1,5 +1,6 @@
 ---
 id: 3175
+internal_id: 3413
 slug: find-the-first-player-to-win-k-games-in-a-row
 title: Find The First Player to win K Games in a Row
 difficulty: Medium

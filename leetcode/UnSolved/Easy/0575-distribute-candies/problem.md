@@ -1,10 +1,11 @@
 ---
 id: 575
+internal_id: 575
 slug: distribute-candies
 title: Distribute Candies
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

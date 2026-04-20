@@ -1,5 +1,6 @@
 ---
 id: 3412
+internal_id: 3634
 slug: find-mirror-score-of-a-string
 title: Find Mirror Score of a String
 difficulty: Medium

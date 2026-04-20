@@ -1,10 +1,11 @@
 ---
 id: 591
+internal_id: 591
 slug: tag-validator
 title: Tag Validator
 difficulty: Hard
 tags: String, Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

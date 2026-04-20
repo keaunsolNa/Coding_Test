@@ -1,10 +1,11 @@
 ---
 id: 495
+internal_id: 495
 slug: teemo-attacking
 title: Teemo Attacking
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

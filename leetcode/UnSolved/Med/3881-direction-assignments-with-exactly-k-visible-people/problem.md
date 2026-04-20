@@ -1,5 +1,6 @@
 ---
 id: 3881
+internal_id: 4251
 slug: direction-assignments-with-exactly-k-visible-people
 title: Direction Assignments with Exactly K Visible People
 difficulty: Medium

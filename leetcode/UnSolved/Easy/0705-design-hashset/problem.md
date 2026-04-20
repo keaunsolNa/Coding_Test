@@ -1,10 +1,11 @@
 ---
 id: 705
+internal_id: 816
 slug: design-hashset
 title: Design HashSet
 difficulty: Easy
 tags: Array, Hash Table, Linked List, Design, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

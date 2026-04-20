@@ -1,5 +1,6 @@
 ---
 id: 833
+internal_id: 862
 slug: find-and-replace-in-string
 title: Find And Replace in String
 difficulty: Medium

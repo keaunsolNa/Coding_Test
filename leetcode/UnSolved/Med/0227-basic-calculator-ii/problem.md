@@ -1,5 +1,6 @@
 ---
 id: 227
+internal_id: 227
 slug: basic-calculator-ii
 title: Basic Calculator II
 difficulty: Medium

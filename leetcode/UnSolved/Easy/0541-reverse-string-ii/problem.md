@@ -1,10 +1,11 @@
 ---
 id: 541
+internal_id: 541
 slug: reverse-string-ii
 title: Reverse String II
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

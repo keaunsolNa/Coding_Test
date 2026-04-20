@@ -1,5 +1,6 @@
 ---
 id: 3473
+internal_id: 3722
 slug: sum-of-k-subarrays-with-length-at-least-m
 title: Sum of K Subarrays With Length at Least M
 difficulty: Medium

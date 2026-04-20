@@ -1,5 +1,6 @@
 ---
 id: 2624
+internal_id: 2760
 slug: snail-traversal
 title: Snail Traversal
 difficulty: Medium

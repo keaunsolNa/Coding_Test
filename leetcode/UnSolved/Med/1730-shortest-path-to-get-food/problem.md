@@ -1,5 +1,6 @@
 ---
 id: 1730
+internal_id: 550
 slug: shortest-path-to-get-food
 title: Shortest Path to Get Food
 difficulty: Medium

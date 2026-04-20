@@ -1,5 +1,6 @@
 ---
 id: 1654
+internal_id: 1757
 slug: minimum-jumps-to-reach-home
 title: Minimum Jumps to Reach Home
 difficulty: Medium

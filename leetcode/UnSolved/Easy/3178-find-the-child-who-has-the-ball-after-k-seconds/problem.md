@@ -1,10 +1,11 @@
 ---
 id: 3178
+internal_id: 3450
 slug: find-the-child-who-has-the-ball-after-k-seconds
 title: Find the Child Who Has the Ball After K Seconds
 difficulty: Easy
 tags: Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

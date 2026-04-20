@@ -1,10 +1,11 @@
 ---
 id: 1859
+internal_id: 1970
 slug: sorting-the-sentence
 title: Sorting the Sentence
 difficulty: Easy
 tags: String, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

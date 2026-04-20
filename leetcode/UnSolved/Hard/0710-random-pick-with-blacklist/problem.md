@@ -1,10 +1,11 @@
 ---
 id: 710
+internal_id: 894
 slug: random-pick-with-blacklist
 title: Random Pick with Blacklist
 difficulty: Hard
 tags: Array, Hash Table, Math, Binary Search, Sorting, Randomized
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

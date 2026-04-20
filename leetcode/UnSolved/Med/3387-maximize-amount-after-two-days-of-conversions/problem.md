@@ -1,5 +1,6 @@
 ---
 id: 3387
+internal_id: 3613
 slug: maximize-amount-after-two-days-of-conversions
 title: Maximize Amount After Two Days of Conversions
 difficulty: Medium

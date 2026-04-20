@@ -1,10 +1,11 @@
 ---
 id: 1611
+internal_id: 1732
 slug: minimum-one-bit-operations-to-make-integers-zero
 title: Minimum One Bit Operations to Make Integers Zero
 difficulty: Hard
 tags: Math, Dynamic Programming, Bit Manipulation, Recursion, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

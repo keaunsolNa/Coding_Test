@@ -1,5 +1,6 @@
 ---
 id: 442
+internal_id: 442
 slug: find-all-duplicates-in-an-array
 title: Find All Duplicates in an Array
 difficulty: Medium

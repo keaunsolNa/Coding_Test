@@ -1,10 +1,11 @@
 ---
 id: 3859
+internal_id: 4002
 slug: count-subarrays-with-k-distinct-integers
 title: Count Subarrays With K Distinct Integers
 difficulty: Hard
 tags: Array, Hash Table, Sliding Window, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

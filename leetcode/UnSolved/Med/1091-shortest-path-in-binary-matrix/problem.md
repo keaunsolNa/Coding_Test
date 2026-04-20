@@ -1,5 +1,6 @@
 ---
 id: 1091
+internal_id: 1171
 slug: shortest-path-in-binary-matrix
 title: Shortest Path in Binary Matrix
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1324
+internal_id: 1449
 slug: print-words-vertically
 title: Print Words Vertically
 difficulty: Medium

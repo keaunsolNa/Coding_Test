@@ -1,5 +1,6 @@
 ---
 id: 3424
+internal_id: 3712
 slug: minimum-cost-to-make-arrays-identical
 title: Minimum Cost to Make Arrays Identical
 difficulty: Medium

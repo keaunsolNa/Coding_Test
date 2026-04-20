@@ -1,10 +1,11 @@
 ---
 id: 115
+internal_id: 115
 slug: distinct-subsequences
 title: Distinct Subsequences
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

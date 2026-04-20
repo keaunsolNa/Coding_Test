@@ -1,5 +1,6 @@
 ---
 id: 2505
+internal_id: 2644
 slug: bitwise-or-of-all-subsequence-sums
 title: Bitwise OR of All Subsequence Sums
 difficulty: Medium

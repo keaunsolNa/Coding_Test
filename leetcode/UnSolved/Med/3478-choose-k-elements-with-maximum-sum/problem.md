@@ -1,5 +1,6 @@
 ---
 id: 3478
+internal_id: 3759
 slug: choose-k-elements-with-maximum-sum
 title: Choose K Elements With Maximum Sum
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1044
+internal_id: 1122
 slug: longest-duplicate-substring
 title: Longest Duplicate Substring
 difficulty: Hard
 tags: String, Binary Search, Sliding Window, Rolling Hash, Suffix Array, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3716
+internal_id: 4103
 slug: find-churn-risk-customers
 title: Find Churn Risk Customers
 difficulty: Medium

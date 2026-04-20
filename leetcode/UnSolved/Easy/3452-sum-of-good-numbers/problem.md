@@ -1,10 +1,11 @@
 ---
 id: 3452
+internal_id: 3723
 slug: sum-of-good-numbers
 title: Sum of Good Numbers
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

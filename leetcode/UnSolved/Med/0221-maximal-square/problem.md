@@ -1,5 +1,6 @@
 ---
 id: 221
+internal_id: 221
 slug: maximal-square
 title: Maximal Square
 difficulty: Medium

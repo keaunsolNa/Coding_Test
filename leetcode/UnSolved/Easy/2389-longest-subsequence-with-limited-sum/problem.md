@@ -1,10 +1,11 @@
 ---
 id: 2389
+internal_id: 2469
 slug: longest-subsequence-with-limited-sum
 title: Longest Subsequence With Limited Sum
 difficulty: Easy
 tags: Array, Binary Search, Greedy, Sorting, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 441
+internal_id: 441
 slug: arranging-coins
 title: Arranging Coins
 difficulty: Easy
 tags: Math, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

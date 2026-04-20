@@ -1,5 +1,6 @@
 ---
 id: 2368
+internal_id: 2445
 slug: reachable-nodes-with-restrictions
 title: Reachable Nodes With Restrictions
 difficulty: Medium

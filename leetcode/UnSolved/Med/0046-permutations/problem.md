@@ -1,5 +1,6 @@
 ---
 id: 46
+internal_id: 46
 slug: permutations
 title: Permutations
 difficulty: Medium

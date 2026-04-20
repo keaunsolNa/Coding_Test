@@ -1,5 +1,6 @@
 ---
 id: 2749
+internal_id: 2837
 slug: minimum-operations-to-make-the-integer-zero
 title: Minimum Operations to Make the Integer Zero
 difficulty: Medium

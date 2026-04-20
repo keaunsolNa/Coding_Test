@@ -1,5 +1,6 @@
 ---
 id: 3690
+internal_id: 3928
 slug: split-and-merge-array-transformation
 title: Split and Merge Array Transformation
 difficulty: Medium

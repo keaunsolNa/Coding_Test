@@ -1,10 +1,11 @@
 ---
 id: 3710
+internal_id: 4035
 slug: maximum-partition-factor
 title: Maximum Partition Factor
 difficulty: Hard
 tags: Array, Binary Search, Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 316
+internal_id: 316
 slug: remove-duplicate-letters
 title: Remove Duplicate Letters
 difficulty: Medium

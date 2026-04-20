@@ -1,10 +1,11 @@
 ---
 id: 326
+internal_id: 326
 slug: power-of-three
 title: Power of Three
 difficulty: Easy
 tags: Math, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

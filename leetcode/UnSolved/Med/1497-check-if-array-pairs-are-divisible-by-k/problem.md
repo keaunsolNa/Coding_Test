@@ -1,5 +1,6 @@
 ---
 id: 1497
+internal_id: 1620
 slug: check-if-array-pairs-are-divisible-by-k
 title: Check If Array Pairs Are Divisible by k
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1865
+internal_id: 1995
 slug: finding-pairs-with-a-certain-sum
 title: Finding Pairs With a Certain Sum
 difficulty: Medium

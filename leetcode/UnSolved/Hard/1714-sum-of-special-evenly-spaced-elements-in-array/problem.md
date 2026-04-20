@@ -1,10 +1,11 @@
 ---
 id: 1714
+internal_id: 1809
 slug: sum-of-special-evenly-spaced-elements-in-array
 title: Sum Of Special Evenly-Spaced Elements In Array
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

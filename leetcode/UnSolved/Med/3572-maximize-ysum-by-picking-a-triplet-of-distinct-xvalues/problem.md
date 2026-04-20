@@ -1,5 +1,6 @@
 ---
 id: 3572
+internal_id: 3894
 slug: maximize-ysum-by-picking-a-triplet-of-distinct-xvalues
 title: Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values
 difficulty: Medium

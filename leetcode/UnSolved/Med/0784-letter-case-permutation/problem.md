@@ -1,5 +1,6 @@
 ---
 id: 784
+internal_id: 800
 slug: letter-case-permutation
 title: Letter Case Permutation
 difficulty: Medium

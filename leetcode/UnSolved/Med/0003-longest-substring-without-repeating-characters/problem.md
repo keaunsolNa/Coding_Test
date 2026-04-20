@@ -1,5 +1,6 @@
 ---
 id: 3
+internal_id: 3
 slug: longest-substring-without-repeating-characters
 title: Longest Substring Without Repeating Characters
 difficulty: Medium

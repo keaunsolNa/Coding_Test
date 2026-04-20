@@ -1,5 +1,6 @@
 ---
 id: 799
+internal_id: 815
 slug: champagne-tower
 title: Champagne Tower
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2784
+internal_id: 2892
 slug: check-if-array-is-good
 title: Check if Array is Good
 difficulty: Easy
 tags: Array, Hash Table, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

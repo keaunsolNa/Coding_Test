@@ -1,5 +1,6 @@
 ---
 id: 2812
+internal_id: 2914
 slug: find-the-safest-path-in-a-grid
 title: Find the Safest Path in a Grid
 difficulty: Medium

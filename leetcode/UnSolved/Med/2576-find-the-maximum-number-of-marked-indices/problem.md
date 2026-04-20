@@ -1,5 +1,6 @@
 ---
 id: 2576
+internal_id: 2712
 slug: find-the-maximum-number-of-marked-indices
 title: Find the Maximum Number of Marked Indices
 difficulty: Medium

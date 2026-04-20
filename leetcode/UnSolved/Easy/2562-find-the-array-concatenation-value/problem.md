@@ -1,10 +1,11 @@
 ---
 id: 2562
+internal_id: 2698
 slug: find-the-array-concatenation-value
 title: Find the Array Concatenation Value
 difficulty: Easy
 tags: Array, Two Pointers, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

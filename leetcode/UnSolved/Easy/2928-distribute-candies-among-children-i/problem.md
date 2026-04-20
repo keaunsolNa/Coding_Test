@@ -1,10 +1,11 @@
 ---
 id: 2928
+internal_id: 3199
 slug: distribute-candies-among-children-i
 title: Distribute Candies Among Children I
 difficulty: Easy
 tags: Math, Combinatorics, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

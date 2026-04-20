@@ -1,11 +1,12 @@
 ---
 id: 1321
+internal_id: 1452
 slug: restaurant-growth
 title: Restaurant Growth
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1321. Restaurant Growth

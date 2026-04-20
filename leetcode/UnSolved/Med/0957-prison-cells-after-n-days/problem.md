@@ -1,5 +1,6 @@
 ---
 id: 957
+internal_id: 994
 slug: prison-cells-after-n-days
 title: Prison Cells After N Days
 difficulty: Medium

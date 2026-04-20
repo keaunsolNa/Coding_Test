@@ -1,10 +1,11 @@
 ---
 id: 2037
+internal_id: 2148
 slug: minimum-number-of-moves-to-seat-everyone
 title: Minimum Number of Moves to Seat Everyone
 difficulty: Easy
 tags: Array, Greedy, Sorting, Counting Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

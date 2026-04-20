@@ -1,5 +1,6 @@
 ---
 id: 849
+internal_id: 879
 slug: maximize-distance-to-closest-person
 title: Maximize Distance to Closest Person
 difficulty: Medium

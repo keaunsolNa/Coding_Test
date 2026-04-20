@@ -1,5 +1,6 @@
 ---
 id: 3781
+internal_id: 4130
 slug: maximum-score-after-binary-swaps
 title: Maximum Score After Binary Swaps
 difficulty: Medium

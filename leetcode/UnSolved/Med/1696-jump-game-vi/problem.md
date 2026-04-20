@@ -1,5 +1,6 @@
 ---
 id: 1696
+internal_id: 1814
 slug: jump-game-vi
 title: Jump Game VI
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 498
+internal_id: 498
 slug: diagonal-traverse
 title: Diagonal Traverse
 difficulty: Medium

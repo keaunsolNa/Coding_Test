@@ -1,5 +1,6 @@
 ---
 id: 47
+internal_id: 47
 slug: permutations-ii
 title: Permutations II
 difficulty: Medium

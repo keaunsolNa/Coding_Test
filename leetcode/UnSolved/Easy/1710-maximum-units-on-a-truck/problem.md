@@ -1,10 +1,11 @@
 ---
 id: 1710
+internal_id: 1829
 slug: maximum-units-on-a-truck
 title: Maximum Units on a Truck
 difficulty: Easy
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

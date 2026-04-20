@@ -1,5 +1,6 @@
 ---
 id: 3111
+internal_id: 3390
 slug: minimum-rectangles-to-cover-points
 title: Minimum Rectangles to Cover Points
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2383
+internal_id: 2459
 slug: minimum-hours-of-training-to-win-a-competition
 title: Minimum Hours of Training to Win a Competition
 difficulty: Easy
 tags: Array, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

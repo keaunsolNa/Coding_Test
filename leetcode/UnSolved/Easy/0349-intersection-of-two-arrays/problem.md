@@ -1,10 +1,11 @@
 ---
 id: 349
+internal_id: 349
 slug: intersection-of-two-arrays
 title: Intersection of Two Arrays
 difficulty: Easy
 tags: Array, Hash Table, Two Pointers, Binary Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

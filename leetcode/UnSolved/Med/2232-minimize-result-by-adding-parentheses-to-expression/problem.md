@@ -1,5 +1,6 @@
 ---
 id: 2232
+internal_id: 2328
 slug: minimize-result-by-adding-parentheses-to-expression
 title: Minimize Result by Adding Parentheses to Expression
 difficulty: Medium

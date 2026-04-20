@@ -1,10 +1,11 @@
 ---
 id: 719
+internal_id: 719
 slug: find-k-th-smallest-pair-distance
 title: Find K-th Smallest Pair Distance
 difficulty: Hard
 tags: Array, Two Pointers, Binary Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

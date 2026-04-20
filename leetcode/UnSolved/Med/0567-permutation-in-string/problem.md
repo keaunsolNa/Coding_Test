@@ -1,5 +1,6 @@
 ---
 id: 567
+internal_id: 567
 slug: permutation-in-string
 title: Permutation in String
 difficulty: Medium

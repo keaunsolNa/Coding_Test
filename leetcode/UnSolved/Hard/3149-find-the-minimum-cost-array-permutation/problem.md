@@ -1,10 +1,11 @@
 ---
 id: 3149
+internal_id: 3431
 slug: find-the-minimum-cost-array-permutation
 title: Find the Minimum Cost Array Permutation
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

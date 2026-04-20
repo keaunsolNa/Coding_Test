@@ -1,5 +1,6 @@
 ---
 id: 932
+internal_id: 968
 slug: beautiful-array
 title: Beautiful Array
 difficulty: Medium

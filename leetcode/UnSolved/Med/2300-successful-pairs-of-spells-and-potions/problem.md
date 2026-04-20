@@ -1,5 +1,6 @@
 ---
 id: 2300
+internal_id: 2392
 slug: successful-pairs-of-spells-and-potions
 title: Successful Pairs of Spells and Potions
 difficulty: Medium

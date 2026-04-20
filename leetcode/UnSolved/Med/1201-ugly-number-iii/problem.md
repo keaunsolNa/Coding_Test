@@ -1,5 +1,6 @@
 ---
 id: 1201
+internal_id: 1307
 slug: ugly-number-iii
 title: Ugly Number III
 difficulty: Medium

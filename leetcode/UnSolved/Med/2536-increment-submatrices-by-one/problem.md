@@ -1,5 +1,6 @@
 ---
 id: 2536
+internal_id: 2625
 slug: increment-submatrices-by-one
 title: Increment Submatrices by One
 difficulty: Medium

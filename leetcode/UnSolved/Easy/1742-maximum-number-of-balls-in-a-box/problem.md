@@ -1,10 +1,11 @@
 ---
 id: 1742
+internal_id: 1844
 slug: maximum-number-of-balls-in-a-box
 title: Maximum Number of Balls in a Box
 difficulty: Easy
 tags: Hash Table, Math, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

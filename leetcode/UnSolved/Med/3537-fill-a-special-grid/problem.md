@@ -1,5 +1,6 @@
 ---
 id: 3537
+internal_id: 3822
 slug: fill-a-special-grid
 title: Fill a Special Grid
 difficulty: Medium

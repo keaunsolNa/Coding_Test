@@ -1,5 +1,6 @@
 ---
 id: 2198
+internal_id: 1383
 slug: number-of-single-divisor-triplets
 title: Number of Single Divisor Triplets
 difficulty: Medium

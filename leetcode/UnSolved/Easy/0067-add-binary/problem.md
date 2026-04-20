@@ -1,10 +1,11 @@
 ---
 id: 67
+internal_id: 67
 slug: add-binary
 title: Add Binary
 difficulty: Easy
 tags: Math, String, Bit Manipulation, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

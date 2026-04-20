@@ -1,5 +1,6 @@
 ---
 id: 1642
+internal_id: 1762
 slug: furthest-building-you-can-reach
 title: Furthest Building You Can Reach
 difficulty: Medium

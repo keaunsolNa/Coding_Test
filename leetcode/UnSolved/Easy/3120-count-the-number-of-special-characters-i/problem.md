@@ -1,10 +1,11 @@
 ---
 id: 3120
+internal_id: 3408
 slug: count-the-number-of-special-characters-i
 title: Count the Number of Special Characters I
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

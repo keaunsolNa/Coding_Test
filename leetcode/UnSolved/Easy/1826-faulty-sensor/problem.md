@@ -1,10 +1,11 @@
 ---
 id: 1826
+internal_id: 1980
 slug: faulty-sensor
 title: Faulty Sensor
 difficulty: Easy
 tags: Array, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

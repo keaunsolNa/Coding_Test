@@ -1,10 +1,11 @@
 ---
 id: 2864
+internal_id: 3055
 slug: maximum-odd-binary-number
 title: Maximum Odd Binary Number
 difficulty: Easy
 tags: Math, String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

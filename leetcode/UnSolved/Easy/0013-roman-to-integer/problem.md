@@ -1,10 +1,11 @@
 ---
 id: 13
+internal_id: 13
 slug: roman-to-integer
 title: Roman to Integer
 difficulty: Easy
 tags: Hash Table, Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

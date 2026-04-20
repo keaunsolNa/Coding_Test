@@ -1,10 +1,11 @@
 ---
 id: 830
+internal_id: 857
 slug: positions-of-large-groups
 title: Positions of Large Groups
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

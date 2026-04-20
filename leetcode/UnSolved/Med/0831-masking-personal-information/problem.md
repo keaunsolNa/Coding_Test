@@ -1,5 +1,6 @@
 ---
 id: 831
+internal_id: 858
 slug: masking-personal-information
 title: Masking Personal Information
 difficulty: Medium

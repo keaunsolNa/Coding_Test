@@ -1,5 +1,6 @@
 ---
 id: 966
+internal_id: 1006
 slug: vowel-spellchecker
 title: Vowel Spellchecker
 difficulty: Medium

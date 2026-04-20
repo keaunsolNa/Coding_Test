@@ -1,5 +1,6 @@
 ---
 id: 3128
+internal_id: 3388
 slug: right-triangles
 title: Right Triangles
 difficulty: Medium

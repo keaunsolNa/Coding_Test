@@ -1,5 +1,6 @@
 ---
 id: 2762
+internal_id: 2868
 slug: continuous-subarrays
 title: Continuous Subarrays
 difficulty: Medium

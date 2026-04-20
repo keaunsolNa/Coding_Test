@@ -1,10 +1,11 @@
 ---
 id: 3352
+internal_id: 3631
 slug: count-k-reducible-numbers-less-than-n
 title: Count K-Reducible Numbers Less Than N
 difficulty: Hard
 tags: Math, String, Dynamic Programming, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

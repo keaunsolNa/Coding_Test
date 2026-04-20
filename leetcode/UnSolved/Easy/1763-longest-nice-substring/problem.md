@@ -1,10 +1,11 @@
 ---
 id: 1763
+internal_id: 1873
 slug: longest-nice-substring
 title: Longest Nice Substring
 difficulty: Easy
 tags: Hash Table, String, Divide and Conquer, Bit Manipulation, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

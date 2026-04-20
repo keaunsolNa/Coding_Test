@@ -1,5 +1,6 @@
 ---
 id: 2625
+internal_id: 2759
 slug: flatten-deeply-nested-array
 title: Flatten Deeply Nested Array
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2713
+internal_id: 2818
 slug: maximum-strictly-increasing-cells-in-a-matrix
 title: Maximum Strictly Increasing Cells in a Matrix
 difficulty: Hard
 tags: Array, Hash Table, Binary Search, Dynamic Programming, Memoization, Sorting, Matrix, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

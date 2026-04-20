@@ -1,10 +1,11 @@
 ---
 id: 2965
+internal_id: 3227
 slug: find-missing-and-repeated-values
 title: Find Missing and Repeated Values
 difficulty: Easy
 tags: Array, Hash Table, Math, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

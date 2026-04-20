@@ -1,5 +1,6 @@
 ---
 id: 2038
+internal_id: 2149
 slug: remove-colored-pieces-if-both-neighbors-are-the-same-color
 title: Remove Colored Pieces if Both Neighbors are the Same Color
 difficulty: Medium

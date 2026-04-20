@@ -1,10 +1,11 @@
 ---
 id: 3768
+internal_id: 4145
 slug: minimum-inversion-count-in-subarrays-of-fixed-length
 title: Minimum Inversion Count in Subarrays of Fixed Length
 difficulty: Hard
 tags: Array, Segment Tree, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

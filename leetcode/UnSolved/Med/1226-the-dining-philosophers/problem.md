@@ -1,5 +1,6 @@
 ---
 id: 1226
+internal_id: 1340
 slug: the-dining-philosophers
 title: The Dining Philosophers
 difficulty: Medium

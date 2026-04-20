@@ -1,5 +1,6 @@
 ---
 id: 2594
+internal_id: 2665
 slug: minimum-time-to-repair-cars
 title: Minimum Time to Repair Cars
 difficulty: Medium

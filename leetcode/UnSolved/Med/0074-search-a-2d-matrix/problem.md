@@ -1,5 +1,6 @@
 ---
 id: 74
+internal_id: 74
 slug: search-a-2d-matrix
 title: Search a 2D Matrix
 difficulty: Medium

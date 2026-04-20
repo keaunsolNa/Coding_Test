@@ -1,11 +1,12 @@
 ---
 id: 1729
+internal_id: 1877
 slug: find-followers-count
 title: Find Followers Count
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1729. Find Followers Count

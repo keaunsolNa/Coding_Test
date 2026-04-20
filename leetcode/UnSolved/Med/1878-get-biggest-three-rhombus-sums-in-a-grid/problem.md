@@ -1,5 +1,6 @@
 ---
 id: 1878
+internal_id: 1990
 slug: get-biggest-three-rhombus-sums-in-a-grid
 title: Get Biggest Three Rhombus Sums in a Grid
 difficulty: Medium

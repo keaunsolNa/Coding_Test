@@ -1,5 +1,6 @@
 ---
 id: 39
+internal_id: 39
 slug: combination-sum
 title: Combination Sum
 difficulty: Medium

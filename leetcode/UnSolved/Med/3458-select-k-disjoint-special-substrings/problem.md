@@ -1,5 +1,6 @@
 ---
 id: 3458
+internal_id: 3771
 slug: select-k-disjoint-special-substrings
 title: Select K Disjoint Special Substrings
 difficulty: Medium

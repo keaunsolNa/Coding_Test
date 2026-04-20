@@ -1,5 +1,6 @@
 ---
 id: 1986
+internal_id: 2114
 slug: minimum-number-of-work-sessions-to-finish-the-tasks
 title: Minimum Number of Work Sessions to Finish the Tasks
 difficulty: Medium

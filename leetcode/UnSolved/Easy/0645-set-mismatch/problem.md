@@ -1,10 +1,11 @@
 ---
 id: 645
+internal_id: 645
 slug: set-mismatch
 title: Set Mismatch
 difficulty: Easy
 tags: Array, Hash Table, Bit Manipulation, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

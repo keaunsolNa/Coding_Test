@@ -1,5 +1,6 @@
 ---
 id: 2743
+internal_id: 2890
 slug: count-substrings-without-repeating-character
 title: Count Substrings Without Repeating Character
 difficulty: Medium

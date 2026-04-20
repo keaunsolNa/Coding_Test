@@ -1,5 +1,6 @@
 ---
 id: 1400
+internal_id: 1502
 slug: construct-k-palindrome-strings
 title: Construct K Palindrome Strings
 difficulty: Medium

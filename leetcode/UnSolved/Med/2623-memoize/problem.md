@@ -1,5 +1,6 @@
 ---
 id: 2623
+internal_id: 2731
 slug: memoize
 title: Memoize
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3034
+internal_id: 3269
 slug: number-of-subarrays-that-match-a-pattern-i
 title: Number of Subarrays That Match a Pattern I
 difficulty: Medium

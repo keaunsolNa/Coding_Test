@@ -1,5 +1,6 @@
 ---
 id: 2829
+internal_id: 2811
 slug: determine-the-minimum-sum-of-a-k-avoiding-array
 title: Determine the Minimum Sum of a k-avoiding Array
 difficulty: Medium

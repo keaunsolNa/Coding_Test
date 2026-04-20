@@ -1,10 +1,11 @@
 ---
 id: 3826
+internal_id: 4121
 slug: minimum-partition-score
 title: Minimum Partition Score
 difficulty: Hard
 tags: Array, Divide and Conquer, Dynamic Programming, Queue, Prefix Sum, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

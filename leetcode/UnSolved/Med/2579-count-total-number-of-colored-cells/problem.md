@@ -1,5 +1,6 @@
 ---
 id: 2579
+internal_id: 2649
 slug: count-total-number-of-colored-cells
 title: Count Total Number of Colored Cells
 difficulty: Medium

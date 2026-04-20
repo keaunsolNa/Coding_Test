@@ -1,5 +1,6 @@
 ---
 id: 2280
+internal_id: 2367
 slug: minimum-lines-to-represent-a-line-chart
 title: Minimum Lines to Represent a Line Chart
 difficulty: Medium

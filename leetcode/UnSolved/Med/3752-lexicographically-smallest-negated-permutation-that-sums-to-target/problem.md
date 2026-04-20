@@ -1,5 +1,6 @@
 ---
 id: 3752
+internal_id: 4077
 slug: lexicographically-smallest-negated-permutation-that-sums-to-target
 title: Lexicographically Smallest Negated Permutation that Sums to Target
 difficulty: Medium

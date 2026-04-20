@@ -1,10 +1,11 @@
 ---
 id: 2169
+internal_id: 2288
 slug: count-operations-to-obtain-zero
 title: Count Operations to Obtain Zero
 difficulty: Easy
 tags: Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

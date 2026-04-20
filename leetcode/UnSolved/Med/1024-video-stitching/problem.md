@@ -1,5 +1,6 @@
 ---
 id: 1024
+internal_id: 1081
 slug: video-stitching
 title: Video Stitching
 difficulty: Medium

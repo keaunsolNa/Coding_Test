@@ -1,5 +1,6 @@
 ---
 id: 2211
+internal_id: 2317
 slug: count-collisions-on-a-road
 title: Count Collisions on a Road
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2760
+internal_id: 2866
 slug: longest-even-odd-subarray-with-threshold
 title: Longest Even Odd Subarray With Threshold
 difficulty: Easy
 tags: Array, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

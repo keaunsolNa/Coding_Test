@@ -1,10 +1,11 @@
 ---
 id: 3162
+internal_id: 3446
 slug: find-the-number-of-good-pairs-i
 title: Find the Number of Good Pairs I
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

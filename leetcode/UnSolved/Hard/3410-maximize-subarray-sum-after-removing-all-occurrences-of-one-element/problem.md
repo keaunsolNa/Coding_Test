@@ -1,10 +1,11 @@
 ---
 id: 3410
+internal_id: 3688
 slug: maximize-subarray-sum-after-removing-all-occurrences-of-one-element
 title: Maximize Subarray Sum After Removing All Occurrences of One Element
 difficulty: Hard
 tags: Array, Dynamic Programming, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

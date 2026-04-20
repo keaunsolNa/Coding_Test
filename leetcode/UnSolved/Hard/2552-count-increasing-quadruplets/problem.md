@@ -1,10 +1,11 @@
 ---
 id: 2552
+internal_id: 2682
 slug: count-increasing-quadruplets
 title: Count Increasing Quadruplets
 difficulty: Hard
 tags: Array, Dynamic Programming, Binary Indexed Tree, Enumeration, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

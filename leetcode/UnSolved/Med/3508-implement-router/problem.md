@@ -1,5 +1,6 @@
 ---
 id: 3508
+internal_id: 3827
 slug: implement-router
 title: Implement Router
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2860
+internal_id: 3104
 slug: happy-students
 title: Happy Students
 difficulty: Medium

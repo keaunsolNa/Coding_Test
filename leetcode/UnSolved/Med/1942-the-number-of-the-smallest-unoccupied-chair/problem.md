@@ -1,5 +1,6 @@
 ---
 id: 1942
+internal_id: 2054
 slug: the-number-of-the-smallest-unoccupied-chair
 title: The Number of the Smallest Unoccupied Chair
 difficulty: Medium

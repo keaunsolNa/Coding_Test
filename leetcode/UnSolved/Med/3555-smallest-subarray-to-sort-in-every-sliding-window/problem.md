@@ -1,5 +1,6 @@
 ---
 id: 3555
+internal_id: 3890
 slug: smallest-subarray-to-sort-in-every-sliding-window
 title: Smallest Subarray to Sort in Every Sliding Window
 difficulty: Medium

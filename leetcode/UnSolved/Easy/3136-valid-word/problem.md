@@ -1,10 +1,11 @@
 ---
 id: 3136
+internal_id: 3396
 slug: valid-word
 title: Valid Word
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

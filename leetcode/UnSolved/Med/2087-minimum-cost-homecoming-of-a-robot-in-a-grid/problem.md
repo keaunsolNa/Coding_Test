@@ -1,5 +1,6 @@
 ---
 id: 2087
+internal_id: 2192
 slug: minimum-cost-homecoming-of-a-robot-in-a-grid
 title: Minimum Cost Homecoming of a Robot in a Grid
 difficulty: Medium

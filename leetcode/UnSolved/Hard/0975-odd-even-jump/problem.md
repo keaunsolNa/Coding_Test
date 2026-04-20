@@ -1,10 +1,11 @@
 ---
 id: 975
+internal_id: 1017
 slug: odd-even-jump
 title: Odd Even Jump
 difficulty: Hard
 tags: Array, Dynamic Programming, Stack, Sorting, Monotonic Stack, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

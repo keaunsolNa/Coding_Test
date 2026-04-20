@@ -1,10 +1,11 @@
 ---
 id: 883
+internal_id: 919
 slug: projection-area-of-3d-shapes
 title: Projection Area of 3D Shapes
 difficulty: Easy
 tags: Array, Math, Geometry, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

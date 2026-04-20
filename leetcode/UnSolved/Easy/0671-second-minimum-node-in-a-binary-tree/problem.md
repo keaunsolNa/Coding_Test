@@ -1,10 +1,11 @@
 ---
 id: 671
+internal_id: 671
 slug: second-minimum-node-in-a-binary-tree
 title: Second Minimum Node In a Binary Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

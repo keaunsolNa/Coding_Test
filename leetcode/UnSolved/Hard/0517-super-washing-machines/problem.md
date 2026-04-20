@@ -1,10 +1,11 @@
 ---
 id: 517
+internal_id: 517
 slug: super-washing-machines
 title: Super Washing Machines
 difficulty: Hard
 tags: Array, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

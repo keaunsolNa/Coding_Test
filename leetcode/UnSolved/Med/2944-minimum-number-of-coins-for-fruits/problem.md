@@ -1,5 +1,6 @@
 ---
 id: 2944
+internal_id: 3209
 slug: minimum-number-of-coins-for-fruits
 title: Minimum Number of Coins for Fruits
 difficulty: Medium

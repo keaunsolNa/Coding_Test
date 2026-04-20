@@ -1,5 +1,6 @@
 ---
 id: 1664
+internal_id: 1783
 slug: ways-to-make-a-fair-array
 title: Ways to Make a Fair Array
 difficulty: Medium

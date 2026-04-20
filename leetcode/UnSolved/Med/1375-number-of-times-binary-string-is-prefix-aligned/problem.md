@@ -1,5 +1,6 @@
 ---
 id: 1375
+internal_id: 1491
 slug: number-of-times-binary-string-is-prefix-aligned
 title: Number of Times Binary String Is Prefix-Aligned
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 594
+internal_id: 594
 slug: longest-harmonious-subsequence
 title: Longest Harmonious Subsequence
 difficulty: Easy
 tags: Array, Hash Table, Sliding Window, Sorting, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

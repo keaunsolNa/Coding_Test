@@ -1,5 +1,6 @@
 ---
 id: 276
+internal_id: 276
 slug: paint-fence
 title: Paint Fence
 difficulty: Medium

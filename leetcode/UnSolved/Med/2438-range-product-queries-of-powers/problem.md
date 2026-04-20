@@ -1,5 +1,6 @@
 ---
 id: 2438
+internal_id: 2529
 slug: range-product-queries-of-powers
 title: Range Product Queries of Powers
 difficulty: Medium

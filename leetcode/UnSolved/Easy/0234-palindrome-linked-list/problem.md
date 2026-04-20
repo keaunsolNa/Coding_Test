@@ -1,10 +1,11 @@
 ---
 id: 234
+internal_id: 234
 slug: palindrome-linked-list
 title: Palindrome Linked List
 difficulty: Easy
 tags: Linked List, Two Pointers, Stack, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

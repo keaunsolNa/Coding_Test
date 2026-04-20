@@ -1,10 +1,11 @@
 ---
 id: 2937
+internal_id: 3207
 slug: make-three-strings-equal
 title: Make Three Strings Equal
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

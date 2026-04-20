@@ -1,5 +1,6 @@
 ---
 id: 215
+internal_id: 215
 slug: kth-largest-element-in-an-array
 title: Kth Largest Element in an Array
 difficulty: Medium

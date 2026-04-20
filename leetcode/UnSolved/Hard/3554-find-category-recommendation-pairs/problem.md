@@ -1,11 +1,12 @@
 ---
 id: 3554
+internal_id: 3891
 slug: find-category-recommendation-pairs
 title: Find Category Recommendation Pairs
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 3554. Find Category Recommendation Pairs

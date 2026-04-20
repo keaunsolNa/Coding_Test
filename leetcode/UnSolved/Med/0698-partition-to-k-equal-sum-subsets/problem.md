@@ -1,5 +1,6 @@
 ---
 id: 698
+internal_id: 698
 slug: partition-to-k-equal-sum-subsets
 title: Partition to K Equal Sum Subsets
 difficulty: Medium

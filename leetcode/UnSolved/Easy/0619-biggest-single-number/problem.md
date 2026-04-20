@@ -1,11 +1,12 @@
 ---
 id: 619
+internal_id: 619
 slug: biggest-single-number
 title: Biggest Single Number
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 619. Biggest Single Number

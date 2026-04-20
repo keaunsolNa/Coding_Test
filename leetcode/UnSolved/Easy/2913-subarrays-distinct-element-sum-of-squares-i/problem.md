@@ -1,10 +1,11 @@
 ---
 id: 2913
+internal_id: 3163
 slug: subarrays-distinct-element-sum-of-squares-i
 title: Subarrays Distinct Element Sum of Squares I
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

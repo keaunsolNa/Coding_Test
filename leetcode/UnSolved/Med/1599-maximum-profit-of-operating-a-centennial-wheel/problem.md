@@ -1,5 +1,6 @@
 ---
 id: 1599
+internal_id: 1721
 slug: maximum-profit-of-operating-a-centennial-wheel
 title: Maximum Profit of Operating a Centennial Wheel
 difficulty: Medium

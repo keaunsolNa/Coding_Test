@@ -1,10 +1,11 @@
 ---
 id: 1309
+internal_id: 1434
 slug: decrypt-string-from-alphabet-to-integer-mapping
 title: Decrypt String from Alphabet to Integer Mapping
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

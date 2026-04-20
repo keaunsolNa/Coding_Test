@@ -1,11 +1,12 @@
 ---
 id: 1126
+internal_id: 1225
 slug: active-businesses
 title: Active Businesses
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1126. Active Businesses

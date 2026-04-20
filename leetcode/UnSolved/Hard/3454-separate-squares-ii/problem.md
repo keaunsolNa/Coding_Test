@@ -1,10 +1,11 @@
 ---
 id: 3454
+internal_id: 3775
 slug: separate-squares-ii
 title: Separate Squares II
 difficulty: Hard
 tags: Array, Binary Search, Segment Tree, Sweep Line
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

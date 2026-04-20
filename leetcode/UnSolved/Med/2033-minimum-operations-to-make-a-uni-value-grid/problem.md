@@ -1,5 +1,6 @@
 ---
 id: 2033
+internal_id: 2160
 slug: minimum-operations-to-make-a-uni-value-grid
 title: Minimum Operations to Make a Uni-Value Grid
 difficulty: Medium

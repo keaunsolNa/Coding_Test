@@ -1,5 +1,6 @@
 ---
 id: 3742
+internal_id: 3986
 slug: maximum-path-score-in-a-grid
 title: Maximum Path Score in a Grid
 difficulty: Medium

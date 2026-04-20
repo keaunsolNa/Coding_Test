@@ -1,5 +1,6 @@
 ---
 id: 487
+internal_id: 487
 slug: max-consecutive-ones-ii
 title: Max Consecutive Ones II
 difficulty: Medium

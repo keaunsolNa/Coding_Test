@@ -1,10 +1,11 @@
 ---
 id: 3906
+internal_id: 4124
 slug: count-good-integers-on-a-grid-path
 title: Count Good Integers on a Grid Path
 difficulty: Hard
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3861
+internal_id: 4247
 slug: minimum-capacity-box
 title: Minimum Capacity Box
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 93
+internal_id: 93
 slug: restore-ip-addresses
 title: Restore IP Addresses
 difficulty: Medium

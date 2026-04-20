@@ -1,10 +1,11 @@
 ---
 id: 3261
+internal_id: 3546
 slug: count-substrings-that-satisfy-k-constraint-ii
 title: Count Substrings That Satisfy K-Constraint II
 difficulty: Hard
 tags: Array, String, Binary Search, Sliding Window, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

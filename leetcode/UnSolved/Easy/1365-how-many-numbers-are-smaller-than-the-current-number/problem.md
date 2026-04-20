@@ -1,10 +1,11 @@
 ---
 id: 1365
+internal_id: 1482
 slug: how-many-numbers-are-smaller-than-the-current-number
 title: How Many Numbers Are Smaller Than the Current Number
 difficulty: Easy
 tags: Array, Hash Table, Sorting, Counting Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

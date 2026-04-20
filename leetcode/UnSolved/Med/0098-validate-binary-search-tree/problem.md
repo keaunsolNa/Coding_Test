@@ -1,5 +1,6 @@
 ---
 id: 98
+internal_id: 98
 slug: validate-binary-search-tree
 title: Validate Binary Search Tree
 difficulty: Medium

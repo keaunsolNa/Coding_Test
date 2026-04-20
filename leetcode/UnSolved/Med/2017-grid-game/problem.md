@@ -1,5 +1,6 @@
 ---
 id: 2017
+internal_id: 2145
 slug: grid-game
 title: Grid Game
 difficulty: Medium

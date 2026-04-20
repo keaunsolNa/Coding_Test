@@ -1,10 +1,11 @@
 ---
 id: 1411
+internal_id: 1527
 slug: number-of-ways-to-paint-n-3-grid
 title: Number of Ways to Paint N × 3 Grid
 difficulty: Hard
 tags: Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

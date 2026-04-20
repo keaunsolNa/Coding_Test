@@ -1,10 +1,11 @@
 ---
 id: 1250
+internal_id: 1372
 slug: check-if-it-is-a-good-array
 title: Check If It Is a Good Array
 difficulty: Hard
 tags: Array, Math, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

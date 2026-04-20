@@ -1,10 +1,11 @@
 ---
 id: 2908
+internal_id: 3176
 slug: minimum-sum-of-mountain-triplets-i
 title: Minimum Sum of Mountain Triplets I
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

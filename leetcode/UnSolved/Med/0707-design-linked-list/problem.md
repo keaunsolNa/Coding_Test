@@ -1,5 +1,6 @@
 ---
 id: 707
+internal_id: 838
 slug: design-linked-list
 title: Design Linked List
 difficulty: Medium

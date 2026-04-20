@@ -1,11 +1,12 @@
 ---
 id: 1667
+internal_id: 1811
 slug: fix-names-in-a-table
 title: Fix Names in a Table
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1667. Fix Names in a Table

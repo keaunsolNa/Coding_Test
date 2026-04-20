@@ -1,5 +1,6 @@
 ---
 id: 1234
+internal_id: 1351
 slug: replace-the-substring-for-balanced-string
 title: Replace the Substring for Balanced String
 difficulty: Medium

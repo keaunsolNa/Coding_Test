@@ -1,10 +1,11 @@
 ---
 id: 2262
+internal_id: 2340
 slug: total-appeal-of-a-string
 title: Total Appeal of A String
 difficulty: Hard
 tags: Hash Table, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

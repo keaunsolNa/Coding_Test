@@ -1,5 +1,6 @@
 ---
 id: 1451
+internal_id: 1561
 slug: rearrange-words-in-a-sentence
 title: Rearrange Words in a Sentence
 difficulty: Medium

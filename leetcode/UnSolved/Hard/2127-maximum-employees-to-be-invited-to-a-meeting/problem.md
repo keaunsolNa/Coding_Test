@@ -1,10 +1,11 @@
 ---
 id: 2127
+internal_id: 2246
 slug: maximum-employees-to-be-invited-to-a-meeting
 title: Maximum Employees to Be Invited to a Meeting
 difficulty: Hard
 tags: Array, Dynamic Programming, Depth-First Search, Graph Theory, Topological Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 557
+internal_id: 557
 slug: reverse-words-in-a-string-iii
 title: Reverse Words in a String III
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

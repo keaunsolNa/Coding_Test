@@ -1,5 +1,6 @@
 ---
 id: 2401
+internal_id: 2478
 slug: longest-nice-subarray
 title: Longest Nice Subarray
 difficulty: Medium

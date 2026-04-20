@@ -1,10 +1,11 @@
 ---
 id: 1331
+internal_id: 1256
 slug: rank-transform-of-an-array
 title: Rank Transform of an Array
 difficulty: Easy
 tags: Array, Hash Table, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

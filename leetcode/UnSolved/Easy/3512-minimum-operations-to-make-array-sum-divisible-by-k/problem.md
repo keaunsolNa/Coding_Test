@@ -1,10 +1,11 @@
 ---
 id: 3512
+internal_id: 3846
 slug: minimum-operations-to-make-array-sum-divisible-by-k
 title: Minimum Operations to Make Array Sum Divisible by K
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

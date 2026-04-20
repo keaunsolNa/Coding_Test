@@ -1,10 +1,11 @@
 ---
 id: 3405
+internal_id: 3682
 slug: count-the-number-of-arrays-with-k-matching-adjacent-elements
 title: Count the Number of Arrays with K Matching Adjacent Elements
 difficulty: Hard
 tags: Math, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 858
+internal_id: 888
 slug: mirror-reflection
 title: Mirror Reflection
 difficulty: Medium

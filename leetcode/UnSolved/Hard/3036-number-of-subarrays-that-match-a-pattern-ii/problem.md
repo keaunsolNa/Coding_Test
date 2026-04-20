@@ -1,10 +1,11 @@
 ---
 id: 3036
+internal_id: 3290
 slug: number-of-subarrays-that-match-a-pattern-ii
 title: Number of Subarrays That Match a Pattern II
 difficulty: Hard
 tags: Array, Rolling Hash, String Matching, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 400
+internal_id: 400
 slug: nth-digit
 title: Nth Digit
 difficulty: Medium

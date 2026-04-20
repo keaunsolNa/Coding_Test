@@ -1,10 +1,11 @@
 ---
 id: 982
+internal_id: 1024
 slug: triples-with-bitwise-and-equal-to-zero
 title: Triples with Bitwise AND Equal To Zero
 difficulty: Hard
 tags: Array, Hash Table, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

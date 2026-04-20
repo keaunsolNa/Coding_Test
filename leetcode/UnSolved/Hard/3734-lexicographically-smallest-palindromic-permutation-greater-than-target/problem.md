@@ -1,10 +1,11 @@
 ---
 id: 3734
+internal_id: 4037
 slug: lexicographically-smallest-palindromic-permutation-greater-than-target
 title: Lexicographically Smallest Palindromic Permutation Greater Than Target
 difficulty: Hard
 tags: Two Pointers, String, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

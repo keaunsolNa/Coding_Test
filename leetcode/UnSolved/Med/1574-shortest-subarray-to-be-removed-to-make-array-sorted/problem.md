@@ -1,5 +1,6 @@
 ---
 id: 1574
+internal_id: 1679
 slug: shortest-subarray-to-be-removed-to-make-array-sorted
 title: Shortest Subarray to be Removed to Make Array Sorted
 difficulty: Medium

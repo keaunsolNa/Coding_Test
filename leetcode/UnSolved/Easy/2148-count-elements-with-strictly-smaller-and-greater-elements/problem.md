@@ -1,10 +1,11 @@
 ---
 id: 2148
+internal_id: 2269
 slug: count-elements-with-strictly-smaller-and-greater-elements
 title: Count Elements With Strictly Smaller and Greater Elements 
 difficulty: Easy
 tags: Array, Sorting, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

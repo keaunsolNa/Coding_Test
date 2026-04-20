@@ -1,5 +1,6 @@
 ---
 id: 2282
+internal_id: 2425
 slug: number-of-people-that-can-be-seen-in-a-grid
 title: Number of People That Can Be Seen in a Grid
 difficulty: Medium

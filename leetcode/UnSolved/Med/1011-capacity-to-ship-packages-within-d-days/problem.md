@@ -1,5 +1,6 @@
 ---
 id: 1011
+internal_id: 1056
 slug: capacity-to-ship-packages-within-d-days
 title: Capacity To Ship Packages Within D Days
 difficulty: Medium

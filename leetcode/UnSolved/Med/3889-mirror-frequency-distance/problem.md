@@ -1,5 +1,6 @@
 ---
 id: 3889
+internal_id: 4273
 slug: mirror-frequency-distance
 title: Mirror Frequency Distance
 difficulty: Medium

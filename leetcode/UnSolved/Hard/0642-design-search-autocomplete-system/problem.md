@@ -1,10 +1,11 @@
 ---
 id: 642
+internal_id: 642
 slug: design-search-autocomplete-system
 title: Design Search Autocomplete System
 difficulty: Hard
 tags: String, Depth-First Search, Design, Trie, Sorting, Heap (Priority Queue), Data Stream
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

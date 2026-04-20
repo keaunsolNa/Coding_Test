@@ -1,10 +1,11 @@
 ---
 id: 2609
+internal_id: 2723
 slug: find-the-longest-balanced-substring-of-a-binary-string
 title: Find the Longest Balanced Substring of a Binary String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1562
+internal_id: 1684
 slug: find-latest-group-of-size-m
 title: Find Latest Group of Size M
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 504
+internal_id: 504
 slug: base-7
 title: Base 7
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

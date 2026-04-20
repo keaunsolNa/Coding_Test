@@ -1,5 +1,6 @@
 ---
 id: 2358
+internal_id: 2437
 slug: maximum-number-of-groups-entering-a-competition
 title: Maximum Number of Groups Entering a Competition
 difficulty: Medium

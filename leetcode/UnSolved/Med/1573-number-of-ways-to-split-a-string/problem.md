@@ -1,5 +1,6 @@
 ---
 id: 1573
+internal_id: 1678
 slug: number-of-ways-to-split-a-string
 title: Number of Ways to Split a String
 difficulty: Medium

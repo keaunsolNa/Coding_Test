@@ -1,10 +1,11 @@
 ---
 id: 805
+internal_id: 823
 slug: split-array-with-same-average
 title: Split Array With Same Average
 difficulty: Hard
 tags: Array, Hash Table, Math, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

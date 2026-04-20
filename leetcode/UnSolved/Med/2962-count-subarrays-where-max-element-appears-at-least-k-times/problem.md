@@ -1,5 +1,6 @@
 ---
 id: 2962
+internal_id: 3213
 slug: count-subarrays-where-max-element-appears-at-least-k-times
 title: Count Subarrays Where Max Element Appears at Least K Times
 difficulty: Medium

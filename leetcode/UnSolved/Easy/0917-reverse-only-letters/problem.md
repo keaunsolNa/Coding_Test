@@ -1,10 +1,11 @@
 ---
 id: 917
+internal_id: 953
 slug: reverse-only-letters
 title: Reverse Only Letters
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

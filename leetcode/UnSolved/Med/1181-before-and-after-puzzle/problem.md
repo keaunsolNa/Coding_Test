@@ -1,5 +1,6 @@
 ---
 id: 1181
+internal_id: 1132
 slug: before-and-after-puzzle
 title: Before and After Puzzle
 difficulty: Medium

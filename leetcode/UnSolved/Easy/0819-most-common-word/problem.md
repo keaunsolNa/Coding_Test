@@ -1,10 +1,11 @@
 ---
 id: 819
+internal_id: 837
 slug: most-common-word
 title: Most Common Word
 difficulty: Easy
 tags: Array, Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

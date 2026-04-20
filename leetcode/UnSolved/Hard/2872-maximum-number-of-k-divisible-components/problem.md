@@ -1,10 +1,11 @@
 ---
 id: 2872
+internal_id: 3058
 slug: maximum-number-of-k-divisible-components
 title: Maximum Number of K-Divisible Components
 difficulty: Hard
 tags: Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

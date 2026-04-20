@@ -1,5 +1,6 @@
 ---
 id: 2564
+internal_id: 2700
 slug: substring-xor-queries
 title: Substring XOR Queries
 difficulty: Medium

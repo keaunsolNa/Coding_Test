@@ -1,10 +1,11 @@
 ---
 id: 2878
+internal_id: 3076
 slug: get-the-size-of-a-dataframe
 title: Get the Size of a DataFrame
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

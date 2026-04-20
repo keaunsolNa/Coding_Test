@@ -1,5 +1,6 @@
 ---
 id: 198
+internal_id: 198
 slug: house-robber
 title: House Robber
 difficulty: Medium

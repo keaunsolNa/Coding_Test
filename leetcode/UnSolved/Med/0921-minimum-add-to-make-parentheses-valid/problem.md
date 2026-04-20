@@ -1,5 +1,6 @@
 ---
 id: 921
+internal_id: 957
 slug: minimum-add-to-make-parentheses-valid
 title: Minimum Add to Make Parentheses Valid
 difficulty: Medium

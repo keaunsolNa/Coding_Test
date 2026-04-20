@@ -1,5 +1,6 @@
 ---
 id: 721
+internal_id: 721
 slug: accounts-merge
 title: Accounts Merge
 difficulty: Medium

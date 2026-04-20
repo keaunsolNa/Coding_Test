@@ -1,5 +1,6 @@
 ---
 id: 249
+internal_id: 249
 slug: group-shifted-strings
 title: Group Shifted Strings
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3532
+internal_id: 3838
 slug: path-existence-queries-in-a-graph-i
 title: Path Existence Queries in a Graph I
 difficulty: Medium

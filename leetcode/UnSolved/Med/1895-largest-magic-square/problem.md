@@ -1,5 +1,6 @@
 ---
 id: 1895
+internal_id: 1311
 slug: largest-magic-square
 title: Largest Magic Square
 difficulty: Medium

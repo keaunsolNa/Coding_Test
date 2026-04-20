@@ -1,5 +1,6 @@
 ---
 id: 328
+internal_id: 328
 slug: odd-even-linked-list
 title: Odd Even Linked List
 difficulty: Medium

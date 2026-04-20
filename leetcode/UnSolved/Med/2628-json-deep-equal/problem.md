@@ -1,5 +1,6 @@
 ---
 id: 2628
+internal_id: 2735
 slug: json-deep-equal
 title: JSON Deep Equal
 difficulty: Medium

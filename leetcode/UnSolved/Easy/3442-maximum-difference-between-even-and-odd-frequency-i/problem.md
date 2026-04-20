@@ -1,10 +1,11 @@
 ---
 id: 3442
+internal_id: 3753
 slug: maximum-difference-between-even-and-odd-frequency-i
 title: Maximum Difference Between Even and Odd Frequency I
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

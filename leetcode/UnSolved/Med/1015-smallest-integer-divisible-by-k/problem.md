@@ -1,5 +1,6 @@
 ---
 id: 1015
+internal_id: 1064
 slug: smallest-integer-divisible-by-k
 title: Smallest Integer Divisible by K
 difficulty: Medium

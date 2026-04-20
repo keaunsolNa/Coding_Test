@@ -1,5 +1,6 @@
 ---
 id: 901
+internal_id: 937
 slug: online-stock-span
 title: Online Stock Span
 difficulty: Medium

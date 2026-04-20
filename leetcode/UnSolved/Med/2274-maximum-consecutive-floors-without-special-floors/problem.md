@@ -1,5 +1,6 @@
 ---
 id: 2274
+internal_id: 2355
 slug: maximum-consecutive-floors-without-special-floors
 title: Maximum Consecutive Floors Without Special Floors
 difficulty: Medium

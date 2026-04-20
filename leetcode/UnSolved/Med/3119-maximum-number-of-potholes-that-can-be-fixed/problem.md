@@ -1,5 +1,6 @@
 ---
 id: 3119
+internal_id: 3425
 slug: maximum-number-of-potholes-that-can-be-fixed
 title: Maximum Number of Potholes That Can Be Fixed
 difficulty: Medium

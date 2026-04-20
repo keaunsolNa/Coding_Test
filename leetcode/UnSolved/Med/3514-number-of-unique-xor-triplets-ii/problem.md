@@ -1,5 +1,6 @@
 ---
 id: 3514
+internal_id: 3820
 slug: number-of-unique-xor-triplets-ii
 title: Number of Unique XOR Triplets II
 difficulty: Medium

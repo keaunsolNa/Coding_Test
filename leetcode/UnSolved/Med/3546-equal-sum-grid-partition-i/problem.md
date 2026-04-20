@@ -1,5 +1,6 @@
 ---
 id: 3546
+internal_id: 3849
 slug: equal-sum-grid-partition-i
 title: Equal Sum Grid Partition I
 difficulty: Medium

@@ -1,11 +1,12 @@
 ---
 id: 182
+internal_id: 182
 slug: duplicate-emails
 title: Duplicate Emails
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 182. Duplicate Emails

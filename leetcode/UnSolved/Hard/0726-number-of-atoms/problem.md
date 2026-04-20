@@ -1,10 +1,11 @@
 ---
 id: 726
+internal_id: 726
 slug: number-of-atoms
 title: Number of Atoms
 difficulty: Hard
 tags: Hash Table, String, Stack, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

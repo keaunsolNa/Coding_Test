@@ -1,5 +1,6 @@
 ---
 id: 3807
+internal_id: 4197
 slug: minimum-cost-to-repair-edges-to-traverse-a-graph
 title: Minimum Cost to Repair Edges to Traverse a Graph
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3179
+internal_id: 3422
 slug: find-the-n-th-value-after-k-seconds
 title: Find the N-th Value After K Seconds
 difficulty: Medium

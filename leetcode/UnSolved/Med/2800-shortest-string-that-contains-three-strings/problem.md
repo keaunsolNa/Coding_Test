@@ -1,5 +1,6 @@
 ---
 id: 2800
+internal_id: 2877
 slug: shortest-string-that-contains-three-strings
 title: Shortest String That Contains Three Strings
 difficulty: Medium

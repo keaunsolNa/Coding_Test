@@ -1,10 +1,11 @@
 ---
 id: 3630
+internal_id: 3882
 slug: partition-array-for-maximum-xor-and-and
 title: Partition Array for Maximum XOR and AND
 difficulty: Hard
 tags: Array, Math, Greedy, Bit Manipulation, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

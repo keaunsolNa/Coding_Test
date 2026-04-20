@@ -1,10 +1,11 @@
 ---
 id: 929
+internal_id: 965
 slug: unique-email-addresses
 title: Unique Email Addresses
 difficulty: Easy
 tags: Array, Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

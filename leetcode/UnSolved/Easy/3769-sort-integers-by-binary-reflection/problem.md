@@ -1,10 +1,11 @@
 ---
 id: 3769
+internal_id: 4150
 slug: sort-integers-by-binary-reflection
 title: Sort Integers by Binary Reflection
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

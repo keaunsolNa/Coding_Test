@@ -1,5 +1,6 @@
 ---
 id: 3578
+internal_id: 3835
 slug: count-partitions-with-max-min-difference-at-most-k
 title: Count Partitions With Max-Min Difference at Most K
 difficulty: Medium

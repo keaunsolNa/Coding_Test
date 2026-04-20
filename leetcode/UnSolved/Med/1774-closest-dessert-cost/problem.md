@@ -1,5 +1,6 @@
 ---
 id: 1774
+internal_id: 1900
 slug: closest-dessert-cost
 title: Closest Dessert Cost
 difficulty: Medium

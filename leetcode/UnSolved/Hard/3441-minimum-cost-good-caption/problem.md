@@ -1,10 +1,11 @@
 ---
 id: 3441
+internal_id: 3701
 slug: minimum-cost-good-caption
 title: Minimum Cost Good Caption
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

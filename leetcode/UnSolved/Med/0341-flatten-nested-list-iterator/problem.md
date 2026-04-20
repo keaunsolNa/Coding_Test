@@ -1,5 +1,6 @@
 ---
 id: 341
+internal_id: 341
 slug: flatten-nested-list-iterator
 title: Flatten Nested List Iterator
 difficulty: Medium

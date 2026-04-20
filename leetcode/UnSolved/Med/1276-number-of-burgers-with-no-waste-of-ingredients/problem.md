@@ -1,5 +1,6 @@
 ---
 id: 1276
+internal_id: 1401
 slug: number-of-burgers-with-no-waste-of-ingredients
 title: Number of Burgers with No Waste of Ingredients
 difficulty: Medium

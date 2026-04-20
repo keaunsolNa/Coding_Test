@@ -1,10 +1,11 @@
 ---
 id: 3739
+internal_id: 4075
 slug: count-subarrays-with-majority-element-ii
 title: Count Subarrays With Majority Element II
 difficulty: Hard
 tags: Array, Hash Table, Divide and Conquer, Segment Tree, Merge Sort, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

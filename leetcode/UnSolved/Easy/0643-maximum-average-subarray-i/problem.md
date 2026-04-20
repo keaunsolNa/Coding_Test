@@ -1,10 +1,11 @@
 ---
 id: 643
+internal_id: 643
 slug: maximum-average-subarray-i
 title: Maximum Average Subarray I
 difficulty: Easy
 tags: Array, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 423
+internal_id: 423
 slug: reconstruct-original-digits-from-english
 title: Reconstruct Original Digits from English
 difficulty: Medium

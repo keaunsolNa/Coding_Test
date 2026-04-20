@@ -1,10 +1,11 @@
 ---
 id: 693
+internal_id: 693
 slug: binary-number-with-alternating-bits
 title: Binary Number with Alternating Bits
 difficulty: Easy
 tags: Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

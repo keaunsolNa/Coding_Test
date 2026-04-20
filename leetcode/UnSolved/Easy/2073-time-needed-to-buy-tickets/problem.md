@@ -1,10 +1,11 @@
 ---
 id: 2073
+internal_id: 2195
 slug: time-needed-to-buy-tickets
 title: Time Needed to Buy Tickets
 difficulty: Easy
 tags: Array, Queue, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 903
+internal_id: 939
 slug: valid-permutations-for-di-sequence
 title: Valid Permutations for DI Sequence
 difficulty: Hard
 tags: String, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

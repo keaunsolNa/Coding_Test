@@ -1,5 +1,6 @@
 ---
 id: 1992
+internal_id: 2103
 slug: find-all-groups-of-farmland
 title: Find All Groups of Farmland
 difficulty: Medium

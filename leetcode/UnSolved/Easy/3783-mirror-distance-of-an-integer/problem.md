@@ -1,10 +1,11 @@
 ---
 id: 3783
+internal_id: 4168
 slug: mirror-distance-of-an-integer
 title: Mirror Distance of an Integer
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

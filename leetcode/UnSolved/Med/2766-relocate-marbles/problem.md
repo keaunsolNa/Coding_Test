@@ -1,5 +1,6 @@
 ---
 id: 2766
+internal_id: 2834
 slug: relocate-marbles
 title: Relocate Marbles
 difficulty: Medium

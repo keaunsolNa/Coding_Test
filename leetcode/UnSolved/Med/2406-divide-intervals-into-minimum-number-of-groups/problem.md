@@ -1,5 +1,6 @@
 ---
 id: 2406
+internal_id: 2488
 slug: divide-intervals-into-minimum-number-of-groups
 title: Divide Intervals Into Minimum Number of Groups
 difficulty: Medium

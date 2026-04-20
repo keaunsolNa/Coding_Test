@@ -1,5 +1,6 @@
 ---
 id: 3144
+internal_id: 3403
 slug: minimum-substring-partition-of-equal-character-frequency
 title: Minimum Substring Partition of Equal Character Frequency
 difficulty: Medium

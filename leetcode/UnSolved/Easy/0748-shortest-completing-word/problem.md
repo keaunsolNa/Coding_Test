@@ -1,10 +1,11 @@
 ---
 id: 748
+internal_id: 749
 slug: shortest-completing-word
 title: Shortest Completing Word
 difficulty: Easy
 tags: Array, Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

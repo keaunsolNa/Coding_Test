@@ -1,5 +1,6 @@
 ---
 id: 3790
+internal_id: 4175
 slug: smallest-all-ones-multiple
 title: Smallest All-Ones Multiple
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3550
+internal_id: 3869
 slug: smallest-index-with-digit-sum-equal-to-index
 title: Smallest Index With Digit Sum Equal to Index
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

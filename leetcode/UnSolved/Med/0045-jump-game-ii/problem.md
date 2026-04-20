@@ -1,5 +1,6 @@
 ---
 id: 45
+internal_id: 45
 slug: jump-game-ii
 title: Jump Game II
 difficulty: Medium

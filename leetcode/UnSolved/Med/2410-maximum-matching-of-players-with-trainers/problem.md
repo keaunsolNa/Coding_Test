@@ -1,5 +1,6 @@
 ---
 id: 2410
+internal_id: 2497
 slug: maximum-matching-of-players-with-trainers
 title: Maximum Matching of Players With Trainers
 difficulty: Medium

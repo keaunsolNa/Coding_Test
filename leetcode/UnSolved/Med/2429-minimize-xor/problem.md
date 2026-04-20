@@ -1,5 +1,6 @@
 ---
 id: 2429
+internal_id: 2509
 slug: minimize-xor
 title: Minimize XOR
 difficulty: Medium

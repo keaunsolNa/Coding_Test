@@ -1,5 +1,6 @@
 ---
 id: 611
+internal_id: 611
 slug: valid-triangle-number
 title: Valid Triangle Number
 difficulty: Medium

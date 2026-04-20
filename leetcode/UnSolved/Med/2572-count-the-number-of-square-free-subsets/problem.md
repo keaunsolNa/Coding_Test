@@ -1,5 +1,6 @@
 ---
 id: 2572
+internal_id: 2709
 slug: count-the-number-of-square-free-subsets
 title: Count the Number of Square-Free Subsets
 difficulty: Medium

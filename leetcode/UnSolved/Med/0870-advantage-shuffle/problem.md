@@ -1,5 +1,6 @@
 ---
 id: 870
+internal_id: 901
 slug: advantage-shuffle
 title: Advantage Shuffle
 difficulty: Medium

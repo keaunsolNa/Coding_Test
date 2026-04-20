@@ -1,5 +1,6 @@
 ---
 id: 2816
+internal_id: 2871
 slug: double-a-number-represented-as-a-linked-list
 title: Double a Number Represented as a Linked List
 difficulty: Medium

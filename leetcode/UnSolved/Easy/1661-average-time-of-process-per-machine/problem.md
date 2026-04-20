@@ -1,11 +1,12 @@
 ---
 id: 1661
+internal_id: 1801
 slug: average-time-of-process-per-machine
 title: Average Time of Process per Machine
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1661. Average Time of Process per Machine

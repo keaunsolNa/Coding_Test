@@ -1,5 +1,6 @@
 ---
 id: 3787
+internal_id: 4165
 slug: find-diameter-endpoints-of-a-tree
 title: Find Diameter Endpoints of a Tree
 difficulty: Medium

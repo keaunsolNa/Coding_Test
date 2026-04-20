@@ -1,5 +1,6 @@
 ---
 id: 752
+internal_id: 753
 slug: open-the-lock
 title: Open the Lock
 difficulty: Medium

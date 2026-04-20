@@ -1,5 +1,6 @@
 ---
 id: 2244
+internal_id: 2362
 slug: minimum-rounds-to-complete-all-tasks
 title: Minimum Rounds to Complete All Tasks
 difficulty: Medium

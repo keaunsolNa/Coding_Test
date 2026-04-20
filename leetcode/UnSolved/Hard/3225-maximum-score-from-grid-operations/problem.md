@@ -1,10 +1,11 @@
 ---
 id: 3225
+internal_id: 3470
 slug: maximum-score-from-grid-operations
 title: Maximum Score From Grid Operations
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

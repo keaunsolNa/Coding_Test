@@ -1,11 +1,12 @@
 ---
 id: 180
+internal_id: 180
 slug: consecutive-numbers
 title: Consecutive Numbers
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 180. Consecutive Numbers

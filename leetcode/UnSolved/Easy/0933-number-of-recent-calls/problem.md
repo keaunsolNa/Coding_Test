@@ -1,10 +1,11 @@
 ---
 id: 933
+internal_id: 969
 slug: number-of-recent-calls
 title: Number of Recent Calls
 difficulty: Easy
 tags: Design, Queue, Data Stream
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

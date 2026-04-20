@@ -1,10 +1,11 @@
 ---
 id: 3379
+internal_id: 3651
 slug: transformed-array
 title: Transformed Array
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1320
+internal_id: 1443
 slug: minimum-distance-to-type-a-word-using-two-fingers
 title: Minimum Distance to Type a Word Using Two Fingers
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

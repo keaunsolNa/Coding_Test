@@ -1,10 +1,11 @@
 ---
 id: 2255
+internal_id: 2341
 slug: count-prefixes-of-a-given-string
 title: Count Prefixes of a Given String
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3192
+internal_id: 3477
 slug: minimum-operations-to-make-binary-array-elements-equal-to-one-ii
 title: Minimum Operations to Make Binary Array Elements Equal to One II
 difficulty: Medium

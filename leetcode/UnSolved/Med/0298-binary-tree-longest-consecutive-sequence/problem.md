@@ -1,5 +1,6 @@
 ---
 id: 298
+internal_id: 298
 slug: binary-tree-longest-consecutive-sequence
 title: Binary Tree Longest Consecutive Sequence
 difficulty: Medium

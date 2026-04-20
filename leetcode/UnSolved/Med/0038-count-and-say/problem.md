@@ -1,5 +1,6 @@
 ---
 id: 38
+internal_id: 38
 slug: count-and-say
 title: Count and Say
 difficulty: Medium

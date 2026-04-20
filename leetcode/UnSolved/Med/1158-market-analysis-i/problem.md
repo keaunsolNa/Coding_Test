@@ -1,11 +1,12 @@
 ---
 id: 1158
+internal_id: 1268
 slug: market-analysis-i
 title: Market Analysis I
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1158. Market Analysis I

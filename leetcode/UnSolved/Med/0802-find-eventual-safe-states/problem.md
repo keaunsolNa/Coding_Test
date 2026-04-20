@@ -1,5 +1,6 @@
 ---
 id: 802
+internal_id: 820
 slug: find-eventual-safe-states
 title: Find Eventual Safe States
 difficulty: Medium

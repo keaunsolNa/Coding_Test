@@ -1,5 +1,6 @@
 ---
 id: 2420
+internal_id: 2504
 slug: find-all-good-indices
 title: Find All Good Indices
 difficulty: Medium

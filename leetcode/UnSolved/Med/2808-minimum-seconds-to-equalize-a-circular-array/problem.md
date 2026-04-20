@@ -1,5 +1,6 @@
 ---
 id: 2808
+internal_id: 2920
 slug: minimum-seconds-to-equalize-a-circular-array
 title: Minimum Seconds to Equalize a Circular Array
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1583
+internal_id: 1705
 slug: count-unhappy-friends
 title: Count Unhappy Friends
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2952
+internal_id: 3231
 slug: minimum-number-of-coins-to-be-added
 title: Minimum Number of Coins to be Added
 difficulty: Medium

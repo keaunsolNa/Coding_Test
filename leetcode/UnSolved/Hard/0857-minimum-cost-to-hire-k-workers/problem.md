@@ -1,10 +1,11 @@
 ---
 id: 857
+internal_id: 887
 slug: minimum-cost-to-hire-k-workers
 title: Minimum Cost to Hire K Workers
 difficulty: Hard
 tags: Array, Greedy, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

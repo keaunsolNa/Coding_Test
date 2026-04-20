@@ -1,10 +1,11 @@
 ---
 id: 3250
+internal_id: 3535
 slug: find-the-count-of-monotonic-pairs-i
 title: Find the Count of Monotonic Pairs I
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Combinatorics, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

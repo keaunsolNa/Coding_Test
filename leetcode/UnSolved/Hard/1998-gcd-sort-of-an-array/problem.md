@@ -1,10 +1,11 @@
 ---
 id: 1998
+internal_id: 2125
 slug: gcd-sort-of-an-array
 title: GCD Sort of an Array
 difficulty: Hard
 tags: Array, Math, Union-Find, Sorting, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

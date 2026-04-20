@@ -1,10 +1,11 @@
 ---
 id: 3187
+internal_id: 3438
 slug: peaks-in-array
 title: Peaks in Array
 difficulty: Hard
 tags: Array, Binary Indexed Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

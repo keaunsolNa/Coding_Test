@@ -1,10 +1,11 @@
 ---
 id: 2813
+internal_id: 2894
 slug: maximum-elegance-of-a-k-length-subsequence
 title: Maximum Elegance of a K-Length Subsequence
 difficulty: Hard
 tags: Array, Hash Table, Stack, Greedy, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

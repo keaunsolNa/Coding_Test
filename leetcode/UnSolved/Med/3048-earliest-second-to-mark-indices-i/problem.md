@@ -1,5 +1,6 @@
 ---
 id: 3048
+internal_id: 3292
 slug: earliest-second-to-mark-indices-i
 title: Earliest Second to Mark Indices I
 difficulty: Medium

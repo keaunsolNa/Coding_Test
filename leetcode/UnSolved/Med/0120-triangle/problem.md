@@ -1,5 +1,6 @@
 ---
 id: 120
+internal_id: 120
 slug: triangle
 title: Triangle
 difficulty: Medium

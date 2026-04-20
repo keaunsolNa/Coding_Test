@@ -1,5 +1,6 @@
 ---
 id: 2875
+internal_id: 3141
 slug: minimum-size-subarray-in-infinite-array
 title: Minimum Size Subarray in Infinite Array
 difficulty: Medium

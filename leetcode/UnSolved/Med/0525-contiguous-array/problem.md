@@ -1,5 +1,6 @@
 ---
 id: 525
+internal_id: 525
 slug: contiguous-array
 title: Contiguous Array
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2865
+internal_id: 3114
 slug: beautiful-towers-i
 title: Beautiful Towers I
 difficulty: Medium

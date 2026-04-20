@@ -1,10 +1,11 @@
 ---
 id: 3407
+internal_id: 3684
 slug: substring-matching-pattern
 title: Substring Matching Pattern
 difficulty: Easy
 tags: String, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

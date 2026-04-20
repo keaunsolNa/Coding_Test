@@ -1,5 +1,6 @@
 ---
 id: 445
+internal_id: 445
 slug: add-two-numbers-ii
 title: Add Two Numbers II
 difficulty: Medium

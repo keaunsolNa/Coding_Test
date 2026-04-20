@@ -1,5 +1,6 @@
 ---
 id: 130
+internal_id: 130
 slug: surrounded-regions
 title: Surrounded Regions
 difficulty: Medium

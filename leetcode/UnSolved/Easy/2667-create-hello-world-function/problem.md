@@ -1,10 +1,11 @@
 ---
 id: 2667
+internal_id: 2809
 slug: create-hello-world-function
 title: Create Hello World Function
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

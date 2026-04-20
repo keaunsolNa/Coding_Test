@@ -1,5 +1,6 @@
 ---
 id: 2773
+internal_id: 2944
 slug: height-of-special-binary-tree
 title: Height of Special Binary Tree
 difficulty: Medium

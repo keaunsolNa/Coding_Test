@@ -1,10 +1,11 @@
 ---
 id: 1556
+internal_id: 1660
 slug: thousand-separator
 title: Thousand Separator
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

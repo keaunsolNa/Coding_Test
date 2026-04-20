@@ -1,5 +1,6 @@
 ---
 id: 1760
+internal_id: 1886
 slug: minimum-limit-of-balls-in-a-bag
 title: Minimum Limit of Balls in a Bag
 difficulty: Medium

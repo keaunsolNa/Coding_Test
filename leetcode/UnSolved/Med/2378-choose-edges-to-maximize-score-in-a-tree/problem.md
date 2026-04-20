@@ -1,5 +1,6 @@
 ---
 id: 2378
+internal_id: 2517
 slug: choose-edges-to-maximize-score-in-a-tree
 title: Choose Edges to Maximize Score in a Tree
 difficulty: Medium

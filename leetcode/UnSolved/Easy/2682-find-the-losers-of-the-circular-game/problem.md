@@ -1,10 +1,11 @@
 ---
 id: 2682
+internal_id: 2791
 slug: find-the-losers-of-the-circular-game
 title: Find the Losers of the Circular Game
 difficulty: Easy
 tags: Array, Hash Table, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

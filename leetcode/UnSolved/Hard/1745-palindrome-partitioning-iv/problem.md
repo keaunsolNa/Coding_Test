@@ -1,10 +1,11 @@
 ---
 id: 1745
+internal_id: 1871
 slug: palindrome-partitioning-iv
 title: Palindrome Partitioning IV
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

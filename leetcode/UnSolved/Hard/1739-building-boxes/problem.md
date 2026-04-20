@@ -1,10 +1,11 @@
 ---
 id: 1739
+internal_id: 1861
 slug: building-boxes
 title: Building Boxes
 difficulty: Hard
 tags: Math, Binary Search, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 398
+internal_id: 398
 slug: random-pick-index
 title: Random Pick Index
 difficulty: Medium

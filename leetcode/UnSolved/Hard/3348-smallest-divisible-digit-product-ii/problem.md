@@ -1,10 +1,11 @@
 ---
 id: 3348
+internal_id: 3635
 slug: smallest-divisible-digit-product-ii
 title: Smallest Divisible Digit Product II
 difficulty: Hard
 tags: Math, String, Backtracking, Greedy, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2747
+internal_id: 2833
 slug: count-zero-request-servers
 title: Count Zero Request Servers
 difficulty: Medium

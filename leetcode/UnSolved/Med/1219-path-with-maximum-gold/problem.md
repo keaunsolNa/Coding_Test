@@ -1,5 +1,6 @@
 ---
 id: 1219
+internal_id: 1331
 slug: path-with-maximum-gold
 title: Path with Maximum Gold
 difficulty: Medium

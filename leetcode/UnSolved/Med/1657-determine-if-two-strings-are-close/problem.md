@@ -1,5 +1,6 @@
 ---
 id: 1657
+internal_id: 1777
 slug: determine-if-two-strings-are-close
 title: Determine if Two Strings Are Close
 difficulty: Medium

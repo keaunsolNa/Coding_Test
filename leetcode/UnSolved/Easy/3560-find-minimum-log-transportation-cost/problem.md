@@ -1,10 +1,11 @@
 ---
 id: 3560
+internal_id: 3879
 slug: find-minimum-log-transportation-cost
 title: Find Minimum Log Transportation Cost
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

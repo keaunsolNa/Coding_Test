@@ -1,5 +1,6 @@
 ---
 id: 3603
+internal_id: 3927
 slug: minimum-cost-path-with-alternating-directions-ii
 title: Minimum Cost Path with Alternating Directions II
 difficulty: Medium

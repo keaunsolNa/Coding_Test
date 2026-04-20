@@ -1,10 +1,11 @@
 ---
 id: 804
+internal_id: 822
 slug: unique-morse-code-words
 title: Unique Morse Code Words
 difficulty: Easy
 tags: Array, Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

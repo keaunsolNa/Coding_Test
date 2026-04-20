@@ -1,10 +1,11 @@
 ---
 id: 587
+internal_id: 587
 slug: erect-the-fence
 title: Erect the Fence
 difficulty: Hard
 tags: Array, Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3106
+internal_id: 3346
 slug: lexicographically-smallest-string-after-operations-with-constraint
 title: Lexicographically Smallest String After Operations With Constraint
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2133
+internal_id: 2254
 slug: check-if-every-row-and-column-contains-all-numbers
 title: Check if Every Row and Column Contains All Numbers
 difficulty: Easy
 tags: Array, Hash Table, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

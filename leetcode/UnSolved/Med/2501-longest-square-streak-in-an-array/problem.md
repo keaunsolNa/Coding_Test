@@ -1,5 +1,6 @@
 ---
 id: 2501
+internal_id: 2586
 slug: longest-square-streak-in-an-array
 title: Longest Square Streak in an Array
 difficulty: Medium

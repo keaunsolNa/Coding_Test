@@ -1,5 +1,6 @@
 ---
 id: 2596
+internal_id: 2662
 slug: check-knight-tour-configuration
 title: Check Knight Tour Configuration
 difficulty: Medium

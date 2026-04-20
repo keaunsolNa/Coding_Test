@@ -1,10 +1,11 @@
 ---
 id: 3636
+internal_id: 3955
 slug: threshold-majority-queries
 title: Threshold Majority Queries
 difficulty: Hard
 tags: Array, Hash Table, Binary Search, Divide and Conquer, Counting, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

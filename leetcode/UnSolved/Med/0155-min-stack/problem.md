@@ -1,5 +1,6 @@
 ---
 id: 155
+internal_id: 155
 slug: min-stack
 title: Min Stack
 difficulty: Medium

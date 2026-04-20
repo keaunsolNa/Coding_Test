@@ -1,10 +1,11 @@
 ---
 id: 942
+internal_id: 979
 slug: di-string-match
 title: DI String Match
 difficulty: Easy
 tags: Array, Two Pointers, String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

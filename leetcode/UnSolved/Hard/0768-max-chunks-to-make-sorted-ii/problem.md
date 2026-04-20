@@ -1,10 +1,11 @@
 ---
 id: 768
+internal_id: 779
 slug: max-chunks-to-make-sorted-ii
 title: Max Chunks To Make Sorted II
 difficulty: Hard
 tags: Array, Stack, Greedy, Sorting, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

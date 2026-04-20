@@ -1,5 +1,6 @@
 ---
 id: 695
+internal_id: 695
 slug: max-area-of-island
 title: Max Area of Island
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3890
+internal_id: 4268
 slug: integers-with-multiple-sum-of-two-cubes
 title: Integers With Multiple Sum of Two Cubes
 difficulty: Medium

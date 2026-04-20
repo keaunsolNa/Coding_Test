@@ -1,5 +1,6 @@
 ---
 id: 255
+internal_id: 255
 slug: verify-preorder-sequence-in-binary-search-tree
 title: Verify Preorder Sequence in Binary Search Tree
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1240
+internal_id: 1361
 slug: tiling-a-rectangle-with-the-fewest-squares
 title: Tiling a Rectangle with the Fewest Squares
 difficulty: Hard
 tags: Backtracking
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

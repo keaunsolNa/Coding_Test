@@ -1,10 +1,11 @@
 ---
 id: 3219
+internal_id: 3500
 slug: minimum-cost-for-cutting-cake-ii
 title: Minimum Cost for Cutting Cake II
 difficulty: Hard
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

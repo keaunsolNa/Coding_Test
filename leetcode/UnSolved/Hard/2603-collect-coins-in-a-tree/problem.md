@@ -1,10 +1,11 @@
 ---
 id: 2603
+internal_id: 2717
 slug: collect-coins-in-a-tree
 title: Collect Coins in a Tree
 difficulty: Hard
 tags: Array, Tree, Graph Theory, Topological Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

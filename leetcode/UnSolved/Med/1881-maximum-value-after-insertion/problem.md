@@ -1,5 +1,6 @@
 ---
 id: 1881
+internal_id: 2011
 slug: maximum-value-after-insertion
 title: Maximum Value after Insertion
 difficulty: Medium

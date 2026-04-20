@@ -1,10 +1,11 @@
 ---
 id: 3158
+internal_id: 3428
 slug: find-the-xor-of-numbers-which-appear-twice
 title: Find the XOR of Numbers Which Appear Twice
 difficulty: Easy
 tags: Array, Hash Table, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

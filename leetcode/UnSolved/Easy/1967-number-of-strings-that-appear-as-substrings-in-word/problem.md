@@ -1,10 +1,11 @@
 ---
 id: 1967
+internal_id: 2099
 slug: number-of-strings-that-appear-as-substrings-in-word
 title: Number of Strings That Appear as Substrings in Word
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

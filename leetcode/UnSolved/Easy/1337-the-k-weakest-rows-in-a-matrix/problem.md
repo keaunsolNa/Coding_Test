@@ -1,10 +1,11 @@
 ---
 id: 1337
+internal_id: 1463
 slug: the-k-weakest-rows-in-a-matrix
 title: The K Weakest Rows in a Matrix
 difficulty: Easy
 tags: Array, Binary Search, Sorting, Heap (Priority Queue), Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

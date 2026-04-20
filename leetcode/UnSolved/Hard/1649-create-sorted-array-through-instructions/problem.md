@@ -1,10 +1,11 @@
 ---
 id: 1649
+internal_id: 1772
 slug: create-sorted-array-through-instructions
 title: Create Sorted Array through Instructions
 difficulty: Hard
 tags: Array, Binary Search, Divide and Conquer, Binary Indexed Tree, Segment Tree, Merge Sort, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

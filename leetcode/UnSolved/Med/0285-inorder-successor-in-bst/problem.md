@@ -1,5 +1,6 @@
 ---
 id: 285
+internal_id: 285
 slug: inorder-successor-in-bst
 title: Inorder Successor in BST
 difficulty: Medium

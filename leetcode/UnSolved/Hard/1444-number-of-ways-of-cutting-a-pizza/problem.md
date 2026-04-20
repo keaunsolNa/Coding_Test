@@ -1,10 +1,11 @@
 ---
 id: 1444
+internal_id: 1555
 slug: number-of-ways-of-cutting-a-pizza
 title: Number of Ways of Cutting a Pizza
 difficulty: Hard
 tags: Array, Dynamic Programming, Memoization, Matrix, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

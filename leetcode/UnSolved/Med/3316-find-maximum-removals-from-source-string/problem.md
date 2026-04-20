@@ -1,5 +1,6 @@
 ---
 id: 3316
+internal_id: 3487
 slug: find-maximum-removals-from-source-string
 title: Find Maximum Removals From Source String
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1519
+internal_id: 1643
 slug: number-of-nodes-in-the-sub-tree-with-the-same-label
 title: Number of Nodes in the Sub-Tree With the Same Label
 difficulty: Medium

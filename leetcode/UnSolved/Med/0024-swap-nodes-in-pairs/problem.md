@@ -1,5 +1,6 @@
 ---
 id: 24
+internal_id: 24
 slug: swap-nodes-in-pairs
 title: Swap Nodes in Pairs
 difficulty: Medium

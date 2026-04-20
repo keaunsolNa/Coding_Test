@@ -1,10 +1,11 @@
 ---
 id: 3864
+internal_id: 4192
 slug: minimum-cost-to-partition-a-binary-string
 title: Minimum Cost to Partition a Binary String
 difficulty: Hard
 tags: String, Divide and Conquer, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

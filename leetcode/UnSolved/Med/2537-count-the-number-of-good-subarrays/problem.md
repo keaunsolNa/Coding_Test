@@ -1,5 +1,6 @@
 ---
 id: 2537
+internal_id: 2626
 slug: count-the-number-of-good-subarrays
 title: Count the Number of Good Subarrays
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1713
+internal_id: 1832
 slug: minimum-operations-to-make-a-subsequence
 title: Minimum Operations to Make a Subsequence
 difficulty: Hard
 tags: Array, Hash Table, Binary Search, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

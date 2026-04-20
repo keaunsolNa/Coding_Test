@@ -1,5 +1,6 @@
 ---
 id: 2820
+internal_id: 3078
 slug: election-results
 title: Election Results
 difficulty: Medium

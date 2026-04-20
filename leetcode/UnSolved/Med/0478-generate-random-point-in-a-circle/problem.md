@@ -1,5 +1,6 @@
 ---
 id: 478
+internal_id: 915
 slug: generate-random-point-in-a-circle
 title: Generate Random Point in a Circle
 difficulty: Medium

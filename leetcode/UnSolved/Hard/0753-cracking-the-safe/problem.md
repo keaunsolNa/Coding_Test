@@ -1,10 +1,11 @@
 ---
 id: 753
+internal_id: 754
 slug: cracking-the-safe
 title: Cracking the Safe
 difficulty: Hard
 tags: String, Depth-First Search, Graph Theory, Eulerian Circuit
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

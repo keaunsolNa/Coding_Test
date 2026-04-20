@@ -1,10 +1,11 @@
 ---
 id: 1278
+internal_id: 1403
 slug: palindrome-partitioning-iii
 title: Palindrome Partitioning III
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

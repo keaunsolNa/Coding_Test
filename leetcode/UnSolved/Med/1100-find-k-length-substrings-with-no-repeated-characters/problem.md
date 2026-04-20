@@ -1,5 +1,6 @@
 ---
 id: 1100
+internal_id: 1084
 slug: find-k-length-substrings-with-no-repeated-characters
 title: Find K-Length Substrings With No Repeated Characters
 difficulty: Medium

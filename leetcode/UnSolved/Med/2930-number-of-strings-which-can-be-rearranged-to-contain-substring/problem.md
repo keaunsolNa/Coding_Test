@@ -1,5 +1,6 @@
 ---
 id: 2930
+internal_id: 3200
 slug: number-of-strings-which-can-be-rearranged-to-contain-substring
 title: Number of Strings Which Can Be Rearranged to Contain Substring
 difficulty: Medium

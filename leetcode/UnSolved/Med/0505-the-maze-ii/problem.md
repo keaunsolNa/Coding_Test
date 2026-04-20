@@ -1,5 +1,6 @@
 ---
 id: 505
+internal_id: 505
 slug: the-maze-ii
 title: The Maze II
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2174
+internal_id: 2314
 slug: remove-all-ones-with-row-and-column-flips-ii
 title: Remove All Ones With Row and Column Flips II
 difficulty: Medium

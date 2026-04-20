@@ -1,5 +1,6 @@
 ---
 id: 3205
+internal_id: 3513
 slug: maximum-array-hopping-score-i
 title: Maximum Array Hopping Score I
 difficulty: Medium

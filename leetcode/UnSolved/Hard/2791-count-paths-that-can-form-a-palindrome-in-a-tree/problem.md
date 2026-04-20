@@ -1,10 +1,11 @@
 ---
 id: 2791
+internal_id: 2905
 slug: count-paths-that-can-form-a-palindrome-in-a-tree
 title: Count Paths That Can Form a Palindrome in a Tree
 difficulty: Hard
 tags: Hash Table, Bit Manipulation, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

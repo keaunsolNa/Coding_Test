@@ -1,10 +1,11 @@
 ---
 id: 2154
+internal_id: 2274
 slug: keep-multiplying-found-values-by-two
 title: Keep Multiplying Found Values by Two
 difficulty: Easy
 tags: Array, Hash Table, Sorting, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

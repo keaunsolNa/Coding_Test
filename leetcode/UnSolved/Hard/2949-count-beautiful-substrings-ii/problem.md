@@ -1,10 +1,11 @@
 ---
 id: 2949
+internal_id: 3208
 slug: count-beautiful-substrings-ii
 title: Count Beautiful Substrings II
 difficulty: Hard
 tags: Hash Table, Math, String, Number Theory, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

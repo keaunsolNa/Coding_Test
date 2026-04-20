@@ -1,5 +1,6 @@
 ---
 id: 3496
+internal_id: 3839
 slug: maximize-score-after-pair-deletions
 title: Maximize Score After Pair Deletions
 difficulty: Medium

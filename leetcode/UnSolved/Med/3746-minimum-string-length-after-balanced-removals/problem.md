@@ -1,5 +1,6 @@
 ---
 id: 3746
+internal_id: 4090
 slug: minimum-string-length-after-balanced-removals
 title: Minimum String Length After Balanced Removals
 difficulty: Medium

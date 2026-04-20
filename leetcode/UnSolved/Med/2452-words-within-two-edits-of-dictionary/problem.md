@@ -1,5 +1,6 @@
 ---
 id: 2452
+internal_id: 2550
 slug: words-within-two-edits-of-dictionary
 title: Words Within Two Edits of Dictionary
 difficulty: Medium

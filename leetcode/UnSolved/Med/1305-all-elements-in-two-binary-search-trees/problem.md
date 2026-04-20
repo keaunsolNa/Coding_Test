@@ -1,5 +1,6 @@
 ---
 id: 1305
+internal_id: 1427
 slug: all-elements-in-two-binary-search-trees
 title: All Elements in Two Binary Search Trees
 difficulty: Medium

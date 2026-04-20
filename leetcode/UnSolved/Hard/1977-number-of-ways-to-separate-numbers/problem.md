@@ -1,10 +1,11 @@
 ---
 id: 1977
+internal_id: 2091
 slug: number-of-ways-to-separate-numbers
 title: Number of Ways to Separate Numbers
 difficulty: Hard
 tags: String, Dynamic Programming, Suffix Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

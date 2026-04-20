@@ -1,5 +1,6 @@
 ---
 id: 390
+internal_id: 390
 slug: elimination-game
 title: Elimination Game
 difficulty: Medium

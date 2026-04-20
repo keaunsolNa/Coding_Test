@@ -1,5 +1,6 @@
 ---
 id: 1362
+internal_id: 1276
 slug: closest-divisors
 title: Closest Divisors
 difficulty: Medium

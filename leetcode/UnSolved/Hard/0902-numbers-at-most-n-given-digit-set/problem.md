@@ -1,10 +1,11 @@
 ---
 id: 902
+internal_id: 938
 slug: numbers-at-most-n-given-digit-set
 title: Numbers At Most N Given Digit Set
 difficulty: Hard
 tags: Array, Math, String, Binary Search, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1456
+internal_id: 1567
 slug: maximum-number-of-vowels-in-a-substring-of-given-length
 title: Maximum Number of Vowels in a Substring of Given Length
 difficulty: Medium

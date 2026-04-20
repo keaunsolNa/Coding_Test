@@ -1,10 +1,11 @@
 ---
 id: 872
+internal_id: 904
 slug: leaf-similar-trees
 title: Leaf-Similar Trees
 difficulty: Easy
 tags: Tree, Depth-First Search, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3081
+internal_id: 3354
 slug: replace-question-marks-in-string-to-minimize-its-value
 title: Replace Question Marks in String to Minimize Its Value
 difficulty: Medium

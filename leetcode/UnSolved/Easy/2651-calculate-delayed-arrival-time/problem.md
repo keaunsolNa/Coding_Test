@@ -1,10 +1,11 @@
 ---
 id: 2651
+internal_id: 2748
 slug: calculate-delayed-arrival-time
 title: Calculate Delayed Arrival Time
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

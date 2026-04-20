@@ -1,5 +1,6 @@
 ---
 id: 3109
+internal_id: 3417
 slug: find-the-index-of-permutation
 title: Find the Index of Permutation
 difficulty: Medium

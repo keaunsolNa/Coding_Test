@@ -1,10 +1,11 @@
 ---
 id: 828
+internal_id: 855
 slug: count-unique-characters-of-all-substrings-of-a-given-string
 title: Count Unique Characters of All Substrings of a Given String
 difficulty: Hard
 tags: Hash Table, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

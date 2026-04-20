@@ -1,5 +1,6 @@
 ---
 id: 3228
+internal_id: 3493
 slug: maximum-number-of-operations-to-move-ones-to-the-end
 title: Maximum Number of Operations to Move Ones to the End
 difficulty: Medium

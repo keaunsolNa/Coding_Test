@@ -1,5 +1,6 @@
 ---
 id: 2291
+internal_id: 2426
 slug: maximum-profit-from-trading-stocks
 title: Maximum Profit From Trading Stocks
 difficulty: Medium

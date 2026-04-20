@@ -1,10 +1,11 @@
 ---
 id: 3174
+internal_id: 3447
 slug: clear-digits
 title: Clear Digits
 difficulty: Easy
 tags: String, Stack, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

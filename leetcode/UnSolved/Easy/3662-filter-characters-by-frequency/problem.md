@@ -1,10 +1,11 @@
 ---
 id: 3662
+internal_id: 4017
 slug: filter-characters-by-frequency
 title: Filter Characters by Frequency
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

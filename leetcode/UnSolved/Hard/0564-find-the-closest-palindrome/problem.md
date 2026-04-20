@@ -1,10 +1,11 @@
 ---
 id: 564
+internal_id: 564
 slug: find-the-closest-palindrome
 title: Find the Closest Palindrome
 difficulty: Hard
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

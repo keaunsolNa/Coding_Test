@@ -1,5 +1,6 @@
 ---
 id: 3489
+internal_id: 3795
 slug: zero-array-transformation-iv
 title: Zero Array Transformation IV
 difficulty: Medium

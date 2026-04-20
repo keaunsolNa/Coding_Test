@@ -1,5 +1,6 @@
 ---
 id: 3868
+internal_id: 4253
 slug: minimum-cost-to-equalize-arrays-using-swaps
 title: Minimum Cost to Equalize Arrays Using Swaps
 difficulty: Medium

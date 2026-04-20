@@ -1,5 +1,6 @@
 ---
 id: 3180
+internal_id: 3442
 slug: maximum-total-reward-using-operations-i
 title: Maximum Total Reward Using Operations I
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 358
+internal_id: 358
 slug: rearrange-string-k-distance-apart
 title: Rearrange String k Distance Apart
 difficulty: Hard
 tags: Hash Table, String, Greedy, Sorting, Heap (Priority Queue), Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

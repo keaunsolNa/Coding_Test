@@ -1,10 +1,11 @@
 ---
 id: 2076
+internal_id: 2198
 slug: process-restricted-friend-requests
 title: Process Restricted Friend Requests
 difficulty: Hard
 tags: Union-Find, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

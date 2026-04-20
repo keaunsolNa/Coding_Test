@@ -1,5 +1,6 @@
 ---
 id: 3524
+internal_id: 3831
 slug: find-x-value-of-array-i
 title: Find X Value of Array I
 difficulty: Medium

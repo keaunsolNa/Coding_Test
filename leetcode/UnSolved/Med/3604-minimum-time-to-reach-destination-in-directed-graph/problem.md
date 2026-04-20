@@ -1,5 +1,6 @@
 ---
 id: 3604
+internal_id: 3916
 slug: minimum-time-to-reach-destination-in-directed-graph
 title: Minimum Time to Reach Destination in Directed Graph
 difficulty: Medium

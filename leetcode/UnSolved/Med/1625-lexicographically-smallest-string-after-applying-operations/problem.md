@@ -1,5 +1,6 @@
 ---
 id: 1625
+internal_id: 1747
 slug: lexicographically-smallest-string-after-applying-operations
 title: Lexicographically Smallest String After Applying Operations
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1419
+internal_id: 1534
 slug: minimum-number-of-frogs-croaking
 title: Minimum Number of Frogs Croaking
 difficulty: Medium

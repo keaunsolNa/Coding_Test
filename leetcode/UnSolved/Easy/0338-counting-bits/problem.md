@@ -1,10 +1,11 @@
 ---
 id: 338
+internal_id: 338
 slug: counting-bits
 title: Counting Bits
 difficulty: Easy
 tags: Dynamic Programming, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

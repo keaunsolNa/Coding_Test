@@ -1,10 +1,11 @@
 ---
 id: 2030
+internal_id: 2157
 slug: smallest-k-length-subsequence-with-occurrences-of-a-letter
 title: Smallest K-Length Subsequence With Occurrences of a Letter
 difficulty: Hard
 tags: String, Stack, Greedy, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

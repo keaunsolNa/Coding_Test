@@ -1,5 +1,6 @@
 ---
 id: 209
+internal_id: 209
 slug: minimum-size-subarray-sum
 title: Minimum Size Subarray Sum
 difficulty: Medium

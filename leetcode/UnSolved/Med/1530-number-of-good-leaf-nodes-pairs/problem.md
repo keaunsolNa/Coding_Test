@@ -1,5 +1,6 @@
 ---
 id: 1530
+internal_id: 1653
 slug: number-of-good-leaf-nodes-pairs
 title: Number of Good Leaf Nodes Pairs
 difficulty: Medium

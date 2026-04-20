@@ -1,10 +1,11 @@
 ---
 id: 4
+internal_id: 4
 slug: median-of-two-sorted-arrays
 title: Median of Two Sorted Arrays
 difficulty: Hard
 tags: Array, Binary Search, Divide and Conquer
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

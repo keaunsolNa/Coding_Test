@@ -1,10 +1,11 @@
 ---
 id: 3490
+internal_id: 3801
 slug: count-beautiful-numbers
 title: Count Beautiful Numbers
 difficulty: Hard
 tags: Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

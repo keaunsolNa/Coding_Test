@@ -1,5 +1,6 @@
 ---
 id: 53
+internal_id: 53
 slug: maximum-subarray
 title: Maximum Subarray
 difficulty: Medium

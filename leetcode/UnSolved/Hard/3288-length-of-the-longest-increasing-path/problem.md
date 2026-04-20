@@ -1,10 +1,11 @@
 ---
 id: 3288
+internal_id: 3571
 slug: length-of-the-longest-increasing-path
 title: Length of the Longest Increasing Path
 difficulty: Hard
 tags: Array, Binary Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

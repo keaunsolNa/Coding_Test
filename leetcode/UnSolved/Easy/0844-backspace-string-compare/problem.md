@@ -1,10 +1,11 @@
 ---
 id: 844
+internal_id: 874
 slug: backspace-string-compare
 title: Backspace String Compare
 difficulty: Easy
 tags: Two Pointers, String, Stack, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

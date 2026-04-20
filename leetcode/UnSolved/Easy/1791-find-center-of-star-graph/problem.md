@@ -1,10 +1,11 @@
 ---
 id: 1791
+internal_id: 1916
 slug: find-center-of-star-graph
 title: Find Center of Star Graph
 difficulty: Easy
 tags: Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

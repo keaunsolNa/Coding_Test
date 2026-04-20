@@ -1,5 +1,6 @@
 ---
 id: 439
+internal_id: 439
 slug: ternary-expression-parser
 title: Ternary Expression Parser
 difficulty: Medium

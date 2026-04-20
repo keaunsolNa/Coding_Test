@@ -1,10 +1,11 @@
 ---
 id: 1938
+internal_id: 2068
 slug: maximum-genetic-difference-query
 title: Maximum Genetic Difference Query
 difficulty: Hard
 tags: Array, Hash Table, Bit Manipulation, Depth-First Search, Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

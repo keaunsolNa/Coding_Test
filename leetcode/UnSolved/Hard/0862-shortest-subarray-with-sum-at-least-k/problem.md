@@ -1,10 +1,11 @@
 ---
 id: 862
+internal_id: 892
 slug: shortest-subarray-with-sum-at-least-k
 title: Shortest Subarray with Sum at Least K
 difficulty: Hard
 tags: Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

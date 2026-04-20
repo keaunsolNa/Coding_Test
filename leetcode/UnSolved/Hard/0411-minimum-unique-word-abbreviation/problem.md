@@ -1,10 +1,11 @@
 ---
 id: 411
+internal_id: 411
 slug: minimum-unique-word-abbreviation
 title: Minimum Unique Word Abbreviation
 difficulty: Hard
 tags: Array, String, Backtracking, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

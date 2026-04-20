@@ -1,10 +1,11 @@
 ---
 id: 2301
+internal_id: 2393
 slug: match-substring-after-replacement
 title: Match Substring After Replacement
 difficulty: Hard
 tags: Array, Hash Table, String, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

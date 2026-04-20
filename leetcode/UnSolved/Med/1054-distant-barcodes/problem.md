@@ -1,5 +1,6 @@
 ---
 id: 1054
+internal_id: 1140
 slug: distant-barcodes
 title: Distant Barcodes
 difficulty: Medium

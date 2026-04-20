@@ -1,10 +1,11 @@
 ---
 id: 2806
+internal_id: 2955
 slug: account-balance-after-rounded-purchase
 title: Account Balance After Rounded Purchase
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 395
+internal_id: 395
 slug: longest-substring-with-at-least-k-repeating-characters
 title: Longest Substring with At Least K Repeating Characters
 difficulty: Medium

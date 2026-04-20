@@ -1,5 +1,6 @@
 ---
 id: 1888
+internal_id: 2017
 slug: minimum-number-of-flips-to-make-the-binary-string-alternating
 title: Minimum Number of Flips to Make the Binary String Alternating
 difficulty: Medium

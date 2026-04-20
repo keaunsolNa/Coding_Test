@@ -1,5 +1,6 @@
 ---
 id: 1540
+internal_id: 1647
 slug: can-convert-string-in-k-moves
 title: Can Convert String in K Moves
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3223
+internal_id: 3455
 slug: minimum-length-of-string-after-operations
 title: Minimum Length of String After Operations
 difficulty: Medium

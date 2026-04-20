@@ -1,5 +1,6 @@
 ---
 id: 2207
+internal_id: 2309
 slug: maximize-number-of-subsequences-in-a-string
 title: Maximize Number of Subsequences in a String
 difficulty: Medium

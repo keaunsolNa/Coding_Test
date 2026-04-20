@@ -1,10 +1,11 @@
 ---
 id: 278
+internal_id: 278
 slug: first-bad-version
 title: First Bad Version
 difficulty: Easy
 tags: Binary Search, Interactive
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

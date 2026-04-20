@@ -1,5 +1,6 @@
 ---
 id: 167
+internal_id: 167
 slug: two-sum-ii-input-array-is-sorted
 title: Two Sum II - Input Array Is Sorted
 difficulty: Medium

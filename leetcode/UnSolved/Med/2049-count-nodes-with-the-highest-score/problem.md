@@ -1,5 +1,6 @@
 ---
 id: 2049
+internal_id: 2175
 slug: count-nodes-with-the-highest-score
 title: Count Nodes With the Highest Score
 difficulty: Medium

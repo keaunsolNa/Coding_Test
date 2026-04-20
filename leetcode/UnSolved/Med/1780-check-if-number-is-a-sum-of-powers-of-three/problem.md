@@ -1,5 +1,6 @@
 ---
 id: 1780
+internal_id: 1889
 slug: check-if-number-is-a-sum-of-powers-of-three
 title: Check if Number is a Sum of Powers of Three
 difficulty: Medium

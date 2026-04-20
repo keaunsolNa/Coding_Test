@@ -1,5 +1,6 @@
 ---
 id: 1239
+internal_id: 1360
 slug: maximum-length-of-a-concatenated-string-with-unique-characters
 title: Maximum Length of a Concatenated String with Unique Characters
 difficulty: Medium

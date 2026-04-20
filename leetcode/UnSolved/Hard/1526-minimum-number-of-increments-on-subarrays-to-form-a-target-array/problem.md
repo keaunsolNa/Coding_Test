@@ -1,10 +1,11 @@
 ---
 id: 1526
+internal_id: 1633
 slug: minimum-number-of-increments-on-subarrays-to-form-a-target-array
 title: Minimum Number of Increments on Subarrays to Form a Target Array
 difficulty: Hard
 tags: Array, Dynamic Programming, Stack, Greedy, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

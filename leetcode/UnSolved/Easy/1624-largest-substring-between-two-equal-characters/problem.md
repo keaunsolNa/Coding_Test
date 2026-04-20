@@ -1,10 +1,11 @@
 ---
 id: 1624
+internal_id: 1746
 slug: largest-substring-between-two-equal-characters
 title: Largest Substring Between Two Equal Characters
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

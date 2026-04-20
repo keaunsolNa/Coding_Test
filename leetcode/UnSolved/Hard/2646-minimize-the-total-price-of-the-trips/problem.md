@@ -1,10 +1,11 @@
 ---
 id: 2646
+internal_id: 2739
 slug: minimize-the-total-price-of-the-trips
 title: Minimize the Total Price of the Trips
 difficulty: Hard
 tags: Array, Dynamic Programming, Tree, Depth-First Search, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

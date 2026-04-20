@@ -1,10 +1,11 @@
 ---
 id: 1071
+internal_id: 1146
 slug: greatest-common-divisor-of-strings
 title: Greatest Common Divisor of Strings
 difficulty: Easy
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

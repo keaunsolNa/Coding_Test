@@ -1,5 +1,6 @@
 ---
 id: 923
+internal_id: 959
 slug: 3sum-with-multiplicity
 title: 3Sum With Multiplicity
 difficulty: Medium

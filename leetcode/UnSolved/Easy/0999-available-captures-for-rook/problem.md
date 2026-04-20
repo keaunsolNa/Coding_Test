@@ -1,10 +1,11 @@
 ---
 id: 999
+internal_id: 1041
 slug: available-captures-for-rook
 title: Available Captures for Rook
 difficulty: Easy
 tags: Array, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

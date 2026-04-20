@@ -1,10 +1,11 @@
 ---
 id: 604
+internal_id: 604
 slug: design-compressed-string-iterator
 title: Design Compressed String Iterator
 difficulty: Easy
 tags: Array, String, Design, Iterator
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

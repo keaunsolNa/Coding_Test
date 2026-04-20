@@ -1,5 +1,6 @@
 ---
 id: 652
+internal_id: 652
 slug: find-duplicate-subtrees
 title: Find Duplicate Subtrees
 difficulty: Medium

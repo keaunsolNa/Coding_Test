@@ -1,10 +1,11 @@
 ---
 id: 2435
+internal_id: 2521
 slug: paths-in-matrix-whose-sum-is-divisible-by-k
 title: Paths in Matrix Whose Sum Is Divisible by K
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

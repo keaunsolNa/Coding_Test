@@ -1,5 +1,6 @@
 ---
 id: 967
+internal_id: 1007
 slug: numbers-with-same-consecutive-differences
 title: Numbers With Same Consecutive Differences
 difficulty: Medium

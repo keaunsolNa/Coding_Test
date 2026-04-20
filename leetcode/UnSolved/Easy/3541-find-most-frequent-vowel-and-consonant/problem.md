@@ -1,10 +1,11 @@
 ---
 id: 3541
+internal_id: 3872
 slug: find-most-frequent-vowel-and-consonant
 title: Find Most Frequent Vowel and Consonant
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

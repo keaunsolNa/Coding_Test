@@ -1,5 +1,6 @@
 ---
 id: 129
+internal_id: 129
 slug: sum-root-to-leaf-numbers
 title: Sum Root to Leaf Numbers
 difficulty: Medium

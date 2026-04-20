@@ -1,10 +1,11 @@
 ---
 id: 1389
+internal_id: 1505
 slug: create-target-array-in-the-given-order
 title: Create Target Array in the Given Order
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

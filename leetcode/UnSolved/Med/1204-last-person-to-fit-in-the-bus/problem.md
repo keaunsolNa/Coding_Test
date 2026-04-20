@@ -1,11 +1,12 @@
 ---
 id: 1204
+internal_id: 1327
 slug: last-person-to-fit-in-the-bus
 title: Last Person to Fit in the Bus
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1204. Last Person to Fit in the Bus

@@ -1,5 +1,6 @@
 ---
 id: 3135
+internal_id: 3441
 slug: equalize-strings-by-adding-or-removing-characters-at-ends
 title: Equalize Strings by Adding or Removing Characters at Ends
 difficulty: Medium

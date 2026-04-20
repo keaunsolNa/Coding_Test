@@ -1,5 +1,6 @@
 ---
 id: 3195
+internal_id: 3461
 slug: find-the-minimum-area-to-cover-all-ones-i
 title: Find the Minimum Area to Cover All Ones I
 difficulty: Medium

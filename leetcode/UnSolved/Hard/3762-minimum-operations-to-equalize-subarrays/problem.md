@@ -1,10 +1,11 @@
 ---
 id: 3762
+internal_id: 4022
 slug: minimum-operations-to-equalize-subarrays
 title: Minimum Operations to Equalize Subarrays
 difficulty: Hard
 tags: Array, Math, Binary Search, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

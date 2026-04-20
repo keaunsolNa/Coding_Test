@@ -1,10 +1,11 @@
 ---
 id: 3606
+internal_id: 3934
 slug: coupon-code-validator
 title: Coupon Code Validator
 difficulty: Easy
 tags: Array, Hash Table, String, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

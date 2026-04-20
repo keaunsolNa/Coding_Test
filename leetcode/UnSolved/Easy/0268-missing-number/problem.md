@@ -1,10 +1,11 @@
 ---
 id: 268
+internal_id: 268
 slug: missing-number
 title: Missing Number
 difficulty: Easy
 tags: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

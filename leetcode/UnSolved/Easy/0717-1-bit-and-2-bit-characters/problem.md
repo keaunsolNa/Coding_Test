@@ -1,10 +1,11 @@
 ---
 id: 717
+internal_id: 717
 slug: 1-bit-and-2-bit-characters
 title: 1-bit and 2-bit Characters
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

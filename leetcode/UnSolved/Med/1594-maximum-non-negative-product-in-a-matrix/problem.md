@@ -1,5 +1,6 @@
 ---
 id: 1594
+internal_id: 1716
 slug: maximum-non-negative-product-in-a-matrix
 title: Maximum Non Negative Product in a Matrix
 difficulty: Medium

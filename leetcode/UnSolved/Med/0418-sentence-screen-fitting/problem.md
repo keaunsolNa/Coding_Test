@@ -1,5 +1,6 @@
 ---
 id: 418
+internal_id: 418
 slug: sentence-screen-fitting
 title: Sentence Screen Fitting
 difficulty: Medium

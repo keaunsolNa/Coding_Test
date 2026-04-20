@@ -1,5 +1,6 @@
 ---
 id: 2513
+internal_id: 2628
 slug: minimize-the-maximum-of-two-arrays
 title: Minimize the Maximum of Two Arrays
 difficulty: Medium

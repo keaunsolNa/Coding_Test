@@ -1,5 +1,6 @@
 ---
 id: 3297
+internal_id: 3573
 slug: count-substrings-that-can-be-rearranged-to-contain-a-string-i
 title: Count Substrings That Can Be Rearranged to Contain a String I
 difficulty: Medium

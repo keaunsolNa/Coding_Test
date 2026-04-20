@@ -1,10 +1,11 @@
 ---
 id: 2732
+internal_id: 2826
 slug: find-a-good-subset-of-the-matrix
 title: Find a Good Subset of the Matrix
 difficulty: Hard
 tags: Array, Hash Table, Bit Manipulation, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

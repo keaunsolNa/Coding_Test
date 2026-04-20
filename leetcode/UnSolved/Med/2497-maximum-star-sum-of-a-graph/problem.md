@@ -1,5 +1,6 @@
 ---
 id: 2497
+internal_id: 2590
 slug: maximum-star-sum-of-a-graph
 title: Maximum Star Sum of a Graph
 difficulty: Medium

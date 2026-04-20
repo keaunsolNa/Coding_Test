@@ -1,10 +1,11 @@
 ---
 id: 680
+internal_id: 680
 slug: valid-palindrome-ii
 title: Valid Palindrome II
 difficulty: Easy
 tags: Two Pointers, String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

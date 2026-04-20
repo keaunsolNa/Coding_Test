@@ -1,10 +1,11 @@
 ---
 id: 1542
+internal_id: 1668
 slug: find-longest-awesome-substring
 title: Find Longest Awesome Substring
 difficulty: Hard
 tags: Hash Table, String, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

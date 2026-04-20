@@ -1,10 +1,11 @@
 ---
 id: 3069
+internal_id: 3347
 slug: distribute-elements-into-two-arrays-i
 title: Distribute Elements Into Two Arrays I
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

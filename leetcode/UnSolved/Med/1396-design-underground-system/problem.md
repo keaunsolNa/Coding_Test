@@ -1,5 +1,6 @@
 ---
 id: 1396
+internal_id: 1512
 slug: design-underground-system
 title: Design Underground System
 difficulty: Medium

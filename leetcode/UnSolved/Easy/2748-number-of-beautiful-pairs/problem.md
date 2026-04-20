@@ -1,10 +1,11 @@
 ---
 id: 2748
+internal_id: 2831
 slug: number-of-beautiful-pairs
 title: Number of Beautiful Pairs
 difficulty: Easy
 tags: Array, Hash Table, Math, Counting, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

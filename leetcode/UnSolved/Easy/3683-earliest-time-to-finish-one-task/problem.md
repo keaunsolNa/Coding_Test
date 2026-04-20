@@ -1,10 +1,11 @@
 ---
 id: 3683
+internal_id: 4012
 slug: earliest-time-to-finish-one-task
 title: Earliest Time to Finish One Task
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

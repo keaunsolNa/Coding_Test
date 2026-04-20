@@ -1,5 +1,6 @@
 ---
 id: 2721
+internal_id: 2807
 slug: execute-asynchronous-functions-in-parallel
 title: Execute Asynchronous Functions in Parallel
 difficulty: Medium

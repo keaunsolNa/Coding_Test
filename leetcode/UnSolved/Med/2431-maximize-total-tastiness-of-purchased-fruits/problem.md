@@ -1,5 +1,6 @@
 ---
 id: 2431
+internal_id: 2570
 slug: maximize-total-tastiness-of-purchased-fruits
 title: Maximize Total Tastiness of Purchased Fruits
 difficulty: Medium

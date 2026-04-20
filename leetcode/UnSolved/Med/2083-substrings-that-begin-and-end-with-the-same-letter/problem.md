@@ -1,5 +1,6 @@
 ---
 id: 2083
+internal_id: 2225
 slug: substrings-that-begin-and-end-with-the-same-letter
 title: Substrings That Begin and End With the Same Letter
 difficulty: Medium

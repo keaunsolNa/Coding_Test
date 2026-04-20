@@ -1,5 +1,6 @@
 ---
 id: 114
+internal_id: 114
 slug: flatten-binary-tree-to-linked-list
 title: Flatten Binary Tree to Linked List
 difficulty: Medium

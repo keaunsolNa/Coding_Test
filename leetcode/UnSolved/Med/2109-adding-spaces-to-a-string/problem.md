@@ -1,5 +1,6 @@
 ---
 id: 2109
+internal_id: 2232
 slug: adding-spaces-to-a-string
 title: Adding Spaces to a String
 difficulty: Medium

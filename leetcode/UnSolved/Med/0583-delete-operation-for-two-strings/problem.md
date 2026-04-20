@@ -1,5 +1,6 @@
 ---
 id: 583
+internal_id: 583
 slug: delete-operation-for-two-strings
 title: Delete Operation for Two Strings
 difficulty: Medium

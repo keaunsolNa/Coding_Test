@@ -1,10 +1,11 @@
 ---
 id: 683
+internal_id: 683
 slug: k-empty-slots
 title: K Empty Slots
 difficulty: Hard
 tags: Array, Binary Indexed Tree, Segment Tree, Queue, Sliding Window, Heap (Priority Queue), Ordered Set, Monotonic Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

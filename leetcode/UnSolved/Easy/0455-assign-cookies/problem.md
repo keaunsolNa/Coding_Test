@@ -1,10 +1,11 @@
 ---
 id: 455
+internal_id: 455
 slug: assign-cookies
 title: Assign Cookies
 difficulty: Easy
 tags: Array, Two Pointers, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

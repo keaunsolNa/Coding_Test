@@ -1,5 +1,6 @@
 ---
 id: 2408
+internal_id: 2555
 slug: design-sql
 title: Design SQL
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1306
+internal_id: 1428
 slug: jump-game-iii
 title: Jump Game III
 difficulty: Medium

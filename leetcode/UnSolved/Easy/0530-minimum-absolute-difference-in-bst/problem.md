@@ -1,10 +1,11 @@
 ---
 id: 530
+internal_id: 530
 slug: minimum-absolute-difference-in-bst
 title: Minimum Absolute Difference in BST
 difficulty: Easy
 tags: Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

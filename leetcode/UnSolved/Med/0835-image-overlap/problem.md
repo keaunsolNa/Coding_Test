@@ -1,5 +1,6 @@
 ---
 id: 835
+internal_id: 864
 slug: image-overlap
 title: Image Overlap
 difficulty: Medium

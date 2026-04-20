@@ -1,5 +1,6 @@
 ---
 id: 1041
+internal_id: 1119
 slug: robot-bounded-in-circle
 title: Robot Bounded In Circle
 difficulty: Medium

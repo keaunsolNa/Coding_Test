@@ -1,10 +1,11 @@
 ---
 id: 1935
+internal_id: 1264
 slug: maximum-number-of-words-you-can-type
 title: Maximum Number of Words You Can Type
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

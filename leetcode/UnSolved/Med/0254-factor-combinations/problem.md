@@ -1,5 +1,6 @@
 ---
 id: 254
+internal_id: 254
 slug: factor-combinations
 title: Factor Combinations
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 507
+internal_id: 507
 slug: perfect-number
 title: Perfect Number
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

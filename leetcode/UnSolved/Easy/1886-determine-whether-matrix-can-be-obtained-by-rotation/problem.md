@@ -1,10 +1,11 @@
 ---
 id: 1886
+internal_id: 2015
 slug: determine-whether-matrix-can-be-obtained-by-rotation
 title: Determine Whether Matrix Can Be Obtained By Rotation
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

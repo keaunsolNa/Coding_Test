@@ -1,10 +1,11 @@
 ---
 id: 3487
+internal_id: 3788
 slug: maximum-unique-subarray-sum-after-deletion
 title: Maximum Unique Subarray Sum After Deletion
 difficulty: Easy
 tags: Array, Hash Table, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

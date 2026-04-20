@@ -1,5 +1,6 @@
 ---
 id: 3765
+internal_id: 4100
 slug: complete-prime-number
 title: Complete Prime Number
 difficulty: Medium

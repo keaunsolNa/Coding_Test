@@ -1,5 +1,6 @@
 ---
 id: 562
+internal_id: 562
 slug: longest-line-of-consecutive-one-in-matrix
 title: Longest Line of Consecutive One in Matrix
 difficulty: Medium

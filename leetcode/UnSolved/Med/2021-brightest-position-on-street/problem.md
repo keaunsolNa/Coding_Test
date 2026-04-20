@@ -1,5 +1,6 @@
 ---
 id: 2021
+internal_id: 2075
 slug: brightest-position-on-street
 title: Brightest Position on Street
 difficulty: Medium

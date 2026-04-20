@@ -1,10 +1,11 @@
 ---
 id: 1928
+internal_id: 2040
 slug: minimum-cost-to-reach-destination-in-time
 title: Minimum Cost to Reach Destination in Time
 difficulty: Hard
 tags: Array, Dynamic Programming, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

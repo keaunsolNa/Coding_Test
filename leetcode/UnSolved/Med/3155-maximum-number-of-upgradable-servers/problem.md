@@ -1,5 +1,6 @@
 ---
 id: 3155
+internal_id: 3458
 slug: maximum-number-of-upgradable-servers
 title: Maximum Number of Upgradable Servers
 difficulty: Medium

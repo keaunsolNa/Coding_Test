@@ -1,10 +1,11 @@
 ---
 id: 2469
+internal_id: 2556
 slug: convert-the-temperature
 title: Convert the Temperature
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

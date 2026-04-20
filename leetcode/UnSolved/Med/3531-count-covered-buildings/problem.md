@@ -1,5 +1,6 @@
 ---
 id: 3531
+internal_id: 3819
 slug: count-covered-buildings
 title: Count Covered Buildings
 difficulty: Medium

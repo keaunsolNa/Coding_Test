@@ -1,10 +1,11 @@
 ---
 id: 1295
+internal_id: 1421
 slug: find-numbers-with-even-number-of-digits
 title: Find Numbers with Even Number of Digits
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

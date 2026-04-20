@@ -1,5 +1,6 @@
 ---
 id: 1358
+internal_id: 1460
 slug: number-of-substrings-containing-all-three-characters
 title: Number of Substrings Containing All Three Characters
 difficulty: Medium

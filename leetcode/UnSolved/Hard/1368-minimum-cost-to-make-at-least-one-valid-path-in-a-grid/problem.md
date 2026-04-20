@@ -1,10 +1,11 @@
 ---
 id: 1368
+internal_id: 1485
 slug: minimum-cost-to-make-at-least-one-valid-path-in-a-grid
 title: Minimum Cost to Make at Least One Valid Path in a Grid
 difficulty: Hard
 tags: Array, Breadth-First Search, Graph Theory, Heap (Priority Queue), Matrix, Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

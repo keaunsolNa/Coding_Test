@@ -1,10 +1,11 @@
 ---
 id: 884
+internal_id: 920
 slug: uncommon-words-from-two-sentences
 title: Uncommon Words from Two Sentences
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

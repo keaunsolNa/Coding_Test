@@ -1,5 +1,6 @@
 ---
 id: 1102
+internal_id: 1099
 slug: path-with-maximum-minimum-value
 title: Path With Maximum Minimum Value
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1697
+internal_id: 1815
 slug: checking-existence-of-edge-length-limited-paths
 title: Checking Existence of Edge Length Limited Paths
 difficulty: Hard
 tags: Array, Two Pointers, Union-Find, Graph Theory, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

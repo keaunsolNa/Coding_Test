@@ -1,5 +1,6 @@
 ---
 id: 1762
+internal_id: 1909
 slug: buildings-with-an-ocean-view
 title: Buildings With an Ocean View
 difficulty: Medium

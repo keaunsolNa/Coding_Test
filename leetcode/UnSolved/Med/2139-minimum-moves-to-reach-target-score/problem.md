@@ -1,5 +1,6 @@
 ---
 id: 2139
+internal_id: 1303
 slug: minimum-moves-to-reach-target-score
 title: Minimum Moves to Reach Target Score
 difficulty: Medium

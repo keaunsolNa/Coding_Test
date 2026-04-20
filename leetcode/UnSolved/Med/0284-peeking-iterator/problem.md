@@ -1,5 +1,6 @@
 ---
 id: 284
+internal_id: 284
 slug: peeking-iterator
 title: Peeking Iterator
 difficulty: Medium

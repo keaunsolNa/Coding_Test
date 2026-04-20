@@ -1,5 +1,6 @@
 ---
 id: 2150
+internal_id: 2270
 slug: find-all-lonely-numbers-in-the-array
 title: Find All Lonely Numbers in the Array
 difficulty: Medium

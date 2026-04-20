@@ -1,10 +1,11 @@
 ---
 id: 3492
+internal_id: 3817
 slug: maximum-containers-on-a-ship
 title: Maximum Containers on a Ship
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

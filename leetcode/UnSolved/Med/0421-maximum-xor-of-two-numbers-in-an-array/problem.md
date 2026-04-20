@@ -1,5 +1,6 @@
 ---
 id: 421
+internal_id: 421
 slug: maximum-xor-of-two-numbers-in-an-array
 title: Maximum XOR of Two Numbers in an Array
 difficulty: Medium

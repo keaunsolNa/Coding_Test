@@ -1,5 +1,6 @@
 ---
 id: 3115
+internal_id: 3373
 slug: maximum-prime-difference
 title: Maximum Prime Difference
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3216
+internal_id: 3484
 slug: lexicographically-smallest-string-after-a-swap
 title: Lexicographically Smallest String After a Swap
 difficulty: Easy
 tags: String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 20
+internal_id: 20
 slug: valid-parentheses
 title: Valid Parentheses
 difficulty: Easy
 tags: String, Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

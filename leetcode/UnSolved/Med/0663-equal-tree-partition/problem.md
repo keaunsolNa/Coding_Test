@@ -1,5 +1,6 @@
 ---
 id: 663
+internal_id: 663
 slug: equal-tree-partition
 title: Equal Tree Partition
 difficulty: Medium

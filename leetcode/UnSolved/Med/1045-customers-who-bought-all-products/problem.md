@@ -1,11 +1,12 @@
 ---
 id: 1045
+internal_id: 1135
 slug: customers-who-bought-all-products
 title: Customers Who Bought All Products
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1045. Customers Who Bought All Products

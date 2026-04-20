@@ -1,10 +1,11 @@
 ---
 id: 2902
+internal_id: 3091
 slug: count-of-sub-multisets-with-bounded-sum
 title: Count of Sub-Multisets With Bounded Sum
 difficulty: Hard
 tags: Array, Hash Table, Dynamic Programming, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

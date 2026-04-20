@@ -1,10 +1,11 @@
 ---
 id: 2102
+internal_id: 2207
 slug: sequentially-ordinal-rank-tracker
 title: Sequentially Ordinal Rank Tracker
 difficulty: Hard
 tags: Design, Heap (Priority Queue), Data Stream, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

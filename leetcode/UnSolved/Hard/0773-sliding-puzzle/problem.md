@@ -1,10 +1,11 @@
 ---
 id: 773
+internal_id: 787
 slug: sliding-puzzle
 title: Sliding Puzzle
 difficulty: Hard
 tags: Array, Dynamic Programming, Backtracking, Breadth-First Search, Memoization, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

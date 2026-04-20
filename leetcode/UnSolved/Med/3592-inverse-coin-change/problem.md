@@ -1,5 +1,6 @@
 ---
 id: 3592
+internal_id: 3903
 slug: inverse-coin-change
 title: Inverse Coin Change
 difficulty: Medium

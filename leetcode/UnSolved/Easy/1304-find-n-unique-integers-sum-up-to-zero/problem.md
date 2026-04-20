@@ -1,10 +1,11 @@
 ---
 id: 1304
+internal_id: 1426
 slug: find-n-unique-integers-sum-up-to-zero
 title: Find N Unique Integers Sum up to Zero
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

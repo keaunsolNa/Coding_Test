@@ -1,5 +1,6 @@
 ---
 id: 3593
+internal_id: 3909
 slug: minimum-increments-to-equalize-leaf-paths
 title: Minimum Increments to Equalize Leaf Paths
 difficulty: Medium

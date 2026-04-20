@@ -1,10 +1,11 @@
 ---
 id: 1770
+internal_id: 1896
 slug: maximum-score-from-performing-multiplication-operations
 title: Maximum Score from Performing Multiplication Operations
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

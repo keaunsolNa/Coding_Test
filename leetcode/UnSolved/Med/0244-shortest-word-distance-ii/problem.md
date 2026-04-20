@@ -1,5 +1,6 @@
 ---
 id: 244
+internal_id: 244
 slug: shortest-word-distance-ii
 title: Shortest Word Distance II
 difficulty: Medium

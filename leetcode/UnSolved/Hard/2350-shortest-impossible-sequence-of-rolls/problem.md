@@ -1,10 +1,11 @@
 ---
 id: 2350
+internal_id: 2435
 slug: shortest-impossible-sequence-of-rolls
 title: Shortest Impossible Sequence of Rolls
 difficulty: Hard
 tags: Array, Hash Table, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

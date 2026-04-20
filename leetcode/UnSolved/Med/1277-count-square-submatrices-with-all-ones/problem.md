@@ -1,5 +1,6 @@
 ---
 id: 1277
+internal_id: 1402
 slug: count-square-submatrices-with-all-ones
 title: Count Square Submatrices with All Ones
 difficulty: Medium

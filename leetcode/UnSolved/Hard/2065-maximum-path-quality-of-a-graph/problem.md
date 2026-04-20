@@ -1,10 +1,11 @@
 ---
 id: 2065
+internal_id: 2189
 slug: maximum-path-quality-of-a-graph
 title: Maximum Path Quality of a Graph
 difficulty: Hard
 tags: Array, Backtracking, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

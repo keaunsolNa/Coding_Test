@@ -1,10 +1,11 @@
 ---
 id: 1137
+internal_id: 1236
 slug: n-th-tribonacci-number
 title: N-th Tribonacci Number
 difficulty: Easy
 tags: Math, Dynamic Programming, Memoization
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

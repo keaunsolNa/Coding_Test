@@ -1,10 +1,11 @@
 ---
 id: 3430
+internal_id: 3725
 slug: maximum-and-minimum-sums-of-at-most-size-k-subarrays
 title: Maximum and Minimum Sums of at Most Size K Subarrays
 difficulty: Hard
 tags: Array, Math, Stack, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3363
+internal_id: 3648
 slug: find-the-maximum-number-of-fruits-collected
 title: Find the Maximum Number of Fruits Collected
 difficulty: Hard
 tags: Array, Dynamic Programming, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

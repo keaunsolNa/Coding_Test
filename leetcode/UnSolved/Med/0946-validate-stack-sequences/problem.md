@@ -1,5 +1,6 @@
 ---
 id: 946
+internal_id: 983
 slug: validate-stack-sequences
 title: Validate Stack Sequences
 difficulty: Medium

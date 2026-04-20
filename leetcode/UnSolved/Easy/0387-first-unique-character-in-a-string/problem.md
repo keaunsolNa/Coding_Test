@@ -1,10 +1,11 @@
 ---
 id: 387
+internal_id: 387
 slug: first-unique-character-in-a-string
 title: First Unique Character in a String
 difficulty: Easy
 tags: Hash Table, String, Queue, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

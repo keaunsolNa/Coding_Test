@@ -1,10 +1,11 @@
 ---
 id: 2778
+internal_id: 2844
 slug: sum-of-squares-of-special-elements
 title: Sum of Squares of Special Elements 
 difficulty: Easy
 tags: Array, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

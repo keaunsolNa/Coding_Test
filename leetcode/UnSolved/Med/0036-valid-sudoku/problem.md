@@ -1,5 +1,6 @@
 ---
 id: 36
+internal_id: 36
 slug: valid-sudoku
 title: Valid Sudoku
 difficulty: Medium

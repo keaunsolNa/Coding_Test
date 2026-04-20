@@ -1,10 +1,11 @@
 ---
 id: 3772
+internal_id: 4151
 slug: maximum-subgraph-score-in-a-tree
 title: Maximum Subgraph Score in a Tree
 difficulty: Hard
 tags: Array, Dynamic Programming, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

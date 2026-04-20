@@ -1,10 +1,11 @@
 ---
 id: 2053
+internal_id: 2163
 slug: kth-distinct-string-in-an-array
 title: Kth Distinct String in an Array
 difficulty: Easy
 tags: Array, Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3692
+internal_id: 4053
 slug: majority-frequency-characters
 title: Majority Frequency Characters
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

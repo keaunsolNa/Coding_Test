@@ -1,10 +1,11 @@
 ---
 id: 1827
+internal_id: 1938
 slug: minimum-operations-to-make-the-array-increasing
 title: Minimum Operations to Make the Array Increasing
 difficulty: Easy
 tags: Array, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

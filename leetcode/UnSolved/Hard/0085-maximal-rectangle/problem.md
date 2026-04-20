@@ -1,10 +1,11 @@
 ---
 id: 85
+internal_id: 85
 slug: maximal-rectangle
 title: Maximal Rectangle
 difficulty: Hard
 tags: Array, Dynamic Programming, Stack, Matrix, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2870
+internal_id: 3094
 slug: minimum-number-of-operations-to-make-array-empty
 title: Minimum Number of Operations to Make Array Empty
 difficulty: Medium

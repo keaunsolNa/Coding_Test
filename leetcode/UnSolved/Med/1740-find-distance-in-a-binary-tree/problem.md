@@ -1,5 +1,6 @@
 ---
 id: 1740
+internal_id: 1883
 slug: find-distance-in-a-binary-tree
 title: Find Distance in a Binary Tree
 difficulty: Medium

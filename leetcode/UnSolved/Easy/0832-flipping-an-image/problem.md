@@ -1,10 +1,11 @@
 ---
 id: 832
+internal_id: 861
 slug: flipping-an-image
 title: Flipping an Image
 difficulty: Easy
 tags: Array, Two Pointers, Bit Manipulation, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 450
+internal_id: 450
 slug: delete-node-in-a-bst
 title: Delete Node in a BST
 difficulty: Medium

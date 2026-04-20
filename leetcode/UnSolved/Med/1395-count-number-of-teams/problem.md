@@ -1,5 +1,6 @@
 ---
 id: 1395
+internal_id: 1511
 slug: count-number-of-teams
 title: Count Number of Teams
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 914
+internal_id: 950
 slug: x-of-a-kind-in-a-deck-of-cards
 title: X of a Kind in a Deck of Cards
 difficulty: Easy
 tags: Array, Hash Table, Math, Counting, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

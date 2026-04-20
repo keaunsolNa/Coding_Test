@@ -1,10 +1,11 @@
 ---
 id: 2047
+internal_id: 2173
 slug: number-of-valid-words-in-a-sentence
 title: Number of Valid Words in a Sentence
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

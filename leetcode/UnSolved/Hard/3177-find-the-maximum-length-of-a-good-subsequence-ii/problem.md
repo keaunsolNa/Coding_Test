@@ -1,10 +1,11 @@
 ---
 id: 3177
+internal_id: 3452
 slug: find-the-maximum-length-of-a-good-subsequence-ii
 title: Find the Maximum Length of a Good Subsequence II
 difficulty: Hard
 tags: Array, Hash Table, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1602
+internal_id: 1745
 slug: find-nearest-right-node-in-binary-tree
 title: Find Nearest Right Node in Binary Tree
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3226
+internal_id: 3508
 slug: number-of-bit-changes-to-make-two-integers-equal
 title: Number of Bit Changes to Make Two Integers Equal
 difficulty: Easy
 tags: Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

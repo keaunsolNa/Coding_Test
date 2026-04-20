@@ -1,11 +1,12 @@
 ---
 id: 178
+internal_id: 178
 slug: rank-scores
 title: Rank Scores
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 178. Rank Scores

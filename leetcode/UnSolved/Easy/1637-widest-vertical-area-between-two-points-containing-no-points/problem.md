@@ -1,10 +1,11 @@
 ---
 id: 1637
+internal_id: 1742
 slug: widest-vertical-area-between-two-points-containing-no-points
 title: Widest Vertical Area Between Two Points Containing No Points
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

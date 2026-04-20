@@ -1,5 +1,6 @@
 ---
 id: 1906
+internal_id: 2034
 slug: minimum-absolute-difference-queries
 title: Minimum Absolute Difference Queries
 difficulty: Medium

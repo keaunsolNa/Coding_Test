@@ -1,5 +1,6 @@
 ---
 id: 3255
+internal_id: 3523
 slug: find-the-power-of-k-size-subarrays-ii
 title: Find the Power of K-Size Subarrays II
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 990
+internal_id: 1032
 slug: satisfiability-of-equality-equations
 title: Satisfiability of Equality Equations
 difficulty: Medium

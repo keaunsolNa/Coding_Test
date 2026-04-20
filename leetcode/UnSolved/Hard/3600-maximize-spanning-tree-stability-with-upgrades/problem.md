@@ -1,10 +1,11 @@
 ---
 id: 3600
+internal_id: 3902
 slug: maximize-spanning-tree-stability-with-upgrades
 title: Maximize Spanning Tree Stability with Upgrades
 difficulty: Hard
 tags: Binary Search, Greedy, Union-Find, Graph Theory, Minimum Spanning Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

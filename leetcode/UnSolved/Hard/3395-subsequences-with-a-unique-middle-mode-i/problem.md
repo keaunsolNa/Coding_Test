@@ -1,10 +1,11 @@
 ---
 id: 3395
+internal_id: 3700
 slug: subsequences-with-a-unique-middle-mode-i
 title: Subsequences with a Unique Middle Mode I
 difficulty: Hard
 tags: Array, Hash Table, Math, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2755
+internal_id: 2795
 slug: deep-merge-of-two-objects
 title: Deep Merge of Two Objects
 difficulty: Medium

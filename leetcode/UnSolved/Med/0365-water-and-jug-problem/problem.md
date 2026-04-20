@@ -1,5 +1,6 @@
 ---
 id: 365
+internal_id: 365
 slug: water-and-jug-problem
 title: Water and Jug Problem
 difficulty: Medium

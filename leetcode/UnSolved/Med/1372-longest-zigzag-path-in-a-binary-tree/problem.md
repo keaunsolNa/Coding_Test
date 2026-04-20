@@ -1,5 +1,6 @@
 ---
 id: 1372
+internal_id: 1474
 slug: longest-zigzag-path-in-a-binary-tree
 title: Longest ZigZag Path in a Binary Tree
 difficulty: Medium

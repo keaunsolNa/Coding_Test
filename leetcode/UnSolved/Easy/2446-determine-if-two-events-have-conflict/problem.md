@@ -1,10 +1,11 @@
 ---
 id: 2446
+internal_id: 2536
 slug: determine-if-two-events-have-conflict
 title: Determine if Two Events Have Conflict
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

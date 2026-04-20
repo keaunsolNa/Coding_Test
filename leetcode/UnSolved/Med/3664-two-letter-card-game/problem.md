@@ -1,5 +1,6 @@
 ---
 id: 3664
+internal_id: 3877
 slug: two-letter-card-game
 title: Two-Letter Card Game
 difficulty: Medium

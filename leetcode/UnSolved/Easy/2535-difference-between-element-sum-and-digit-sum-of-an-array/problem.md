@@ -1,10 +1,11 @@
 ---
 id: 2535
+internal_id: 2624
 slug: difference-between-element-sum-and-digit-sum-of-an-array
 title: Difference Between Element Sum and Digit Sum of an Array
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

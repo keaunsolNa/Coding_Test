@@ -1,5 +1,6 @@
 ---
 id: 522
+internal_id: 522
 slug: longest-uncommon-subsequence-ii
 title: Longest Uncommon Subsequence II
 difficulty: Medium

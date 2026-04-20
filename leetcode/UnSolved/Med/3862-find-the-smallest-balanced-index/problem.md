@@ -1,5 +1,6 @@
 ---
 id: 3862
+internal_id: 4240
 slug: find-the-smallest-balanced-index
 title: Find the Smallest Balanced Index
 difficulty: Medium

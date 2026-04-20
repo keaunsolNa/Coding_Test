@@ -1,10 +1,11 @@
 ---
 id: 1089
+internal_id: 1168
 slug: duplicate-zeros
 title: Duplicate Zeros
 difficulty: Easy
 tags: Array, Two Pointers
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

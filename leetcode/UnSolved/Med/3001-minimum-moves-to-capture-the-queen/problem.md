@@ -1,5 +1,6 @@
 ---
 id: 3001
+internal_id: 3270
 slug: minimum-moves-to-capture-the-queen
 title: Minimum Moves to Capture The Queen
 difficulty: Medium

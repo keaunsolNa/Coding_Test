@@ -1,5 +1,6 @@
 ---
 id: 2685
+internal_id: 2793
 slug: count-the-number-of-complete-components
 title: Count the Number of Complete Components
 difficulty: Medium

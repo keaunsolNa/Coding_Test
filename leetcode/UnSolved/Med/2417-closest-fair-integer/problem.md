@@ -1,5 +1,6 @@
 ---
 id: 2417
+internal_id: 2560
 slug: closest-fair-integer
 title: Closest Fair Integer
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2950
+internal_id: 3237
 slug: number-of-divisible-substrings
 title: Number of Divisible Substrings
 difficulty: Medium

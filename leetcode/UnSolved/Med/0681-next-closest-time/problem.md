@@ -1,5 +1,6 @@
 ---
 id: 681
+internal_id: 681
 slug: next-closest-time
 title: Next Closest Time
 difficulty: Medium

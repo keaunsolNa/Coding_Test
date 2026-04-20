@@ -1,5 +1,6 @@
 ---
 id: 339
+internal_id: 339
 slug: nested-list-weight-sum
 title: Nested List Weight Sum
 difficulty: Medium

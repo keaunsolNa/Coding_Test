@@ -1,10 +1,11 @@
 ---
 id: 1206
+internal_id: 1337
 slug: design-skiplist
 title: Design Skiplist
 difficulty: Hard
 tags: Linked List, Design
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

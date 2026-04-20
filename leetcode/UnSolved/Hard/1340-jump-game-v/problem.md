@@ -1,10 +1,11 @@
 ---
 id: 1340
+internal_id: 1466
 slug: jump-game-v
 title: Jump Game V
 difficulty: Hard
 tags: Array, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

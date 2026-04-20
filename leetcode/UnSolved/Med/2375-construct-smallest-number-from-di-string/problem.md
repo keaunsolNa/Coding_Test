@@ -1,5 +1,6 @@
 ---
 id: 2375
+internal_id: 2456
 slug: construct-smallest-number-from-di-string
 title: Construct Smallest Number From DI String
 difficulty: Medium

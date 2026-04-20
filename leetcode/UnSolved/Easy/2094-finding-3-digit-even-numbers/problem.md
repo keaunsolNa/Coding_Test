@@ -1,10 +1,11 @@
 ---
 id: 2094
+internal_id: 2215
 slug: finding-3-digit-even-numbers
 title: Finding 3-Digit Even Numbers
 difficulty: Easy
 tags: Array, Hash Table, Recursion, Sorting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

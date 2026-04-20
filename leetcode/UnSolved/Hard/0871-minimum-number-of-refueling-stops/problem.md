@@ -1,10 +1,11 @@
 ---
 id: 871
+internal_id: 902
 slug: minimum-number-of-refueling-stops
 title: Minimum Number of Refueling Stops
 difficulty: Hard
 tags: Array, Dynamic Programming, Greedy, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

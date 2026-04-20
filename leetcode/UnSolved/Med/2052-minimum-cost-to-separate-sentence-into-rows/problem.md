@@ -1,5 +1,6 @@
 ---
 id: 2052
+internal_id: 2082
 slug: minimum-cost-to-separate-sentence-into-rows
 title: Minimum Cost to Separate Sentence Into Rows
 difficulty: Medium

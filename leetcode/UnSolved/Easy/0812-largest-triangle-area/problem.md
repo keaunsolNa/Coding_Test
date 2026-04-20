@@ -1,10 +1,11 @@
 ---
 id: 812
+internal_id: 830
 slug: largest-triangle-area
 title: Largest Triangle Area
 difficulty: Easy
 tags: Array, Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

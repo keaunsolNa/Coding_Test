@@ -1,10 +1,11 @@
 ---
 id: 2819
+internal_id: 3077
 slug: minimum-relative-loss-after-buying-chocolates
 title: Minimum Relative Loss After Buying Chocolates
 difficulty: Hard
 tags: Array, Binary Search, Sorting, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

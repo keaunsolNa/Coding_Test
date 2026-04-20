@@ -1,10 +1,11 @@
 ---
 id: 2888
+internal_id: 3064
 slug: reshape-data-concatenate
 title: Reshape Data: Concatenate
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

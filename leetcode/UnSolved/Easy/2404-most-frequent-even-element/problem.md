@@ -1,10 +1,11 @@
 ---
 id: 2404
+internal_id: 2486
 slug: most-frequent-even-element
 title: Most Frequent Even Element
 difficulty: Easy
 tags: Array, Hash Table, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1111
+internal_id: 1208
 slug: maximum-nesting-depth-of-two-valid-parentheses-strings
 title: Maximum Nesting Depth of Two Valid Parentheses Strings
 difficulty: Medium

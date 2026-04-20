@@ -1,5 +1,6 @@
 ---
 id: 2779
+internal_id: 2891
 slug: maximum-beauty-of-an-array-after-applying-operation
 title: Maximum Beauty of an Array After Applying Operation
 difficulty: Medium

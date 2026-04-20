@@ -1,5 +1,6 @@
 ---
 id: 904
+internal_id: 940
 slug: fruit-into-baskets
 title: Fruit Into Baskets
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 868
+internal_id: 899
 slug: binary-gap
 title: Binary Gap
 difficulty: Easy
 tags: Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

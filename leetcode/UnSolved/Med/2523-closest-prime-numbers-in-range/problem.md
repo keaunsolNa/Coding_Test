@@ -1,5 +1,6 @@
 ---
 id: 2523
+internal_id: 2610
 slug: closest-prime-numbers-in-range
 title: Closest Prime Numbers in Range
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3658
+internal_id: 3995
 slug: gcd-of-odd-and-even-sums
 title: GCD of Odd and Even Sums
 difficulty: Easy
 tags: Math, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

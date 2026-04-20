@@ -1,5 +1,6 @@
 ---
 id: 322
+internal_id: 322
 slug: coin-change
 title: Coin Change
 difficulty: Medium

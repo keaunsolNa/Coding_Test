@@ -1,5 +1,6 @@
 ---
 id: 310
+internal_id: 310
 slug: minimum-height-trees
 title: Minimum Height Trees
 difficulty: Medium

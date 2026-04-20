@@ -1,10 +1,11 @@
 ---
 id: 2788
+internal_id: 2881
 slug: split-strings-by-separator
 title: Split Strings by Separator
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

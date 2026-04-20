@@ -1,5 +1,6 @@
 ---
 id: 477
+internal_id: 477
 slug: total-hamming-distance
 title: Total Hamming Distance
 difficulty: Medium

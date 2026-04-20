@@ -1,10 +1,11 @@
 ---
 id: 3731
+internal_id: 4107
 slug: find-missing-elements
 title: Find Missing Elements
 difficulty: Easy
 tags: Array, Hash Table, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

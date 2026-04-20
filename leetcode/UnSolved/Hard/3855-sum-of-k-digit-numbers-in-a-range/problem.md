@@ -1,10 +1,11 @@
 ---
 id: 3855
+internal_id: 4239
 slug: sum-of-k-digit-numbers-in-a-range
 title: Sum of K-Digit Numbers in a Range
 difficulty: Hard
 tags: Math, Divide and Conquer, Combinatorics, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

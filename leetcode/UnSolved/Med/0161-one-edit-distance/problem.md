@@ -1,5 +1,6 @@
 ---
 id: 161
+internal_id: 161
 slug: one-edit-distance
 title: One Edit Distance
 difficulty: Medium

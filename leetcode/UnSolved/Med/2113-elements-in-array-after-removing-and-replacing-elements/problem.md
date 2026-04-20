@@ -1,5 +1,6 @@
 ---
 id: 2113
+internal_id: 2258
 slug: elements-in-array-after-removing-and-replacing-elements
 title: Elements in Array After Removing and Replacing Elements
 difficulty: Medium

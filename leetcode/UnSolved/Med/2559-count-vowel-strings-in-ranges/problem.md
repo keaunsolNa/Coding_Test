@@ -1,5 +1,6 @@
 ---
 id: 2559
+internal_id: 2691
 slug: count-vowel-strings-in-ranges
 title: Count Vowel Strings in Ranges
 difficulty: Medium

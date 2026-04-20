@@ -1,5 +1,6 @@
 ---
 id: 79
+internal_id: 79
 slug: word-search
 title: Word Search
 difficulty: Medium

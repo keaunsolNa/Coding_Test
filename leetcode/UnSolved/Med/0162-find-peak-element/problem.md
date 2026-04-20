@@ -1,5 +1,6 @@
 ---
 id: 162
+internal_id: 162
 slug: find-peak-element
 title: Find Peak Element
 difficulty: Medium

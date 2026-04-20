@@ -1,5 +1,6 @@
 ---
 id: 593
+internal_id: 593
 slug: valid-square
 title: Valid Square
 difficulty: Medium

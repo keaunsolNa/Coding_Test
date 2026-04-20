@@ -1,5 +1,6 @@
 ---
 id: 8
+internal_id: 8
 slug: string-to-integer-atoi
 title: String to Integer (atoi)
 difficulty: Medium

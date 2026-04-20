@@ -1,5 +1,6 @@
 ---
 id: 1810
+internal_id: 1959
 slug: minimum-path-cost-in-a-hidden-grid
 title: Minimum Path Cost in a Hidden Grid
 difficulty: Medium

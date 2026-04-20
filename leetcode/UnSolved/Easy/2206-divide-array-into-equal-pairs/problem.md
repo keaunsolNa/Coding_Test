@@ -1,10 +1,11 @@
 ---
 id: 2206
+internal_id: 2308
 slug: divide-array-into-equal-pairs
 title: Divide Array Into Equal Pairs
 difficulty: Easy
 tags: Array, Hash Table, Bit Manipulation, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

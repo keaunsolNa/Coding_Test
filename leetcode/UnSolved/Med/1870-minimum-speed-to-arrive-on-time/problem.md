@@ -1,5 +1,6 @@
 ---
 id: 1870
+internal_id: 2000
 slug: minimum-speed-to-arrive-on-time
 title: Minimum Speed to Arrive on Time
 difficulty: Medium

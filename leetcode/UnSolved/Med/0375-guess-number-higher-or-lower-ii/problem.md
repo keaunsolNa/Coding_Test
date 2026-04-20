@@ -1,5 +1,6 @@
 ---
 id: 375
+internal_id: 375
 slug: guess-number-higher-or-lower-ii
 title: Guess Number Higher or Lower II
 difficulty: Medium

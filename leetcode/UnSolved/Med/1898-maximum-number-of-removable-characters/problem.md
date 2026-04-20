@@ -1,5 +1,6 @@
 ---
 id: 1898
+internal_id: 2027
 slug: maximum-number-of-removable-characters
 title: Maximum Number of Removable Characters
 difficulty: Medium

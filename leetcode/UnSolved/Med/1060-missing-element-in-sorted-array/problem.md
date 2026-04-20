@@ -1,5 +1,6 @@
 ---
 id: 1060
+internal_id: 1059
 slug: missing-element-in-sorted-array
 title: Missing Element in Sorted Array
 difficulty: Medium

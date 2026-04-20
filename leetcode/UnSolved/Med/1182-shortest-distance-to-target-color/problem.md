@@ -1,5 +1,6 @@
 ---
 id: 1182
+internal_id: 1134
 slug: shortest-distance-to-target-color
 title: Shortest Distance to Target Color
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1177
+internal_id: 1281
 slug: can-make-palindrome-from-substring
 title: Can Make Palindrome from Substring
 difficulty: Medium

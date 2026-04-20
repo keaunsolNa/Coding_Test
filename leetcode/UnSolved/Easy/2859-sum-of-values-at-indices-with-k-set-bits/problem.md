@@ -1,10 +1,11 @@
 ---
 id: 2859
+internal_id: 3093
 slug: sum-of-values-at-indices-with-k-set-bits
 title: Sum of Values at Indices With K Set Bits
 difficulty: Easy
 tags: Array, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1776
+internal_id: 1902
 slug: car-fleet-ii
 title: Car Fleet II
 difficulty: Hard
 tags: Array, Math, Stack, Heap (Priority Queue), Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

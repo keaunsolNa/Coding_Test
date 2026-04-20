@@ -1,5 +1,6 @@
 ---
 id: 2170
+internal_id: 2289
 slug: minimum-operations-to-make-the-array-alternating
 title: Minimum Operations to Make the Array Alternating
 difficulty: Medium

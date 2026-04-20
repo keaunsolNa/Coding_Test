@@ -1,10 +1,11 @@
 ---
 id: 3536
+internal_id: 3859
 slug: maximum-product-of-two-digits
 title: Maximum Product of Two Digits
 difficulty: Easy
 tags: Math, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

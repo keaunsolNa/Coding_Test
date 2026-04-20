@@ -1,10 +1,11 @@
 ---
 id: 3791
+internal_id: 4095
 slug: number-of-balanced-integers-in-a-range
 title: Number of Balanced Integers in a Range
 difficulty: Hard
 tags: Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

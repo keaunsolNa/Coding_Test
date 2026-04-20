@@ -1,10 +1,11 @@
 ---
 id: 2897
+internal_id: 3153
 slug: apply-operations-on-array-to-maximize-sum-of-squares
 title: Apply Operations on Array to Maximize Sum of Squares
 difficulty: Hard
 tags: Array, Hash Table, Greedy, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

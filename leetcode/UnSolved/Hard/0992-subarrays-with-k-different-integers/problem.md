@@ -1,10 +1,11 @@
 ---
 id: 992
+internal_id: 1034
 slug: subarrays-with-k-different-integers
 title: Subarrays with K Different Integers
 difficulty: Hard
 tags: Array, Hash Table, Sliding Window, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

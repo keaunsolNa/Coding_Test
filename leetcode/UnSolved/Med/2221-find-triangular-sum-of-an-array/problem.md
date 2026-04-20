@@ -1,5 +1,6 @@
 ---
 id: 2221
+internal_id: 2324
 slug: find-triangular-sum-of-an-array
 title: Find Triangular Sum of an Array
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1096
+internal_id: 1188
 slug: brace-expansion-ii
 title: Brace Expansion II
 difficulty: Hard
 tags: Hash Table, String, Backtracking, Stack, Breadth-First Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

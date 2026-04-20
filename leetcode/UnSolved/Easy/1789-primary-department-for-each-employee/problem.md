@@ -1,11 +1,12 @@
 ---
 id: 1789
+internal_id: 1942
 slug: primary-department-for-each-employee
 title: Primary Department for Each Employee
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1789. Primary Department for Each Employee

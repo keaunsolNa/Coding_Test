@@ -1,10 +1,11 @@
 ---
 id: 1893
+internal_id: 2005
 slug: check-if-all-the-integers-in-a-range-are-covered
 title: Check if All the Integers in a Range Are Covered
 difficulty: Easy
 tags: Array, Hash Table, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

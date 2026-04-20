@@ -1,5 +1,6 @@
 ---
 id: 2998
+internal_id: 3239
 slug: minimum-number-of-operations-to-make-x-and-y-equal
 title: Minimum Number of Operations to Make X and Y Equal
 difficulty: Medium

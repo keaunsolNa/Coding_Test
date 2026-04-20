@@ -1,10 +1,11 @@
 ---
 id: 2932
+internal_id: 3193
 slug: maximum-strong-pair-xor-i
 title: Maximum Strong Pair XOR I
 difficulty: Easy
 tags: Array, Hash Table, Bit Manipulation, Trie, Sliding Window
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

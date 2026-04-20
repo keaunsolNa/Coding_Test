@@ -1,5 +1,6 @@
 ---
 id: 2611
+internal_id: 2725
 slug: mice-and-cheese
 title: Mice and Cheese
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1735
+internal_id: 1836
 slug: count-ways-to-make-array-with-product
 title: Count Ways to Make Array With Product
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Combinatorics, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

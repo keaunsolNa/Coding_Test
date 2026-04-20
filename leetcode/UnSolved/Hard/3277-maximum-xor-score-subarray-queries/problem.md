@@ -1,10 +1,11 @@
 ---
 id: 3277
+internal_id: 3551
 slug: maximum-xor-score-subarray-queries
 title: Maximum XOR Score Subarray Queries
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2450
+internal_id: 2593
 slug: number-of-distinct-binary-strings-after-applying-operations
 title: Number of Distinct Binary Strings After Applying Operations
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1030
+internal_id: 1094
 slug: matrix-cells-in-distance-order
 title: Matrix Cells in Distance Order
 difficulty: Easy
 tags: Array, Math, Geometry, Sorting, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

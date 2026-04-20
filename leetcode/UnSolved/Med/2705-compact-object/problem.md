@@ -1,5 +1,6 @@
 ---
 id: 2705
+internal_id: 2804
 slug: compact-object
 title: Compact Object
 difficulty: Medium

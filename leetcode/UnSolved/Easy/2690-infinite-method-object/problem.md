@@ -1,10 +1,11 @@
 ---
 id: 2690
+internal_id: 2772
 slug: infinite-method-object
 title: Infinite Method Object
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

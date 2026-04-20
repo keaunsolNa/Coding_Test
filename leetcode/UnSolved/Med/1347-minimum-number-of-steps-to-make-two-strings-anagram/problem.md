@@ -1,5 +1,6 @@
 ---
 id: 1347
+internal_id: 1469
 slug: minimum-number-of-steps-to-make-two-strings-anagram
 title: Minimum Number of Steps to Make Two Strings Anagram
 difficulty: Medium

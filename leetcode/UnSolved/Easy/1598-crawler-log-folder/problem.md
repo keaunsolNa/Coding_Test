@@ -1,10 +1,11 @@
 ---
 id: 1598
+internal_id: 1720
 slug: crawler-log-folder
 title: Crawler Log Folder
 difficulty: Easy
 tags: Array, String, Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

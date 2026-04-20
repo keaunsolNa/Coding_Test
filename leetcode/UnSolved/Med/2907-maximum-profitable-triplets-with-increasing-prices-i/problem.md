@@ -1,5 +1,6 @@
 ---
 id: 2907
+internal_id: 3187
 slug: maximum-profitable-triplets-with-increasing-prices-i
 title: Maximum Profitable Triplets With Increasing Prices I
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2533
+internal_id: 2672
 slug: number-of-good-binary-strings
 title: Number of Good Binary Strings
 difficulty: Medium

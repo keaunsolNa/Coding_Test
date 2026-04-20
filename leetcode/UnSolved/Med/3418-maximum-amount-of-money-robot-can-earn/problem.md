@@ -1,5 +1,6 @@
 ---
 id: 3418
+internal_id: 3677
 slug: maximum-amount-of-money-robot-can-earn
 title: Maximum Amount of Money Robot Can Earn
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1453
+internal_id: 1563
 slug: maximum-number-of-darts-inside-of-a-circular-dartboard
 title: Maximum Number of Darts Inside of a Circular Dartboard
 difficulty: Hard
 tags: Array, Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2193
+internal_id: 1356
 slug: minimum-number-of-moves-to-make-palindrome
 title: Minimum Number of Moves to Make Palindrome
 difficulty: Hard
 tags: Two Pointers, String, Greedy, Binary Indexed Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 523
+internal_id: 523
 slug: continuous-subarray-sum
 title: Continuous Subarray Sum
 difficulty: Medium

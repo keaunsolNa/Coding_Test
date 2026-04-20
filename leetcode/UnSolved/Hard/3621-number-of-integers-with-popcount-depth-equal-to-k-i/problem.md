@@ -1,10 +1,11 @@
 ---
 id: 3621
+internal_id: 3937
 slug: number-of-integers-with-popcount-depth-equal-to-k-i
 title: Number of Integers With Popcount-Depth Equal to K I
 difficulty: Hard
 tags: Math, Dynamic Programming, Bit Manipulation, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1885
+internal_id: 2036
 slug: count-pairs-in-two-arrays
 title: Count Pairs in Two Arrays
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1381
+internal_id: 1497
 slug: design-a-stack-with-increment-operation
 title: Design a Stack With Increment Operation
 difficulty: Medium

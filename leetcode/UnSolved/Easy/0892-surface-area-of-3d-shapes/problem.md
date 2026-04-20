@@ -1,10 +1,11 @@
 ---
 id: 892
+internal_id: 928
 slug: surface-area-of-3d-shapes
 title: Surface Area of 3D Shapes
 difficulty: Easy
 tags: Array, Math, Geometry, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

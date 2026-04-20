@@ -1,5 +1,6 @@
 ---
 id: 2216
+internal_id: 1355
 slug: minimum-deletions-to-make-array-beautiful
 title: Minimum Deletions to Make Array Beautiful
 difficulty: Medium

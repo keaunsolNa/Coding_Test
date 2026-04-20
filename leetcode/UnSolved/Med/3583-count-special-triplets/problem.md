@@ -1,5 +1,6 @@
 ---
 id: 3583
+internal_id: 3885
 slug: count-special-triplets
 title: Count Special Triplets
 difficulty: Medium

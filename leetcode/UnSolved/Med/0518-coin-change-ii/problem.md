@@ -1,5 +1,6 @@
 ---
 id: 518
+internal_id: 518
 slug: coin-change-ii
 title: Coin Change II
 difficulty: Medium

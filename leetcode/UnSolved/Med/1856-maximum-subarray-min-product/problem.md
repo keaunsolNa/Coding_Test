@@ -1,5 +1,6 @@
 ---
 id: 1856
+internal_id: 1985
 slug: maximum-subarray-min-product
 title: Maximum Subarray Min-Product
 difficulty: Medium

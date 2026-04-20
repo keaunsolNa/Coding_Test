@@ -1,5 +1,6 @@
 ---
 id: 3900
+internal_id: 4265
 slug: longest-balanced-substring-after-one-swap
 title: Longest Balanced Substring After One Swap
 difficulty: Medium

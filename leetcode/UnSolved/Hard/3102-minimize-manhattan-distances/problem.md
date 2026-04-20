@@ -1,10 +1,11 @@
 ---
 id: 3102
+internal_id: 3344
 slug: minimize-manhattan-distances
 title: Minimize Manhattan Distances
 difficulty: Hard
 tags: Array, Math, Geometry, Sorting, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

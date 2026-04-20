@@ -1,5 +1,6 @@
 ---
 id: 2096
+internal_id: 2217
 slug: step-by-step-directions-from-a-binary-tree-node-to-another
 title: Step-By-Step Directions From a Binary Tree Node to Another
 difficulty: Medium

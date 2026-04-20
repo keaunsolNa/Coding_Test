@@ -1,10 +1,11 @@
 ---
 id: 2899
+internal_id: 3164
 slug: last-visited-integers
 title: Last Visited Integers
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

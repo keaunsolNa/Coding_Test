@@ -1,5 +1,6 @@
 ---
 id: 1131
+internal_id: 1230
 slug: maximum-of-absolute-value-expression
 title: Maximum of Absolute Value Expression
 difficulty: Medium

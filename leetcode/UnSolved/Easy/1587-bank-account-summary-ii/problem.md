@@ -1,11 +1,12 @@
 ---
 id: 1587
+internal_id: 1734
 slug: bank-account-summary-ii
 title: Bank Account Summary II
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1587. Bank Account Summary II

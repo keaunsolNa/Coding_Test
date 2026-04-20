@@ -1,5 +1,6 @@
 ---
 id: 2012
+internal_id: 2138
 slug: sum-of-beauty-in-the-array
 title: Sum of Beauty in the Array
 difficulty: Medium

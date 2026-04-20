@@ -1,5 +1,6 @@
 ---
 id: 1265
+internal_id: 1404
 slug: print-immutable-linked-list-in-reverse
 title: Print Immutable Linked List in Reverse
 difficulty: Medium

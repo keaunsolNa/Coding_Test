@@ -1,5 +1,6 @@
 ---
 id: 1785
+internal_id: 1911
 slug: minimum-elements-to-add-to-form-a-given-sum
 title: Minimum Elements to Add to Form a Given Sum
 difficulty: Medium

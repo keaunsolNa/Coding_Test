@@ -1,5 +1,6 @@
 ---
 id: 128
+internal_id: 128
 slug: longest-consecutive-sequence
 title: Longest Consecutive Sequence
 difficulty: Medium

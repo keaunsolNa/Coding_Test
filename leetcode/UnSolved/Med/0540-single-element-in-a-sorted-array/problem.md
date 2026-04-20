@@ -1,5 +1,6 @@
 ---
 id: 540
+internal_id: 540
 slug: single-element-in-a-sorted-array
 title: Single Element in a Sorted Array
 difficulty: Medium

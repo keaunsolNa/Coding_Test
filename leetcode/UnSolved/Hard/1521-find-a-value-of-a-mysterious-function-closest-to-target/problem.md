@@ -1,10 +1,11 @@
 ---
 id: 1521
+internal_id: 1645
 slug: find-a-value-of-a-mysterious-function-closest-to-target
 title: Find a Value of a Mysterious Function Closest to Target
 difficulty: Hard
 tags: Array, Binary Search, Bit Manipulation, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1087
+internal_id: 1076
 slug: brace-expansion
 title: Brace Expansion
 difficulty: Medium

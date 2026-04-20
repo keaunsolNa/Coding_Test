@@ -1,10 +1,11 @@
 ---
 id: 1088
+internal_id: 1077
 slug: confusing-number-ii
 title: Confusing Number II
 difficulty: Hard
 tags: Math, Backtracking
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

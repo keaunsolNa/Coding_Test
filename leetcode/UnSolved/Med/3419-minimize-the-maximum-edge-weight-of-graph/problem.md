@@ -1,5 +1,6 @@
 ---
 id: 3419
+internal_id: 3720
 slug: minimize-the-maximum-edge-weight-of-graph
 title: Minimize the Maximum Edge Weight of Graph
 difficulty: Medium

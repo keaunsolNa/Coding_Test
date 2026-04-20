@@ -1,10 +1,11 @@
 ---
 id: 1312
+internal_id: 1437
 slug: minimum-insertion-steps-to-make-a-string-palindrome
 title: Minimum Insertion Steps to Make a String Palindrome
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

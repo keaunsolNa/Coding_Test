@@ -1,5 +1,6 @@
 ---
 id: 2607
+internal_id: 2670
 slug: make-k-subarray-sums-equal
 title: Make K-Subarray Sums Equal
 difficulty: Medium

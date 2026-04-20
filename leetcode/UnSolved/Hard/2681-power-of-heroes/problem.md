@@ -1,10 +1,11 @@
 ---
 id: 2681
+internal_id: 2784
 slug: power-of-heroes
 title: Power of Heroes
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Sorting, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

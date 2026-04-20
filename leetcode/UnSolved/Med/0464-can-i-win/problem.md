@@ -1,5 +1,6 @@
 ---
 id: 464
+internal_id: 464
 slug: can-i-win
 title: Can I Win
 difficulty: Medium

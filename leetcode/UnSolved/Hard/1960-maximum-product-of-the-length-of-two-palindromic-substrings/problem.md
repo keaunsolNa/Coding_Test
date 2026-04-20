@@ -1,10 +1,11 @@
 ---
 id: 1960
+internal_id: 1336
 slug: maximum-product-of-the-length-of-two-palindromic-substrings
 title: Maximum Product of the Length of Two Palindromic Substrings
 difficulty: Hard
 tags: Two Pointers, String, Rolling Hash, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

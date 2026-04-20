@@ -1,5 +1,6 @@
 ---
 id: 1765
+internal_id: 1876
 slug: map-of-highest-peak
 title: Map of Highest Peak
 difficulty: Medium

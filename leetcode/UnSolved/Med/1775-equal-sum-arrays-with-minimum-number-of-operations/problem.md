@@ -1,5 +1,6 @@
 ---
 id: 1775
+internal_id: 1901
 slug: equal-sum-arrays-with-minimum-number-of-operations
 title: Equal Sum Arrays With Minimum Number of Operations
 difficulty: Medium

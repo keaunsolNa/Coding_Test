@@ -1,5 +1,6 @@
 ---
 id: 3071
+internal_id: 3335
 slug: minimum-operations-to-write-the-letter-y-on-a-grid
 title: Minimum Operations to Write the Letter Y on a Grid
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 750
+internal_id: 751
 slug: number-of-corner-rectangles
 title: Number Of Corner Rectangles
 difficulty: Medium

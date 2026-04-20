@@ -1,5 +1,6 @@
 ---
 id: 1101
+internal_id: 1085
 slug: the-earliest-moment-when-everyone-become-friends
 title: The Earliest Moment When Everyone Become Friends
 difficulty: Medium

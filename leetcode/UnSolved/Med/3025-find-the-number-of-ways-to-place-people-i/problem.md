@@ -1,5 +1,6 @@
 ---
 id: 3025
+internal_id: 3278
 slug: find-the-number-of-ways-to-place-people-i
 title: Find the Number of Ways to Place People I
 difficulty: Medium

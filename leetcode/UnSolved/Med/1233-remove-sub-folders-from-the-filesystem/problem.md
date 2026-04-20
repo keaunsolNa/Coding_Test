@@ -1,5 +1,6 @@
 ---
 id: 1233
+internal_id: 1350
 slug: remove-sub-folders-from-the-filesystem
 title: Remove Sub-Folders from the Filesystem
 difficulty: Medium

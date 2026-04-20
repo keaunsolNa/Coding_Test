@@ -1,5 +1,6 @@
 ---
 id: 2241
+internal_id: 2352
 slug: design-an-atm-machine
 title: Design an ATM Machine
 difficulty: Medium

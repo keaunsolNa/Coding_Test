@@ -1,11 +1,12 @@
 ---
 id: 1934
+internal_id: 2087
 slug: confirmation-rate
 title: Confirmation Rate
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 1934. Confirmation Rate

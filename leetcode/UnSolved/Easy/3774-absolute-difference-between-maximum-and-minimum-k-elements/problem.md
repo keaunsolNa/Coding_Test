@@ -1,10 +1,11 @@
 ---
 id: 3774
+internal_id: 4158
 slug: absolute-difference-between-maximum-and-minimum-k-elements
 title: Absolute Difference Between Maximum and Minimum K Elements
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

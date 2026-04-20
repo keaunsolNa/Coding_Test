@@ -1,10 +1,11 @@
 ---
 id: 3495
+internal_id: 3744
 slug: minimum-operations-to-make-array-elements-zero
 title: Minimum Operations to Make Array Elements Zero
 difficulty: Hard
 tags: Array, Math, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

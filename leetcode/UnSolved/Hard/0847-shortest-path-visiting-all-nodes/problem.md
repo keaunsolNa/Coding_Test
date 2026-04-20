@@ -1,10 +1,11 @@
 ---
 id: 847
+internal_id: 877
 slug: shortest-path-visiting-all-nodes
 title: Shortest Path Visiting All Nodes
 difficulty: Hard
 tags: Dynamic Programming, Bit Manipulation, Breadth-First Search, Graph Theory, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3558
+internal_id: 3844
 slug: number-of-ways-to-assign-edge-weights-i
 title: Number of Ways to Assign Edge Weights I
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 318
+internal_id: 318
 slug: maximum-product-of-word-lengths
 title: Maximum Product of Word Lengths
 difficulty: Medium

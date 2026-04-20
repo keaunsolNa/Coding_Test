@@ -1,10 +1,11 @@
 ---
 id: 2769
+internal_id: 2812
 slug: find-the-maximum-achievable-number
 title: Find the Maximum Achievable Number
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

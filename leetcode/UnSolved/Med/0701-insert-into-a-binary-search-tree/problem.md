@@ -1,5 +1,6 @@
 ---
 id: 701
+internal_id: 784
 slug: insert-into-a-binary-search-tree
 title: Insert into a Binary Search Tree
 difficulty: Medium

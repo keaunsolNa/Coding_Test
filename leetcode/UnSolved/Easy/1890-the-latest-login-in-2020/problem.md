@@ -1,11 +1,12 @@
 ---
 id: 1890
+internal_id: 2041
 slug: the-latest-login-in-2020
 title: The Latest Login in 2020
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1890. The Latest Login in 2020

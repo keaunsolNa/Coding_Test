@@ -1,5 +1,6 @@
 ---
 id: 3224
+internal_id: 3498
 slug: minimum-array-changes-to-make-differences-equal
 title: Minimum Array Changes to Make Differences Equal
 difficulty: Medium

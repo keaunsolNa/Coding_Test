@@ -1,5 +1,6 @@
 ---
 id: 1797
+internal_id: 1905
 slug: design-authentication-manager
 title: Design Authentication Manager
 difficulty: Medium

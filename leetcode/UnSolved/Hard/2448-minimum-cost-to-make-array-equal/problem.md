@@ -1,10 +1,11 @@
 ---
 id: 2448
+internal_id: 2538
 slug: minimum-cost-to-make-array-equal
 title: Minimum Cost to Make Array Equal
 difficulty: Hard
 tags: Array, Binary Search, Greedy, Sorting, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

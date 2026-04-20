@@ -1,10 +1,11 @@
 ---
 id: 1047
+internal_id: 1128
 slug: remove-all-adjacent-duplicates-in-string
 title: Remove All Adjacent Duplicates In String
 difficulty: Easy
 tags: String, Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

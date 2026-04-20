@@ -1,10 +1,11 @@
 ---
 id: 3444
+internal_id: 3697
 slug: minimum-increments-for-target-multiples-in-an-array
 title: Minimum Increments for Target Multiples in an Array
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Bit Manipulation, Number Theory, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3133
+internal_id: 3394
 slug: minimum-array-end
 title: Minimum Array End
 difficulty: Medium

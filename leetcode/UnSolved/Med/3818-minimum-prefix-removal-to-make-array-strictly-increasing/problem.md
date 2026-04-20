@@ -1,5 +1,6 @@
 ---
 id: 3818
+internal_id: 4199
 slug: minimum-prefix-removal-to-make-array-strictly-increasing
 title: Minimum Prefix Removal to Make Array Strictly Increasing
 difficulty: Medium

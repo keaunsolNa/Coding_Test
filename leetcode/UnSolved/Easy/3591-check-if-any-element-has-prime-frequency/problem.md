@@ -1,10 +1,11 @@
 ---
 id: 3591
+internal_id: 3914
 slug: check-if-any-element-has-prime-frequency
 title: Check if Any Element Has Prime Frequency
 difficulty: Easy
 tags: Array, Hash Table, Math, Counting, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

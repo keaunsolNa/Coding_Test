@@ -1,10 +1,11 @@
 ---
 id: 3068
+internal_id: 3307
 slug: find-the-maximum-sum-of-node-values
 title: Find the Maximum Sum of Node Values
 difficulty: Hard
 tags: Array, Dynamic Programming, Greedy, Bit Manipulation, Tree, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 378
+internal_id: 378
 slug: kth-smallest-element-in-a-sorted-matrix
 title: Kth Smallest Element in a Sorted Matrix
 difficulty: Medium

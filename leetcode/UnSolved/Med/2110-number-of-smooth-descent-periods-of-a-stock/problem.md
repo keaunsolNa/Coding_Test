@@ -1,5 +1,6 @@
 ---
 id: 2110
+internal_id: 2233
 slug: number-of-smooth-descent-periods-of-a-stock
 title: Number of Smooth Descent Periods of a Stock
 difficulty: Medium

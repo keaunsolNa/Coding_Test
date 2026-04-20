@@ -1,5 +1,6 @@
 ---
 id: 1352
+internal_id: 1477
 slug: product-of-the-last-k-numbers
 title: Product of the Last K Numbers
 difficulty: Medium

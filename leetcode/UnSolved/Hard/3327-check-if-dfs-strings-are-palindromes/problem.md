@@ -1,10 +1,11 @@
 ---
 id: 3327
+internal_id: 3603
 slug: check-if-dfs-strings-are-palindromes
 title: Check if DFS Strings Are Palindromes
 difficulty: Hard
 tags: Array, Hash Table, String, Tree, Depth-First Search, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

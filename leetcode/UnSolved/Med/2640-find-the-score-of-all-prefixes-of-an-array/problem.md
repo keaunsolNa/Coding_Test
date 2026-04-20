@@ -1,5 +1,6 @@
 ---
 id: 2640
+internal_id: 2676
 slug: find-the-score-of-all-prefixes-of-an-array
 title: Find the Score of All Prefixes of an Array
 difficulty: Medium

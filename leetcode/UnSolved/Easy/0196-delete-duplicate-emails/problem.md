@@ -1,11 +1,12 @@
 ---
 id: 196
+internal_id: 196
 slug: delete-duplicate-emails
 title: Delete Duplicate Emails
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 196. Delete Duplicate Emails

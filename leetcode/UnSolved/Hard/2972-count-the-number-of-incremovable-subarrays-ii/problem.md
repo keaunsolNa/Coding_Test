@@ -1,10 +1,11 @@
 ---
 id: 2972
+internal_id: 3248
 slug: count-the-number-of-incremovable-subarrays-ii
 title: Count the Number of Incremovable Subarrays II
 difficulty: Hard
 tags: Array, Two Pointers, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

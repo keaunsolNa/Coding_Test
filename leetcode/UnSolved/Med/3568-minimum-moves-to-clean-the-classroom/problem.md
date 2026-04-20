@@ -1,5 +1,6 @@
 ---
 id: 3568
+internal_id: 3870
 slug: minimum-moves-to-clean-the-classroom
 title: Minimum Moves to Clean the Classroom
 difficulty: Medium

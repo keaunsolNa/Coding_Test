@@ -1,5 +1,6 @@
 ---
 id: 382
+internal_id: 382
 slug: linked-list-random-node
 title: Linked List Random Node
 difficulty: Medium

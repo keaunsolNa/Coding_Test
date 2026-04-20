@@ -1,10 +1,11 @@
 ---
 id: 2057
+internal_id: 2181
 slug: smallest-index-with-equal-value
 title: Smallest Index With Equal Value
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

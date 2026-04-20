@@ -1,10 +1,11 @@
 ---
 id: 414
+internal_id: 414
 slug: third-maximum-number
 title: Third Maximum Number
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

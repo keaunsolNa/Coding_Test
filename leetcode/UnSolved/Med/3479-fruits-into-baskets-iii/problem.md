@@ -1,5 +1,6 @@
 ---
 id: 3479
+internal_id: 3791
 slug: fruits-into-baskets-iii
 title: Fruits Into Baskets III
 difficulty: Medium

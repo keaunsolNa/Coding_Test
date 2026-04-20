@@ -1,11 +1,12 @@
 ---
 id: 596
+internal_id: 596
 slug: classes-with-at-least-5-students
 title: Classes With at Least 5 Students
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 596. Classes With at Least 5 Students

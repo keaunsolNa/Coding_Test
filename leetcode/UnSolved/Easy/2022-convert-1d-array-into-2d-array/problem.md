@@ -1,10 +1,11 @@
 ---
 id: 2022
+internal_id: 2132
 slug: convert-1d-array-into-2d-array
 title: Convert 1D Array Into 2D Array
 difficulty: Easy
 tags: Array, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

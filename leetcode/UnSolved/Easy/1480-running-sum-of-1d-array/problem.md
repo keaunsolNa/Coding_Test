@@ -1,10 +1,11 @@
 ---
 id: 1480
+internal_id: 1603
 slug: running-sum-of-1d-array
 title: Running Sum of 1d Array
 difficulty: Easy
 tags: Array, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

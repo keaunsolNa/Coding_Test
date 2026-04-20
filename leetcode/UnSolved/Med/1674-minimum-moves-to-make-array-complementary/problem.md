@@ -1,5 +1,6 @@
 ---
 id: 1674
+internal_id: 1793
 slug: minimum-moves-to-make-array-complementary
 title: Minimum Moves to Make Array Complementary
 difficulty: Medium

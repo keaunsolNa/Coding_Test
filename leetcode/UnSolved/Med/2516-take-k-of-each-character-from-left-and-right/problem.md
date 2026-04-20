@@ -1,5 +1,6 @@
 ---
 id: 2516
+internal_id: 2599
 slug: take-k-of-each-character-from-left-and-right
 title: Take K of Each Character From Left and Right
 difficulty: Medium

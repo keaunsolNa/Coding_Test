@@ -1,5 +1,6 @@
 ---
 id: 3275
+internal_id: 3495
 slug: k-th-nearest-obstacle-queries
 title: K-th Nearest Obstacle Queries
 difficulty: Medium

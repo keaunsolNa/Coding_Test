@@ -1,10 +1,11 @@
 ---
 id: 1478
+internal_id: 1571
 slug: allocate-mailboxes
 title: Allocate Mailboxes
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 786
+internal_id: 802
 slug: k-th-smallest-prime-fraction
 title: K-th Smallest Prime Fraction
 difficulty: Medium

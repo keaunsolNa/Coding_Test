@@ -1,11 +1,12 @@
 ---
 id: 3475
+internal_id: 3816
 slug: dna-pattern-recognition
 title: DNA Pattern Recognition 
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3475. DNA Pattern Recognition 

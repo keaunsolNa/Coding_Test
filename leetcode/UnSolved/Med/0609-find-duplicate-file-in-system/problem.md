@@ -1,5 +1,6 @@
 ---
 id: 609
+internal_id: 609
 slug: find-duplicate-file-in-system
 title: Find Duplicate File in System
 difficulty: Medium

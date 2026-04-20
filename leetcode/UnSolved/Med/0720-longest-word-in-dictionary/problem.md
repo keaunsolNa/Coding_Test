@@ -1,5 +1,6 @@
 ---
 id: 720
+internal_id: 720
 slug: longest-word-in-dictionary
 title: Longest Word in Dictionary
 difficulty: Medium

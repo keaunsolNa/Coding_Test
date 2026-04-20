@@ -1,5 +1,6 @@
 ---
 id: 3339
+internal_id: 3614
 slug: find-the-number-of-k-even-arrays
 title: Find the Number of K-Even Arrays
 difficulty: Medium

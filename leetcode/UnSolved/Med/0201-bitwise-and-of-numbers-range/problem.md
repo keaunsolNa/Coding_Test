@@ -1,5 +1,6 @@
 ---
 id: 201
+internal_id: 201
 slug: bitwise-and-of-numbers-range
 title: Bitwise AND of Numbers Range
 difficulty: Medium

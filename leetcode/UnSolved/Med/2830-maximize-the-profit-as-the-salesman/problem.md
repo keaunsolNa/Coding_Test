@@ -1,5 +1,6 @@
 ---
 id: 2830
+internal_id: 2979
 slug: maximize-the-profit-as-the-salesman
 title: Maximize the Profit as the Salesman
 difficulty: Medium

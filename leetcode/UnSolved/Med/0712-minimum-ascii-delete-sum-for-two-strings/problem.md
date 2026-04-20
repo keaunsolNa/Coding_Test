@@ -1,5 +1,6 @@
 ---
 id: 712
+internal_id: 712
 slug: minimum-ascii-delete-sum-for-two-strings
 title: Minimum ASCII Delete Sum for Two Strings
 difficulty: Medium

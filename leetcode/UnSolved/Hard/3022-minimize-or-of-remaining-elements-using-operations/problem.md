@@ -1,10 +1,11 @@
 ---
 id: 3022
+internal_id: 3261
 slug: minimize-or-of-remaining-elements-using-operations
 title: Minimize OR of Remaining Elements Using Operations
 difficulty: Hard
 tags: Array, Greedy, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

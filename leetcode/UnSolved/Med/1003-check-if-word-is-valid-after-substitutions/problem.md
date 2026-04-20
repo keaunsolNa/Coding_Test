@@ -1,5 +1,6 @@
 ---
 id: 1003
+internal_id: 1045
 slug: check-if-word-is-valid-after-substitutions
 title: Check If Word Is Valid After Substitutions
 difficulty: Medium

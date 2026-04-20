@@ -1,10 +1,11 @@
 ---
 id: 821
+internal_id: 841
 slug: shortest-distance-to-a-character
 title: Shortest Distance to a Character
 difficulty: Easy
 tags: Array, Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

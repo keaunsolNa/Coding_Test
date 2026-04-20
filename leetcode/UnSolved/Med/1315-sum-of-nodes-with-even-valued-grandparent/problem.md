@@ -1,5 +1,6 @@
 ---
 id: 1315
+internal_id: 1243
 slug: sum-of-nodes-with-even-valued-grandparent
 title: Sum of Nodes with Even-Valued Grandparent
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2703
+internal_id: 2820
 slug: return-length-of-arguments-passed
 title: Return Length of Arguments Passed
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

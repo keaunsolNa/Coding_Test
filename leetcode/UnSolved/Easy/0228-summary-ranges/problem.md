@@ -1,10 +1,11 @@
 ---
 id: 228
+internal_id: 228
 slug: summary-ranges
 title: Summary Ranges
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

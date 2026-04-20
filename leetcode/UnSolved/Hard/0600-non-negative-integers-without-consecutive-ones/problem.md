@@ -1,10 +1,11 @@
 ---
 id: 600
+internal_id: 600
 slug: non-negative-integers-without-consecutive-ones
 title: Non-negative Integers without Consecutive Ones
 difficulty: Hard
 tags: Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

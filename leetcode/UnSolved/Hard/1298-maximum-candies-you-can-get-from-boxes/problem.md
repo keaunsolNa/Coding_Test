@@ -1,10 +1,11 @@
 ---
 id: 1298
+internal_id: 1424
 slug: maximum-candies-you-can-get-from-boxes
 title: Maximum Candies You Can Get from Boxes
 difficulty: Hard
 tags: Array, Breadth-First Search, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

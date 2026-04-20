@@ -1,10 +1,11 @@
 ---
 id: 2619
+internal_id: 2734
 slug: array-prototype-last
 title: Array Prototype Last
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

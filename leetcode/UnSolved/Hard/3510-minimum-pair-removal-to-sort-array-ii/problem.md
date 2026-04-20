@@ -1,10 +1,11 @@
 ---
 id: 3510
+internal_id: 3772
 slug: minimum-pair-removal-to-sort-array-ii
 title: Minimum Pair Removal to Sort Array II
 difficulty: Hard
 tags: Array, Hash Table, Linked List, Heap (Priority Queue), Simulation, Doubly-Linked List, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3750
+internal_id: 4126
 slug: minimum-number-of-flips-to-reverse-binary-string
 title: Minimum Number of Flips to Reverse Binary String
 difficulty: Easy
 tags: Math, Two Pointers, String, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

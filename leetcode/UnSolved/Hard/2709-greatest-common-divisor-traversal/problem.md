@@ -1,10 +1,11 @@
 ---
 id: 2709
+internal_id: 2827
 slug: greatest-common-divisor-traversal
 title: Greatest Common Divisor Traversal
 difficulty: Hard
 tags: Array, Math, Union-Find, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1086
+internal_id: 1074
 slug: high-five
 title: High Five
 difficulty: Easy
 tags: Array, Hash Table, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

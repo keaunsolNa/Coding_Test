@@ -1,5 +1,6 @@
 ---
 id: 3885
+internal_id: 4267
 slug: design-event-manager
 title: Design Event Manager
 difficulty: Medium

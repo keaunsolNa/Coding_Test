@@ -1,5 +1,6 @@
 ---
 id: 3650
+internal_id: 3887
 slug: minimum-cost-path-with-edge-reversals
 title: Minimum Cost Path with Edge Reversals
 difficulty: Medium

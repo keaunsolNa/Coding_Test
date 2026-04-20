@@ -1,10 +1,11 @@
 ---
 id: 1332
+internal_id: 1454
 slug: remove-palindromic-subsequences
 title: Remove Palindromic Subsequences
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

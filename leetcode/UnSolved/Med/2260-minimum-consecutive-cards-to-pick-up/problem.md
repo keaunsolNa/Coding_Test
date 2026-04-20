@@ -1,5 +1,6 @@
 ---
 id: 2260
+internal_id: 2338
 slug: minimum-consecutive-cards-to-pick-up
 title: Minimum Consecutive Cards to Pick Up
 difficulty: Medium

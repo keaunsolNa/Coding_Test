@@ -1,5 +1,6 @@
 ---
 id: 2434
+internal_id: 2520
 slug: using-a-robot-to-print-the-lexicographically-smallest-string
 title: Using a Robot to Print the Lexicographically Smallest String
 difficulty: Medium

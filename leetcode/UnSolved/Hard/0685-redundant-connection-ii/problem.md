@@ -1,10 +1,11 @@
 ---
 id: 685
+internal_id: 685
 slug: redundant-connection-ii
 title: Redundant Connection II
 difficulty: Hard
 tags: Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2914
+internal_id: 3174
 slug: minimum-number-of-changes-to-make-binary-string-beautiful
 title: Minimum Number of Changes to Make Binary String Beautiful
 difficulty: Medium

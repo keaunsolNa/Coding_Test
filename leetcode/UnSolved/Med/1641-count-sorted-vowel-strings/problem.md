@@ -1,5 +1,6 @@
 ---
 id: 1641
+internal_id: 1761
 slug: count-sorted-vowel-strings
 title: Count Sorted Vowel Strings
 difficulty: Medium

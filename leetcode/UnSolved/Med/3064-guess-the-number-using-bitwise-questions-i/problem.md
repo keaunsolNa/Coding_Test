@@ -1,5 +1,6 @@
 ---
 id: 3064
+internal_id: 3370
 slug: guess-the-number-using-bitwise-questions-i
 title: Guess the Number Using Bitwise Questions I
 difficulty: Medium

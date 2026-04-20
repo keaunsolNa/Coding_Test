@@ -1,5 +1,6 @@
 ---
 id: 256
+internal_id: 256
 slug: paint-house
 title: Paint House
 difficulty: Medium

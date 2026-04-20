@@ -1,5 +1,6 @@
 ---
 id: 2737
+internal_id: 2880
 slug: find-the-closest-marked-node
 title: Find the Closest Marked Node
 difficulty: Medium

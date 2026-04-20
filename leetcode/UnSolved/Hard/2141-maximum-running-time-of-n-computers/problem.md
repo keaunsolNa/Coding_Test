@@ -1,10 +1,11 @@
 ---
 id: 2141
+internal_id: 2263
 slug: maximum-running-time-of-n-computers
 title: Maximum Running Time of N Computers
 difficulty: Hard
 tags: Array, Binary Search, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2125
+internal_id: 2244
 slug: number-of-laser-beams-in-a-bank
 title: Number of Laser Beams in a Bank
 difficulty: Medium

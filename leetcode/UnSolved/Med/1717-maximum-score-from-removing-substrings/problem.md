@@ -1,5 +1,6 @@
 ---
 id: 1717
+internal_id: 1818
 slug: maximum-score-from-removing-substrings
 title: Maximum Score From Removing Substrings
 difficulty: Medium

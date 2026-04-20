@@ -1,5 +1,6 @@
 ---
 id: 3598
+internal_id: 3800
 slug: longest-common-prefix-between-adjacent-strings-after-removals
 title: Longest Common Prefix Between Adjacent Strings After Removals
 difficulty: Medium

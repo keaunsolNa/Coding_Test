@@ -1,10 +1,11 @@
 ---
 id: 2163
+internal_id: 2267
 slug: minimum-difference-in-sums-after-removal-of-elements
 title: Minimum Difference in Sums After Removal of Elements
 difficulty: Hard
 tags: Array, Dynamic Programming, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

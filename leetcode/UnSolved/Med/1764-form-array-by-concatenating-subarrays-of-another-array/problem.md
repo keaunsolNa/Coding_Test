@@ -1,5 +1,6 @@
 ---
 id: 1764
+internal_id: 1874
 slug: form-array-by-concatenating-subarrays-of-another-array
 title: Form Array by Concatenating Subarrays of Another Array
 difficulty: Medium

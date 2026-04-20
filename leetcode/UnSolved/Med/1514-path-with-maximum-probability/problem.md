@@ -1,5 +1,6 @@
 ---
 id: 1514
+internal_id: 1325
 slug: path-with-maximum-probability
 title: Path with Maximum Probability
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3627
+internal_id: 3766
 slug: maximum-median-sum-of-subsequences-of-size-3
 title: Maximum Median Sum of Subsequences of Size 3
 difficulty: Medium

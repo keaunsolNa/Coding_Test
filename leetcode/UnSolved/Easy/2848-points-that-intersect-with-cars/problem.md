@@ -1,10 +1,11 @@
 ---
 id: 2848
+internal_id: 3034
 slug: points-that-intersect-with-cars
 title: Points That Intersect With Cars
 difficulty: Easy
 tags: Array, Hash Table, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

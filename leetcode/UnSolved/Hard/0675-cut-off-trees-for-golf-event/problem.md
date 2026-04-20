@@ -1,10 +1,11 @@
 ---
 id: 675
+internal_id: 675
 slug: cut-off-trees-for-golf-event
 title: Cut Off Trees for Golf Event
 difficulty: Hard
 tags: Array, Breadth-First Search, Heap (Priority Queue), Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3110
+internal_id: 3379
 slug: score-of-a-string
 title: Score of a String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 28
+internal_id: 28
 slug: find-the-index-of-the-first-occurrence-in-a-string
 title: Find the Index of the First Occurrence in a String
 difficulty: Easy
 tags: Two Pointers, String, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

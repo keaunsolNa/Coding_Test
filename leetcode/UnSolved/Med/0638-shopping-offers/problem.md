@@ -1,5 +1,6 @@
 ---
 id: 638
+internal_id: 638
 slug: shopping-offers
 title: Shopping Offers
 difficulty: Medium

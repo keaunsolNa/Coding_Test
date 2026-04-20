@@ -1,10 +1,11 @@
 ---
 id: 2272
+internal_id: 2360
 slug: substring-with-largest-variance
 title: Substring With Largest Variance
 difficulty: Hard
 tags: Hash Table, String, Dynamic Programming, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

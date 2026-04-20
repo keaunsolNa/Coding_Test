@@ -1,10 +1,11 @@
 ---
 id: 2132
+internal_id: 2200
 slug: stamping-the-grid
 title: Stamping the Grid
 difficulty: Hard
 tags: Array, Greedy, Matrix, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

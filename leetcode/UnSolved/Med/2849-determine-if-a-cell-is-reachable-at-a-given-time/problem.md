@@ -1,5 +1,6 @@
 ---
 id: 2849
+internal_id: 3056
 slug: determine-if-a-cell-is-reachable-at-a-given-time
 title: Determine if a Cell Is Reachable at a Given Time
 difficulty: Medium

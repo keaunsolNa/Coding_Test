@@ -1,5 +1,6 @@
 ---
 id: 1950
+internal_id: 2072
 slug: maximum-of-minimum-values-in-all-subarrays
 title: Maximum of Minimum Values in All Subarrays
 difficulty: Medium

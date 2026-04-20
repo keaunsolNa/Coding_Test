@@ -1,10 +1,11 @@
 ---
 id: 465
+internal_id: 465
 slug: optimal-account-balancing
 title: Optimal Account Balancing
 difficulty: Hard
 tags: Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

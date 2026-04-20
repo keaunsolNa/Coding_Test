@@ -1,5 +1,6 @@
 ---
 id: 2352
+internal_id: 2428
 slug: equal-row-and-column-pairs
 title: Equal Row and Column Pairs
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3409
+internal_id: 3716
 slug: longest-subsequence-with-decreasing-adjacent-difference
 title: Longest Subsequence With Decreasing Adjacent Difference
 difficulty: Medium

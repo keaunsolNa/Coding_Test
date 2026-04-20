@@ -1,5 +1,6 @@
 ---
 id: 3302
+internal_id: 3584
 slug: find-the-lexicographically-smallest-valid-sequence
 title: Find the Lexicographically Smallest Valid Sequence
 difficulty: Medium

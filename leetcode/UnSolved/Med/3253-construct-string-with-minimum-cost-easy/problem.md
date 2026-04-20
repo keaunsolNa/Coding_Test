@@ -1,5 +1,6 @@
 ---
 id: 3253
+internal_id: 3480
 slug: construct-string-with-minimum-cost-easy
 title: Construct String with Minimum Cost (Easy)
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 636
+internal_id: 636
 slug: exclusive-time-of-functions
 title: Exclusive Time of Functions
 difficulty: Medium

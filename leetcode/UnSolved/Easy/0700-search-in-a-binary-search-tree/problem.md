@@ -1,10 +1,11 @@
 ---
 id: 700
+internal_id: 783
 slug: search-in-a-binary-search-tree
 title: Search in a Binary Search Tree
 difficulty: Easy
 tags: Tree, Binary Search Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

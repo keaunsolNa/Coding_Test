@@ -1,5 +1,6 @@
 ---
 id: 1138
+internal_id: 1238
 slug: alphabet-board-path
 title: Alphabet Board Path
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2851
+internal_id: 3024
 slug: string-transformation
 title: String Transformation
 difficulty: Hard
 tags: Math, String, Dynamic Programming, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

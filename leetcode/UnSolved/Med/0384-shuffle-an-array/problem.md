@@ -1,5 +1,6 @@
 ---
 id: 384
+internal_id: 384
 slug: shuffle-an-array
 title: Shuffle an Array
 difficulty: Medium

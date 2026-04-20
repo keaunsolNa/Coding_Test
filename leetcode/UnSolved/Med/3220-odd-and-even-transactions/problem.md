@@ -1,11 +1,12 @@
 ---
 id: 3220
+internal_id: 3530
 slug: odd-and-even-transactions
 title: Odd and Even Transactions
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3220. Odd and Even Transactions

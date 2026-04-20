@@ -1,10 +1,11 @@
 ---
 id: 1260
+internal_id: 1386
 slug: shift-2d-grid
 title: Shift 2D Grid
 difficulty: Easy
 tags: Array, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

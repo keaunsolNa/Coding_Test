@@ -1,5 +1,6 @@
 ---
 id: 3822
+internal_id: 4201
 slug: design-order-management-system
 title: Design Order Management System
 difficulty: Medium

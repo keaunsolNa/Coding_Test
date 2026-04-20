@@ -1,5 +1,6 @@
 ---
 id: 1447
+internal_id: 1543
 slug: simplified-fractions
 title: Simplified Fractions
 difficulty: Medium

@@ -1,11 +1,12 @@
 ---
 id: 511
+internal_id: 1179
 slug: game-play-analysis-i
 title: Game Play Analysis I
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 511. Game Play Analysis I

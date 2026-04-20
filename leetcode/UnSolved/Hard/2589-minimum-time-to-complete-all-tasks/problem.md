@@ -1,10 +1,11 @@
 ---
 id: 2589
+internal_id: 2657
 slug: minimum-time-to-complete-all-tasks
 title: Minimum Time to Complete All Tasks
 difficulty: Hard
 tags: Array, Binary Search, Stack, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

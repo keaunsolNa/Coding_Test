@@ -1,10 +1,11 @@
 ---
 id: 1330
+internal_id: 1255
 slug: reverse-subarray-to-maximize-array-value
 title: Reverse Subarray To Maximize Array Value
 difficulty: Hard
 tags: Array, Math, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 496
+internal_id: 496
 slug: next-greater-element-i
 title: Next Greater Element I
 difficulty: Easy
 tags: Array, Hash Table, Stack, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

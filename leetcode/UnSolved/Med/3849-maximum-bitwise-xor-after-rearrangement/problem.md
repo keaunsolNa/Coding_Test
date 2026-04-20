@@ -1,5 +1,6 @@
 ---
 id: 3849
+internal_id: 4044
 slug: maximum-bitwise-xor-after-rearrangement
 title: Maximum Bitwise XOR After Rearrangement
 difficulty: Medium

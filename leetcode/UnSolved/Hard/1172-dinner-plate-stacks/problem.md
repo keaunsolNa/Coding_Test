@@ -1,10 +1,11 @@
 ---
 id: 1172
+internal_id: 1270
 slug: dinner-plate-stacks
 title: Dinner Plate Stacks
 difficulty: Hard
 tags: Hash Table, Stack, Design, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

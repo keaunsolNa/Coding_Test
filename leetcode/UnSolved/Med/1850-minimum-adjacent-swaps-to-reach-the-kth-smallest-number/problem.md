@@ -1,5 +1,6 @@
 ---
 id: 1850
+internal_id: 1978
 slug: minimum-adjacent-swaps-to-reach-the-kth-smallest-number
 title: Minimum Adjacent Swaps to Reach the Kth Smallest Number
 difficulty: Medium

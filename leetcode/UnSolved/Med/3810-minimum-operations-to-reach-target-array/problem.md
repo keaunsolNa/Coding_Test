@@ -1,5 +1,6 @@
 ---
 id: 3810
+internal_id: 4190
 slug: minimum-operations-to-reach-target-array
 title: Minimum Operations to Reach Target Array
 difficulty: Medium

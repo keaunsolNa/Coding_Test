@@ -1,5 +1,6 @@
 ---
 id: 3814
+internal_id: 4079
 slug: maximum-capacity-within-budget
 title: Maximum Capacity Within Budget
 difficulty: Medium

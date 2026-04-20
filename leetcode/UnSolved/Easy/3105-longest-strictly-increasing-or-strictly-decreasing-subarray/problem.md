@@ -1,10 +1,11 @@
 ---
 id: 3105
+internal_id: 3372
 slug: longest-strictly-increasing-or-strictly-decreasing-subarray
 title: Longest Strictly Increasing or Strictly Decreasing Subarray
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

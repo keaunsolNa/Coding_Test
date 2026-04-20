@@ -1,11 +1,12 @@
 ---
 id: 1211
+internal_id: 1338
 slug: queries-quality-and-percentage
 title: Queries Quality and Percentage
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1211. Queries Quality and Percentage

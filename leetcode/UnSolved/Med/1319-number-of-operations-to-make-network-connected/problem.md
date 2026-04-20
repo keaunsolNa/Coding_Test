@@ -1,5 +1,6 @@
 ---
 id: 1319
+internal_id: 1442
 slug: number-of-operations-to-make-network-connected
 title: Number of Operations to Make Network Connected
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 1884
+internal_id: 2031
 slug: egg-drop-with-2-eggs-and-n-floors
 title: Egg Drop With 2 Eggs and N Floors
 difficulty: Medium

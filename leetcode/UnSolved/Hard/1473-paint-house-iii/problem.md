@@ -1,10 +1,11 @@
 ---
 id: 1473
+internal_id: 1583
 slug: paint-house-iii
 title: Paint House III
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

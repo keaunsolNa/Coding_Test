@@ -1,10 +1,11 @@
 ---
 id: 1987
+internal_id: 2115
 slug: number-of-unique-good-subsequences
 title: Number of Unique Good Subsequences
 difficulty: Hard
 tags: String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

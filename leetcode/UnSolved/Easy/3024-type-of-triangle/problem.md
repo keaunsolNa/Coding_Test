@@ -1,10 +1,11 @@
 ---
 id: 3024
+internal_id: 3321
 slug: type-of-triangle
 title: Type of Triangle
 difficulty: Easy
 tags: Array, Math, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

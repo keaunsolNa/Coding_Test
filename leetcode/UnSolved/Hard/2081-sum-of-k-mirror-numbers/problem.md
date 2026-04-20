@@ -1,10 +1,11 @@
 ---
 id: 2081
+internal_id: 2202
 slug: sum-of-k-mirror-numbers
 title: Sum of k-Mirror Numbers
 difficulty: Hard
 tags: Math, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

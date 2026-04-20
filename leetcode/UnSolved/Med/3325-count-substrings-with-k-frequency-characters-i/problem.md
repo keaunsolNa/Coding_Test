@@ -1,5 +1,6 @@
 ---
 id: 3325
+internal_id: 3502
 slug: count-substrings-with-k-frequency-characters-i
 title: Count Substrings With K-Frequency Characters I
 difficulty: Medium

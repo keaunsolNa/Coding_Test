@@ -1,5 +1,6 @@
 ---
 id: 3488
+internal_id: 3750
 slug: closest-equal-element-queries
 title: Closest Equal Element Queries
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1779
+internal_id: 1888
 slug: find-nearest-point-that-has-the-same-x-or-y-coordinate
 title: Find Nearest Point That Has the Same X or Y Coordinate
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

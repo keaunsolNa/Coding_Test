@@ -1,5 +1,6 @@
 ---
 id: 3672
+internal_id: 4036
 slug: sum-of-weighted-modes-in-subarrays
 title: Sum of Weighted Modes in Subarrays
 difficulty: Medium

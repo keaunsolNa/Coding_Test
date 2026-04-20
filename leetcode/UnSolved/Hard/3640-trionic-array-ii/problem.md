@@ -1,10 +1,11 @@
 ---
 id: 3640
+internal_id: 3956
 slug: trionic-array-ii
 title: Trionic Array II
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

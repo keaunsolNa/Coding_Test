@@ -1,10 +1,11 @@
 ---
 id: 1125
+internal_id: 1220
 slug: smallest-sufficient-team
 title: Smallest Sufficient Team
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

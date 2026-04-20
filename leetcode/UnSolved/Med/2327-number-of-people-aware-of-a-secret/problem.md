@@ -1,5 +1,6 @@
 ---
 id: 2327
+internal_id: 2408
 slug: number-of-people-aware-of-a-secret
 title: Number of People Aware of a Secret
 difficulty: Medium

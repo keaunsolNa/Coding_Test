@@ -1,10 +1,11 @@
 ---
 id: 679
+internal_id: 679
 slug: 24-game
 title: 24 Game
 difficulty: Hard
 tags: Array, Math, Backtracking
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 3715
+internal_id: 3957
 slug: sum-of-perfect-square-ancestors
 title: Sum of Perfect Square Ancestors
 difficulty: Hard
 tags: Array, Hash Table, Math, Tree, Depth-First Search, Counting, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 138
+internal_id: 138
 slug: copy-list-with-random-pointer
 title: Copy List with Random Pointer
 difficulty: Medium

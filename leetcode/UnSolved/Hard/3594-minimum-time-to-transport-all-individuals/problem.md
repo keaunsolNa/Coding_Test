@@ -1,10 +1,11 @@
 ---
 id: 3594
+internal_id: 3896
 slug: minimum-time-to-transport-all-individuals
 title: Minimum Time to Transport All Individuals
 difficulty: Hard
 tags: Array, Bit Manipulation, Graph Theory, Heap (Priority Queue), Shortest Path, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

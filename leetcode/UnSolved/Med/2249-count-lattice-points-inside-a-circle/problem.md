@@ -1,5 +1,6 @@
 ---
 id: 2249
+internal_id: 2332
 slug: count-lattice-points-inside-a-circle
 title: Count Lattice Points Inside a Circle
 difficulty: Medium

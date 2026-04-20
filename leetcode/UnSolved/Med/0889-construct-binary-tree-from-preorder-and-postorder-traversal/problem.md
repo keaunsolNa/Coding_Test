@@ -1,5 +1,6 @@
 ---
 id: 889
+internal_id: 925
 slug: construct-binary-tree-from-preorder-and-postorder-traversal
 title: Construct Binary Tree from Preorder and Postorder Traversal
 difficulty: Medium

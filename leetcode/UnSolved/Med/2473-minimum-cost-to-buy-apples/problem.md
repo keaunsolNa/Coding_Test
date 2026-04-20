@@ -1,5 +1,6 @@
 ---
 id: 2473
+internal_id: 2612
 slug: minimum-cost-to-buy-apples
 title: Minimum Cost to Buy Apples
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 545
+internal_id: 545
 slug: boundary-of-binary-tree
 title: Boundary of Binary Tree
 difficulty: Medium

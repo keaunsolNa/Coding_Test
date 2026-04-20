@@ -1,5 +1,6 @@
 ---
 id: 3599
+internal_id: 3913
 slug: partition-array-to-minimize-xor
 title: Partition Array to Minimize XOR
 difficulty: Medium

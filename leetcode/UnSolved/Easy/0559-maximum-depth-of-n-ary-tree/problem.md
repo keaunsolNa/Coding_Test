@@ -1,10 +1,11 @@
 ---
 id: 559
+internal_id: 774
 slug: maximum-depth-of-n-ary-tree
 title: Maximum Depth of N-ary Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Breadth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

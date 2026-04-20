@@ -1,5 +1,6 @@
 ---
 id: 3148
+internal_id: 3391
 slug: maximum-difference-score-in-a-grid
 title: Maximum Difference Score in a Grid
 difficulty: Medium

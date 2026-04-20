@@ -1,5 +1,6 @@
 ---
 id: 535
+internal_id: 535
 slug: encode-and-decode-tinyurl
 title: Encode and Decode TinyURL
 difficulty: Medium

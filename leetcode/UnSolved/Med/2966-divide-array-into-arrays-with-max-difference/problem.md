@@ -1,5 +1,6 @@
 ---
 id: 2966
+internal_id: 3241
 slug: divide-array-into-arrays-with-max-difference
 title: Divide Array Into Arrays With Max Difference
 difficulty: Medium

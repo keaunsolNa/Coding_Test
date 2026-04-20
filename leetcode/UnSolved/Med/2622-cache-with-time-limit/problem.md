@@ -1,5 +1,6 @@
 ---
 id: 2622
+internal_id: 2762
 slug: cache-with-time-limit
 title: Cache With Time Limit
 difficulty: Medium

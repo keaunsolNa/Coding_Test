@@ -1,10 +1,11 @@
 ---
 id: 1787
+internal_id: 1913
 slug: make-the-xor-of-all-segments-equal-to-zero
 title: Make the XOR of All Segments Equal to Zero
 difficulty: Hard
 tags: Array, Hash Table, Dynamic Programming, Bit Manipulation, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

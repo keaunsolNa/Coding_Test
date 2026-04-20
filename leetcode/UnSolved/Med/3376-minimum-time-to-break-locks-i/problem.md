@@ -1,5 +1,6 @@
 ---
 id: 3376
+internal_id: 3649
 slug: minimum-time-to-break-locks-i
 title: Minimum Time to Break Locks I
 difficulty: Medium

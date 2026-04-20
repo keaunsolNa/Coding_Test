@@ -1,5 +1,6 @@
 ---
 id: 1386
+internal_id: 1487
 slug: cinema-seat-allocation
 title: Cinema Seat Allocation
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2296
+internal_id: 2389
 slug: design-a-text-editor
 title: Design a Text Editor
 difficulty: Hard
 tags: Linked List, String, Stack, Design, Simulation, Doubly-Linked List
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

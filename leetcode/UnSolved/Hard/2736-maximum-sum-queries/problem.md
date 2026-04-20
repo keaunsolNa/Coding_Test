@@ -1,10 +1,11 @@
 ---
 id: 2736
+internal_id: 2839
 slug: maximum-sum-queries
 title: Maximum Sum Queries
 difficulty: Hard
 tags: Array, Binary Search, Stack, Binary Indexed Tree, Segment Tree, Sorting, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

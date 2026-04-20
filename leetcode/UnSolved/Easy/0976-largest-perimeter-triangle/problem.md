@@ -1,10 +1,11 @@
 ---
 id: 976
+internal_id: 1018
 slug: largest-perimeter-triangle
 title: Largest Perimeter Triangle
 difficulty: Easy
 tags: Array, Math, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

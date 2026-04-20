@@ -1,5 +1,6 @@
 ---
 id: 2831
+internal_id: 2832
 slug: find-the-longest-equal-subarray
 title: Find the Longest Equal Subarray
 difficulty: Medium

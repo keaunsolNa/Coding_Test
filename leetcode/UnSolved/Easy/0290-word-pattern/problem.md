@@ -1,10 +1,11 @@
 ---
 id: 290
+internal_id: 290
 slug: word-pattern
 title: Word Pattern
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

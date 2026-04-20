@@ -1,5 +1,6 @@
 ---
 id: 2521
+internal_id: 2609
 slug: distinct-prime-factors-of-product-of-array
 title: Distinct Prime Factors of Product of Array
 difficulty: Medium

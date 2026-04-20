@@ -1,10 +1,11 @@
 ---
 id: 1385
+internal_id: 1486
 slug: find-the-distance-value-between-two-arrays
 title: Find the Distance Value Between Two Arrays
 difficulty: Easy
 tags: Array, Two Pointers, Binary Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

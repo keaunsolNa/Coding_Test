@@ -1,5 +1,6 @@
 ---
 id: 556
+internal_id: 556
 slug: next-greater-element-iii
 title: Next Greater Element III
 difficulty: Medium

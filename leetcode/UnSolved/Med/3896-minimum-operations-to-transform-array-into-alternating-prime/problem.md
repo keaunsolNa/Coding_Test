@@ -1,5 +1,6 @@
 ---
 id: 3896
+internal_id: 4277
 slug: minimum-operations-to-transform-array-into-alternating-prime
 title: Minimum Operations to Transform Array into Alternating Prime
 difficulty: Medium

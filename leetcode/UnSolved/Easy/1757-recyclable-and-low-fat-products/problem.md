@@ -1,11 +1,12 @@
 ---
 id: 1757
+internal_id: 1908
 slug: recyclable-and-low-fat-products
 title: Recyclable and Low Fat Products
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1757. Recyclable and Low Fat Products

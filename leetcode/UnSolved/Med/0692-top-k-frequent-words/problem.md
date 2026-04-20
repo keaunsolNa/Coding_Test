@@ -1,5 +1,6 @@
 ---
 id: 692
+internal_id: 692
 slug: top-k-frequent-words
 title: Top K Frequent Words
 difficulty: Medium

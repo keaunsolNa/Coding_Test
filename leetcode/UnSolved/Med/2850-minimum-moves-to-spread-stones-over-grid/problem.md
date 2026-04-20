@@ -1,5 +1,6 @@
 ---
 id: 2850
+internal_id: 3092
 slug: minimum-moves-to-spread-stones-over-grid
 title: Minimum Moves to Spread Stones Over Grid
 difficulty: Medium

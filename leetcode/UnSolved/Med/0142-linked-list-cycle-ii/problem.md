@@ -1,5 +1,6 @@
 ---
 id: 142
+internal_id: 142
 slug: linked-list-cycle-ii
 title: Linked List Cycle II
 difficulty: Medium

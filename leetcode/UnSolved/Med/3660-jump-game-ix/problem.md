@@ -1,5 +1,6 @@
 ---
 id: 3660
+internal_id: 3981
 slug: jump-game-ix
 title: Jump Game IX
 difficulty: Medium

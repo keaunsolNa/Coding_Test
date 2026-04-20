@@ -1,5 +1,6 @@
 ---
 id: 3804
+internal_id: 4129
 slug: number-of-centered-subarrays
 title: Number of Centered Subarrays
 difficulty: Medium

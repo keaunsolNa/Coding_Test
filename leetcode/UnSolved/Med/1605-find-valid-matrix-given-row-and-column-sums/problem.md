@@ -1,5 +1,6 @@
 ---
 id: 1605
+internal_id: 1711
 slug: find-valid-matrix-given-row-and-column-sums
 title: Find Valid Matrix Given Row and Column Sums
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1952
+internal_id: 2083
 slug: three-divisors
 title: Three Divisors
 difficulty: Easy
 tags: Math, Enumeration, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

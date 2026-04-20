@@ -1,11 +1,12 @@
 ---
 id: 550
+internal_id: 1182
 slug: game-play-analysis-iv
 title: Game Play Analysis IV
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 550. Game Play Analysis IV

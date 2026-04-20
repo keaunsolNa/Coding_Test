@@ -1,5 +1,6 @@
 ---
 id: 3703
+internal_id: 4019
 slug: remove-k-balanced-substrings
 title: Remove K-Balanced Substrings
 difficulty: Medium

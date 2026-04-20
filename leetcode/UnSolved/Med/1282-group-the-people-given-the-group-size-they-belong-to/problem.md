@@ -1,5 +1,6 @@
 ---
 id: 1282
+internal_id: 1407
 slug: group-the-people-given-the-group-size-they-belong-to
 title: Group the People Given the Group Size They Belong To
 difficulty: Medium

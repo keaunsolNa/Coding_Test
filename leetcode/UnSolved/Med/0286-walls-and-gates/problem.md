@@ -1,5 +1,6 @@
 ---
 id: 286
+internal_id: 286
 slug: walls-and-gates
 title: Walls and Gates
 difficulty: Medium

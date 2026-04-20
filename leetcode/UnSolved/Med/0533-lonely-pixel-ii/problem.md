@@ -1,5 +1,6 @@
 ---
 id: 533
+internal_id: 533
 slug: lonely-pixel-ii
 title: Lonely Pixel II
 difficulty: Medium

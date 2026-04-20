@@ -1,5 +1,6 @@
 ---
 id: 2698
+internal_id: 2802
 slug: find-the-punishment-number-of-an-integer
 title: Find the Punishment Number of an Integer
 difficulty: Medium

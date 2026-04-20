@@ -1,5 +1,6 @@
 ---
 id: 837
+internal_id: 867
 slug: new-21-game
 title: New 21 Game
 difficulty: Medium

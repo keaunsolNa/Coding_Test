@@ -1,10 +1,11 @@
 ---
 id: 466
+internal_id: 466
 slug: count-the-repetitions
 title: Count The Repetitions
 difficulty: Hard
 tags: Two Pointers, String, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

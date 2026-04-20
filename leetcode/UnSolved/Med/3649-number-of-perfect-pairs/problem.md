@@ -1,5 +1,6 @@
 ---
 id: 3649
+internal_id: 3963
 slug: number-of-perfect-pairs
 title: Number of Perfect Pairs
 difficulty: Medium

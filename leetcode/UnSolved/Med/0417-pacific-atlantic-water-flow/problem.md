@@ -1,5 +1,6 @@
 ---
 id: 417
+internal_id: 417
 slug: pacific-atlantic-water-flow
 title: Pacific Atlantic Water Flow
 difficulty: Medium

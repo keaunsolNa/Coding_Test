@@ -1,5 +1,6 @@
 ---
 id: 1170
+internal_id: 1273
 slug: compare-strings-by-frequency-of-the-smallest-character
 title: Compare Strings by Frequency of the Smallest Character
 difficulty: Medium

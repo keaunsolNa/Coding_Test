@@ -1,5 +1,6 @@
 ---
 id: 1338
+internal_id: 1464
 slug: reduce-array-size-to-the-half
 title: Reduce Array Size to The Half
 difficulty: Medium

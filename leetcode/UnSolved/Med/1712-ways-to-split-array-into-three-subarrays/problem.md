@@ -1,5 +1,6 @@
 ---
 id: 1712
+internal_id: 1831
 slug: ways-to-split-array-into-three-subarrays
 title: Ways to Split Array Into Three Subarrays
 difficulty: Medium

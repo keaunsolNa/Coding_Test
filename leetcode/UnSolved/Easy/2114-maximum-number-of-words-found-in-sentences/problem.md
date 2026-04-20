@@ -1,10 +1,11 @@
 ---
 id: 2114
+internal_id: 2219
 slug: maximum-number-of-words-found-in-sentences
 title: Maximum Number of Words Found in Sentences
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

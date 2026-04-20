@@ -1,10 +1,11 @@
 ---
 id: 699
+internal_id: 699
 slug: falling-squares
 title: Falling Squares
 difficulty: Hard
 tags: Array, Segment Tree, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

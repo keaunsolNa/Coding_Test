@@ -1,5 +1,6 @@
 ---
 id: 1653
+internal_id: 1756
 slug: minimum-deletions-to-make-string-balanced
 title: Minimum Deletions to Make String Balanced
 difficulty: Medium

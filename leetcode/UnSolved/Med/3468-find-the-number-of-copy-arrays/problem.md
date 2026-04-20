@@ -1,5 +1,6 @@
 ---
 id: 3468
+internal_id: 3785
 slug: find-the-number-of-copy-arrays
 title: Find the Number of Copy Arrays
 difficulty: Medium

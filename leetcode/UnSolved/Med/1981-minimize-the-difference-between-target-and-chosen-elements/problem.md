@@ -1,5 +1,6 @@
 ---
 id: 1981
+internal_id: 2108
 slug: minimize-the-difference-between-target-and-chosen-elements
 title: Minimize the Difference Between Target and Chosen Elements
 difficulty: Medium

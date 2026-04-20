@@ -1,10 +1,11 @@
 ---
 id: 3850
+internal_id: 4065
 slug: count-sequences-to-k
 title: Count Sequences to K
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Memoization, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

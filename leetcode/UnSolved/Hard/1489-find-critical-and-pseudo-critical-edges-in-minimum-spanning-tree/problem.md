@@ -1,10 +1,11 @@
 ---
 id: 1489
+internal_id: 1613
 slug: find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree
 title: Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 difficulty: Hard
 tags: Union-Find, Graph Theory, Sorting, Minimum Spanning Tree, Strongly Connected Component
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 336
+internal_id: 336
 slug: palindrome-pairs
 title: Palindrome Pairs
 difficulty: Hard
 tags: Array, Hash Table, String, Trie, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

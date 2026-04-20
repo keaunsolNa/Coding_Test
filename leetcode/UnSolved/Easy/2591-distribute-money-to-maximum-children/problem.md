@@ -1,10 +1,11 @@
 ---
 id: 2591
+internal_id: 2663
 slug: distribute-money-to-maximum-children
 title: Distribute Money to Maximum Children
 difficulty: Easy
 tags: Math, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

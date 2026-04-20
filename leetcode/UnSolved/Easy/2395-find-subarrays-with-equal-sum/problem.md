@@ -1,10 +1,11 @@
 ---
 id: 2395
+internal_id: 2480
 slug: find-subarrays-with-equal-sum
 title: Find Subarrays With Equal Sum
 difficulty: Easy
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

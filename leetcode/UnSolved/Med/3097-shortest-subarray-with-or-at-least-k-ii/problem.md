@@ -1,5 +1,6 @@
 ---
 id: 3097
+internal_id: 3380
 slug: shortest-subarray-with-or-at-least-k-ii
 title: Shortest Subarray With OR at Least K II
 difficulty: Medium

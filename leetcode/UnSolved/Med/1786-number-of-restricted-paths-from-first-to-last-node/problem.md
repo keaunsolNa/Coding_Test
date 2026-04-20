@@ -1,5 +1,6 @@
 ---
 id: 1786
+internal_id: 1912
 slug: number-of-restricted-paths-from-first-to-last-node
 title: Number of Restricted Paths From First to Last Node
 difficulty: Medium

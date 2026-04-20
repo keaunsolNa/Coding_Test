@@ -1,10 +1,11 @@
 ---
 id: 3614
+internal_id: 3939
 slug: process-string-with-special-operations-ii
 title: Process String with Special Operations II
 difficulty: Hard
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

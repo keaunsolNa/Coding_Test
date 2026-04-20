@@ -1,10 +1,11 @@
 ---
 id: 657
+internal_id: 657
 slug: robot-return-to-origin
 title: Robot Return to Origin
 difficulty: Easy
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1048
+internal_id: 1129
 slug: longest-string-chain
 title: Longest String Chain
 difficulty: Medium

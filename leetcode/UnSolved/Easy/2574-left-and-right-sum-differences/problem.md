@@ -1,10 +1,11 @@
 ---
 id: 2574
+internal_id: 2714
 slug: left-and-right-sum-differences
 title: Left and Right Sum Differences
 difficulty: Easy
 tags: Array, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

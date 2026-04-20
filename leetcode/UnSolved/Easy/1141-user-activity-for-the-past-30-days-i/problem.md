@@ -1,11 +1,12 @@
 ---
 id: 1141
+internal_id: 1245
 slug: user-activity-for-the-past-30-days-i
 title: User Activity for the Past 30 Days I
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1141. User Activity for the Past 30 Days I

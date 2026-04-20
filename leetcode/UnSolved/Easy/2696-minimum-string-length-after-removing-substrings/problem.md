@@ -1,10 +1,11 @@
 ---
 id: 2696
+internal_id: 2800
 slug: minimum-string-length-after-removing-substrings
 title: Minimum String Length After Removing Substrings
 difficulty: Easy
 tags: String, Stack, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

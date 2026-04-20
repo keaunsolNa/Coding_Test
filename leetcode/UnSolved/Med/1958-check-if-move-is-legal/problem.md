@@ -1,5 +1,6 @@
 ---
 id: 1958
+internal_id: 2080
 slug: check-if-move-is-legal
 title: Check if Move is Legal
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1563
+internal_id: 1685
 slug: stone-game-v
 title: Stone Game V
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Game Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

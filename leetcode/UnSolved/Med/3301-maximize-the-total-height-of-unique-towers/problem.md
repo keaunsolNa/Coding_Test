@@ -1,5 +1,6 @@
 ---
 id: 3301
+internal_id: 3510
 slug: maximize-the-total-height-of-unique-towers
 title: Maximize the Total Height of Unique Towers
 difficulty: Medium

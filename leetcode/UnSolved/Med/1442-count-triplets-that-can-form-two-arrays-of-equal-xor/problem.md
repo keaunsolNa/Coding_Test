@@ -1,5 +1,6 @@
 ---
 id: 1442
+internal_id: 1553
 slug: count-triplets-that-can-form-two-arrays-of-equal-xor
 title: Count Triplets That Can Form Two Arrays of Equal XOR
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 449
+internal_id: 449
 slug: serialize-and-deserialize-bst
 title: Serialize and Deserialize BST
 difficulty: Medium

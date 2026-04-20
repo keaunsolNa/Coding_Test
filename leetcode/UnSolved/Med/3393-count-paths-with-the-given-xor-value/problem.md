@@ -1,5 +1,6 @@
 ---
 id: 3393
+internal_id: 3659
 slug: count-paths-with-the-given-xor-value
 title: Count Paths With the Given XOR Value
 difficulty: Medium

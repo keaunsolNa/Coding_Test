@@ -1,5 +1,6 @@
 ---
 id: 7
+internal_id: 7
 slug: reverse-integer
 title: Reverse Integer
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 3445
+internal_id: 3761
 slug: maximum-difference-between-even-and-odd-frequency-ii
 title: Maximum Difference Between Even and Odd Frequency II
 difficulty: Hard
 tags: String, Sliding Window, Enumeration, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

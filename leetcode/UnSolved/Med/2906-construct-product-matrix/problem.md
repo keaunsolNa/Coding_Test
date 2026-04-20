@@ -1,5 +1,6 @@
 ---
 id: 2906
+internal_id: 3031
 slug: construct-product-matrix
 title: Construct Product Matrix
 difficulty: Medium

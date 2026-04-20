@@ -1,5 +1,6 @@
 ---
 id: 1195
+internal_id: 1316
 slug: fizz-buzz-multithreaded
 title: Fizz Buzz Multithreaded
 difficulty: Medium

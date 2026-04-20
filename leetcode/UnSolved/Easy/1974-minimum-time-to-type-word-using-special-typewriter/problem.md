@@ -1,10 +1,11 @@
 ---
 id: 1974
+internal_id: 2088
 slug: minimum-time-to-type-word-using-special-typewriter
 title: Minimum Time to Type Word Using Special Typewriter
 difficulty: Easy
 tags: String, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

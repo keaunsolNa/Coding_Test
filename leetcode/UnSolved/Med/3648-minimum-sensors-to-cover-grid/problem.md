@@ -1,5 +1,6 @@
 ---
 id: 3648
+internal_id: 3945
 slug: minimum-sensors-to-cover-grid
 title: Minimum Sensors to Cover Grid
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 2863
+internal_id: 3158
 slug: maximum-length-of-semi-decreasing-subarrays
 title: Maximum Length of Semi-Decreasing Subarrays
 difficulty: Medium

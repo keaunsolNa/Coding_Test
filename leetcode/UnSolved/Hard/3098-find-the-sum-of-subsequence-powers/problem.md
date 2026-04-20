@@ -1,10 +1,11 @@
 ---
 id: 3098
+internal_id: 3316
 slug: find-the-sum-of-subsequence-powers
 title: Find the Sum of Subsequence Powers
 difficulty: Hard
 tags: Array, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

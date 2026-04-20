@@ -1,5 +1,6 @@
 ---
 id: 2332
+internal_id: 2417
 slug: the-latest-time-to-catch-a-bus
 title: The Latest Time to Catch a Bus
 difficulty: Medium

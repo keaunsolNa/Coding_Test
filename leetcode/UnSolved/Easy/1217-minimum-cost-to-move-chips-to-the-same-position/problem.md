@@ -1,10 +1,11 @@
 ---
 id: 1217
+internal_id: 1329
 slug: minimum-cost-to-move-chips-to-the-same-position
 title: Minimum Cost to Move Chips to The Same Position
 difficulty: Easy
 tags: Array, Math, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

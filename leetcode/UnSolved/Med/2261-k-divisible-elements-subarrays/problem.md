@@ -1,5 +1,6 @@
 ---
 id: 2261
+internal_id: 2339
 slug: k-divisible-elements-subarrays
 title: K Divisible Elements Subarrays
 difficulty: Medium

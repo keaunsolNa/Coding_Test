@@ -1,10 +1,11 @@
 ---
 id: 3721
+internal_id: 4047
 slug: longest-balanced-subarray-ii
 title: Longest Balanced Subarray II
 difficulty: Hard
 tags: Array, Hash Table, Divide and Conquer, Segment Tree, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

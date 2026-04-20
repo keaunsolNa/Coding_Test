@@ -1,5 +1,6 @@
 ---
 id: 915
+internal_id: 951
 slug: partition-array-into-disjoint-intervals
 title: Partition Array into Disjoint Intervals
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 878
+internal_id: 910
 slug: nth-magical-number
 title: Nth Magical Number
 difficulty: Hard
 tags: Math, Binary Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

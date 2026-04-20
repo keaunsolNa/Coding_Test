@@ -1,10 +1,11 @@
 ---
 id: 222
+internal_id: 222
 slug: count-complete-tree-nodes
 title: Count Complete Tree Nodes
 difficulty: Easy
 tags: Binary Search, Bit Manipulation, Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

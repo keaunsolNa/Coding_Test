@@ -1,5 +1,6 @@
 ---
 id: 1936
+internal_id: 2066
 slug: add-minimum-number-of-rungs
 title: Add Minimum Number of Rungs
 difficulty: Medium

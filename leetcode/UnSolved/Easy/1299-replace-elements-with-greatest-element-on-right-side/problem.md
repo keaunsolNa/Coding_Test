@@ -1,10 +1,11 @@
 ---
 id: 1299
+internal_id: 1231
 slug: replace-elements-with-greatest-element-on-right-side
 title: Replace Elements with Greatest Element on Right Side
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

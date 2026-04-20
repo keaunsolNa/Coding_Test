@@ -1,10 +1,11 @@
 ---
 id: 1351
+internal_id: 1476
 slug: count-negative-numbers-in-a-sorted-matrix
 title: Count Negative Numbers in a Sorted Matrix
 difficulty: Easy
 tags: Array, Binary Search, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

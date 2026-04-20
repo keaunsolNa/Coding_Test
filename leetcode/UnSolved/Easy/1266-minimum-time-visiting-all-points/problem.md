@@ -1,10 +1,11 @@
 ---
 id: 1266
+internal_id: 1395
 slug: minimum-time-visiting-all-points
 title: Minimum Time Visiting All Points
 difficulty: Easy
 tags: Array, Math, Geometry
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

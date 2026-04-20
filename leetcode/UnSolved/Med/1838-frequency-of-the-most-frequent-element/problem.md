@@ -1,5 +1,6 @@
 ---
 id: 1838
+internal_id: 1966
 slug: frequency-of-the-most-frequent-element
 title: Frequency of the Most Frequent Element
 difficulty: Medium

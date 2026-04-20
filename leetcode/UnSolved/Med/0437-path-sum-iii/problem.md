@@ -1,5 +1,6 @@
 ---
 id: 437
+internal_id: 437
 slug: path-sum-iii
 title: Path Sum III
 difficulty: Medium

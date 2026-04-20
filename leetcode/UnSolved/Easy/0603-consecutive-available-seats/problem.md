@@ -1,11 +1,12 @@
 ---
 id: 603
+internal_id: 603
 slug: consecutive-available-seats
 title: Consecutive Available Seats
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 603. Consecutive Available Seats

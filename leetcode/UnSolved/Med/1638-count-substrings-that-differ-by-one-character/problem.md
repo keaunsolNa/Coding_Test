@@ -1,5 +1,6 @@
 ---
 id: 1638
+internal_id: 1743
 slug: count-substrings-that-differ-by-one-character
 title: Count Substrings That Differ by One Character
 difficulty: Medium

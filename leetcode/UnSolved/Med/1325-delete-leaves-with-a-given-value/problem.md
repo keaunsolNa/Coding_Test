@@ -1,5 +1,6 @@
 ---
 id: 1325
+internal_id: 1450
 slug: delete-leaves-with-a-given-value
 title: Delete Leaves With a Given Value
 difficulty: Medium

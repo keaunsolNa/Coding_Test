@@ -1,5 +1,6 @@
 ---
 id: 2847
+internal_id: 3111
 slug: smallest-number-with-given-digit-product
 title: Smallest Number With Given Digit Product
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2251
+internal_id: 2334
 slug: number-of-flowers-in-full-bloom
 title: Number of Flowers in Full Bloom
 difficulty: Hard
 tags: Array, Hash Table, Binary Search, Sorting, Prefix Sum, Ordered Set
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

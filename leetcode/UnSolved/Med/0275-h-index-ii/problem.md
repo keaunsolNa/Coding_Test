@@ -1,5 +1,6 @@
 ---
 id: 275
+internal_id: 275
 slug: h-index-ii
 title: H-Index II
 difficulty: Medium

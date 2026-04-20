@@ -1,10 +1,11 @@
 ---
 id: 2942
+internal_id: 3194
 slug: find-words-containing-character
 title: Find Words Containing Character
 difficulty: Easy
 tags: Array, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

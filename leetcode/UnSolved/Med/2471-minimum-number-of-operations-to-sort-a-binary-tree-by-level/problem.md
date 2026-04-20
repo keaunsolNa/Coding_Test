@@ -1,5 +1,6 @@
 ---
 id: 2471
+internal_id: 2558
 slug: minimum-number-of-operations-to-sort-a-binary-tree-by-level
 title: Minimum Number of Operations to Sort a Binary Tree by Level
 difficulty: Medium

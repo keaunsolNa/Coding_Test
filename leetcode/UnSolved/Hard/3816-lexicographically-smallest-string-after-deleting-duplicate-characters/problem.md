@@ -1,10 +1,11 @@
 ---
 id: 3816
+internal_id: 4086
 slug: lexicographically-smallest-string-after-deleting-duplicate-characters
 title: Lexicographically Smallest String After Deleting Duplicate Characters
 difficulty: Hard
 tags: Hash Table, String, Stack, Greedy, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

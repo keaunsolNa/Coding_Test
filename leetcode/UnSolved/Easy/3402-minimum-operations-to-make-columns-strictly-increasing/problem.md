@@ -1,10 +1,11 @@
 ---
 id: 3402
+internal_id: 3691
 slug: minimum-operations-to-make-columns-strictly-increasing
 title: Minimum Operations to Make Columns Strictly Increasing
 difficulty: Easy
 tags: Array, Greedy, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

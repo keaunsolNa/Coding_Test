@@ -1,5 +1,6 @@
 ---
 id: 1109
+internal_id: 1206
 slug: corporate-flight-bookings
 title: Corporate Flight Bookings
 difficulty: Medium

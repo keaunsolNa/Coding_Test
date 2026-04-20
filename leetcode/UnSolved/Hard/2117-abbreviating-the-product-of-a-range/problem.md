@@ -1,10 +1,11 @@
 ---
 id: 2117
+internal_id: 2222
 slug: abbreviating-the-product-of-a-range
 title: Abbreviating the Product of a Range
 difficulty: Hard
 tags: Math, Number Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

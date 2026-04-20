@@ -1,10 +1,11 @@
 ---
 id: 3287
+internal_id: 3575
 slug: find-the-maximum-sequence-value-of-array
 title: Find the Maximum Sequence Value of Array
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1409
+internal_id: 1525
 slug: queries-on-a-permutation-with-key
 title: Queries on a Permutation With Key
 difficulty: Medium

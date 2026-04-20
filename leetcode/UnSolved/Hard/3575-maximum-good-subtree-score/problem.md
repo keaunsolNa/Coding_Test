@@ -1,10 +1,11 @@
 ---
 id: 3575
+internal_id: 3875
 slug: maximum-good-subtree-score
 title: Maximum Good Subtree Score
 difficulty: Hard
 tags: Array, Dynamic Programming, Bit Manipulation, Tree, Depth-First Search, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

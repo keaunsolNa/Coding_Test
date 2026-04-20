@@ -1,5 +1,6 @@
 ---
 id: 1529
+internal_id: 1652
 slug: minimum-suffix-flips
 title: Minimum Suffix Flips
 difficulty: Medium

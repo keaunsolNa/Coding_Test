@@ -1,5 +1,6 @@
 ---
 id: 3647
+internal_id: 3987
 slug: maximum-weight-in-two-bags
 title: Maximum Weight in Two Bags
 difficulty: Medium

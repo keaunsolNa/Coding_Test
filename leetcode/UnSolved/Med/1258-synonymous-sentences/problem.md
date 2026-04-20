@@ -1,5 +1,6 @@
 ---
 id: 1258
+internal_id: 1191
 slug: synonymous-sentences
 title: Synonymous Sentences
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 150
+internal_id: 150
 slug: evaluate-reverse-polish-notation
 title: Evaluate Reverse Polish Notation
 difficulty: Medium

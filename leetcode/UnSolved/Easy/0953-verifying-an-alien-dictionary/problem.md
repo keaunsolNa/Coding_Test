@@ -1,10 +1,11 @@
 ---
 id: 953
+internal_id: 990
 slug: verifying-an-alien-dictionary
 title: Verifying an Alien Dictionary
 difficulty: Easy
 tags: Array, Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

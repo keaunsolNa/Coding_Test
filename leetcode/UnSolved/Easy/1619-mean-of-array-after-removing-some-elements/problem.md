@@ -1,10 +1,11 @@
 ---
 id: 1619
+internal_id: 1210
 slug: mean-of-array-after-removing-some-elements
 title: Mean of Array After Removing Some Elements
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 761
+internal_id: 763
 slug: special-binary-string
 title: Special Binary String
 difficulty: Hard
 tags: String, Divide and Conquer, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

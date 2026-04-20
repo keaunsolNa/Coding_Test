@@ -1,5 +1,6 @@
 ---
 id: 3332
+internal_id: 3587
 slug: maximum-points-tourist-can-earn
 title: Maximum Points Tourist Can Earn
 difficulty: Medium

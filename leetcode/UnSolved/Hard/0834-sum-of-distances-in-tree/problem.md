@@ -1,10 +1,11 @@
 ---
 id: 834
+internal_id: 863
 slug: sum-of-distances-in-tree
 title: Sum of Distances in Tree
 difficulty: Hard
 tags: Dynamic Programming, Tree, Depth-First Search, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

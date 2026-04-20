@@ -1,5 +1,6 @@
 ---
 id: 1424
+internal_id: 1539
 slug: diagonal-traverse-ii
 title: Diagonal Traverse II
 difficulty: Medium

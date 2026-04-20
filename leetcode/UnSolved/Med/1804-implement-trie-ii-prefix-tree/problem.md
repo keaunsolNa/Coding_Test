@@ -1,5 +1,6 @@
 ---
 id: 1804
+internal_id: 1949
 slug: implement-trie-ii-prefix-tree
 title: Implement Trie II (Prefix Tree)
 difficulty: Medium

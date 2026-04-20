@@ -1,5 +1,6 @@
 ---
 id: 1910
+internal_id: 2021
 slug: remove-all-occurrences-of-a-substring
 title: Remove All Occurrences of a Substring
 difficulty: Medium

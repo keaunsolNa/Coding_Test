@@ -1,5 +1,6 @@
 ---
 id: 3863
+internal_id: 4220
 slug: minimum-operations-to-sort-a-string
 title: Minimum Operations to Sort a String
 difficulty: Medium

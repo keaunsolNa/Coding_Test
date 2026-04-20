@@ -1,10 +1,11 @@
 ---
 id: 3008
+internal_id: 3303
 slug: find-beautiful-indices-in-the-given-array-ii
 title: Find Beautiful Indices in the Given Array II
 difficulty: Hard
 tags: Two Pointers, String, Binary Search, Rolling Hash, String Matching, Hash Function
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

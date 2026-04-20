@@ -1,10 +1,11 @@
 ---
 id: 2322
+internal_id: 2400
 slug: minimum-score-after-removals-on-a-tree
 title: Minimum Score After Removals on a Tree
 difficulty: Hard
 tags: Array, Bit Manipulation, Tree, Depth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

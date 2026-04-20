@@ -1,5 +1,6 @@
 ---
 id: 1536
+internal_id: 1658
 slug: minimum-swaps-to-arrange-a-binary-grid
 title: Minimum Swaps to Arrange a Binary Grid
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 648
+internal_id: 648
 slug: replace-words
 title: Replace Words
 difficulty: Medium

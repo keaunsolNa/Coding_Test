@@ -1,10 +1,11 @@
 ---
 id: 2045
+internal_id: 2171
 slug: second-minimum-time-to-reach-destination
 title: Second Minimum Time to Reach Destination
 difficulty: Hard
 tags: Breadth-First Search, Graph Theory, Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

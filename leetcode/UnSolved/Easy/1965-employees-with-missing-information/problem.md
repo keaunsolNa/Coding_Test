@@ -1,11 +1,12 @@
 ---
 id: 1965
+internal_id: 2110
 slug: employees-with-missing-information
 title: Employees With Missing Information
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1965. Employees With Missing Information

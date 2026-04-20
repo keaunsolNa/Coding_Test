@@ -1,5 +1,6 @@
 ---
 id: 3002
+internal_id: 3228
 slug: maximum-size-of-a-set-after-removals
 title: Maximum Size of a Set After Removals
 difficulty: Medium

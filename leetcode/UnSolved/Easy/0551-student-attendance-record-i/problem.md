@@ -1,10 +1,11 @@
 ---
 id: 551
+internal_id: 551
 slug: student-attendance-record-i
 title: Student Attendance Record I
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2069
+internal_id: 2178
 slug: walking-robot-simulation-ii
 title: Walking Robot Simulation II
 difficulty: Medium

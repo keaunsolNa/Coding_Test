@@ -1,5 +1,6 @@
 ---
 id: 2740
+internal_id: 2845
 slug: find-the-value-of-the-partition
 title: Find the Value of the Partition
 difficulty: Medium

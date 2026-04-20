@@ -1,5 +1,6 @@
 ---
 id: 3326
+internal_id: 3607
 slug: minimum-division-operations-to-make-array-non-decreasing
 title: Minimum Division Operations to Make Array Non Decreasing
 difficulty: Medium

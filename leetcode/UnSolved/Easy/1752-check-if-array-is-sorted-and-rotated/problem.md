@@ -1,10 +1,11 @@
 ---
 id: 1752
+internal_id: 1878
 slug: check-if-array-is-sorted-and-rotated
 title: Check if Array Is Sorted and Rotated
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

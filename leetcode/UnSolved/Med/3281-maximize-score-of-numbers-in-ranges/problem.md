@@ -1,5 +1,6 @@
 ---
 id: 3281
+internal_id: 3485
 slug: maximize-score-of-numbers-in-ranges
 title: Maximize Score of Numbers in Ranges
 difficulty: Medium

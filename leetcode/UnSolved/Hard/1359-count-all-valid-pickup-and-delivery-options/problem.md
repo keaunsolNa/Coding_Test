@@ -1,10 +1,11 @@
 ---
 id: 1359
+internal_id: 1461
 slug: count-all-valid-pickup-and-delivery-options
 title: Count All Valid Pickup and Delivery Options
 difficulty: Hard
 tags: Math, Dynamic Programming, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

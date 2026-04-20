@@ -1,10 +1,11 @@
 ---
 id: 2014
+internal_id: 2140
 slug: longest-subsequence-repeated-k-times
 title: Longest Subsequence Repeated k Times
 difficulty: Hard
 tags: Hash Table, Two Pointers, String, Backtracking, Counting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

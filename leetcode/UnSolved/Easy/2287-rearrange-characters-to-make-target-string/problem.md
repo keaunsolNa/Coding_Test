@@ -1,10 +1,11 @@
 ---
 id: 2287
+internal_id: 2372
 slug: rearrange-characters-to-make-target-string
 title: Rearrange Characters to Make Target String
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

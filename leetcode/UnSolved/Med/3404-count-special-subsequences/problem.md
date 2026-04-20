@@ -1,5 +1,6 @@
 ---
 id: 3404
+internal_id: 3699
 slug: count-special-subsequences
 title: Count Special Subsequences
 difficulty: Medium

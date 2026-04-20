@@ -1,10 +1,11 @@
 ---
 id: 3745
+internal_id: 4112
 slug: maximize-expression-of-three-elements
 title: Maximize Expression of Three Elements
 difficulty: Easy
 tags: Array, Greedy, Sorting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 3309
+internal_id: 3579
 slug: maximum-possible-number-by-binary-concatenation
 title: Maximum Possible Number by Binary Concatenation
 difficulty: Medium

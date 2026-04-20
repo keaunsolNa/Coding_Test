@@ -1,11 +1,12 @@
 ---
 id: 262
+internal_id: 262
 slug: trips-and-users
 title: Trips and Users
 difficulty: Hard
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 262. Trips and Users

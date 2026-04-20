@@ -1,10 +1,11 @@
 ---
 id: 1287
+internal_id: 1221
 slug: element-appearing-more-than-25-in-sorted-array
 title: Element Appearing More Than 25% In Sorted Array
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

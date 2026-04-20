@@ -1,5 +1,6 @@
 ---
 id: 515
+internal_id: 515
 slug: find-largest-value-in-each-tree-row
 title: Find Largest Value in Each Tree Row
 difficulty: Medium

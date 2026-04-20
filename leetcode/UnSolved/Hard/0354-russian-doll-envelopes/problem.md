@@ -1,10 +1,11 @@
 ---
 id: 354
+internal_id: 354
 slug: russian-doll-envelopes
 title: Russian Doll Envelopes
 difficulty: Hard
 tags: Array, Binary Search, Dynamic Programming, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1200
+internal_id: 1306
 slug: minimum-absolute-difference
 title: Minimum Absolute Difference
 difficulty: Easy
 tags: Array, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

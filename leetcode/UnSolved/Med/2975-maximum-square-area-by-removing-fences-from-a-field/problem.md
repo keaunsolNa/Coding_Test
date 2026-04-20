@@ -1,5 +1,6 @@
 ---
 id: 2975
+internal_id: 3250
 slug: maximum-square-area-by-removing-fences-from-a-field
 title: Maximum Square Area by Removing Fences From a Field
 difficulty: Medium

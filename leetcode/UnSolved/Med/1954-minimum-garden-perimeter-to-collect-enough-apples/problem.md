@@ -1,5 +1,6 @@
 ---
 id: 1954
+internal_id: 1295
 slug: minimum-garden-perimeter-to-collect-enough-apples
 title: Minimum Garden Perimeter to Collect Enough Apples
 difficulty: Medium

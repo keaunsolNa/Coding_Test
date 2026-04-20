@@ -1,5 +1,6 @@
 ---
 id: 133
+internal_id: 133
 slug: clone-graph
 title: Clone Graph
 difficulty: Medium

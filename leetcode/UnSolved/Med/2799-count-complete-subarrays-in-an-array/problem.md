@@ -1,5 +1,6 @@
 ---
 id: 2799
+internal_id: 2856
 slug: count-complete-subarrays-in-an-array
 title: Count Complete Subarrays in an Array
 difficulty: Medium

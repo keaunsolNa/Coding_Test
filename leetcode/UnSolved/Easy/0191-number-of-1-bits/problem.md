@@ -1,10 +1,11 @@
 ---
 id: 191
+internal_id: 191
 slug: number-of-1-bits
 title: Number of 1 Bits
 difficulty: Easy
 tags: Divide and Conquer, Bit Manipulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

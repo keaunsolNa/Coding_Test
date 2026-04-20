@@ -1,10 +1,11 @@
 ---
 id: 548
+internal_id: 548
 slug: split-array-with-equal-sum
 title: Split Array with Equal Sum
 difficulty: Hard
 tags: Array, Hash Table, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

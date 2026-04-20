@@ -1,5 +1,6 @@
 ---
 id: 3234
+internal_id: 3479
 slug: count-the-number-of-substrings-with-dominant-ones
 title: Count the Number of Substrings With Dominant Ones
 difficulty: Medium

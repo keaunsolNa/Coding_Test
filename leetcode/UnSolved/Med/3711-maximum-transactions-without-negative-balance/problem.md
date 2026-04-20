@@ -1,5 +1,6 @@
 ---
 id: 3711
+internal_id: 4081
 slug: maximum-transactions-without-negative-balance
 title: Maximum Transactions Without Negative Balance
 difficulty: Medium

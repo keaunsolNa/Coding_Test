@@ -1,10 +1,11 @@
 ---
 id: 1122
+internal_id: 1217
 slug: relative-sort-array
 title: Relative Sort Array
 difficulty: Easy
 tags: Array, Hash Table, Sorting, Counting Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

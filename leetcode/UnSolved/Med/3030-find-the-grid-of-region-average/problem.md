@@ -1,5 +1,6 @@
 ---
 id: 3030
+internal_id: 3272
 slug: find-the-grid-of-region-average
 title: Find the Grid of Region Average
 difficulty: Medium

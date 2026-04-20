@@ -1,10 +1,11 @@
 ---
 id: 1189
+internal_id: 1297
 slug: maximum-number-of-balloons
 title: Maximum Number of Balloons
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

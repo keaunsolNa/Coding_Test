@@ -1,10 +1,11 @@
 ---
 id: 2122
+internal_id: 2241
 slug: recover-the-original-array
 title: Recover the Original Array
 difficulty: Hard
 tags: Array, Hash Table, Two Pointers, Sorting, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

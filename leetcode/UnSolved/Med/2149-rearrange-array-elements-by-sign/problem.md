@@ -1,5 +1,6 @@
 ---
 id: 2149
+internal_id: 2271
 slug: rearrange-array-elements-by-sign
 title: Rearrange Array Elements by Sign
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 374
+internal_id: 374
 slug: guess-number-higher-or-lower
 title: Guess Number Higher or Lower
 difficulty: Easy
 tags: Binary Search, Interactive
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,11 +1,12 @@
 ---
 id: 184
+internal_id: 184
 slug: department-highest-salary
 title: Department Highest Salary
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 184. Department Highest Salary

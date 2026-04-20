@@ -1,10 +1,11 @@
 ---
 id: 783
+internal_id: 799
 slug: minimum-distance-between-bst-nodes
 title: Minimum Distance Between BST Nodes
 difficulty: Easy
 tags: Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

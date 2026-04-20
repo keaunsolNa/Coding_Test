@@ -1,5 +1,6 @@
 ---
 id: 2288
+internal_id: 2373
 slug: apply-discount-to-prices
 title: Apply Discount to Prices
 difficulty: Medium

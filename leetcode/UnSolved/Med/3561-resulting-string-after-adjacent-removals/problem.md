@@ -1,5 +1,6 @@
 ---
 id: 3561
+internal_id: 3860
 slug: resulting-string-after-adjacent-removals
 title: Resulting String After Adjacent Removals
 difficulty: Medium

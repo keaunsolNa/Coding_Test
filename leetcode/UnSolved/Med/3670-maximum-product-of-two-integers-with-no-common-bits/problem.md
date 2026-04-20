@@ -1,5 +1,6 @@
 ---
 id: 3670
+internal_id: 3915
 slug: maximum-product-of-two-integers-with-no-common-bits
 title: Maximum Product of Two Integers With No Common Bits
 difficulty: Medium

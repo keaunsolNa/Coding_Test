@@ -1,10 +1,11 @@
 ---
 id: 2176
+internal_id: 2277
 slug: count-equal-and-divisible-pairs-in-an-array
 title: Count Equal and Divisible Pairs in an Array
 difficulty: Easy
 tags: Array
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

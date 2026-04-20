@@ -1,5 +1,6 @@
 ---
 id: 1648
+internal_id: 1771
 slug: sell-diminishing-valued-colored-balls
 title: Sell Diminishing-Valued Colored Balls
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 647
+internal_id: 647
 slug: palindromic-substrings
 title: Palindromic Substrings
 difficulty: Medium

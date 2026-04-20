@@ -1,5 +1,6 @@
 ---
 id: 146
+internal_id: 146
 slug: lru-cache
 title: LRU Cache
 difficulty: Medium

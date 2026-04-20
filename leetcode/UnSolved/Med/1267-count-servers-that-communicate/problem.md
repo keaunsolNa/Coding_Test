@@ -1,5 +1,6 @@
 ---
 id: 1267
+internal_id: 1396
 slug: count-servers-that-communicate
 title: Count Servers that Communicate
 difficulty: Medium

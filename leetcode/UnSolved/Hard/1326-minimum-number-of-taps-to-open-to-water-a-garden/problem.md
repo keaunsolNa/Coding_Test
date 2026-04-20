@@ -1,10 +1,11 @@
 ---
 id: 1326
+internal_id: 1451
 slug: minimum-number-of-taps-to-open-to-water-a-garden
 title: Minimum Number of Taps to Open to Water a Garden
 difficulty: Hard
 tags: Array, Dynamic Programming, Greedy
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

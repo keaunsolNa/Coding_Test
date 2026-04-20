@@ -1,10 +1,11 @@
 ---
 id: 3483
+internal_id: 3799
 slug: unique-3-digit-even-numbers
 title: Unique 3-Digit Even Numbers
 difficulty: Easy
 tags: Array, Hash Table, Recursion, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

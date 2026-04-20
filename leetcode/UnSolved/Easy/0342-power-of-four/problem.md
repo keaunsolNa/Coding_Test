@@ -1,10 +1,11 @@
 ---
 id: 342
+internal_id: 342
 slug: power-of-four
 title: Power of Four
 difficulty: Easy
 tags: Math, Bit Manipulation, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

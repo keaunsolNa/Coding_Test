@@ -1,5 +1,6 @@
 ---
 id: 713
+internal_id: 713
 slug: subarray-product-less-than-k
 title: Subarray Product Less Than K
 difficulty: Medium

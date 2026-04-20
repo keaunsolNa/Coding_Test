@@ -1,5 +1,6 @@
 ---
 id: 1055
+internal_id: 1051
 slug: shortest-way-to-form-string
 title: Shortest Way to Form String
 difficulty: Medium

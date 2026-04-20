@@ -1,5 +1,6 @@
 ---
 id: 1171
+internal_id: 1267
 slug: remove-zero-sum-consecutive-nodes-from-linked-list
 title: Remove Zero Sum Consecutive Nodes from Linked List
 difficulty: Medium

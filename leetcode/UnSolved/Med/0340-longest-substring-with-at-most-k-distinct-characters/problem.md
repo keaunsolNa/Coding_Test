@@ -1,5 +1,6 @@
 ---
 id: 340
+internal_id: 340
 slug: longest-substring-with-at-most-k-distinct-characters
 title: Longest Substring with At Most K Distinct Characters
 difficulty: Medium

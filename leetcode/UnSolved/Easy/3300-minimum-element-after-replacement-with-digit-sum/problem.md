@@ -1,10 +1,11 @@
 ---
 id: 3300
+internal_id: 3606
 slug: minimum-element-after-replacement-with-digit-sum
 title: Minimum Element After Replacement With Digit Sum
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

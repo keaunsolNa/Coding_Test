@@ -1,5 +1,6 @@
 ---
 id: 147
+internal_id: 147
 slug: insertion-sort-list
 title: Insertion Sort List
 difficulty: Medium

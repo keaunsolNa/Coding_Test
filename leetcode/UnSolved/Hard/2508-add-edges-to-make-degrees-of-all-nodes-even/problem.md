@@ -1,10 +1,11 @@
 ---
 id: 2508
+internal_id: 2596
 slug: add-edges-to-make-degrees-of-all-nodes-even
 title: Add Edges to Make Degrees of All Nodes Even
 difficulty: Hard
 tags: Hash Table, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

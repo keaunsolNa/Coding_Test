@@ -1,10 +1,11 @@
 ---
 id: 3232
+internal_id: 3515
 slug: find-if-digit-game-can-be-won
 title: Find if Digit Game Can Be Won
 difficulty: Easy
 tags: Array, Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

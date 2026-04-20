@@ -1,5 +1,6 @@
 ---
 id: 948
+internal_id: 985
 slug: bag-of-tokens
 title: Bag of Tokens
 difficulty: Medium

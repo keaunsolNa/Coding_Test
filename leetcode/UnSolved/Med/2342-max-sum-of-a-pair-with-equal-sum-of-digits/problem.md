@@ -1,5 +1,6 @@
 ---
 id: 2342
+internal_id: 2473
 slug: max-sum-of-a-pair-with-equal-sum-of-digits
 title: Max Sum of a Pair With Equal Sum of Digits
 difficulty: Medium

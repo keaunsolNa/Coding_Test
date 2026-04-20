@@ -1,10 +1,11 @@
 ---
 id: 2441
+internal_id: 2524
 slug: largest-positive-integer-that-exists-with-its-negative
 title: Largest Positive Integer That Exists With Its Negative
 difficulty: Easy
 tags: Array, Hash Table, Two Pointers, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

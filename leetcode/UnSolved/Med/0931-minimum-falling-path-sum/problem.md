@@ -1,5 +1,6 @@
 ---
 id: 931
+internal_id: 967
 slug: minimum-falling-path-sum
 title: Minimum Falling Path Sum
 difficulty: Medium

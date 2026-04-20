@@ -1,5 +1,6 @@
 ---
 id: 397
+internal_id: 397
 slug: integer-replacement
 title: Integer Replacement
 difficulty: Medium

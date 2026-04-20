@@ -1,5 +1,6 @@
 ---
 id: 3164
+internal_id: 3444
 slug: find-the-number-of-good-pairs-ii
 title: Find the Number of Good Pairs II
 difficulty: Medium

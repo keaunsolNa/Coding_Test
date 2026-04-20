@@ -1,10 +1,11 @@
 ---
 id: 2360
+internal_id: 2439
 slug: longest-cycle-in-a-graph
 title: Longest Cycle in a Graph
 difficulty: Hard
 tags: Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

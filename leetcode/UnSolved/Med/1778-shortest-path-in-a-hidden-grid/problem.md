@@ -1,5 +1,6 @@
 ---
 id: 1778
+internal_id: 1931
 slug: shortest-path-in-a-hidden-grid
 title: Shortest Path in a Hidden Grid
 difficulty: Medium

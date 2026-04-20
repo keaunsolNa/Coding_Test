@@ -1,5 +1,6 @@
 ---
 id: 3669
+internal_id: 3947
 slug: balanced-k-factor-decomposition
 title: Balanced K-Factor Decomposition
 difficulty: Medium

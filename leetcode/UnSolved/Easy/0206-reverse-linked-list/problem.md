@@ -1,10 +1,11 @@
 ---
 id: 206
+internal_id: 206
 slug: reverse-linked-list
 title: Reverse Linked List
 difficulty: Easy
 tags: Linked List, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

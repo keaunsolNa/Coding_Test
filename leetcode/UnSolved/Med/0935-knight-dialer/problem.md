@@ -1,5 +1,6 @@
 ---
 id: 935
+internal_id: 972
 slug: knight-dialer
 title: Knight Dialer
 difficulty: Medium

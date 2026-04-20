@@ -1,5 +1,6 @@
 ---
 id: 3811
+internal_id: 4143
 slug: number-of-alternating-xor-partitions
 title: Number of Alternating XOR Partitions
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2319
+internal_id: 2398
 slug: check-if-matrix-is-x-matrix
 title: Check if Matrix Is X-Matrix
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 2776
+internal_id: 2782
 slug: convert-callback-based-function-to-promise-based-function
 title: Convert Callback Based Function to Promise Based Function
 difficulty: Medium

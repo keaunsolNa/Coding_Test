@@ -1,5 +1,6 @@
 ---
 id: 911
+internal_id: 947
 slug: online-election
 title: Online Election
 difficulty: Medium

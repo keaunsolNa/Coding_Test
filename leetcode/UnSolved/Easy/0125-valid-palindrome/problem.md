@@ -1,10 +1,11 @@
 ---
 id: 125
+internal_id: 125
 slug: valid-palindrome
 title: Valid Palindrome
 difficulty: Easy
 tags: Two Pointers, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

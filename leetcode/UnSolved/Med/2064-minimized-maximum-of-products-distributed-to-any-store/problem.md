@@ -1,5 +1,6 @@
 ---
 id: 2064
+internal_id: 2188
 slug: minimized-maximum-of-products-distributed-to-any-store
 title: Minimized Maximum of Products Distributed to Any Store
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3006
+internal_id: 3245
 slug: find-beautiful-indices-in-the-given-array-i
 title: Find Beautiful Indices in the Given Array I
 difficulty: Medium

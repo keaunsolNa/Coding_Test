@@ -1,10 +1,11 @@
 ---
 id: 3539
+internal_id: 3851
 slug: find-sum-of-array-product-of-magical-sequences
 title: Find Sum of Array Product of Magical Sequences
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Bit Manipulation, Combinatorics, Bitmask
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

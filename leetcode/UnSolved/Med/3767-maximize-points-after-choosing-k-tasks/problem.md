@@ -1,5 +1,6 @@
 ---
 id: 3767
+internal_id: 4089
 slug: maximize-points-after-choosing-k-tasks
 title: Maximize Points After Choosing K Tasks
 difficulty: Medium

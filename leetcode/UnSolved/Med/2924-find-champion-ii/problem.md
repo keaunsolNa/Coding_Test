@@ -1,5 +1,6 @@
 ---
 id: 2924
+internal_id: 3189
 slug: find-champion-ii
 title: Find Champion II
 difficulty: Medium

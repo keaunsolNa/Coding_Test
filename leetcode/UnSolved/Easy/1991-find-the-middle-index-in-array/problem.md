@@ -1,10 +1,11 @@
 ---
 id: 1991
+internal_id: 2102
 slug: find-the-middle-index-in-array
 title: Find the Middle Index in Array
 difficulty: Easy
 tags: Array, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

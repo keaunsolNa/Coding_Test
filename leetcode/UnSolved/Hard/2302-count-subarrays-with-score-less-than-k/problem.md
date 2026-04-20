@@ -1,10 +1,11 @@
 ---
 id: 2302
+internal_id: 2394
 slug: count-subarrays-with-score-less-than-k
 title: Count Subarrays With Score Less Than K
 difficulty: Hard
 tags: Array, Binary Search, Sliding Window, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

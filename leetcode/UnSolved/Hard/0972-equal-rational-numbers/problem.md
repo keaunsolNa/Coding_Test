@@ -1,10 +1,11 @@
 ---
 id: 972
+internal_id: 1012
 slug: equal-rational-numbers
 title: Equal Rational Numbers
 difficulty: Hard
 tags: Math, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

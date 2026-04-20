@@ -1,10 +1,11 @@
 ---
 id: 1840
+internal_id: 1968
 slug: maximum-building-height
 title: Maximum Building Height
 difficulty: Hard
 tags: Array, Math, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

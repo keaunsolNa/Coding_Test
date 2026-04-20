@@ -1,10 +1,11 @@
 ---
 id: 1665
+internal_id: 1784
 slug: minimum-initial-energy-to-finish-tasks
 title: Minimum Initial Energy to Finish Tasks
 difficulty: Hard
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

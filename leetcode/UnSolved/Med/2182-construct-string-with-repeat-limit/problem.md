@@ -1,5 +1,6 @@
 ---
 id: 2182
+internal_id: 2300
 slug: construct-string-with-repeat-limit
 title: Construct String With Repeat Limit
 difficulty: Medium

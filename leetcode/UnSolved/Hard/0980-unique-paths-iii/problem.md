@@ -1,10 +1,11 @@
 ---
 id: 980
+internal_id: 1022
 slug: unique-paths-iii
 title: Unique Paths III
 difficulty: Hard
 tags: Array, Backtracking, Bit Manipulation, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

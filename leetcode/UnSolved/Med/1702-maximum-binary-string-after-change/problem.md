@@ -1,5 +1,6 @@
 ---
 id: 1702
+internal_id: 1804
 slug: maximum-binary-string-after-change
 title: Maximum Binary String After Change
 difficulty: Medium

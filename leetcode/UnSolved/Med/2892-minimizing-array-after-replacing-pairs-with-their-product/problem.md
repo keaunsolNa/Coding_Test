@@ -1,5 +1,6 @@
 ---
 id: 2892
+internal_id: 3177
 slug: minimizing-array-after-replacing-pairs-with-their-product
 title: Minimizing Array After Replacing Pairs With Their Product
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2062
+internal_id: 2186
 slug: count-vowel-substrings-of-a-string
 title: Count Vowel Substrings of a String
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

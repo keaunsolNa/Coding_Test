@@ -1,5 +1,6 @@
 ---
 id: 2492
+internal_id: 2582
 slug: minimum-score-of-a-path-between-two-cities
 title: Minimum Score of a Path Between Two Cities
 difficulty: Medium

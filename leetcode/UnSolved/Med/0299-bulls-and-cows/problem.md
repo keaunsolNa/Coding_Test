@@ -1,5 +1,6 @@
 ---
 id: 299
+internal_id: 299
 slug: bulls-and-cows
 title: Bulls and Cows
 difficulty: Medium

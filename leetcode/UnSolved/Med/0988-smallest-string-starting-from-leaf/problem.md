@@ -1,5 +1,6 @@
 ---
 id: 988
+internal_id: 1030
 slug: smallest-string-starting-from-leaf
 title: Smallest String Starting From Leaf
 difficulty: Medium

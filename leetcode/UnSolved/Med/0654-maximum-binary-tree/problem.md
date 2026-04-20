@@ -1,5 +1,6 @@
 ---
 id: 654
+internal_id: 654
 slug: maximum-binary-tree
 title: Maximum Binary Tree
 difficulty: Medium

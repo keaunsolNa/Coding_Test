@@ -1,5 +1,6 @@
 ---
 id: 2162
+internal_id: 2266
 slug: minimum-cost-to-set-cooking-time
 title: Minimum Cost to Set Cooking Time
 difficulty: Medium

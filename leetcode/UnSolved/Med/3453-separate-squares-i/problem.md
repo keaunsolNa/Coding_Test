@@ -1,5 +1,6 @@
 ---
 id: 3453
+internal_id: 3763
 slug: separate-squares-i
 title: Separate Squares I
 difficulty: Medium

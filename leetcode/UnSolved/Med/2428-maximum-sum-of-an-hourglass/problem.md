@@ -1,5 +1,6 @@
 ---
 id: 2428
+internal_id: 2508
 slug: maximum-sum-of-an-hourglass
 title: Maximum Sum of an Hourglass
 difficulty: Medium

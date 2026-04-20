@@ -1,10 +1,11 @@
 ---
 id: 1803
+internal_id: 1907
 slug: count-pairs-with-xor-in-a-range
 title: Count Pairs With XOR in a Range
 difficulty: Hard
 tags: Array, Bit Manipulation, Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1684
+internal_id: 1786
 slug: count-the-number-of-consistent-strings
 title: Count the Number of Consistent Strings
 difficulty: Easy
 tags: Array, Hash Table, String, Bit Manipulation, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

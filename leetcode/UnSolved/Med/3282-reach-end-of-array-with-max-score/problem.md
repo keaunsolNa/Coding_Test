@@ -1,5 +1,6 @@
 ---
 id: 3282
+internal_id: 3528
 slug: reach-end-of-array-with-max-score
 title: Reach End of Array With Max Score
 difficulty: Medium

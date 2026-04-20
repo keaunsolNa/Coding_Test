@@ -1,10 +1,11 @@
 ---
 id: 879
+internal_id: 911
 slug: profitable-schemes
 title: Profitable Schemes
 difficulty: Hard
 tags: Array, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

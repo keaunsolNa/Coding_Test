@@ -1,10 +1,11 @@
 ---
 id: 2983
+internal_id: 3203
 slug: palindrome-rearrangement-queries
 title: Palindrome Rearrangement Queries
 difficulty: Hard
 tags: Hash Table, String, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

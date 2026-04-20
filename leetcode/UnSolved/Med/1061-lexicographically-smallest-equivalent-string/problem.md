@@ -1,5 +1,6 @@
 ---
 id: 1061
+internal_id: 1058
 slug: lexicographically-smallest-equivalent-string
 title: Lexicographically Smallest Equivalent String
 difficulty: Medium

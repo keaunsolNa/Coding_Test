@@ -1,5 +1,6 @@
 ---
 id: 795
+internal_id: 811
 slug: number-of-subarrays-with-bounded-maximum
 title: Number of Subarrays with Bounded Maximum
 difficulty: Medium

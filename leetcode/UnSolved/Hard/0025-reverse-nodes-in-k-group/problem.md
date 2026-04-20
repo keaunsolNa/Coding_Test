@@ -1,10 +1,11 @@
 ---
 id: 25
+internal_id: 25
 slug: reverse-nodes-in-k-group
 title: Reverse Nodes in k-Group
 difficulty: Hard
 tags: Linked List, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

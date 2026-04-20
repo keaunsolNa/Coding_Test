@@ -1,5 +1,6 @@
 ---
 id: 2393
+internal_id: 2535
 slug: count-strictly-increasing-subarrays
 title: Count Strictly Increasing Subarrays
 difficulty: Medium

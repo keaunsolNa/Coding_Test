@@ -1,5 +1,6 @@
 ---
 id: 2961
+internal_id: 3234
 slug: double-modular-exponentiation
 title: Double Modular Exponentiation
 difficulty: Medium

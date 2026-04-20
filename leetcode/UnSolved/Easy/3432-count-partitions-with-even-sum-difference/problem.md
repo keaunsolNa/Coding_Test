@@ -1,10 +1,11 @@
 ---
 id: 3432
+internal_id: 3704
 slug: count-partitions-with-even-sum-difference
 title: Count Partitions with Even Sum Difference
 difficulty: Easy
 tags: Array, Math, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

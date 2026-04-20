@@ -1,10 +1,11 @@
 ---
 id: 3505
+internal_id: 3717
 slug: minimum-operations-to-make-elements-within-k-subarrays-equal
 title: Minimum Operations to Make Elements Within K Subarrays Equal
 difficulty: Hard
 tags: Array, Hash Table, Math, Dynamic Programming, Sliding Window, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

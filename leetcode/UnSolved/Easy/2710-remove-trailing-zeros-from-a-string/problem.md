@@ -1,10 +1,11 @@
 ---
 id: 2710
+internal_id: 2819
 slug: remove-trailing-zeros-from-a-string
 title: Remove Trailing Zeros From a String
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

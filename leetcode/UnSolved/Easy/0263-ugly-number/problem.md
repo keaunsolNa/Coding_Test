@@ -1,10 +1,11 @@
 ---
 id: 263
+internal_id: 263
 slug: ugly-number
 title: Ugly Number
 difficulty: Easy
 tags: Math
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

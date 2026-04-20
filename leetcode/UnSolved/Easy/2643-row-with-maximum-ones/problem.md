@@ -1,10 +1,11 @@
 ---
 id: 2643
+internal_id: 2737
 slug: row-with-maximum-ones
 title: Row With Maximum Ones
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2547
+internal_id: 2633
 slug: minimum-cost-to-split-an-array
 title: Minimum Cost to Split an Array
 difficulty: Hard
 tags: Array, Hash Table, Dynamic Programming, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

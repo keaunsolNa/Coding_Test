@@ -1,10 +1,11 @@
 ---
 id: 3547
+internal_id: 3845
 slug: maximum-sum-of-edge-values-in-a-graph
 title: Maximum Sum of Edge Values in a Graph
 difficulty: Hard
 tags: Math, Greedy, Graph Theory
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

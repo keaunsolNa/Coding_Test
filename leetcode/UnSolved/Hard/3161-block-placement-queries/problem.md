@@ -1,10 +1,11 @@
 ---
 id: 3161
+internal_id: 3435
 slug: block-placement-queries
 title: Block Placement Queries
 difficulty: Hard
 tags: Array, Binary Search, Binary Indexed Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

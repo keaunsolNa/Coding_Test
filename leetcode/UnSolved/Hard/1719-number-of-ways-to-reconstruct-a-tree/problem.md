@@ -1,10 +1,11 @@
 ---
 id: 1719
+internal_id: 1820
 slug: number-of-ways-to-reconstruct-a-tree
 title: Number Of Ways To Reconstruct A Tree
 difficulty: Hard
 tags: Array, Hash Table, Tree, Graph Theory, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

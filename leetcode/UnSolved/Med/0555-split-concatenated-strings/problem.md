@@ -1,5 +1,6 @@
 ---
 id: 555
+internal_id: 555
 slug: split-concatenated-strings
 title: Split Concatenated Strings
 difficulty: Medium

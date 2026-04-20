@@ -1,10 +1,11 @@
 ---
 id: 1439
+internal_id: 1550
 slug: find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows
 title: Find the Kth Smallest Sum of a Matrix With Sorted Rows
 difficulty: Hard
 tags: Array, Binary Search, Heap (Priority Queue), Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1370
+internal_id: 1472
 slug: increasing-decreasing-string
 title: Increasing Decreasing String
 difficulty: Easy
 tags: Hash Table, String, Counting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

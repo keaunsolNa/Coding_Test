@@ -1,5 +1,6 @@
 ---
 id: 2530
+internal_id: 2616
 slug: maximal-score-after-applying-k-operations
 title: Maximal Score After Applying K Operations
 difficulty: Medium

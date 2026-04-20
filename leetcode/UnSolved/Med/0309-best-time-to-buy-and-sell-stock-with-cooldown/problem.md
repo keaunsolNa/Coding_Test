@@ -1,5 +1,6 @@
 ---
 id: 309
+internal_id: 309
 slug: best-time-to-buy-and-sell-stock-with-cooldown
 title: Best Time to Buy and Sell Stock with Cooldown
 difficulty: Medium

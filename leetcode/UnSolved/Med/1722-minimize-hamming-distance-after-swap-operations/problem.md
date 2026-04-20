@@ -1,5 +1,6 @@
 ---
 id: 1722
+internal_id: 1840
 slug: minimize-hamming-distance-after-swap-operations
 title: Minimize Hamming Distance After Swap Operations
 difficulty: Medium

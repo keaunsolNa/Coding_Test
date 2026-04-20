@@ -1,5 +1,6 @@
 ---
 id: 2852
+internal_id: 3148
 slug: sum-of-remoteness-of-all-cells
 title: Sum of Remoteness of All Cells
 difficulty: Medium

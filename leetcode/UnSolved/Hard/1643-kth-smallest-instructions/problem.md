@@ -1,10 +1,11 @@
 ---
 id: 1643
+internal_id: 489
 slug: kth-smallest-instructions
 title: Kth Smallest Instructions
 difficulty: Hard
 tags: Array, Math, Dynamic Programming, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

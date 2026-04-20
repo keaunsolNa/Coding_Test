@@ -1,10 +1,11 @@
 ---
 id: 108
+internal_id: 108
 slug: convert-sorted-array-to-binary-search-tree
 title: Convert Sorted Array to Binary Search Tree
 difficulty: Easy
 tags: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

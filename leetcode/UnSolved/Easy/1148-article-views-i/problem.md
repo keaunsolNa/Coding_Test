@@ -1,11 +1,12 @@
 ---
 id: 1148
+internal_id: 1258
 slug: article-views-i
 title: Article Views I
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1148. Article Views I

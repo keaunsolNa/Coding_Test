@@ -1,5 +1,6 @@
 ---
 id: 869
+internal_id: 900
 slug: reordered-power-of-2
 title: Reordered Power of 2
 difficulty: Medium

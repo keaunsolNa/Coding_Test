@@ -1,5 +1,6 @@
 ---
 id: 1813
+internal_id: 1923
 slug: sentence-similarity-iii
 title: Sentence Similarity III
 difficulty: Medium

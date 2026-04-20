@@ -1,5 +1,6 @@
 ---
 id: 2414
+internal_id: 2492
 slug: length-of-the-longest-alphabetical-continuous-substring
 title: Length of the Longest Alphabetical Continuous Substring
 difficulty: Medium

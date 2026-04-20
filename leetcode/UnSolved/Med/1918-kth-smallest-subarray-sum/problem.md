@@ -1,5 +1,6 @@
 ---
 id: 1918
+internal_id: 2069
 slug: kth-smallest-subarray-sum
 title: Kth Smallest Subarray Sum
 difficulty: Medium

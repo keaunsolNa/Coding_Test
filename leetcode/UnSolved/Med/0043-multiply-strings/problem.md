@@ -1,5 +1,6 @@
 ---
 id: 43
+internal_id: 43
 slug: multiply-strings
 title: Multiply Strings
 difficulty: Medium

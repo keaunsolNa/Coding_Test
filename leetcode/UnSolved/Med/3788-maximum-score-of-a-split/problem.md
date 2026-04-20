@@ -1,5 +1,6 @@
 ---
 id: 3788
+internal_id: 4173
 slug: maximum-score-of-a-split
 title: Maximum Score of a Split
 difficulty: Medium

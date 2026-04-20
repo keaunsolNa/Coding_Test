@@ -1,10 +1,11 @@
 ---
 id: 3812
+internal_id: 4181
 slug: minimum-edge-toggles-on-a-tree
 title: Minimum Edge Toggles on a Tree
 difficulty: Hard
 tags: Tree, Depth-First Search, Graph Theory, Topological Sort, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

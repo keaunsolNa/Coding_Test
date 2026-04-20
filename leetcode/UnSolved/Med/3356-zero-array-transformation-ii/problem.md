@@ -1,5 +1,6 @@
 ---
 id: 3356
+internal_id: 3643
 slug: zero-array-transformation-ii
 title: Zero Array Transformation II
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 632
+internal_id: 632
 slug: smallest-range-covering-elements-from-k-lists
 title: Smallest Range Covering Elements from K Lists
 difficulty: Hard
 tags: Array, Hash Table, Greedy, Sliding Window, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

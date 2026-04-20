@@ -1,5 +1,6 @@
 ---
 id: 1405
+internal_id: 1304
 slug: longest-happy-string
 title: Longest Happy String
 difficulty: Medium

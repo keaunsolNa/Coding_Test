@@ -1,10 +1,11 @@
 ---
 id: 3093
+internal_id: 3376
 slug: longest-common-suffix-queries
 title: Longest Common Suffix Queries
 difficulty: Hard
 tags: Array, String, Trie
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

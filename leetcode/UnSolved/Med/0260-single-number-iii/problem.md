@@ -1,5 +1,6 @@
 ---
 id: 260
+internal_id: 260
 slug: single-number-iii
 title: Single Number III
 difficulty: Medium

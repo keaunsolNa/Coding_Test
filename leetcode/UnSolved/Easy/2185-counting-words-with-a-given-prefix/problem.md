@@ -1,10 +1,11 @@
 ---
 id: 2185
+internal_id: 2292
 slug: counting-words-with-a-given-prefix
 title: Counting Words With a Given Prefix
 difficulty: Easy
 tags: Array, String, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

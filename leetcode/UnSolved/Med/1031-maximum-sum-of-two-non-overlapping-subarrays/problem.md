@@ -1,5 +1,6 @@
 ---
 id: 1031
+internal_id: 1096
 slug: maximum-sum-of-two-non-overlapping-subarrays
 title: Maximum Sum of Two Non-Overlapping Subarrays
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3761
+internal_id: 4139
 slug: minimum-absolute-distance-between-mirror-pairs
 title: Minimum Absolute Distance Between Mirror Pairs
 difficulty: Medium

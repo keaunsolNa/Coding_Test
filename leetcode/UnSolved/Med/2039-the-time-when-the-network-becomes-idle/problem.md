@@ -1,5 +1,6 @@
 ---
 id: 2039
+internal_id: 2151
 slug: the-time-when-the-network-becomes-idle
 title: The Time When the Network Becomes Idle
 difficulty: Medium

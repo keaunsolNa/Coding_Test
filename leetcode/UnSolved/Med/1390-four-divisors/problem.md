@@ -1,5 +1,6 @@
 ---
 id: 1390
+internal_id: 1284
 slug: four-divisors
 title: Four Divisors
 difficulty: Medium

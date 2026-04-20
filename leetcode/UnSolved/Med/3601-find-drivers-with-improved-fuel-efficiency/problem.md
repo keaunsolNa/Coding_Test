@@ -1,11 +1,12 @@
 ---
 id: 3601
+internal_id: 3942
 slug: find-drivers-with-improved-fuel-efficiency
 title: Find Drivers with Improved Fuel Efficiency
 difficulty: Medium
 tags: Database
 date: 2026-04-20
-lang: java
+lang: oraclesql
 ---
 
 # 3601. Find Drivers with Improved Fuel Efficiency

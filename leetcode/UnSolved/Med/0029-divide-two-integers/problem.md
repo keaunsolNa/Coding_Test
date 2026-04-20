@@ -1,5 +1,6 @@
 ---
 id: 29
+internal_id: 29
 slug: divide-two-integers
 title: Divide Two Integers
 difficulty: Medium

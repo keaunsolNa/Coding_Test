@@ -1,5 +1,6 @@
 ---
 id: 2121
+internal_id: 2240
 slug: intervals-between-identical-elements
 title: Intervals Between Identical Elements
 difficulty: Medium

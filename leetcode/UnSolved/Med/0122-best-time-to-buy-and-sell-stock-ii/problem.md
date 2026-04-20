@@ -1,5 +1,6 @@
 ---
 id: 122
+internal_id: 122
 slug: best-time-to-buy-and-sell-stock-ii
 title: Best Time to Buy and Sell Stock II
 difficulty: Medium

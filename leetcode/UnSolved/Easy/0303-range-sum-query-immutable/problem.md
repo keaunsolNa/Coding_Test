@@ -1,10 +1,11 @@
 ---
 id: 303
+internal_id: 303
 slug: range-sum-query-immutable
 title: Range Sum Query - Immutable
 difficulty: Easy
 tags: Array, Design, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

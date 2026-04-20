@@ -1,10 +1,11 @@
 ---
 id: 2739
+internal_id: 2857
 slug: total-distance-traveled
 title: Total Distance Traveled
 difficulty: Easy
 tags: Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

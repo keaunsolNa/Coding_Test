@@ -1,5 +1,6 @@
 ---
 id: 1035
+internal_id: 1105
 slug: uncrossed-lines
 title: Uncrossed Lines
 difficulty: Medium

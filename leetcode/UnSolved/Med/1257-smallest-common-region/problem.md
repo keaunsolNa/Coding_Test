@@ -1,5 +1,6 @@
 ---
 id: 1257
+internal_id: 1190
 slug: smallest-common-region
 title: Smallest Common Region
 difficulty: Medium

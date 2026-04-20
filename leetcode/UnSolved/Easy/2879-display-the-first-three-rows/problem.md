@@ -1,10 +1,11 @@
 ---
 id: 2879
+internal_id: 3065
 slug: display-the-first-three-rows
 title: Display the First Three Rows
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

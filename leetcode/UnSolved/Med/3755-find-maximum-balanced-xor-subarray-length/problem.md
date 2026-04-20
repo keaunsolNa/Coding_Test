@@ -1,5 +1,6 @@
 ---
 id: 3755
+internal_id: 3946
 slug: find-maximum-balanced-xor-subarray-length
 title: Find Maximum Balanced XOR Subarray Length
 difficulty: Medium

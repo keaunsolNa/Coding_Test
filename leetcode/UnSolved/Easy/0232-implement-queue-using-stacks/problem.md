@@ -1,10 +1,11 @@
 ---
 id: 232
+internal_id: 232
 slug: implement-queue-using-stacks
 title: Implement Queue using Stacks
 difficulty: Easy
 tags: Stack, Design, Queue
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

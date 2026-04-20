@@ -1,5 +1,6 @@
 ---
 id: 3799
+internal_id: 4071
 slug: word-squares-ii
 title: Word Squares II
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2099
+internal_id: 2204
 slug: find-subsequence-of-length-k-with-the-largest-sum
 title: Find Subsequence of Length K With the Largest Sum
 difficulty: Easy
 tags: Array, Hash Table, Sorting, Heap (Priority Queue)
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 984
+internal_id: 1026
 slug: string-without-aaa-or-bbb
 title: String Without AAA or BBB
 difficulty: Medium

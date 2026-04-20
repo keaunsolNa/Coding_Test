@@ -1,10 +1,11 @@
 ---
 id: 1455
+internal_id: 1566
 slug: check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence
 title: Check If a Word Occurs As a Prefix of Any Word in a Sentence
 difficulty: Easy
 tags: Two Pointers, String, String Matching
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

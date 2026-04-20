@@ -1,5 +1,6 @@
 ---
 id: 2735
+internal_id: 2810
 slug: collecting-chocolates
 title: Collecting Chocolates
 difficulty: Medium

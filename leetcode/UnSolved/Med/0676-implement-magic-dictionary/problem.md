@@ -1,5 +1,6 @@
 ---
 id: 676
+internal_id: 676
 slug: implement-magic-dictionary
 title: Implement Magic Dictionary
 difficulty: Medium

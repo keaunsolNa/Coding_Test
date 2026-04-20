@@ -1,5 +1,6 @@
 ---
 id: 2297
+internal_id: 2056
 slug: jump-game-viii
 title: Jump Game VIII
 difficulty: Medium

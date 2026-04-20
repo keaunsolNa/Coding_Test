@@ -1,5 +1,6 @@
 ---
 id: 2955
+internal_id: 3247
 slug: number-of-same-end-substrings
 title: Number of Same-End Substrings
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2890
+internal_id: 3073
 slug: reshape-data-melt
 title: Reshape Data: Melt
 difficulty: Easy
 tags: 
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

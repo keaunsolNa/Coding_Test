@@ -1,10 +1,11 @@
 ---
 id: 2660
+internal_id: 2684
 slug: determine-the-winner-of-a-bowling-game
 title: Determine the Winner of a Bowling Game
 difficulty: Easy
 tags: Array, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

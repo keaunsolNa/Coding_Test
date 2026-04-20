@@ -1,10 +1,11 @@
 ---
 id: 233
+internal_id: 233
 slug: number-of-digit-one
 title: Number of Digit One
 difficulty: Hard
 tags: Math, Dynamic Programming, Recursion
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

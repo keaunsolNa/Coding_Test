@@ -1,5 +1,6 @@
 ---
 id: 2910
+internal_id: 3166
 slug: minimum-number-of-groups-to-create-a-valid-assignment
 title: Minimum Number of Groups to Create a Valid Assignment
 difficulty: Medium

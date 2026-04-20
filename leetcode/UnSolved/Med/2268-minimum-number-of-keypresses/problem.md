@@ -1,5 +1,6 @@
 ---
 id: 2268
+internal_id: 2405
 slug: minimum-number-of-keypresses
 title: Minimum Number of Keypresses
 difficulty: Medium

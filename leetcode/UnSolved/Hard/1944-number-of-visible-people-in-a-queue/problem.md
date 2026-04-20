@@ -1,10 +1,11 @@
 ---
 id: 1944
+internal_id: 1305
 slug: number-of-visible-people-in-a-queue
 title: Number of Visible People in a Queue
 difficulty: Hard
 tags: Array, Stack, Monotonic Stack
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 662
+internal_id: 662
 slug: maximum-width-of-binary-tree
 title: Maximum Width of Binary Tree
 difficulty: Medium

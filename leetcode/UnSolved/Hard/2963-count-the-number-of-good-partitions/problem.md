@@ -1,10 +1,11 @@
 ---
 id: 2963
+internal_id: 3212
 slug: count-the-number-of-good-partitions
 title: Count the Number of Good Partitions
 difficulty: Hard
 tags: Array, Hash Table, Math, Combinatorics
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 991
+internal_id: 1033
 slug: broken-calculator
 title: Broken Calculator
 difficulty: Medium

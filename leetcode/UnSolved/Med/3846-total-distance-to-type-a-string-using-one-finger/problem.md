@@ -1,5 +1,6 @@
 ---
 id: 3846
+internal_id: 4170
 slug: total-distance-to-type-a-string-using-one-finger
 title: Total Distance to Type a String Using One Finger
 difficulty: Medium

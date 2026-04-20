@@ -1,5 +1,6 @@
 ---
 id: 2145
+internal_id: 2249
 slug: count-the-hidden-sequences
 title: Count the Hidden Sequences
 difficulty: Medium

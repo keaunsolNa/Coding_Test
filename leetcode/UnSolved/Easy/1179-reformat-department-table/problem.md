@@ -1,11 +1,12 @@
 ---
 id: 1179
+internal_id: 1301
 slug: reformat-department-table
 title: Reformat Department Table
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 1179. Reformat Department Table

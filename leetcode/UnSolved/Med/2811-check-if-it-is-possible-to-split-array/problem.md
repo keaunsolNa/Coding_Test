@@ -1,5 +1,6 @@
 ---
 id: 2811
+internal_id: 2916
 slug: check-if-it-is-possible-to-split-array
 title: Check if it is Possible to Split Array
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 861
+internal_id: 891
 slug: score-after-flipping-matrix
 title: Score After Flipping Matrix
 difficulty: Medium

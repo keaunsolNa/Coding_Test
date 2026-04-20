@@ -1,5 +1,6 @@
 ---
 id: 1738
+internal_id: 1860
 slug: find-kth-largest-xor-coordinate-value
 title: Find Kth Largest XOR Coordinate Value
 difficulty: Medium

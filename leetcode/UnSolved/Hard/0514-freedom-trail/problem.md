@@ -1,10 +1,11 @@
 ---
 id: 514
+internal_id: 514
 slug: freedom-trail
 title: Freedom Trail
 difficulty: Hard
 tags: String, Dynamic Programming, Depth-First Search, Breadth-First Search
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

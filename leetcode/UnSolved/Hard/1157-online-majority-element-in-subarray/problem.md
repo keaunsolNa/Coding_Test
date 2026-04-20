@@ -1,10 +1,11 @@
 ---
 id: 1157
+internal_id: 1262
 slug: online-majority-element-in-subarray
 title: Online Majority Element In Subarray
 difficulty: Hard
 tags: Array, Binary Search, Design, Binary Indexed Tree, Segment Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

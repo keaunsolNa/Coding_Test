@@ -1,10 +1,11 @@
 ---
 id: 1224
+internal_id: 1344
 slug: maximum-equal-frequency
 title: Maximum Equal Frequency
 difficulty: Hard
 tags: Array, Hash Table
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

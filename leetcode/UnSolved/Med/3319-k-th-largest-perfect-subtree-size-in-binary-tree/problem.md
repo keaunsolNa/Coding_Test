@@ -1,5 +1,6 @@
 ---
 id: 3319
+internal_id: 3509
 slug: k-th-largest-perfect-subtree-size-in-binary-tree
 title: K-th Largest Perfect Subtree Size in Binary Tree
 difficulty: Medium

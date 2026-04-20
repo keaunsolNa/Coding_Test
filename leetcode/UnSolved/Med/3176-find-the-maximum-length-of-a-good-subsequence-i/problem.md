@@ -1,5 +1,6 @@
 ---
 id: 3176
+internal_id: 3456
 slug: find-the-maximum-length-of-a-good-subsequence-i
 title: Find the Maximum Length of a Good Subsequence I
 difficulty: Medium

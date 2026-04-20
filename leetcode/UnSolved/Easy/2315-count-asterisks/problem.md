@@ -1,10 +1,11 @@
 ---
 id: 2315
+internal_id: 2401
 slug: count-asterisks
 title: Count Asterisks
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

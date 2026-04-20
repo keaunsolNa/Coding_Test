@@ -1,5 +1,6 @@
 ---
 id: 1026
+internal_id: 1092
 slug: maximum-difference-between-node-and-ancestor
 title: Maximum Difference Between Node and Ancestor
 difficulty: Medium

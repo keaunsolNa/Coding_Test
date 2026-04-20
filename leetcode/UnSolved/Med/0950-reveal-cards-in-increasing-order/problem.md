@@ -1,5 +1,6 @@
 ---
 id: 950
+internal_id: 987
 slug: reveal-cards-in-increasing-order
 title: Reveal Cards In Increasing Order
 difficulty: Medium

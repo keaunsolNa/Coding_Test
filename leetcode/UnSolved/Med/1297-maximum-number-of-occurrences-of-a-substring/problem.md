@@ -1,5 +1,6 @@
 ---
 id: 1297
+internal_id: 1423
 slug: maximum-number-of-occurrences-of-a-substring
 title: Maximum Number of Occurrences of a Substring
 difficulty: Medium

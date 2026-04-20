@@ -1,10 +1,11 @@
 ---
 id: 3351
+internal_id: 3646
 slug: sum-of-good-subsequences
 title: Sum of Good Subsequences
 difficulty: Hard
 tags: Array, Hash Table, Dynamic Programming
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: 1414
+internal_id: 1515
 slug: find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k
 title: Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2218
+internal_id: 1393
 slug: maximum-value-of-k-coins-from-piles
 title: Maximum Value of K Coins From Piles
 difficulty: Hard
 tags: Array, Dynamic Programming, Prefix Sum
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

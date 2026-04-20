@@ -1,5 +1,6 @@
 ---
 id: 1698
+internal_id: 1838
 slug: number-of-distinct-substrings-in-a-string
 title: Number of Distinct Substrings in a String
 difficulty: Medium

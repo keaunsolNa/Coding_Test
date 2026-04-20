@@ -1,10 +1,11 @@
 ---
 id: 3019
+internal_id: 3312
 slug: number-of-changing-keys
 title: Number of Changing Keys
 difficulty: Easy
 tags: String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

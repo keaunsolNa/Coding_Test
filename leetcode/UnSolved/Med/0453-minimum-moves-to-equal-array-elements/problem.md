@@ -1,5 +1,6 @@
 ---
 id: 453
+internal_id: 453
 slug: minimum-moves-to-equal-array-elements
 title: Minimum Moves to Equal Array Elements
 difficulty: Medium

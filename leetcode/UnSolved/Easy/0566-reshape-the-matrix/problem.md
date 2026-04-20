@@ -1,10 +1,11 @@
 ---
 id: 566
+internal_id: 566
 slug: reshape-the-matrix
 title: Reshape the Matrix
 difficulty: Easy
 tags: Array, Matrix, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 501
+internal_id: 501
 slug: find-mode-in-binary-search-tree
 title: Find Mode in Binary Search Tree
 difficulty: Easy
 tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

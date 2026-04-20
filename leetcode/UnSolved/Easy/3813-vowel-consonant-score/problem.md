@@ -1,10 +1,11 @@
 ---
 id: 3813
+internal_id: 4178
 slug: vowel-consonant-score
 title: Vowel-Consonant Score
 difficulty: Easy
 tags: String, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 1252
+internal_id: 1378
 slug: cells-with-odd-values-in-a-matrix
 title: Cells with Odd Values in a Matrix
 difficulty: Easy
 tags: Array, Math, Simulation
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

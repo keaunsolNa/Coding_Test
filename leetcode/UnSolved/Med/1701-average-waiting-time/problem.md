@@ -1,5 +1,6 @@
 ---
 id: 1701
+internal_id: 1803
 slug: average-waiting-time
 title: Average Waiting Time
 difficulty: Medium

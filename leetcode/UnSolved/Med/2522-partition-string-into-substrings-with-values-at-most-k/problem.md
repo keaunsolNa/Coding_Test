@@ -1,5 +1,6 @@
 ---
 id: 2522
+internal_id: 2511
 slug: partition-string-into-substrings-with-values-at-most-k
 title: Partition String Into Substrings With Values at Most K
 difficulty: Medium

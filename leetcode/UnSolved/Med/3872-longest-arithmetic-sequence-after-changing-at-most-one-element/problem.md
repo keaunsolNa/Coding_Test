@@ -1,5 +1,6 @@
 ---
 id: 3872
+internal_id: 4230
 slug: longest-arithmetic-sequence-after-changing-at-most-one-element
 title: Longest Arithmetic Sequence After Changing At Most One Element
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 2577
+internal_id: 2711
 slug: minimum-time-to-visit-a-cell-in-a-grid
 title: Minimum Time to Visit a Cell In a Grid
 difficulty: Hard
 tags: Array, Breadth-First Search, Graph Theory, Heap (Priority Queue), Matrix, Shortest Path
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

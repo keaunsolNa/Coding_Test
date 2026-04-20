@@ -1,5 +1,6 @@
 ---
 id: 2058
+internal_id: 2182
 slug: find-the-minimum-and-maximum-number-of-nodes-between-critical-points
 title: Find the Minimum and Maximum Number of Nodes Between Critical Points
 difficulty: Medium

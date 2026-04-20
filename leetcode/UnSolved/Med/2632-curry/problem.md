@@ -1,5 +1,6 @@
 ---
 id: 2632
+internal_id: 2740
 slug: curry
 title: Curry
 difficulty: Medium

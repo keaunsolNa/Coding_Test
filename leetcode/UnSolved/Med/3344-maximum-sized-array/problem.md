@@ -1,5 +1,6 @@
 ---
 id: 3344
+internal_id: 3679
 slug: maximum-sized-array
 title: Maximum Sized Array
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3315
+internal_id: 3611
 slug: construct-the-minimum-bitwise-array-ii
 title: Construct the Minimum Bitwise Array II
 difficulty: Medium

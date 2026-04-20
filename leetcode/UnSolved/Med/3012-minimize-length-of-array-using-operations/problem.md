@@ -1,5 +1,6 @@
 ---
 id: 3012
+internal_id: 3244
 slug: minimize-length-of-array-using-operations
 title: Minimize Length of Array Using Operations
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3738
+internal_id: 4098
 slug: longest-non-decreasing-subarray-after-replacing-at-most-one-element
 title: Longest Non-Decreasing Subarray After Replacing at Most One Element
 difficulty: Medium

@@ -1,5 +1,6 @@
 ---
 id: 3834
+internal_id: 4213
 slug: merge-adjacent-equal-elements
 title: Merge Adjacent Equal Elements
 difficulty: Medium

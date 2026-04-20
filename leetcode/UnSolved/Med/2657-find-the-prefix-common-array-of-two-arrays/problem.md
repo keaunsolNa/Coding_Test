@@ -1,5 +1,6 @@
 ---
 id: 2657
+internal_id: 2766
 slug: find-the-prefix-common-array-of-two-arrays
 title: Find the Prefix Common Array of Two Arrays
 difficulty: Medium

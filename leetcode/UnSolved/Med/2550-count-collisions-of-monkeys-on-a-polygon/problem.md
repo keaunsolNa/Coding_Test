@@ -1,5 +1,6 @@
 ---
 id: 2550
+internal_id: 2680
 slug: count-collisions-of-monkeys-on-a-polygon
 title: Count Collisions of Monkeys on a Polygon
 difficulty: Medium

@@ -1,10 +1,11 @@
 ---
 id: 1832
+internal_id: 1960
 slug: check-if-the-sentence-is-pangram
 title: Check if the Sentence Is Pangram
 difficulty: Easy
 tags: Hash Table, String
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

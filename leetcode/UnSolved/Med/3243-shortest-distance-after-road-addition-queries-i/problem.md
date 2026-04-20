@@ -1,5 +1,6 @@
 ---
 id: 3243
+internal_id: 3517
 slug: shortest-distance-after-road-addition-queries-i
 title: Shortest Distance After Road Addition Queries I
 difficulty: Medium

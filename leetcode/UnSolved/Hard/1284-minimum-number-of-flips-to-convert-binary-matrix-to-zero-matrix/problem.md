@@ -1,10 +1,11 @@
 ---
 id: 1284
+internal_id: 1409
 slug: minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix
 title: Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
 difficulty: Hard
 tags: Array, Hash Table, Bit Manipulation, Breadth-First Search, Matrix
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

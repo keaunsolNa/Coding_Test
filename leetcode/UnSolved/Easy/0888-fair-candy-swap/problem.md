@@ -1,10 +1,11 @@
 ---
 id: 888
+internal_id: 924
 slug: fair-candy-swap
 title: Fair Candy Swap
 difficulty: Easy
 tags: Array, Hash Table, Binary Search, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

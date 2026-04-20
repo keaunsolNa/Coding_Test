@@ -1,10 +1,11 @@
 ---
 id: 2437
+internal_id: 2528
 slug: number-of-valid-clock-times
 title: Number of Valid Clock Times
 difficulty: Easy
 tags: String, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

@@ -1,10 +1,11 @@
 ---
 id: 2367
+internal_id: 2442
 slug: number-of-arithmetic-triplets
 title: Number of Arithmetic Triplets
 difficulty: Easy
 tags: Array, Hash Table, Two Pointers, Enumeration
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 

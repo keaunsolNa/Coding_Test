@@ -1,10 +1,11 @@
 ---
 id: 2449
+internal_id: 2539
 slug: minimum-number-of-operations-to-make-arrays-similar
 title: Minimum Number of Operations to Make Arrays Similar
 difficulty: Hard
 tags: Array, Greedy, Sorting
-date: 2026-04-19
+date: 2026-04-20
 lang: java
 ---
 
