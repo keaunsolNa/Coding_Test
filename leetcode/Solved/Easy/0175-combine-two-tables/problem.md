@@ -1,11 +1,12 @@
 ---
 id: 175
+internal_id: 175
 slug: combine-two-tables
 title: Combine Two Tables
 difficulty: Easy
 tags: Database
-date: 2026-04-19
-lang: java
+date: 2026-04-20
+lang: oraclesql
 ---
 
 # 175. Combine Two Tables
