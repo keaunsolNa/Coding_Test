@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -9,32 +10,31 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 
-		Map<Integer, Integer> map = new HashMap<>();
 
-		int[] colors = {1,8,3,8,3};
+		String[] words = new String[] {"Hello","Alaska","Dad","Peace"};
 
+		List<char[]> list1 = List.of("qwertyuiop".toCharArray());
+		List<char[]> list2 = List.of("asdfghjkl".toCharArray());
+		List<char[]> list3 = List.of("zxcvbnm".toCharArray());
 
-		for (int i = 0; i < colors.length; i++) {
-
-			int target = colors[i];
-			if (!map.containsKey(target)) map.put(target, i);
+		for (char[] chars : list1) {
+			System.out.println(Arrays.toString(chars));
 		}
+		for (String word : words) {
+
+			word = word.toLowerCase();
+			List<char[]> list = List.of(word.toCharArray());
 
 
-		System.out.println(map);
-		int max = 0;
-		for (int i : map.keySet())
-		{
-			int dis = 0;
-			for (int j : map.keySet())
-			{
-				System.out.println(i + " " + j);
-				if (i != j) dis = map.get(j) - map.get(i);
-				max = Math.max(max, dis);
+			if (list1.contains(Arrays.asList(word.toCharArray())) ||
+				list2.contains(Arrays.asList(word.toCharArray())) ||
+				list3.contains(Arrays.asList(word.toCharArray()))) {
+				System.out.println(word);
 			}
+
 		}
 
-		bw.write(String.valueOf(max));
+
 		bw.flush();
         bw.close();
         br.close();
