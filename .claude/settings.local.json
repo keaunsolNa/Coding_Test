@@ -6,7 +6,9 @@
       "Bash(cmd /c \"rd /s /q \\\\\"\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\Users\\\\\\\\USER\\\\\\\\IdeaProjects\\\\\\\\Coding_Test\\\\\\\\leetcode\\\\\\\\UnSolved\\\\\\\\Med.\\\\\"\")",
       "Bash(cmd *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(xargs cat *)",
+      "Bash(git *)"
     ]
   }
 }
