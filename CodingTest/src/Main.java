@@ -11,19 +11,9 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 
 
-		int n = 9;
-		List<Long> list = new ArrayList<>();
-		long start = 3;
-		list.add(start);
+		int[] nums = new int[] {0,2,3,4,6,8,9};
 
-		while (start <= 2.147483647E9)
-		{
-			start *= 3;
-			list.add(start);
-		}
-
-		System.out.println(list);
-		System.out.println(list.contains(n));
+		System.out.println(summaryRanges(nums));
 
 		bw.flush();
         bw.close();
@@ -31,19 +21,55 @@ public class Main {
 
     }
 
-    private static boolean solve(int n) throws IOException {
+	public static List<String> summaryRanges(int[] nums) {
 
-		while (n > 2)
-		{
-			System.out.printf("n = %d\n", n);
-			if (n == 2) return true;
-			if (n % 2 != 0) return false;
-			n /= 2;
+		if (nums.length == 0) return new ArrayList<>();
+
+		List<String> list = new ArrayList<>();
+		Deque<Long> dq = new ArrayDeque<>();
+		dq.add((long) nums[0]);
+
+		/*
+			int[] nums = new int[] {0,1,2,4,5,7};
+		 */
+		for (int i = 1; i < nums.length; i++) {
+
+			/*
+				deque에 쌓인 최신 값 + 1 이 현재값이 아닐 때 (연속성이 끊길 때)
+			 */
+			if (dq.peekLast() + 1 != nums[i]) {
+
+				if (dq.size() == 1) {
+					list.add(String.valueOf(dq.peekLast()));
+				}
+
+				else {
+					list.add(dq.pollFirst() + "->" + dq.peekLast());
+				}
+
+				dq.clear();
+				dq.add((long) nums[i]);
+
+			}
+			else {
+				dq.add((long) nums[i]);
+			}
+
+			System.out.println(nums[i] + " " + list);
 		}
 
-		return n == 1 || n == 2;
-    }
+		System.out.println(dq);
 
+		if (!dq.isEmpty())
+		{
+			if (dq.size() == 1) list.add(String.valueOf(dq.pop()));
+			else {
+				list.add(dq.pollFirst() + "->" + dq.pollLast());
+			}
+		}
+
+		return list;
+	}
 
 
 }
