@@ -1,31 +1,24 @@
 class Solution {
 	public boolean isIsomorphic(String s, String t) {
 
-		if (s.length() != t.length()) return false;
-		Map<Character, Character> sToT = new HashMap<>();
-		Map<Character, Character> tToS = new HashMap<>();
+		if (s.length() != t.length()) {
+			return false;
+		}
+
+		int[] sToT = new int[256];
+		int[] tToS = new int[256];
 
 		for (int i = 0; i < s.length(); i++) {
 
 			char sc = s.charAt(i);
 			char tc = t.charAt(i);
 
-			if (sToT.containsKey(sc)) {
-				if (sToT.get(sc) != tc) {
-					return false;
-				}
-			} else {
-				sToT.put(sc, tc);
+			if (sToT[sc] != tToS[tc]) {
+				return false;
 			}
 
-			// 역방향 매핑 검사
-			if (tToS.containsKey(tc)) {
-				if (tToS.get(tc) != sc) {
-					return false;
-				}
-			} else {
-				tToS.put(tc, sc);
-			}
+			sToT[sc] = i + 1;
+			tToS[tc] = i + 1;
 		}
 
 		return true;
