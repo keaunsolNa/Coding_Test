@@ -16,27 +16,8 @@ public class Main {
 		System.out.println(summaryRanges(nums));
 
 		bw.flush();
-        bw.close();
-        br.close();
-
-		int[] pos = new int[2];
-		String moves = "UDRR";
-		
-		for (char c : moves.toCharArray()) {
-
-			switch(c) {
-				case 'U' : pos[0]++;
-					break;
-				case 'D' : pos[0]--;
-					break;
-				case 'R' : pos[1]++;
-					break;
-				case 'L' : pos[1]--;
-					break;
-			}
-		}
-
-
+		bw.close();
+		br.close();
 	}
 
 	public static List<String> summaryRanges(int[] nums) {
