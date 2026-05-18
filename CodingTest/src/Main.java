@@ -10,33 +10,18 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 
+		String a = "a";
+
+		char[] arr = new char[]{'1', 'v'};
+
 
 		int[] nums = new int[] {0,2,3,4,6,8,9};
 
 		System.out.println(summaryRanges(nums));
 
 		bw.flush();
-        bw.close();
-        br.close();
-
-		int[] pos = new int[2];
-		String moves = "UDRR";
-		
-		for (char c : moves.toCharArray()) {
-
-			switch(c) {
-				case 'U' : pos[0]++;
-					break;
-				case 'D' : pos[0]--;
-					break;
-				case 'R' : pos[1]++;
-					break;
-				case 'L' : pos[1]--;
-					break;
-			}
-		}
-
-
+		bw.close();
+		br.close();
 	}
 
 	public static List<String> summaryRanges(int[] nums) {
