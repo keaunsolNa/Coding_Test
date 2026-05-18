@@ -10,6 +10,8 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 
+		String a = "a";
+
 		char[] arr = new char[]{'1', 'v'};
 
 
