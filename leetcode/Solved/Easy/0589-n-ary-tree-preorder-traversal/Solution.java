@@ -18,7 +18,22 @@ class Node {
 */
 
 class Solution {
-    public List<Integer> preorder(Node root) {
-        
-    }
+	public List<Integer> preorder(Node root) {
+
+		List<Integer> ret = new ArrayList<>();
+		solve(root, ret);
+		return ret;
+	}
+
+	public void solve (Node root, List<Integer> ret) {
+
+		if (root == null) return;
+
+		ret.add(root.val);
+
+		for (Node child : root.children) {
+			solve(child, ret);
+		}
+	}
+
 }
