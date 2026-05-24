@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.StringTokenizer;
 
 class Solution {
 	public String reverseWords(String s) {

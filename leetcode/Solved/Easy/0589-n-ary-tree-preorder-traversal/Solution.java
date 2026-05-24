@@ -21,19 +21,18 @@ class Solution {
 	public List<Integer> preorder(Node root) {
 
 		List<Integer> ret = new ArrayList<>();
-		solve(root, ret);
+		traverse(root, ret);
 		return ret;
 	}
 
-	public void solve (Node root, List<Integer> ret) {
+	private void traverse(Node root, List<Integer> ret) {
 
 		if (root == null) return;
 
 		ret.add(root.val);
 
 		for (Node child : root.children) {
-			solve(child, ret);
+			traverse(child, ret);
 		}
 	}
-
 }
