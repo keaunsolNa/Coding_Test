@@ -7,7 +7,9 @@ class Solution {
 
 		for (Integer n : nums) {
 
-			if (n.equals(max1) || n.equals(max2) || n.equals(max3)) continue;
+			if (n.equals(max1) || n.equals(max2) || n.equals(max3)) {
+				continue;
+			}
 
 			if (max1 == null || n > max1) {
 				max3 = max2;
