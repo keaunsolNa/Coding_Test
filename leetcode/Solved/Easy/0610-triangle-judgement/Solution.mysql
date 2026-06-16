@@ -1,0 +1,7 @@
+# Write your MySQL query statement below
+
+SELECT GREATEST(x, y, z) max
+     , x
+     , y
+     , z
+  FROM Triangle    
