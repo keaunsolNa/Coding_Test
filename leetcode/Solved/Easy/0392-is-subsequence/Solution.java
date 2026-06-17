@@ -13,6 +13,7 @@ class Solution {
                 if (t.charAt(i) == c) {
                     cnt--;
                     System.out.println(cnt);
+                    break;
                 }                
             }
         }
