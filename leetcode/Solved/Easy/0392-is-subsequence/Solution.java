@@ -10,7 +10,7 @@ class Solution {
                 index++;
                 System.out.println(t.charAt(i) + " : " + c);
                 if (t.charAt(i) == c) {
-                    cnt++;
+                    cnt--;
                     System.out.println(cnt);
                 }                
             }
