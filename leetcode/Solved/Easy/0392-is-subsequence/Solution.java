@@ -8,6 +8,7 @@ class Solution {
             for (int i = index; i < t.length(); i++) {
                 
                 index++;
+                System.out.println(t.charAt(i) + " : " + c);
                 if (t.charAt(i) == c) {
                     cnt++;
                 }                
