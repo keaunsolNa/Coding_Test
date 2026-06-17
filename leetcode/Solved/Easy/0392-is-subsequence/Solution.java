@@ -5,6 +5,7 @@ class Solution {
         int cnt = s.length();
         for (char c : s.toCharArray()) {
 
+            System.out.println("C : " + c);
             for (int i = index; i < t.length(); i++) {
                 
                 index++;
