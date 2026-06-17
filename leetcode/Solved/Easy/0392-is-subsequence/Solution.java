@@ -11,6 +11,7 @@ class Solution {
                 System.out.println(t.charAt(i) + " : " + c);
                 if (t.charAt(i) == c) {
                     cnt++;
+                    System.out.println(cnt);
                 }                
             }
         }
