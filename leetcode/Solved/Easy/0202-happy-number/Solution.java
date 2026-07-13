@@ -2,15 +2,16 @@ class Solution {
     public boolean isHappy(int n) {
 
         Map<Integer, Integer> map = new HashMap<>();
+        map.put(n, 0);
 
         while (true) {
 
             System.out.println("N : " + n);
             System.out.println(map);
-            
+
             if (n == 1) return true;
 
-            if (map.containsKey(n)) return false;
+            if (map.containsKey(n) && map.get(n) > 0) return false;
 
             String number = n + "";
             int num = 0;
@@ -22,7 +23,7 @@ class Solution {
             }
 
             n = num;
-            map.put(n, 0);
+    		map.put(n, map.getOrDefault(n, 0) + 1);
 
         }   
     }
