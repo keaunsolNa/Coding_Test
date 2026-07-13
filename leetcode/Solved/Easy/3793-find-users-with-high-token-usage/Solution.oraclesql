@@ -5,4 +5,5 @@ SELECT T1.user_id
   FROM prompts T1
  GROUP BY user_id  
 HAVING COUNT(T1.prompt) >= 3
-ORDER BY T1.user_id DESC
+   AND MIN(T1.tokens) <> MAX(T1.tokens)
+ORDER BY ROUND(AVG(T1.tokens), 2) DESC, T1.user_id 
