@@ -2,12 +2,11 @@ class Solution {
     public boolean isHappy(int n) {
 
         Map<Integer, Integer> map = new HashMap<>();
-        map.put(n, 0);
 
         while (true) {
 
             System.out.println(n);
-            
+
             if (n == 1) return true;
 
             if (map.containsKey(n)) return false;
