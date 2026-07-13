@@ -5,7 +5,7 @@ title: Find Users with High Token Usage
 difficulty: Easy
 tags: 
 date: 2026-07-13
-lang: mysql
+lang: oraclesql
 ---
 
 # 3793. Find Users with High Token Usage
