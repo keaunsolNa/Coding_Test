@@ -2,7 +2,7 @@ class Solution {
     public boolean isHappy(int n) {
 
         Map<Integer, Integer> map = new HashMap<>();
-        map.put(n, 0);
+        map.put(n, 1);
 
         while (true) {
 
@@ -11,7 +11,7 @@ class Solution {
 
             if (n == 1) return true;
 
-            if (map.containsKey(n) && map.get(n) > 0) return false;
+            if (map.containsKey(n) && map.get(n) > 1) return false;
 
             String number = n + "";
             int num = 0;
