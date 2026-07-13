@@ -6,13 +6,15 @@ class Solution {
 
         while (true) {
 
+            System.out.println(n);
+            
             if (n == 1) return true;
 
             if (map.containsKey(n)) return false;
 
             String number = n + "";
             int num = 0;
-            
+
             for (int i = 0; i < number.length(); i++) {
 
                 int tn = Integer.parseInt(number.charAt(i) + "");
