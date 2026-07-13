@@ -5,8 +5,9 @@ class Solution {
 
         while (true) {
 
-            System.out.println(n);
-
+            System.out.println("N : " + n);
+            System.out.println(map);
+            
             if (n == 1) return true;
 
             if (map.containsKey(n)) return false;
