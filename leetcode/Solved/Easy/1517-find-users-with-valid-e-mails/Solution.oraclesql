@@ -1,0 +1,6 @@
+/* Write your PL/SQL query statement below */
+SELECT user_id
+     , name
+     , mail
+     , SUBSTR(mail, 1, INSTR(mail, '@') - 1)
+  FROM Users
