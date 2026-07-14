@@ -1,0 +1,7 @@
+/* Write your PL/SQL query statement below */
+SELECT T1.name
+     , SUM(T2.distance)
+  FROM USERS T1
+     , RIDES T2
+ WHERE T1.id = T2.user_id    
+ GROUP BY T1.name
