@@ -5,3 +5,4 @@ SELECT employee_id
             ELSE salary
              END AS bonus
   FROM Employees 
+ ORDER BY employee_id 
