@@ -1,27 +1,26 @@
 class Solution {
-    public boolean isHappy(int n) {
+	public boolean isHappy(int n) {
 
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(n, 1);
+		Set<Integer> seen = new HashSet<>();
 
-        while (true) {
+		while (n != 1 && !seen.contains(n)) {
+			seen.add(n);
+			n = sumOfSquaredDigits(n);
+		}
 
-            if (n == 1) return true;
+		return n == 1;
+	}
 
-            if (map.containsKey(n) && map.get(n) > 1) return false;
+	private int sumOfSquaredDigits(int number) {
 
-            String number = n + "";
-            int num = 0;
+		int sum = 0;
 
-            for (int i = 0; i < number.length(); i++) {
+		while (number > 0) {
+			int digit = number % 10;
+			sum += digit * digit;
+			number /= 10;
+		}
 
-                int tn = Integer.parseInt(number.charAt(i) + "");
-                num += (tn * tn);
-            }
-
-            n = num;
-    		map.put(n, map.getOrDefault(n, 0) + 1);
-
-        }   
-    }
+		return sum;
+	}
 }
