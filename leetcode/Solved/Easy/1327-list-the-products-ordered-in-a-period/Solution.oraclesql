@@ -4,4 +4,5 @@ SELECT T1.product_name
   FROM Products T1
      , Orders T2
  WHERE T1.product_id = T2.product_id
- GROUP BY T1.product_name
+ GROUP BY T1.product_name, T2.order_date
+HAVING T2.order_date BETWEEN '20200201' AND '20200228' 
