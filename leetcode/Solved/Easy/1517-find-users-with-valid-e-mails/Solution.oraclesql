@@ -3,5 +3,5 @@ SELECT user_id
      , name
      , mail
      , SUBSTR(mail, 1, INSTR(mail, '@') - 1) prefix
-     , SUBSTR(mail, INSTR(mail, '@'),  2) suffix
+     , SUBSTR(mail, INSTR(mail, '@')) suffix
   FROM Users
