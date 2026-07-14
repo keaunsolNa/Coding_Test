@@ -1,0 +1,10 @@
+/* Write your PL/SQL query statement below */
+SELECT employee_id
+     , CASE WHEN count(department_id) = 1 THEN department_id
+            ELSE (SELECT department_id
+                    FROM Employee
+                   WHERE employee_id = T1.employee_id
+                     AND primary_flag = 'Y' )
+            END AS department_id         
+  FROM Employee T1
+ GROUP BY employee_id , department_id
