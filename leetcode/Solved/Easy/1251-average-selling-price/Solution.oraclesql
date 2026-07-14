@@ -1,7 +1,8 @@
 /* Write your PL/SQL query statement below */
 SELECT T1.product_id
+     , sum(T2.units) as cnt
   FROM Prices T1
      , UnitsSold T2
  WHERE T1.product_id = T2.product_id    
    AND T2.purchase_date BETWEEN T1.start_date AND T1.end_date
- GROUP BY T1.product_id, T2.purchase_date
+ GROUP BY T1.product_id
