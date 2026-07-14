@@ -1,6 +1,6 @@
 /* Write your PL/SQL query statement below */
 SELECT T1.product_id
-     , ROUND(SUM(T1.price * T2.units) / sum(T2.units), 2) average_price
+     , NVL(ROUND(SUM(T1.price * T2.units) / sum(T2.units), 2), 0) average_price
   FROM Prices T1
      , UnitsSold T2
  WHERE T1.product_id = T2.product_id(+)
