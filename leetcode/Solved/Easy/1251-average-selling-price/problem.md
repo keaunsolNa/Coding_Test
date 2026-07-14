@@ -5,7 +5,7 @@ title: Average Selling Price
 difficulty: Easy
 tags: Database
 date: 2026-07-14
-lang: mysql
+lang: oraclesql
 ---
 
 # 1251. Average Selling Price
