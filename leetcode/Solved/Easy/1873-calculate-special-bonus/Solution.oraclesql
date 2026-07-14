@@ -1,0 +1,5 @@
+/* Write your PL/SQL query statement below */
+SELECT employee_id
+     , salary AS bonus
+  FROM Employees 
+ WHERE MOD(employee_id, 2) <> 0   
