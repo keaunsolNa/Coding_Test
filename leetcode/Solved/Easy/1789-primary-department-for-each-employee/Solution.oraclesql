@@ -1,8 +1,10 @@
 /* Write your PL/SQL query statement below */
 SELECT T1.employee_id
-     , CASE WHEN count(T1.department_id) = 1 THEN  1
-            ELSE 2
-            END AS department_id         
+     , T1.department_id         
   FROM Employee T1
- GROUP BY T1.employee_id 
+ WHERE T1.employee_id IN (SELECT employee_id
+                            FROM Employee
+                           GROUP BY employee_id
+                           HAVING count(*) = 1 )
+    OR T1.primary_flag = 'Y'                       
  ORDER BY T1.employee_id
