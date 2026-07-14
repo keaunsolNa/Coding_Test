@@ -1,6 +1,6 @@
 /* Write your PL/SQL query statement below */
 SELECT sell_date
-     , count(sell_date) num_sold
+     , count(product) num_sold
      , LISTAGG(product, ',') WITHIN GROUP (ORDER BY sell_date)  products
   FROM Activities     
  GROUP BY sell_date 
