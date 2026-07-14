@@ -1,8 +1,13 @@
 /* Write your PL/SQL query statement below */
 SELECT T1.product_name
-     , SUM(T2.unit) unit
-  FROM Products T1
-     , Orders T2
- WHERE T1.product_id = T2.product_id
-   AND T2.order_date BETWEEN '20200201' AND '20200228'  
- GROUP BY T1.product_name
+     , T1.unit
+  FROM (  
+        SELECT T1.product_name
+            , SUM(T2.unit) unit
+        FROM Products T1
+            , Orders T2
+        WHERE T1.product_id = T2.product_id
+        AND T2.order_date BETWEEN '20200201' AND '20200228'  
+        GROUP BY T1.product_name
+        ) T1
+ WHERE T1.unit > 100       
