@@ -5,7 +5,7 @@ title: Group Sold Products By The Date
 difficulty: Easy
 tags: Database
 date: 2026-07-14
-lang: oraclesql
+lang: mysql
 ---
 
 # 1484. Group Sold Products By The Date
