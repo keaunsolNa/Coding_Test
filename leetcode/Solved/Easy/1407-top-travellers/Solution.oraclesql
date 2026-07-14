@@ -5,3 +5,4 @@ SELECT T1.name
      , RIDES T2
  WHERE T1.id = T2.user_id    
  GROUP BY T1.name
+ ORDER BY name
