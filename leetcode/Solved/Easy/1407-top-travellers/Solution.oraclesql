@@ -1,8 +1,8 @@
 /* Write your PL/SQL query statement below */
 SELECT T1.name
-     , SUM(T2.distance)
+     , SUM(T2.distance) AS travelled_distance 
   FROM USERS T1
      , RIDES T2
  WHERE T1.id = T2.user_id    
  GROUP BY T1.name
- ORDER BY name
+ ORDER BY travelled_distance DESC, name
