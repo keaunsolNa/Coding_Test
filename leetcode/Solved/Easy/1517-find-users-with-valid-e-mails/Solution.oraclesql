@@ -11,4 +11,4 @@ SELECT user_id
         FROM Users
        )
  WHERE suffix = 'leetcode.com'
-   AND REGEXP_LIKE(prefix, '^[A-Za-z0-9._-]');
+   AND REGEXP_LIKE(prefix,  '^[A-Za-z][A-Za-z0-9._-]*$')
