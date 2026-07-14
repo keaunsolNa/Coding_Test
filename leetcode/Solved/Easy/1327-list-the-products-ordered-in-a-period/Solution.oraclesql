@@ -1,5 +1,7 @@
 /* Write your PL/SQL query statement below */
-SELECT TO_CHAR(T2.order_date, 'YYYYMMDD')
+SELECT T1.product_name
+     , SUM(T2.unit) unit
   FROM Products T1
      , Orders T2
  WHERE T1.product_id = T2.product_id
+ GROUP BY T1.product_name
