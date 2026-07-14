@@ -2,6 +2,13 @@
 SELECT user_id
      , name
      , mail
-     , SUBSTR(mail, 1, INSTR(mail, '@') - 1) prefix
-     , SUBSTR(mail, INSTR(mail, '@') + 1) suffix
-  FROM Users
+  FROM (   
+        SELECT user_id
+            , name
+            , mail
+            , SUBSTR(mail, 1, INSTR(mail, '@') - 1) prefix
+            , SUBSTR(mail, INSTR(mail, '@') + 1) suffix
+        FROM Users
+       )
+ WHERE suffix = 'leetcode.com'
+   AND REGEXP_LIKE(prefix, '^[A-Za-z0-9._-]');
