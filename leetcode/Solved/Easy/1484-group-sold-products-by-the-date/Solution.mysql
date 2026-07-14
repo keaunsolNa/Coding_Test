@@ -1,0 +1,6 @@
+# Write your MySQL query statement below
+SELECT sell_date
+     , count(product) num_sold
+     , GROUP_CONCAT(product, ',')   products
+  FROM Activities     
+ GROUP BY sell_date 
