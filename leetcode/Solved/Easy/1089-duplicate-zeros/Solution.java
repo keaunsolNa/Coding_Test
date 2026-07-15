@@ -17,5 +17,12 @@ class Solution {
                 list.add(arr[i]);
             } 
         }
+
+        for (int i = 0; i < list.size(); i++) {
+            arr[i] = list.get(i);
+        }
+        
+
+
     }
 }
