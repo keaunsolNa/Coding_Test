@@ -9,6 +9,7 @@ class Solution {
             System.out.println(reverse[idx - 1] + " " + s[i]);            
         }
 
+        for (int i = 0; i < s.length; i++) System.out.print(reverse[i]);
         s = reverse;
     }
 }
