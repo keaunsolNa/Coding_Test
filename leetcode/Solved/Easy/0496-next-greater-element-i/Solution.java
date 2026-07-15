@@ -12,12 +12,9 @@ class Solution {
         for (int i = 0; i < nums1.length; i++) {
 
             int ans = -1;
-            System.out.println("nums1[i] : " + nums1[i]);
-
+            
             for (int j = map.get(nums1[i]) + 1; j < nums2.length; j++) {
 
-                System.out.println("idx j : " + j );
-                System.out.println("nums2[j] : " + nums2[j]);
                 if (nums2[j] > nums1[i]) {
                     ans = nums2[j];
                     break;
