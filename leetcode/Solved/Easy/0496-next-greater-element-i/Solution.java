@@ -19,7 +19,7 @@ class Solution {
                 System.out.println("idx j : " + j );
                 System.out.println("nums2[j] : " + nums2[j]);
                 if (nums2[j] > nums1[i]) {
-                    ans = j;
+                    ans = nums2[j];
                     break;
                 }
             }
