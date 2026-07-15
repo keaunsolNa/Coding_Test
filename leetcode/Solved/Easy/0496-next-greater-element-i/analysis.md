@@ -2,10 +2,10 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 7. 15. 오전 10:24:32 |
+| Submitted | 2026. 7. 15. 오전 10:25:48 |
 | Language | java |
-| Runtime | 0 ms (Beats 0.0%) |
-| Memory | 42.4 MB (Beats 0.0%) |
+| Runtime | 2 ms (Beats 0.0%) |
+| Memory | 42.5 MB (Beats 0.0%) |
 
 ## Submission
 
@@ -15,12 +15,35 @@
 
 코드 리뷰입니다.
 
-1. **시간 복잡도**: O(n*m) - nums1과 nums2의 원소들을 각각 순회하며 비교하기 때문에 시간 복잡도가 O(n*m)입니다. 여기서 n은 nums1의 길이, m은 nums2의 길이입니다.
+1. **시간 복잡도**: O(n*m) - nums1과 nums2의 길이를 각각 n과 m이라고 가정하면, nums1의 각 원소에 대해 nums2를 순회하기 때문에 시간 복잡도는 O(n*m)입니다. 이는 nums2의 길이가 매우 길 경우 성능이 저하될 수 있습니다.
 
-2. **공간 복잡도**: O(n) - nums2의 원소들을 map에 저장하기 때문에 공간 복잡도가 O(n)입니다. 여기서 n은 nums2의 길이입니다.
+2. **공간 복잡도**: O(n) - nums2의 각 원소를 해시맵에 저장하기 때문에 공간 복잡도는 O(n)입니다. 여기서 n은 nums2의 길이를 의미합니다.
 
-3. **풀이 접근법**: 이 문제는 해시 맵과 순회를 이용한 알고리즘을 사용했습니다. nums2의 원소들을 map에 저장하고, nums1의 원소들을 순회하며 map에서 해당 원소의 인덱스를 찾은 후, nums2를 순회하며 해당 원소보다 큰 원소를 찾습니다.
+3. **풀이 접근법**: 이 문제는 해시맵과 순회를 사용한 알고리즘으로 해결되었습니다. nums2의 각 원소를 해시맵에 저장하여 nums1의 각 원소에 대해 다음으로 큰 원소를 찾을 때 nums2의 인덱스를 바로 접근할 수 있습니다.
 
-4. **잘된 점**: 코드는 비교적 간결하고, 문제의 요구 사항을 잘 구현했습니다. 또한, 변수명이 명확하여 코드의 이해가 쉽습니다.
+4. **잘된 점**: 코드는 비교적 간결하고, 문제의 요구 사항을 잘 반영했습니다. 또한, nums2의 각 원소를 해시맵에 저장하여 다음으로 큰 원소를 찾을 때 효율적으로 접근할 수 있습니다.
 
-5. **개선 사항**: 현재 코드는 nums2를 순회하며 nums1의 원소보다 큰 원소를 찾기 때문에, 시간 복잡도가 O(n*m)입니다. 이를 개선하기 위해, 스택을 이용하여 nums2를 한 번만 순회하며 다음으로 큰 원소를 찾을 수 있습니다. 또한, nums1의 원소가 nums2에 없는 경우를 처리해야 합니다. 현재 코드에서는 -1을 반환하지만, 이 경우에 대한 처리를 명시적으로 하여 코드의 완전성을 높일 수 있습니다. 또한, map의 값을 업데이트하여 다음으로 큰 원소를 바로 찾을 수 있도록 할 수 있습니다.
+5. **개선 사항**: 현재 코드는 nums2를 순회하여 다음으로 큰 원소를 찾기 때문에, nums2의 길이가 매우 길 경우 성능이 저하될 수 있습니다. 이를 개선하기 위해, 단조 스택(monotonic stack)을 사용하여 nums2를 순회하며 다음으로 큰 원소를 바로 찾을 수 있습니다. 또한, System.out.println문을 제거하여 코드를 더 깨끗하게 만들 수 있습니다. 예를 들어, 다음のように 개선할 수 있습니다.
+```java
+class Solution {
+    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+        Map<Integer, Integer> map = new HashMap<>();
+        Stack<Integer> stack = new Stack<>();
+        int[] answer = new int[nums1.length];
+
+        for (int num : nums2) {
+            while (!stack.isEmpty() && stack.peek() < num) {
+                map.put(stack.pop(), num);
+            }
+            stack.push(num);
+        }
+
+        for (int i = 0; i < nums1.length; i++) {
+            answer[i] = map.getOrDefault(nums1[i], -1);
+        }
+
+        return answer;
+    }
+}
+```
+이러한 개선으로 코드의 성능과 가독성을 향상시킬 수 있습니다.
