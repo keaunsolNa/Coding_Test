@@ -1,7 +1,8 @@
 class Solution {
     public int maximumProduct(int[] nums) {
-        Arrays.sort(nums);
 
+        Arrays.sort(nums);
+        
         int maxPositive1 = nums[nums.length - 1];
         int maxPositive2 = nums[nums.length - 2];
         int maxPositive3 = nums[nums.length - 3];
