@@ -14,7 +14,7 @@ class Solution {
             int ans = -1;
             System.out.println("nums1[i] : " + nums1[i]);
 
-            for (int j = map.get(nums1[i]) + 1; j < nums2.length; j++) {
+            for (int j = map.get(nums1[i]); j < nums2.length; j++) {
 
                 System.out.println("idx j : " + j );
                 System.out.println("nums2[j] : " + nums2[j]);
