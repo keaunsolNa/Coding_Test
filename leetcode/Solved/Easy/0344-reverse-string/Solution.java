@@ -6,6 +6,7 @@ class Solution {
 
         for (int i = s.length - 1; i >= 0; i--) {
             reverse[idx++] = s[i];
+            System.out.println(reverse[idx - 1] + " " + s[i]);            
         }
 
         s = reverse;
