@@ -8,7 +8,6 @@ class Solution {
             int count = Integer.bitCount(arr[i]);
             map.put(arr[i], count);
         }
-        System.out.println(map);
 
         List<Integer> keySet = new ArrayList<>(map.keySet());
         keySet.sort(new Comparator<Integer>() {
