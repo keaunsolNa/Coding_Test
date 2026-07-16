@@ -8,6 +8,7 @@ class Solution {
             int count = Integer.bitCount(arr[i]);
             map.put(arr[i], count);
         }
+        System.out.println(map);
 
         List<Integer> keySet = new ArrayList<>(map.keySet());
         keySet.sort((o1, o2) -> map.get(o2).compareTo(map.get(o1)));
