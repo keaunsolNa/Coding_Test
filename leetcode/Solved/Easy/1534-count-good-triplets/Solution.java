@@ -5,6 +5,7 @@ class Solution {
         int ans = 0;
         for (int i = 0; i < arr.length; i++) {
 
+
             for (int j = i + 1; j < arr.length; j++) {
 
                 for (int k = j + 1; k < arr.length; k++) {
@@ -13,6 +14,7 @@ class Solution {
                         Math.abs(arr[j] - arr[k]) <= b &&
                         Math.abs(arr[i] - arr[k]) <= c)
                     {
+                        System.out.println(arr[i] + " " + arr[j] + " " + arr[k]);
                         ans++;
                     }   
                 }
