@@ -1,0 +1,9 @@
+/* Write your PL/SQL query statement below */
+SELECT T1.employee_id
+     , T1.name
+     , (SELECT COUNT(A.reports_to)
+          FROM Employees A
+         WHERE A.reports_to = T1.employee_id) AS reports_to
+     , AVG(age) age    
+ FROM Employees T1
+GROUP BY T1.employee_id, T1.name     
