@@ -6,5 +6,4 @@ SELECT T1.employee_id
          WHERE A.reports_to = T1.employee_id) AS reports_to
      , AVG(age) age    
  FROM Employees T1
-WHERE reports_to IS NOT NULL 
 GROUP BY T1.employee_id, T1.name     
