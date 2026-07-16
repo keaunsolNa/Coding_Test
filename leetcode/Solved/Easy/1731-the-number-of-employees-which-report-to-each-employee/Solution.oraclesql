@@ -10,5 +10,8 @@ SELECT T1.employee_id
          WHERE T2.reports_to = T1.employee_id
        ) average_age
  FROM Employees T1
-WHE 
+WHERE (SELECT COUNT(T2.reports_to)
+          FROM Employees T2
+         WHERE T2.reports_to = T1.employee_id
+       ) > 0
 GROUP BY T1.employee_id, T1.name     
