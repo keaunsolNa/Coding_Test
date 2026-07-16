@@ -5,9 +5,10 @@ SELECT T1.employee_id
           FROM Employees T2
          WHERE T2.reports_to = T1.employee_id
        ) reports_count
-    , (SELECT AVG(age) 
+    , (SELECT ROUND(AVG(age)) 
           FROM Employees T2
          WHERE T2.reports_to = T1.employee_id
        ) average_age
  FROM Employees T1
+WHE 
 GROUP BY T1.employee_id, T1.name     
