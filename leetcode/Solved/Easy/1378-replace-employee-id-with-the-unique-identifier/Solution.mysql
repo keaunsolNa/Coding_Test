@@ -1,0 +1,6 @@
+# Write your MySQL query statement below
+SELECT T2.unique_id
+     , T1.name
+  FROM Employees T1
+     , EmployeeUNI T2
+ WHERE T1.id = T2.id    
