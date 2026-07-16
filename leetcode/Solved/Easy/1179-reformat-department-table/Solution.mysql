@@ -37,4 +37,4 @@ SELECT id
             ELSE NULL
         END AS Dec_Revenue
   FROM Department
-  GROUP BY id, month
+WHERE id = 1
