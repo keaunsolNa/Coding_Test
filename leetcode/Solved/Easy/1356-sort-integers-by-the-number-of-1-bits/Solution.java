@@ -15,8 +15,8 @@ class Solution {
             @Override
             public int compare(Integer o1, Integer o2) {
 
-                if (map.get(o1) == map.get(o2)) return o1 - o2;
-                return o1 - o2;
+                if (map.get(o1) == map.get(o2)) return o1.compareTo(o2);
+                return map.get(o1).compareTo(map.get(o2));
             }
         });
 
