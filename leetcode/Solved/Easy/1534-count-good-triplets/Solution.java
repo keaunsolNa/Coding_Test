@@ -1,7 +1,6 @@
 class Solution {
     public int countGoodTriplets(int[] arr, int a, int b, int c) {
 
-        Arrays.sort(arr);
         int ans = 0;
         for (int i = 0; i < arr.length; i++) {
 
