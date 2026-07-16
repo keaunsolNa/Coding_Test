@@ -3,4 +3,4 @@ SELECT T2.unique_id
      , T1.name
   FROM Employees T1
      , EmployeeUNI T2
- WHERE T1.id = T2.id    
+ WHERE T2.id = T1.id
