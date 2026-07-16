@@ -1,12 +1,15 @@
 class Solution {
-    public void reverseString(char[] s) {
-        
-        char[] copy = Arrays.copyOf(s, s.length);
-        int idx = 0;
 
-        for (int i = copy.length - 1; i >= 0; i--) {
-            s[idx++] = copy[i];
-        }
+	public void reverseString(char[] s) {
+		int left = 0;
+		int right = s.length - 1;
 
-    }
+		while (left < right) {
+			char temp = s[left];
+			s[left] = s[right];
+			s[right] = temp;
+			left++;
+			right--;
+		}
+	}
 }
