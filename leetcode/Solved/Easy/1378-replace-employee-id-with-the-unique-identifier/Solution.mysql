@@ -2,5 +2,5 @@
 SELECT T2.unique_id
      , T1.name
   FROM Employees T1
-     , EmployeeUNI T2
- WHERE T2.id = T1.id
+ RIGHT JOIN EmployeeUNI T2
+    ON T2.id = T1.id
