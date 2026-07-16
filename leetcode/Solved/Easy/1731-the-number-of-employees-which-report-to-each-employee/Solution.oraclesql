@@ -1,9 +1,13 @@
 /* Write your PL/SQL query statement below */
 SELECT T1.employee_id
-     , T1.name
-     , (SELECT COUNT(A.reports_to)
-          FROM Employees A
-         WHERE A.reports_to = T1.employee_id) AS reports_to
-     , AVG(age) age    
+     , T1.name  
+     , (SELECT COUNT(T2.reports_to)
+          FROM Employees T2
+         WHERE T2.reports_to = T1.employee_id
+       ) reports_count
+    , (SELECT AVG(age) 
+          FROM Employees T2
+         WHERE T2.reports_to = T1.employee_id
+       ) average_age
  FROM Employees T1
 GROUP BY T1.employee_id, T1.name     
