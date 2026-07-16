@@ -4,3 +4,4 @@ SELECT id
             ELSE NULL
         END AS Jan_Revenue
   FROM Department
+ GROUP BY id 
