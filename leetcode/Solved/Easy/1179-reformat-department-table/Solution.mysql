@@ -1,0 +1,6 @@
+# Write your MySQL query statement below
+SELECT id
+     , CASE WHEN month = 'Jan' THEN revenue
+            ELSE NULL
+        END AS Jan_Revenue
+  FROM Department
