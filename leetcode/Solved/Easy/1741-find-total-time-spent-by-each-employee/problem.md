@@ -5,7 +5,7 @@ title: Find Total Time Spent by Each Employee
 difficulty: Easy
 tags: Database
 date: 2026-07-16
-lang: oraclesql
+lang: mysql
 ---
 
 # 1741. Find Total Time Spent by Each Employee
