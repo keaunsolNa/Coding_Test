@@ -11,7 +11,12 @@ class Solution {
         System.out.println(map);
 
         List<Integer> keySet = new ArrayList<>(map.keySet());
-        keySet.sort((o1, o2) -> map.get(o2).compareTo(map.get(o1)));
+        keySet.sort(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return map.get(o1).compareTo(map.get(o2));
+            }
+        });
 
         int[] answer = new int[arr.length];
         int idx = 0;
