@@ -1,18 +1,10 @@
 /* Write your PL/SQL query statement below */
-SELECT T1.employee_id
-     , T1.name  
-     , (SELECT COUNT(T2.reports_to)
-          FROM Employees T2
-         WHERE T2.reports_to = T1.employee_id
-       ) reports_count
-    , (SELECT ROUND(AVG(age)) 
-          FROM Employees T2
-         WHERE T2.reports_to = T1.employee_id
-       ) average_age
- FROM Employees T1
-WHERE (SELECT COUNT(T2.reports_to)
-          FROM Employees T2
-         WHERE T2.reports_to = T1.employee_id
-       ) > 0
-GROUP BY T1.employee_id, T1.name     
-ORDER BY employee_id
+SELECT MANAGER.employee_id
+     , MANAGER.name
+     , COUNT(REPORTER.employee_id) AS reports_count
+     , ROUND(AVG(REPORTER.age)) AS average_age
+  FROM Employees MANAGER
+  JOIN Employees REPORTER
+    ON REPORTER.reports_to = MANAGER.employee_id
+ GROUP BY MANAGER.employee_id, MANAGER.name
+ ORDER BY MANAGER.employee_id
