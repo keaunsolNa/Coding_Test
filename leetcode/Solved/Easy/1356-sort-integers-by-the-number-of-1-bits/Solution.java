@@ -1,18 +1,21 @@
+import java.util.Arrays;
+
 class Solution {
-    public int[] sortByBits(int[] arr) {
-        
-        for (int i = 0; i < arr.length; i++) {
-            
-            int count = Integer.bitCount(arr[i]);
-            arr[i] = arr[i] + (count * 100000);
-        }
 
-        Arrays.sort(arr);
+	// Must exceed the problem's max arr[i] (10^4) so the encoded key sorts by bit count first, then by value.
+	private static final int BIT_COUNT_WEIGHT = 100000;
 
-        for (int i = 0; i < arr.length; ++i) {
-            arr[i] = arr[i] % 100000;
-        }
+	public int[] sortByBits(int[] arr) {
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = arr[i] + (Integer.bitCount(arr[i]) * BIT_COUNT_WEIGHT);
+		}
 
-        return arr;
-    }
+		Arrays.sort(arr);
+
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = arr[i] % BIT_COUNT_WEIGHT;
+		}
+
+		return arr;
+	}
 }
