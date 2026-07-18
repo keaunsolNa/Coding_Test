@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
 SELECT user_id
      , time_stamp as last_stamp
-     , SUBSTR(DATE(time_stamp), 0, 4)
+     , SUBSTR(DATE_FORMAT(DATE(time_stamp),'YYYYMMDD'), 0, 4)
   FROM Logins
