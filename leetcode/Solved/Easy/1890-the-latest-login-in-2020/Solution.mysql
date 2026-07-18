@@ -3,3 +3,4 @@ SELECT user_id
      , time_stamp as last_stamp
      , DATE(time_stamp)
   FROM Logins
+ WHERE  DATE(time_stamp) BETWEEN '20200101' AND '20201231' 
