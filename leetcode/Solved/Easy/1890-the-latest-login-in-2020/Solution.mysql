@@ -1,5 +1,6 @@
 # Write your MySQL query statement below
 SELECT user_id
      , time_stamp as last_stamp
+     , SUBSTR(time_stamp, 0, 4)
   FROM Logins
  WHERE SUBSTR(time_stamp, 0, 4) = '2020'
