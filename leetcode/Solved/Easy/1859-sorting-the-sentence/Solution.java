@@ -13,7 +13,7 @@ class Solution {
         }
 
         String answer = "";
-        for (int i = 0; i < map.size(); i++) {
+        for (int i = 1; i <= map.size(); i++) {
             answer += map.get(i);
 
             if (i < map.size()) answer += " ";
