@@ -1,12 +1,12 @@
 /* Write your PL/SQL query statement below */
-SELECT T3.student_id
-     , T3.student_name
-     , T1.subject_name
-     , COUNT(T1.subject_name) AS attended_exams
-  FROM Subjects T1
+SELECT T1.student_id
+     , T1.student_name
+     , T2.subject_name
+     , COUNT(T2.subject_name) AS attended_exams
+  FROM Students T1
      , Examinations T2
-     , Students T3
- WHERE T1.subject_name = T2.subject_name(+)
-   AND T2.student_id = T3.student_id(+)
- GROUP BY T1.subject_name, T3.student_id, T3.student_name       
- ORDER BY T3.student_id, T1.subject_name
+     , Subjects T3
+ WHERE T1.student_id = T2.student_id(+)
+   AND T2.subject_name = T3.subject_name(+)
+ GROUP BY T2.subject_name, T1.student_id, T1.student_name
+ ORDER BY T1.student_id, T2.subject_name
