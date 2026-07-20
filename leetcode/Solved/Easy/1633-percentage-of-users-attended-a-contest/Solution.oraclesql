@@ -4,7 +4,7 @@ SELECT COUNT(DISTINCT T1.user_id) cnt
   FROM Users T1
 )
 SELECT T2.contest_id
-     , ROUND(T3.CNT / COUNT(T2.user_id), 2)
+     , ROUND(COUNT(T2.user_id) / T3.CNT, 2)
   FROM Users T1
      , Register T2
      , CNT T3
