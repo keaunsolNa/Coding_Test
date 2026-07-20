@@ -10,4 +10,4 @@ SELECT T2.contest_id
      , CNT T3
  WHERE T1.user_id = T2.user_id
  GROUP BY T2.contest_id, T3.cnt
- ORDER BY ROUND(COUNT(T2.user_id) / T3.CNT * 100, 2)
+ ORDER BY ROUND(COUNT(T2.user_id) / T3.CNT * 100, 2) DESC, contest_id
