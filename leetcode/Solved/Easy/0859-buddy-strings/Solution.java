@@ -8,12 +8,14 @@ class Solution {
         
         int length = sArr.length;
         int bit = 0;
+        Set<Character> set = new HashSet<>();
 
         for (int i = 0; i < length; i++) {
             if (sArr[i] != goalArr[i]) bit++;   
+            set.add(sArr[i]);
         }
 
-        return bit == 0 || bit == 2;
+        return set.size() == 0 || bit == 2;
         
     }
 }
