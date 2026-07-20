@@ -1,5 +1,5 @@
 /* Write your PL/SQL query statement below */
 SELECT T2.employee_id
   FROM employees T1
- CROSS JOIN Salaries T2
- WHERE T1.employee_id IS NULL  
+     , Salaries T2
+ WHERE T1.employee_id = T2.employee_id(+)    
