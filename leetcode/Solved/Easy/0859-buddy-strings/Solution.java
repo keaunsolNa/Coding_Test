@@ -15,10 +15,10 @@ class Solution {
             set.add(sArr[i]);
         }
 
+        System.out.print(set.size() + " " + bit);
+
         if (bit == 0) return false;
         if (bit == length) return true;
-        
-        System.out.print(set.size() + " " + bit);
         
         return set.size() == 1 || bit == 2;
         
