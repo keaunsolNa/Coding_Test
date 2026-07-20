@@ -1,26 +1,17 @@
 class Solution {
     public String sortSentence(String s) {
-        
-        Map<Integer, String> map = new TreeMap<>();
-        String[] arr = s.split(" ");
 
-        for (int i = 0; i < arr.length; i++) {
+        String[] tokens = s.split(" ");
+        String[] words = new String[tokens.length];
 
-            String str = arr[i].substring(0, arr[i].length() - 1);
-            int idx = Integer.parseInt(arr[i].substring(arr[i].length() - 1));
+        for (int i = 0; i < tokens.length; i++) {
 
-            map.put(idx, str);
+            String token = tokens[i];
+            int position = token.charAt(token.length() - 1) - '1';
+
+            words[position] = token.substring(0, token.length() - 1);
         }
 
-        String answer = "";
-        for (int i = 1; i <= map.size(); i++) {
-            answer += map.get(i);
-
-            if (i < map.size()) answer += " ";
-        }
-
-        return answer;
-
-
+        return String.join(" ", words);
     }
 }
