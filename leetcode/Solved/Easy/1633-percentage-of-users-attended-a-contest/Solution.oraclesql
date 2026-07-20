@@ -1,10 +1,10 @@
 /* Write your PL/SQL query statement below */
 WITH CNT AS (
-SELECT COUNT(DISTINCT T1.user_id) cn
+SELECT COUNT(DISTINCT T1.user_id) cnt
   FROM Users T1
 )
 SELECT T2.contest_id
-     , T3.CNT , COUNT(T2.user_id)
+     , ROUND(T3.CNT / COUNT(T2.user_id), 2)
   FROM Users T1
      , Register T2
      , CNT T3
