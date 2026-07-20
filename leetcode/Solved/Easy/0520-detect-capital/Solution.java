@@ -40,7 +40,7 @@ class Solution {
                 return true;
             }
             else {
-                for (int i = 0; i < arr.length; i++) {
+                for (int i = 1; i < arr.length; i++) {
                     
                     if (arr2[i] <= 0) return false;
                 }
