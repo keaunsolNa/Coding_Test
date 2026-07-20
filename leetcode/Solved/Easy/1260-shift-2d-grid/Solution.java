@@ -24,6 +24,9 @@ class Solution {
             movedArr[i] = arr[tempIndex];
         }
 
+        for (int i = 0; i < movedArr.length; i++) {
+            System.out.print(movedArr[i]);
+        }
         List<List<Integer>> list = new ArrayList<>();
         int xL = 0;
 
