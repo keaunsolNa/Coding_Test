@@ -40,7 +40,7 @@ class Solution {
             List<Integer> innerList = new ArrayList<>();
             for (int j = 0; j < y; j++) {
 
-                System.out.print(xL + j);
+                System.out.print(xL + j + " ");
                 innerList.add(movedArr[(xL + j) % length]);
             }
 
