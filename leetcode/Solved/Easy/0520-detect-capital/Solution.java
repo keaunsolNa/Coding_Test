@@ -14,6 +14,8 @@ class Solution {
             
         }
 
+        System.out.println(check);
+        
         // 다 대문자
         if (!check) {
 
