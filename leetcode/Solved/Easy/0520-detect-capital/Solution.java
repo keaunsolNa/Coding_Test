@@ -27,9 +27,20 @@ class Solution {
         } 
         else {
 
-            for (int i = 0; i < arr.length; i++) {
-                
-                if (arr2[i] <= 0) return false;
+            if (arr2[0] > 0) {
+
+                for (int i = 0; i < arr.length; i++) {
+
+                    if (arr2[i] <= 0) return false;
+                }
+
+                return true;
+            }
+            else {
+                for (int i = 0; i < arr.length; i++) {
+                    
+                    if (arr2[i] <= 0) return false;
+                }
             }
         }
 
