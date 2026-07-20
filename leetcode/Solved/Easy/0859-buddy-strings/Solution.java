@@ -16,12 +16,12 @@ class Solution {
         }
 
         System.out.print(set.size() + " " + bit);
-        
+
         if (bit == 0 && set.size() == 1) return true;
         if (bit == 0) return false;
         if (bit == length) return true;
         
-        return set.size() == 1 || bit == 2;
+        return bit != 2;
         
     }
 }
