@@ -1,23 +1,24 @@
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
 
-        String[] alp = new String[] {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
-        Set<String> set = new HashSet<>();
+        String[] morseCodes = new String[] {
+            ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....",
+            "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.",
+            "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-",
+            "-.--", "--.."
+        };
+        Set<String> transformations = new HashSet<>();
 
-        for (int i = 0; i < words.length; i++) {
+        for (String word : words) {
 
-            char[] arr = words[i].toCharArray();
-            String word = "";
-            for (int j = 0; j < arr.length; j++) {
-
-                int idx = arr[j] - 'a';
-                word += alp[idx];
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i < word.length(); i++) {
+                builder.append(morseCodes[word.charAt(i) - 'a']);
             }
 
-            set.add(word);
+            transformations.add(builder.toString());
+        }
 
-        }       
-
-        return set.size();
+        return transformations.size();
     }
 }
