@@ -21,7 +21,6 @@ class Solution {
             int tempIndex = (i - k) % length;
             if (tempIndex < 0) tempIndex = length + tempIndex;
 
-            System.out.println(tempIndex);
             movedArr[i] = arr[tempIndex];
         }
 
@@ -34,7 +33,7 @@ class Solution {
             List<Integer> innerList = new ArrayList<>();
             for (int j = 0; j < y; j++) {
 
-                innerList.add(movedArr[xL + j]);
+                innerList.add(movedArr[(xL + j) % length]);
             }
 
             xL += x;
