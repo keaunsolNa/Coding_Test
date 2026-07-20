@@ -30,6 +30,10 @@ class Solution {
         List<List<Integer>> list = new ArrayList<>();
         int xL = 0;
 
+        System.out.println();
+        System.out.println(x);
+        System.out.println(y);
+
         for (int i = 0; i < x; i++) {
 
 
