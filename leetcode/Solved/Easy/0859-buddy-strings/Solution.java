@@ -15,6 +15,8 @@ class Solution {
             set.add(sArr[i]);
         }
 
+        System.out.print(set.size() + " " + bit);
+        
         return set.size() == 1 || bit == 2;
         
     }
