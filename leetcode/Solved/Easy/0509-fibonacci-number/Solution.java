@@ -7,7 +7,7 @@ class Solution {
         arr[2] = 1;
         arr[3] = 2;
         
-        for (int i = 4; i < n; i++)
+        for (int i = 4; i <= n; i++)
         {
             arr[i] = arr[i - 1] + arr[i - 2];
         }       
