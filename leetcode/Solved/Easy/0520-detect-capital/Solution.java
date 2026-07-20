@@ -1,10 +1,13 @@
 class Solution {
     public boolean detectCapitalUse(String word) {
         
+
         char[] arr = word.toCharArray();
         int[] arr2 = new int[arr.length];
         boolean check = false;
         boolean check2 = false;
+
+        if (arr.length == 1) return true;
 
         for (int i = 0; i < arr.length; i++) {
 
@@ -19,8 +22,6 @@ class Solution {
 
         // 다 대문자
         if (!check) {
-            
-
 
             for (int i = 0; i < arr.length; i++) {
 
