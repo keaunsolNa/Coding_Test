@@ -10,12 +10,13 @@ class Solution {
 
             arr2[i] = arr[i] - 'Z';
             // 소문자 존재
+            System.out.println(arr2[i]);
             if (i != 0 && arr2[i] > 0) check = true;
             
         }
 
         System.out.println(check);
-        
+
         // 다 대문자
         if (!check) {
 
