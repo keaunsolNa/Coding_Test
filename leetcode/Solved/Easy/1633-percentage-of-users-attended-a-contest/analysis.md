@@ -2,9 +2,9 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 7. 21. 오전 8:39:01 |
+| Submitted | 2026. 7. 21. 오전 8:39:12 |
 | Language | oraclesql |
-| Runtime | 261 ms (Beats 0.0%) |
+| Runtime | 301 ms (Beats 0.0%) |
 | Memory | 0B (Beats 0.0%) |
 
 ## Submission
@@ -13,14 +13,20 @@
 
 ## Code Review
 
-코드 리뷰를 진행하겠습니다.
+코드 리뷰입니다.
 
-1. **시간 복잡도**: O(n) - 이 쿼리는 Users와 Register 테이블을 조인하고, 각 contest_id에 대한 사용자 수를 카운트합니다. 이 작업은 데이터의 크기에 비례하므로 시간 복잡도는 O(n)입니다.
+1. **시간 복잡도**: O(n) - 이 쿼리는 Users 테이블과 Register 테이블을 조인하여 데이터를 가져옵니다. 조인 연산의 시간 복잡도는 일반적으로 O(n)입니다. 여기서 n은 테이블에 있는 행의 수를 나타냅니다.
 
-2. **공간 복잡도**: O(n) - 쿼리 결과를 저장하기 위한 공간이 필요하며, 결과의 크기는 데이터의 크기에 비례하므로 공간 복잡도는 O(n)입니다.
+2. **공간 복잡도**: O(n) - 쿼리 결과를 저장하기 위한 공간이 필요합니다. 결과 집합의 크기는 입력 테이블의 크기와 비슷할 수 있으므로 공간 복잡도는 O(n)입니다.
 
-3. **풀이 접근법**: 이 쿼리는 조인과 집계 함수를 사용하여 각 contest_id에 대한 사용자 수를 계산합니다. 사용된 알고리즘은 기본적인 관계형 데이터베이스 쿼리입니다.
+3. **풀이 접근법**: 이 쿼리는 내부 조인(inner join)과 그룹화(group by)를 사용하여 각 contest_id에 해당하는 사용자 수를 계산합니다. 조인 연산은 두 테이블에서 공통된 user_id를 가진 행을 연결하여 새로운 결과 집합을 생성합니다. 그룹화 연산은 contest_id를 기준으로 결과 집합을 그룹화하여 각 그룹에 대한 사용자 수를 계산합니다.
 
-4. **잘된 점**: 코드는 간결하고, 필요한 작업을 수행합니다. 특히, 필요한 테이블을 조인하고, 각 contest_id에 대한 사용자 수를 계산하는 부분이 잘 구현되어 있습니다.
+4. **잘된 점**: 코드는 간결하고 읽기 쉽습니다. 필요한 테이블을 조인하여 데이터를 가져오고, 그룹화 연산을 사용하여 각 contest_id에 해당하는 사용자 수를 계산합니다.
 
-5. **개선 사항**: 현재 쿼리는 Register 테이블의 모든 레코드를 Users 테이블과 조인합니다. 하지만, Register 테이블에 존재하지 않는 Users 테이블의 레코드는 결과에 포함되지 않습니다. 따라서, Register 테이블을 기준으로 조인하는 것이 더 효율적일 수 있습니다. 또한, COUNT(DISTINCT T1.user_id)와 COUNT(DISTINCT T2.user_id)를 사용하여 중복된 사용자 수를 제거할 수 있습니다.
+5. **개선 사항**: 현재 쿼리는 COUNT(T1.user_id)와 COUNT(T2.user_id)를 모두 계산합니다. 그러나 Register 테이블에 있는 user_id는 이미 Users 테이블에 있는 user_id와 조인되어 있으므로, COUNT(T1.user_id)와 COUNT(T2.user_id)의 결과는 동일할 것입니다. 따라서 COUNT(T1.user_id) 또는 COUNT(T2.user_id) 중 하나만 계산하면 충분합니다. 또한, Register 테이블에 있는 contest_id가 NULL인 경우를 고려하여 쿼리를 수정할 필요가 있습니다. 예를 들어, 다음 쿼리와 같이 수정할 수 있습니다.
+```oraclesql
+SELECT T2.contest_id, COUNT(T1.user_id)
+FROM Users T1
+JOIN Register T2 ON T1.user_id = T2.user_id
+GROUP BY T2.contest_id
+```
