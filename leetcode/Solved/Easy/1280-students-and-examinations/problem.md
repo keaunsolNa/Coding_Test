@@ -5,7 +5,7 @@ title: Students and Examinations
 difficulty: Easy
 tags: Database
 date: 2026-07-20
-lang: oraclesql
+lang: mysql
 ---
 
 # 1280. Students and Examinations
