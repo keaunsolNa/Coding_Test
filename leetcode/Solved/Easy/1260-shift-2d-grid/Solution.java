@@ -19,10 +19,10 @@ class Solution {
         for (int i = 0; i < length; i++) {
 
             int tempIndex = (i - k) % length;
-            if (tempIndex < 0) tempIndex = length - tempIndex - 1;
+            if (tempIndex < 0) tempIndex = length + tempIndex - 1;
 
             System.out.println(tempIndex);
-            // movedArr[i] = arr[tempIndex];
+            movedArr[i] = arr[tempIndex];
         }
 
         List<List<Integer>> list = new ArrayList<>();
