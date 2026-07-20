@@ -1,6 +1,6 @@
 /* Write your PL/SQL query statement below */
 SELECT T2.contest_id
-     , COUNT(T2.user_id)
+     , COUNT(T1.user_id) / COUNT(T2.user_id)
   FROM Users T1
      , Register T2
  WHERE T1.user_id = T2.user_id
