@@ -1,7 +1,12 @@
 /* Write your PL/SQL query statement below */
+WITH CNT AS (
+SELECT COUNT(DISTINCT T1.user_id) cn
+  FROM Users T1
+)
 SELECT T2.contest_id
-     , COUNT(T1.user_id) , COUNT(T2.user_id)
+     , T3.CNT , COUNT(T2.user_id)
   FROM Users T1
      , Register T2
+     , CNT T3
  WHERE T1.user_id = T2.user_id
- GROUP BY T2.contest_id      
+ GROUP BY T2.contest_id, T3.cnt
