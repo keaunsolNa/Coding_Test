@@ -44,7 +44,7 @@ class Solution {
                 innerList.add(movedArr[(xL + j) % length]);
             }
 
-            xL += x;
+            xL += y;
 
             list.add(innerList);
         }
