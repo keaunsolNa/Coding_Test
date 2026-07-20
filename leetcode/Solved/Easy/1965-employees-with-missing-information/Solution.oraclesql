@@ -2,4 +2,4 @@
 SELECT T2.employee_id
   FROM employees T1
  CROSS JOIN Salaries T2
-   
+ WHERE T1.employee_id IS NULL  
