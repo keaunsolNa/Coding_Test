@@ -8,20 +8,24 @@ class Solution {
         
         int length = sArr.length;
         int bit = 0;
-        Set<Character> set = new HashSet<>();
+        int[] sArrFreq = new int[26];
+        int[] goalArrFreq = new int[26];
 
         for (int i = 0; i < length; i++) {
             if (sArr[i] != goalArr[i]) bit++;   
-            set.add(sArr[i]);
+            ++sArrFreq[sArr[i] - 'a'];
+            ++goalArrFreq[goalArr[i] - 'a'];
         }
 
-        System.out.print(set.size() + " " + bit);
+        boolean check = false;
+        for (int i = 0; i < 26; i++) {
 
-        if (bit == 0 && set.size() == 1) return true;
-        if (bit == 0) return false;
-        if (bit == length) return true;
+            if (sArrFreq[i] != goalArrFreq[i]) return false;
+
+            if (sArrFreq[i] > 1) check = true;
+        }
         
-        return bit != 2;
+        return bit == 2 || (bit == 0 && check == true);
         
     }
 }
