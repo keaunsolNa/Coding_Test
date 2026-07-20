@@ -4,3 +4,10 @@ SELECT T1.employee_id
      , Salaries T2
  WHERE T1.employee_id = T2.employee_id(+)    
    AND T2.employee_id IS NULL
+UNION 
+SELECT T2.employee_id
+  FROM Salaries T1
+     , employees T2
+ WHERE T1.employee_id = T2.employee_id(+)
+   AND T1.employee_id IS NULL
+ ORDER BY employee_id  
