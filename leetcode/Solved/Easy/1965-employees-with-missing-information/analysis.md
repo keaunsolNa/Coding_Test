@@ -2,9 +2,9 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 7. 20. 오전 10:53:19 |
+| Submitted | 2026. 7. 20. 오전 10:53:32 |
 | Language | oraclesql |
-| Runtime | 259 ms (Beats 0.0%) |
+| Runtime | 462 ms (Beats 0.0%) |
 | Memory | 0B (Beats 0.0%) |
 
 ## Submission
@@ -13,23 +13,23 @@
 
 ## Code Review
 
-코드 리뷰입니다.
+코드 리뷰를 진행하겠습니다.
 
-1. **시간 복잡도**: O(n) - 이 쿼리는 employees와 Salaries 테이블을 스캔하므로, 시간 복잡도는 두 테이블의 행 수에 비례합니다. 두 테이블의 크기가 n이라고 가정하면, 쿼리는 최대 n번의 연산을 수행합니다.
+1. **시간 복잡도**: 이 쿼리의 시간 복잡도는 O(n + m)입니다. 여기서 n은 employees 테이블의 행 수, m은 Salaries 테이블의 행 수를 나타냅니다. 두 테이블을 조인하고 NULL 값을 찾는 작업이 포함되어 있기 때문에, 전체적으로는 두 테이블의 행 수에 비례하는 시간 복잡도를 가집니다.
 
-2. **공간 복잡도**: O(n) - 쿼리 결과는 두 테이블의 행 수에 비례하므로, 공간 복잡도도 O(n)입니다. 쿼리 결과를 저장하기 위해 필요한 메모리 공간은 최대 n에 비례합니다.
+2. **공간 복잡도**: 쿼리의 공간 복잡도는 O(n + m)입니다. 쿼리 결과를 저장하기 위한 공간이 필요하며, 결과 집합의 크기는 두 테이블의 행 수에 비례합니다.
 
-3. **풀이 접근법**: 이 쿼리는 Outer Join을 사용하여 employees와 Salaries 테이블을 조인합니다. Outer Join은 한 테이블의 모든 행을 반환하고, 다른 테이블에 매칭되는 행이 있으면 해당 행을 반환하고, 없으면 NULL을 반환합니다. 이 쿼리에서는 Outer Join을 사용하여 employees 테이블에 존재하지만 Salaries 테이블에 존재하지 않는 행을 찾습니다.
+3. **풀이 접근법**: 이 쿼리에서는 Outer Join을 사용하여 employees 테이블과 Salaries 테이블을 조인하고, 각 테이블에서 상대 테이블에 매핑되는 행이 없는 경우를 찾습니다. 이 접근법은 Missing Information 패턴을 사용하여, 두 테이블에서 정보가 누락된 행을 식별합니다.
 
-4. **잘된 점**: 쿼리는 Outer Join을 사용하여 employees와 Salaries 테이블을 효과적으로 조인하고, 필요한 데이터를 추출합니다. 또한, 쿼리는 간결하고 읽기 쉽게 작성되어 있습니다.
+4. **잘된 점**: 코드는 Outer Join을 사용하여 두 테이블에서 정보가 누락된 행을 효과적으로 찾습니다. 또한, UNION 연산자를 사용하여 두 테이블에서 정보가 누락된 행을 하나의 결과 집합으로 결합합니다.
 
-5. **개선 사항**: 쿼리를 더 최적화하기 위해, 인덱스를 생성하여 조인 연산을 가속화할 수 있습니다. 또한, 쿼리에서 불필요한 열을 제거하여 데이터 전송량을 줄일 수 있습니다. 예를 들어, 다음과 같이 쿼리를 개선할 수 있습니다.
+5. **개선 사항**: 쿼리를 더 최적화하기 위해, FULL OUTER JOIN을 사용하여 한 번의 조인으로 두 테이블에서 정보가 누락된 행을 찾을 수 있습니다. 또한, EXISTS 또는 NOT EXISTS 연산자를 사용하여 서브쿼리를 최적화할 수 있습니다. 예를 들어, 다음 쿼리와 같이 FULL OUTER JOIN을 사용할 수 있습니다.
 ```oraclesql
-SELECT T1.employee_id
-  FROM employees T1
-  LEFT JOIN Salaries T2
-    ON T1.employee_id = T2.employee_id
- WHERE T2.employee_id IS NULL
- ORDER BY T1.employee_id;
+SELECT COALESCE(T1.employee_id, T2.employee_id) AS employee_id
+FROM employees T1
+FULL OUTER JOIN Salaries T2
+ON T1.employee_id = T2.employee_id
+WHERE T1.employee_id IS NULL OR T2.employee_id IS NULL
+ORDER BY employee_id;
 ```
-이 쿼리는 Outer Join을 사용하여 employees와 Salaries 테이블을 조인하고, 필요한 데이터를 추출합니다. 또한, 인덱스를 생성하여 조인 연산을 가속화할 수 있습니다.
+이러한 최적화를 통해 쿼리의 성능을 개선할 수 있습니다.
