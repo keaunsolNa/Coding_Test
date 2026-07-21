@@ -6,6 +6,6 @@ SELECT query_name
           WHERE T1.query_name = query_name 
           GROUP BY query_name
          HAVING rating < 3
-        ) / COUNT(query_name)) * 100 
+        ) / COUNT(query_name)) * 100  as poor_query_percentage
   FROM Queries T1
  GROUP BY query_name 
