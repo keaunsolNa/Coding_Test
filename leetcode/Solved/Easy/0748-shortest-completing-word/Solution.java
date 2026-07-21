@@ -14,8 +14,6 @@ class Solution {
 
         for (String str : words) {
 
-            System.out.println("str : " + str);
-
             char[] temp = str.toCharArray();
             Map<Character, Integer> tempMap = new HashMap<>();
 
@@ -24,7 +22,6 @@ class Solution {
                 tempMap.put(c, tempMap.getOrDefault(c, 0) + 1);
             }
 
-            System.out.println(tempMap);
             boolean check = true;
 
             for (char key : map.keySet()) {
@@ -40,8 +37,6 @@ class Solution {
             }
             
         }
-
-        System.out.println(ansMap);
 
         return ansMap.values().iterator().next();
     }
