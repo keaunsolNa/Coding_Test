@@ -13,9 +13,10 @@ class Solution {
             int idx = arr.length - i - 1;
 
             System.out.println("idx : " + idx);
-            target += idx == 0 ? 0 : idx * (arr[i] - 'A' + 1) * 26 - 1;
-            ans += target;
-                System.out.println(target);
+            System.out.println(Math.pow(arr[i] - 'A' + 1, idx == 0 ? 1 : idx + 1));
+            // target += Math.pow(arr[i] - 'A' + 1, idx == 0 ? 1 : idx + 1);
+            ans += Math.pow(arr[i] - 'A' + 1, idx == 0 ? 1 : idx + 1);
+                // System.out.println(target);
         }
 
         return ans;
