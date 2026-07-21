@@ -14,6 +14,8 @@ class Solution {
 
         for (String str : words) {
 
+            System.out.println("str : " + str);
+
             char[] temp = str.toCharArray();
             Map<Character, Integer> tempMap = new HashMap<>();
 
@@ -36,6 +38,8 @@ class Solution {
             if (check) ansMap.put(str.length(), str);
             
         }
+
+        System.out.println(ansMap);
 
         return ansMap.values().iterator().next();
     }
