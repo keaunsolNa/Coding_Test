@@ -5,11 +5,11 @@ class Solution {
 
         for (int i = 0; i < columnTitle.length(); i++) {
 
-            char currentChar = columnTitle.charAt(i);
+            char tar = columnTitle.charAt(i);
           
-            int charValue = currentChar - 'A' + 1;
+            int val = tar - 'A' + 1;
           
-            ans = ans * 26 + charValue;
+            ans = ans * 26 + val;
         }
 
         return ans;
