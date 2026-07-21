@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
 SELECT query_name
-     , ((rating / position) / sum(query_name))
+     , ((rating / position) / count(query_name))
   FROM Queries
  GROUP BY query_name 
