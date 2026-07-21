@@ -10,6 +10,7 @@ class Solution {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
 
+        System.out.println(map);
         for (String str : words) {
 
             char[] temp = str.toCharArray();
@@ -20,6 +21,7 @@ class Solution {
                 tempMap.put(c, tempMap.getOrDefault(c, 0) + 1);
             }
 
+            System.out.println(tempMap);
             boolean check = true;
 
             for (char key : map.keySet()) {
