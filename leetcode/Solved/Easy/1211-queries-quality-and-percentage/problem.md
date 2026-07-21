@@ -5,7 +5,7 @@ title: Queries Quality and Percentage
 difficulty: Easy
 tags: Database
 date: 2026-07-21
-lang: mysql
+lang: oraclesql
 ---
 
 # 1211. Queries Quality and Percentage
