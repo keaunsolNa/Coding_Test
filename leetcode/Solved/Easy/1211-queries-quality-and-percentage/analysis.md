@@ -2,9 +2,9 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 7. 21. 오후 4:01:48 |
+| Submitted | 2026. 7. 21. 오후 4:02:06 |
 | Language | mysql |
-| Runtime | 93 ms (Beats 0.0%) |
+| Runtime | 143 ms (Beats 0.0%) |
 | Memory | 0B (Beats 0.0%) |
 
 ## Submission
@@ -15,19 +15,27 @@
 
 코드 리뷰를 진행하겠습니다.
 
-1. **시간 복잡도**: O(n^2) - 쿼리 내에 서브쿼리가 존재하여, 전체 데이터를 반복적으로 처리하는 시간 복잡도가 발생합니다. 서브쿼리 내에서 GROUP BY와 HAVING 절을 사용하여 데이터를 처리하기 때문에, 시간 복잡도가 증가합니다.
+1. **시간 복잡도**: 이 쿼리의 시간 복잡도는 O(n^2)입니다. 이유는 서브쿼리에서 각 query_name에 대해 rating < 3인 행의 개수를 계산하기 때문입니다. 이로 인해 전체 쿼리의 수행 시간이 데이터의 크기에 비례하여 증가합니다.
 
-2. **공간 복잡도**: O(n) - 쿼리 결과를 저장하기 위한 공간이 필요하여, 공간 복잡도가 발생합니다. 결과 집합의 크기가 입력 데이터의 크기와 비슷할 수 있으므로, 공간 복잡도는 선형적으로 증가합니다.
+2. **공간 복잡도**: 이 쿼리의 공간 복잡도는 O(n)입니다. 이유는 쿼리 결과를 저장하기 위해 필요한 메모리 공간이 데이터의 크기에 비례하여 증가하기 때문입니다.
 
-3. **풀이 접근법**: 이 쿼리는 집계 함수와 서브쿼리를 사용하여 데이터를 처리합니다. SUM, COUNT 함수를 사용하여 데이터를 집계하고, 서브쿼리를 사용하여 특정 조건을 만족하는 데이터를 필터링합니다. 이 접근법은 문제를 해결하는 데 효과적이지만, 시간 복잡도가 높을 수 있습니다.
+3. **풀이 접근법**: 이 쿼리에서는 집계 함수(SUM, COUNT)와 서브쿼리를 사용하여 질의 이름별 품질과 부적절한 질의 비율을 계산합니다. 또한 ROUND 함수를 사용하여 품질을 소수점 2자리까지 반올림합니다.
 
-4. **잘된 점**: 코드는 문제를 해결하는 데 필요한 논리를 포함하고 있습니다. 집계 함수와 서브쿼리를 사용하여 데이터를 처리하는 방식은 문제의 요구 사항을 만족합니다. 또한, ROUND 함수를 사용하여 결과를 소수점 2자리까지 반올림하여 출력합니다.
+4. **잘된 점**: 이 쿼리는 문제의 요구 사항을 명확하게 이해하고, 필요한 데이터를 정확하게 계산하고 있습니다. 또한 ROUND 함수를 사용하여 결과를 깔끔하게 표시하고 있습니다.
 
-5. **개선 사항**: 서브쿼리를 JOIN이나 WINDOW 함수로 대체하여 시간 복잡도를 개선할 수 있습니다. 예를 들어, WINDOW 함수를 사용하여 rating < 3인 데이터를 필터링할 수 있습니다. 또한, 인덱스를 생성하여 쿼리 성능을 개선할 수 있습니다. 다음은 개선된 쿼리 예시입니다.
+5. **개선 사항**: 이 쿼리의 성능을 개선하기 위해 서브쿼리를 JOIN으로 대체할 수 있습니다. 또한, rating < 3인 행의 개수를 계산하는 부분을 별도의 테이블이나 임시 결과로 계산하여 재사용할 수 있습니다. 예를 들어, 다음과 같이 수정할 수 있습니다.
 ```mysql
-SELECT query_name
-     , ROUND((SUM(rating / position)) / COUNT(query_name), 2) as quality
-     , ROUND(AVG(CASE WHEN rating < 3 THEN 1.0 ELSE 0 END) * 100, 2) as percentage
-FROM Queries
-GROUP BY query_name
+SELECT Q1.query_name
+     , ROUND((SUM(Q1.rating / Q1.position)) / COUNT(Q1.query_name), 2) as quality
+     , (Q2.poor_count / COUNT(Q1.query_name)) * 100 as poor_query_percentage
+  FROM Queries Q1
+  LEFT JOIN (
+    SELECT query_name, COUNT(*) as poor_count
+    FROM Queries
+    WHERE rating < 3
+    GROUP BY query_name
+  ) Q2
+  ON Q1.query_name = Q2.query_name
+ GROUP BY Q1.query_name
 ```
+이러한 수정을 통해 쿼리의 성능을 개선하고, 더 효율적인解决책을 제공할 수 있습니다.
