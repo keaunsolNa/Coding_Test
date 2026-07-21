@@ -9,9 +9,14 @@ class Solution {
             int idx = arr.length - i - 1;
 
             System.out.println("idx : " + idx);
-            System.out.println(Math.pow(arr[i] - 'A' + 1, idx == 0 ? 1 : idx + 1));
+
+            if (idx > 0) {
+                ans += Math.pow(26, idx);
+            }
+            else ans += arr[i] - 'A' + 1;
+            // System.out.println(Math.pow(arr[i] - 'A' + 1, idx == 0 ? 1 : idx + 1));
             // target += Math.pow(arr[i] - 'A' + 1, idx == 0 ? 1 : idx + 1);
-            ans += Math.pow(arr[i] - 'A' + 1, idx == 0 ? 1 : idx + 1);
+            // ans += Math.pow(arr[i] - 'A' + 1, idx == 0 ? 1 : idx + 1);
                 // System.out.println(target);
         }
 
