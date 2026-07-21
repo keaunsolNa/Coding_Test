@@ -1,7 +1,7 @@
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         
-        String word = licensePlate.trim().replaceAll("[0-9]", "").toLowerCase();
+        String word = licensePlate.replaceAll("\\s", "").replaceAll("[0-9]", "").toLowerCase();
 
         char[] arr = word.toCharArray();
         Map<Character, Integer> map = new HashMap<>();
