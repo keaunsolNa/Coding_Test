@@ -4,8 +4,9 @@ class Solution {
         char[] arr = columnTitle.toCharArray();
         int ans = 0;
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = arr.length - 1; i >= 0; i--) {
 
+            
             int target = arr[i] - 'A' + 1;
 
             System.out.println(target);
