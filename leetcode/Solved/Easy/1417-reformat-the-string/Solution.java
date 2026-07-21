@@ -4,6 +4,8 @@ class Solution {
         String number = s.replaceAll("[^0-9]", "");
         String alp = s.replaceAll("[^0-9]", "");
 
+        System.out.println(number + " " + alp);
+        
         int numberLength = number.length();
         int alpLength = alp.length();
         int diff = numberLength - alpLength;
