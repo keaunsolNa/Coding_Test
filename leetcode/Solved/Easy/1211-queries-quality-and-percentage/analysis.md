@@ -2,7 +2,7 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 7. 21. 오후 3:58:02 |
+| Submitted | 2026. 7. 21. 오후 4:01:12 |
 | Language | mysql |
 | Runtime | 68 ms (Beats 0.0%) |
 | Memory | 0B (Beats 0.0%) |
@@ -13,14 +13,26 @@
 
 ## Code Review
 
-코드 리뷰를 진행하겠습니다.
+코드 리뷰입니다.
 
-1. **시간 복잡도**: O(n) - 이 쿼리는 Queries 테이블의 모든 행을 스캔하므로 시간 복잡도는 테이블의 행 수에 비례합니다. 쿼리에서 사용된 집계 함수와 그룹화 연산은 이미 최적화된 상태이므로 추가적인 최적화는 어렵습니다.
+1. **시간 복잡도**: O(n^2) - 서브쿼리 내에서 GROUP BY와 HAVING 절을 사용하여 데이터를 처리하는 시간이 증가합니다. 또한, outer query에서도 GROUP BY를 사용하여 데이터를 처리하기 때문에 시간 복잡도가 증가합니다.
+2. **공간 복잡도**: O(n) - 쿼리 결과를 저장하기 위한 공간이 필요합니다. GROUP BY와 HAVING 절을 사용하여 데이터를 처리하기 때문에 공간 복잡도가 증가합니다.
+3. **풀이 접근법**: 이 풀이에서는 서브쿼리와 GROUP BY, HAVING 절을 사용하여 데이터를 처리합니다. 이는 데이터를 집계하고 필터링하는 데 사용되는 일반적인 패턴입니다. 그러나 서브쿼리가 outer query의 각 행에 대해 실행되기 때문에 성능이 저하될 수 있습니다.
+4. **잘된 점**: 코드는 문제의 요구 사항을 충족하고, 데이터를 처리하는 데 필요한 로직을 포함합니다. 또한, ROUND 함수를 사용하여 결과를 소수점 2자리까지 반올림하는 등 코드의 가독성이 좋습니다.
+5. **개선 사항**: 서브쿼리를 JOIN으로 대체하여 성능을 개선할 수 있습니다. 또한, 인덱스를 생성하여 데이터를 더 효율적으로 처리할 수 있습니다. 예를 들어, query_name列에 인덱스를 생성하여 GROUP BY와 HAVING 절의 성능을 개선할 수 있습니다. 또한, 서브쿼리 대신에 WINDOW 함수를 사용하여 데이터를 처리할 수 있습니다. 이는 성능을 개선하고 코드의 가독성을 높일 수 있습니다. 
 
-2. **공간 복잡도**: O(n) - 쿼리 결과는 각 query_name에 대한 집계 값을 저장해야 하므로 공간 복잡도도 테이블의 행 수에 비례합니다. MySQL에서 GROUP BY 연산은 임시 테이블을 사용하므로 공간 복잡도가 증가할 수 있습니다.
+예를 들어, 다음과 같이 JOIN을 사용하여 서브쿼리를 대체할 수 있습니다.
 
-3. **풀이 접근법**: 이 쿼리는 집계 함수와 GROUP BY를 사용하여 각 query_name에 대한 평균 rating/position 값을 계산합니다. 이는 문제의 요구 사항을 직접적으로 해결하는 간단한 접근법입니다.
-
-4. **잘된 점**: 코드는 문제의 요구 사항을 명확하게 이해하고, 필요한 집계 함수와 GROUP BY를 사용하여 간결하게 해결했습니다. 또한, 쿼리 문법과 형식은 올바르며, 읽기 쉽게 작성되어 있습니다.
-
-5. **개선 사항**: 현재 쿼리는 이미 최적화된 상태이므로 큰 개선 사항은 없습니다. 그러나, 테이블의 크기가 매우 큰 경우, 인덱스를 생성하여 쿼리 성능을 향상시키는 것이 좋을 수 있습니다. 또한, rating이나 position이 NULL인 경우를 처리하는 추가적인 로직이 필요할 수 있습니다. 예를 들어, IFNULL 함수를 사용하여 NULL 값을 대체할 수 있습니다.
+```mysql
+SELECT Q1.query_name
+     , ROUND((SUM(Q1.rating / Q1.position)) / COUNT(Q1.query_name), 2) as quality
+     , Q2.bad_query_count / COUNT(Q1.query_name) as percentage
+FROM Queries Q1
+JOIN (
+  SELECT query_name, COUNT(*) as bad_query_count
+  FROM Queries
+  WHERE rating < 3
+  GROUP BY query_name
+) Q2 ON Q1.query_name = Q2.query_name
+GROUP BY Q1.query_name, Q2.bad_query_count
+```
