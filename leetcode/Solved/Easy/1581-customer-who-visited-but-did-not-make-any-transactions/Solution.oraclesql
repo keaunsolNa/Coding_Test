@@ -1,0 +1,5 @@
+/* Write your PL/SQL query statement below */
+SELECT T2.customer_id
+  FROM Transactions T1
+      , Visits T2
+ WHERE T1.visit_id = T2.visit_id
