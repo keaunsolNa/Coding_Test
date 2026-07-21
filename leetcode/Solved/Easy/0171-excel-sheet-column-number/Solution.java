@@ -10,7 +10,10 @@ class Solution {
             int target = arr[i] - 'A' + 1;
 
             System.out.println(target);
-            target += i == 0 ? 0 : i * 26;
+            int idx = arr.length - i - 1;
+
+            System.out.println("idx : " + idx);
+            target += idx == 0 ? 0 : idx * 26;
             ans += target;
                 System.out.println(target);
         }
