@@ -11,7 +11,7 @@ class Solution {
             System.out.println("idx : " + idx);
 
             if (idx > 0) {
-                ans += Math.pow(26, idx);
+                ans += Math.pow(26, arr[i] - 'A' + idx);
             }
             else ans += arr[i] - 'A' + 1;
             // System.out.println(Math.pow(arr[i] - 'A' + 1, idx == 0 ? 1 : idx + 1));
