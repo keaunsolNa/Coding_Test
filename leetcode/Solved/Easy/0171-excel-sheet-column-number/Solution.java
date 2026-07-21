@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0; i < arr.length; i++) {
 
             int target = arr[i] - 'A' + 1;
-            target += i == 0 ? 0 : i * target;
+            target += i == 0 ? 0 : i * 26;
             ans += target;
         }
 
