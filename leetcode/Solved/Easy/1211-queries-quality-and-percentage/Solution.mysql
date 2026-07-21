@@ -1,11 +1,11 @@
 # Write your MySQL query statement below
 SELECT query_name
      , ROUND((SUM((rating / position)) / COUNT(query_name)), 2) as quality
-     , (SELECT count(query_name)
-          FROM Queries
-         WHERE T1.query_name = query_name 
-         GROUP BY query_name
-        HAVING rating < 3
-        ) / COUNT(query_name) 
+     , ((SELECT count(query_name)
+           FROM Queries
+          WHERE T1.query_name = query_name 
+          GROUP BY query_name
+         HAVING rating < 3
+        ) / COUNT(query_name)) * 100 
   FROM Queries T1
  GROUP BY query_name 
