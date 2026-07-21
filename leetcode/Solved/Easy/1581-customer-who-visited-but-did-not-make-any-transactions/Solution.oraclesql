@@ -1,6 +1,6 @@
 /* Write your PL/SQL query statement below */
 SELECT T1.customer_id
-     
+     , count(t1.visit_id) - count(T2.visit_id)
   FROM Visits T1
      , Transactions T2
  WHERE T1.visit_id = T2.visit_id(+)
