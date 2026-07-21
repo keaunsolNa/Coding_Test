@@ -10,7 +10,8 @@ class Solution {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
 
-        System.out.println(map);
+        Map<Integer, String> ansMap = new TreeMap<>();
+
         for (String str : words) {
 
             char[] temp = str.toCharArray();
@@ -32,10 +33,10 @@ class Solution {
                 }
             }
 
-            if (check) return str;
+            if (check) ansMap.put(str.length(), str);
             
         }
 
-        return "";
+        return ansMap.values().iterator().next();
     }
 }
