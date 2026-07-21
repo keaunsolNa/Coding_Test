@@ -35,7 +35,9 @@ class Solution {
                 }
             }
 
-            if (check) ansMap.put(str.length(), str);
+            if (check && ansMap.get(str.length()) == null) {
+                ansMap.put(str.length(), str);
+            }
             
         }
 
