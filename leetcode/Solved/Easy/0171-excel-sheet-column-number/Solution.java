@@ -13,7 +13,7 @@ class Solution {
             int idx = arr.length - i - 1;
 
             System.out.println("idx : " + idx);
-            target += idx == 0 ? 0 : idx * (arr[i] - 'A') * 26 - 1;
+            target += idx == 0 ? 0 : idx * (arr[i] - 'A' + 1) * 26 - 1;
             ans += target;
                 System.out.println(target);
         }
