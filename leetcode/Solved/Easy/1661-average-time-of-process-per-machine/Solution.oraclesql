@@ -1,13 +1,17 @@
 /* Write your PL/SQL query statement below */
 SELECT T1.machine_id
-     , (SELECT SUM(timestamp)
-          FROM Activity
-         WHERE activity_type = 'start' 
-           AND machine_id = T1.machine_id) as sum_start_time
-     , (SELECT SUM(timestamp)
-          FROM Activity
-         WHERE activity_type = 'end' 
-           AND machine_id = T1.machine_id) as sum_end_time
-     , COUNT(machine_id) as cnt      
-  FROM Activity T1
- GROUP BY T1.machine_id
+     , ROUND((sum_end_time - sum_start_time) / cnt), 3) as processing_time
+  FROM (   
+        SELECT T1.machine_id
+            , (SELECT SUM(timestamp)
+                FROM Activity
+                WHERE activity_type = 'start' 
+                AND machine_id = T1.machine_id) as sum_start_time
+            , (SELECT SUM(timestamp)
+                FROM Activity
+                WHERE activity_type = 'end' 
+                AND machine_id = T1.machine_id) as sum_end_time
+            , COUNT(machine_id) / 2 as cnt      
+        FROM Activity T1
+        GROUP BY T1.machine_id
+       ) T1 
