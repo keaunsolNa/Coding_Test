@@ -3,6 +3,10 @@ SELECT T1.machine_id
      , (SELECT SUM(timestamp)
           FROM Activity
          WHERE activity_type = 'start' 
-           AND machine_id = T1.machine_id) 
+           AND machine_id = T1.machine_id) sum_start_time
+     , (SELECT SUM(timestamp)
+          FROM Activity
+         WHERE activity_type = 'end' 
+           AND machine_id = T1.machine_id) sum_end_time
   FROM Activity T1
  GROUP BY T1.machine_id, T1.process_id  
