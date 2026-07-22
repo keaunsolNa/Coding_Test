@@ -7,11 +7,17 @@ class Solution {
         int max = nums[nums.length - 1];
         int[] arr = new int[max + 1];
 
+        System.out.println(min + "   " + max);
+
         for (int i = 0; i < max; i++) {
             arr[nums[i]]++;
+
+
         }       
 
-
+        for (int i = 0; i < arr.length; i++) System.out.print(arr[i]);
+        System.out.println();
+        
         int[] ans = new int[2];
         for (int i = 1; i <= max; i++) {
 
