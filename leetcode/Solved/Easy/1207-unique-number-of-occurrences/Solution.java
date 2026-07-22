@@ -8,12 +8,13 @@ class Solution {
         List<Integer> valList = new ArrayList<>();
 
         System.out.println(map);
-        
+
         for (int key : map.keySet()) {
             
             int num = map.get(key);
             valList.add(num);
 
+            System.out.println(valList);
             if (valList.contains(num)) return false;
         }
 
