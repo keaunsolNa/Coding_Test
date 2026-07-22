@@ -13,12 +13,10 @@ class Solution {
             arr[nums[i]]++;
         }       
 
-        for (int i = 0; i < arr.length; i++) System.out.print(arr[i] + " ");
-        System.out.println();
-        
         int[] ans = new int[2];
         for (int i = 0; i < arr.length; i++) {
-
+            
+            System.out.print(arr[i] + " ");
             if (arr[i] == 0) ans[1] = i;
             if (arr[i] == 2) ans[0] = i;
         }
