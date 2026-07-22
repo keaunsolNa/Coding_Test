@@ -31,7 +31,7 @@ class Solution {
 
             if (check) return check;
             
-            temp[sArr.length - 1] = sArr[sArr.length - 1];
+            temp[sArr.length - 1] = sArr[0];
             for (int i = 1; i < sArr.length; i++) {
                 temp[i - 1] = sArr[i];
             }
