@@ -1,0 +1,8 @@
+/* Write your PL/SQL query statement below */
+SELECT T1.machine_id
+     , (SELECT SUM(timestamp)
+          FROM Activity
+         WHERE activity_type = 'start' 
+           AND machine_id = T1.machine_id) 
+  FROM Activity T1
+ GROUP BY T1.machine_id, T1.process_id  
