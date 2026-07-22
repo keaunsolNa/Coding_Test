@@ -13,6 +13,8 @@ class Solution {
 
         char[] temp = new char[sArr.length + 1];
 
+        for (int i = 0; i < sArr.length; i++) temp[i] = sArr[i];
+
         
         int loop = 0;
         while (true) {
