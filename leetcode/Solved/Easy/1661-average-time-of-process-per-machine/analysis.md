@@ -2,9 +2,9 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 7. 22. 오전 9:46:58 |
+| Submitted | 2026. 7. 22. 오전 9:47:25 |
 | Language | oraclesql |
-| Runtime | 275 ms (Beats 0.0%) |
+| Runtime | 224 ms (Beats 0.0%) |
 | Memory | 0B (Beats 0.0%) |
 
 ## Submission
@@ -15,18 +15,20 @@
 
 코드 리뷰입니다.
 
-1. **시간 복잡도**: O(n^2) - 서브쿼리 내에서 전체 테이블을 스캔하는 작업이 반복되므로, 시간 복잡도가 높습니다. 이는 쿼리 성능에 악영향을 미칠 수 있습니다.
+1. **시간 복잡도**: O(n^2) - 서브쿼리가 사용되어 전체 데이터를 두 번 스캔하기 때문에 시간 복잡도가 높습니다. 각 머신 아이디에 대해 시작과 끝 시간의 합을 구하는 데에 시간이 많이 소요됩니다.
 
-2. **공간 복잡도**: O(n) - 쿼리 결과는 각 머신당 하나의 행을 반환하므로, 공간 복잡도는 결과 집합의 크기에 비례합니다.
+2. **공간 복잡도**: O(n) - 결과를 저장하기 위한 공간이 필요합니다. 각 머신 아이디에 대한 정보를 저장해야 하므로 공간 복잡도는 데이터의 크기에 비례합니다.
 
-3. **풀이 접근법**: 이 풀이는 서브쿼리를 사용하여 각 머신의 시작 시간을 합산합니다. 이는 간단한 접근법이지만, 효율적인 쿼리 최적화가 되지 않았습니다. 일반적으로는 JOIN이나 WINDOW FUNCTION을 사용하여 더 효율적인 쿼리를 작성할 수 있습니다.
+3. **풀이 접근법**: 서브쿼리(subquery)를 사용하여 각 머신 아이디에 대해 시작과 끝 시간의 합을 구했습니다. 이는 간단한 접근법이지만 효율적인 방법은 아닙니다.
 
-4. **잘된 점**: 코드는 간단명료하여 이해하기 쉽습니다. 또한, 문제의 요구 사항을 만족하는 결과를 반환합니다.
+4. **잘된 점**: 코드는 간단하고 이해하기 쉽습니다. 머신 아이디와 시작, 끝 시간의 합을 구하는 기본적인 로직은 잘 구현되어 있습니다.
 
-5. **개선 사항**: 서브쿼리를 JOIN이나 WINDOW FUNCTION으로 대체하여 쿼리 성능을 개선할 수 있습니다. 예를 들어, 다음과 같이 작성할 수 있습니다.
+5. **개선 사항**: JOIN이나 GROUP BY를 사용하여 한 번의 스캔으로 데이터를 처리할 수 있습니다. 예를 들어, 다음과 같이 작성할 수 있습니다.
 ```oraclesql
-SELECT A.machine_id, SUM(CASE WHEN A.activity_type = 'start' THEN A.timestamp ELSE 0 END) AS total_time
-FROM Activity A
-GROUP BY A.machine_id
+SELECT machine_id
+     , SUM(CASE WHEN activity_type = 'start' THEN timestamp ELSE 0 END) sum_start_time
+     , SUM(CASE WHEN activity_type = 'end' THEN timestamp ELSE 0 END) sum_end_time
+  FROM Activity
+ GROUP BY machine_id
 ```
-이렇게 하면 쿼리 성능이 개선되고, 더 효율적인 해결책을 제공할 수 있습니다.
+이 방법은 한 번의 스캔으로 데이터를 처리하기 때문에 시간 복잡도를 개선할 수 있습니다.
