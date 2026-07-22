@@ -10,16 +10,23 @@
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
 
-        int num = n;
-        while (guess(num) != 0) {
+        int left = 1; 
+        int right = n;
+        int pick = (n + 1) / 2;
+
+        while (guess(pick) != 0) {
             
-            if (guess(num) == -1) {
-                num /= 2;
+            System.out.println("pick : " + pick + " \t left : " + left + "\t right : " + right + "\t guess(pick) : " + guess(pick));
+            
+            if (guess(pick) == -1) {
+                right = pick - 1;
             } else { 
-                num += ((n - num) / 2);
+                left = pick + 1;
             }
+
+            pick = (left + right) / 2;
         }       
 
-        return num;
+        return pick;
     }
 }
