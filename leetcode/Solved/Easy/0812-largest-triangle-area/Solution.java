@@ -17,7 +17,7 @@ class Solution {
         double y = Math.abs(maxY - minY);
 
         System.out.println(x + "  " + y);
-        double z = Math.pow(x, 2) + Math.pow(y, 2);
+        double z = x * y;
         
         System.out.println(z);
         z /= 2;
