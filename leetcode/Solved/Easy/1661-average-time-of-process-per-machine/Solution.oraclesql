@@ -1,6 +1,6 @@
 /* Write your PL/SQL query statement below */
 SELECT T1.machine_id
-     , ROUND((sum_end_time - sum_start_time) / cnt), 3) as processing_time
+     , ROUND((sum_end_time - sum_start_time) / cnt, 3) as processing_time
   FROM (   
         SELECT T1.machine_id
             , (SELECT SUM(timestamp)
