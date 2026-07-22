@@ -10,14 +10,15 @@
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
 
-        while (guess(n) != 0) {
+        int num = n;
+        while (guess(num) != 0) {
             
-            System.out.println(n);
+            System.out.println(num);
             
-            if (guess(n) == -1) {
-                n /= 2;
+            if (guess(num) == -1) {
+                num /= 2;
             } else { 
-                n++;
+                num += ((n - num) / 2);
             }
         }       
 
