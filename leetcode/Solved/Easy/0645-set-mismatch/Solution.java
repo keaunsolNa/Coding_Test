@@ -21,6 +21,8 @@ class Solution {
             if (arr[i] == 2) ans[0] = i;
         }
 
+        if (arr[1] == 0) arr[1] = max + 1;
+
         return ans;
     }
 }
