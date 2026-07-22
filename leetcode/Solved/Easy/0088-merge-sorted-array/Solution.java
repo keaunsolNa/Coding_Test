@@ -3,8 +3,8 @@ class Solution {
 
         int idx = 0;
         if (n == 0) return;
-        
-        for (int i = n; i < m; i++) {
+
+        for (int i = n; i < m + n; i++) {
             nums1[i] = nums2[idx];
             nums2[idx] = 0;
             idx++;
