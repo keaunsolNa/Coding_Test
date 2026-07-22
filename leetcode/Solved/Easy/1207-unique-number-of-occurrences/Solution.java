@@ -7,6 +7,8 @@ class Solution {
 
         List<Integer> valList = new ArrayList<>();
 
+        System.out.println(map);
+        
         for (int key : map.keySet()) {
             
             int num = map.get(key);
