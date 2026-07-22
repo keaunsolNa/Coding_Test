@@ -1,8 +1,8 @@
 /* Write your PL/SQL query statement below */
-SELECT T1.customer_id
-     , count(t1.visit_id) - count(T2.visit_id) as count_no_trans 
-  FROM Visits T1
-     , Transactions T2
- WHERE T1.visit_id = T2.visit_id(+)
- GROUP BY T1.customer_id
- HAVING count(t1.visit_id) - count(T2.visit_id) > 0 
+SELECT visits.customer_id
+     , COUNT(*) AS count_no_trans
+  FROM Visits visits
+  LEFT JOIN Transactions trans
+    ON visits.visit_id = trans.visit_id
+ WHERE trans.transaction_id IS NULL
+ GROUP BY visits.customer_id
