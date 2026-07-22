@@ -13,7 +13,7 @@ class Solution {
 
 
         int[] ans = new int[2];
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 1; i <= max; i++) {
 
             if (arr[i] == 0) ans[1] = i;
             if (arr[i] == 2) ans[0] = i;
