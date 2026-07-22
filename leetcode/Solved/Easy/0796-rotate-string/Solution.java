@@ -3,6 +3,8 @@ class Solution {
 
         if (s.length() != goal.length()) return false;
         
+        System.out.println(s + " " + goal);
+        
         char[] sArr = s.toCharArray();
         char[] goalArr = goal.toCharArray();
 
