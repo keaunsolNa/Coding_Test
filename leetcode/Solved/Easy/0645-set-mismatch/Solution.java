@@ -16,14 +16,14 @@ class Solution {
         int[] ans = new int[2];
         for (int i = 1; i < arr.length; i++) {
             
-            System.out.print(" I : " + i + "\t " + arr[i] + " ");
+            System.out.print("I : " + i + "\t " + arr[i] + " ");
             if (arr[i] == 2) ans[0] = i;
             if (arr[i] == 0) ans[1] = i;
         }
 
         System.out.println();
-                System.out.println(arr[0] + "  " + arr[1]);
-        // if (arr[1] == 0) arr[1] = max + 1;
+        System.out.println(arr[0] + "  " + arr[1]);
+        if (arr[1] == 0) arr[1] = max + 1;
 
         return ans;
     }
