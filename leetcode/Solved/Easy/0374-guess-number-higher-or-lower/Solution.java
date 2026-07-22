@@ -14,19 +14,20 @@ public class Solution extends GuessGame {
         int right = n;
         int pick = (n + 1) / 2;
 
-        while (guess(pick) != 0) {
-            
-            System.out.println("pick : " + pick + " \t left : " + left + "\t right : " + right + "\t guess(pick) : " + guess(pick));
-            
-            if (guess(pick) == -1) {
-                right = pick - 1;
-            } else { 
-                left = pick + 1;
-            }
+        while (left <= right) {
 
-            pick = (left + right) / 2;
-        }       
+            int mid = left + (right - left) / 2;
+
+            if (guess(mid) <= 0) {
+
+                pick = mid;
+                right = mid - 1;
+
+            } else left = mid + 1;
+
+        }
 
         return pick;
+
     }
 }
