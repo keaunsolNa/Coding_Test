@@ -9,13 +9,11 @@ class Solution {
 
         System.out.println(min + "   " + max);
 
-        for (int i = 0; i < max; i++) {
+        for (int i = 0; i < nums.length; i++) {
             arr[nums[i]]++;
-
-
         }       
 
-        for (int i = 0; i < arr.length; i++) System.out.print(arr[i]);
+        for (int i = 0; i < arr.length; i++) System.out.print(arr[i] + " ");
         System.out.println();
         
         int[] ans = new int[2];
