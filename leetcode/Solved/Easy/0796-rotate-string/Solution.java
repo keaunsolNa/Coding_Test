@@ -42,10 +42,6 @@ class Solution {
 
             if (loop > goal.length()) return false;
 
-            for (char c : sArr) System.out.print(c);
-            System.out.println();
-
-
         }
 
     }
