@@ -14,7 +14,7 @@ class Solution {
             int num = map.get(key);
             valList.add(num);
 
-            System.out.println(valList);
+            System.out.println(num + " : " + valList);
             if (valList.contains(num)) return false;
         }
 
