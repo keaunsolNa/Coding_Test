@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public double largestTriangleArea(int[][] points) {
         
@@ -18,10 +16,12 @@ class Solution {
         double x = Math.abs(maxX - minX);
         double y = Math.abs(maxY - minY);
 
+        System.out.println(x + "  " + y);
         double z = Math.pow(x, 2) + Math.pow(y, 2);
-
+        
+        System.out.println(z);
         z = Math.sqrt(z);
-
+        System.out.println(z);
         return (Math.round(z*1000)/1000.0);
     }
 }
