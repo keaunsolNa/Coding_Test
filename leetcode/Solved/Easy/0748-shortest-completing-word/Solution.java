@@ -1,43 +1,51 @@
 class Solution {
+
+    private static final int ALPHABET_SIZE = 26;
+
     public String shortestCompletingWord(String licensePlate, String[] words) {
-        
-        String word = licensePlate.replaceAll("\\s", "").replaceAll("[0-9]", "").toLowerCase();
 
-        char[] arr = word.toCharArray();
-        Map<Character, Integer> map = new HashMap<>();
+        int[] plateCounts = countLetters(licensePlate);
+        String answer = null;
 
-        for (char c : arr) {
-            map.put(c, map.getOrDefault(c, 0) + 1);
+        for (String word : words) {
+
+            if (answer != null && word.length() >= answer.length()) {
+                continue;
+            }
+
+            if (covers(countLetters(word), plateCounts)) {
+                answer = word;
+            }
         }
 
-        Map<Integer, String> ansMap = new TreeMap<>();
+        return answer;
+    }
 
-        for (String str : words) {
+    private int[] countLetters(String source) {
 
-            char[] temp = str.toCharArray();
-            Map<Character, Integer> tempMap = new HashMap<>();
+        int[] counts = new int[ALPHABET_SIZE];
 
-            for (char c : temp) {
+        for (int i = 0; i < source.length(); i++) {
 
-                tempMap.put(c, tempMap.getOrDefault(c, 0) + 1);
+            char letter = Character.toLowerCase(source.charAt(i));
+
+            if (letter >= 'a' && letter <= 'z') {
+                counts[letter - 'a']++;
             }
-
-            boolean check = true;
-
-            for (char key : map.keySet()) {
-
-                if (tempMap.getOrDefault(key, 0) < map.get(key)) {
-                    check = false;
-                    break;
-                }
-            }
-
-            if (check && ansMap.get(str.length()) == null) {
-                ansMap.put(str.length(), str);
-            }
-            
         }
 
-        return ansMap.values().iterator().next();
+        return counts;
+    }
+
+    private boolean covers(int[] candidate, int[] required) {
+
+        for (int i = 0; i < ALPHABET_SIZE; i++) {
+
+            if (candidate[i] < required[i]) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
