@@ -13,8 +13,6 @@ public class Solution extends GuessGame {
         int num = n;
         while (guess(num) != 0) {
             
-            System.out.println(num);
-            
             if (guess(num) == -1) {
                 num /= 2;
             } else { 
@@ -22,6 +20,6 @@ public class Solution extends GuessGame {
             }
         }       
 
-        return n;
+        return num;
     }
 }
