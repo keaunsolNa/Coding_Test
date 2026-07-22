@@ -24,7 +24,7 @@ class Solution {
         System.out.println();
         System.out.println(arr[0] + "  " + arr[1]);
         if (arr[1] == 0) arr[1] = max + 1;
-
+        System.out.println(arr[0] + "  " + arr[1]);
         return ans;
     }
 }
