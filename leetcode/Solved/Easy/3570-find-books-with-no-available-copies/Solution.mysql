@@ -15,3 +15,4 @@ SELECT T1.book_id
      , W
  WHERE T1.book_id = W.book_id
    AND W.current_borrowers  >= T1.total_copies 
+ ORDER BY W.current_borrowers DESC, T1.title
