@@ -14,5 +14,5 @@ SELECT T1.book_id
   FROM library_books T1
      , W
  WHERE T1.book_id = W.book_id
-   AND W.current_borrowers  >= T1.total_copies 
+   AND W.current_borrowers  = T1.total_copies 
  ORDER BY W.current_borrowers DESC, T1.title
