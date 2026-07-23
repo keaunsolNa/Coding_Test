@@ -1,0 +1,12 @@
+# Write your MySQL query statement below
+SELECT T1.book_id
+     , T1.title
+     , T1.author
+     , T1.genre
+     , T1.publication_year
+     , T1.total_copies - (SELECT COUNT(A.record_id)
+                            FROM borrowing_records A
+                           WHERE return_date IS NULL
+                             AND A.book_id = T1.book_id ) 
+                            AS 
+  FROM library_books T1
