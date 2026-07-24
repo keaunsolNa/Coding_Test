@@ -1,0 +1,20 @@
+class Solution {
+    public boolean lemonadeChange(int[] bills) {
+
+        int charg = 0;
+
+        for (int pay : bills) {
+
+            if (pay == 5) charg += pay;
+            else {
+
+                if (pay - charg > 0) {
+                    charg = charg - pay + 5;
+                }
+                else return false;
+            }
+        }   
+
+        return true;
+    }
+}
