@@ -24,7 +24,7 @@ class Solution {
                         charg[1]--;
                         charg[2]++;
                     }
-                    else if (charg[0] > 1 && charg[1] == 0) {
+                    else if (charg[0] > 2 && charg[1] == 0) {
 
                         charg[0] -= 2;
                         charg[2]++;    
