@@ -8,7 +8,7 @@ class Solution {
             if (pay == 5) charg += pay;
             else {
 
-                if (pay - charg > 0) {
+                if (charg - pay > 0) {
                     charg = charg - pay + 5;
                 }
                 else return false;
