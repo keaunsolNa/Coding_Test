@@ -4,7 +4,7 @@ class Solution {
         int charg = 0;
 
         for (int pay : bills) {
-
+            System.out.println(charg + " : " + pay);
             if (pay == 5) charg += pay;
             else {
 
@@ -13,6 +13,8 @@ class Solution {
                 }
                 else return false;
             }
+
+
         }   
 
         return true;
