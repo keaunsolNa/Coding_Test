@@ -1,19 +1,40 @@
 class Solution {
     public boolean lemonadeChange(int[] bills) {
 
-        int charg = 0;
+        int[] charg = new int[] {0, 0, 0};
 
         for (int pay : bills) {
-            System.out.println(charg + " : " + pay);
-            if (pay == 5) charg += pay;
-            else {
 
-                if (charg - pay > 0) {
-                    charg = charg - pay;
+
+            switch (pay) {
+
+                case 5 : charg[0]++; break;
+                case 10 : {
+                    if (charg[0] == 0) return false;
+                    charg[1]++;
+                    charg[0]--;
+                    break;
                 }
-                else return false;
+
+                case 20 : {
+
+                    if (charg[0] > 0 && charg[1] > 0) {
+
+                        charg[0]--;
+                        charg[1]--;
+                        charg[2]++;
+                    }
+                    else if (charg[0] > 1 && charg[1] == 0) {
+
+                        charg[0] -= 2;
+                        charg[2]++;    
+                    }
+                    else return false;
+
+                }
             }
 
+            return true;
 
         }   
 
