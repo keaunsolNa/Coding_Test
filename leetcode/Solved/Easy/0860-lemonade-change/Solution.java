@@ -9,7 +9,7 @@ class Solution {
             else {
 
                 if (charg - pay > 0) {
-                    charg = charg - pay + 5;
+                    charg = charg - pay;
                 }
                 else return false;
             }
