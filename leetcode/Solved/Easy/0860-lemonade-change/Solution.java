@@ -5,7 +5,6 @@ class Solution {
 
         for (int pay : bills) {
 
-            System.out.println(charg[0] + " " + charg[1] + " " + charg[2]);
             switch (pay) {
 
                 case 5 : charg[0]++; break;
