@@ -1,48 +1,8 @@
 class Solution {
     public boolean rotateString(String s, String goal) {
 
-        if (s.length() != goal.length()) return false;
-        
-        if (s.length() == 1) {
-
-            return s.equals(goal);
-        }
-
-        char[] sArr = s.toCharArray();
-        char[] goalArr = goal.toCharArray();
-
-        char[] temp = new char[sArr.length + 1];
-
-        for (int i = 0; i < sArr.length; i++) temp[i] = sArr[i];
-
-        
-        int loop = 0;
-        while (true) {
-
-            boolean check = true;
-
-            for (int i = 0; i < sArr.length; i++) {
-
-                if (sArr[i] != goalArr[i]) {
-                    check = false;
-                    break;
-                }
-            }
-
-            if (check) return check;
-            
-            temp[sArr.length - 1] = sArr[0];
-            for (int i = 1; i < sArr.length; i++) {
-                temp[i - 1] = sArr[i];
-            }
-
-            for (int i = 0; i < sArr.length; i++) sArr[i] = temp[i];
-
-            loop++;
-
-            if (loop > goal.length()) return false;
-
-        }
-
+        // Every rotation of s is a substring of s + s, so goal is a
+        // rotation of s iff lengths match and s+s contains goal.
+        return s.length() == goal.length() && (s + s).contains(goal);
     }
 }
