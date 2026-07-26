@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-SELECT *
+SELECT T3.*
   FROM SalesPerson T1
      , Orders T2
      , Company T3     
