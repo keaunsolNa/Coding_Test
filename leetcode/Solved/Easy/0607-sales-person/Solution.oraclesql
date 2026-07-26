@@ -4,5 +4,5 @@ SELECT T3.*
      , Orders T2
      , SalesPerson T3
  WHERE T1.com_id = T2.com_id
-   AND T2.sales_id = T3.sales_id(+)
+   AND T2.sales_id = T3.sales_id
    AND T1.name <> 'RED'
