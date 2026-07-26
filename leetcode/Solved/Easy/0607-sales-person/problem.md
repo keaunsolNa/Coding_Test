@@ -5,7 +5,7 @@ title: Sales Person
 difficulty: Easy
 tags: Database
 date: 2026-07-26
-lang: mysql
+lang: oraclesql
 ---
 
 # 607. Sales Person
