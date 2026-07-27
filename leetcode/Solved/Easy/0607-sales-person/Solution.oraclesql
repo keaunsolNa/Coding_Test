@@ -1,8 +1,8 @@
 /* Write your PL/SQL query statement below */
 SELECT T3.*
-  FROM Company T1
+  FROM SalesPerson T1
      , Orders T2
-     , SalesPerson T3
- WHERE T1.com_id = T2.com_id(+)
-   AND T3.sales_id(+) = T2.sales_id
+     , Company T3
+ WHERE T1.sales_id = T2.sales_id
+   AND T2.com_id = T2.com_id
    AND T1.name <> 'RED'
