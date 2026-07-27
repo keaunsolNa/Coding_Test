@@ -6,6 +6,7 @@ class Solution {
         int target = 0;
         int startIndex = 0;
         int maxIndex = 0;
+        List<Integer> list = new ArrayList<>();
 
         for (int i = 0; i < nums.length; i++) {
 
@@ -15,20 +16,33 @@ class Solution {
 
                 maxCnt = map.get(nums[i]);
                 target = nums[i];
-                maxIndex = i;
+
+                list.clear();
+                list.add(target);
+            }
+
+            else if (maxCnt == map.get(nums[i])) {
+
+                list.add(nums[i]);
             }
 
         }   
 
-        for (int i = 0; i < nums.length; i++) {
+        List<Integer> originalArr = Arrays.stream(nums)
+                                  .boxed()
+                                  .collect(Collectors.toList());
 
-            if (nums[i] == target) {
-                startIndex = i;
-                break;
-            }
+        int ans = nums.length - 1;
+
+
+        for (int key : list) {
+            
+            int first = originalArr.indexOf(key);   
+            int last = originalArr.lastIndexOf(key);
+            ans = Math.min(ans, last - first + 1);
         }
 
-        return maxIndex - startIndex + 1;
+        return ans;
 
     }
 }
