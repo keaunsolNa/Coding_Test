@@ -10,7 +10,9 @@ class Solution {
             int origin = i;
 
             while(origin > 0) {
+                
 
+                System.out.println(num + " " + origin + " " + mod);
                 num += origin % mod;
                 origin -= origin % mod;
                 mod *= 10;
