@@ -9,7 +9,7 @@ class Solution {
             int num = 0;
             int origin = i;
 
-            while(origin > 0) {
+            while(origin != 0) {
                 
 
                 System.out.println(num + " " + origin + " " + mod + " " + (origin % mod));
