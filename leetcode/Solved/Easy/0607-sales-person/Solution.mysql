@@ -1,8 +1,9 @@
 # Write your MySQL query statement below
-SELECT T3.*
+SELECT T1.name
   FROM SalesPerson T1
-     , Orders T2
-     , Company T3     
- WHERE T1.sales_id = T2.sales_id
-   AND T2.com_id = T3.com_id
-   AND T3.name <> 'RED'
+ WHERE NOT EXISTS (SELECT 1
+                     FROM Orders T2
+                        , Company T3
+                    WHERE T2.sales_id = T1.sales_id
+                      AND T2.com_id = T3.com_id
+                      AND T3.name = 'RED')
