@@ -23,10 +23,8 @@ class Solution {
                 sb.setLength(0);
             }
 
-            System.out.println(stack);
         }
 
-        System.out.println(list);
         
 
         sb.setLength(0);
