@@ -28,6 +28,7 @@ class Solution {
 
         }   
 
+        System.out.println(list);
         List<Integer> originalArr = Arrays.stream(nums)
                                   .boxed()
                                   .collect(Collectors.toList());
