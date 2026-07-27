@@ -28,7 +28,7 @@ class Solution {
             }
         }
 
-        return maxIndex - startIndex;
+        return maxIndex - startIndex + 1;
 
     }
 }
