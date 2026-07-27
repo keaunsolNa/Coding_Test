@@ -33,7 +33,7 @@ class Solution {
                                   .boxed()
                                   .collect(Collectors.toList());
 
-        int ans = nums.length - 1;
+        int ans = 50001;
 
 
         for (int key : list) {
