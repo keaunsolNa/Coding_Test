@@ -3,22 +3,20 @@ class Solution {
         
         List<String> list = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
-        Stack<String> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>();
 
         for (char c : s.toCharArray()) {
             
-            String target = String.valueOf(c);
-
-            if (c == '(') stack.push(target);
+            if (c == '(') stack.push(c);
             
             else {
                 
-                if (stack.peek().equals(")")) stack.pop();
-                else stack.push(target);
+                if (stack.peek() == '(' ) stack.pop();
+                else stack.push(c);
 
             }
 
-            sb.append(target);
+            sb.append(c);
 
             if (stack.size() == 0) {
                 list.add(sb.toString());
