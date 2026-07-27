@@ -6,13 +6,13 @@ class Solution {
         for (int i = 1; i <= n; i++) {
 
             int mod = 10;
-            int num = i;
+            int num = 0;
             int origin = i;
 
             while(origin > 0) {
                 
 
-                System.out.println(num + " " + origin + " " + mod);
+                System.out.println(num + " " + origin + " " + mod + " " + (origin % mod));
                 num += (origin % mod);
                 origin -= (origin % mod);
                 mod *= 10;
