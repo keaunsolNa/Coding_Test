@@ -1,5 +1,5 @@
 /* Write your PL/SQL query statement below */
-SELECT T3.*
+SELECT T1.name
   FROM SalesPerson T1
      , Orders T2
      , Company T3
