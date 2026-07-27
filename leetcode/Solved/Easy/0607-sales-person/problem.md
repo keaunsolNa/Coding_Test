@@ -4,7 +4,7 @@ slug: sales-person
 title: Sales Person
 difficulty: Easy
 tags: Database
-date: 2026-07-26
+date: 2026-07-27
 lang: oraclesql
 ---
 
