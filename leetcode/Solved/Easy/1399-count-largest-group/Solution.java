@@ -6,7 +6,7 @@ class Solution {
         for (int i = 1; i <= n; i++) {
 
             int mod = 10;
-            int num = 0;
+            int num = i;
             int origin = i;
 
             while(origin > 0) {
