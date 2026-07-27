@@ -13,8 +13,8 @@ class Solution {
                 
 
                 System.out.println(num + " " + origin + " " + mod);
-                num += origin % mod;
-                origin -= origin % mod;
+                num += (origin % mod);
+                origin -= (origin % mod);
                 mod *= 10;
 
             }
