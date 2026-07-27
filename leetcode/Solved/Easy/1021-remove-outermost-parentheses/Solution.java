@@ -3,16 +3,24 @@ class Solution {
         
         List<String> list = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
+        Stack<String> stack = new Stack<>();
 
         for (char c : s.toCharArray()) {
             
-            
-            if (c == '(') {
-                sb.append(c);
-            }
-            else {
+            String target = String.valueOf(c);
 
-                sb.append(c);
+            if (c == '(') stack.push(target);
+            
+            else {
+                
+                if (stack.peek().equals(")")) stack.pop();
+                else stack.push(target);
+
+            }
+
+            sb.append(target);
+
+            if (stack.size() == 0) {
                 list.add(sb.toString());
                 sb.setLength(0);
             }
