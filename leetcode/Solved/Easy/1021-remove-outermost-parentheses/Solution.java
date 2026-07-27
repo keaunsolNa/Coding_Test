@@ -24,6 +24,8 @@ class Solution {
                 list.add(sb.toString());
                 sb.setLength(0);
             }
+
+            System.out.println(stack);
         }
 
         System.out.println(list);
