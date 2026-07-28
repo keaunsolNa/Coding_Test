@@ -1,6 +1,8 @@
 class Solution {
     public String smallestPalindrome(String s) {
 
+        if (s.length() == 1) return s;
+        
         Map<Character, Integer> map = new TreeMap<>();
 
         for (char c : s.toCharArray()) {
