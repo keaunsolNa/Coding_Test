@@ -1,49 +1,29 @@
 class Solution {
     public int findShortestSubArray(int[] nums) {
 
-        Map<Integer, Integer> map = new HashMap<>();
-        int maxCnt = 0;
-        int target = 0;
-        int startIndex = 0;
-        int maxIndex = 0;
-        List<Integer> list = new ArrayList<>();
+        Map<Integer, Integer> counts = new HashMap<>();
+        Map<Integer, Integer> firstIndexes = new HashMap<>();
+        Map<Integer, Integer> lastIndexes = new HashMap<>();
+        int degree = 0;
 
         for (int i = 0; i < nums.length; i++) {
 
-            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
-
-            if (maxCnt < map.get(nums[i])) {
-
-                maxCnt = map.get(nums[i]);
-                target = nums[i];
-
-                list.clear();
-                list.add(target);
-            }
-
-            else if (maxCnt == map.get(nums[i])) {
-
-                list.add(nums[i]);
-            }
-
-        }   
-
-        System.out.println(list);
-        List<Integer> originalArr = Arrays.stream(nums)
-                                  .boxed()
-                                  .collect(Collectors.toList());
-
-        int ans = 50001;
-
-
-        for (int key : list) {
-            
-            int first = originalArr.indexOf(key);   
-            int last = originalArr.lastIndexOf(key);
-            ans = Math.min(ans, last - first + 1);
+            firstIndexes.putIfAbsent(nums[i], i);
+            lastIndexes.put(nums[i], i);
+            degree = Math.max(degree, counts.merge(nums[i], 1, Integer::sum));
         }
 
-        return ans;
+        int shortest = nums.length;
 
+        for (Map.Entry<Integer, Integer> entry : counts.entrySet()) {
+
+            if (entry.getValue() == degree) {
+
+                int value = entry.getKey();
+                shortest = Math.min(shortest, lastIndexes.get(value) - firstIndexes.get(value) + 1);
+            }
+        }
+
+        return shortest;
     }
 }

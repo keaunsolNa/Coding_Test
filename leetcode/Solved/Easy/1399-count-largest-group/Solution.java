@@ -1,35 +1,37 @@
 class Solution {
     public int countLargestGroup(int n) {
 
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> groupSizes = new HashMap<>();
 
         for (int i = 1; i <= n; i++) {
 
-            int mod = 10;
-            int num = 0;
-            int origin = i;
+            int digitSum = 0;
 
-            while(origin != 0) {
-                
+            for (int rest = i; rest != 0; rest /= 10) {
 
-                System.out.println(num + " " + origin + " " + mod + " " + (origin % mod));
-                num += (origin % mod);
-                origin -= (origin % mod);
-                mod *= 10;
-
+                digitSum += rest % 10;
             }
 
-            map.put(num, map.getOrDefault(num, 0) + 1);
-
+            groupSizes.merge(digitSum, 1, Integer::sum);
         }
 
-        int ans = 0;
+        int largestSize = 0;
+        int largestGroupCount = 0;
 
-        for (int key : map.keySet()) {
+        for (int size : groupSizes.values()) {
 
-            ans = Math.max(ans, map.get(key));
+            if (size > largestSize) {
+
+                largestSize = size;
+                largestGroupCount = 1;
+            }
+
+            else if (size == largestSize) {
+
+                largestGroupCount++;
+            }
         }
 
-        return ans;
+        return largestGroupCount;
     }
 }

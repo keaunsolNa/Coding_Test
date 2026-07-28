@@ -1,37 +1,22 @@
 class Solution {
     public String removeOuterParentheses(String s) {
-        
-        List<String> list = new ArrayList<>();
+
         StringBuilder sb = new StringBuilder();
-        Stack<Character> stack = new Stack<>();
+        int depth = 0;
 
         for (char c : s.toCharArray()) {
-            
-            if (c == '(') stack.push(c);
-            
+
+            // Depth 0 -> 1 opens a primitive and 1 -> 0 closes it; those are the
+            // outermost parentheses, so append everything except those two.
+            if (c == '(') {
+
+                if (depth++ > 0) sb.append(c);
+            }
+
             else {
-                
-                if (stack.peek() == '(' ) stack.pop();
-                else stack.push(c);
 
+                if (--depth > 0) sb.append(c);
             }
-
-            sb.append(c);
-
-            if (stack.size() == 0) {
-                list.add(sb.toString());
-                sb.setLength(0);
-            }
-
-        }
-
-        
-
-        sb.setLength(0);
-
-        for (String str : list) {
-            
-            sb.append(str.replaceAll("^.|.$", ""));
         }
 
         return sb.toString();
