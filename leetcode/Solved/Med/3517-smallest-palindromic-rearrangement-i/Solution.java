@@ -11,13 +11,13 @@ class Solution {
 
         for (char c : map.keySet()) {
 
-            for (int i = 0; i < map.get(c) / 2; i++) {
+            for (int i = 0; i < (map.get(c) % 2 == 1 ? map.get(c) / 2 + 1 : map.get(c) / 2); i++) {
                 sb.append(c);
             }
         }
 
         System.out.println(map);
-        
+
         String reverseText = sb.toString();
         StringBuilder reverse = new StringBuilder(reverseText).reverse();
 
