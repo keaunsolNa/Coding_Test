@@ -2,7 +2,7 @@ class Solution {
     public String smallestPalindrome(String s) {
 
         if (s.length() == 1) return s;
-        
+
         Map<Character, Integer> map = new TreeMap<>();
 
         for (char c : s.toCharArray()) {
@@ -10,18 +10,20 @@ class Solution {
         }       
 
         StringBuilder sb = new StringBuilder();
+        StringBuilder reverse = new StringBuilder();
 
         for (char c : map.keySet()) {
 
-            for (int i = 0; i < (map.get(c) % 2 == 1 ? map.get(c) / 2 + 1 : map.get(c) / 2); i++) {
-                sb.append(c);
-            }
+            int length = map.get(c) % 2 == 1 ? map.get(c) / 2 + 1 : map.get(c) / 2;
+            int reverseLength = map.get(c) / 2;
+
+            for (int i = 0; i < length; i++) sb.append(c);
+            for (int i = 0; i < reverseLength; i++) reverse.append(c); 
+
         }
 
         System.out.println(map);
-
-        String reverseText = sb.toString();
-        StringBuilder reverse = new StringBuilder(reverseText).reverse();
+        reverse = reverse.reverse();
 
         sb.append(reverse);
 
