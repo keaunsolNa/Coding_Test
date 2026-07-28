@@ -16,6 +16,8 @@ class Solution {
             }
         }
 
+        System.out.println(map);
+        
         String reverseText = sb.toString();
         StringBuilder reverse = new StringBuilder(reverseText).reverse();
 
