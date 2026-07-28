@@ -1,7 +1,8 @@
 /* Write your PL/SQL query statement below */
-SELECT salary as SecondHighestSalary 
-  FROM ( SELECT salary
-           FROM Employee
-          ORDER BY salary DESC  
-       )
-WHERE ROWNUM = 2
+SELECT salary AS SecondHighestSalary
+FROM (
+    SELECT salary,
+           ROW_NUMBER() OVER (ORDER BY salary DESC) rn
+    FROM Employee
+)
+WHERE rn = 2;
