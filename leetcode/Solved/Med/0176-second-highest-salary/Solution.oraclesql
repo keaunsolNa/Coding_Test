@@ -1,5 +1,5 @@
 /* Write your PL/SQL query statement below */
-SELECT salary AS SecondHighestSalary
+SELECT NVL(salary, null) AS SecondHighestSalary
 FROM (
     SELECT salary,
            ROW_NUMBER() OVER (ORDER BY salary DESC) rn
