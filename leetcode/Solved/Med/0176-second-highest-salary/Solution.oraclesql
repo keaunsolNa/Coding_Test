@@ -4,4 +4,3 @@ SELECT salary as SecondHighestSalary
            FROM Employee
           ORDER BY salary DESC  
        )
-WHERE ROWNUM < 2
