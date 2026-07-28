@@ -1,0 +1,61 @@
+---
+id: 3517
+slug: smallest-palindromic-rearrangement-i
+title: Smallest Palindromic Rearrangement I
+difficulty: Medium
+tags: String, Sorting, Counting Sort
+date: 2026-07-28
+lang: java
+---
+
+# 3517. Smallest Palindromic Rearrangement I
+
+**Difficulty:** Medium | **Tags:** String, Sorting, Counting Sort
+
+## Description
+
+You are given a **palindromic** string `s`.
+
+Return the **lexicographically smallest** palindromic permutation of `s`.
+
+ 
+
+Example 1:
+
+**Input:** s = "z"
+
+**Output:** "z"
+
+**Explanation:**
+
+A string of only one character is already the lexicographically smallest palindrome.
+
+Example 2:
+
+**Input:** s = "babab"
+
+**Output:** "abbba"
+
+**Explanation:**
+
+Rearranging `"babab"` &rarr; `"abbba"` gives the smallest lexicographic palindrome.
+
+Example 3:
+
+**Input:** s = "daccad"
+
+**Output:** "acddca"
+
+**Explanation:**
+
+Rearranging `"daccad"` &rarr; `"acddca"` gives the smallest lexicographic palindrome.
+
+ 
+
+**Constraints:**
+
+	- `1 <= s.length <= 105`
+
+	- `s` consists of lowercase English letters.
+
+	- `s` is guaranteed to be palindromic.
