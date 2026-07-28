@@ -1,8 +1,4 @@
 /* Write your PL/SQL query statement below */
-SELECT NVL(salary, null) AS SecondHighestSalary
-FROM (
-    SELECT salary,
-           ROW_NUMBER() OVER (ORDER BY salary DESC) rn
-    FROM Employee
-)
-WHERE rn = 2;
+SELECT MAX(salary) AS SecondHighestSalary
+  FROM Employee
+ WHERE salary < (SELECT MAX(salary) FROM Employee);
