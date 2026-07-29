@@ -15,6 +15,11 @@ class Solution {
                 case 'i' :
                 case 'o' :
                 case 'u' :
+                case 'A' :
+                case 'E' :
+                case 'I' :
+                case 'O' :
+                case 'U' :
                     target.append("ma");
                     break;
 
