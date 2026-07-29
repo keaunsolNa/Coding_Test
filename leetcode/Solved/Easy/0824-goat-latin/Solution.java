@@ -28,7 +28,7 @@ class Solution {
             for (int j = 0; j < i + 1; j++) target.append("a");
 
             ans.append(target);
-            if (i < st.length) ans.append(" ");
+            if (i < st.length - 1 ) ans.append(" ");
         }
 
         return ans.toString();
