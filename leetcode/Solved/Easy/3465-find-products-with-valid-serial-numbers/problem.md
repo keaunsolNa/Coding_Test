@@ -5,7 +5,7 @@ title: Find Products with Valid Serial Numbers
 difficulty: Easy
 tags: Database
 date: 2026-07-29
-lang: mysql
+lang: oraclesql
 ---
 
 # 3465. Find Products with Valid Serial Numbers
