@@ -1,12 +1,19 @@
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
-    /* Write your PL/SQL query statement below */
-SET N = N - 1;
+    /* Write your MySQL query statement below */
+    DECLARE rankOffset INT;
 
-  RETURN (
-      SELECT DISTINCT salary 
-        FROM Employee
-       ORDER BY salary DESC 
-       LIMIT 1 OFFSET N      
-  );
+    /* No 0th or negative rank exists; NULL input must not fall through to rank 1. */
+    IF N IS NULL OR N < 1 THEN
+        RETURN NULL;
+    END IF;
+
+    SET rankOffset = N - 1;
+
+    RETURN (
+        SELECT DISTINCT salary
+          FROM Employee
+         ORDER BY salary DESC
+         LIMIT 1 OFFSET rankOffset
+    );
 END

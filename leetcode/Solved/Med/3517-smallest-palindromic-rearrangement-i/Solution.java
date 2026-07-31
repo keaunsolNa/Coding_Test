@@ -2,15 +2,15 @@ class Solution {
     public String smallestPalindrome(String s) {
 
         int length = s.length();
+        int halfLength = length / 2;
 
-        String half = s.substring(0, s.length() / 2);
-        char[] chars = half.toCharArray();
-        Arrays.sort(chars);
+        char[] halfChars = s.substring(0, halfLength).toCharArray();
+        Arrays.sort(halfChars);
 
-        String sortedHalf = new String(chars);
-        String reverseHalf = new StringBuilder(sortedHalf).reverse().toString();
+        String sortedHalf = new String(halfChars);
+        String reversedHalf = new StringBuilder(sortedHalf).reverse().toString();
+        String middle = length % 2 == 1 ? String.valueOf(s.charAt(halfLength)) : "";
 
-        return (sortedHalf + (length % 2 == 1 ? String.valueOf(s.charAt(length / 2)) : "") + reverseHalf);
- 
+        return sortedHalf + middle + reversedHalf;
     }
 }
