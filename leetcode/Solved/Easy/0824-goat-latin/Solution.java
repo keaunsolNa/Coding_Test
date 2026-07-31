@@ -1,43 +1,34 @@
 class Solution {
-    public String toGoatLatin(String sentence) {
-        
-        String[] st = sentence.split(" ");
-        StringBuilder ans = new StringBuilder();
 
-        for (int i = 0; i < st.length; i++) {
+	private static final String VOWELS = "aeiouAEIOU";
 
-            StringBuilder target = new StringBuilder(st[i]);
-            char c = target.toString().charAt(0);
-            
-            switch (c) {
-                case 'a' :
-                case 'e' :
-                case 'i' :
-                case 'o' :
-                case 'u' :
-                case 'A' :
-                case 'E' :
-                case 'I' :
-                case 'O' :
-                case 'U' :
-                    target.append("ma");
-                    break;
+	public String toGoatLatin(String sentence) {
 
-                default : 
-                    
-                    target.delete(0, 1);
-                    target.append(c);
-                    target.append("ma");
-            }
+		String[] words = sentence.split(" ");
+		StringBuilder result = new StringBuilder();
 
-            for (int j = 0; j < i + 1; j++) target.append("a");
+		for (int i = 0; i < words.length; i++) {
 
-            ans.append(target);
-            if (i < st.length - 1 ) ans.append(" ");
-        }
+			if (i > 0) {
+				result.append(" ");
+			}
 
-        return ans.toString();
+			String word = words[i];
+			char firstChar = word.charAt(0);
 
+			if (VOWELS.indexOf(firstChar) >= 0) {
+				result.append(word);
+			} else {
+				result.append(word, 1, word.length()).append(firstChar);
+			}
 
-    }
+			result.append("ma");
+
+			for (int j = 0; j <= i; j++) {
+				result.append("a");
+			}
+		}
+
+		return result.toString();
+	}
 }
