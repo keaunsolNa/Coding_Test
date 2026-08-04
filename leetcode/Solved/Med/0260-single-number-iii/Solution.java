@@ -8,10 +8,7 @@ class Solution {
             if (list.contains(nums[i])) list.remove(Integer.valueOf(nums[i]));
             else list.add(nums[i]);
 
-            System.out.println(list);
         }
-
-        System.out.println(list);
 
         int[] answer = new int[2];
         answer[0] = list.get(0);
