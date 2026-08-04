@@ -10,7 +10,7 @@ class Solution {
 
             for (int j = i + 1; j < prices.length; j++) {
 
-                if (price > prices[j]) {
+                if (price >= prices[j]) {
                     discount = prices[j];
                     break;
                 }
