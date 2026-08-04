@@ -2,10 +2,10 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 8. 4. 오후 5:04:35 |
+| Submitted | 2026. 8. 4. 오후 5:07:40 |
 | Language | java |
 | Runtime | 0 ms (Beats 0.0%) |
-| Memory | 43 MB (Beats 0.0%) |
+| Memory | 42.9 MB (Beats 0.0%) |
 
 ## Submission
 
@@ -13,75 +13,14 @@
 
 ## Code Review
 
-코드 리뷰를 진행하겠습니다.
+**코드 리뷰**
 
-1. **시간 복잡도**: O(n) - 이 코드는 입력 배열을 한 번만 순회하므로, 시간 복잡도는 배열의 크기(n)와 동일합니다. 즉, 입력 크기에 비례하여 실행 시간이 증가합니다.
+1. **시간 복잡도**: O(log n) - 이진 탐색 알고리즘을 사용하여 대상 요소를 찾기 때문에 시간 복잡도가 로그 형태로 줄어든다. `findFirstTrue` 메서드가 두 번 호출되지만, 각 호출은 독립적으로 실행되므로 전체 시간 복잡도는 여전히 O(log n)이다.
 
-2. **공간 복잡도**: O(1) - 이 코드는 입력 배열 외에 추가적인 공간을 거의 사용하지 않습니다. 결과를 저장하기 위한 배열은 크기가 고정되어 있으므로, 공간 복잡도는 상수입니다.
+2. **공간 복잡도**: O(1) - 입력 배열을 제외하고는 추가적인 공간을 사용하지 않기 때문에 공간 복잡도는 상수 형태이다. 인스턴스 변수 `nums`와 `n`을 사용하지만, 이는 입력 크기에 비례하지 않으므로 상수 공간으로 간주된다.
 
-3. **풀이 접근법**: 이 코드는 단순한 선형 탐색 알고리즘을 사용하여 배열을 순회하며, 타겟 요소를 찾습니다. 이 접근법은 배열이 정렬되어 있지 않은 경우에 적합하지만, 문제에서 배열이 정렬되어 있다고 가정할 때는 비효율적일 수 있습니다.
+3. **풀이 접근법**: 이진 탐색 알고리즘을 사용하여 대상 요소의 첫 번째와 마지막 위치를 찾는다. `findFirstTrue` 메서드는 대상 요소보다 크거나 같은 요소의 첫 번째 위치를 찾는 데 사용되며, 이 메서드를 두 번 호출하여 대상 요소의 첫 번째와 마지막 위치를 모두 찾는다.
 
-4. **잘된 점**: 코드는 읽기 쉽고, 변수 이름이 명확하여 이해하기 쉽습니다. 또한, 결과를 반환하는 방식도 직관적입니다.
+4. **잘된 점**: 코드는 잘 구조화되어 있으며, 각 메서드의 책임이 명확하다. 이진 탐색 알고리즘을 사용하여 시간 복잡도를 최적화하였다. 또한, 입력 배열이 비어 있는 경우를 처리하여 예외 상황을 고려하였다.
 
-5. **개선 사항**: 문제에서 배열이 정렬되어 있다고 가정하므로, 더 효율적인 알고리즘으로 이진 탐색을 사용할 수 있습니다. 이진 탐색을 사용하면 시간 복잡도를 O(log n)으로 개선할 수 있습니다. 또한, 첫 번째와 마지막 위치를 찾는 두 개의 별도 함수를 사용하여 코드를 더 모듈화할 수 있습니다. 이는 코드의 가독성과 유지보수를 향상시킬 수 있습니다. 
-
-예를 들어, 이진 탐색을 사용하여 첫 번째와 마지막 위치를 찾는 함수를 다음과 같이 구현할 수 있습니다.
-
-```java
-class Solution {
-    public int[] searchRange(int[] nums, int target) {
-        int firstIndex = findFirst(nums, target);
-        int lastIndex = findLast(nums, target);
-        
-        if (firstIndex == -1) {
-            return new int[] {-1, -1};
-        } else {
-            return new int[] {firstIndex, lastIndex};
-        }
-    }
-    
-    private int findFirst(int[] nums, int target) {
-        int left = 0;
-        int right = nums.length - 1;
-        int result = -1;
-        
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            
-            if (nums[mid] == target) {
-                result = mid;
-                right = mid - 1;
-            } else if (nums[mid] < target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
-        }
-        
-        return result;
-    }
-    
-    private int findLast(int[] nums, int target) {
-        int left = 0;
-        int right = nums.length - 1;
-        int result = -1;
-        
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            
-            if (nums[mid] == target) {
-                result = mid;
-                left = mid + 1;
-            } else if (nums[mid] < target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
-            }
-        }
-        
-        return result;
-    }
-}
-```
-
-이러한 개선 사항을 적용하면 코드의 효율성과 가독성이 향상됩니다.
+5. **개선 사항**: 코드는 이미 잘 최적화되어 있지만, 몇 가지 사항을 고려할 수 있다. 예를 들어, `findFirstTrue` 메서드의 이름을 `findFirstGreaterOrEqual`로 변경하여 메서드의 목적을 더 명확하게 나타낼 수 있다. 또한, 입력 배열이 null인 경우를 처리하여 추가적인 예외 상황을 고려할 수 있다. 그러나 이러한 변경은 코드의 전체적인 구조나 성능에 큰 영향을 미치지 않는다.
