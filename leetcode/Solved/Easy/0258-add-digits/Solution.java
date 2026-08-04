@@ -14,7 +14,7 @@ class Solution {
                 target /= 10;
             }
 
-            if (target < 10) return target;
+            if (hab < 10) return target;
 
             target = hab;
             hab = 0;
