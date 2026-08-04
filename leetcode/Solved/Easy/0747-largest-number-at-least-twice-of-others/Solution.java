@@ -19,9 +19,6 @@ class Solution {
         Arrays.sort(nums);
         secondMax = nums[nums.length - 2];
 
-
-        System.out.println(max + " " + secondMax + " " + idx);
-
         if (max >= secondMax * 2) return idx;
         else return -1;
 
