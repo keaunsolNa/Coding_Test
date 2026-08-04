@@ -8,6 +8,7 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
 
             int target = nums[i];
+            System.out.print(target + " ");
 
             if (max < target) {
 
@@ -17,6 +18,8 @@ class Solution {
             }
         }
 
+        System.out.println();
+        
         System.out.println(max + " " + secondMax + " " + idx);
 
         if (max >= secondMax * 2) return idx;
