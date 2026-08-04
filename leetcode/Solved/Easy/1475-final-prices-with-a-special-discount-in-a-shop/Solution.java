@@ -5,8 +5,18 @@ class Solution {
 
         for (int i = 0; i < prices.length; i++) {
 
-            if (i + 1 < prices.length && prices[i] > prices[i + 1]) ans[i] = prices[i] - prices[i + 1];
-            else ans[i] = prices[i];
+            int discount = 0;
+            int price = prices[i];
+
+            for (int j = i + 1; j < prices.length; j++) {
+
+                if (price > prices[j]) {
+                    discount = prices[j];
+                    break;
+                }
+            }
+
+            ans[i] = price - discount;
         }
 
         return ans;
