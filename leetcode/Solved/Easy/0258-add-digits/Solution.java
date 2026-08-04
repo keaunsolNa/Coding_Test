@@ -6,9 +6,7 @@ class Solution {
 
         while(true) {
 
-            System.out.println(target + "  : " + hab);
-
-            while (target > 10) {
+            while (target >= 10) {
 
                 hab += target % 10;
                 target /= 10;
@@ -16,7 +14,6 @@ class Solution {
 
             hab += target;
 
-            System.out.println("AFTER : " + target + "  : " + hab);
             if (hab < 10) return hab;
 
             target = hab;
