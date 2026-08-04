@@ -14,6 +14,8 @@ class Solution {
                 target /= 10;
             }
 
+            hab += target;
+            
             System.out.println("AFTER : " + target + "  : " + hab);
             if (hab < 10) return target;
 
