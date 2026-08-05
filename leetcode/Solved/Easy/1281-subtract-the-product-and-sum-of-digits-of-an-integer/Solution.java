@@ -7,9 +7,9 @@ class Solution {
         int sum = 0;
 
         for (char c : str.toCharArray()) {
-            System.out.println((int)c);
-            product *= (int) c;
-            sum += (int) c;
+            System.out.println((int) (c - '0'));
+            product *= (int) (c - '0');
+            sum += (int) (c - '0');
         }
 
         return product - sum;
