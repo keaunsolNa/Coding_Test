@@ -1,20 +1,16 @@
 class Solution {
     public int singleNumber(int[] nums) {
 
-        Map<Integer, Integer> map = new HashMap<>();
+        // ones/twos 는 각 비트가 지금까지 1로 등장한 횟수를 mod 3 으로 누적한다.
+        int ones = 0;
+        int twos = 0;
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int num : nums) {
 
-            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
-
-            if (map.get(nums[i]) == 3) map.remove(nums[i]);
+            ones = (ones ^ num) & ~twos;
+            twos = (twos ^ num) & ~ones;
         }
 
-        int ans = 0;
-        for (int key : map.keySet()) {
-            ans = key;
-        }
-
-        return ans;
+        return ones;
     }
 }

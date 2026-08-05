@@ -1,37 +1,33 @@
 class Solution {
     public List<String> commonChars(String[] words) {
 
-        int[] arr = new int[26];
-        Arrays.fill(arr, 101);
+        int[] minCount = new int[26];
+        Arrays.fill(minCount, Integer.MAX_VALUE);
 
-        for (String str : words) {
-    
-            Map<Character, Integer> map = new HashMap<>();
+        for (String word : words) {
 
-            for (char c : str.toCharArray()) {
+            int[] count = new int[26];
 
-                map.put(c, map.getOrDefault(c, 0) + 1);
+            for (char c : word.toCharArray()) {
+                count[c - 'a']++;
             }
 
-
-            for (char c : map.keySet()) {
-                arr[c - 'a'] = Math.min(map.get(c), arr[c - 'a']);
+            for (int i = 0; i < 26; i++) {
+                minCount[i] = Math.min(minCount[i], count[i]);
             }
-
         }
 
         List<String> answer = new ArrayList<>();
 
         for (int i = 0; i < 26; i++) {
 
-            if (arr[i] > 0) {
-                
-                String target = String.valueOf(arr[i] + 'a');
-                for (int j = 0; j < arr[i]; j++) answer.add(target);
+            String letter = String.valueOf((char) (i + 'a'));
+
+            for (int j = 0; j < minCount[i]; j++) {
+                answer.add(letter);
             }
         }
 
         return answer;
-
     }
 }

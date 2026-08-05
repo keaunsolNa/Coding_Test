@@ -1,24 +1,22 @@
 class Solution {
     public int[] finalPrices(int[] prices) {
-        
-        int[] ans = new int[prices.length];
+
+        int[] answer = prices.clone();
+
+        // 아직 할인 대상을 못 찾은 인덱스를 단조 스택에 쌓아 한 번의 순회로 처리한다.
+        Deque<Integer> stack = new ArrayDeque<>();
 
         for (int i = 0; i < prices.length; i++) {
 
-            int discount = 0;
-            int price = prices[i];
+            while (!stack.isEmpty() && prices[stack.peek()] >= prices[i]) {
 
-            for (int j = i + 1; j < prices.length; j++) {
-
-                if (price >= prices[j]) {
-                    discount = prices[j];
-                    break;
-                }
+                int idx = stack.pop();
+                answer[idx] = prices[idx] - prices[i];
             }
 
-            ans[i] = price - discount;
+            stack.push(i);
         }
 
-        return ans;
+        return answer;
     }
 }

@@ -1,26 +1,22 @@
 class Solution {
     public int dominantIndex(int[] nums) {
-        
-        int max = 0;
-        int secondMax = 0;
-        int idx = 0;
 
-        for (int i = 0; i < nums.length; i++) {
+        int maxIdx = 0;
 
-            int target = nums[i];
+        for (int i = 1; i < nums.length; i++) {
 
-            if (max < target) {
-
-                max = target;
-                idx = i;
+            if (nums[i] > nums[maxIdx]) {
+                maxIdx = i;
             }
         }
 
-        Arrays.sort(nums);
-        secondMax = nums[nums.length - 2];
+        for (int i = 0; i < nums.length; i++) {
 
-        if (max >= secondMax * 2) return idx;
-        else return -1;
+            if (i != maxIdx && nums[maxIdx] < nums[i] * 2) {
+                return -1;
+            }
+        }
 
+        return maxIdx;
     }
 }

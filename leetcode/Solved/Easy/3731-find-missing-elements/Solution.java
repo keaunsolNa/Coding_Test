@@ -1,27 +1,30 @@
 class Solution {
     public List<Integer> findMissingElements(int[] nums) {
 
-        Arrays.sort(nums);
-        
         int min = nums[0];
-        int max = nums[nums.length - 1];
-        boolean[] arr = new boolean[max + 1];
+        int max = nums[0];
 
-        for (int i = min; i <= max; i++) {
-            arr[i] = false;
+        for (int num : nums) {
+            min = Math.min(min, num);
+            max = Math.max(max, num);
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            arr[nums[i]] = true;
-        }       
+        // min 을 0 으로 당겨 [min, max] 구간 크기만큼만 할당한다.
+        boolean[] present = new boolean[max - min + 1];
 
-        List<Integer> list = new ArrayList<>();
-
-        for (int i = min; i <= max; i++) {
-
-            if (!arr[i]) list.add(i);
+        for (int num : nums) {
+            present[num - min] = true;
         }
 
-        return list;
+        List<Integer> answer = new ArrayList<>();
+
+        for (int i = 0; i < present.length; i++) {
+
+            if (!present[i]) {
+                answer.add(i + min);
+            }
+        }
+
+        return answer;
     }
 }

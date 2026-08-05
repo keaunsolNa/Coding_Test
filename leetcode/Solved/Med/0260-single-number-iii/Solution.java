@@ -1,19 +1,27 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        
-        List<Integer> list = new ArrayList<>();
 
-        for (int i = 0; i < nums.length; i++) {
+        int xorAll = 0;
 
-            if (list.contains(nums[i])) list.remove(Integer.valueOf(nums[i]));
-            else list.add(nums[i]);
-
+        for (int num : nums) {
+            xorAll ^= num;
         }
 
-        int[] answer = new int[2];
-        answer[0] = list.get(0);
-        answer[1] = list.get(1);
+        // 두 유일값은 이 비트에서 서로 다르므로, 이 비트로 두 그룹을 가른다.
+        int lowestDiffBit = xorAll & -xorAll;
 
-        return answer;
+        int first = 0;
+        int second = 0;
+
+        for (int num : nums) {
+
+            if ((num & lowestDiffBit) == 0) {
+                first ^= num;
+            } else {
+                second ^= num;
+            }
+        }
+
+        return new int[] {first, second};
     }
 }
