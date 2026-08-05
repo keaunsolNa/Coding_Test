@@ -18,7 +18,13 @@ class Solution {
                 arr[c - 'a'] = Math.min(map.get(c), arr[c - 'a']);
             }
 
+            System.out.print(map);
         }
+
+
+        for (int c : arr) System.out.print(c);
+        System.out.println();
+
 
         List<String> answer = new ArrayList<>();
 
