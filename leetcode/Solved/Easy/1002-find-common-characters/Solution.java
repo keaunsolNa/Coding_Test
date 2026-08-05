@@ -32,7 +32,7 @@ class Solution {
 
             if (arr[i] > 0) {
                 
-                char target = (char)(arr[i] + 26);
+                char target = (char)(arr[i] + 97);
                 for (int j = 0; j < arr[i]; j++) answer.add(String.valueOf(target));
             }
         }
