@@ -7,6 +7,7 @@ class Solution {
         int sum = 0;
 
         for (char c : str.toCharArray()) {
+            System.out.println((int)c);
             product *= (int) c;
             sum += (int) c;
         }
