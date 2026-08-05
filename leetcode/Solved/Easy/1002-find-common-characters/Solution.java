@@ -14,10 +14,13 @@ class Solution {
                 map.put(c, map.getOrDefault(c, 0) + 1);
             }
 
+            for (int i = 0; i < 26; i++) {
+                
+                map.putIfAbsent((char)('a' + i), 0);
+            }
 
             for (char c : map.keySet()) {
                 
-                map.putIfAbsent(c, 0);
                 arr[c - 'a'] = Math.min(map.get(c), arr[c - 'a']);
             }
 
