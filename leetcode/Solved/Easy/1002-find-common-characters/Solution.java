@@ -26,8 +26,8 @@ class Solution {
 
             if (arr[i] > 0) {
                 
-                String target = String.valueOf(arr[i] + 'a');
-                for (int j = 0; j < arr[i]; j++) answer.add(target);
+                char target = (char)(arr[i] + 'a');
+                for (int j = 0; j < arr[i]; j++) answer.add(String.valueOf(target));
             }
         }
 
