@@ -8,6 +8,7 @@ class Solution {
     
             Map<Character, Integer> map = new HashMap<>();
 
+
             for (char c : str.toCharArray()) {
 
                 map.put(c, map.getOrDefault(c, 0) + 1);
@@ -15,6 +16,8 @@ class Solution {
 
 
             for (char c : map.keySet()) {
+                
+                map.putIfAbsent(c, 0);
                 arr[c - 'a'] = Math.min(map.get(c), arr[c - 'a']);
             }
 
