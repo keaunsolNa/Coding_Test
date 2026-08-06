@@ -5,7 +5,7 @@ title: Exchange Seats
 difficulty: Medium
 tags: Database
 date: 2026-08-06
-lang: mysql
+lang: oraclesql
 ---
 
 # 626. Exchange Seats
