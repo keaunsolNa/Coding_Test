@@ -1,7 +1,7 @@
 class Solution {
     public int addDigits(int num) {
 
-        // digital root: 자릿수 합을 반복해도 결과는 9 로 나눈 나머지에 수렴한다.
+        // digital root: 1..9 가 9 주기로 반복되므로 O(1) 로 구할 수 있다.
         if (num == 0) {
             return 0;
         }

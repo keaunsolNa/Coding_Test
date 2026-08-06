@@ -1,6 +1,10 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
 
+        if (nums.length == 0) {
+            return new int[] {-1, -1};
+        }
+
         int firstIdx = findFirstTrue(nums, target, false);
 
         if (firstIdx == -1 || nums[firstIdx] != target) {
@@ -8,11 +12,18 @@ class Solution {
         }
 
         int afterLastIdx = findFirstTrue(nums, target, true);
-        int lastIdx = (afterLastIdx == -1) ? nums.length - 1 : afterLastIdx - 1;
+        int lastIdx;
+
+        if (afterLastIdx == -1) {
+            lastIdx = nums.length - 1;
+        } else {
+            lastIdx = afterLastIdx - 1;
+        }
 
         return new int[] {firstIdx, lastIdx};
     }
 
+    // findGreater 가 false 면 target 이상, true 면 target 초과인 첫 인덱스를 찾는다.
     private int findFirstTrue(int[] nums, int target, boolean findGreater) {
 
         int left = 0;
@@ -22,7 +33,13 @@ class Solution {
         while (left <= right) {
 
             int mid = left + (right - left) / 2;
-            boolean feasible = findGreater ? nums[mid] > target : nums[mid] >= target;
+            boolean feasible;
+
+            if (findGreater) {
+                feasible = nums[mid] > target;
+            } else {
+                feasible = nums[mid] >= target;
+            }
 
             if (feasible) {
                 firstTrueIndex = mid;

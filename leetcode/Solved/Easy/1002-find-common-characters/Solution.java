@@ -21,7 +21,7 @@ class Solution {
 
         for (int i = 0; i < 26; i++) {
 
-            String letter = String.valueOf((char) (i + 'a'));
+            String letter = String.valueOf((char) ('a' + i));
 
             for (int j = 0; j < minCount[i]; j++) {
                 answer.add(letter);

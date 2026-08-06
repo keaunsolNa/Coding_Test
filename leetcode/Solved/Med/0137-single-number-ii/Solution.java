@@ -1,7 +1,8 @@
 class Solution {
     public int singleNumber(int[] nums) {
 
-        // ones/twos 는 각 비트가 지금까지 1로 등장한 횟수를 mod 3 으로 누적한다.
+        // ones/twos 로 각 비트가 3 으로 나눈 나머지 몇 번 등장했는지를 센다.
+        // 3 번째 등장에서 두 상태 모두 0 으로 돌아가므로, 남는 값이 정답이다.
         int ones = 0;
         int twos = 0;
 

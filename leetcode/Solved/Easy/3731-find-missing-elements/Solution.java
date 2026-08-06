@@ -5,12 +5,22 @@ class Solution {
         int max = nums[0];
 
         for (int num : nums) {
-            min = Math.min(min, num);
-            max = Math.max(max, num);
+
+            if (num < min) {
+                min = num;
+            }
+
+            if (num > max) {
+                max = num;
+            }
         }
 
-        // min 을 0 으로 당겨 [min, max] 구간 크기만큼만 할당한다.
-        boolean[] present = new boolean[max - min + 1];
+        // boolean 배열은 false 로 자동 초기화되므로 별도 초기화 루프가 필요 없다.
+        boolean[] seen = new boolean[max + 1];
+
+        for (int num : nums) {
+            seen[num] = true;
+        }
 
         for (int num : nums) {
             present[num - min] = true;
@@ -20,8 +30,8 @@ class Solution {
 
         for (int i = 0; i < present.length; i++) {
 
-            if (!present[i]) {
-                answer.add(i + min);
+            if (!seen[i]) {
+                list.add(i);
             }
         }
 

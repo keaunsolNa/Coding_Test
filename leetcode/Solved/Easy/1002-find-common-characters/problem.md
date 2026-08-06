@@ -4,7 +4,7 @@ slug: find-common-characters
 title: Find Common Characters
 difficulty: Easy
 tags: Array, Hash Table, String
-date: 2026-08-04
+date: 2026-08-05
 lang: java
 ---
 
