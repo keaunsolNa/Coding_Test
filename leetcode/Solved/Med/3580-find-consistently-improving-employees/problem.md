@@ -5,7 +5,7 @@ title: Find Consistently Improving Employees
 difficulty: Medium
 tags: Database
 date: 2026-08-06
-lang: oraclesql
+lang: mysql
 ---
 
 # 3580. Find Consistently Improving Employees
