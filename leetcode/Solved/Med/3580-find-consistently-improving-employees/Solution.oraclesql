@@ -1,0 +1,8 @@
+/* Write your PL/SQL query statement below */
+SELECT T1.employee_id
+     , T1.name
+     , MAX(T2.rating) - MIN(T2.rating) as improvement_score 
+  FROM employees T1
+     , performance_reviews T2
+ WHERE T1.employee_id = T2.employee_id
+ GROUP BY T1.employee_id, T1.name
