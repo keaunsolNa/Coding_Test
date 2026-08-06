@@ -1,8 +1,6 @@
 # Write your MySQL query statement below
 SELECT T1.id
-     , CASE WHEN T1.id = MAX(T1.id) THEN T1.student
-            ELSE (SELECT A.student 
-                    FROM Seat A
-                    WHERE T1.id = A.id + 1) 
-             END AS student
- FROM Seat T1
+     , T2.student
+  FROM Seat T1
+     , Seat T2
+ WHERE T1.id = T2.id - 1;         
