@@ -22,15 +22,19 @@ class Solution {
             seen[num] = true;
         }
 
-        List<Integer> list = new ArrayList<>();
+        for (int num : nums) {
+            present[num - min] = true;
+        }
 
-        for (int i = min; i <= max; i++) {
+        List<Integer> answer = new ArrayList<>();
+
+        for (int i = 0; i < present.length; i++) {
 
             if (!seen[i]) {
                 list.add(i);
             }
         }
 
-        return list;
+        return answer;
     }
 }

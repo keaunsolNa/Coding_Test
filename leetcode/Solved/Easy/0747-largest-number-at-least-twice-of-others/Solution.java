@@ -5,9 +5,7 @@ class Solution {
         int secondMax = -1;
         int idx = -1;
 
-        for (int i = 0; i < nums.length; i++) {
-
-            int target = nums[i];
+        int maxIdx = 0;
 
             if (target > max) {
 

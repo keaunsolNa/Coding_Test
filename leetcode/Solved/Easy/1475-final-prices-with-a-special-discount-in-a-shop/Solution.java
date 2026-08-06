@@ -16,6 +16,6 @@ class Solution {
             stack.push(i);
         }
 
-        return ans;
+        return answer;
     }
 }

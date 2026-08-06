@@ -3,7 +3,7 @@ class Solution {
 
         List<Integer> list = new ArrayList<>();
 
-        for (int i = 0; i < words.length; i++) {
+        List<Integer> answer = new ArrayList<>();
 
             // indexOf(int) 를 쓰면 단어마다 String 을 새로 만들지 않아도 된다.
             if (words[i].indexOf(x) != -1) {
@@ -11,6 +11,6 @@ class Solution {
             }
         }
 
-        return list;
+        return answer;
     }
 }

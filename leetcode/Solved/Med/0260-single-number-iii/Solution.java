@@ -23,6 +23,6 @@ class Solution {
             }
         }
 
-        return answer;
+        return new int[] {first, second};
     }
 }
