@@ -1,0 +1,8 @@
+# Write your MySQL query statement below
+SELECT T1.id
+     , CASE WHEN MOD(COUNT(T1.id), 2) = 1 AND T1.id = MAX(T1.id) THEN T1.student
+            ELSE (SELECT A.student 
+                    FROM Seat A
+                    WHERE T1.id = A.id + 1) 
+             END AS student
+ FROM Seat T1
