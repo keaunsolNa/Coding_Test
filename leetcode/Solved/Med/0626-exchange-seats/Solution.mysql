@@ -3,4 +3,4 @@ SELECT T1.id
      , T2.student
   FROM Seat T1
      , Seat T2
- WHERE T1.id = T2.id - 1;         
+ WHERE T1.id = T2.id + 1;
