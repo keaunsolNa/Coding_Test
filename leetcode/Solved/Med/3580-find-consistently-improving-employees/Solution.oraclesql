@@ -1,9 +1,19 @@
 /* Write your PL/SQL query statement below */
+WITH recent AS (
+                SELECT employee_id
+                     , review_date
+                     , ROW_NUMBER() OVER ( PARTITION BY employee_id ORDER BY review_date DESC ) AS rn
+                     , ( LAG(rating) OVER ( PARTITION BY employee_id ORDER BY review_date DESC ) - rating) AS delta
+                  FROM performance_reviews
+            )
 SELECT T1.employee_id
-     , T1.name
-     , MAX(T2.rating) - MIN(T2.rating) as improvement_score 
-  FROM employees T1
-     , performance_reviews T2
- WHERE T1.employee_id = T2.employee_id
- GROUP BY T1.employee_id, T1.name
- ORDER BY MAX(T2.rating) - MIN(T2.rating) DESC, T1.name
+     , T2.name
+     , SUM(T1.delta) AS improvement_score
+  FROM recent T1
+     , employees T2 
+ WHERE T1.employee_id = T2.employee_id 
+   AND T1.rn > 1
+   AND T1.rn <= 3
+ GROUP BY T1.employee_id, T2.name
+HAVING COUNT(*) = 2 AND MIN(T1.delta) > 0
+ ORDER BY SUM(T1.delta) DESC, T2.name;
