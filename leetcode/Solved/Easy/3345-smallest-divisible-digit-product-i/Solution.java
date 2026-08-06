@@ -12,8 +12,6 @@ class Solution {
                 temp /= 10;            
             }
 
-            System.out.println(product + " " + temp);
-
             if (product % t == 0) return n;
             else n++;
 
