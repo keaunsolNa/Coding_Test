@@ -10,16 +10,15 @@
  */
 class Solution {
     public ListNode middleNode(ListNode head) {
-        
-        ListNode pointer1 = head;
-        ListNode pointer2 = head;
 
-        while (pointer2 != null && pointer2.next != null) {
-            pointer1 = pointer1.next;
-            pointer2 = pointer2.next.next;
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
-      
-        return pointer1;
 
+        return slow;
     }
 }
