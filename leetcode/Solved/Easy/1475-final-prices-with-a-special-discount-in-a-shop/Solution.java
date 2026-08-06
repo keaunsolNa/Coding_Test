@@ -1,22 +1,19 @@
 class Solution {
     public int[] finalPrices(int[] prices) {
-        
-        int[] ans = new int[prices.length];
+
+        int[] ans = prices.clone();
+        Deque<Integer> stack = new ArrayDeque<>();
 
         for (int i = 0; i < prices.length; i++) {
 
-            int discount = 0;
-            int price = prices[i];
+            // 스택 top 이 현재 가격 이상이면, 현재 가격이 그 항목의 첫 할인값이 된다.
+            while (!stack.isEmpty() && prices[stack.peek()] >= prices[i]) {
 
-            for (int j = i + 1; j < prices.length; j++) {
-
-                if (price >= prices[j]) {
-                    discount = prices[j];
-                    break;
-                }
+                int idx = stack.pop();
+                ans[idx] = prices[idx] - prices[i];
             }
 
-            ans[i] = price - discount;
+            stack.push(i);
         }
 
         return ans;

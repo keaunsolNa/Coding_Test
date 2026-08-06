@@ -1,20 +1,17 @@
 class Solution {
     public int singleNumber(int[] nums) {
 
-        Map<Integer, Integer> map = new HashMap<>();
+        // ones/twos 로 각 비트가 3 으로 나눈 나머지 몇 번 등장했는지를 센다.
+        // 3 번째 등장에서 두 상태 모두 0 으로 돌아가므로, 남는 값이 정답이다.
+        int ones = 0;
+        int twos = 0;
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int num : nums) {
 
-            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
-
-            if (map.get(nums[i]) == 3) map.remove(nums[i]);
+            ones = (ones ^ num) & ~twos;
+            twos = (twos ^ num) & ~ones;
         }
 
-        int ans = 0;
-        for (int key : map.keySet()) {
-            ans = key;
-        }
-
-        return ans;
+        return ones;
     }
 }

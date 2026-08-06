@@ -1,25 +1,11 @@
 class Solution {
     public int addDigits(int num) {
-        
-        int target = num;
-        int hab = 0;
 
-        while(true) {
-
-            while (target >= 10) {
-
-                hab += target % 10;
-                target /= 10;
-            }
-
-            hab += target;
-
-            if (hab < 10) return hab;
-
-            target = hab;
-            hab = 0;
-
+        // digital root: 1..9 가 9 주기로 반복되므로 O(1) 로 구할 수 있다.
+        if (num == 0) {
+            return 0;
         }
 
+        return 1 + (num - 1) % 9;
     }
 }
