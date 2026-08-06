@@ -6,3 +6,4 @@ SELECT T1.employee_id
      , performance_reviews T2
  WHERE T1.employee_id = T2.employee_id
  GROUP BY T1.employee_id, T1.name
+ ORDER BY MAX(T2.rating) - MIN(T2.rating) DESC, T1.name
