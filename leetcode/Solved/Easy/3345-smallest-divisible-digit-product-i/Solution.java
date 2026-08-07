@@ -1,20 +1,17 @@
 class Solution {
     public int smallestNumber(int n, int t) {
-
-        while (true) {
-            
-            int product = 1;
-            
-            int temp = n;
-            while (temp > 0) {
-                int digit = temp % 10;
-                product *= digit; 
-                temp /= 10;            
+        for (int candidate = n; ; candidate++) {
+            if (calculateDigitProduct(candidate) % t == 0) {
+                return candidate;
             }
+        }
+    }
 
-            if (product % t == 0) return n;
-            else n++;
-
-        }       
+    private int calculateDigitProduct(int number) {
+        int product = 1;
+        for (int rest = number; rest > 0; rest /= 10) {
+            product *= rest % 10;
+        }
+        return product;
     }
 }
