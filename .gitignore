@@ -172,4 +172,8 @@ buildNumber.properties
 # Ignore code-workspaces
 *.code-workspace
 CodingTest/src/Main.java
+
+### Claude Code ###
+# local, machine-specific tool permissions - must not be shared
+.claude/settings.local.json
 # End of https://www.toptal.com/developers/gitignore/api/macos,eclipse,java,maven,visualstudiocode
