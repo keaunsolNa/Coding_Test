@@ -5,7 +5,7 @@ title: Friend Requests II: Who Has the Most Friends
 difficulty: Medium
 tags: Database
 date: 2026-08-10
-lang: oraclesql
+lang: mysql
 ---
 
 # 602. Friend Requests II: Who Has the Most Friends
