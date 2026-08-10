@@ -1,5 +1,5 @@
 /* Write your PL/SQL query statement below */
-SELECT NVL(COUNT(requester_id), 0) + NVL(COUNT(accepter_id), 0) num, requester_id 
-    FROM RequestAccepted
-    GROUP BY requester_id
-    ORDER BY num DESC
+SELECT NVL(COUNT(requester_id), 0) num, requester_id 
+  FROM RequestAccepted
+ GROUP BY requester_id
+ ORDER BY num DESC
