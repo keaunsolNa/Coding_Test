@@ -1,4 +1,4 @@
 /* Write your PL/SQL query statement below */
-SELECT COUNT(requester_id), requester_id 
+SELECT NVL(COUNT(requester_id), 0) + NVL(COUNT(accepter_id), 0), requester_id 
   FROM RequestAccepted
  GROUP BY requester_id
