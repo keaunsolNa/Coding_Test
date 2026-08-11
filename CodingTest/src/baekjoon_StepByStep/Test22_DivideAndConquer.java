@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Test22_DivideAndConquer {
 
 	public static void main(String[] args) throws IOException {
-		test07();
+		test08();
 	}
 
 
@@ -36,34 +36,6 @@ public class Test22_DivideAndConquer {
 	// 행렬 제곱
 	private static int N;
 	private static int MOD2 = 1000;
-	public static void test07() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		
-		st = new StringTokenizer(br.readLine());
-		N = Integer.parseInt(st.nextToken());
-		long B = Long.parseLong(st.nextToken());
-		
-		int[][] arr = new int[N][N];
-		for(int i = 0; i < N; i++) {
-			
-			st = new StringTokenizer(br.readLine());
-			for(int j = 0; j < N; j++) arr[i][j] = Integer.parseInt(st.nextToken()) % MOD2;
-		}
-		
-		int[][] ans = pow(arr, B);
-		
-			
-		StringBuilder sb = new StringBuilder();
-		
-		for(int i = 0; i < N; i++) {
-			for(int j = 0; j < N; j++) sb.append(ans[i][j]).append(' ');
-			
-			sb.append('\n');
-		}
-		System.out.println(sb);
-		
-	}
 	
 	private static int[][] pow(int[][] arr, long exponent){
 		

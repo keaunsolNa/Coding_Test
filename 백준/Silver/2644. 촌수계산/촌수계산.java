@@ -1,5 +1,3 @@
-package baekjoon_GraphTheory;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,16 +7,16 @@ import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class GraphTheory02 {
-	public static void main(String[] args) throws IOException {
-		test01();
-	}
-	
-	
-	// 2644번 - 촌수계산
+public class Main {
+
 	private static List<Integer>[] BT;
 	private static boolean[] visited;
 	private static int res = -1;
+
+	public static void main(String[] args) throws IOException {
+		test01();
+	}
+
 	public static void test01() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
@@ -50,7 +48,7 @@ public class GraphTheory02 {
 		
 		System.out.println(res);
 	}
-	
+
 	private static void dfs(int start, int end, int cnt) {
 		
 		if(start == end) {
@@ -67,38 +65,4 @@ public class GraphTheory02 {
 		}
 		
 	}
-	
-	
-	// 10026번 - 적록색약
-    private static int[] dy = {-1, 1, 0, 0};
-    private static int[] dx = {0, 0, -1, 1};
-    private static int N;
-    private static char[][] map;
-	
-	private static void dfs(int y, int x, boolean[][] visit, char ch) {
-		
-		visit[y][x] = true;
-
-		for (int k = 0; k < 4; k++) {
-	    
-			int ny = y + dy[k];
-			int nx = x + dx[k];
-
-			if (ny < 0 || nx < 0 || ny >= N || nx >= N || visit[ny][nx] || map[ny][nx] != ch) continue;
-
-			dfs(ny, nx, visit, ch);
-	        
-		}
-	    
-	}
-	
-	
-	// 
-	public static void test06() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-	}
-	
-	
 }
