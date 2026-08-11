@@ -10,28 +10,9 @@ import java.util.StringTokenizer;
 public class Sort01 {
 	
 	public static void main(String[] args) throws IOException {
-		test10();
+		test02();
 	}
 	
-	// 세 수 정렬
-	public static void test01() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		
-		int[] arr = new int[3];
-		for(int i = 0; i < 3; i++) {
-			arr[i] = Integer.parseInt(st.nextToken());
-		}
-		
-		Arrays.sort(arr);
-
-		StringBuilder sb = new StringBuilder();
-		for (int i : arr) {
-			sb.append(i).append(" ");
-		}
-		
-		System.out.println(sb);
-	}
 	
 	// 세 수 
 	public static void test02() throws IOException {
@@ -48,73 +29,6 @@ public class Sort01 {
 		System.out.println(arr[arr.length-2]);
 	}
 	
-	// Yangjojang of The Year
-	public static void test03() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		
-		for(int i = 0; i < T; i++) {
-			
-			int N = Integer.parseInt(br.readLine());
-			int max = 0;
-			String best ="";
-			
-			for(int j = 0; j < N; j++) {
-				
-				String[] temp = br.readLine().split(" ");
-				
-				if(max < Integer.parseInt(temp[1])) {
-					max = Integer.parseInt(temp[1]);
-					best = temp[0];
-				}
-			}
-			System.out.println(best);
-		}
-	}
-	
-	// 콘테스트
-	public static void test04() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		int[] W = new int[10];
-		int[] K = new int[10];
-		
-		for(int i = 0; i < 10; i++) {
-			W[i] = Integer.parseInt(br.readLine());
-		}
-		
-		for(int i = 0; i < 10; i++) {
-			K[i] = Integer.parseInt(br.readLine());
-		}
-		
-		Arrays.sort(W);
-		Arrays.sort(K);
-		
-		int sumW = W[9] + W[8] + W[7];
-		int sumK = K[9] + K[8] + K[7];
-		
-		System.out.println(sumW + " " + sumK);
-	}
-	
-	// 점수 집계
-	public static void test05() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-	
-		for(int i = 0; i < T; i++) {
-			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-			int[] arr = new int[5];
-			for(int j = 0; j < 5; j++) {
-				arr[j] = Integer.parseInt(st.nextToken());
-			}
-			Arrays.sort(arr);
-			if(arr[3] - arr[1] >= 4) {
-				System.out.println("KIN");
-			} else {
-				System.out.println(arr[1]+arr[2]+arr[3]);
-			}
-		}
-	}
 	
 	// N번째 큰 수
 	public static void test06() throws NumberFormatException, IOException {
@@ -169,32 +83,6 @@ public class Sort01 {
 		
 	}
 	
-	// 일곱 난쟁이
-	public static void test08() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int[] arr = new int[9];
-		int sum = 0;
-		for(int i = 0; i < 9; i++) {
-			arr[i] = Integer.parseInt(br.readLine());
-			sum += arr[i];
-		}
-		
-		for(int i = 0; i < 8; i++) {
-			for(int j = i+1; j < 9; j++) {
-				
-				if(sum - arr[i] - arr[j] == 100) {
-					arr[i] = 0; 
-					arr[j] = 0;
-					Arrays.sort(arr);
-					
-					for(int k = 2; k < arr.length; k++) {
-						System.out.println(arr[k]);
-					}
-					return;
-				}
-			}
-		}
-	}
 	
 	// Presents 
 	public static void test09() throws NumberFormatException, IOException {
@@ -219,27 +107,4 @@ public class Sort01 {
 		
 	}
 	
-	// Number Maximization
-	public static void test10() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		String str = br.readLine();
-		
-		String[] strArr = new String[str.length()];
-		for(int i = 0; i < str.length(); i++) {
-			strArr[i] = str.charAt(i)+"";
-		}
-		
-		Arrays.sort(strArr, new Comparator<String>() {
-
-			@Override
-			public int compare(String o1, String o2) {
-				return Integer.parseInt(o2) - Integer.parseInt(o1);
-			}
-		});
-
-		for (String string : strArr) {
-			System.out.print(string);
-		}
-	}
 }

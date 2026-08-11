@@ -11,95 +11,9 @@ import java.util.StringTokenizer;
 
 public class Greedy07 {
 	public static void main(String[] args) throws IOException {
-		test10();
+		test04();
 	}
 	
-	// 28014번 - 첨탑 밀어서 부수기
-	public static void test01() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-	
-		int[] top = new int[N];
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < N; i++) top[i] = Integer.parseInt(st.nextToken());
-		
-		int push = 0;
-		for(int i = 0; i < N; i++) {
-            while (i < N - 1 && top[i] > top[i + 1]) i++;
-            push++;
-		}
-		
-		System.out.println(push);
-	}
-	
-	// 28062번 - 준석이의 사탕 사기
-	public static void test02() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		long total = 0;
-		List<Integer> candy = new ArrayList<>();
-		
-		for(int i = 0; i < N; i++) {
-			
-			int temp = Integer.parseInt(st.nextToken());
-			
-			if(temp % 2 == 0) total += temp;
-			else candy.add(temp);
-			
-		}
-		
-		Collections.sort(candy, Collections.reverseOrder());
-		
-		if(candy.size() % 2 == 0) {
-			
-			for(int i = 0; i < candy.size(); i++) total += candy.get(i);
-			
-		} else {
-			
-			for(int i = 0; i < candy.size() - 1; i++) total += candy.get(i);
-		}
-		
-		System.out.println(total);
-	}
-	
-	// 15786번 - Send me the money 
-	public static void test03() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		StringBuilder sb = new StringBuilder();
-		
-		int N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
-		char[] S = br.readLine().toCharArray();
-		
-		for(int i = 0; i < M; i++) {
-			
-			sb = new StringBuilder(br.readLine());
-			
-			int idxCheck = 0;
-			int check = N;
-			
-			for(int s = 0; s < S.length; s++) {
-				
-				for(int idx = idxCheck; idx < sb.length(); idx++) {
-					
-					if(sb.charAt(idx) == S[s]) {
-						check--;
-						idxCheck++;
-						break;
-					}
-					
-					idxCheck++;
-				}
-			}
-			
-			if(check == 0) System.out.println("true");
-			else System.out.println("false");
-		}
-		
-	}
 	
 	// 2212번 - 센서
 	public static void test04() throws IOException {
@@ -244,51 +158,6 @@ public class Greedy07 {
 		
 	}
 	
-	// 1092번 - 배
-	public static void test08() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-		int N = Integer.parseInt(br.readLine());
-		
-		List<Integer> crane = new ArrayList<>();
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < N; i++) crane.add(Integer.parseInt(st.nextToken()));
-		
-		
-		int M = Integer.parseInt(br.readLine());
-		
-		List<Integer> box = new ArrayList<>();
-		st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < M; i++) box.add(Integer.parseInt(st.nextToken()));
-
-		Collections.sort(crane, Collections.reverseOrder());
-		Collections.sort(box, Collections.reverseOrder());
-	        
-		if(box.get(0) > crane.get(0)) {
-			System.out.println(-1);
-			return;
-		}
-		
-		int moveCnt = 0;
-		
-		while(!box.isEmpty()) {
-			int craneIdx = 0;
-			
-			for(int i = 0; i < N;) {
-				
-				if(craneIdx == box.size()) break;
-				
-				if(crane.get(i) >= box.get(craneIdx)) {
-					box.remove(craneIdx);
-					i++;
-				} else craneIdx++;
-			}
-			
-			moveCnt++;
-		}
-		
-		System.out.println(moveCnt);
-	}
 	
 	// 1339번 - 단어 수학
 	public static void test09() throws IOException {
@@ -326,38 +195,6 @@ public class Greedy07 {
 		
 		System.out.println(sum);
 	}
-	
-	// 9636번 - NASSA’s Robot
-	public static void test10() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		
-		for(int i = 0; i < N; i++) {
-			
-			int x = 0;
-			int y = 0;
-			int dn = 0;
-			
-			char[] move = br.readLine().toCharArray();
-			
-			for(int j = 0; j < move.length; j++) {
-				
-				switch(move[j]) {
-				
-					case 'R' : x++; break;
-					case 'U' : y++; break;
-					case 'L' : x--; break;
-					case 'D' : y--; break;
-					default : dn++;
-				}
-			}
-			
-			System.out.println((x - dn) + " " + (y - dn) + " " + (x + dn) + " " + (y + dn));
-		}
-	}
-	
-	
-	
 	
 	
 }

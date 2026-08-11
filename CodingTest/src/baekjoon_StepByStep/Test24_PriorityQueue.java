@@ -13,56 +13,7 @@ public class Test24_PriorityQueue {
 		test03();
 	}
    
-	// 11279번 - 최대 힙
-	public static void test01() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());
-		StringBuilder sb = new StringBuilder();
-		
-		for(int i = 0 ; i < N; i++) {
-			int input = Integer.parseInt(br.readLine());
-			
-			if(input == 0) {
-				if(pq.peek() == null) {
-					sb.append(0).append("\n");
-					pq.poll();
-				} else {
-					sb.append(pq.poll()).append("\n");
-				}
-			} else {
-				pq.add(input);
-			}
-		}
-		
-		System.out.println(sb);
-	}
 
-	// 1927번 - 최소 힙
-	public static void test02() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
-		StringBuilder sb = new StringBuilder();
-		
-		for(int i = 0 ; i < N; i++) {
-			int input = Integer.parseInt(br.readLine());
-			
-			if(input == 0) {
-				if(pq.peek() == null) {
-					sb.append(0).append("\n");
-					pq.poll();
-				} else {
-					sb.append(pq.poll()).append("\n");
-				}
-			} else {
-				pq.add(input);
-			}
-		}
-		
-		System.out.println(sb);
-	}
-	
 	// 11286번 - 절대값 힙
 	public static void test03() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

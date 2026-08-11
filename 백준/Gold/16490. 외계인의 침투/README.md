@@ -1,0 +1,11 @@
+# [Gold II] 외계인의 침투 - 16490 
+
+[문제 링크](https://www.acmicpc.net/problem/16490) 
+
+### 분류
+
+수학, 기하학
+
+### 비고
+
+`CodingTest/src`의 이전 풀이(`CodingTest/src/baekjoon_Geometry/Geometry03.java` `test08()`)를 이관한 파일입니다.

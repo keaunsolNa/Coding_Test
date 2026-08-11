@@ -9,22 +9,6 @@ import java.util.StringTokenizer;
 
 public class Test07_BasicMath {
 
-	// 손익 분기점
-	public static void test01() {
-		Scanner sc = new Scanner(System.in);
-		int A = sc.nextInt();
-		int B = sc.nextInt();
-		int C = sc.nextInt();
-		
-		A = -A;
-		int cnt = 0;
-		if(B > C || (C-B) == 0) {
-			System.out.println(-1);
-		} else {
-			System.out.println(((Math.abs(A))/(C-B) + 1));
-		}
-		
-	}
 	
 	// 벌집
 	public static void test02() {
@@ -160,14 +144,4 @@ public class Test07_BasicMath {
 		System.out.println(answer);
 	}
 	
-	// 큰 수 A + B
-	public static void test08() throws IOException {
-
-		Scanner sc = new Scanner(System.in);
-		BigInteger bigNumber = new BigInteger(sc.next());
-		BigInteger bigNumber2 = new BigInteger(sc.next());
-		
-		System.out.println(bigNumber.add(bigNumber2));
-		
-	}
 }

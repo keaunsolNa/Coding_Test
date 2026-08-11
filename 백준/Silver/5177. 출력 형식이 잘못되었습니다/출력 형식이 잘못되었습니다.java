@@ -1,0 +1,98 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.StringTokenizer;
+import java.util.regex.Pattern;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		test01();
+	}
+
+	public static void test01() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder answer = new StringBuilder();
+		int T = Integer.parseInt(br.readLine());
+		
+		for(int i = 0; i < T; i++) {
+			
+			String A = br.readLine().toLowerCase();
+			A = A.replaceAll("\\(|\\{", "[");
+			A = A.replaceAll("\\)|\\}" , "]");
+			A = A.replaceAll(",", ";");
+			A = trim(A);
+			A = trim2(A);
+			
+			String B = br.readLine().toLowerCase();
+
+			B = B.replaceAll("\\(|\\{", "[");
+			B = B.replaceAll("\\)|\\}" , "]");
+			B = B.replaceAll(",", ";");
+			B = trim(B);
+			B = trim2(B);
+			
+			answer.append("Data Set " + (i + 1) + ": ");
+			if(A.equals(B)) answer.append("equal");
+			else answer.append("not equal");
+			
+			answer.append("\n");
+			answer.append("\n");
+			
+		}
+	
+		answer.deleteCharAt(answer.length() - 1);
+		answer.deleteCharAt(answer.length() - 1);
+		System.out.print(answer);
+	}
+
+	private static String trim(String str){
+	
+		StringBuilder sb = new StringBuilder();
+		int i;
+		int n = str.length();
+		char ch;
+		
+		for(i = 0; i < n;) {
+			
+			sb.append(ch = str.charAt(i++));
+			if(ch==' ') while(i < n && str.charAt(i)==' ') i++; 
+			
+		}
+		
+		return sb.toString();
+	}
+
+	private static String trim2(String str){
+		
+		StringBuilder sb = new StringBuilder(str);
+		int i;
+		int idx;
+		int n = sb.length();
+		char ch;
+		
+		for(i = 0; i < n; i++) {
+			
+			ch = sb.charAt(i);
+			if(ch == '[' || ch == ']' || ch == ';' || ch == '.' || ch == ':') {
+
+				idx = i - 1;
+				
+				if((0 <= idx && idx < n) && str.charAt(idx) == ' ') sb.replace(idx, idx + 1, "*");
+				
+				idx = i + 1;
+				
+				if((0 <= idx && idx < n) && str.charAt(idx) == ' ') sb.replace(idx, idx + 1, "*");
+				
+			}
+		}
+		
+		return sb.toString().replaceAll("\\*", ""); 
+	}
+}

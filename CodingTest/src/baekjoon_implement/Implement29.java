@@ -13,23 +13,6 @@ public class Implement29 {
 		test10();
 	}
 	
-	// Shifty Sum
-	public static void test01() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		int N = Integer.parseInt(br.readLine());
-		int K = Integer.parseInt(br.readLine());
-		
-		long sum = N;
-		while(K --> 0) {
-			N = Integer.parseInt(N + "0");
-			sum += N;
-		}
-		
-		System.out.println(sum);
-		
-	}
 	
 	// Speed Limit 
 	public static void test02() throws IOException {
@@ -62,57 +45,6 @@ public class Implement29 {
 		System.out.print(sb);
 	}
 	
-	// Tarifa 
-	public static void test03() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		int X = Integer.parseInt(br.readLine());
-		int N = Integer.parseInt(br.readLine());
-		
-		long ans = 0;
-		while(N --> 0) {
-			int spend = Integer.parseInt(br.readLine());
-			ans += X;
-			ans = (ans - spend);
-		}
-		
-		System.out.println(ans + X);
-	}
-	
-	// 현대모비스와 함께하는 부품 관리
-	public static void test04() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		int T = Integer.parseInt(br.readLine());
-		
-		for(int start = 1; start <= T; start++) {
-			int N = Integer.parseInt(br.readLine());
-			st = new StringTokenizer(br.readLine());
-			int A = Integer.parseInt(st.nextToken());
-			int B = Integer.parseInt(st.nextToken());
-
-			sb.append("Material Management " + start + "\n");
-			
-			for(int i = 0; i < N; i++) {
-				st = new StringTokenizer(br.readLine());
-				
-				int size = Integer.parseInt(st.nextToken());
-				int weight = Integer.parseInt(st.nextToken());
-				
-				
-			}
-			
-			sb.append("Classification ---- End!" + "\n");
-		}
-		
-		sb.deleteCharAt(sb.length() - 1);
-		System.out.println(sb);
-				
-	}
 	
 	// Collatz Conjecture
 	public static void test05() throws IOException {
@@ -133,26 +65,6 @@ public class Implement29 {
 		System.out.println(sb);
 	}
 
-	// Harshad Numbers
-	public static void test06() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		int N = Integer.parseInt(br.readLine());
-		
-		for(long ans = N; ans < Long.MAX_VALUE; ans++) {
-			
-			int sum = 0;
-			for(int i = 0; i < (ans+"").length(); i++) 
-				sum += Character.getNumericValue((ans+"").charAt(i));
-			
-			
-			if(ans % sum == 0) {
-				System.out.println(ans);
-				return;
-			}
-		}
-		
-	}
 	
 	// Multiple Choice
 	public static void test07() throws IOException {
@@ -174,51 +86,7 @@ public class Implement29 {
 		
 	}
 
-	// Sharing Birthdays
-	public static void test08() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		int T = Integer.parseInt(br.readLine());
-		
-		Set<String> set = new HashSet<>();
-		for(int i = 0; i < T; i++) 
-			set.add(br.readLine());
-		
-		System.out.println(set.size());
-		
-	}
 	
-	// SAHUR & IMSA’
-	public static void test09() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		int T = Integer.parseInt(br.readLine());
-		
-		for(int i = 1; i <= T; i++) {
-			
-			sb.append("Case #" + i + ": ");
-			
-			st = new StringTokenizer(br.readLine());
-			int H = Integer.parseInt(st.nextToken());
-			int M = Integer.parseInt(st.nextToken());
-			
-			if(M - 45 < 0) {
-				
-				if(H - 1 < 0) sb.append(23 + " " + (M + 15));
-				else sb.append((H - 1) + " " + (M + 15));
-				
-			} else sb.append(H + " " + (M - 45));
-			
-			sb.append("\n");
-		}
-		
-		sb.deleteCharAt(sb.length() - 1);
-		
-		System.out.print(sb);
-	}
-
 	// Монетки 
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
