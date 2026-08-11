@@ -198,10 +198,6 @@ public class DataStructure13 {
 		
 	}
 	
-	// 4881번 - 자리수의 제곱
-	private static ArrayList<Node> list[];
-	
-	
 	// 1043번 - 거짓말
 	public static void test09() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
