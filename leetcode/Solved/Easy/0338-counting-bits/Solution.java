@@ -1,14 +1,17 @@
 class Solution {
     public int[] countBits(int n) {
 
-        int[] ans = new int[n + 1];
-      
-        for (int i = 0; i <= n; i++) {
+        
+        int[] answer = new int[n + 1];
 
-            ans[i] = Integer.bitCount(i);
+        if (n >= 0) answer[0] = 0;
+
+        for (int i = 1; i <= n; i++) {
+
+            answer[i] = answer[i / 2] + i % 2;
 
         }
-      
-        return ans;
+
+        return answer;
     }
 }
