@@ -27,7 +27,7 @@ class Solution {
             System.out.println();
 
         }
-        
+
         for (int i = 0; i < l; i++) {
             
             int prev = arr[i][0];
@@ -38,12 +38,12 @@ class Solution {
 
             for (int j = 2; j < n; j++) {
 
-                if (asc && prev <= now ) {
+                if (asc && prev > now ) {
                     ans++;
                     break;
                 }
 
-                else if (!asc && prev >= now) {
+                else if (!asc && prev < now) {
                     ans++;
                     break;
                 }
