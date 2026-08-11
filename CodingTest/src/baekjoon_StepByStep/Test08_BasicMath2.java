@@ -60,19 +60,6 @@ public class Test08_BasicMath2 {
 	}
 	
 	
-	// 골드바흐의 추측
-	public static void test06() {
-		Scanner sc = new Scanner(System.in);
-		
-		int testCase = sc.nextInt();
-		
-		for(int i = 0; i < testCase; i++) {
-			
-			int n = sc.nextInt();
-			check(n);
-		}
-		
-	}
 	// 소수 판별용 메서드
 	public static boolean isPrime(long n) {
 		
@@ -85,27 +72,6 @@ public class Test08_BasicMath2 {
         return true;
         
     }
-	
-	// 골드바흐 체크 검증용 메서드
-	public static void check(int n) {
-		
-		int first = n/2;
-		int second = n/2;
-		
-		while(true) {
-			
-			if(isPrime(first) && isPrime(second)) {
-				if(first + second == n) {
-					System.out.println(first + " " + second);
-					break;
-				}
-			} else {
-				first--;
-				second++;
-			}
-		}
-		
-	}
 	
 	
 }

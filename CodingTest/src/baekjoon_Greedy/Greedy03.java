@@ -9,25 +9,9 @@ import java.util.StringTokenizer;
 
 public class Greedy03 {
 	public static void main(String[] args) throws IOException {
-		test02();
+		test03();
 	}
 	
-	
-	// 반복
-	public static void test02() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String input = br.readLine();
-		int cnt = 1;
-		char cur = input.charAt(0);
-		
-		for (int i = 1; i < input.length(); i++) {
-			char next = input.charAt(i);
-			if(next - 'a' <= cur - 'a') cnt++;
-			cur = next;
-		}
-		
-		System.out.println(cnt);
-	}
 	
 	//  가위 바위 보
 	private static int totalWin;
@@ -81,43 +65,5 @@ public class Greedy03 {
 		return roundWin;
 	}
 	
-	// 카약과 강풍
-	public static void test04() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		
-		int N = Integer.parseInt(st.nextToken());
-		int S = Integer.parseInt(st.nextToken());
-		int R = Integer.parseInt(st.nextToken());
-		
-		boolean[] broken = new boolean[N];
-		
-		st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < S; i++) 
-			broken[Integer.parseInt(st.nextToken()) - 1] = true;
-
-		st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < R; i++) {
-			
-			int target = Integer.parseInt(st.nextToken()) - 1;
-			
-			if(broken[target]) broken[target] = false;
-			else {
-				if(target != 0 && target != N - 1) {
-					if(broken[target - 1]) broken[target - 1] = false;
-					else broken[target + 1] = false;
-				}
-				else if(target == 0) broken[target + 1] = false;
-				else if(target == N- 1) broken[target - 1] = false;
-			}
-		}
-		
-		int cnt = 0;
-		for (boolean b : broken) 
-			if(b) cnt++;
-		
-		System.out.println(cnt);
-	}
     
-	
 }
