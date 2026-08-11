@@ -42,20 +42,5 @@ public class Implement06 {
 		System.out.println(sum);
 	}
 	
-	// ISBN 
-	public static void test03() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int A  = Integer.parseInt(br.readLine());
-		int B  = Integer.parseInt(br.readLine());
-		int C  = Integer.parseInt(br.readLine());
-		int sum = 120 - 29;
-		
-		sum += A;
-		sum += B*3;
-		sum += C;
-		
-		System.out.println("The 1-3-sum is " + sum);
-	}
-	
 	
 }

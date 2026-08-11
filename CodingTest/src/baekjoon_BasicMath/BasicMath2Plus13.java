@@ -93,18 +93,5 @@ public class BasicMath2Plus13 {
        
    }
    
-   //영수증
-   public static void test09() throws IOException {
-      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-      int sumMoney = Integer.parseInt(br.readLine());
-      for(int i = 0; i < 9; i++) {
-    	  
-    	  sumMoney -= Integer.parseInt(br.readLine());
-      }
-      
-      System.out.println(sumMoney);
-      
-   }
    
-
 }

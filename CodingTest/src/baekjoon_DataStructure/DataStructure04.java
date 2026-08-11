@@ -18,76 +18,9 @@ import java.util.StringTokenizer;
 
 public class DataStructure04 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test02();
+		test04();
 	}
 	
-	
-	// Lamp
-	public static void test02() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int L = Integer.parseInt(st.nextToken());
-		int G = Integer.parseInt(st.nextToken());
-		int R = Integer.parseInt(st.nextToken());
-		
-		Map<String, List<Integer>> map = new HashMap<>();
-		for(int i = 0; i < G; i++) {
-			st = new StringTokenizer(br.readLine(), " ");
-			String name = st.nextToken();
-			int a = Integer.parseInt(st.nextToken());
-			int d = Integer.parseInt(st.nextToken());
-			List<Integer> lampList = new ArrayList<>();
-			while(a <= L) {
-				lampList.add(a);
-				a += d;
-			}
-			map.put(name, lampList);
-		}
-		
-		System.out.println("MAP : " + map);
-		
-		Map<String, Integer> patrolMap = new HashMap<>();
-		for(int i = 0; i < R; i++) {
-			String name = br.readLine();
-			patrolMap.put(name, patrolMap.getOrDefault(name, 0) +1);
-		}
-		
-		System.out.println("PM : " + patrolMap);
-		
-		Iterator<String> iter = patrolMap.keySet().iterator();
-		while(iter.hasNext()) {
-			String key = iter.next();
-			if(patrolMap.get(key) % 2 == 0) {
-				map.remove(key);
-			}
-		}
-		System.out.println("AFTER MAP : " + map);
-		
-		Map<Integer, Integer> dupCheck = new HashMap<>();
-		for(String key : map.keySet()) {
-			for(int i = 0; i < map.get(key).size(); i++) {
-				dupCheck.put(map.get(key).get(i), dupCheck.getOrDefault(map.get(key).get(i), 0) + 1);
-			}
-		}
-		
-		System.out.println("LIST : " + dupCheck);
-		
-		Iterator<Integer> iter2 = dupCheck.keySet().iterator();
-		while(iter2.hasNext()) {
-			Integer key = iter2.next();
-			System.out.println(key);
-			System.out.println(dupCheck);
-			if(dupCheck.get(key) % 2 == 0) {
-				dupCheck.remove(key);
-				System.out.println(dupCheck);
-				continue;
-			}
-		}
-		System.out.println(dupCheck);
-		System.out.println(dupCheck.size());
-		
-	}
-
 	
 	// Banana
 	public static void test04() throws NumberFormatException, IOException {

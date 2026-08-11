@@ -69,44 +69,5 @@ public class Test02_ConditionalStatement {
         } 
 	}
 	
-	// 알람 시계
-	public static void test05(){
-		Scanner sc = new Scanner(System.in);
-		int a, b;
-		a = sc.nextInt();
-		b = sc.nextInt();
-		
-		if(b >= 45) {
-			System.out.println(a + " " + (b-45));
-		} else if(a == 1) {
-			System.out.println(0 + " " + (b+15));
-		} else if(a < 1) {
-			System.out.println(23 + " " + (b+15));
-		} else {
-			System.out.println((a - 1) + " " + (b+15));
-		}
-	}
-	
-	
-	// 주사위 세개
-	public static void test07(){
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int c = sc.nextInt();
-		
-		if(a == b && b == c) {
-			System.out.println(10000 + (a * 1000));
-		} else if(a != b && b != c && a != c) {
-			System.out.println((Math.max(a, Math.max(b, c)) * 100));
-		} else if(a != b && b == c) {
-			System.out.println(1000 + (b * 100));
-		} else if(a != c && a == b) {
-			System.out.println(1000 + (b * 100));
-		} else if(a == c && b != a){
-            System.out.println(1000 + (a * 100));
-        }
-		
-	}
 	
 }

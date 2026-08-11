@@ -75,21 +75,5 @@ public class StringPlus02 {
 		System.out.println(sb);
 	}
 
-	// 접미사 배열
-	public static void test09() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder S = new StringBuilder( br.readLine());
-		List<String> SList = new ArrayList<>();
-
-		while(S.length() != 0) {
-			SList.add(S.toString());
-			S.deleteCharAt(0);
-		}
-
-		Collections.sort(SList);
-		for (String string : SList) {
-			System.out.println(string);
-		}
-	}
 	
 }

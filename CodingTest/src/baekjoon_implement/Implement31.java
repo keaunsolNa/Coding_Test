@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class Implement31 {
 
 	public static void main(String[] args) throws IOException {
-		test10();
+		test06();
 	}
 	
 
@@ -83,47 +83,6 @@ public class Implement31 {
 		
 		sb.deleteCharAt(sb.length() - 1);
 		System.out.print(sb);
-	}
-	
-	// 카드
-	public static void test08() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		int N = Integer.parseInt(br.readLine());
-		
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		int[] arr = new int[N];
-		for(int i = 0; i < N; i++) arr[i] = Integer.parseInt(st.nextToken());
-		
-		Arrays.sort(arr);
-		
-		long ans = 0;
-		for(int i = 0; i < N - 1; i++) ans += arr[i];
-		
-		System.out.println(ans);
-	}
-	
-
-	// Statistics 
-	public static void test10() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
-		
-		int T = Integer.parseInt(br.readLine());
-		
-		int prev = Integer.parseInt(br.readLine());
-		int ans = 0;
-		T--;
-		while(T --> 0) {
-			
-			int now = Integer.parseInt(br.readLine());
-			
-			if(prev < now) ans += (now - prev);
-			else prev = now;
-		}
-		
-		System.out.println(ans);
 	}
 	
 	

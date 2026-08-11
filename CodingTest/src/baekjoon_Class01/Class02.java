@@ -257,40 +257,6 @@ public class Class02 {
 	}
 	
 		
-	// 괄호
-	public static void test26() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		
-		for(int i = 0; i < T; i++) {
-			String s = br.readLine();
-			String answer = "NO";
-	        Deque<Character> deque = new LinkedList<>();
-	        char[] charArray = s.toCharArray();
-	        
-	        for (char c : charArray) {
-	        	if(c == '(') {
-	        		deque.add(c);
-	        	} else if(c == ')') {
-	        		if(deque.size() == 0) {
-	        			answer = "NO";
-	        			deque.add('N');
-	        			break;
-	        		} else {
-	        			deque.poll();
-	        		}
-	        	}
-			}
-	        
-	        if(deque.size() == 0) {
-	        	answer = "YES";
-	        }
-	        
-	        System.out.println(answer);
-		}
-	}
-	
-
 	// 수자 카드 2
 	public static void test30() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

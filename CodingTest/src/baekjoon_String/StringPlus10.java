@@ -72,27 +72,6 @@ public class StringPlus10 {
  	}
 
 
-	// 닉네임에 갓 붙이기
-	public static void test07() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		
-		for(int i = 0; i < N; i++) {
-			StringBuilder sb = new StringBuilder();
-			String[] nickName = br.readLine().split(" ");
-			sb.append("god");
-			
-			for(int j = 1; j < nickName.length; j++) {
-				sb.append(nickName[j]);
-			}
-			
-			sb.append("\n");
-			System.out.print(sb);
-			
-		}
-	}
-	
-	
 	// 사칙연산
 	public static void test10() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

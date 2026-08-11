@@ -4,11 +4,6 @@ import java.util.Scanner;
 
 public class Test01_IOAndArithmeticOperation {
 
-	// Hello World
-	public static void test01() {
-		System.out.println("Hello World!");
-	}
-	
 	
 	// A + B
 	public static void test03(){

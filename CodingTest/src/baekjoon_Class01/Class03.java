@@ -126,25 +126,7 @@ public class Class03 {
         }
     }
     
-    // 1389번 - 케빈 베이컨의 6단계 법칙
-    public static void test06() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		st = new StringTokenizer(br.readLine());
-		
-		N = Integer.parseInt(st.nextToken());
-		M = Integer.parseInt(st.nextToken());
-		
-		for(int i = 0; i < M; i++) {
-			st = new StringTokenizer(br.readLine());
-			
-			int A = Integer.parseInt(st.nextToken());
-			int B = Integer.parseInt(st.nextToken());
-			
-		}
-    }
     
-
     // 
     public static void test07() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

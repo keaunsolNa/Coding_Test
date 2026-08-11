@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class Test09_TwoDimensionalArray {
 
 	public static void main(String[] args) throws IOException {
-		test03();
+		test01();
 	}
 	
 	// 행렬 덧셈
@@ -64,32 +64,4 @@ public class Test09_TwoDimensionalArray {
 		System.out.println((maxX+1) + " " + (maxY+1));
 	}
 	
-	// 색종이
-	public static void test03() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int answer = 0;
-		int[][] board = new int[100][100];
-		int N = Integer.parseInt(br.readLine());
-		
-		for (int t = 0; t < N; t++) {
-			
-			StringTokenizer st = new StringTokenizer(br.readLine()," ");
-			int r = Integer.parseInt(st.nextToken());
-			int c = Integer.parseInt(st.nextToken());
-			
-			for (int i = r; i < r+10; i++) {
-				
-				for (int j = c; j < c+10; j++) {
-					
-					if(i >= 100 || j >= 100)continue;
-					if(board[i][j] != 0)continue;
-					board[i][j] = 1;
-					answer++;
-					
-				}
-			}
-		}
-		
-		System.out.println(answer);
-	}
 }

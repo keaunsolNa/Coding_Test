@@ -44,44 +44,6 @@ public class Test03_Iteration {
 		System.out.println(result);
 	}
 	
-	// 영수증
-	public static void test04(){
-		Scanner sc = new Scanner(System.in);
-		int totalCount, amount;
-		totalCount = sc.nextInt();
-		amount = sc.nextInt();
-		
-		for(int i = 1; i <= amount; i++) {
-			totalCount -= (sc.nextInt() * sc.nextInt());
-		}
-		
-		if(totalCount == 0) {
-			System.out.println("Yes");
-		} else {
-			System.out.println("No");
-		}
-	}
-	
-	// 빠른 A + B
-	public static void test05() throws IOException {
-		
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		int a = Integer.parseInt(br.readLine());
-		
-		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
-		
-		for(int i = 1; i <= a; i++) {
-			st = new StringTokenizer(br.readLine()," ");
-			sb.append(Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken())).append('\n');
-		}
-		
-		br.close();
-		
-		System.out.println(sb.toString());
-	}
-	
 	
 	// 별 찍기 - 1
 	public static void test08(){

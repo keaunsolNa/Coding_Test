@@ -9,63 +9,12 @@ import java.util.StringTokenizer;
 public class Test22_DivideAndConquer {
 
 	public static void main(String[] args) throws IOException {
-		test01();
+		test02();
 	}
 
 	// 색종이 만들기
 	private static int[][] board;
-	private static int blue = 0;
-	private static int white = 0;
-	public static void test01() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		int N = Integer.parseInt(br.readLine());
-		
-		// 최초의 사각형
-		board = new int[N][N];
-		for(int i = 0; i < N; i++) {
-			
-			st = new StringTokenizer(br.readLine());
-			for(int j = 0; j < N; j++) 
-				board[i][j] = Integer.parseInt(st.nextToken());
-			
-		}
-		
-		// 분할 시작(N사이즈의 0, 0에서 시작)
-		divide(0, 0, N);
 
-		System.out.println(white);
-		System.out.println(blue);
-	}
-
-	// 분할 알고리즘
-	private static void divide(int row, int col, int size) {
-		
-		// 모든 row와 col이 size 안에서 같다면 해당 색++
-		if(check(row, col, size)) {
-			
-			if(board[row][col] == 0) white++;
-			else blue++;
-			
-			return;
-		}
-		
-		// row와 col에 다른 색이 있다면 사이즈 분할
-		int newSize = size / 2;	
-		
-		// 1사분면 재귀호출
-		divide(row, col + newSize, newSize);				
-		
-		// 2사분면 재귀호출
-		divide(row, col, newSize);						
-		
-		// 3사분면 재귀호출
-		divide(row + newSize, col, newSize);				
-		
-		// 4사분면 재귀호출
-		divide(row + newSize, col + newSize, newSize);
-		
-	}
 	
 	// 주어진 사분면 안에서 row와 col 일치하는지 check
 	private static boolean check(int row, int col, int size) {
@@ -187,30 +136,7 @@ public class Test22_DivideAndConquer {
 	
 	// 이항 계수 3
 	private static int MOD = 1000000007;
-	public static void test05() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		long N = Long.parseLong(st.nextToken());
-		long K = Long.parseLong(st.nextToken());
-		
-		long numerator  = factorial(N);
-		
-		long denominator = factorial(K) * factorial(N - K) % MOD;	
 	
-		System.out.println(numerator  * pow(denominator, MOD - 2) % MOD);
-		
-	}
-	
-	public static long factorial(long N) {
-		long fac = 1;
-		
-		while(N > 1) {
-			fac = (fac * N) % MOD;
-			N--;
-		}
-		
-		return fac;
-	}
 	
 	public static long pow(long base, long exponent) {
 		
