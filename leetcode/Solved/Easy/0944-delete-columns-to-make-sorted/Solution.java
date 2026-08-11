@@ -27,14 +27,12 @@ class Solution {
                 ans++;
                 continue;
             }
-            
+
             prev = now;
 
             for (int j = 2; j < n; j++) {
                 
                 now  = arr[i][j];
-                System.out.println(prev + " " + now);
-                
                 if (prev > now ) {
                     ans++;
                     break;
