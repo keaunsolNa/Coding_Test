@@ -38,8 +38,6 @@ class Solution {
             for (int j = 2; j < n; j++) {
                 
                 System.out.println(prev + " " + now);
-
-                now  = arr[i][j];
                 
                 if (asc && prev > now ) {
                     ans++;
@@ -52,6 +50,8 @@ class Solution {
                 }
 
                 prev = now;
+                now  = arr[i][j];
+
             }
         }
 
