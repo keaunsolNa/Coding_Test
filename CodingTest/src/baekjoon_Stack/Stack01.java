@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class Stack01 {
 
 	public static void main(String[] args) throws IOException {
-		test10();
+		test02();
 	}
 	
 	
@@ -58,50 +58,4 @@ public class Stack01 {
 	}
 
 	
-	// 1918번 - 후위 표기식
-	public static void test10() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
-        Stack<Character> stk = new Stack<>();
-        
-        int[] oper = new int[50];
-        oper['*'] = 1;
-        oper['/'] = 1;
-        oper['('] = -1;
-        oper[')'] = -1;
-        
-        String s = br.readLine();
-        
-        for (int i = 0; i < s.length(); i++) {
-        	
-            char c = s.charAt(i);
-            
-            if (c >= 'A') {
-                sb.append(c);
-                continue;
-            }
-            
-            if (c == '(') {
-                stk.add(c);
-                continue;
-            }
-            
-            if (c == ')') {
-            	
-                while (stk.peek() != '(') sb.append(stk.pop());
-                stk.pop();
-                continue;
-            }
-            
-            while (!stk.isEmpty() && oper[stk.peek()] >= oper[c]) sb.append(stk.pop());
-            stk.add(c);
-            
-        }
-        
-        while (!stk.isEmpty()) sb.append(stk.pop());
-        
-        System.out.println(sb);
-	}
-	
-
 }

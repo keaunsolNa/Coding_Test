@@ -67,28 +67,6 @@ public class Implement25 {
 	}
 	
 	
-	// Time Limits
-	public static void test06() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		st = new StringTokenizer(br.readLine());
-		int n = Integer.parseInt(st.nextToken());
-		int s = Integer.parseInt(st.nextToken());
-		
-		int[] arr = new int[n];
-		st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < n; i++) arr[i] = Integer.parseInt(st.nextToken());
-		
-		Arrays.sort(arr);
-		
-		int mileTime = arr[arr.length-1] * s;
-		
-		if(mileTime % 1000 == 0) System.out.println(mileTime / 1000);
-		else System.out.println(mileTime / 1000 + 1);
-	}
-	
 	// Gift
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

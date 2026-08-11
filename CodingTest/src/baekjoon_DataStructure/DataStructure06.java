@@ -20,38 +20,10 @@ import java.util.TreeMap;
 
 public class DataStructure06 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test05();
+		test06();
 	}
 	
 	
-	// 카드
-	public static void test05() throws NumberFormatException, IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
-        Map<Long, Integer> map = new TreeMap<>();
-        
-        for(int i = 0; i < n; i++) {
-        	Long num = Long.parseLong(br.readLine());
-            map.put(num, map.getOrDefault(num,0) + 1);
-        }
-
-        int max = 0;
-        Long target = (long) 0;
-        for (Long key : map.keySet()) {
-			
-        	if(map.get(key) > max) {
-        		max = map.get(key);
-        		target = key;
-        	} else if(map.get(key) == max) {
-        		if(target > key) {
-        			target = key;
-        		}
-        	}
-		}
-        
-		System.out.println(target);
-	}
-
 	// 행운의 수
 	public static void test06() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

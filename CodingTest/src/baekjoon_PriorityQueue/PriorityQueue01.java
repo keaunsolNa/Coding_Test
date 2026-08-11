@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
 public class PriorityQueue01 {
 
 	public static void main(String[] args) throws IOException {
-		test10();
+		test07();
 	}
 	
 	
@@ -40,30 +40,6 @@ public class PriorityQueue01 {
 	}
 	
 	
-	// 1715번 - 카드 정렬하기
-	public static void test03() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-		int N = Integer.parseInt(br.readLine());
-		
-		PriorityQueue<Long> pq = new PriorityQueue<>();
-		for(int i = 0; i < N; i++) {
-			pq.add(Long.parseLong(br.readLine()));
-		}
-		
-		long ans = 0;
-		while(pq.size() > 1) {
-			long temp1 = pq.poll();
-			long temp2 = pq.poll();
-			
-			ans += temp1 + temp2;
-			pq.add(temp1 + temp2);
-		}
-		
-		System.out.println(ans);
-	}
-	
-
 	// 2359번 - 밥
 	public static void test07() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -110,78 +86,5 @@ public class PriorityQueue01 {
 		System.out.println(ans);
 	}
 	
-	
-	// 22254번 - 공정 컨설턴트 호석
-	private static int[] present;
-	public static void test09() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		
-		int N = Integer.parseInt(st.nextToken());
-		int X = Integer.parseInt(st.nextToken());
-		
-		present = new int[N + 1];
-		
-		st = new StringTokenizer(br.readLine());
-		for(int i = 1; i <= N; i++) present[i] = Integer.parseInt(st.nextToken());
-
-		int left = 1;
-		int right = N;
-		
-		while(left <= right) {
-			int mid = (left + right) /2;
-			
-			if(check(mid, X, N)) right = mid - 1; 
-			else left = mid + 1;
-			
-		}
-		
-		System.out.println(left);
-
-	}
-	
-    public static boolean check(int mid, int X, int N) {
-        PriorityQueue<Integer> que = new PriorityQueue<>();
-        
-        for(int i = 0; i < mid; i++) que.add(0);
- 
-        for(int i = 1; i <= N; i++) {
-        	
-            int time = que.poll();
-            if(time + present[i] > X) return false;
-            que.offer(time + present[i]);
-        }
-
-        return true;
-    }
-    
-	// 27896번 - 특별한 서빙
-	public static void test10() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		int N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
-		
-		PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
-		int ans = 0;
-		st = new StringTokenizer(br.readLine());
-		
-		for(int i, s = 0; N --> 0;) {
-			
-			i = Integer.parseInt(st.nextToken());
-			pq.add(i);
-			s += i;
-			
-			while(s >= M) {
-				ans++;
-				s -= pq.poll() * 2;
-			}
-		}
-		
-		System.out.println(ans);
-		
-		
-	}
 	
 }

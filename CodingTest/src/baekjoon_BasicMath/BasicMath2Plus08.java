@@ -14,21 +14,6 @@ public class BasicMath2Plus08 {
 	}
 	
 	
-	// 試験 (Exam)
-	public static void test04() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int[] arr = new int[3];
-		for(int i = 0; i < 3; i++) {
-			arr[i] = Integer.parseInt(st.nextToken());
-		}
-		
-		Arrays.sort(arr);
-		
-		System.out.println(arr[1]+arr[2]);
-	}
-	
-
 //	ICPC 
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

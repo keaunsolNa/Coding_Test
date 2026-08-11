@@ -70,31 +70,5 @@ public class Implement11 {
 		System.out.println(max);
 	}
 	
-	// ABC
-	public static void test08() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] temp = br.readLine().split(" ");
-        int array[] = new int[3];
-        array[0] = Integer.parseInt(temp[0]);
-        array[1] = Integer.parseInt(temp[1]);
-        array[2] = Integer.parseInt(temp[2]);
-        
-        Arrays.sort(array);
-        
-        String ABC = br.readLine();
-
-        for(int i = 0; i < 3; i++) {
-        	char c = ABC.charAt(i);
-        	
-        	if(c == 'A') {
-        		System.out.print(array[0] + " ");
-        	} else if(c == 'B') {
-        		System.out.print(array[1] + " ");
-        	} else if(c == 'C') {
-        		System.out.print(array[2] + " ");
-        	}
-        }
-	}
-	
 	
 }
