@@ -67,38 +67,5 @@ public class GraphTheory02 {
 		}
 		
 	}
-	
-	
-	// 10026번 - 적록색약
-    private static int[] dy = {-1, 1, 0, 0};
-    private static int[] dx = {0, 0, -1, 1};
-    private static int N;
-    private static char[][] map;
-	
-	private static void dfs(int y, int x, boolean[][] visit, char ch) {
-		
-		visit[y][x] = true;
 
-		for (int k = 0; k < 4; k++) {
-	    
-			int ny = y + dy[k];
-			int nx = x + dx[k];
-
-			if (ny < 0 || nx < 0 || ny >= N || nx >= N || visit[ny][nx] || map[ny][nx] != ch) continue;
-
-			dfs(ny, nx, visit, ch);
-	        
-		}
-	    
-	}
-	
-	
-	// 
-	public static void test06() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-	}
-	
-	
 }
