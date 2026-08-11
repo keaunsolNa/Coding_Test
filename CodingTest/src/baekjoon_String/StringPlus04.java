@@ -83,30 +83,4 @@ public class StringPlus04 {
 	}
 	
 	
-	// 개표
-	public static void test10() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int people = Integer.parseInt(br.readLine());
-		String str = br.readLine();
-		
-		int a = 0;
-		int b = 0;
-		for(int i = 0; i < str.length(); i++) {
-			if(str.charAt(i) == 'A') {
-				a++;
-			} else {
-				b++;
-			}
-		}
-		
-		if(a > b) {
-			System.out.println("A");
-		} else if(a < b) {
-			System.out.println("B");
-		} else {
-			System.out.println("Tie");
-		}
-		
-	}
-	
 }

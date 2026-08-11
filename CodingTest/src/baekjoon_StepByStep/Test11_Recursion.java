@@ -12,7 +12,6 @@ public class Test11_Recursion {
 	private static int K;
 	private static int answer = -1;
 	private static int[] sorted;
-	private static List<int[]> hanoiList = new ArrayList<>();
 
 	// 팩토리얼
 	public static void test01() throws NumberFormatException, IOException {
@@ -26,25 +25,6 @@ public class Test11_Recursion {
 		
 		if(n < 2) return 1;
 		return n*factorial(n-1);
-	}
-	
-	// 피보나치 수
-	public static void test02() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());
-		System.out.println(fibonacci(n));
-	}
-	
-	// 피보나치 수 재귀 메소드
-	public static int fibonacci(int n) {
-		if(n < 2)return n;
-		int f0 = 0, f1 = 1, f2 = 1;
-		for(int i = 2; i < n; i++) {
-			f0 = f1;
-			f1 = f2;
-			f2 = f1 + f0;
-		}
-		return f2;
 	}
 	
 	
@@ -123,46 +103,4 @@ public class Test11_Recursion {
 	}
 
 	
-	// 하노이 탑 이동 순서
-	public static void test06() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		
-		hanoi(N, 1, 2, 3);
-		int[][] answer = new int[hanoiList.size()][];
-		 
-        for (int i = 0; i < hanoiList.size(); i++) {
-        	answer[i] = hanoiList.get(i);
-		}
-        StringBuilder sb = new StringBuilder();
-        sb.append(hanoiList.size()).append("\n");
-        for (int[] is : answer) {
-			for (int is2 : is) {
-				sb.append(is2).append(" ");
-			}
-			sb.append("\n");
-		}
-        
-        System.out.println(sb);
-	}
-	
-	// 하노이 탑 이동 순서 정렬 메서드
-	public static void hanoi(int n, int one, int two, int three) {
-		if(n == 1) toArray(one, three);
-		else {
-			hanoi(n-1, one, three, two);
-			toArray(one, three);
-			hanoi(n-1, two, one, three);
-		}
-	}
-	
-	// 하노이 탑 이동 후 List에 add하는 메서드
-	public static void toArray(int one, int two) {
-		int[] temp = new int[2];
-		temp[0] = one;
-		temp[1] = two;
-		hanoiList.add(temp);
-	}
-	
-
 }
