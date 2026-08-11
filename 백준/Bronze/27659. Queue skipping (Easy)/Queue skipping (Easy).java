@@ -1,5 +1,3 @@
-package baekjoon_DataStructure;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,14 +14,12 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
-public class DataStructure13 {
+public class Main {
 
-	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		test01();
 	}
 
-	// 27659번 - Queue skipping (Easy)
 	public static void test01() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
@@ -50,6 +46,4 @@ public class DataStructure13 {
 		}
 		
 	}
-	
-	
 }

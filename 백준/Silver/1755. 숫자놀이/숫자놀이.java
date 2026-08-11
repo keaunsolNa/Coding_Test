@@ -1,5 +1,3 @@
-package baekjoon_String;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,14 +6,12 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class StringPlus33 {
-	
+public class Main {
+
 	public static void main(String[] args) throws IOException {
 		test10();
 	}
 
-	
-	// 1755qjs - 숫자놀이
 	public static void test10() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -44,7 +40,7 @@ public class StringPlus33 {
         }
 		
 	}
-	
+
 	private static class Word implements Comparable<Word>{
 		int num;
 		String str;
@@ -60,5 +56,4 @@ public class StringPlus33 {
 		}
 		
 	}
-	
 }

@@ -1,11 +1,11 @@
-package baekjoon_StepByStep;
-
 import java.util.Scanner;
 
-public class Test02_ConditionalStatement {
+public class Main {
 
-	
-	// 사분면 고리기
+	public static void main(String[] args) {
+		test04();
+	}
+
 	public static void test04(){
 		Scanner sc = new Scanner(System.in);
 		int a, b;
@@ -22,6 +22,4 @@ public class Test02_ConditionalStatement {
         	System.out.println(4);
         } 
 	}
-	
-	
 }
