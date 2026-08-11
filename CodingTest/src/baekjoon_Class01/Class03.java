@@ -59,6 +59,7 @@ public class Class03 {
     }
     
     // 1260번 - DFS와 BFS
+    private static int M, N;
     private static int[][] graph;
     private static boolean visited[];
     private static int V;
