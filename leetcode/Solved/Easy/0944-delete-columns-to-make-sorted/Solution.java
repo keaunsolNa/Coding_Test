@@ -10,15 +10,26 @@ class Solution {
         for (String str : strs) {
             
             int prev = str.charAt(0) - 'a';
+            int now = str.charAt(1) - 'a';
+            boolean asc = prev <= now;
 
-            for (int i = 1; i < str.length(); i++) {
+            prev = now;
+
+            for (int i = 2; i < str.length(); i++) {
                 
-                int now = str.charAt(i) - 'a';
+                now = str.charAt(i) - 'a';
 
-                if (prev > now) {
+                if (asc && prev > now) {
                     ans++;
                     break;
                 }
+
+                else if (!asc && prev < now) {
+                    ans++;
+                    break;
+                }
+
+                prev = now;
             }
         }       
 
