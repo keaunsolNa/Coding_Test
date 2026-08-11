@@ -32,7 +32,6 @@ class Solution {
             
             int prev = arr[i][0];
             int now = arr[i][1];
-            boolean asc = prev <= now;
             prev = now;
 
             for (int j = 2; j < n; j++) {
@@ -40,12 +39,7 @@ class Solution {
                 now  = arr[i][j];
                 System.out.println(prev + " " + now);
                 
-                if (asc && prev > now ) {
-                    ans++;
-                    break;
-                }
-
-                else if (!asc && prev < now) {
+                if (prev > now ) {
                     ans++;
                     break;
                 }
