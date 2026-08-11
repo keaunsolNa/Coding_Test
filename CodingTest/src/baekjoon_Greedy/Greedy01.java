@@ -11,73 +11,9 @@ import java.util.StringTokenizer;
 
 public class Greedy01 {
 	public static void main(String[] args) throws IOException {
-		test01();
+		test07();
 	}
 	
-	// 전자레인지
-	public static void test01() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-		int time  = Integer.parseInt(br.readLine());
-		
-		StringBuilder sb = new StringBuilder();
-
-		if(time%10 != 0) {
-			System.out.println(-1);
-		} else {
-			int a = time/300;
-			time = time%300;
-			int b = time/60;
-			time = time%60;
-			int c = time/10;
-
-			System.out.println(a + " " + b + " " + c);
-		}
-		
-	}
-	
-	
-	// 거스름돈
-	public static void test04() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int pay = Integer.parseInt(br.readLine());
-		
-		int charge = 1000-pay;
-		int cnt = 0;
-		
-		if(charge/500 > 0) {
-			cnt += charge/500;
-			charge %= 500;
-		}
-		
-		if(charge/100 > 0) {
-			cnt += charge/100;
-			charge %= 100;
-		}
-		
-		if(charge/50 > 0) {
-			cnt += charge/50;
-			charge %= 50;
-		}
-
-		if(charge/10 > 0) {
-			cnt += charge/10;
-			charge %= 10;
-		}
-		
-		if(charge/5 > 0) {
-			cnt += charge/5;
-			charge %= 5;
-		}
-		
-		if(charge/1 > 0) {
-			cnt += charge/1;
-			charge %= 1;
-		}
-		
-		System.out.println(cnt);
-	}
-
 	
 	// Holes 
 	public static void test07() throws IOException{

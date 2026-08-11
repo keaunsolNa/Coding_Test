@@ -46,47 +46,6 @@ public class Implement29 {
 	}
 	
 	
-	// Collatz Conjecture
-	public static void test05() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		
-		int N = Integer.parseInt(br.readLine());
-		
-		sb.append(N + " ");
-		while(N != 1) {
-			
-			if(N % 2 == 0) N /= 2;
-			else N = (N * 3) + 1;
-
-			sb.append(N + " ");
-		}
-
-		System.out.println(sb);
-	}
-
-	
-	// Multiple Choice
-	public static void test07() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		int T = Integer.parseInt(br.readLine());
-		
-		String[] stu = new String[T];
-		for(int i = 0; i < T; i++) stu[i] = br.readLine();
-		
-		String[] ans = new String[T];
-		for(int i = 0; i < T; i++) ans[i] = br.readLine();
-		
-		int corect = 0;
-		for(int i = 0; i < T; i++) 
-			if(stu[i].equals(ans[i])) corect++;
-		
-		System.out.println(corect);
-		
-	}
-
-	
 	// Монетки 
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -16,31 +16,6 @@ public class StringPlus20 {
 	}
 
 	
-	// 해밍 거리
-	public static void test05() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		
-		int T = Integer.parseInt(br.readLine());
-		
-		while(T --> 0) {
-			String A = br.readLine();
-			String B = br.readLine();
-			String answer = "Hamming distance is ";
-			int chk = 0;
-			for(int i = 0; i < A.length(); i++) {
-				
-				if(A.charAt(i) != B.charAt(i)) chk++;
-			}
-			
-			answer += chk + ".";
-			
-			System.out.println(answer);
-		}
-		
-	}
-	
-
     // Ресторан
 	public static void test10() throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
