@@ -71,10 +71,6 @@ public class Class01 {
 		Math.pow(Integer.parseInt(st.nextToken()), 2) + Math.pow(Integer.parseInt(st.nextToken()), 2) + Math.pow(Integer.parseInt(st.nextToken()), 2))%10);
 	}
 	
-	// Hello World!
-	public static void test11() {
-		System.out.println("Hello World!");
-	}
 	
 	// 최댓값
 	public static void test12() throws IOException {
@@ -118,25 +114,6 @@ public class Class01 {
 		}
 	}
 
-
-	// 알람 시계
-	public static void test19() {
-        Scanner sc = new Scanner(System.in);
-		int a, b;
-		a = sc.nextInt();
-		b = sc.nextInt();
-		
-		if(b >= 45) {
-			System.out.println(a + " " + (b-45));
-		} else if(a == 1) {
-			System.out.println(0 + " " + (b+15));
-		} else if(a < 1) {
-			System.out.println(23 + " " + (b+15));
-		} else {
-			System.out.println((a - 1) + " " + (b+15));
-		}
-	}
-	
 
 	// 나머지
 	public static void test22() throws IOException {
