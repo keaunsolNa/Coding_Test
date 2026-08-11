@@ -91,22 +91,6 @@ public class Test01_IOAndArithmeticOperation {
 		System.out.println(a*Integer.parseInt(b));
 	}
 	
-	// 고양이
-	public static void test13(){
-		System.out.println("\\    /\\");
-		System.out.println(" )  ( ')");
-		System.out.println("(  /  )");
-		System.out.println(" \\(__)|");
-	}
-	
-	// 개
-	public static void test14(){
-		System.out.println("|\\_/|");
-		System.out.println("|q p|   /}");
-		System.out.println("( 0 )\"\"\"\\");
-		System.out.println("|\"^\"`    |");
-		System.out.println("||_/=\\\\__|");
-	}
 	
 	// 새싹
 	public static void test15(){

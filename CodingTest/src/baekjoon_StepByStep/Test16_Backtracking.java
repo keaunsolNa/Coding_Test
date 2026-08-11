@@ -53,7 +53,7 @@ public class Test16_Backtracking {
         for (int i = 0; i < n; i++) {
         	
             if (q[i] == q[n]) return false;   // 같은 열
-            if ((q[i] - q[n]) == (n - i)) return false;   // '\' 방향
+            if ((q[i] - q[n]) == (n - i)) return false;   // '\\' 방향
             if ((q[n] - q[i]) == (n - i)) return false;   // '/' 방향
             
         }
@@ -152,61 +152,6 @@ public class Test16_Backtracking {
  
 		return true; // 중복되는 것이 없을 경우 true 반환
 	}
-
-	//연산자 끼워넣기
-	private static int numbers[];
-	private static int operator[];
-	private static int MAX = -1000000000;
-	private static int MIN = 1000000000;
-	public static void test07() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		N = Integer.parseInt(br.readLine());
-		numbers = new int[N];
-		operator = new int[4];
-		
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		for(int i = 0; i < N; i++) {
-			numbers[i] = Integer.parseInt(st.nextToken());
-		}
-		
-		st = new StringTokenizer(br.readLine(), " ");
-		for(int i = 0; i < 4; i++) {
-			operator[i] = Integer.parseInt(st.nextToken());
-		}
-		
-		operatorDfs(numbers[0], 1);
-		
-		System.out.println(MAX);
-		System.out.println(MIN);
-	}
-	
-	// 연산자 끼워넣기 DFS Method
- 	public static void operatorDfs(int num, int idx) {
-		if(idx == N) {
-			MAX = Math.max(MAX, num);
-			MIN = Math.min(MIN, num);
-			return;
-		}
-		
-		for(int i = 0; i < 4; i++) {
-			
-			if(operator[i] > 0) {
-				
-				operator[i]--;
-				
-				switch(i) {
-				
-				case 0 : operatorDfs(num + numbers[idx], idx +1); break;
-				case 1 : operatorDfs(num - numbers[idx], idx +1); break;
-				case 2 : operatorDfs(num * numbers[idx], idx +1); break;
-				case 3 : operatorDfs(num / numbers[idx], idx +1); break;
-				
-				}
-				
-				operator[i]++;
-			}
-		}
-	}   
 
 	
 }

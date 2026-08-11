@@ -4,22 +4,6 @@ import java.util.Scanner;
 
 public class Test08_BasicMath2 {
 
-	// 소수 찾기
-	public static void test01() {
-		Scanner sc = new Scanner(System.in);
-		int testCase = sc.nextInt();
-		int cnt = 0;
-		
-		for(int i = 0; i < testCase; i++) {
-			
-			long isPrime = sc.nextInt();
-			if(isPrime(isPrime)) {
-				cnt++;
-			}
-			
-		}
-		System.out.println(cnt);
-	}
 	
 	// 소수
 	public static void test02() {
@@ -42,21 +26,6 @@ public class Test08_BasicMath2 {
 			System.out.println(sum);
 		}
 		System.out.println(min);
-	}
-	
-	
-	// 소수 구하기
-	public static void test04() {
-		Scanner sc = new Scanner(System.in);
-		
-		int M = sc.nextInt();
-		int N = sc.nextInt();
-		
-		for(int i = M; i <= N; i++) {
-			if(isPrime(i)) {
-				System.out.println(i);
-			}
-		}
 	}
 	
 	
