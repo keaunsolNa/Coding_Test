@@ -63,21 +63,6 @@ public class Test16_Backtracking {
     
     // 스도쿠
     private static int[][] sudoku = new int[9][9];
-	public static void test06() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		for(int i = 0; i < 9; i++) {
-			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-			
-			for(int j = 0; j < 9; j++) {
-				sudoku[i][j] = Integer.parseInt(st.nextToken());
-			}
-		}
-		
-		
-		sudoku(0, 0);
-		
-	}
 	
 	// 스도쿠 StringBuilder 값 대입 Method
 	public static void sudoku(int row, int col) {

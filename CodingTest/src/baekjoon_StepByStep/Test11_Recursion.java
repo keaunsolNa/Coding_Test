@@ -13,20 +13,6 @@ public class Test11_Recursion {
 	private static int answer = -1;
 	private static int[] sorted;
 
-	// 팩토리얼
-	public static void test01() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		System.out.println(factorial(N));
-	}
-	
-	// 팩토리얼 재귀 메소드
-	public static int factorial(int n) {
-		
-		if(n < 2) return 1;
-		return n*factorial(n-1);
-	}
-	
 	
 	// 병합 정렬 1
 	public static void test04() throws IOException {

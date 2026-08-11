@@ -37,25 +37,6 @@ public class StringPlus25 {
         System.out.println(sum);
 	}
 	   
-	// String 
-	public static void test03() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input = br.readLine();
-        
-        StringBuilder sb = new StringBuilder();
-        char prev = ' ';
-        for(int i = 0; i < input.length(); i++) {
-        	
-        	if(input.charAt(i) != prev) {
-        		sb.append(input.charAt(i));
-        		prev = input.charAt(i);
-        	}
-        }
-        
-        System.out.println(sb);
-        
-	}
-	
 	
     // Palindromes 
 	public static void test10() throws NumberFormatException, IOException {

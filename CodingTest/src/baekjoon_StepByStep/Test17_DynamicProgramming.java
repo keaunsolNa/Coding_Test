@@ -71,22 +71,6 @@ public class Test17_DynamicProgramming {
     private static Integer[] dp2;
 	private static int max;
 	private static int[] arr;
-	public static void test05() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		arr = new int[n];
-		dp2 = new Integer[n];
-		
-		for(int i = 0; i < n; i++) arr[i] = Integer.parseInt(st.nextToken());
-		dp2[0] = arr[0];
-		max = arr[0];
-		
-		recursion(n - 1);
-		
-		System.out.println(max);
-		
-	}
     private static int recursion(int n) {
 		
 		if(dp2[n] == null) {
