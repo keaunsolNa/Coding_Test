@@ -9,24 +9,11 @@ import java.util.StringTokenizer;
 
 public class Test17_DynamicProgramming {
 	public static void main(String[] args) throws IOException {
-		test01();
+		test02();
 	}
 	
 	// 알고리즘 수업 - 피보나치 수 1 
 	private static int cnt;
-	public static void test01() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		
-		int N  = Integer.parseInt(br.readLine());
-		recur(N);
-		sb.append(cnt).append(" ");
-		cnt = 0;
-        
-		dynamic(N);
-		sb.append(cnt);
-		System.out.println(sb);
-	}
 	
     public static int recur(int N) {
 		
@@ -39,19 +26,6 @@ public class Test17_DynamicProgramming {
 		
 	}
     
-    public static int dynamic(int N) {
-		int[] dp = new int[N+1];
-		
-		dp[1] = 1;
-		dp[2] = 1;
-		
-		for(int i = 3; i <= N; i++) {
-			cnt++;
-			dp[i] = dp[i-1] + dp[i-2];
-		}
-		
-		return dp[N];
-	}
 	
     // 신나는 함수 실행
     private static int[][][] dp = new int[21][21][21];
@@ -92,28 +66,6 @@ public class Test17_DynamicProgramming {
 		return 0 <= a && a <= 20 && 0 <= b && b <= 20 && 0 <= c && c <= 20; 
 	}
 	
-
-	// 파도반 수열
-	public static void test04() throws IOException{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine());
-        
-        while(T --> 0) {
-	        int N = Integer.parseInt(br.readLine());
-	        long dp[] = new long[101];
-	        
-	        dp[0] = 1;
-	        dp[1] = 1;
-	        dp[2] = 1;
-	        
-	        for(int i = 3; i <= N; i++) {
-	        	dp[i] = dp[i-2] + dp[i-3];
-	        }
-	        		
-	        System.out.println(dp[N-1]);
-        }
-		
-	}
 
 	// 연속합
     private static Integer[] dp2;
@@ -197,14 +149,6 @@ public class Test17_DynamicProgramming {
 		return point[n];
 	}
     
-	// 1로 만들기
-	public static void test09() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		
-		System.out.println(recursion(N, 0));
-
-	}
 	
 	// 1로 만들기 재귀 Method
     private static int recursion(int N, int count) {
