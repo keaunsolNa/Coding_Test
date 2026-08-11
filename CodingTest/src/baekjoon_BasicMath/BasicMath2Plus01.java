@@ -43,25 +43,4 @@ public class BasicMath2Plus01 {
 	}
 	
 	
-	// 피보나치 수 4
-	public static void test10() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());
-		System.out.print(fibonacci2(n));
-	}
-
-	// 피보나치 재귀 메서드
-	public static String fibonacci2(int n) {
-		BigInteger f0 = new BigInteger("0");
-		BigInteger f1 = new BigInteger("1");
-		BigInteger f2 = new BigInteger("1");
-		if(n < 2)return n+"";
-		for(int i = 2; i < n; i++) {
-			f0 = f1;
-			f1 = f2;
-			f2 = f1.add(f0);
-		}
-		return f2.toString();
-	}
-	
 }

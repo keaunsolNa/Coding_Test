@@ -57,24 +57,4 @@ public class StringPlus14 {
 	}
 	
 	
-	// 팰린드롬 
-	public static void test09() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String input = br.readLine();
-		boolean flag = true;
-		for(int i = 0; i < input.length()/2; i++) {
-			if(input.charAt(i) != input.charAt(input.length() - (i+1))) {
-				flag = false;
-				break;
-			}
-		}
-		
-		if(flag) {
-			System.out.println("true");
-		} else {
-			System.out.println("false");
-		}
-	}
-	
-	
 }

@@ -29,22 +29,6 @@ public class Implement12 {
 		}
 	}
 	
-	// 주사위
-	public static void test02() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		
-		for(int i = 0; i < T; i++) {
-			StringTokenizer st = new StringTokenizer(br.readLine());
-			StringBuilder sb  = new StringBuilder();
-			int a = Integer.parseInt(st.nextToken());
-			int b = Integer.parseInt(st.nextToken());
-			
-			sb.append("Case " + (i+1) + ": " + + (a+b));
-			System.out.println(sb);
-		}
-	}
-	
 	
 	// 가위 바위 보?
 	public static void test07() throws IOException {
@@ -83,21 +67,6 @@ public class Implement12 {
 				System.out.println("Player 2");
 			}
 		}
-	}
-	
-	// 히스토그램
-	public static void test08() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine());
-        
-        for(int i = 0; i < T; i++) {
-        	int temp = Integer.parseInt(br.readLine());
-        	
-        	for(int j = 0; j < temp; j++) {
-        		System.out.print("=");
-        	}
-        	System.out.println();
-        }
 	}
 	
 	

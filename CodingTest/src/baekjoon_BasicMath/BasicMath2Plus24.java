@@ -79,26 +79,4 @@ public class BasicMath2Plus24 {
    }
    
    
-   // 공약수
-   public static void test09() throws IOException {
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringBuilder sb = new StringBuilder();
-       int T = Integer.parseInt(br.readLine());
-       int[] arr = new int[T];
-
-       StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-       for(int i = 0; i < T; i++) arr[i] = Integer.parseInt(st.nextToken());
-       Arrays.sort(arr);
-       
-       for(int i = 1; i <= arr[0]; i++) {
-    	   
-    	   if(T == 2) if(arr[0] % i == 0 && arr[1] % i == 0) sb.append(i).append("\n");
-    	   if(T == 3) if(arr[0] % i == 0 && arr[1] % i == 0 && arr[2] % i == 0) sb.append(i).append("\n");
-       }
-       
-       sb.deleteCharAt(sb.length()-1);
-       System.out.print(sb);
-       
-   }
-   
 }

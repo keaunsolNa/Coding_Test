@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class Test17_DynamicProgramming {
 	public static void main(String[] args) throws IOException {
-		test16();
+		test01();
 	}
 	
 	// 알고리즘 수업 - 피보나치 수 1 
@@ -216,90 +216,5 @@ public class Test17_DynamicProgramming {
 						recursion(N / 3, count + 1 + (N % 3)));
 	}
 
-	
-	//전깃줄
-	private static Integer[] dp6;
-	private static int[][] wire;
-	public static void test14() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		int N = Integer.parseInt(br.readLine());
-		
-		wire = new int[N][2];
-		dp6 = new Integer[N];
-		
-		for(int i = 0; i < N; i++) {
-			st = new StringTokenizer(br.readLine());
-			wire[i][0] = Integer.parseInt(st.nextToken());
-			wire[i][1] = Integer.parseInt(st.nextToken());
-		}
-		
-		Arrays.sort(wire, new Comparator<int[]>() {
-			
-			@Override
-			public int compare(int[] o1, int[] o2) {
-				return o1[0] - o2[0];
-			}
- 
-		});
-		
-		int max = 0;
-		for(int i = 0; i < N; i++) max = Math.max(max, lts2(i));
-		
-		
-		System.out.println(N - max);
-		
-		
-	}
-	
-	private static int lts2 (int n) {
-		
-		if(dp6[n] == null) {
-			dp6[n] = 1;
-			
-			for(int i = n + 1; i < dp6.length; i++) {
-				if(wire[n][1] < wire[i][1]) dp6[n] = Math.max(dp6[n], lts2(i) + 1);
-			}
-		}
-		
-		return dp6[n];
-	}
-	
-	
-	// 평범한 배낭
-	public static void test16() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		st = new StringTokenizer(br.readLine());
-		
-		int N = Integer.parseInt(st.nextToken());				// 물품의 수
-		int K = Integer.parseInt(st.nextToken());				// 물품의 최대 무게
-		int[][] back = new int[N + 1][2];						// 가방에 담을 물건 2차원 배열
-		
-		for(int i = 0; i < N; i++) {
-			st = new StringTokenizer(br.readLine());
-			back[i][0] = Integer.parseInt(st.nextToken());		// 물품의 무게
-			back[i][1] = Integer.parseInt(st.nextToken());		// 물품의 가치
-		}
-		
-		int[] dp = new int[K + 1];								// 최대 가치 누적 dp 배열
-		int max = 0;											// 최대 값을 찾기 위한 변수 선언
-		
-		// 물품의 수 0개 부터 N개까지 고려
-		for(int n = 0; n < N; n++) {
-			
-			// 물품의 무게 최대치부터 0개까지 고려
-			for(int k = K; k >= back[n][0]; k--) {
-				
-				// 무게 k(현재 탐색 행)까지의 최적해와 k - 현재 행 중 최대값을 dp 배열에 넣기
-				dp[k] = Math.max(dp[k], dp[k - back[n][0]] + back[n][1]);
-				
-				// 탐색 값 중 최고값 = max
-				if(dp[k] > max) max = dp[k];
-			}
-		}
-		
-		System.out.println(max);
-	}
 	
 }
