@@ -19,8 +19,7 @@ Coding_Test/
 │   │   └── <난이도>/<번호-슬러그>/  # Solution.java + problem.md + analysis.md
 │   └── UnSolved/          # 아직 풀지 않은 문제 목록
 ├── 프로그래머스/
-│   ├── lv1 ~ lv5, unrated  # 알고리즘 문제 (레벨별)
-│   └── 0 ~ 3               # SQL 문제 (레벨별)
+│   └── lv0 ~ lv5, unrated  # 레벨별 (알고리즘 · SQL 문제 혼재)
 ├── goormlevel/            # 구름LEVEL 풀이
 ├── CodingTest/src/        # 초기 백준 풀이 (유형별 정리: DFS/BFS, DP, Greedy 등)
 ├── Coding_TEST_MySQL.sql  # MySQL 연습 쿼리 모음
@@ -47,9 +46,9 @@ Coding_Test/
 
 ### 프로그래머스
 
-| lv1 | lv2 | lv3 | lv4 | lv5 | unrated | SQL (0~3) | 합계 |
-|:---:|:---:|:---:|:---:|:---:|:-------:|:---------:|:----:|
-| 26 | 55 | 19 | 13 | 1 | 158 | 12 | **284** |
+| lv0 | lv1 | lv2 | lv3 | lv4 | lv5 | unrated | 합계 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:-------:|:----:|
+| 4 | 31 | 56 | 21 | 13 | 1 | 157 | **283** |
 
 ## 📝 문제별 파일 구성
 
@@ -84,7 +83,7 @@ lang: java
 ### SQL
 
 - LeetCode SQL 문제: `Solution.sql`
-- 프로그래머스 SQL 문제: `프로그래머스/0/ ~ 3/`
+- 프로그래머스 SQL 문제: 알고리즘 문제와 같이 `프로그래머스/lv<N>/` 아래 레벨별로 있습니다
 - 기타 MySQL 연습: 루트의 `Coding_TEST_MySQL.sql`
 
 ## 🔖 커밋 컨벤션

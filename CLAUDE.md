@@ -13,7 +13,7 @@ CodingTest/src/          # Baekjoon solutions (old style, grouped by topic)
 백준/                    # Baekjoon solutions (newer, grouped by tier: Bronze/Silver/Gold/Platinum)
 leetcode/Solved/         # LeetCode solutions (Easy/Med/Hard → problem-folder/Solution.java + problem.md)
 leetcode/UnSolved/       # LeetCode problems not yet solved
-프로그래머스/             # Programmers solutions (lv1–lv5, unrated, 0–3 for SQL)
+프로그래머스/             # Programmers solutions (lv0–lv5, unrated — algorithm + SQL mixed)
 goormlevel/              # GoormLevel solutions
 ```
 
@@ -56,4 +56,4 @@ lang: java
 
 ## SQL Problems
 
-`Coding_TEST_MySQL.sql` contains MySQL practice queries. LeetCode SQL problems use `Solution.sql`. Programmers SQL problems are under `프로그래머스/0/`, `1/`, `2/`, `3/`.
+`Coding_TEST_MySQL.sql` contains MySQL practice queries. LeetCode SQL problems use `Solution.sql`. Programmers SQL problems live alongside algorithm problems under `프로그래머스/lv<N>/`, one folder per problem with a `.sql` solution file.
