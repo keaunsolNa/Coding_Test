@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Test22_DivideAndConquer {
 
 	public static void main(String[] args) throws IOException {
-		test09();
+		test01();
 	}
 
 	// 색종이 만들기
@@ -159,97 +159,6 @@ public class Test22_DivideAndConquer {
 		return true;
 	}
 	
-	// 종이의 개수
-	private static int[][] board3;
-	private static int zero;
-	private static int one;
-	private static int minusOne;
-	public static void test03() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		int N = Integer.parseInt(br.readLine());
-		board3 = new int[N][N];
-		
-		for(int i = 0; i < N; i++) {
-			
-			st = new StringTokenizer(br.readLine());
-			for(int j = 0; j < N; j++) 
-				
-				board3[i][j] = Integer.parseInt(st.nextToken());
-		}
-		
-		divide3(0, 0, N);
-		
-		System.out.println(minusOne);
-		System.out.println(zero);
-		System.out.println(one);
-		
-	}
-	
-	// 분할 알고리즘3
-	private static void divide3(int row, int col, int size) {
-		
-		// 모든 row와 col이 size 안에서 같다면 해당 색++
-		if(check3(row, col, size)) {
-			
-			if(board3[row][col] == 0) zero++;
-			
-			else if(board3[row][col] == 1) one++;
-			
-			else minusOne++;
-			
-			return;
-		}
-		
-		// row와 col에 다른 색이 있다면 사이즈 분할
-		size /= 3;	
-		
-		// 1사분면 재귀호출
-		divide3(row, col, size);						
-		
-		// 2사분면 재귀호출
-		divide3(row, col + size, size);				
-		
-		// 3사분면 재귀호출
-		divide3(row, col + size + size, size);
-		
-		// 4사분면 재귀호출
-		divide3(row + size, col, size);				
-		
-		// 5사분면 재귀호출
-		divide3(row + size, col + size, size);
-		
-		// 6사분면 재귀호출
-		divide3(row + size, col + size + size, size);
-		
-		// 7사분면 재귀호출
-		divide3(row + size + size, col, size);
-		
-		// 8 사분면 재귀호출
-		divide3(row + size + size, col + size, size);
-
-		// 9 사분면 재귀호출
-		divide3(row + size + size, col + size + size, size);
-
-	}
-	
-	// 주어진 사분면 안에서 row와 col 일치하는지 check
-	private static boolean check3(int row, int col, int size) {
-		
-		// 검사의 기준이 될 칸
-		int color = board3[row][col];	
-		
-		for(int i = row; i < row + size; i++) {
-			
-			for(int j = col; j < col + size; j++) {
-				
-				// 색깔이 기준값과 다르다면 false 반환
-				if(board3[i][j] != color) return false;
-			}
-		}
-		
-		return true;
-	}
 	
 	// 곱셈
 	private static long C;
@@ -383,7 +292,6 @@ public class Test22_DivideAndConquer {
 		int[][] ans = pow(arr, B);
 		
 			
-
 		StringBuilder sb = new StringBuilder();
 		
 		for(int i = 0; i < N; i++) {
@@ -463,119 +371,5 @@ public class Test22_DivideAndConquer {
 		return ret;
 	}
 
-	// 히스토그램에서 가장 큰 직사각형
-	public static int[] histogram;
-	public static void test09() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
-		
-		int N;
-		while(true) {
- 
-			st = new StringTokenizer(br.readLine(), " ");
-
-			N = Integer.parseInt(st.nextToken());
-			
-			if(N == 0) break;
-			histogram = new int[N];
-            
-			for(int i = 0; i < N; i++) histogram[i] = Integer.parseInt(st.nextToken());
-			
-			sb.append(getArea(0, N - 1)).append('\n');
-			histogram = null;
-			
-		}
-		
-		System.out.println(sb);
-		
-	}
 	
-	public static long getArea(int lo, int hi) {
-		
-		// 너비가 1일 때 
-		if(lo == hi) return histogram[lo];
-		
-		// 막대그래프의 중간 지점
-		int mid = (lo + hi) / 2;
-		
-		// 중간(mid) 지점을 기준으로 왼쪽 
-		long leftArea = getArea(lo, mid);
-		
-		// 중간(mid) 지점을 기준으로 오른쪽 
-		long rightArea = getArea(mid + 1, hi);
-		
-		// 왼쪽과 오른쪽 중 큰 값으로 넓이 저장 
-		long max = Math.max(leftArea, rightArea);
-		
-		// 큰 값과 중간 구간을 비교하여 더 큰 넓이로 갱신
-		max = Math.max(max, getMidArea(lo, hi, mid));
- 
-		return max;
-		
-	}
-	
-	// 중간지점 영역의 넓이를 구하는 메소드
-	public static long getMidArea(int lo, int hi, int mid) {
-		
-		// 중앙으로부터 왼쪽
-		int toLeft = mid;
-		
-		// 중앙으로부터 오른쪽
-		int toRight = mid;
-		
-		// 높이 (초기값은 중앙값)
-		long height = histogram[mid];
-		
-		// 초기 넓이
-		long maxArea = height;
-		
-		
-		// 양 끝 범위를 벗어나기 전까지 반복
-		while(lo < toLeft && toRight < hi) {
-			
-			/*
-			 *  양쪽 다음칸의 높이 중 높은 값을 선택하되, 
-			 *  갱신되는 height는 기존 height보다 작거나 같아야 한다.
-			 */
-			// 오른쪽이 더 넓을 때
-			if(histogram[toLeft - 1] < histogram[toRight + 1]) {
-				toRight++;
-				
-				// 높이는 현재값보다 작거나 같아야 한다.
-				height = Math.min(height, histogram[toRight]);	
-			}
-			else {
-				
-				toLeft--;
-				height = Math.min(height, histogram[toLeft]);
-			}
- 
-			// 최대 넓이 갱신
-			maxArea = Math.max(maxArea, height * (toRight - toLeft + 1)); 
-		}
-		
-		
-		// 오른쪽 구간을 끝까지 탐색 못했다면 마저 탐색한다.
-		while(toRight < hi) {
-			
-			toRight++;
-			
-			// 높이 최소값 갱신
-			height = Math.min(height, histogram[toRight]);
-			
-			// 넓이 최대값 갱신
-			maxArea = Math.max(maxArea, height * (toRight - toLeft + 1)); 
-		}
-		
-		// 왼쪽 구간을 끝까지 탐색 못했다면 마저 탐색한다.
-		while(lo < toLeft) {
-			toLeft--;
-			height = Math.min(height, histogram[toLeft]);
-			maxArea = Math.max(maxArea, height * (toRight - toLeft + 1)); 
-		}
-		
-		return maxArea;
-	}
-
 }

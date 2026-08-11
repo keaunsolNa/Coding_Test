@@ -12,79 +12,7 @@ import java.util.StringTokenizer;
 
 public class StringPlus02 {
 
-	// 명령 프롬프트
-	public static void test01() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		String[] stringArray = new String[N];
-		for(int i = 0; i < N; i++) {
-			stringArray[i] = br.readLine();
-		}
-		
-		StringBuilder sb = new StringBuilder();
-		for(int i = 0; i < stringArray[0].length(); i++) {
-			char temp = stringArray[0].charAt(i);
-			int cnt = 0;
-			for(int j = 1; j < N; j++) {
-				if(temp != stringArray[j].charAt(i)) {
-					cnt = -1;
-				}
-			}
-			
-			if(cnt == -1) {
-				sb.append("?");
-			} else {
-				sb.append(stringArray[0].charAt(i));
-			}
-		}
-		
-		System.out.println(sb);
-		
-	}
 
-	// 8진수 2진수
-	public static void test02() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String s  = br.readLine();
-
-		StringBuilder sb = new StringBuilder();
-		String[] str = {"000","001","010","011","100","101","110","111"};
-		
-		for(int i = 0; i < s.length(); i++) {
-			int a = s.charAt(i)- '0';
-			sb.append(str[a]);
-		}
-		
-		if(s.equals("0")) System.out.println(s);
-		else {
-			while(sb.charAt(0) == '0') {
-				sb = new StringBuilder(sb.substring(1));
-			}
-			System.out.println(sb);
-		}
-	}
-
-	// 단어 뒤집기
-	public static void test03() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
-		
-		StringBuilder sb = new StringBuilder();
-		StringBuilder answer = new StringBuilder();
-		
-		for(int i = 0; i < testCase; i++) {
-			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-			while(st.hasMoreTokens()) {
-				sb = new StringBuilder(st.nextToken());
-				sb.reverse();
-				answer.append(sb).append(" ");
-			}
-			System.out.println(answer);
-			answer.delete(0,answer.length());
-		}
-		
-	}
-	
 	// ROT13
 	public static void test04() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -116,51 +44,7 @@ public class StringPlus02 {
 		System.out.println(sb);
 	}
 	
-	// 네 수
-	public static void test05() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String[] temp = br.readLine().split(" ");
-		long AB = Long.parseLong(temp[0] + temp[1]);
-		long CD = Long.parseLong(temp[2] + temp[3]);
-		System.out.println(AB + CD);
-	}
 
-	// 대소문자 바꾸기
-	public static void test06() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String temp = br.readLine();
-		StringBuffer sb = new StringBuffer();
-		for(int i = 0; i < temp.length(); i++) {
-			if(temp.charAt(i) >= 97 && temp.charAt(i) <= 122) {
-				sb.append((char)(temp.charAt(i) - 32));
-			} else {
-				sb.append((char)(temp.charAt(i) + 32));
-			}
-		}
-		System.out.println(sb);
-	}
-
-	// 세로읽기
-	public static void test07() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		char[][] charArr = new char[5][15];
-		StringBuilder sb = new StringBuilder();
-		
-		for(int i = 0; i < 5; i++) {
-			charArr[i] = br.readLine().toCharArray();
-		}
-
-		for(int i = 0; i < 15; i++) {
-			for(int j = 0; j < 5; j++) {
-				if(i < charArr[j].length) {
-					sb.append(charArr[j][i]);
-				}
-			}
-		}
-		
-		System.out.println(sb);
-	}
-	
 	// 듣보잡
 	public static void test08() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -208,32 +92,4 @@ public class StringPlus02 {
 		}
 	}
 	
-	// 문자열 분석
-	public static void test10() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input = "";
-		while((input = br.readLine()) != null) {
-			StringBuilder sb = new StringBuilder();
-			char[] tempChar = input.toCharArray();
-			int space = 0;
-			int upperCase = 0;
-			int lowerCase = 0;
-			int number = 0;
-			
-			for(int i = 0; i < tempChar.length; i++) {
-				char temp = tempChar[i];
-				if(temp >= '0' && temp <= '9') {
-					number++;
-				} else if(temp == 32) {
-					space++;
-				} else if(temp >= 97 && temp <= 122 ) {
-					lowerCase++;
-				} else if(temp >= 65 && temp <= 90) {
-					upperCase++;
-				}
-			}
-			sb.append(lowerCase + " " + upperCase + " " + number + " " + space);
-			System.out.println(sb);
-		}
-	}
 }

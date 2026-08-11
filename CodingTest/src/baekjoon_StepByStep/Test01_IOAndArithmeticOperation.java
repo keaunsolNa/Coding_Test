@@ -9,11 +9,6 @@ public class Test01_IOAndArithmeticOperation {
 		System.out.println("Hello World!");
 	}
 	
-	// We love kriii
-	public static void test02(){
-		System.out.println("강한친구 대한육군");
-        System.out.println("강한친구 대한육군");
-	}
 	
 	// A + B
 	public static void test03(){
@@ -73,26 +68,6 @@ public class Test01_IOAndArithmeticOperation {
 		System.out.println(a + "??!");
 	}
 	
-	// 1998년생인 내가 태국에서는 2541년생?!
-	public static void test09(){
-		Scanner sc = new Scanner(System.in);
-		int a;
-		a = sc.nextInt();
-		System.out.println(a - 543);
-	}
-	
-	// 킹, 퀸, 룩, 비숍, 나이트, 폰
-	public static void test10(){
-		Scanner sc = new Scanner(System.in);
-		int a, b, c, d, e, f;
-		a = sc.nextInt();
-		b = sc.nextInt();
-     	c = sc.nextInt();
-        d = sc.nextInt();
-        e = sc.nextInt();
-        f = sc.nextInt();
-		System.out.println((1-a) + " " + (1-b) + " " + (2-c) + " " + (2-d) + " " + (2-e) + " " + (8-f));
-	}
 	
 	// 나머지
 	public static void test11(){

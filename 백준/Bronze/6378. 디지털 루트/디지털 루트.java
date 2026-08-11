@@ -1,0 +1,29 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		test01();
+	}
+
+	public static void test01() throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String input = "";
+		
+		while(!(input = br.readLine()).equals("0")) {
+			while(input.length() > 1) {
+				int number = 0;
+				for(int i = 0; i < input.length(); i++) {
+					number += Character.getNumericValue(input.charAt(i));
+				}
+				input = number + "";
+			}
+			System.out.println(input);
+		}
+	}
+}

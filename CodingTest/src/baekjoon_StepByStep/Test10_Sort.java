@@ -17,23 +17,6 @@ import java.util.StringTokenizer;
 
 public class Test10_Sort {
 
-	// 수 정렬하기
-	public static void test01() {
-		Scanner sc = new Scanner(System.in);
-		
-		int testCase = sc.nextInt();
-		int[] list = new int[testCase];
-		
-		for(int i = 0; i < testCase; i++) {
-			int temp = sc.nextInt();
-			list[i] =temp;
-		}
-	
-		Arrays.sort(list);
-		for (int i : list) {
-			System.out.println(i);
-		}
-	}
 	
 	// 수 정렬하기2
 	public static void test02()  {
@@ -78,33 +61,6 @@ public class Test10_Sort {
 		
 	}
 	
-	// 커트라인
-	public static void test04() throws IOException {
-		
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		
-		st = new StringTokenizer(br.readLine()," ");
-		
-        int testCase = Integer.parseInt(st.nextToken());
-        int awardPeople = Integer.parseInt(st.nextToken());
-		
-        Integer[] arr = new Integer[testCase];
-        
-        st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < testCase; i++) {
-			arr[i] = Integer.parseInt(st.nextToken());
-		}
-
-		Arrays.sort(arr, Collections.reverseOrder());
-		
-		int answer = 0;
-		for(int i = 0; i < awardPeople; i++) {
-			answer = arr[i];
-		}
-
-		System.out.println(answer);
-	}
 
 	// 통계학
 	public static void test05() throws NumberFormatException, IOException {
@@ -159,18 +115,6 @@ public class Test10_Sort {
 		return mod;
 	}
 
-	// 소트인사이드
-	public static void test06() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String N = br.readLine();
-
-		char[] NArr = N.toCharArray();
-		Arrays.sort(NArr);
-
-		for (int i = NArr.length; i > 0; i--) {
-			System.out.print(NArr[i - 1]);
-		}
-	}
 
 	// 좌표 정렬하기
 	public static void test07() throws NumberFormatException, IOException {
@@ -203,36 +147,6 @@ public class Test10_Sort {
 		}
 	}
 	
-	// 좌표 정렬하기 2
-	public static void test08() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
-		
-		String[] stringArr = new String[testCase];
-		
-		for(int i = 0; i < testCase; i++) {
-			stringArr[i] = br.readLine();
-		}
-
-		Arrays.sort(stringArr, new Comparator<String>() {
-
-			@Override
-			public int compare(String o1, String o2) {
-				String[] one = o1.split(" ");
-				String[] two = o2.split(" ");
-				
-				if(Integer.parseInt(one[1]) == Integer.parseInt(two[1])) {
-					return Integer.parseInt(one[0]) - Integer.parseInt(two[0]);
-				} else {
-					return Integer.parseInt(one[1]) - Integer.parseInt(two[1]);
-				}
-			}
-		});
-		
-		for (String string : stringArr) {
-			System.out.println(string);
-		}
-	}
 	
 	// 단어 정렬
 	public static void test09() throws NumberFormatException, IOException {
@@ -300,40 +214,6 @@ public class Test10_Sort {
 		}
 	}
 
-	// 좌표 압축
-	public static void test11() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
-		
-		StringTokenizer st;
-		st = new StringTokenizer(br.readLine()," ");
-		int[] originArr = new int[testCase];
-		
-		for(int i = 0; i < testCase; i++) {
-			originArr[i] = Integer.parseInt(st.nextToken());
-		}
-		int[] sortedArr = originArr.clone();
-		HashMap<Integer, Integer> rankingMap = new HashMap<Integer, Integer>();
-		
-		Arrays.sort(sortedArr);
-
-		int ranking = 0;
-		for (int i : sortedArr) {
-			
-			if(!rankingMap.containsKey(i)) {
-				rankingMap.put(i, ranking);
-				ranking++;
-			}
-		}
-		
-		StringBuilder sb = new StringBuilder();
-		for (int i : originArr) {
-			int rank = rankingMap.get(i);
-			sb.append(rank).append(' ');
-		}
-		
-		System.out.println(sb);
-	}
 	
 	// 대푯값 2
 	public static void test12() throws NumberFormatException, IOException {

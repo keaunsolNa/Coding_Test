@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 public class BasicMath2Plus13 {
 
    public static void main(String[] args) throws IOException {
-      test10();
+      test01();
    }
    
    // 카드 뽑기
@@ -32,15 +32,6 @@ public class BasicMath2Plus13 {
       
    }
    
-   // Betting
-   public static void test02() throws IOException {
-      
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   double percent = Double.parseDouble(br.readLine());
-	   System.out.printf("%.10f", (100/percent));
-	   System.out.println();
-	   System.out.printf("%.10f", (100/(100-percent)));
-   }
 
    // ЧАСОВНИК
    public static void test03() throws IOException {
@@ -64,30 +55,6 @@ public class BasicMath2Plus13 {
       
    }
 
-   // TGN
-   public static void test04() throws IOException {
-	     
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   int N = Integer.parseInt(br.readLine());
-	   
-	   for(int i = 0; i < N; i++) {
-		   
-		   StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		   int r = Integer.parseInt(st.nextToken());
-		   int e = Integer.parseInt(st.nextToken());
-		   int c = Integer.parseInt(st.nextToken());
-		   
-		   if(e - c > r) {
-			   System.out.println("advertise");
-		   } else if(e - c == r) {
-			   System.out.println("does not matter");
-		   } else if(e - c < r) {
-			   System.out.println("do not advertise");
-		   }
-	   }
-	   
-
-   }
    
    // 점수 계산
    public static void test05() throws IOException {
@@ -110,36 +77,6 @@ public class BasicMath2Plus13 {
 	   System.out.println(totalCount);
    }
    
-   // 사과
-   public static void test06() throws IOException {
-      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-      int N = Integer.parseInt(br.readLine());
-      int totalCount = 0;
-      
-      for(int i = 0; i < N; i++) {
-    	  StringTokenizer st = new StringTokenizer(br.readLine());
-    	  int student = Integer.parseInt(st.nextToken());
-    	  int apple = Integer.parseInt(st.nextToken());
-    	
-    	  totalCount += apple%student;
-      }
-      
-      System.out.println(totalCount);
-   }
-   
-   // Arm Coordination
-   public static void test07() throws IOException {
-       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-       StringTokenizer st = new StringTokenizer(br.readLine());
-       int x = Integer.parseInt(st.nextToken());
-       int y = Integer.parseInt(st.nextToken());
-       int r = Integer.parseInt(br.readLine());
-       
-       System.out.println((x-r) + " "+ (y+r));
-       System.out.println((x+r) + " "+ (y+r));
-       System.out.println((x+r) + " "+ (y-r));
-       System.out.println((x-r) + " "+ (y-r));
-   }
    
    // Circus
    public static void test08() throws IOException {
@@ -169,33 +106,5 @@ public class BasicMath2Plus13 {
       
    }
    
-   // Rulltrappa
-   public static void test10() throws IOException {
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-	   int M = Integer.parseInt(st.nextToken());
-	   int S = Integer.parseInt(st.nextToken());
-	   int G = Integer.parseInt(st.nextToken());
-	   
-	   st = new StringTokenizer(br.readLine(), " ");
-	   double A = Double.parseDouble(st.nextToken());
-	   double B = Double.parseDouble(st.nextToken());
-
-	   st = new StringTokenizer(br.readLine(), " ");
-	   int L = Integer.parseInt(st.nextToken());
-	   int R = Integer.parseInt(st.nextToken());
-	   
-	   double stop = (1 / A) * L + (double)M / (double)G;
-	   double move = (1 / B) * R + (double)M / (double)S;
-	   
-	   if(stop < move) {
-		   System.out.println("friskus");
-	   } else {
-		   System.out.println("latmask");
-	   }
-	   
-   }
-
-
 
 }

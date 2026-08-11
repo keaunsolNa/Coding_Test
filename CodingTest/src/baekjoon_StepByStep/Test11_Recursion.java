@@ -13,7 +13,6 @@ public class Test11_Recursion {
 	private static int answer = -1;
 	private static int[] sorted;
 	private static List<int[]> hanoiList = new ArrayList<>();
-	private static char[][] starArr;
 
 	// 팩토리얼
 	public static void test01() throws NumberFormatException, IOException {
@@ -48,31 +47,6 @@ public class Test11_Recursion {
 		return f2;
 	}
 	
-	// 재귀의 귀재
-	public static void test03() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		
-		for(int i = 0; i < T; i++) {
-			String S = br.readLine();
-			int result = isPalindrome(S);
-			System.out.println(result + " " + round);
-			round = 0;
-		}
-	}
-	
-	// 재귀의 귀재 재귀 호출 메서드
-	public static int isPalindrome(String S) {
-		return recursion(S, 0, S.length()-1);
-	}
-	
-	// 재귀의 귀재 Palindrome 판별 메서드
-	public static int recursion(String s, int len, int r) {
-		round++;
-		if(len >= r) return 1;
-		else if(s.charAt(len) != s.charAt(r)) return 0;
-		else return recursion(s, len+1, r-1);
-	}
 	
 	// 병합 정렬 1
 	public static void test04() throws IOException {
@@ -148,55 +122,7 @@ public class Test11_Recursion {
 		
 	}
 
-	// 별 찍기 - 10
-	public static void test05() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int testCase = Integer.parseInt(br.readLine());
-
-		starArr = new char[testCase][testCase];
-		
-		starMarker(0, 0, testCase, false);
-		StringBuilder sb = new StringBuilder();
-		for(int i = 0; i < testCase; i++) {
-			for(int j = 0; j < testCase; j++) {
-				sb.append(starArr[i][j]);
-			}
-			sb.append('\n');
-		}
-		System.out.println(sb);
-	}
 	
-	// 별 찍기 제곱수 판멸 및 별 찍기 메서드 
-	public static void starMarker(int x, int y, int n, boolean blank) {
-		
-		if(blank) {
-			for(int i = x; i < x + n; i++) {
-				for(int j = y; j < y + n; j++) {
-					starArr[i][j] = ' ';
-				}
-			}
-			return;
-		}
-		
-		if(n == 1) {
-			starArr[x][y] = '*';
-			return;
-		}
-		
-		int size = n / 3;
-		int cnt = 0;
-		for(int i = x; i < x + n; i += size) {
-			for(int j = y; j < y + n; j += size) {
-				cnt++;
-				if(cnt == 5) {
-					starMarker(i, j, size, true);
-				} else {
-					starMarker(i, j, size, false);
-				}
-			}
-		}
-	}
-
 	// 하노이 탑 이동 순서
 	public static void test06() throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

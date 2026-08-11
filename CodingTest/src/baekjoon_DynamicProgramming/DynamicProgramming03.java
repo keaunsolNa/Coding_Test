@@ -10,23 +10,6 @@ public class DynamicProgramming03 {
 		test10();
 	}
 	
-	// 연속부분최대곱
-	public static void test01() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());
-		double[] arr = new double[n + 1];
-        double[] dp = new double[n + 1];
-        double max = 0;
-        
-        for (int i = 1; i <= n; i++) {
-            arr[i] = Double.parseDouble(br.readLine());
-            dp[i] = Math.max(arr[i], dp[i-1] * arr[i]);
-            max = Math.max(max, dp[i]);
-        }
-		
-        System.out.printf("%.3f", max);
-		
-	}
 	
 	// 수열
 	public static void test02() throws IOException {
@@ -64,61 +47,7 @@ public class DynamicProgramming03 {
 		
 	}
 	
-	// Maximum Subarray
-	public static void test03() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		int T = Integer.parseInt(br.readLine());
 
-		while(T --> 0) {
-			
-			int max = Integer.MIN_VALUE;;
-			int N = Integer.parseInt(br.readLine());
-			st = new StringTokenizer(br.readLine(), " ");
-			int arr[] = new int[N + 1];
-			int dp[] = new int[N + 1];
-		
-			for(int i = 1; i <= N; i++) {
-				arr[i] = Integer.parseInt(st.nextToken());
-				dp[i] = dp[i-1] + arr[i];
-				max = Math.max(max, Math.max(arr[i], dp[i]));
-			}
-            
-			for (int i = 1; i <= N; i++) for (int j = N; j > i; j--) max = Math.max(max, dp[j] - dp[i]);
-			
-			System.out.println(max);
-		}
-		
-	}
-
-	// Generations of Tribbles 
-	public static void test04() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		
-		int T  = Integer.parseInt(br.readLine());
-		
-		while(T -- > 0) {
-			int n = Integer.parseInt(br.readLine());
-			
-			if(n <= 3) {
-				if(n < 2) System.out.println(1);
-				else if(n == 2) System.out.println(2);
-				else if(n == 3) System.out.println(4);
-			} else {
-				long dp[] = new long[n + 1];
-				dp[0] = 1;
-				dp[1] = 1;
-				dp[2] = 2;
-				dp[3] = 4;
-				for(int i = 4; i <= n; i++) dp[i] = dp[i-1] + dp[i-2] + dp[i-3] + dp[i-4];
-
-				System.out.println(dp[n]);
-			}
-		}
-		
-	}
-	
 	// 거스름돈
 	public static void test05() throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -149,85 +78,7 @@ public class DynamicProgramming03 {
 		else System.out.println(five + two);
 	}
 	
-	// 타일 장식물
-	public static void test06() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		long[] dp = new long[N+1];
-		
-		dp[0] = 2;
-		dp[1] = 4;
-		
-		for(int i = 2; i <= N; i++) dp[i] = dp[i-1] + dp[i-2];
-				
-		System.out.println(dp[N]);
-	}
 	
-	// 파도반 수열
-	public static void test07() throws IOException{
-		
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine());
-        
-        while(T --> 0) {
-	        int N = Integer.parseInt(br.readLine());
-	        long dp[] = new long[101];
-	        
-	        dp[0] = 1;
-	        dp[1] = 1;
-	        dp[2] = 1;
-	        
-	        for(int i = 3; i <= N; i++) {
-	        	dp[i] = dp[i-2] + dp[i-3];
-	        }
-	        		
-	        System.out.println(dp[N-1]);
-        }
-        		
-	}
-
-	// 2×n 타일링 2
-	public static void test08() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		int[] dp = new int[1001];
-		dp[1] = 1;
-		dp[2] = 3;
-		for(int i = 3; i <= N; i++) dp[i] = (dp[i - 1] + 2 * dp[i - 2]) % 10007;
-		
-		System.out.println(dp[N]);
-			
-	}
-
-	// 알고리즘 수업 - 행렬 경로 문제 1
-	public static void test09() throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		int n = Integer.parseInt(br.readLine());
-		int[][] map = new int[n+1][n+1];
-		int[][] dp = new int[31][31];
-		
-		for(int i = 1; i <= n; i++) {
-		
-			st = new StringTokenizer(br.readLine(), " ");
-			for(int j = 1; j <= n; j++) map[i][j] = Integer.parseInt(st.nextToken());
-			
-		}
-		
-		for(int i = 0; i < 31; i++) {
-			dp[i][0] = 1;
-			dp[i][i] = 1;
-		}
-		
-		for(int i = 2; i < 31; i++) {
-			for(int j = 1; j < i; j++) dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j];
-		}
-		
-		System.out.println(2 * dp[2 * n - 1][n] + " " + n * n);
-		
-	}
-	
-
 	// 연속합
 	private static Integer[] dp;
 	private static int max;

@@ -12,33 +12,6 @@ public class BasicMath2Plus33 {
       test10();
    }
    
-   // Basalt Breakdown 
-   public static void test01() throws IOException {
-      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-      float N = Float.parseFloat(br.readLine());
-      double X = Math.sqrt((2 * N) / (3 * Math.sqrt(3)));
-      
-      System.out.printf("%.8f", X * 6);
-   }
-   
-   // Scaling Recipe
-   public static void test02() throws IOException {
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringBuilder sb = new StringBuilder();
-	   StringTokenizer st = new StringTokenizer(br.readLine());
-	   
-	   int N = Integer.parseInt(st.nextToken());
-	   int x = Integer.parseInt(st.nextToken());
-	   int y = Integer.parseInt(st.nextToken());
-	   
-	   double per = (double)y / x;
-
-	   for(int i = 0; i < N; i++) {
-		   double need = Integer.parseInt(br.readLine());
-		   
-		   System.out.println(Math.round(per * need));
-	   }
-   }
    
    // Math Homework
    public static void test03() throws IOException {
@@ -127,98 +100,6 @@ public class BasicMath2Plus33 {
 	   System.out.println(sb);
    }
    
-   // Unit Conversion 
-   public static void test07() throws IOException {
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringBuilder sb = new StringBuilder();
-	   StringTokenizer st; 
-	   
-	   st = new StringTokenizer(br.readLine());
-	   
-	   double x = Double.parseDouble(st.nextToken());
-	   double y = Double.parseDouble(st.nextToken());
-	   
-	   int T = Integer.parseInt(br.readLine());
-	   
-	   while(T --> 0) {
-		   
-		   st = new StringTokenizer(br.readLine());
-		   double A = Double.parseDouble(st.nextToken());
-		   char key = st.nextToken().charAt(0);
-		   
-		   if(key == 'A') sb.append(A / x * y);
-		   else sb.append(A / y * x);
-			   
-		   sb.append("\n");
-	   }
-	   
-	   System.out.println(sb);
-   }
-   
-   // Number Fun
-   public static void test08() throws IOException {
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringBuilder sb = new StringBuilder();
-	   StringTokenizer st; 
-	   
-	   int N = Integer.parseInt(br.readLine());
-	   
-	   while(N --> 0) {
-		   st = new StringTokenizer(br.readLine());
-		   double A = Integer.parseInt(st.nextToken());
-		   double B = Integer.parseInt(st.nextToken());
-		   double C = Integer.parseInt(st.nextToken());
-		   
-		   boolean can = false;
-		   
-		   if(A + B == C) can = true;
-		   if(A - B == C) can = true;
-		   if(A * B == C) can = true;
-		   if(A / B == C) can = true;
-		   if(B + A == C) can = true;
-		   if(B - A == C) can = true;
-		   if(B * A == C) can = true;
-		   if(B / A == C) can = true;
-		   
-		   if(can) sb.append("Possible");
-		   else sb.append("Impossible");
-		   
-		   sb.append("\n");
-		   
-	   }
-	   
-	   System.out.println(sb);
-	   
-   }
-   
-   // Life Savings 
-   public static void test09() throws IOException {
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringBuilder sb = new StringBuilder();
-	   StringTokenizer st; 
-	   
-	   st = new StringTokenizer(br.readLine());
-	   
-	   double[] p = new double[3];
-	   
-	   p[0] = Double.parseDouble(st.nextToken());
-	   p[1] = Double.parseDouble(st.nextToken());
-	   p[2] = Double.parseDouble(st.nextToken());
-	   
-	   st = new StringTokenizer(br.readLine());
-	   
-	   double c1 = Double.parseDouble(st.nextToken());
-	   double c2 = Double.parseDouble(st.nextToken());
-	   double c3 = Double.parseDouble(st.nextToken());
-	   
-	   Arrays.sort(p);
-	   
-	   double one = (p[0] + p[1] + p[2]) * (c1 / 100);
-	   double two = ((p[2] * (Math.max(c2, c3) / 100)) + (p[1] * (Math.min(c2, c3) / 100)));
-	   
-	   if(one > two) System.out.printf("one " + "%.2f",one);
-	   else System.out.printf("two " + "%.2f", two);
-   }
    
    // ПЪТУВАНЕ 
    public static void test10() throws IOException {

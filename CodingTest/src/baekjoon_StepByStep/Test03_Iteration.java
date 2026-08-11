@@ -82,29 +82,6 @@ public class Test03_Iteration {
 		System.out.println(sb.toString());
 	}
 	
-	// A+B - 7
-	public static void test06(){
-		Scanner sc = new Scanner(System.in);
-		int a;
-		a = sc.nextInt();
-		
-		for(int i = 1; i <= a; i++) {
-			System.out.println("Case #" + i + ": " + (sc.nextInt() + sc.nextInt()));
-		}
-	}
-	
-	// A+B - 8
-	public static void test07(){
-		Scanner sc = new Scanner(System.in);
-		int a;
-		a = sc.nextInt();
-		
-		for(int i = 1; i <= a; i++) {
-			int temp = sc.nextInt();
-			int temp2 = sc.nextInt();
-			System.out.println("Case #" + i + ": " + temp + " + " + temp2 + " = " + (temp+temp2));
-		}
-	}
 	
 	// 별 찍기 - 1
 	public static void test08(){
@@ -180,43 +157,5 @@ public class Test03_Iteration {
 		}
 	}
 	
-	// 더하기 사이클
-	public static void test13() {
-		
-		Scanner sc = new Scanner(System.in);
-		
-		String a = sc.next();
-		
-		if(a.length() == 1) {
-			a = a + "0";
-		}
-		
-		int origin = Integer.parseInt(a);
-		int cnt = 0;
-		int temp1 = 0;
-		int temp2 = 0;
-		int temp3 = 0;
-		
-		while(1 == 1) {
-			temp1 = Character.getNumericValue(a.charAt(a.length() - 1));
-			
-			for(int i = 0; i < a.length(); i++) {
-				temp2 += Character.getNumericValue(a.charAt(i));
-			}
-			
-			temp2 = Character.getNumericValue((temp2+"").charAt((temp2+"").length() - 1));
-			temp3 = Integer.parseInt(temp1 + "" +  temp2);
-			cnt++;
-			
-			a = temp3 +"";
-			temp1 = 0; 
-			temp2 = 0;
-			if(a.equals(origin + "")) {
-				break;
-			}
-		}
-		
-		System.out.println(cnt);
-	}
 }
 

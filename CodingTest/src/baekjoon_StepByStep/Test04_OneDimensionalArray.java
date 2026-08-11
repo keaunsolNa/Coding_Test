@@ -122,40 +122,6 @@ public class Test04_OneDimensionalArray {
 		}
 	}
 	
-	// 평균은 넘겠지
-	public static void test06()  {
-		Scanner sc = new Scanner(System.in);
-		int testCase = sc.nextInt();
-		int[] arr;
-		
-		for(int i = 0; i < testCase; i++) {
-			
-			int studentCount = sc.nextInt();
-			arr = new int[studentCount];
-			
-			int total = 0;
-			
-			for(int j = 0; j < studentCount; j++) {
-				int temp = sc.nextInt();
-				arr[j] = temp;
-				total += temp;
-			}
-			
-			double avg = total/studentCount;
-			double cnt = 0;
-			
-			for(int k = 0; k < studentCount; k++) {
-				if(arr[k] > avg) {
-					cnt++;
-				}
-			}
-			
-			System.out.printf("%.3f%%\n",(cnt/studentCount)*100);
-		}
-		
-		
-	}
-	
 	
 }
 

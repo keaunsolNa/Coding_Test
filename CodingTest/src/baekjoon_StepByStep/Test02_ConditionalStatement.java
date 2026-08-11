@@ -87,24 +87,6 @@ public class Test02_ConditionalStatement {
 		}
 	}
 	
-	// 오븐 시계
-	public static void test06(){
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-
-		int c = sc.nextInt();
-		
-		int min = 60 * a + b;
-		min += c;
-		
-		
-		int hour = (min / 60) % 24;
-		int minute = min % 60;
-		
-		System.out.println(hour + " " +  minute);
-		
-	}
 	
 	// 주사위 세개
 	public static void test07(){

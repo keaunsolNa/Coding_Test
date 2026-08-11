@@ -39,36 +39,9 @@ public class DataStructure13 {
 
 	}
 	
-	private static class Node {
-		int N;
-		int C;
-		
-		public Node(int N, int C) {
-			this.N = N;
-			this.C = C;
-		}
-		
-	}
-	
-    public static class Problem implements Comparable<Problem> {
-        int idx;
-        int level;
-
-        public Problem(int idx, int level) {
-            this.idx = idx;
-            this.level = level;
-        }
-
-        public int compareTo(Problem o) {
-
-            if (level - o.level == 0) return idx - o.idx;
-            return level - o.level;
-        }
-
-    }
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		test10();
+		test01();
 	}
 
 	// 27659번 - Queue skipping (Easy)
@@ -99,31 +72,6 @@ public class DataStructure13 {
 		
 	}
 	
-	// 2812번 - 크게 만들기
-	public static void test02() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-        StringBuilder sb = new StringBuilder();
-		
-		int N = Integer.parseInt(st.nextToken());
-		int K = Integer.parseInt(st.nextToken());
-		
-		char[] arr = br.readLine().toCharArray();
-		Deque<Character> dq = new ArrayDeque<>();
-		
-		for(int i = 0; i < N; i++) {
-			
-			while(K > 0 && !dq.isEmpty() && dq.getLast() < arr[i]) {
-				dq.removeLast();
-				K--;
-			}
-			dq.addLast(arr[i]);
-		}
-		
-        while (dq.size() > K) sb.append(dq.removeFirst());
-		
-        System.out.println(sb);
-	}
 	
 	// 14595번 - 동방 프로젝트 (Large)
 	private static int parents[];
@@ -252,171 +200,7 @@ public class DataStructure13 {
 	
 	// 4881번 - 자리수의 제곱
 	private static ArrayList<Node> list[];
-	private static boolean[] visited;
-	private static int start;
-	private static int end;
-	public static void test06() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		
-		st = new StringTokenizer(br.readLine());
-		int N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
-		
-		list = new ArrayList[N + 1];
-		for(int i = 0; i < N + 1; i++) list[i] = new ArrayList<>();
-		
-		int max = 0;
-		int min = Integer.MAX_VALUE;
-		for(int i = 0; i < M; i++) {
-			st = new StringTokenizer(br.readLine());
-			
-			int A = Integer.parseInt(st.nextToken());
-			int B = Integer.parseInt(st.nextToken());
-			int C = Integer.parseInt(st.nextToken());
-			
-			max = Math.max(C, max);
-			min = Math.min(C, min);
-			
-			list[A].add(new Node(B, C));
-			list[B].add(new Node(A, C));
-			
-		}
-		
-		st = new StringTokenizer(br.readLine());
-		start = Integer.parseInt(st.nextToken());
-		end = Integer.parseInt(st.nextToken());
-		
-		int result = 0;
-		while(min <= max) {
-			
-			int mid = (min + max) / 2;
-			visited = new boolean[N + 1];
-			
-			if(bfs(mid)) {
-				
-				min = mid + 1;
-				result = mid;
-			} else max = mid - 1;
-			
-		}
-		
-		System.out.println(result);
-		
-	}
 	
-	public static boolean bfs(int mid) {
-		
-		Queue<Integer> q = new LinkedList<>();
-		q.offer(start);
-		visited[start] = true;
-		
-		while(!q.isEmpty()) {
-			
-			int temp = q.poll();
-			
-			if(temp == end) return true;
-			
-			for(int i = 0; i < list[temp].size(); i++) {
-				if(list[temp].get(i).C >= mid && visited[list[temp].get(i).N] == false) {
-					
-					visited[list[temp].get(i).N] = true;
-					q.offer(list[temp].get(i).N);
-				}
-			}
-		}
-		return false;
-	}
-	
-	// 21939번 - 문제 추천 시스템 Version 1
-	public static void test07() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		int N = Integer.parseInt(br.readLine());
-		
-		TreeSet<Problem> ts = new TreeSet<>();
-        Map<Integer,Integer> map = new HashMap<>();
-		
-		for(int i = 0; i < N; i++) {
-			st = new StringTokenizer(br.readLine());
-			int P = Integer.parseInt(st.nextToken());
-			int L = Integer.parseInt(st.nextToken());
-			
-            ts.add(new Problem(P, L));
-            map.put(P,L);
-		}
-		
-		int m = Integer.parseInt(br.readLine());
-		
-        for (int i = 0; i < m; i++) {
-        	
-        	st = new StringTokenizer(br.readLine());
-        	String command = st.nextToken();
-        	
-            if (command.equals("add")) {
-            	
-                int P = Integer.parseInt(st.nextToken());
-                int L = Integer.parseInt(st.nextToken());
-                
-                ts.add(new Problem(P, L));
-                map.put(P,L);
-                
-            } else {
-            	
-                if (command.equals("recommend")) {
-                	
-                    if (Integer.parseInt(st.nextToken()) == 1) sb.append(ts.last().idx + "\n");
-                    else sb.append(ts.first().idx + "\n");
-                    
-                } else {
-                	
-                    int L = Integer.parseInt(st.nextToken());
-                    ts.remove(new Problem(L,map.get(L)));
-                    map.remove(L);
-                    
-                }
-            }
-        }
-	
-        System.out.println(sb);
-	}
-	
-	// 2358번 - 평행선
-	public static void test08() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
-        
-        int n = Integer.parseInt(br.readLine());
-        Map<Integer, Integer> x = new HashMap<Integer, Integer>();
-        Map<Integer, Integer> y = new HashMap<Integer, Integer>();
-
-        int count = 0;
-        
-        for(int i = 0; i < n; i++) {
-         
-        	st = new StringTokenizer(br.readLine());
-            int input_x = Integer.parseInt(st.nextToken());
-            int input_y = Integer.parseInt(st.nextToken());
-
-            if(x.containsKey(input_x)) x.put(input_x, x.get(input_x) + 1);
-            else  x.put(input_x, 1);
-            
-
-            if(y.containsKey(input_y)) y.put(input_y, y.get(input_y) + 1);
-            else y.put(input_y, 1);
-            
-        }
-
-        for(int key : x.keySet()) 
-            if(x.get(key) > 1) count++;
-
-        for(int key : y.keySet()) 
-            if(y.get(key) > 1) count++;
-
-        System.out.println(count);
-	}
 	
 	// 1043번 - 거짓말
 	public static void test09() throws NumberFormatException, IOException {
@@ -485,33 +269,7 @@ public class DataStructure13 {
 		System.out.println(answer);
 	}
 	
-	// 1351번 - 무한 수열
-	private static int P;
-	private static int Q;
 	private static Map<Long, Long> map = new HashMap<>();
-	public static void test10() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		
-		long N = Long.parseLong(st.nextToken());
-		P = Integer.parseInt(st.nextToken());
-		Q = Integer.parseInt(st.nextToken());
-		
-		System.out.println(solve(N));;
-		
-		
-	}
 	
-	private static long solve(long num) {
-		if(num == 0) return 1;
-		if(map.containsKey(num)) return map.get(num);
-		
-		long a = (long)Math.floor(num / P);
-		long b = (long)Math.floor(num / Q);
-		
-		map.put(num, solve(a) + solve(b));
-		
-		return map.get(num);
-	}
 	
 }

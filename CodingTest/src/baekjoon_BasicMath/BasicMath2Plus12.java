@@ -13,23 +13,6 @@ public class BasicMath2Plus12 {
       test10();
    }
    
-   // Koszykarz
-   public static void test01() throws IOException {
-      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-      StringTokenizer st = new StringTokenizer(br.readLine());
-      
-      long k = Long.parseLong(st.nextToken());
-      long w = Long.parseLong(st.nextToken());
-      long m = Long.parseLong(st.nextToken());
-
-      long need = w - k;
-      int answer = 0;
-      for(long i = m; i < need; i+=m) {
-    	  answer++;
-      }
-      
-      System.out.println(answer+1);
-   }
    
    // Patyki
    public static void test02() throws IOException {
@@ -53,45 +36,7 @@ public class BasicMath2Plus12 {
 	   
    }
 
-   // Gorivo
-   public static void test03() throws IOException {
-      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-      double mile = Double.parseDouble(br.readLine());
-      
-      double A = 100.00 / ((1.609344 / 3.785411784) * mile);
 
-      System.out.println(A);
-   }
-
-   // Cutting Corners
-   public static void test04() throws IOException {
-	     
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-	   double w = Integer.parseInt(st.nextToken());
-	   double h = Integer.parseInt(st.nextToken());
-	   
-	   double rc = w + h;
-	   double dc = Math.sqrt((w*w) + (h*h));
-
-	   System.out.println(rc - dc);
-   }
-   
-   // Affischutskicket 
-   public static void test05() throws IOException {
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringTokenizer st  = new StringTokenizer(br.readLine(), " ");
-	   double A = Integer.parseInt(st.nextToken());
-	   double B = Integer.parseInt(st.nextToken());
-	   double C = Integer.parseInt(st.nextToken());
-	   
-	   double C4 = 229 * 324 * A * 2;
-	   double A3 = 297 * 420 * B * 2;
-	   double A4 = 210 * 297 * C;
-	   
-	   System.out.printf("%.6f", (C4 + A3 + A4) * 0.000001);
-   }
-   
    // Изгороди 
    public static void test06() throws IOException {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -103,33 +48,6 @@ public class BasicMath2Plus12 {
       System.out.println(Math.round(D1 + D2));
    }
    
-   // St. Ives
-   public static void test07() throws IOException {
-       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-       double input = -0;
-       
-       while((input = Double.parseDouble(br.readLine())) != 0) {
-    	   System.out.printf("%.2f%n", Math.pow(input, 4) + Math.pow(input, 3) + Math.pow(input, 2) + input + 1);
-       }
-       
-   }
-   
-   // Schronisko
-   public static void test08() throws IOException {
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   int T = Integer.parseInt(br.readLine());
-	   
-	   for(int i = 0; i < T; i++) {
-		   StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		   int W = Integer.parseInt(st.nextToken());
-		   int K = Integer.parseInt(st.nextToken());
-		   int space = W*K/2;
-		   
-		   System.out.println(space);
-	   }
-       
-       
-   }
    
    // ПЧЕЛИЧКАТА МАЯ
    public static void test09() throws IOException {
@@ -157,7 +75,6 @@ public class BasicMath2Plus12 {
 	   System.out.println(4+w+h);
 	   
    }
-
 
 
 }

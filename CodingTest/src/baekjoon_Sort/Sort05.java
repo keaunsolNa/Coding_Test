@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class Sort05 {
 	
 	public static void main(String[] args) throws IOException {
-		test10();
+		test01();
 	}
 	
 	// 점수 계산
@@ -51,49 +51,6 @@ public class Sort05 {
 		}
 	}
 	
-	// 알고리즘 수업 - 선택 정렬 2
-	public static void test02() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		
-		st = new StringTokenizer(br.readLine(), " ");
-		
-		int n = Integer.parseInt(st.nextToken());
-		int k = Integer.parseInt(st.nextToken());
-		int[] arr = new int[n + 1];
-		
-		st = new StringTokenizer(br.readLine(), " ");
-		for(int i = 1; i <= n; i++) arr[i] = Integer.parseInt(st.nextToken());
-		
-		
-		int cnt = 0;
-		for(int last = n; last >= 2; last--) {
-			
-			int max = Integer.MIN_VALUE;
-			int i = 0;
-			
-			for(int idx = 1; idx <= last; idx++) {
-	            if (max < arr[idx]) {
-	                max = arr[idx];
-	                i = idx;
-	            }
-			}    
-	            
-            if (last != i) {
-                int tmp = arr[last];
-                arr[last] = arr[i];
-                arr[i] = tmp;
-            
-	            if (++cnt == k) {
-	                for (int j = 1; j <= n; j++) System.out.print(arr[j] + " ");
-	                return;
-	            }
-            }
-		}
-		
-		System.out.println(-1);
-	}	
 	
 	// 알고리즘 수업 - 선택 정렬 5
 	public static void test03() throws IOException {
@@ -154,60 +111,6 @@ public class Sort05 {
 		
 	}
     
-	// 이건 꼭 풀어야 해!
-	public static void test04() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		
-		st = new StringTokenizer(br.readLine(), " ");
-		
-		int N = Integer.parseInt(st.nextToken());
-		int Q = Integer.parseInt(st.nextToken());
-		int[] arr = new int[N + 1];
-		
-		st = new StringTokenizer(br.readLine(), " ");
-		for(int i = 1; i <= N; i++) arr[i] = Integer.parseInt(st.nextToken());
-		Arrays.sort(arr);
-		
-        for (int i = 1; i <= N; i++) arr[i] += arr[i-1];
-        
-		while(Q --> 0) {
-			st = new StringTokenizer(br.readLine(), " ");
-			
-			int L = Integer.parseInt(st.nextToken());
-			int R = Integer.parseInt(st.nextToken());
-			System.out.println(getRangedSum(arr, L, R));
-		}
-	}
-	
-	// 누적 합 알고리즘
-	public static int getRangedSum(int[] arr, int L, int R) {
-        return arr[R] - arr[L-1];
-    }
-	
-	// 스네이크버드
-	public static void test05() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		
-		int N = Integer.parseInt(st.nextToken());
-		long L = Integer.parseInt(st.nextToken());
-		
-		int[] arr = new int[N];
-		
-		st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < N; i++) arr[i] = Integer.parseInt(st.nextToken());
-		
-		Arrays.sort(arr);
-		
-		for(int i = 0; i < arr.length; i++) {
-			if(L >= arr[i]) L++;
-			else break;
-		}
-		
-		System.out.println(L);
-		
-	}
 	
 	// 줄 세우기
 	public static void test06() throws NumberFormatException, IOException {
@@ -233,117 +136,6 @@ public class Sort05 {
         if(flag) System.out.println("INCREASING");
         else if(flag2) System.out.println("DECREASING");
         else System.out.println("NEITHER");
-	}
-	
-	// 정열적인 정렬 
-	public static void test07() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
-		StringBuilder sb = new StringBuilder();
-		int T = Integer.parseInt(br.readLine());
-		int[] arr = new int[T];
-		
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < T; i++) arr[i] = Integer.parseInt(st.nextToken());
-		
-		Arrays.sort(arr);
-		
-		for (int i : arr) sb.append(i + " ");
-		
-		System.out.println(sb);
-	}
-	
-	// 중간고사 채점
-	public static void test08() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		
-		st = new StringTokenizer(br.readLine());
-		
-		int N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
-		int[] arr = new int[N];
-		
-		st = new StringTokenizer(br.readLine());
-		for(int i = 0; i < N; i++) arr[i] = Integer.parseInt(st.nextToken());
-		
-		int winner = 0;
-		int maxPoint = Integer.MIN_VALUE;
-		for(int i = 1; i <= M ; i ++) {
-			st = new StringTokenizer(br.readLine());
-			int stuNumber = Integer.parseInt(st.nextToken());
-			int sumPoint = 0;
-			
-			for(int j = 0; j < N; j++) {
-				String answer = st.nextToken();
-				if(answer.equals("O")) sumPoint += arr[j];
-			}
-
-			
-			if(sumPoint > maxPoint) {
-				maxPoint = sumPoint;
-				winner = stuNumber;
-			}
-			
-			if(sumPoint == maxPoint) {
-				if(winner > stuNumber) winner = stuNumber;
-			}
-		}
-		
-		System.out.println(winner + " " + maxPoint);
-	}
-	
-	// This Problem’s a Slam Dunk 
-	public static void test09() throws NumberFormatException, IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        
-        int[] A = new int[5];
-        for(int i = 0; i < 5; i++) A[i] = Integer.parseInt(st.nextToken());
-        
-        st = new StringTokenizer(br.readLine());
-        int[] B = new int[5];
-        for(int i = 0; i < 5; i++) B[i] = Integer.parseInt(st.nextToken());
-        
-        Arrays.sort(A);
-        Arrays.sort(B);
-        
-        int cnt = 0;
-        for(int i = 0; i < 5; i++) if(A[i] > B[i]) cnt++;
-        System.out.println(cnt);
-	}
-	
-	// 단어 나누기
-	public static void test10() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-		String input = br.readLine();
-		String[] strArr = new String[3];
-		List<String> list = new ArrayList<>();
-		for(int i = 1; i < input.length(); i++) {
-			
-			for(int j = i + 1; j < input.length(); j++) {
-				
-				strArr[0] = input.substring(0, i);
-				strArr[1] = input.substring(i, j);
-				strArr[2] = input.substring(j, input.length());
-				
-				StringBuilder sb = new StringBuilder();
-				
-				for(int k = 0; k < 3; k++) {
-					for(int q = strArr[k].length() - 1; q >= 0; q--) {
-						sb.append(Character.toString(strArr[k].charAt(q)));
-					}
-				}
-				
-				list.add(sb.toString());
-				
-				sb.setLength(0);
-			}
-		}
-		
-		Collections.sort(list);
-		
-		System.out.println(list.get(0));
 	}
 	
 	

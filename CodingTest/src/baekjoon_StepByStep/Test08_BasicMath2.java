@@ -44,22 +44,6 @@ public class Test08_BasicMath2 {
 		System.out.println(min);
 	}
 	
-	// 소인수 분해
-	public static void test03() {
-		
-		Scanner sc = new Scanner(System.in);
-		
-		int N = sc.nextInt();
-		if(N != 1) {
-			
-			for(int i = 2; i <= N; i++) {
-				while(N%i == 0) {
-					N = N/i;
-					System.out.println(i);
-				}
-			}
-		}
-	}
 	
 	// 소수 구하기
 	public static void test04() {
@@ -75,26 +59,6 @@ public class Test08_BasicMath2 {
 		}
 	}
 	
-	// 베르트랑 공준
-	public static void test05()  {
-		Scanner sc = new Scanner(System.in);
-		while(true) {
-			int n = sc.nextInt();
-			int cnt = 0;
-			if(n != 0) {
-				for(int i = n + 1; i <= 2*n; i++) {
-					if(isPrime(i)) {
-						cnt++;
-					}
-				}
-				if(cnt != 0) {
-					System.out.println(cnt);
-				}
-			} else{
-				break;
-			}
-		}
-	}
 	
 	// 골드바흐의 추측
 	public static void test06() {
