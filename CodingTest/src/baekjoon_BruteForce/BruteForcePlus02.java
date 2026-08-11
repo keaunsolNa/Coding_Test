@@ -54,55 +54,6 @@ public class BruteForcePlus02 {
 		System.out.println(cnt);
 	}
 	
-	// 팰린드롬
-	public static void test07() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		
-		for(int i = 0; i < T; i++) {
-			int K = Integer.parseInt(br.readLine());
-			String[] word = new String[K];
-
-			for(int j = 0; j < K; j++) {
-				word[j] = br.readLine();
-			}
-			
-			boolean chk = false;
-			String palindrome = "";
-			for(int j = 0; j < K; j++) {
-				
-				for(int k = 0; k < K; k++) {
-					
-					if(j == k)continue;
-					String temp = word[j] + word[k];
-					
-					if(isPalindrome(temp)) {
-						chk = true;
-						palindrome = temp;
-						break;
-					}
-				}
-			if(chk)break;
-			
-			
-			}
-			if(chk) {
-				System.out.println(palindrome);
-			} else {
-				System.out.println(0);
-			}
-		}
-	}
-	
-    static boolean isPalindrome(String word) {
-        for (int i = 0; i < (word.length() / 2); i++) {
-            if (word.charAt(i) != word.charAt(word.length() - i - 1)) {
-                return false;
-            }
-        }
-        return true;
-    }
-	
 	
 }
 

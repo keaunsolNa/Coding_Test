@@ -12,22 +12,9 @@ import java.util.StringTokenizer;
 public class StringPlus28 {
 	
 	public static void main(String[] args) throws IOException {
-		test03();
+		test04();
 	}
 
-	
-	// Magic Trick 
-	public static void test03() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		String input = br.readLine();
-		
-		Set<Character> set = new HashSet<>();
-		for(int i = 0; i < input.length(); i++) set.add(input.charAt(i));
-		
-		if(input.length() != set.size()) System.out.println(0);
-		else System.out.println(1);
-	}
 	
 	// Шахматная доска
 	public static void test04() throws IOException {
@@ -63,29 +50,6 @@ public class StringPlus28 {
 		System.out.println(sb);
 	}
 	
-	
-	// Poker Hand
-	public static void test07() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();
-		StringTokenizer st;
-		int T = Integer.parseInt(br.readLine());
-		
-		while(T --> 0) {
-			Map<Character, Integer> map = new HashMap<>();
-			st = new StringTokenizer(br.readLine());
-			
-			for(int i = 0; i < 5; i++) {
-				char key = st.nextToken().charAt(0);
-				map.put(key, map.getOrDefault(key, 0) + 1);
-			}
-
-			int max = 0;
-			for(char key : map.keySet()) if(max < map.get(key)) max = map.get(key);
-			
-			System.out.println(max);
-		}
-	}
 	
 	// Square 
 	public static void test08() throws IOException {
