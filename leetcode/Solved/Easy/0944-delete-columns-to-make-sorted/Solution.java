@@ -47,6 +47,8 @@ class Solution {
                     ans++;
                     break;
                 }
+
+                prev = now;
             }
         }
 
