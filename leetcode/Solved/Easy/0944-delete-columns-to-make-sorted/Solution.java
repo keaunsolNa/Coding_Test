@@ -19,19 +19,15 @@ class Solution {
         }
 
         for (int i = 0; i < l; i++) {
-
-            for (int j = 0; j < n; j++) {
-                System.out.print(arr[i][j] + " ");
-            }
-
-            System.out.println();
-
-        }
-
-        for (int i = 0; i < l; i++) {
             
             int prev = arr[i][0];
             int now = arr[i][1];
+
+            if (prev > now) {
+                ans++;
+                continue;
+            }
+            
             prev = now;
 
             for (int j = 2; j < n; j++) {
