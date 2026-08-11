@@ -10,35 +10,9 @@ import java.util.StringTokenizer;
 public class BasicMath2Plus22 {
 
    public static void main(String[] args) throws IOException {
-      test03();
+      test06();
    }
    
-   
-   // Pizza 
-   public static void test03() throws IOException {
-      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-      StringTokenizer st;
-      
-      int T = Integer.parseInt(br.readLine());
-      
-      while(T --> 0) {
-    	  st = new StringTokenizer(br.readLine(), " ");
-    	  double A1 = Double.parseDouble(st.nextToken());
-    	  double P1 = Double.parseDouble(st.nextToken());
-
-    	  st = new StringTokenizer(br.readLine(), " ");
-    	  double R1 = Double.parseDouble(st.nextToken());
-    	  double P2 = Double.parseDouble(st.nextToken());
-    	  
-    	  double A2 = Math.PI * R1 * R1;
-    	  double PA = A1 / P1;
-    	  double RA = A2 / P2;
-    	  
-    	  if(PA > RA) System.out.println("Slice of pizza");
-    	  else System.out.println("Whole pizza");
-      }
-   }
-
    
    // 거북이 
    public static void test06() throws IOException {

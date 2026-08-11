@@ -11,7 +11,7 @@ import java.util.Stack;
 public class Test20_Stack {
 
 	public static void main(String[] args) throws IOException {
-		test03();
+		test01();
 	}
 	
 	// 스택
@@ -88,38 +88,6 @@ public class Test20_Stack {
 		}
 	}
 	
-	// 괄호
-	public static void test03() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int T = Integer.parseInt(br.readLine());
-		
-		for(int i = 0; i < T; i++) {
-			String s = br.readLine();
-			String answer = "NO";
-	        Deque<Character> deque = new LinkedList<>();
-	        char[] charArray = s.toCharArray();
-	        
-	        for (char c : charArray) {
-	        	if(c == '(') {
-	        		deque.add(c);
-	        	} else if(c == ')') {
-	        		if(deque.size() == 0) {
-	        			answer = "NO";
-	        			deque.add('N');
-	        			break;
-	        		} else {
-	        			deque.poll();
-	        		}
-	        	}
-			}
-	        
-	        if(deque.size() == 0) {
-	        	answer = "YES";
-	        }
-	        
-	        System.out.println(answer);
-		}
-	}
 	
 	// 균형잡힌 세상
 	public static void test04() throws IOException {
