@@ -20,10 +20,14 @@ class Solution {
             return 0;
         }
 
-        int leftDepth = minDepth(root.left);
-
-        int rightDepth = minDepth(root.right);
-
-        return 1 + Math.min(leftDepth, rightDepth);
+        if (root.left == null) {
+            return 1 + minDepth(root.right);
+        }
+      
+        if (root.right == null) {
+            return 1 + minDepth(root.left);
+        }
+      
+        return 1 + Math.min(minDepth(root.left), minDepth(root.right));
     }
 }
