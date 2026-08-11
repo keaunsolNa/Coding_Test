@@ -35,16 +35,6 @@ public class Implement10 {
 	}
 	
 	
-	// 알고리즘 수업 - 알고리즘의 수행 시간 2
-	public static void test04() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		System.out.println(N);
-		System.out.println(1);
-		
-	}
-	
-	
 	// 이진수
 	public static void test10() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

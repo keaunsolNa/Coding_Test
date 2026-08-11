@@ -37,29 +37,6 @@ public class Test19_Greedy {
 		System.out.println(total);
 	}
 	
-	// 잃어버린 괄호
-	public static void test04() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String input = br.readLine();
-		
-		String[] splitM = input.split("-");
-		
-		int ans = 0;
-		for(int i = 0; i < splitM.length; i++) {
-			int sum  = 0;
-			
-			String[] splitPlus = splitM[i].split("\\+");
-			
-			for(int j = 0; j < splitPlus.length; j++) 
-				sum += Integer.parseInt(splitPlus[j]);
-			
-			if(i == 0) ans += sum;
-			else ans -= sum;
-					
-		}
-		
-		System.out.println(ans);
-	}
 	
 	// 주유소
 	public static void test05() throws IOException {

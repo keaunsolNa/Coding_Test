@@ -60,72 +60,7 @@ public class Class03 {
     
     // 1260번 - DFS와 BFS
     private static int M, N;
-    private static int[][] graph;
-    private static boolean visited[];
-    private static int V;
-    public static void test05() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		
-		st = new StringTokenizer(br.readLine(), " ");
-		N = Integer.parseInt(st.nextToken());
-		M = Integer.parseInt(st.nextToken());
-		V = Integer.parseInt(st.nextToken());
-		graph = new int[1001][1001];
-		visited = new boolean[10001];
-		 
-		
-		for(int i = 0; i < M; i++) {
-			st = new StringTokenizer(br.readLine(), " ");
-			
-			int x = Integer.parseInt(st.nextToken());
-			int y = Integer.parseInt(st.nextToken());
-			graph[x][y] = graph[y][x] = 1;
-		}
-		
-		dfs(V);
-		
-        for(int j = 1; j <= N; j++) visited[j] = false;
-        
-        System.out.println();
-          
-        bfs(V);
-    }
 
-    private static void dfs(int i) {
-    	
-        visited[i] = true;
-        System.out.print(i+" ");
-          
-        for(int j = 1; j <= N; j++) if(graph[i][j] == 1 && visited[j] == false) dfs(j);
-        
-    }
-    
-    private static void bfs(int i){
-    	  
-        Queue<Integer> q = new LinkedList<Integer>();
-        q.offer(i);
-        visited[i] = true;
-        System.out.print(i + " ");
-          
-        int temp;
-        while(!q.isEmpty()) {
-        	
-            temp = q.poll();
-            
-            for(int j=0; j<N+1; j++) {
-            	
-                if(graph[temp][j] == 1 && visited[j] == false) {
-                	
-                    q.offer(j);
-                    visited[j] = true;
-                    System.out.print(j+" ");
-                    
-                }
-            }                       
-        }
-    }
-    
     
     // 
     public static void test07() throws NumberFormatException, IOException {

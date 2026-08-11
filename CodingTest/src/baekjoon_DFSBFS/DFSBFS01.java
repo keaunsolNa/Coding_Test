@@ -11,10 +11,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class DFSBFS01 {
-	private static int N;
-	private static int M;
     private static int cnt;
-    private static int[] visted;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		test01();
@@ -58,75 +55,6 @@ public class DFSBFS01 {
     private static boolean visited[];
 	
       
-	// 알고리즘 수업 - 깊이 우선 탐색 1
-    private static ArrayList<ArrayList<Integer>> graph2 = new ArrayList<>();
-	public static void test03() throws NumberFormatException, IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine()," ");
-        N = Integer.parseInt(st.nextToken());
-        M = Integer.parseInt(st.nextToken());
-        int r =Integer.parseInt(st.nextToken());
-        
-        for(int i = 0; i < N + 1; i++) graph2.add(new ArrayList<Integer>());
-        
-        for(int i = 0; i < M; i++) {
-            st = new StringTokenizer(br.readLine(), " ");
-            int u = Integer.parseInt(st.nextToken());
-            int v = Integer.parseInt(st.nextToken());
-            graph2.get(u).add(v);
-            graph2.get(v).add(u);
-        }
-        
-        for(int i = 0; i < graph2.size(); i++) Collections.sort(graph2.get(i));
-        cnt = 1;
-        visted = new int[N + 1];
-        dfs2(r);
-        
-        for(int i = 1; i < visted.length; i++) System.out.println(visted[i]);
-		
-	}
-	
-	// 알고리즘 수업 - 깊이 우선 탐색 DFS Method
-    public static void dfs2(int x){
-        visted[x] = cnt;
-        for(int i = 0; i < graph2.get(x).size(); i++){
-
-        	int y = graph2.get(x).get(i);
-            if(visted[y] == 0){
-                cnt++;
-                dfs2(y);
-            }
-        }
-    }
-
-	// 알고리즘 수업 - 깊이 우선 탐색 2
-	public static void test04() throws NumberFormatException, IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine()," ");
-        N = Integer.parseInt(st.nextToken());
-        M = Integer.parseInt(st.nextToken());
-        int r =Integer.parseInt(st.nextToken());
-        
-        for(int i = 0; i < N + 1; i++) graph2.add(new ArrayList<Integer>());
-        
-        for(int i = 0; i < M; i++) {
-            st = new StringTokenizer(br.readLine(), " ");
-            int u = Integer.parseInt(st.nextToken());
-            int v = Integer.parseInt(st.nextToken());
-            graph2.get(u).add(v);
-            graph2.get(v).add(u);
-        }
-        
-        for(int i = 0; i < graph2.size(); i++) Collections.sort(graph2.get(i), Collections.reverseOrder());
-        
-        cnt = 1;
-        visted = new int[N + 1];
-        dfs2(r);
-        
-        for(int i = 1; i < visted.length; i++) System.out.println(visted[i]);
-		
-	}
-
 	private static int[] visit;
 
     

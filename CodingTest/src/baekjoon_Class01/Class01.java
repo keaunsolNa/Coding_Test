@@ -63,15 +63,6 @@ public class Class01 {
 	}
 	
 
-	// 검증수
-	public static void test10() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		System.out.println((int)(Math.pow(Integer.parseInt(st.nextToken()), 2) + Math.pow(Integer.parseInt(st.nextToken()), 2) + 
-		Math.pow(Integer.parseInt(st.nextToken()), 2) + Math.pow(Integer.parseInt(st.nextToken()), 2) + Math.pow(Integer.parseInt(st.nextToken()), 2))%10);
-	}
-	
-	
 	// 최댓값
 	public static void test12() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -95,23 +86,6 @@ public class Class01 {
 		
 		System.out.println(max);
 		System.out.println(index + 1);
-	}
-
-	// 숫자의 개수
-	public static void test13() throws NumberFormatException, IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String ABC = Integer.parseInt(br.readLine())*Integer.parseInt(br.readLine())*Integer.parseInt(br.readLine()) + "";
-		
-		for(int i = 0; i <= 9; i++) {
-			int cnt = 0;
-			for(int j = 0; j < ABC.length(); j++) {
-				
-				if(i == Character.getNumericValue(ABC.charAt(j))) {
-					cnt++;
-				}
-			}
-			System.out.println(cnt);
-		}
 	}
 
 

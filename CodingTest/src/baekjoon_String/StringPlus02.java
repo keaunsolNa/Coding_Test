@@ -45,35 +45,4 @@ public class StringPlus02 {
 	}
 	
 
-	// 듣보잡
-	public static void test08() throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
-		
-		Map<String, Integer> hashMap = new HashMap<>();
-		List<String> arrList = new ArrayList<>();
-		StringBuilder sb = new StringBuilder();
-		
-		for(int i = 0; i < N; i++) {
-			hashMap.put(br.readLine(), 1);
-		}
-		
-		for(int i = 0; i < M; i++) {
-			String temp = br.readLine();
-			hashMap.put(temp, hashMap.getOrDefault(temp, 0) + 1);
-			if(hashMap.get(temp) == 2) arrList.add(temp);
-		}
-		
-		Collections.sort(arrList);
-		sb.append(arrList.size() + "\n");
-		for (String string : arrList) {
-			sb.append(string + "\n");
-		}
-		
-		System.out.println(sb);
-	}
-
-	
 }

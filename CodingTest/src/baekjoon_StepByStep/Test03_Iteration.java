@@ -8,16 +8,6 @@ import java.util.StringTokenizer;
 
 public class Test03_Iteration {
 
-	// 구구단
-	public static void test01(){
-		Scanner sc = new Scanner(System.in);
-		int a;
-		a = sc.nextInt();
-		
-		for(int i = 1; i <= 9; i++) {
-			System.out.println(a + " * " + i + " = " + a*i);
-		}
-	}
 	
 	// A + B -3
 	public static void test02(){
@@ -44,80 +34,6 @@ public class Test03_Iteration {
 		System.out.println(result);
 	}
 	
-	
-	// 별 찍기 - 1
-	public static void test08(){
-		Scanner sc = new Scanner(System.in);
-		int a;
-		a = sc.nextInt();
-		
-		for(int i = 0; i < a; i++) {
-			for(int j = 0; j < i+1; j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
-	}
-	
-	// 별 찍기 - 2
-	public static void test09(){
-		Scanner sc = new Scanner(System.in);
-		int a;
-		a = sc.nextInt();
-		
-		for(int i = a; i > 0; i--) {
-			
-			for(int j = i - 1; j > 0; j--) {
-				System.out.print(" ");
-			}
-			for(int k = 0; k < a - i + 1; k++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
-	}
-	
-	// X보다 작은 수
-	public static void test10(){
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
-		for(int i = 0; i < a; i++) {
-			int temp = sc.nextInt();
-			if(temp < b) {
-				System.out.println(temp);
-			}
-		}
-	}
-	
-	// A+B - 5
-	public static void test11(){
-		Scanner sc = new Scanner(System.in);
-		int a = 1;
-		int b = 1;
-		
-		while(1 == 1) {
-			a = sc.nextInt();
-			b = sc.nextInt();
-			if(a == 0 && b == 0) {
-				break;
-			}
-			System.out.println(a + b);
-		}
-	}
-	
-	// A+B - 4
-	public static void test12() {
-		
-		Scanner sc = new Scanner(System.in);
-		
-		while(sc.hasNext()) {
-			int a = sc.nextInt();
-			int b = sc.nextInt();
-			System.out.println(a + b);
-		}
-	}
 	
 }
 

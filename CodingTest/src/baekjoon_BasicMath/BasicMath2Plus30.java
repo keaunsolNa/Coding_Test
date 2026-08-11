@@ -8,30 +8,7 @@ import java.util.StringTokenizer;
 public class BasicMath2Plus30 {
 
    public static void main(String[] args) throws IOException {
-      test05();
-   }
-   
-   
-   // Zbiór
-   public static void test05() throws IOException {
-	   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   StringBuilder sb = new StringBuilder();
-	   StringTokenizer st = new StringTokenizer(br.readLine());
-	   
-	   int X = Integer.parseInt(st.nextToken());
-	   int Y = Integer.parseInt(st.nextToken());
-	   int Z = Integer.parseInt(st.nextToken());
-	   
-	   for(int i = 1; i <= Z; i++) {
-		   
-		   if(i % X == 0 && i % Y == 0) sb.append("FizzBuzz" + "\n");
-		   else if(i % X == 0) sb.append("Fizz" + "\n");
-		   else if(i % Y == 0) sb.append("Buzz" + "\n");
-		   else sb.append(i + "\n");
-	   }
-	   
-	   sb.deleteCharAt(sb.length() - 1);
-	   System.out.print(sb);
+      test10();
    }
    
    

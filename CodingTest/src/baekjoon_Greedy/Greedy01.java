@@ -37,24 +37,6 @@ public class Greedy01 {
 	}
 	
 	
-	// 캥거루 세 마리
-	public static void test03() throws IOException{
-		Scanner sc = new Scanner(System.in);
-		
-		while(sc.hasNext()) {
-			String[] ABC =  sc.nextLine().split(" ");
-			int A = Integer.parseInt(ABC[0]);
-			int B = Integer.parseInt(ABC[1]);
-			int C = Integer.parseInt(ABC[2]);
-				
-			if(B - A > C - B) {
-				System.out.println(B-A-1);
-			} else {
-				System.out.println(C-B-1);
-			}
-		}
-	}
-
 	// 거스름돈
 	public static void test04() throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
