@@ -31,6 +31,9 @@ Example: `solve: #561 array-partition | runtime: 18 ms (31.7%), memory: 49.4 MB 
 Each LeetCode problem lives in its own folder:
 - `Solution.java` — bare class (no `public class`, no package, no imports at top; add imports inside the class or rely on judge's implicit imports)
 - `problem.md` — frontmatter + full problem statement
+- `analysis.md` — submission stats (runtime/memory table) + code review notes
+
+Starter templates for new solutions live in `templates/` (`templates/leetcode/`, `templates/baekjoon/`).
 
 `problem.md` frontmatter:
 ```yaml
