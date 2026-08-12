@@ -12,7 +12,8 @@ class Solution {
         for (char c : typedArr) typedMap.put(c, typedMap.getOrDefault(c, 0) + 1);
 
         for (char c : nameMap.keySet()) {
-
+            
+            if (null == typedMap.get(c)) return false;
             if (typedMap.get(c) < nameMap.get(c)) return false;
         }
 
