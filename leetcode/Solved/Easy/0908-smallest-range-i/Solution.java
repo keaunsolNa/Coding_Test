@@ -3,9 +3,9 @@ class Solution {
         
         Arrays.sort(nums);
 
-        int min = nums[0];
         int max = nums[nums.length - 1];
+        int min = nums[0];
 
-        return Math.min(max - min, Math.max(max - min - k, 0));
+        return Math.max(0, max - min - 2 * k);
     }
 }
