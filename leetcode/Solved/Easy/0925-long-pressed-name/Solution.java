@@ -24,6 +24,7 @@ class Solution {
             if (typedMap.get(c) != nameMap.get(c)) check = false;
         }
 
+        System.out.println(check);
         return !check;
         
     }
