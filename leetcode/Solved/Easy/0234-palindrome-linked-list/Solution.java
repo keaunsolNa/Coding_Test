@@ -22,6 +22,7 @@ class Solution {
             dummyNode.next = current;
           
             current = nextNode;
+            System.out.print(current + " ");
         }
 
         // while (dummyNode != null) System.out.print(dummyNode.next.val + " ");
