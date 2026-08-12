@@ -27,11 +27,14 @@ class Solution {
 
         System.out.println();
 
+        current = head;
+        
         while (current != null) {
 
             System.out.print(current.val + " ");
             System.out.print(dummyNode.val + " ");
             current = current.next;
+            dummyNode = dummyNode.next;
         }
 
         // while (dummyNode != null) System.out.print(dummyNode.next.val + " ");
