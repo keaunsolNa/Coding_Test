@@ -2,10 +2,10 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 8. 12. 오후 1:45:20 |
+| Submitted | 2026. 8. 12. 오후 1:46:25 |
 | Language | java |
 | Runtime | 2 ms (Beats 0.0%) |
-| Memory | 42 MB (Beats 0.0%) |
+| Memory | 42.1 MB (Beats 0.0%) |
 
 ## Submission
 
@@ -13,28 +13,42 @@
 
 ## Code Review
 
-리뷰 대상 코드는 palindrome-linked-list 문제를 해결하는 자바 코드입니다. 
+**코드 리뷰**
 
-1. **시간 복잡도**: O(n) - 이 코드는 연결 리스트를 두 번 순회합니다. 첫 번째 순회에서는 리스트를 역순으로 뒤집고, 두 번째 순회에서는 원래 리스트와 뒤집은 리스트를 비교합니다. n은 연결 리스트의 노드 수입니다.
+1. **시간 복잡도**: O(n) - 이 코드는 연결 리스트를 두 번 순회합니다. 첫 번째 순회는 리스트를 역순으로 변환하는 데 사용되며, 두 번째 순회는 palindrome 여부를 확인하는 데 사용됩니다. 여기서 n은 연결 리스트의 노드 수입니다.
 
-2. **공간 복잡도**: O(1) - 이 코드는 추가적인 공간을 거의 사용하지 않습니다. dummyNode를 사용하여 리스트를 역순으로 뒤집지만, 이는 추가적인 공간을 많이 차지하지 않습니다.
+2. **공간 복잡도**: O(1) - 이 코드는 palindrome 여부를 확인하는 데 추가적인 공간을 사용하지 않습니다. 단, dummy 노드를 사용하여 리스트를 역순으로 변환하지만, 이는 상수 공간으로 간주됩니다.
 
-3. **풀이 접근법**: 이 코드는 연결 리스트를 역순으로 뒤집는 알고리즘을 사용합니다. 연결 리스트의 노드를 역순으로 연결하여 새로운 리스트를 생성하고, 원래 리스트와 새로운 리스트를 비교하여 회文인지 확인합니다.
+3. **풀이 접근법**: 이 코드는 연결 리스트를 역순으로 변환하여 palindrome 여부를 확인합니다. 이는 두 개의 포인터(두 끝에서 시작)를 사용하여 리스트를 순회하는 접근법과 비슷합니다. 그러나 이 코드에서는 리스트를 역순으로 변환하여 palindrome 여부를 확인합니다.
 
-4. **잘된 점**: 이 코드는 연결 리스트를 역순으로 뒤집는 알고리즘을 잘 구현했습니다. 또한, dummyNode를 사용하여 리스트를 역순으로 뒤집는 부분은 코드를 간결하게 만들어줍니다.
+4. **잘된 점**: 이 코드는 연결 리스트를 역순으로 변환하는 로직을 잘 구현했습니다. 또한, dummy 노드를 사용하여 리스트의 헤드를 쉽게 관리했습니다.
 
-5. **개선 사항**: 코드에서 비교 로직이 제대로 구현되지 않았습니다. 현재 코드는 리스트를 역순으로 뒤집은 후, 원래 리스트와 비교하는 부분이 제대로 작동하지 않습니다. 비교 로직을 제대로 구현하여 회文인지 확인하는 코드를 추가해야 합니다. 또한, 코드에 있는 System.out.println 문들은 디버깅 용도로 사용하는 것이 좋으며, 실제 코드에서는 제거하는 것이 좋습니다. 
-
-예를 들어, 비교 로직을 구현한 코드는 다음과 같습니다.
-
+5. **개선 사항**: palindrome 여부를 확인하는 로직이 제대로 구현되지 않았습니다. 현재 코드에서는 리스트를 역순으로 변환한 후, palindrome 여부를 확인하지 않습니다. 이를 개선하기 위해, 두 개의 포인터(원래 리스트와 역순으로 변환된 리스트)를 사용하여 노드 값을 비교할 수 있습니다. 또한, 불필요한 출력문들을 제거하여 코드를 더 깔끔하게 만들 수 있습니다. 예를 들어, 다음과 같이 수정할 수 있습니다:
 ```java
-ListNode current = head;
-ListNode reversed = dummyNode.next;
+class Solution {
+    public boolean isPalindrome(ListNode head) {
+        if (head == null || head.next == null) return true;
 
-while (current != null) {
-    if (current.val != reversed.val) return false;
-    current = current.next;
-    reversed = reversed.next;
+        // 리스트를 역순으로 변환
+        ListNode dummyNode = new ListNode();
+        ListNode current = head;
+        while (current != null) {
+            ListNode nextNode = current.next;
+            current.next = dummyNode.next;
+            dummyNode.next = current;
+            current = nextNode;
+        }
+
+        // palindrome 여부 확인
+        ListNode p1 = head;
+        ListNode p2 = dummyNode.next;
+        while (p2 != null) {
+            if (p1.val != p2.val) return false;
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+
+        return true;
+    }
 }
-return true;
 ```
