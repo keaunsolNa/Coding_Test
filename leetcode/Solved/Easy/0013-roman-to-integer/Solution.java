@@ -11,7 +11,7 @@ class Solution {
             char c = arr[i];
             int now = convertCharToInt(c);
 
-            if (now > prev) total += (now - prev);
+            if (now > prev) total += (now - prev - prev);
             else total += now;
 
             prev = now;
