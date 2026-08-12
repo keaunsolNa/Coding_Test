@@ -15,6 +15,8 @@ class Solution {
             else total += now;
 
             prev = now;
+
+            System.out.println(c + " " + total);
         }
 
         return total;
