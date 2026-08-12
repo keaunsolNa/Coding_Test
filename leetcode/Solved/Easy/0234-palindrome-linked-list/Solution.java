@@ -16,15 +16,16 @@ class Solution {
 
         while (current != null) {
 
+            System.out.print(current.val + " ");
             ListNode nextNode = current.next;
 
             current.next = dummyNode.next;
             dummyNode.next = current;
           
             current = nextNode;
-            System.out.print(current + " ");
         }
 
+        System.out.println();
         // while (dummyNode != null) System.out.print(dummyNode.next.val + " ");
 
         System.out.println("C");
