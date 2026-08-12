@@ -26,6 +26,7 @@ class Solution {
 
         while (head != null) {
 
+            System.out.println(head.next + " " + dummyNode.next);
             if (head.next != dummyNode.next) return false;
         }
 
