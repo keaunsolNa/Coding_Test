@@ -30,6 +30,7 @@ class Solution {
         while (current != null) {
 
             System.out.print(current.val + " ");
+            System.out.print(dummyNode.val + " ");
             current = current.next;
         }
 
