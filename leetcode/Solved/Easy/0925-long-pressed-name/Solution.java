@@ -1,6 +1,8 @@
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
         
+        if (name.equals(typed)) return true;
+
         char[] nameArr = name.toCharArray();
         char[] typedArr = typed.toCharArray();
 
@@ -15,10 +17,7 @@ class Solution {
 
         for (char c : nameMap.keySet()) {
             
-            if (null == typedMap.get(c)) {
-                System.out.println("C");
-                return false;
-            }
+            if (null == typedMap.get(c)) return false;
 
             if (typedMap.get(c) < nameMap.get(c)) return false;
 
