@@ -1,31 +1,37 @@
 class Solution {
+
     public boolean isLongPressedName(String name, String typed) {
-        
-        if (name.equals(typed)) return true;
 
-        char[] nameArr = name.toCharArray();
-        char[] typedArr = typed.toCharArray();
+        int nameLength = name.length();
+        int typedLength = typed.length();
+        int nameIndex = 0;
+        int typedIndex = 0;
+      
+        while (nameIndex < nameLength && typedIndex < typedLength) {
 
-        Map<Character, Integer> nameMap = new HashMap<>();
-        Map<Character, Integer> typedMap = new HashMap<>();
-
-        for (char c : nameArr) nameMap.put(c, nameMap.getOrDefault(c, 0) + 1);
-
-        for (char c : typedArr) typedMap.put(c, typedMap.getOrDefault(c, 0) + 1);
-
-        boolean check = true;
-
-        for (char c : nameMap.keySet()) {
-            
-            if (null == typedMap.get(c)) return false;
-
-            if (typedMap.get(c) < nameMap.get(c)) return false;
-
-            if (typedMap.get(c) != nameMap.get(c)) check = false;
+            if (name.charAt(nameIndex) != typed.charAt(typedIndex)) return false;
+          
+            int nameGroupEnd = nameIndex + 1;
+            while (nameGroupEnd < nameLength && 
+                   name.charAt(nameGroupEnd) == name.charAt(nameIndex)) {
+                nameGroupEnd++;
+            }
+          
+            int typedGroupEnd = typedIndex + 1;
+            while (typedGroupEnd < typedLength && 
+                   typed.charAt(typedGroupEnd) == typed.charAt(typedIndex)) {
+                typedGroupEnd++;
+            }
+          
+            int nameGroupSize = nameGroupEnd - nameIndex;
+            int typedGroupSize = typedGroupEnd - typedIndex;
+          
+            if (nameGroupSize > typedGroupSize) return false;
+          
+            nameIndex = nameGroupEnd;
+            typedIndex = typedGroupEnd;
         }
-
-        System.out.println(check);
-        return !check;
-        
+      
+        return nameIndex == nameLength && typedIndex == typedLength;
     }
 }
