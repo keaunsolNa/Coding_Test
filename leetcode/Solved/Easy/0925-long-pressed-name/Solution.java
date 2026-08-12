@@ -13,10 +13,13 @@ class Solution {
 
         System.out.println(nameMap);
         System.out.println(typedMap);
-        
+
         for (char c : nameMap.keySet()) {
             
-            if (null == typedMap.get(c)) return false;
+            if (null == typedMap.get(c)) {
+                System.out.println("C");
+                return false;
+            }
             if (typedMap.get(c) < nameMap.get(c)) return false;
         }
 
