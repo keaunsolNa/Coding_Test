@@ -31,11 +31,13 @@ class Solution {
         
         while (current != null) {
 
-            System.out.print(current.val + " ");
-            System.out.print(dummyNode.val + " ");
+            System.out.print("C : " + current.val + " ");
+            System.out.print("D : " + dummyNode.val + " ");
             current = current.next;
             dummyNode = dummyNode.next;
         }
+
+        System.out.println();
 
         // while (dummyNode != null) System.out.print(dummyNode.next.val + " ");
 
