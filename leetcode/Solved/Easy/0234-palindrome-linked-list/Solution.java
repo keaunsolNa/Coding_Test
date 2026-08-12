@@ -11,48 +11,33 @@
 class Solution {
     public boolean isPalindrome(ListNode head) {
 
-        ListNode dummyNode = new ListNode();
-        ListNode current = head;
-
+        ListNode slow = head;
+        ListNode fast = head.next;
+      
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+      
+        ListNode current = slow.next;
+        slow.next = null; 
+      
+        ListNode previous = null;
         while (current != null) {
 
-            ListNode nextNode = current.next;
-
-            current.next = dummyNode.next;
-            dummyNode.next = current;
-          
-            current = nextNode;
+            ListNode temp = current.next;  
+            current.next = previous;       
+            previous = current;             
+            current = temp;                 
         }
+      
+        while (previous != null) {
 
-        System.out.println();
-
-        current = head;
-        
-        while (current != null) {
-
-            System.out.print("C : " + current.val + " ");
-            current = current.next;
+            if (previous.val != head.val) return false;  
+            previous = previous.next;
+            head = head.next;
         }
-
-        System.out.println();
-
-        // while (dummyNode != null) System.out.print(dummyNode.next.val + " ");
-
-        System.out.println("C");
-
-        // ListNode current = head;
-        
-        // while (current != null)  {
-
-        //     ListNode next = current.next;
-        //     System.out.print(next.val + " ");
-        // }
-        
-        // while (head != null) {
-
-        //     if (head.next.val != dummyNode.next.val) return false;
-        // }
-
+      
         return true;
 
     }
