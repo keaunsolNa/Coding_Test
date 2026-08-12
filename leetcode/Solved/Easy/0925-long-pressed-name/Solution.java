@@ -11,8 +11,7 @@ class Solution {
 
         for (char c : typedArr) typedMap.put(c, typedMap.getOrDefault(c, 0) + 1);
 
-        System.out.println(nameMap);
-        System.out.println(typedMap);
+        boolean check = true;
 
         for (char c : nameMap.keySet()) {
             
@@ -21,11 +20,12 @@ class Solution {
                 return false;
             }
 
-            System.out.println(c + " : " + typedMap.get(c) + " " + nameMap.get(c));
             if (typedMap.get(c) < nameMap.get(c)) return false;
+
+            if (typedMap.get(c) != nameMap.get(c)) check = false;
         }
 
-        return true;
+        return !check;
         
     }
 }
