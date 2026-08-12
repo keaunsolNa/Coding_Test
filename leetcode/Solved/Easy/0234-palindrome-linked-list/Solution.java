@@ -24,11 +24,22 @@ class Solution {
             current = nextNode;
         }
 
-        while (head != null) {
+        // while (dummyNode != null) System.out.print(dummyNode.next.val + " ");
 
-            System.out.println(head.next + " " + dummyNode.next);
-            if (head.next != dummyNode.next) return false;
-        }
+        System.out.println("C");
+
+        // ListNode current = head;
+        
+        // while (current != null)  {
+
+        //     ListNode next = current.next;
+        //     System.out.print(next.val + " ");
+        // }
+        
+        // while (head != null) {
+
+        //     if (head.next.val != dummyNode.next.val) return false;
+        // }
 
         return true;
 
