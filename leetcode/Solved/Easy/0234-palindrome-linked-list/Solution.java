@@ -26,6 +26,13 @@ class Solution {
         }
 
         System.out.println();
+
+        while (current != null) {
+
+            System.out.print(current.val + " ");
+            current = current.next;
+        }
+
         // while (dummyNode != null) System.out.print(dummyNode.next.val + " ");
 
         System.out.println("C");
