@@ -11,6 +11,9 @@ class Solution {
 
         for (char c : typedArr) typedMap.put(c, typedMap.getOrDefault(c, 0) + 1);
 
+        System.out.println(nameMap);
+        System.out.println(typedMap);
+        
         for (char c : nameMap.keySet()) {
             
             if (null == typedMap.get(c)) return false;
