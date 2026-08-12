@@ -15,25 +15,24 @@
  */
 class Solution {
 
-    private List<Integer> result = new ArrayList<>();   
-
     public List<Integer> inorderTraversal(TreeNode root) {
 
-        performInorderDFS(root);
+        List<Integer> result = new ArrayList<>();
+        performInorderDFS(root, result);
         return result;
 
     }
 
-    private void performInorderDFS(TreeNode node) {
+    private void performInorderDFS(TreeNode node, List<Integer> result) {
 
         if (node == null) {
             return;
         }
-      
-        performInorderDFS(node.left);
-      
+
+        performInorderDFS(node.left, result);
+
         result.add(node.val);
-      
-        performInorderDFS(node.right);
+
+        performInorderDFS(node.right, result);
     }
 }
