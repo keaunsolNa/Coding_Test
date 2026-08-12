@@ -12,7 +12,7 @@ class Solution {
             int now = convertCharToInt(c);
 
             if (now > prev) total -= now;
-            else total += now;
+            else total += (now - prev);
 
             prev = now;
 
