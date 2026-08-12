@@ -20,6 +20,8 @@ class Solution {
                 System.out.println("C");
                 return false;
             }
+
+            System.out.println(c + " : " + typedMap.get(c) + " " + nameMap.get(c));
             if (typedMap.get(c) < nameMap.get(c)) return false;
         }
 
