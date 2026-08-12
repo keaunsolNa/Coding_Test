@@ -16,7 +16,6 @@ class Solution {
 
         while (current != null) {
 
-            System.out.print(current.val + " ");
             ListNode nextNode = current.next;
 
             current.next = dummyNode.next;
@@ -32,9 +31,7 @@ class Solution {
         while (current != null) {
 
             System.out.print("C : " + current.val + " ");
-            System.out.print("D : " + dummyNode.val + " ");
             current = current.next;
-            dummyNode = dummyNode.next;
         }
 
         System.out.println();
