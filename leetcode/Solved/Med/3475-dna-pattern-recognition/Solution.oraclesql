@@ -4,4 +4,4 @@ SELECT sample_id
      , species
 
   FROM Samples
- WHERE SUBSTR(dna_sequence, 1, 4) = 'ATG'
+ WHERE SUBSTR(dna_sequence, 1, 3) = 'ATG'
