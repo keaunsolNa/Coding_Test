@@ -1,6 +1,6 @@
 /* Write your PL/SQL query statement below */
 SELECT user_id
-     , ROUND(AVG(NVL(activity_duration, 0))
+     , ROUND(AVG(NVL(activity_duration, 0)), 2)
   FROM UserActivity 
  WHERE activity_type = 'paid' 
    AND activity_type = 'free_trial'
