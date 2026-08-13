@@ -6,7 +6,7 @@ class Solution {
         for (int i : nums) {
 
             if (!arr[nums[i]]) arr[nums[i]] = true;
-            else return nums[i];
+            else return i;
         }
 
         return 0;
