@@ -21,7 +21,7 @@ class MyStack {
     }
     
     public int pop() {
-        return primaryQueue.pop();
+        return primaryQueue.poll();
     }
     
     public int top() {
