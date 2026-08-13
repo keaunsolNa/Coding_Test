@@ -5,7 +5,8 @@ class Solution {
 
         for (int i : nums) {
 
-            if (!arr[nums[i]]) arr[nums[i]] = true;
+            System.out.println(i + " " + arr[i]);
+            if (!arr[i]) arr[i] = true;
             else return i;
         }
 
