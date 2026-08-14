@@ -28,8 +28,7 @@ class Solution {
                 else if (j == prev.size() - 1) target.add(prev.get(prev.size() - 1));
                 else {
 
-                    target.add(prev.get(j - 1));
-                    target.add(prev.get(j));
+                    target.add(prev.get(j - 1) + prev.get(j));
                 }
             }
 
