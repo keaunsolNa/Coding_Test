@@ -34,6 +34,7 @@ class Solution {
             }
 
             list.add(target);
+            prev = target;
         }
 
         return list;
