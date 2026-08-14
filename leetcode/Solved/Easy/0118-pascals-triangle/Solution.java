@@ -17,10 +17,10 @@ class Solution {
 
         if (numRows == 2) return list;
 
-        for (int i = 1; i < numRows; i++) {
+        for (int i = 2; i < numRows; i++) {
 
             List<Integer> target = new ArrayList<>();
-            List<Integer> prev = list.get(i);
+            List<Integer> prev = list.get(i - 1);
 
             for (int j = 0; j < prev.size(); j++) {
 
