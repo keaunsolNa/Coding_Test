@@ -8,7 +8,7 @@ class Solution {
 
         for (int i = 0; i <= nums.length; i++) {
 
-            int[] arr = new int[nums.length - 2];
+            int[] arr = new int[nums.length - 1];
 
             for (int j = 0; j < arr.length; j++) {
                 arr[j] = nums[j] + nums[j + 1];
