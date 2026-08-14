@@ -17,7 +17,7 @@ class Solution {
 
         if (rowIndex == 1) return second;
 
-        for (int i = 2; i < rowIndex; i++) {
+        for (int i = 2; i <= rowIndex; i++) {
 
             List<Integer> target = new ArrayList<>();
             List<Integer> prev = list.get(i - 1);
@@ -36,6 +36,6 @@ class Solution {
             prev = target;
         }
 
-        return list.get(rowIndex - 1);
+        return list.get(rowIndex);
     }
 }
