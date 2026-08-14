@@ -33,6 +33,7 @@ class Solution {
 
                 temp.append(String.valueOf(sum));
 
+                System.out.println(temp);
             }
 
             arr = temp.toString().toCharArray();
