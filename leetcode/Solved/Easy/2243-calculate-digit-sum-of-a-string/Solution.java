@@ -2,7 +2,7 @@ class Solution {
     public String digitSum(String s, int k) {
 
         if (s.length() <= k) return s;
-        
+
         char[] arr = s.toCharArray();
 
         while (true) {
@@ -31,7 +31,7 @@ class Solution {
 
             arr = temp.toString().toCharArray();
 
-            if (arr.length == k) return temp.toString();
+            if (arr.length <= k) return temp.toString();
         }
 
     }
