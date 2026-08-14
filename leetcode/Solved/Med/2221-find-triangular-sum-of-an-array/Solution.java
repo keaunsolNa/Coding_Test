@@ -7,7 +7,7 @@ class Solution {
         
         int[] copyArr = nums;
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length - 1; i++) {
 
             int[] arr = new int[copyArr.length - 1];
 
@@ -22,6 +22,6 @@ class Solution {
 
         }       
 
-        return nums[0];
+        return copyArr[0];
     }
 }
