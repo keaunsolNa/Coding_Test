@@ -16,7 +16,16 @@ class Solution {
 
                 for (int j = i + 1; j < list.size(); j++) {
 
-                    if ((isRadiant && list.get(j) == 'D') || (!isRadiant && list.get(j) == 'R'))  {
+                    if (j == list.size() - 1 && list.size() > 2) {
+                        
+                        if ((isRadiant && list.get(j) == 'D') || (!isRadiant && list.get(j) == 'R'))
+                        {
+                            list.remove(0);
+                            break;
+                        }
+                    }
+
+                    else if ((isRadiant && list.get(j) == 'D') || (!isRadiant && list.get(j) == 'R'))  {
                         list.remove(j);
                         break;
                     }
