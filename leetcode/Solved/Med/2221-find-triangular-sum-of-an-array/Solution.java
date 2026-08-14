@@ -6,7 +6,7 @@ class Solution {
         if (nums.length == 2) return nums[0] + nums[1];
         
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i <= nums.length; i++) {
 
             int[] arr = new int[nums.length - 2];
 
@@ -16,7 +16,7 @@ class Solution {
             }
             
             System.out.println();
-            
+
             nums = arr;
 
 
