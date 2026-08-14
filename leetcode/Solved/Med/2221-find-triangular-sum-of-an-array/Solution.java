@@ -3,7 +3,7 @@ class Solution {
 
         if (nums.length == 1) return nums[0];
 
-        if (nums.length == 2) return nums[0] + nums[1];
+        if (nums.length == 2) return (nums[0] + nums[1]) % 10;
         
         int[] copyArr = nums;
 
@@ -13,10 +13,7 @@ class Solution {
 
             for (int j = 0; j < arr.length; j++) {
                 arr[j] = (copyArr[j] + copyArr[j + 1]) % 10;
-                System.out.print(arr[j] + " ");
             }
-            
-            System.out.println();
 
             copyArr = arr;
 
