@@ -11,7 +11,7 @@ class Solution {
             int[] arr = new int[nums.length - 1];
 
             for (int j = 0; j < arr.length; j++) {
-                arr[j] = nums[j] + nums[j + 1];
+                arr[j] = (nums[j] + nums[j + 1]) % 10;
                 System.out.print(arr[j] + " ");
             }
             
