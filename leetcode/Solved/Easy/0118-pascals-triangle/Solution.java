@@ -22,10 +22,10 @@ class Solution {
             List<Integer> target = new ArrayList<>();
             List<Integer> prev = list.get(i - 1);
 
-            for (int j = 0; j < prev.size(); j++) {
+            for (int j = 0; j <= prev.size(); j++) {
 
                 if (j == 0) target.add(prev.get(0));
-                else if (j == prev.size() - 1) target.add(prev.get(prev.size() - 1));
+                else if (j == prev.size()) target.add(prev.get(prev.size() - 1));
                 else {
 
                     target.add(prev.get(j - 1) + prev.get(j));
