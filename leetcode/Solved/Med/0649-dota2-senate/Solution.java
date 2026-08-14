@@ -7,7 +7,9 @@ class Solution {
         for (char c : arr) list.add(c);
 
         while (list.size() == 1) {
-
+            
+            System.out.println(list);
+            
             for (int i = 0; i < list.size(); i++) {
 
                 boolean isRadiant = list.get(i) == 'R';
