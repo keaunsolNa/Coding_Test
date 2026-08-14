@@ -16,6 +16,7 @@ class Solution {
 
                     if ((isRadiant && list.get(j) == 'D') || (!isRadiant && list.get(j) == 'R'))  {
                         list.remove(j);
+                        break;
                     }
                 }
                 
