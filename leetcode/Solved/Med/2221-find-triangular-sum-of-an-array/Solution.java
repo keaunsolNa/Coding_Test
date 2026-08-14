@@ -5,19 +5,20 @@ class Solution {
 
         if (nums.length == 2) return nums[0] + nums[1];
         
+        int[] copyArr = nums;
 
-        for (int i = 0; i <= nums.length + 1; i++) {
+        for (int i = 0; i < nums.length; i++) {
 
-            int[] arr = new int[nums.length - 1];
+            int[] arr = new int[copyArr.length - 1];
 
             for (int j = 0; j < arr.length; j++) {
-                arr[j] = (nums[j] + nums[j + 1]) % 10;
+                arr[j] = (copyArr[j] + copyArr[j + 1]) % 10;
                 System.out.print(arr[j] + " ");
             }
             
             System.out.println();
 
-            nums = arr;
+            copyArr = arr;
 
         }       
 
