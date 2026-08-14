@@ -10,30 +10,21 @@ class Solution {
             for (int i = 0; i < arr.length; i += k) {
 
                 int sum = 0;
+                int range = k;
 
                 if (i + k < arr.length) {
-
-                    int a = (int) arr[i] - '0';
-                    int b = (int) arr[i + 1] - '0';
-                    int c = (int) arr[i + 2] - '0';
-                    sum = a + b + c;
-                }
-
-                else if (i + k < arr.length - 1) {
-                   
-                    int a = (int) arr[i] - '0';
-                    int b = (int) arr[i + 1] - '0';
-                    sum = a + b;
+                    
+                    for (int j = i; j < i + k; j++) sum += arr[j] - '0';
                 }
 
                 else {
-
-                    sum = (int) arr[i] - '0';
+                   
+                   for (int j = i; j < arr.length; j++) sum += arr[j] - '0';
+              
                 }
 
                 temp.append(String.valueOf(sum));
 
-                System.out.println(temp);
             }
 
             arr = temp.toString().toCharArray();
