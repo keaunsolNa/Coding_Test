@@ -10,6 +10,13 @@ class Solution {
 
         int ans = 0;
 
+        for (boolean[] i : seats) {
+
+            for (boolean j : i) System.out.print(j ? "■" : "□");
+
+            System.out.println();
+        }
+
         for (int i = 0; i < n; i++) {
 
             for (int j = 0; j < 6; j++) {
@@ -22,6 +29,13 @@ class Solution {
                     seats[i][j + 3] = true;
                 }
             }
+        }
+
+        for (boolean[] i : seats) {
+
+            for (boolean j : i) System.out.print(j ? "■" : "□");
+
+            System.out.println();
         }
 
         return ans;
