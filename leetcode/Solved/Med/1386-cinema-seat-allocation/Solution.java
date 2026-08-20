@@ -12,6 +12,8 @@ class Solution {
 
         for (boolean[] i : seats) {
 
+            System.out.print("1234567890");
+            System.out.println();
             for (boolean j : i) System.out.print(j ? "■" : "□");
 
             System.out.println();
@@ -36,6 +38,8 @@ class Solution {
         
         for (boolean[] i : seats) {
 
+            System.out.print("1234567890");
+            System.out.println();
             for (boolean j : i) System.out.print(j ? "■" : "□");
 
             System.out.println();
