@@ -1,42 +1,42 @@
+import java.util.*;
+
 class Solution {
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
 
-        boolean[][] seats = new boolean[n][10];
+        Map<Integer, Set<Integer>> reserved = new HashMap<>();
 
-        for (int[] reserved : reservedSeats) {
-            seats[reserved[0] - 1][reserved[1] - 1] = true;
+        for (int[] seat : reservedSeats) {
+            reserved
+                .computeIfAbsent(seat[0], k -> new HashSet<>())
+                .add(seat[1]);
         }
 
-        int ans = 0;
+        int ans = (n - reserved.size()) * 2;
 
-        for (int i = 0; i < n; i++) {
+        for (Set<Integer> seats : reserved.values()) {
 
-            boolean left =
-                    !seats[i][1] &&
-                    !seats[i][2] &&
-                    !seats[i][3] &&
-                    !seats[i][4];
+            boolean left = true;   // 2~5
+            boolean right = true;  // 6~9
+            boolean middle = true; // 4~7
 
-            boolean right =
-                    !seats[i][5] &&
-                    !seats[i][6] &&
-                    !seats[i][7] &&
-                    !seats[i][8];
+            for (int seat : seats) {
+                if (seat >= 2 && seat <= 5) {
+                    left = false;
+                }
+
+                if (seat >= 6 && seat <= 9) {
+                    right = false;
+                }
+
+                if (seat >= 4 && seat <= 7) {
+                    middle = false;
+                }
+            }
 
             if (left && right) {
                 ans += 2;
-            } else if (left || right) {
+            } else if (left || right || middle) {
                 ans += 1;
-            } else {
-                boolean middle =
-                        !seats[i][3] &&
-                        !seats[i][4] &&
-                        !seats[i][5] &&
-                        !seats[i][6];
-
-                if (middle) {
-                    ans += 1;
-                }
             }
         }
 
