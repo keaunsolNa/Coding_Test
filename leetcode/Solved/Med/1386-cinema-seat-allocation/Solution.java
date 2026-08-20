@@ -31,6 +31,8 @@ class Solution {
             }
         }
 
+        System.out.println("AFTER");
+        
         for (boolean[] i : seats) {
 
             for (boolean j : i) System.out.print(j ? "■" : "□");
