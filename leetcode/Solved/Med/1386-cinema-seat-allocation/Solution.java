@@ -29,7 +29,7 @@ class Solution {
                     seats[i][j + 1] = true;
                     seats[i][j + 2] = true;
                     seats[i][j + 3] = true;
-                    break;
+                    j += 3;
                 }
             }
         }
