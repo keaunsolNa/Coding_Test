@@ -1,21 +1,33 @@
 class Solution {
     public List<Integer> luckyNumbers(int[][] matrix) {
         
-        int max = 0;
         List<Integer> list = new ArrayList();
+        Map<Integer, Integer> map = new HashMap<>();
 
-        for (int[] arr : matrix) {
+        for (int i = 0; i < matrix.length; i++) {
 
-            Arrays.sort(arr);
-            int min = arr[0];
+            int min = 51;
+            int idx = 0;
 
-            if (max < min) {
-
-                max = min;
-                list.clear();
-                list.add(max);
+            for (int j = 0; j < matrix[i].length; j++) {
+                
+                if (min > matrix[i][j]) {
+                    min = matrix[i][j];
+                    idx = j;
+                }
             }
-            else if (max == min) list.add(max);
+
+            boolean check = true;
+
+            for (int j = 0; j < matrix.length; j++) {
+
+                if (min < matrix[j][idx]) {
+                    check = false;
+                    break;
+                }
+            }
+
+            if (check) list.add(min);
         }
 
         return list;
