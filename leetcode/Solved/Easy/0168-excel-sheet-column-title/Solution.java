@@ -10,15 +10,15 @@ class Solution {
         while (true) {
 
             columnNumber--;
-            
+
             ans.insert(0, alp[columnNumber % 26]);
+            columnNumber /= 26;
 
             if (columnNumber <= 26) {
                 // ans.insert(0, alp[columnNumber % 26]);
                 break;
             }
 
-            columnNumber /= 26;
         }
 
         return ans.toString();
