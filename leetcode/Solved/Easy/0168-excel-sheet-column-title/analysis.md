@@ -2,10 +2,10 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 8. 21. 오후 4:55:30 |
+| Submitted | 2026. 8. 21. 오후 4:56:47 |
 | Language | java |
 | Runtime | 0 ms (Beats 0.0%) |
-| Memory | 42.5 MB (Beats 0.0%) |
+| Memory | 42.6 MB (Beats 0.0%) |
 
 ## Submission
 
