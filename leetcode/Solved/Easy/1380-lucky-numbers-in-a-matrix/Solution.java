@@ -2,7 +2,6 @@ class Solution {
     public List<Integer> luckyNumbers(int[][] matrix) {
         
         List<Integer> list = new ArrayList();
-        Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < matrix.length; i++) {
 
