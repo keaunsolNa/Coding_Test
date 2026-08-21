@@ -5,17 +5,20 @@ class Solution {
                                      "J", "K", "L", "M", "N", "O", "P", "Q", "R",
                                      "S", "T", "U", "V", "W", "X", "Y", "Z"};
        
-        String ans = "";
+        StringBuilder ans = new StringBuilder();
         
         while (true) {
 
-            ans += alp[columnNumber % 26];
+            ans.insert(0, alp[columnNumber % 26]);
             columnNumber /= 26;
 
-            if (columnNumber < 26) break;
+            if (columnNumber < 26) {
+                ans.insert(0, alp[columnNumber % 26]);
+                break;
+            }
         }
 
-        return ans;
+        return ans.toString();
 
     }
 }
