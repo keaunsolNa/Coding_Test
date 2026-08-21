@@ -7,18 +7,13 @@ class Solution {
        
         StringBuilder ans = new StringBuilder();
         
-        while (true) {
+        while (columnNumber != 0) {
 
             columnNumber--;
-
+            
             ans.insert(0, alp[columnNumber % 26]);
+
             columnNumber /= 26;
-
-            if (columnNumber <= 26) {
-                // ans.insert(0, alp[columnNumber % 26]);
-                break;
-            }
-
         }
 
         return ans.toString();
