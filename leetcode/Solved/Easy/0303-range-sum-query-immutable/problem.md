@@ -4,7 +4,7 @@ slug: range-sum-query-immutable
 title: Range Sum Query - Immutable
 difficulty: Easy
 tags: Array, Design, Prefix Sum
-date: 2026-08-21
+date: 2026-08-26
 lang: java
 ---
 
