@@ -4,7 +4,7 @@ slug: count-negative-numbers-in-a-sorted-matrix
 title: Count Negative Numbers in a Sorted Matrix
 difficulty: Easy
 tags: Array, Binary Search, Matrix
-date: 2026-08-21
+date: 2026-08-26
 lang: java
 ---
 
