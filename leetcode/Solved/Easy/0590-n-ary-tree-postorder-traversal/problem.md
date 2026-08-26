@@ -4,7 +4,7 @@ slug: n-ary-tree-postorder-traversal
 title: N-ary Tree Postorder Traversal
 difficulty: Easy
 tags: Stack, Tree, Depth-First Search
-date: 2026-08-21
+date: 2026-08-26
 lang: java
 ---
 
