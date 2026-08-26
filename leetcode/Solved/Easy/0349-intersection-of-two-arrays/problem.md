@@ -4,7 +4,7 @@ slug: intersection-of-two-arrays
 title: Intersection of Two Arrays
 difficulty: Easy
 tags: Array, Hash Table, Two Pointers, Binary Search, Sorting
-date: 2026-08-21
+date: 2026-08-26
 lang: java
 ---
 
