@@ -4,7 +4,7 @@ slug: cinema-seat-allocation
 title: Cinema Seat Allocation
 difficulty: Medium
 tags: Array, Hash Table, Greedy, Bit Manipulation
-date: 2026-08-20
+date: 2026-08-26
 lang: java
 ---
 
