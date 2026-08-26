@@ -2,7 +2,7 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 8. 26. 오후 4:31:22 |
+| Submitted | 2026. 8. 26. 오후 4:31:27 |
 | Language | java |
 | Runtime | 2 ms (Beats 2.1%) |
 | Memory | 43.5 MB (Beats 63.8%) |
@@ -13,4 +13,37 @@
 
 ## Code Review
 
-> ⚠️ 코드 분석 실패: Groq 429 (openai/gpt-oss-120b): {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kpngrya9evsrrmne163qa9qk` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3718, Requested 4414. Please try again in 990ms. Need more tokens? Upgrade to Dev Tier today at https://conso
+**1. 시간 복잡도**  
+- **O(N)** : 문자열 `s`를 한 번 순회하면서 각 문자에 대해 `push` 혹은 `pop` 연산을 수행합니다. `N`은 문자열 길이이며, 스택 연산은 모두 O(1) 시간에 수행됩니다.
+
+**2. 공간 복잡도**  
+- **O(N)** (최악) : 모든 사람이 동시에 입실(`E`)하는 경우 스택에 `N`개의 문자(`'E'`)가 쌓이게 됩니다. 실제로 필요한 최대 공간은 동시에 대기 중인 사람 수와 동일합니다.
+
+**3. 풀이 접근법**  
+- **스택 시뮬레이션**: `E`(Enter) 를 만나면 스택에 푸시하고, `L`(Leave) 를 만나면 팝하여 현재 대기 인원을 관리합니다. 스택 크기의 최대값이 바로 최소 의자 수가 됩니다. 이는 “현재 인원 수”를 유지하는 전형적인 **카운터** 방식과 동일하지만, 스택을 사용해 구현한 형태입니다.
+
+**4. 잘된 점**  
+- 로직이 직관적이며 구현이 간결합니다.  
+- `Math.max` 로 현재 최대값을 실시간 업데이트해 별도의 후처리 없이 바로 정답을 얻습니다.  
+- `char` 를 직접 비교해 불필요한 문자열 변환을 피했습니다.
+
+**5. 개선 사항**  
+1. **스택 대신 정수 카운터 사용**  
+   - 실제로 스택에 저장되는 값은 의미가 없고, 크기만 필요합니다. `int cur = 0;` 로 대체하면 메모리 사용량을 O(1) 로 줄일 수 있습니다.  
+   ```java
+   int cur = 0, ans = 0;
+   for (char c : s.toCharArray()) {
+       if (c == 'E') cur++;
+       else cur--;          // L
+       ans = Math.max(ans, cur);
+   }
+   return ans;
+   ```
+2. **입력 검증**  
+   - 문제 조건상 `L` 이 `E` 보다 먼저 나오지 않지만, 방어적인 코드를 원한다면 `cur` 가 음수가 되는 경우 예외 처리나 `continue` 로 방어할 수 있습니다.
+
+3. **불필요한 `Stack` 객체 생성 제거**  
+   - `Stack` 은 `Vector` 기반으로 동기화가 필요 없어 오버헤드가 있습니다. `ArrayDeque<Character>` 로 교체하면 성능이 약간 개선됩니다. 하지만 카운터로 완전히 대체하는 것이 가장 효율적입니다.
+
+**요약**  
+현재 구현은 올바르게 동작하고 가독성도 좋지만, 스택 대신 정수 카운터를 사용하면 공간 복잡도를 O(1) 로 최적화할 수 있습니다. 시간 복잡도는 그대로 O(N)이며, 이러한 작은 개선만으로도 메모리 사용량과 실행 속도가 더 향상됩니다.
