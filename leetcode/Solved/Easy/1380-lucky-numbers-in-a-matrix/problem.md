@@ -4,7 +4,7 @@ slug: lucky-numbers-in-a-matrix
 title: Lucky Numbers in a Matrix
 difficulty: Easy
 tags: Array, Matrix
-date: 2026-08-21
+date: 2026-08-26
 lang: java
 ---
 
