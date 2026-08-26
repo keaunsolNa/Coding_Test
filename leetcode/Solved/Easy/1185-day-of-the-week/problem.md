@@ -4,7 +4,7 @@ slug: day-of-the-week
 title: Day of the Week
 difficulty: Easy
 tags: Math
-date: 2026-08-21
+date: 2026-08-26
 lang: java
 ---
 
