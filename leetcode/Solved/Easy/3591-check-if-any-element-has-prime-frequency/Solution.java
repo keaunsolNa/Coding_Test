@@ -7,7 +7,9 @@ class Solution {
 
         for (int key : map.keySet()) {
             
+            
             System.out.println(key + " " + map.get(key) + " " + isPrime(map.get(key)));
+            if (map.get(key) == 1) continue;
             if (!isPrime(map.get(key))) return false;
         }
 
