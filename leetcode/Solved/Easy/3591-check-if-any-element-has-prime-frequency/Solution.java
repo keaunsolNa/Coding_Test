@@ -5,15 +5,14 @@ class Solution {
 
         for (int i : nums) map.put(i, map.getOrDefault(i, 0) + 1);
 
+        boolean check = false;
         for (int key : map.keySet()) {
             
-            
-            System.out.println(key + " " + map.get(key) + " " + isPrime(map.get(key)));
             if (map.get(key) == 1) continue;
-            if (!isPrime(map.get(key))) return false;
+            if (isPrime(map.get(key))) return true;
         }
 
-        return true;
+        return false;
     }
 
     public boolean isPrime(int n) {
