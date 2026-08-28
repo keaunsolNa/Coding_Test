@@ -13,7 +13,9 @@ class Solution {
                 int temp = Integer.parseInt(arr[i - 2] + "" + arr[i - 1]);
                 System.out.println(temp);
 
-                char c = (char) (temp + 97 + '0' );
+                temp += 97;
+
+                char c = (char) (temp );
                 sb.append(c);
                 i -= 2;
             }
