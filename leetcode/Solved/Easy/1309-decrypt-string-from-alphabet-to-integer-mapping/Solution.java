@@ -11,14 +11,14 @@ class Solution {
             if (arr[i] == '#') {
                 
                 int temp = Integer.parseInt(arr[i - 1] + "" + arr[i - 2]);
-                char c = (char) (temp + 26);
+                char c = (char) (temp - 'a');
                 sb.append(c);
                 i -= 2;
             }
 
             else {
                 
-                char c = (char) (arr[i] + 26);
+                char c = (char) (arr[i]  - 'a');
                 sb.append(c);
             }
         }
