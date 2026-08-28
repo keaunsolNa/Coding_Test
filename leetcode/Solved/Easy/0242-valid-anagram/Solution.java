@@ -12,6 +12,8 @@ class Solution {
 
         for (Character key : sMap.keySet()) {
 
+            System.out.println(key + " " + tMap.get(key) + " : " + sMap.get(key));
+            
             if (tMap.get(key) != sMap.get(key)) return false;
         }
 
