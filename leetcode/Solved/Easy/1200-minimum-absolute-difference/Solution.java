@@ -20,6 +20,8 @@ class Solution {
                     List<Integer> temp = new ArrayList<>();
                     temp.add(arr[j]);
                     temp.add(arr[i]);
+                    temp.sort(Comparator.naturalOrder());
+
                     ans.add(temp);                    
                 }
             }
