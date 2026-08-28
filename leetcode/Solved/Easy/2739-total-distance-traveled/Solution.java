@@ -1,8 +1,19 @@
 class Solution {
     public int distanceTraveled(int mainTank, int additionalTank) {
-        
-        return (mainTank + Math.min(additionalTank, mainTank / 5)) * 10;
 
+        int total = 0;
+        while (mainTank != 0) {
+            
+            total += Math.max(mainTank, 5);
+            mainTank = Math.max(0, mainTank - 5);
+            if (additionalTank > 0) 
+            {
+                mainTank++;
+                additionalTank--;
+            }
+        }
+
+        return total * 10;
 
     }
 }
