@@ -16,6 +16,8 @@ class Solution {
             System.out.println(mainTank + " " + additionalTank + " " + total);
         }
 
+        total += mainTank;
+        
         return total * 10;
 
     }
