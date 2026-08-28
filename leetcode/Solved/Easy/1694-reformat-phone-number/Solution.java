@@ -7,8 +7,8 @@ class Solution {
         while (true) {
 
             if (pn.length() >= 4) {
-                String temp = pn.substring(0, 4);
-                pn = pn.substring(4, pn.length());
+                String temp = pn.substring(0, 3);
+                pn = pn.substring(3, pn.length());
                 sb.append(temp).append("-");
             }
 
