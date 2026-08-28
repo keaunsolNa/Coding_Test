@@ -16,8 +16,7 @@ class Solution {
 
                 sb.append(pn.substring(0, 2))
                   .append("-")
-                  .append(pn.substring(2, 2))
-                  .append("/");
+                  .append(pn.substring(2, 4));
                 break;
             }
 
