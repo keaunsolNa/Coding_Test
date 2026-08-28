@@ -10,6 +10,7 @@ class Solution {
             {
                 mainTank++;
                 additionalTank--;
+                total++;
             }
 
             System.out.println(mainTank + " " + additionalTank + " " + total);
