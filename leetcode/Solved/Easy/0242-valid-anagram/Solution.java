@@ -14,12 +14,12 @@ class Solution {
 
             System.out.println(key + " " + tMap.get(key) + " : " + sMap.get(key));
 
-            if (null != tMap.get(key) && tMap.get(key) != sMap.get(key)) return false;
+            if (tMap.get(key) != sMap.get(key)) return false;
         }
 
         for (Character key : tMap.keySet()) {
 
-            if (null != sMap.get(key) && tMap.get(key) != sMap.get(key)) return false;
+            if (tMap.get(key) != sMap.get(key)) return false;
         }
 
         return true;
