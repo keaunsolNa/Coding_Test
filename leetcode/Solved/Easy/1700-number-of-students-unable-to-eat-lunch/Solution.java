@@ -1,38 +1,20 @@
 class Solution {
+
     public int countStudents(int[] students, int[] sandwiches) {
         
-        Stack<Integer> studentStack = new Stack<>();
-        Stack<Integer> sandwichesStack = new Stack<>();
-        
-        for (int i : students) studentStack.push(i);
-        for (int i : sandwiches) sandwichesStack.push(i);
-
-        while (!sandwichesStack.isEmpty()) {
-            
-            System.out.println(sandwichesStack);
-            System.out.println(studentStack);
-
-            Stack<Integer> afterStack = new Stack<>();
-            int prevLength = afterStack.size();
-
-            while (!studentStack.isEmpty()) {
-                if (studentStack.peek() == sandwichesStack.peek()) {
-
-                    studentStack.pop();
-                    sandwichesStack.pop();
-                    continue;
-
-                }
-                else 
-                {
-                    afterStack.push(studentStack.pop());
-                }
-            }
-
-            if (prevLength == afterStack.size()) break;
-
+        int[] count = new int[2];
+      
+        for (int preference : students) {
+            count[preference]++;
         }
-
-        return sandwichesStack.size();
+      
+        for (int sandwichType : sandwiches) {
+            if (count[sandwichType] == 0) {
+                return count[sandwichType ^ 1];
+            }
+            count[sandwichType]--;
+        }
+      
+        return 0;
     }
 }
