@@ -2,10 +2,10 @@
 
 | Item | Value |
 |------|-------|
-| Submitted | 2026. 8. 28. 오후 4:04:38 |
+| Submitted | 2026. 8. 28. 오후 4:04:59 |
 | Language | java |
 | Runtime | 0 ms (Beats 0.0%) |
-| Memory | 42.4 MB (Beats 0.0%) |
+| Memory | 42.5 MB (Beats 0.0%) |
 
 ## Submission
 
@@ -13,78 +13,61 @@
 
 ## Code Review
 
-**코드 리뷰**
+**1. 시간 복잡도**  
+- 현재 구현은 두 문자열을 각각 한 번씩 순회하고(`s.toCharArray()`, `t.toCharArray()`), 이후에 두 `Map`의 키 집합을 각각 순회합니다.  
+- 최악의 경우 각 문자열 길이를 *n*이라 하면 전체 연산은 `O(n) + O(n) + O(k) + O(k)` (k는 서로 다른 문자 종류, 알파벳이면 최대 26) 이므로 **시간 복잡도는 O(n)** 입니다.
 
----
+**2. 공간 복잡도**  
+- 두 개의 `HashMap<Character, Integer>`을 사용해 각 문자별 빈도를 저장합니다.  
+- 서로 다른 문자 종류가 *k*개라면 각 맵은 O(k) 공간을 차지합니다. 알파벳만 고려한다면 **O(1)** (k ≤ 26) 이지만 일반적인 유니코드 문자열이라면 **O(k)** 로 표현합니다.
 
-### 1. 시간 복잡도  
-- **전체 복잡도: O(n + m)**  
-  - `s`와 `t` 각각을 한 번씩 순회하면서 해시맵에 삽입/갱신 → 각각 O(n), O(m) (n = s.length, m = t.length)  
-  - 마지막에 `sMap.keySet()`을 순회하면서 `tMap`에서 값을 조회 → 최악의 경우 O(Alphabet) 정도이지만 실제로는 O(k) (k는 서로 다른 문자 수)이며, k ≤ min(n, m) 이다.  
-  - 따라서 전체는 선형 시간 복잡도이다.  
+**3. 풀이 접근법**  
+- **해시 테이블(맵) 기반 빈도 카운팅** 방식으로, 두 문자열의 문자 빈도를 각각 기록한 뒤, 두 맵을 비교해 동일한지 판단합니다.  
+- 이 패턴은 “문자열 애너그램 여부 확인”에 가장 직관적인 방법 중 하나입니다.
 
----
+**4. 잘된 점**  
+- `Map.getOrDefault` 를 활용해 빈도 증가 로직을 간결하게 작성한 점이 좋습니다.  
+- 두 문자열을 각각 독립적인 맵에 저장하고, 키 집합을 순회하면서 비교하는 구조가 논리적으로 명확합니다.  
+- 코드가 전체적으로 짧고 가독성이 좋습니다.
 
-### 2. 공간 복잡도  
-- **O(k₁ + k₂)** (k₁, k₂는 각각 `s`와 `t`에 등장하는 서로 다른 문자 수)  
-  - 두 개의 `HashMap<Character, Integer>`을 사용하므로 입력 문자열에 포함된 고유 문자 수만큼 메모리를 차지한다.  
-  - 알파벳이 제한된 경우(예: 소문자 a‑z) 최악의 경우 O(1) 공간이 된다.  
+**5. 개선 사항**  
+1. **오타 및 버그**  
+   - `sMap.getOrDefault(s, 0)` → `sMap.getOrDefault(c, 0)` 로 바꿔야 합니다. 현재는 `s`(문자열 전체) 를 키로 사용하고 있어 `ClassCastException` 이 발생합니다.  
+   - `tMap.getOrDefault(s, 0)` 역시 `tMap.getOrDefault(c, 0)` 로 수정해야 합니다.  
 
----
+2. **불필요한 두 번째 루프 제거**  
+   - 현재는 `sMap` 과 `tMap` 을 각각 순회하면서 같은 비교를 두 번 수행합니다.  
+   - 한 번의 순회(`for (Character key : sMap.keySet())`)만으로 충분합니다. `tMap` 에 없는 키가 있으면 `null` 이 반환되므로 `tMap.getOrDefault(key, 0)` 로 비교하면 됩니다.  
 
-### 3. 풀이 접근법  
-- **해시 테이블(맵) 기반 카운팅**  
-  - 각 문자열에 대해 문자 빈도를 `Map<Character, Integer>`에 저장하고, 두 맵을 비교하여 같은 빈도를 갖는지 확인한다.  
-  - 이는 “문자 빈도 비교”라는 전형적인 애너그램 판별 방법이다.  
+3. **단일 맵 사용으로 메모리 절감**  
+   - 한 번의 `int[26]` 배열(알파벳만 고려) 혹은 하나의 `HashMap`을 사용해 `s` 에서는 `+1`, `t` 에서는 `-1` 을 누적하고, 최종에 모든 값이 0 인지 확인하면 **O(1)** 추가 공간으로 구현할 수 있습니다.  
 
----
+4. **입력 길이 차이 조기 반환**  
+   - `if (s.length() != t.length()) return false;` 를 가장 앞에 두면 불필요한 연산을 피할 수 있습니다.  
 
-### 4. 잘된 점  
-1. **선형 시간**으로 문제를 해결하려는 시도가 좋다.  
-2. `Map.getOrDefault`를 활용해 빈도 증가 로직을 간결하게 작성한 점이 인상적이다.  
-3. 코드 구조가 명확하고, 로직 흐름(맵 생성 → 비교 → 반환)이 읽기 쉽다.  
+5. **코드 스타일**  
+   - `for (char c : s.toCharArray()) { ... }` 와 같이 중괄호를 사용해 블록을 명시하면 가독성이 향상됩니다.  
+   - `Map<Character, Integer>` 대신 `int[] cnt = new int[26];` (알파벳 전용) 혹은 `int[] cnt = new int[128];` (ASCII) 로 바꾸면 성능이 약간 개선됩니다.  
 
----
+**수정된 예시 (단일 배열 사용)**  
 
-### 5. 개선 사항  
-1. **키 조회 오류**  
-   ```java
-   sMap.put(c, sMap.getOrDefault(s, 0) + 1);
-   tMap.put(c, tMap.getOrDefault(s, 0) + 1);
-   ```  
-   - `getOrDefault`의 첫 번째 인자는 현재 문자 `c`이어야 한다. 현재는 문자열 `s`를 넘겨 `null`이 반환되어 `NullPointerException`이 발생한다.  
-   - 수정: `sMap.getOrDefault(c, 0)` / `tMap.getOrDefault(c, 0)`  
+```java
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) return false;
 
-2. **불필요한 두 번째 맵**  
-   - 두 문자열의 길이가 다르면 바로 `false`를 반환하고, 길이가 같다면 하나의 맵만 사용해도 된다.  
-   - `t`를 순회하면서 `sMap`의 값을 감소시키고, 중간에 음수가 되면 `false` 반환 → 최종적으로 모든 값이 0인지 확인하면 된다.  
-   - 이렇게 하면 **공간을 O(k)** 로 절감할 수 있다.  
+        int[] cnt = new int[26];               // 알파벳 소문자만 가정
+        for (int i = 0; i < s.length(); i++) {
+            cnt[s.charAt(i) - 'a']++;
+            cnt[t.charAt(i) - 'a']--;
+        }
 
-3. **키 존재 여부 검사**  
-   - 현재 `tMap.get(key) != sMap.get(key)` 로 비교하지만, `tMap`에 키가 없을 경우 `null`이 반환되어 `NullPointerException`이 발생한다.  
-   - `Integer` 객체 비교 대신 `intValue` 혹은 `Objects.equals` 사용이 안전하다.  
+        for (int c : cnt) {
+            if (c != 0) return false;
+        }
+        return true;
+    }
+}
+```
 
-4. **알파벳 제한 활용**  
-   - 문제에서 입력이 영문 소문자만이라면 `int[26]` 배열을 이용해 빈도를 저장하면 **시간·공간 모두 O(n)** 이면서 상수 메모리 사용이 가능하다.  
-
-5. **코드 간결화 예시** (한 개의 배열 사용)
-
-   ```java
-   public boolean isAnagram(String s, String t) {
-       if (s.length() != t.length()) return false;
-       int[] cnt = new int[26];
-       for (int i = 0; i < s.length(); i++) {
-           cnt[s.charAt(i) - 'a']++;
-           cnt[t.charAt(i) - 'a']--;
-       }
-       for (int c : cnt) if (c != 0) return false;
-       return true;
-   }
-   ```
-
-   - 이 구현은 가독성도 좋고, 불필요한 객체 생성이 없어 성능면에서 최적이다.  
-
----
-
-**요약**  
-현재 코드는 아이디어는 올바르지만 `getOrDefault` 인자 오류와 두 개의 맵 사용으로 인한 불필요한 메모리 사용이 있다. 하나의 맵(또는 배열)만으로 구현하면 더 안전하고 효율적인 풀이가 된다. 위의 수정 사항을 반영하면 코드 품질이 크게 향상될 것이다.
+위와 같이 수정하면 시간·공간 모두 최적화된 **O(n)** / **O(1)** 구현이 됩니다. 기존 코드도 버그만 고치면 정상 동작하지만, 위와 같은 간소화가 더 효율적입니다.
