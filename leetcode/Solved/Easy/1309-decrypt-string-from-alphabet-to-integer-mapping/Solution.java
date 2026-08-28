@@ -11,11 +11,9 @@ class Solution {
             if (arr[i] == '#') {
                 
                 int temp = Integer.parseInt(arr[i - 2] + "" + arr[i - 1]);
-                System.out.println(temp);
+                char c = (char) (temp + 97);
 
-                temp += 97;
-
-                char c = (char) (temp );
+                System.out.println(temp + " " + c);
                 sb.append(c);
                 i -= 2;
             }
