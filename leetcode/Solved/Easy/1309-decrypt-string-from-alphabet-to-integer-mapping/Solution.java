@@ -10,12 +10,12 @@ class Solution {
 
             if (arr[i] == '#') {
                 
-                int temp = Integer.parseInt(arr[i - 1] + "" + arr[i - 2]);
+                int temp = Integer.parseInt(arr[i - 2] + "" + arr[i - 1]);
                 System.out.println(temp);
 
                 char c = (char) (temp + '0');
                 sb.append(c);
-                i--;
+                i -= 2;
             }
 
             else {
