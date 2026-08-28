@@ -11,6 +11,9 @@ class Solution {
 
         while (sandwichesStack.isEmpty()) {
             
+            System.out.println(sandwichesStack);
+            System.out.println(studentStack);
+            
             Stack<Integer> afterStack = new Stack<>();
             int prevLength = afterStack.size();
             ans++;
