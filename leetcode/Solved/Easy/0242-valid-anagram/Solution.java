@@ -7,14 +7,13 @@ class Solution {
         for (char c : s.toCharArray()) sMap.put(c, sMap.getOrDefault(c, 0) + 1);
         for (char c : t.toCharArray()) tMap.put(c, tMap.getOrDefault(c, 0) + 1);
 
+        System.out.println(sMap);
+        System.out.println(tMap);
+
         for (Character key : sMap.keySet()) {
 
             if (tMap.get(key) != sMap.get(key)) return false;
         }
-
-
-        System.out.println(sMap);
-        System.out.println(tMap);
 
         for (Character key : tMap.keySet()) {
 
