@@ -6,7 +6,6 @@ class Solution {
         for (String str : details) {
 
             int age = Integer.parseInt(str.substring(str.length() - 4, str.length() - 2));
-
             if (age > 60) cnt++;
         }
 
