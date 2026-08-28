@@ -7,8 +7,6 @@ class Solution {
         for (int i : students) studentStack.push(i);
         for (int i : sandwiches) sandwichesStack.push(i);
 
-        int ans = 0;
-
         while (!sandwichesStack.isEmpty()) {
             
             System.out.println(sandwichesStack);
@@ -16,7 +14,6 @@ class Solution {
 
             Stack<Integer> afterStack = new Stack<>();
             int prevLength = afterStack.size();
-            ans++;
 
             while (!studentStack.isEmpty()) {
                 if (studentStack.peek() == sandwichesStack.peek()) {
@@ -36,6 +33,6 @@ class Solution {
 
         }
 
-        return sandwichesStack.isEmpty() ? 0 : ans;
+        return sandwichesStack.size();
     }
 }
