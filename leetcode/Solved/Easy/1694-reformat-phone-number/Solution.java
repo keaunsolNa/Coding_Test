@@ -14,7 +14,10 @@ class Solution {
 
             else if (pn.length() == 4) {
 
-                sb.append(pn.substring(0, 2)).append("-").append(pn.substring(2, 2));
+                sb.append(pn.substring(0, 2))
+                  .append("-")
+                  .append(pn.substring(2, 2))
+                  .append("/");
                 break;
             }
 
