@@ -9,16 +9,16 @@ class Solution {
 
         int ans = 0;
 
-        while (sandwichesStack.isEmpty()) {
+        while (!sandwichesStack.isEmpty()) {
             
             System.out.println(sandwichesStack);
             System.out.println(studentStack);
-            
+
             Stack<Integer> afterStack = new Stack<>();
             int prevLength = afterStack.size();
             ans++;
 
-            while (studentStack.isEmpty()) {
+            while (!studentStack.isEmpty()) {
                 if (studentStack.peek() == sandwichesStack.peek()) {
 
                     studentStack.pop();
