@@ -12,10 +12,10 @@ class Solution {
                 
                 int temp = Integer.parseInt(arr[i - 1] + "" + arr[i - 2]);
                 System.out.println(temp);
-                
+
                 char c = (char) (temp + '0');
                 sb.append(c);
-                i -= 2;
+                i--;
             }
 
             else {
@@ -25,6 +25,6 @@ class Solution {
             }
         }
 
-        return sb.toString();
+        return sb.reverse().toString();
     }
 }
