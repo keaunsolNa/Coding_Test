@@ -2,7 +2,7 @@ class Solution {
     public boolean isAnagram(String s, String t) {
         
         if (s.length() != t.length()) return false;
-        
+
         Map<Character, Integer> sMap = new HashMap<>();
         Map<Character, Integer> tMap = new HashMap<>();
 
@@ -16,7 +16,7 @@ class Solution {
 
             System.out.println(key + " " + tMap.get(key) + " : " + sMap.get(key));
 
-            if (tMap.get(key) != sMap.get(key)) return false;
+            // if (tMap.get(key) != sMap.get(key)) return false;
         }
 
         for (Character key : tMap.keySet()) {
