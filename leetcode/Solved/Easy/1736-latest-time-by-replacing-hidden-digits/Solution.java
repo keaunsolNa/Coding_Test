@@ -8,7 +8,7 @@ class Solution {
         if (hour.charAt(0) == '?') {
             hour = "2" + hour.charAt(1);
             chk = true;
-         }
+        }
 
         if (hour.charAt(1) == '?') hour = hour.charAt(0) + (hour.charAt(0) == '2' ? "3" : "9");
         if ((char) hour.charAt(1) - '0' >= 4 && chk) hour = "1" + hour.charAt(1);
