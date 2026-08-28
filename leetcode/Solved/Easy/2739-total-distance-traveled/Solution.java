@@ -11,8 +11,6 @@ class Solution {
                 mainTank++;
                 additionalTank--;
             }
-
-            System.out.println(mainTank + " " + additionalTank + " " + total);
         }
 
         total += mainTank;
