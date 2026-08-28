@@ -13,13 +13,13 @@ class Solution {
         for (Character key : sMap.keySet()) {
 
             System.out.println(key + " " + tMap.get(key) + " : " + sMap.get(key));
-            
-            if (tMap.get(key) != sMap.get(key)) return false;
+
+            if (null != tMap.get(key) && tMap.get(key) != sMap.get(key)) return false;
         }
 
         for (Character key : tMap.keySet()) {
 
-            if (tMap.get(key) != sMap.get(key)) return false;
+            if (null != sMap.get(key) && tMap.get(key) != sMap.get(key)) return false;
         }
 
         return true;
