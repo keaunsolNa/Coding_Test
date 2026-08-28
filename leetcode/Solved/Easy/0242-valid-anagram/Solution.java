@@ -12,6 +12,10 @@ class Solution {
             if (tMap.get(key) != sMap.get(key)) return false;
         }
 
+
+        System.out.println(sMap);
+        System.out.println(tMap);
+
         for (Character key : tMap.keySet()) {
 
             if (tMap.get(key) != sMap.get(key)) return false;
