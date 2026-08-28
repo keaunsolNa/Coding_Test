@@ -36,6 +36,6 @@ class Solution {
 
         }
 
-        return ans;
+        return sandwichesStack.isEmpty() ? 0 : ans;
     }
 }
