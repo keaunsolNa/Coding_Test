@@ -13,14 +13,14 @@ class Solution {
                 int temp = Integer.parseInt(arr[i - 2] + "" + arr[i - 1]);
                 System.out.println(temp);
 
-                char c = (char) (temp + 26 + '0' );
+                char c = (char) (temp + 97 + '0' );
                 sb.append(c);
                 i -= 2;
             }
 
             else {
                 
-                char c = (char) (arr[i] + 26 + '0');
+                char c = (char) (arr[i] + 97 + '0');
                 sb.append(c);
             }
         }
