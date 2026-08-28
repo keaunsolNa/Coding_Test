@@ -20,7 +20,7 @@ class Solution {
 
             else {
                 
-                char c = (char) (arr[i] + 97 + '0');
+                char c = (char) (arr[i] + '0');
                 sb.append(c);
             }
         }
