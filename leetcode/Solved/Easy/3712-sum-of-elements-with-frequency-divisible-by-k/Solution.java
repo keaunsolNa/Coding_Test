@@ -10,10 +10,10 @@ class Solution {
         int ans = 0;
 
         System.out.println(map);
-        
+
         for (int key : map.keySet()) {
 
-            if (map.get(key) == k) {
+            if (map.get(key) % k == 0) {
                 ans += (key * k);
 
                 System.out.println(key + " " + map.get(key));
