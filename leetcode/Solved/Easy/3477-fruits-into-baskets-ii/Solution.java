@@ -7,6 +7,8 @@ class Solution {
 
             for (int j = 0; j < baskets.length; j++) {
 
+                System.out.println(fruits[i] + " " + baskets[j]);
+                
                 if (fruits[i] <= baskets[j]) {
 
                     baskets[j] = 0;
