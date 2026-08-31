@@ -9,14 +9,10 @@ class Solution {
 
         int ans = 0;
 
-        System.out.println(map);
-
         for (int key : map.keySet()) {
 
             if (map.get(key) % k == 0) {
                 ans += (key * map.get(key));
-
-                System.out.println(key + " " + map.get(key));
             }
              
         }
