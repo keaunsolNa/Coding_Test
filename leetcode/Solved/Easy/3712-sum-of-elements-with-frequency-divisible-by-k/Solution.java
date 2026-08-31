@@ -14,7 +14,7 @@ class Solution {
         for (int key : map.keySet()) {
 
             if (map.get(key) % k == 0) {
-                ans += (key * k);
+                ans += (key * map.get(key));
 
                 System.out.println(key + " " + map.get(key));
             }
