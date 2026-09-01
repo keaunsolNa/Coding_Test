@@ -1,22 +1,23 @@
 class Solution {
     public int sumDivisibleByK(int[] nums, int k) {
 
-        Map<Integer, Integer> map = new HashMap<>();
-        
-        for (int i : nums) {
-            map.put(i, map.getOrDefault(i, 0) + 1);
+        Map<Integer, Integer> countByValue = new HashMap<>();
+
+        for (int num : nums) {
+            countByValue.merge(num, 1, Integer::sum);
         }
 
-        int ans = 0;
+        int sum = 0;
 
-        for (int key : map.keySet()) {
+        for (Map.Entry<Integer, Integer> entry : countByValue.entrySet()) {
 
-            if (map.get(key) % k == 0) {
-                ans += (key * map.get(key));
+            int count = entry.getValue();
+
+            if (count % k == 0) {
+                sum += entry.getKey() * count;
             }
-             
         }
 
-        return ans;
+        return sum;
     }
 }
