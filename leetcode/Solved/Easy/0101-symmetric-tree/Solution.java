@@ -22,7 +22,7 @@ class Solution {
     private boolean isMirror(TreeNode leftNode, TreeNode rightNode) {
 
         if (leftNode == rightNode) {
-            return true;
+            return true;  
         }
       
         if (leftNode == null || rightNode == null || leftNode.val != rightNode.val) {
