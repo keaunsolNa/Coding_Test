@@ -1,29 +1,18 @@
 class Solution {
     public int matchPlayersAndTrainers(int[] players, int[] trainers) {
-        
+
         Arrays.sort(players);
         Arrays.sort(trainers);
-        int startIdx = 0;
-        int ans = 0;
 
-        for (int i = 0; i < players.length; i++) {
+        int matched = 0;
 
-            int grid = players[i];
+        for (int trainer = 0; trainer < trainers.length && matched < players.length; trainer++) {
 
-            for (int j = startIdx; j < trainers.length; j++) {
-
-                int size = trainers[j];
-
-                if (grid <= size) {
-
-                    startIdx = j + 1;
-                    ans++;
-                    break;
-                }
-                
+            if (players[matched] <= trainers[trainer]) {
+                matched++;
             }
         }
 
-        return ans;
+        return matched;
     }
 }
