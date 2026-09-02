@@ -1,31 +1,31 @@
 class Solution {
     public String firstPalindrome(String[] words) {
 
-        for (String str : words) {
+        for (String word : words) {
 
-            if (isPalindrom(str)) return str;
-        }        
+            if (isPalindrome(word)) {
+                return word;
+            }
+        }
 
         return "";
     }
 
-    public boolean isPalindrom(String str) {
+    private boolean isPalindrome(String word) {
 
-        if (str == null) {
-            return false;
-        }
-        
         int left = 0;
-        int right = str.length() - 1;
-        
+        int right = word.length() - 1;
+
         while (left < right) {
-            if (Character.toLowerCase(str.charAt(left)) != Character.toLowerCase(str.charAt(right))) {
+
+            if (word.charAt(left) != word.charAt(right)) {
                 return false;
             }
+
             left++;
             right--;
         }
 
-        return true; 
+        return true;
     }
 }

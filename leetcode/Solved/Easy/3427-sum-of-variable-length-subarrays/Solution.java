@@ -1,13 +1,20 @@
 class Solution {
     public int subarraySum(int[] nums) {
-        
-        int sum = nums[0];
-        
-        for (int i = 0; i < nums.length - 1; i++) {
 
-            sum += (nums[i] + nums[i + 1]);
+        int n = nums.length;
+        int[] prefix = new int[n + 1];
+
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] + nums[i];
         }
 
-        return sum;
+        int total = 0;
+
+        for (int i = 0; i < n; i++) {
+            int start = Math.max(0, i - nums[i]);
+            total += prefix[i + 1] - prefix[start];
+        }
+
+        return total;
     }
 }

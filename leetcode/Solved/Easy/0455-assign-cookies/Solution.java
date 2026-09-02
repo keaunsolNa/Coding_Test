@@ -1,29 +1,18 @@
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
-        
+
         Arrays.sort(g);
         Arrays.sort(s);
-        int startIdx = 0;
-        int ans = 0;
 
-        for (int i = 0; i < g.length; i++) {
+        int child = 0;
 
-            int grid = g[i];
+        for (int cookie = 0; cookie < s.length && child < g.length; cookie++) {
 
-            for (int j = startIdx; j < s.length; j++) {
-
-                int size = s[j];
-
-                if (grid <= size) {
-
-                    startIdx = j + 1;
-                    ans++;
-                    break;
-                }
-                
+            if (g[child] <= s[cookie]) {
+                child++;
             }
         }
 
-        return ans;
+        return child;
     }
 }
