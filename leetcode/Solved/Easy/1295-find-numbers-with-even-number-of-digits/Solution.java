@@ -3,13 +3,20 @@ class Solution {
 
         int ans = 0;
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int num : nums) {
 
-            String num = String.valueOf(nums[i]);
-            int len = num.length();
+            int digits = 0;
+            int rest = num;
 
-            if (len % 2 == 0) ans++;
-        }        
+            do {
+                digits++;
+                rest /= 10;
+            } while (rest != 0);
+
+            if (digits % 2 == 0) {
+                ans++;
+            }
+        }
 
         return ans;
     }
