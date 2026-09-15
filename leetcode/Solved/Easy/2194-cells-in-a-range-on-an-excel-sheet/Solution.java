@@ -1,25 +1,27 @@
 class Solution {
     public List<String> cellsInRange(String s) {
-        
-        String one = s.split(":")[0];
-        String two = s.split(":")[1];
 
-        char oneC = one.charAt(0);
-        char twoC = two.charAt(0);
+        String[] corners = s.split(":");
+        String first = corners[0];
+        String last = corners[1];
 
-        int oneNum = (int) (one.charAt(1) - '0');
-        int twoNum = (int) (two.charAt(1) - '0');
+        char firstColumn = first.charAt(0);
+        char lastColumn = last.charAt(0);
 
-        List<String> list = new ArrayList<>();
+        // 제약상 행 번호는 '1'~'9' 한 자리다.
+        int firstRow = first.charAt(1) - '0';
+        int lastRow = last.charAt(1) - '0';
 
-        for (char c = oneC; c <= twoC; c++) {
+        List<String> cells = new ArrayList<>();
 
-            for (int i = oneNum; i <= twoNum; i++) {
+        for (char column = firstColumn; column <= lastColumn; column++) {
 
-                list.add(c + "" + i);
+            for (int row = firstRow; row <= lastRow; row++) {
+
+                cells.add(String.valueOf(column) + row);
             }
         }
 
-        return list;
+        return cells;
     }
 }
