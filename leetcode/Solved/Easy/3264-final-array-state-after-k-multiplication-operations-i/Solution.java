@@ -1,23 +1,23 @@
 class Solution {
     public int[] getFinalState(int[] nums, int k, int multiplier) {
 
-        for (int i = 0; i < k; i++) {
+        int[] state = nums.clone();
 
-            int min = nums[0];
-            int idx = 0;
+        for (int operation = 0; operation < k; operation++) {
 
-            for (int j = 1; j < nums.length; j++) {
-                
-                if (min > nums[j]) {
+            int minIndex = 0;
 
-                    min = nums[j];
-                    idx = j;
+            for (int i = 1; i < state.length; i++) {
+
+                // 등호를 쓰지 않아 최솟값이 여러 개면 가장 앞을 고른다.
+                if (state[i] < state[minIndex]) {
+                    minIndex = i;
                 }
             }
 
-            nums[idx] = min * multiplier;
-        }   
+            state[minIndex] *= multiplier;
+        }
 
-        return nums;
+        return state;
     }
 }
