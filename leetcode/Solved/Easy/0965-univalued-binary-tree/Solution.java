@@ -15,21 +15,19 @@
  */
 class Solution {
 
-    private int universalValue;
-    
     public boolean isUnivalTree(TreeNode root) {
-        
-        universalValue = root.val;
-      
-        return isUnivalTreeDFS(root);
+
+        return isUnivalTreeDFS(root, root.val);
     }
 
-    private boolean isUnivalTreeDFS(TreeNode node) {
+    private boolean isUnivalTreeDFS(TreeNode node, int universalValue) {
 
-        if (node == null) return true;        
-      
-        return node.val == universalValue 
-            && isUnivalTreeDFS(node.left) 
-            && isUnivalTreeDFS(node.right);
+        if (node == null) {
+            return true;
+        }
+
+        return node.val == universalValue
+            && isUnivalTreeDFS(node.left, universalValue)
+            && isUnivalTreeDFS(node.right, universalValue);
     }
 }
